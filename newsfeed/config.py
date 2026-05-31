@@ -19,6 +19,7 @@ TEMPLATES_DIR = ROOT / "templates"
 
 SETTINGS_PATH = CONFIG_DIR / "settings.yaml"
 SOURCES_PATH = CONFIG_DIR / "sources.yaml"
+CURATED_PATH = CONFIG_DIR / "curated.yaml"
 BLOCKLIST_PATH = CONFIG_DIR / "blocklist.txt"
 
 ITEMS_PATH = DATA_DIR / "items.json"
@@ -28,6 +29,17 @@ FEED_CACHE_PATH = DATA_DIR / "feed-cache.json"
 ITEM_SCHEMA_PATH = SCHEMA_DIR / "item.schema.json"
 
 VALID_TOPICS = ("splunk", "cisco-data-fabric", "network-observability")
+
+# Article type (orthogonal to topics). Used for filters and retention rules.
+VALID_CATEGORIES = (
+    "product-release",
+    "security",
+    "outage",
+    "tutorial",
+    "research",
+    "standards",
+    "news",
+)
 
 
 def _load_yaml(path: Path) -> Any:

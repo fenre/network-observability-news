@@ -115,6 +115,7 @@ def normalize(raw: dict, settings: dict) -> dict | None:
         "fetchedAt": fetched,
         "topics": [],
         "tags": [],
+        "categories": [],
         "summary": "",
         "summarySource": "none",
         "clusterId": util.short_id(canon),

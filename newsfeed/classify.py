@@ -11,28 +11,32 @@ from __future__ import annotations
 
 import re
 
+from .categories import assign_categories
 from .config import VALID_TOPICS
+from .relevance import _TRUSTED_SOURCE_IDS
 
 # Topic -> list of keyword/phrase signals (lower-case, matched as word-ish
 # substrings). Order doesn't matter; any hit assigns the topic.
 _TOPIC_SIGNALS: dict[str, list[str]] = {
     "splunk": [
         "splunk", "spl ", "search processing language", "splunk cloud",
-        "splunk enterprise", "splunk observability", "signalfx", "edge processor",
-        "splunk itsi", "splunk soar", "splunk es", "splunk rum", "victoria experience",
+        "splunk enterprise", "splunk observability", "splunk platform",
+        "signalfx", "edge processor", "splunk itsi", "splunk soar", "splunk es",
+        "splunk rum", "victoria experience", "federated search",
     ],
     "cisco-data-fabric": [
-        "cisco data fabric", "data fabric", "nexus dashboard", "nexus hyperfabric",
+        "cisco data fabric", "nexus dashboard", "nexus hyperfabric",
         "cisco nexus", "cisco aci", "application centric infrastructure",
         "nexus dashboard data broker", "cisco networking cloud", "hyperfabric",
-        "data center networking", "cisco data center",
+        "data center networking", "vxlan", "evpn", "sonic on cisco",
     ],
     "network-observability": [
-        "network observability", "observability", "thousandeyes", "kentik",
-        "catchpoint", "ntopng", "ntop", "netflow", "ipfix", "sflow",
-        "network performance monitoring", "npm ", "digital experience monitoring",
-        "deep network visibility", "flow data", "telemetry", "opentelemetry",
-        "grafana", "network monitoring", "packet capture", "snmp",
+        "network observability", "network monitoring", "network telemetry",
+        "thousandeyes", "kentik", "catchpoint", "ntopng", "ntop",
+        "netflow", "ipfix", "sflow", "network performance monitoring",
+        "digital experience monitoring", "deep network visibility",
+        "flow data", "flow analytics", "packet capture", "network path",
+        "opentelemetry", "network visibility",
     ],
 }
 
@@ -67,7 +71,7 @@ def _haystack(item: dict) -> str:
 
 
 def classify(item: dict, settings: dict) -> dict:
-    """Assign ``topics`` and ``tags`` in place; returns the same item."""
+    """Assign ``topics``, ``tags``, and ``categories`` in place."""
     hay = _haystack(item)
 
     topics: list[str] = []
@@ -75,18 +79,16 @@ def classify(item: dict, settings: dict) -> dict:
         if any(sig in hay for sig in signals):
             topics.append(topic)
 
-    # Merge per-source hints (always valid topics from sources.yaml).
-    for hint in item.get("_source_topics", []) or []:
-        if hint in VALID_TOPICS and hint not in topics:
-            topics.append(hint)
+    # Per-source topic hints only when keywords matched OR the feed is a
+    # trusted engineering blog. Google News items must earn topics from text,
+    # not from the broad query that fetched them.
+    src_id = (item.get("source") or {}).get("id", "")
+    if topics or src_id in _TRUSTED_SOURCE_IDS:
+        for hint in item.get("_source_topics", []) or []:
+            if hint in VALID_TOPICS and hint not in topics:
+                topics.append(hint)
 
-    if not topics:
-        default = (settings.get("classification", {}) or {}).get(
-            "default_topic", "network-observability"
-        )
-        topics = [default]
-
-    # Stable order matching schema enum order.
+    # No default topic — non-matching items are dropped by relevance.py.
     item["topics"] = [t for t in VALID_TOPICS if t in topics]
 
     tags: list[str] = []
@@ -96,4 +98,6 @@ def classify(item: dict, settings: dict) -> dict:
     # Preserve any LLM/feed tags already present, de-duplicated + sorted.
     existing = [t for t in item.get("tags", []) if t]
     item["tags"] = sorted(set(tags) | set(existing))
+
+    assign_categories(item, settings)
     return item

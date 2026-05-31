@@ -1,8 +1,10 @@
 # Network Observability News
 
 An AI-optimized, **static** news aggregator for **Splunk**, **Cisco Data
-Fabric**, and **Network Observability**, hosted on GitHub Pages and refreshed on
-a schedule by a single GitHub Action.
+Fabric**, and **Network Observability** — focused on **releases, new features,
+and how-tos** you can share with partners and customers (not cyber-attack or
+political headlines). Hosted on GitHub Pages and refreshed on a schedule by a
+single GitHub Action.
 
 - **Hybrid sourcing** — RSS/Atom + Google News query feeds as the spine, plus
   optional, `robots.txt`-respecting full-text fetch for sources explicitly
@@ -65,8 +67,8 @@ open dist/index.html              # macOS (use xdg-open on Linux)
 
 | File | Purpose |
 |---|---|
-| `config/sources.yaml` | Feeds, per-source topic hints, `fulltext: allow\|deny`, license. **Default deny.** |
-| `config/settings.yaml` | Site URL/title, fetch UA + polite delay, LLM model/caps, retention window, build sizes. |
+| `config/sources.yaml` | Feeds, per-source topic hints, `fulltext: allow\|deny`, license. **Default deny.** Competitive observability vendors (Grafana, Kentik, Catchpoint, etc.) stay `enabled: false` until you opt in. |
+| `config/settings.yaml` | Site URL/title, fetch UA + polite delay, LLM model/caps, **retention**, **editorial** (`focus: product_updates`, default UI categories), build sizes. |
 | `config/blocklist.txt` | Takedown list — substrings matched against canonical URL / source id. Enforced at run **and** build. |
 | `schemas/item.schema.json` | The item field contract (validated each run). |
 
@@ -100,6 +102,15 @@ One workflow does everything: [`.github/workflows/update-and-deploy.yml`](.githu
 
 Then trigger **Actions → Update and deploy → Run workflow**, or wait for the
 schedule.
+
+### Editorial focus (partner briefings)
+
+`config/settings.yaml` → `editorial.focus: product_updates` (default):
+
+- **Keeps:** Splunk/Cisco releases, “what’s new”, feature announcements, practical how-tos.
+- **Drops:** Cyber-attack / breach / ransomware campaign headlines and political stories (unless they also announce a product).
+- **Sources off:** Cisco Talos and Cisco Security blogs (`enabled: false` in `sources.yaml`).
+- **UI:** Opens on **Partner briefing** (Product release + How-to). Use **All categories** to see everything still ingested (e.g. standards, outages).
 
 ## Legal / sourcing posture
 

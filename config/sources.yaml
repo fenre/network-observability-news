@@ -7,30 +7,73 @@
 #   name      human-readable source name
 #   homepage  source homepage (shown in UI / attribution)
 #   feed      RSS/Atom (or Google News RSS) URL fed to feedparser
-#   type      rss | atom | googlenews   (googlenews => publisher taken per-entry
-#             from the Google News <source> element, so attribution points at
-#             the real outlet)
+#   type      rss | atom | googlenews
 #   topics    fallback topic tags applied when keyword routing finds nothing
-#   fulltext  allow | deny   (DEFAULT deny — only flip where the source ToS
-#             and robots.txt permit transient full-text fetch for summarising;
-#             we still never store or republish the fetched body)
+#   fulltext  allow | deny
 #   license   SPDX id or null if unknown
 #   enabled   true | false
 #
-# SAFE-BY-DEFAULT: every source below is fulltext: deny. The full-text path is
-# fully implemented and robots.txt-gated; flip a source to `allow` only after
-# you have confirmed its terms permit it.
+# Competitive observability vendor blogs/feeds are disabled for now (Grafana,
+# Kentik, Catchpoint, Datadog, etc.). Re-enable deliberately if scope changes.
 #
-# All feed URLs below were probed and parse cleanly with feedparser. Direct
-# vendor feeds that block bots (ThousandEyes 403) or lack a stable public RSS
-# (Splunk blog, Kentik) are covered via Google News query feeds instead.
+# All enabled feed URLs were probed with feedparser before commit.
 
 sources:
   # ---- Splunk -------------------------------------------------------------
   - id: gnews-splunk
-    name: "Google News — Splunk"
+    name: "Google News — Splunk (technical)"
     homepage: "https://news.google.com/search?q=Splunk%20observability"
-    feed: "https://news.google.com/rss/search?q=Splunk+(observability+OR+%22data+fabric%22+OR+network+OR+Cisco)&hl=en-US&gl=US&ceid=US:en"
+    feed: "https://news.google.com/rss/search?q=Splunk+(%22edge+processor%22+OR+ITSI+OR+Signalfx+OR+sourcetype+OR+HEC+OR+%22data+fabric%22+OR+observability+platform)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-splunk-blog
+    name: "Google News — Splunk blog & platform releases"
+    homepage: "https://www.splunk.com/en_us/blog"
+    feed: "https://news.google.com/rss/search?q=site:splunk.com+(Announcing+OR+%22Splunk+Enterprise%22+OR+%22Splunk+Cloud+Platform%22+OR+blog+OR+release+OR+%22release+notes%22)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-splunk-platform
+    name: "Google News — Splunk platform versions"
+    homepage: "https://www.splunk.com/en_us/blog/platform"
+    feed: "https://news.google.com/rss/search?q=(%22Splunk+Enterprise%22+OR+%22Splunk+Cloud+Platform%22)+(%2210.4%22+OR+release+OR+Announcing)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [splunk, cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-splunk-features
+    name: "Google News — Splunk features & what's new"
+    homepage: "https://www.splunk.com/en_us/blog"
+    feed: "https://news.google.com/rss/search?q=site:splunk.com+(%22what%27s+new%22+OR+%22new+feature%22+OR+enhancement+OR+capability+OR+SPL2)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-splunk-dev
+    name: "Google News — Splunk developer"
+    homepage: "https://dev.splunk.com"
+    feed: "https://news.google.com/rss/search?q=site:dev.splunk.com+OR+%22Splunk+SDK%22+OR+%22custom+command%22&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-splunk-es-soar
+    name: "Google News — Splunk ES / SOAR"
+    homepage: "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    feed: "https://news.google.com/rss/search?q=(%22Splunk+Enterprise+Security%22+OR+%22Splunk+SOAR%22+OR+ESCU)&hl=en-US&gl=US&ceid=US:en"
     type: googlenews
     topics: [splunk]
     fulltext: deny
@@ -68,6 +111,47 @@ sources:
     license: null
     enabled: true
 
+  # Threat-intel / incident blogs — disabled for partner product-update focus.
+  - id: cisco-security-blog
+    name: "Cisco Security Blog"
+    homepage: "https://blogs.cisco.com/security"
+    feed: "https://blogs.cisco.com/security/feed"
+    type: rss
+    topics: [splunk, cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: false
+
+  - id: cisco-talos-blog
+    name: "Cisco Talos Intelligence"
+    homepage: "https://blog.talosintelligence.com"
+    feed: "https://blog.talosintelligence.com/rss/"
+    type: rss
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: false
+
+  - id: cisco-meraki-blog
+    name: "Cisco Meraki Blog"
+    homepage: "https://meraki.cisco.com/blog"
+    feed: "https://meraki.cisco.com/blog/feed/"
+    type: rss
+    topics: [cisco-data-fabric, network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: cisco-developer-blog
+    name: "Cisco Developer Blog"
+    homepage: "https://blogs.cisco.com/developer"
+    feed: "https://blogs.cisco.com/developer/feed"
+    type: rss
+    topics: [cisco-data-fabric, network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
   - id: gnews-cisco-data-fabric
     name: "Google News — Cisco Data Fabric"
     homepage: "https://news.google.com/search?q=%22Cisco%20Data%20Fabric%22"
@@ -78,34 +162,52 @@ sources:
     license: null
     enabled: true
 
-  # ---- Network Observability — vendor blogs -------------------------------
-  - id: grafana-blog
-    name: "Grafana Labs Blog"
-    homepage: "https://grafana.com/blog"
-    feed: "https://grafana.com/blog/index.xml"
-    type: rss
-    topics: [network-observability]
-    fulltext: deny
-    license: null
-    enabled: true
-
-  - id: ntop-blog
-    name: "ntop Blog"
-    homepage: "https://www.ntop.org/blog"
-    feed: "https://www.ntop.org/feed/"
-    type: rss
-    topics: [network-observability]
-    fulltext: deny
-    license: null
-    enabled: true
-
-  # ---- Network Observability — broad coverage via Google News -------------
-  - id: gnews-network-observability
-    name: "Google News — network observability"
-    homepage: "https://news.google.com/search?q=%22network%20observability%22"
-    feed: "https://news.google.com/rss/search?q=%22network+observability%22&hl=en-US&gl=US&ceid=US:en"
+  - id: gnews-cisco-agenticops
+    name: "Google News — Cisco AgenticOps / fabric"
+    homepage: "https://news.google.com/search?q=Cisco%20AgenticOps"
+    feed: "https://news.google.com/rss/search?q=(%22AgenticOps%22+OR+%22machine+data+fabric%22+OR+Galileo)+Cisco+Splunk&hl=en-US&gl=US&ceid=US:en"
     type: googlenews
-    topics: [network-observability]
+    topics: [splunk, cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-cisco-nexus-aci
+    name: "Google News — Nexus / ACI"
+    homepage: "https://news.google.com/search?q=Cisco%20Nexus%20Dashboard"
+    feed: "https://news.google.com/rss/search?q=(%22Nexus+Dashboard%22+OR+%22Cisco+ACI%22+OR+Hyperfabric)+telemetry&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-cisco-sdwan
+    name: "Google News — Cisco SD-WAN"
+    homepage: "https://news.google.com/search?q=Cisco%20SD-WAN"
+    feed: "https://news.google.com/rss/search?q=%22Cisco+SD-WAN%22+(vAnalytics+OR+telemetry+OR+NetFlow)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [cisco-data-fabric, network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-cisco-cyber-vision
+    name: "Google News — Cisco Cyber Vision"
+    homepage: "https://news.google.com/search?q=Cisco%20Cyber%20Vision"
+    feed: "https://news.google.com/rss/search?q=%22Cisco+Cyber+Vision%22+(OT+OR+ICS+OR+visibility)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-cisco-catalyst-center
+    name: "Google News — Catalyst Center"
+    homepage: "https://news.google.com/search?q=Catalyst%20Center%20assurance"
+    feed: "https://news.google.com/rss/search?q=%22Catalyst+Center%22+(assurance+OR+telemetry+OR+NetFlow)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [cisco-data-fabric, network-observability]
     fulltext: deny
     license: null
     enabled: true
@@ -120,12 +222,145 @@ sources:
     license: null
     enabled: true
 
-  - id: gnews-kentik-catchpoint
-    name: "Google News — Kentik / Catchpoint"
-    homepage: "https://news.google.com/search?q=Kentik%20OR%20Catchpoint%20network"
-    feed: "https://news.google.com/rss/search?q=Kentik+OR+Catchpoint+network&hl=en-US&gl=US&ceid=US:en"
+  # ---- Network observability (non-competitive vendors) --------------------
+  - id: ntop-blog
+    name: "ntop Blog"
+    homepage: "https://www.ntop.org/blog"
+    feed: "https://www.ntop.org/feed/"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-network-observability
+    name: "Google News — network observability (technical)"
+    homepage: "https://news.google.com/search?q=%22network%20observability%22"
+    feed: "https://news.google.com/rss/search?q=%22network+observability%22+(NetFlow+OR+IPFIX+OR+telemetry+OR+SNMP+OR+OpenTelemetry+OR+%22network+monitoring%22)&hl=en-US&gl=US&ceid=US:en"
     type: googlenews
     topics: [network-observability]
     fulltext: deny
     license: null
     enabled: true
+
+  # ---- Standards, internet measurement, practitioner community --------------
+  - id: opentelemetry-blog
+    name: "OpenTelemetry Blog"
+    homepage: "https://opentelemetry.io/blog"
+    feed: "https://opentelemetry.io/blog/index.xml"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: prometheus-blog
+    name: "Prometheus Blog"
+    homepage: "https://prometheus.io/blog"
+    feed: "https://prometheus.io/blog/feed.xml"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: zeek-blog
+    name: "Zeek Blog"
+    homepage: "https://zeek.org"
+    feed: "https://zeek.org/feed/"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: cloudflare-blog
+    name: "Cloudflare Blog"
+    homepage: "https://blog.cloudflare.com"
+    feed: "https://blog.cloudflare.com/rss/"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: ripe-labs
+    name: "RIPE Labs"
+    homepage: "https://labs.ripe.net"
+    feed: "https://labs.ripe.net/rss/"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: apnic-blog
+    name: "APNIC Blog"
+    homepage: "https://blog.apnic.net"
+    feed: "https://blog.apnic.net/feed/"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: packetpushers-blog
+    name: "Packet Pushers Blog"
+    homepage: "https://packetpushers.net/blog"
+    feed: "https://packetpushers.net/blog/feed/"
+    type: rss
+    topics: [network-observability, cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: ietf-blog
+    name: "IETF Blog"
+    homepage: "https://www.ietf.org/blog"
+    feed: "https://www.ietf.org/blog/feed/"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-opentelemetry-network
+    name: "Google News — OpenTelemetry (network)"
+    homepage: "https://news.google.com/search?q=OpenTelemetry%20network"
+    feed: "https://news.google.com/rss/search?q=OpenTelemetry+(network+OR+NetFlow+OR+BGP+OR+SNMP)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-ebpf-cilium
+    name: "Google News — eBPF / Cilium / Hubble"
+    homepage: "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    feed: "https://news.google.com/rss/search?q=(Cilium+OR+Hubble+OR+eBPF)+(%22network+observability%22+OR+Kubernetes+networking)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  # ---- Disabled (competitive or redundant) --------------------------------
+  - id: grafana-blog
+    name: "Grafana Labs Blog"
+    homepage: "https://grafana.com/blog"
+    feed: "https://grafana.com/blog/index.xml"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: false
+
+  - id: gnews-kentik-catchpoint
+    name: "Google News — Kentik / Catchpoint (technical)"
+    homepage: "https://news.google.com/search?q=Kentik%20OR%20Catchpoint%20network"
+    feed: "https://news.google.com/rss/search?q=(Kentik+OR+Catchpoint)+(NetFlow+OR+BGP+OR+SD-WAN+OR+telemetry+OR+%22network+observability%22)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: false

@@ -21,9 +21,11 @@ from . import (
     build as build_mod,
     classify as classify_mod,
     config,
+    curated as curated_mod,
     dedupe as dedupe_mod,
     enrich as enrich_mod,
     fetch as fetch_mod,
+    relevance as relevance_mod,
     normalize as normalize_mod,
     store,
 )
@@ -43,6 +45,8 @@ def cmd_run(args) -> int:
 
     settings = config.load_settings()
     sources = config.load_sources()
+    enabled_source_ids = {s["id"] for s in sources}
+    enabled_source_ids.add("curated-splunk-platform")
     blocklist = config.load_blocklist()
     log(f"newsfeed {__version__} — run ({'DRY-RUN' if dry else 'live'}, "
         f"LLM {'on' if use_llm else 'off'}) — {len(sources)} sources")
@@ -56,16 +60,21 @@ def cmd_run(args) -> int:
     raw_entries, feed_cache = fetch_mod.fetch_sources(
         sources, settings, allow_fulltext=True, feed_cache=feed_cache, log=log,
     )
+    curated_raw = curated_mod.load_curated_entries(settings, log=log)
+    raw_entries = curated_raw + raw_entries
     if args.limit:
         raw_entries = raw_entries[: args.limit]
-    log(f"  fetched {len(raw_entries)} raw entries")
+    log(f"  fetched {len(raw_entries)} raw entries (incl. curated)")
 
     # 2) normalize
     incoming = []
+    curated_norm: list[tuple[dict, dict]] = []
     for raw in raw_entries:
         item = normalize_mod.normalize(raw, settings)
         if item is not None:
             incoming.append(item)
+            if (raw.get("_source") or {}).get("type") == "curated":
+                curated_norm.append((item, raw))
 
     existing_ids = {it["id"] for it in existing}
     new_ids = {it["id"] for it in incoming} - existing_ids
@@ -78,19 +87,33 @@ def cmd_run(args) -> int:
     if blocked:
         log(f"  blocklist removed {blocked} item(s)")
 
-    # 4) dedupe -> 5) classify
+    before_disabled = len(merged)
+    merged = [
+        it for it in merged
+        if (it.get("source") or {}).get("id") in enabled_source_ids
+    ]
+    dropped_disabled = before_disabled - len(merged)
+    if dropped_disabled:
+        log(f"  disabled sources removed {dropped_disabled} item(s)")
+
+    # 4) dedupe -> 5) classify -> curated metadata -> upgrade gnews URLs
     dedupe_mod.cluster(merged)
     for it in merged:
         classify_mod.classify(it, settings)
+    curated_by_id = {item["id"]: raw for item, raw in curated_norm}
+    for it in merged:
+        raw = curated_by_id.get(it["id"])
+        if raw:
+            curated_mod.normalize_curated_extras(it, raw)
+    curated_mod.apply_curated_overrides(merged, curated_raw, log=log)
+    dedupe_mod.cluster(merged)
+    merged = relevance_mod.filter_technical(merged, settings, log=log)
 
     # 6) enrich (new + any still-extractive get a chance to upgrade)
     enrich_mod.enrich_items(merged, settings, cache=enrich_cache, use_llm=use_llm, log=log)
 
-    # 7) prune
-    pruned = store.prune(merged, settings)
-    dropped = len(merged) - len(pruned)
-    if dropped:
-        log(f"  pruned {dropped} item(s) outside retention window")
+    # 7) prune (age window, per-day cap, global max)
+    pruned = store.prune(merged, settings, log=log)
 
     # validate (advisory)
     store.validate_items(pruned, log=log)

@@ -8,7 +8,9 @@ data — this file is about *developing* the project.)
 ## What this project is
 
 A static, GitHub-Pages-hosted **news aggregator** for Splunk, Cisco Data
-Fabric, and network observability. It fetches feeds, summarises with an LLM
+Fabric, and network observability — tuned for **product releases and feature
+updates** (partner/customer briefings), not cyber-incident or political news.
+It fetches feeds, summarises with an LLM
 (provider-agnostic, cost-guarded, with a deterministic extractive fallback),
 and publishes AI-first surfaces. **Git is the database**: `data/*.json` is the
 committed source of truth.
@@ -29,6 +31,7 @@ committed source of truth.
    `enrich.max_new_items_per_run`. The build never calls the LLM.
 5. **Keep the item schema authoritative.** If you add a field, update
    `schemas/item.schema.json`, `normalize.py`, and the build surfaces together.
+   Items carry `topics` (subject), `categories` (story type), and `tags` (product/feature hints).
 
 ## Pipeline shape (`newsfeed/`)
 
@@ -44,7 +47,11 @@ __main__.py   `run` / `build` CLI
 ```
 
 Run order in `run`: fetch → normalize → merge → blocklist → dedupe → classify →
-enrich → prune → validate → save.
+**relevance** (technical-audience gate) → enrich → prune (age + **per-day cap**)
+→ validate → save. Volume knobs: `fetch.max_items_per_feed`,
+`retention.max_items_per_day` (importance-ranked; product releases exempt via
+`must_keep.py`), `retention.priority_reserved_slots`, `retention.days`,
+`retention.max_items`.
 
 ## Local checks
 

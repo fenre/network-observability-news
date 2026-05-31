@@ -157,6 +157,9 @@ def enrich_items(
     # Process oldest-first so the per-run cap favours catching up on backlog
     # deterministically.
     for item in sorted(items, key=lambda it: (it.get("publishedAt") or "", it["id"])):
+        if item.get("summarySource") == "curated" and item.get("summary"):
+            continue
+
         chash = _content_hash(item)
         cached = cache.get(chash)
         if cached and cached.get("summary"):

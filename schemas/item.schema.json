@@ -15,6 +15,7 @@
     "fetchedAt",
     "topics",
     "tags",
+    "categories",
     "summary",
     "summarySource",
     "clusterId",
@@ -56,13 +57,31 @@
       "items": { "type": "string" },
       "uniqueItems": true
     },
+    "categories": {
+      "type": "array",
+      "description": "Story type for filtering (orthogonal to topics).",
+      "items": {
+        "type": "string",
+        "enum": [
+          "product-release",
+          "security",
+          "outage",
+          "tutorial",
+          "research",
+          "standards",
+          "news"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
     "summary": {
       "type": "string",
       "description": "Neutral, original 2-3 sentence summary. Our own text — not the source body."
     },
     "summarySource": {
       "type": "string",
-      "enum": ["llm", "extractive", "publisher", "none"]
+      "enum": ["llm", "extractive", "curated", "publisher", "none"]
     },
     "clusterId": {
       "type": "string",

@@ -15,7 +15,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from . import config, util
+from . import config, ranking, util
 
 
 def _read_json(path: Path, default):
@@ -60,6 +60,15 @@ def _sort_key(item: dict):
     return (item.get("publishedAt") or "", item.get("id") or "")
 
 
+def _calendar_day(item: dict) -> str:
+    """UTC calendar day for per-day caps (YYYY-MM-DD)."""
+    for field in ("publishedAt", "fetchedAt"):
+        raw = item.get(field) or ""
+        if len(raw) >= 10:
+            return raw[:10]
+    return "_unknown"
+
+
 def merge_items(existing: list[dict], incoming: list[dict]) -> list[dict]:
     """Union by id. Existing items win on stable fields (id, first fetchedAt,
     persisted summary) but are refreshed with the latest transient snippet/
@@ -85,11 +94,26 @@ def merge_items(existing: list[dict], incoming: list[dict]) -> list[dict]:
     return list(by_id.values())
 
 
-def prune(items: list[dict], settings: dict) -> list[dict]:
-    """Drop items older than retention.days, then cap to retention.max_items."""
+def _cap_per_calendar_day(items: list[dict], per_day: int, settings: dict) -> list[dict]:
+    """Keep at most *per_day* items per UTC day (importance-ranked, not random)."""
+    if per_day <= 0:
+        return items
+    buckets: dict[str, list[dict]] = {}
+    for it in items:
+        buckets.setdefault(_calendar_day(it), []).append(it)
+    kept: list[dict] = []
+    for group in buckets.values():
+        kept.extend(ranking.select_for_day(group, per_day, settings))
+    kept.sort(key=_sort_key, reverse=True)
+    return kept
+
+
+def prune(items: list[dict], settings: dict, *, log=None) -> list[dict]:
+    """Apply retention window, per-day cap, then global max_items."""
     retention = settings.get("retention", {}) or {}
     days = int(retention.get("days", 365))
     max_items = int(retention.get("max_items", 4000))
+    per_day = int(retention.get("max_items_per_day", 0))
 
     cutoff = util.now_utc().timestamp() - days * 86400
     kept = []
@@ -97,8 +121,31 @@ def prune(items: list[dict], settings: dict) -> list[dict]:
         dt = util.parse_iso(it.get("publishedAt"))
         if dt is None or dt.timestamp() >= cutoff:
             kept.append(it)
+    age_dropped = len(items) - len(kept)
+
+    before_daily = len(kept)
+    kept = _cap_per_calendar_day(kept, per_day, settings)
+    daily_dropped = before_daily - len(kept)
+
     kept.sort(key=_sort_key, reverse=True)
-    return kept[:max_items]
+    before_max = len(kept)
+    kept = kept[:max_items]
+    max_dropped = before_max - len(kept)
+
+    cap_method = (retention.get("daily_cap_method") or "importance").strip().lower()
+
+    if log:
+        if age_dropped:
+            log(f"  retention: dropped {age_dropped} older than {days} day(s)")
+        if daily_dropped and per_day > 0:
+            log(
+                f"  retention: capped {daily_dropped} over {per_day}/day "
+                f"({cap_method} ranking; releases outside cap)"
+            )
+        if max_dropped:
+            log(f"  retention: dropped {max_dropped} over global max ({max_items})")
+
+    return kept
 
 
 # --- caches ----------------------------------------------------------------

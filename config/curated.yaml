@@ -1,0 +1,58 @@
+# Canonical Splunk platform / docs pages — ingested every run with direct
+# splunk.com (or docs.splunk.com) URLs. Google News often only provides
+# news.google.com redirect links; these entries are the partner-briefing spine.
+
+curated:
+  - id: splunk-10-4-announcement
+    url: https://www.splunk.com/en_us/blog/platform/splunk-cloud-platform-10-4-and-splunk-enterprise-10-4.html
+    title: "Announcing Splunk Cloud Platform 10.4 and Splunk Enterprise 10.4: Federated Search Is Here"
+    publishedAt: "2026-05-18T12:00:00+00:00"
+    topics: [splunk]
+    categories: [product-release]
+    tags: [splunk-enterprise, splunk-cloud, "10.4", federated-search, dashboard-studio]
+    summary: >-
+      Splunk Platform 10.4 ships Federated Search across hybrid and multi-cloud
+      data without moving it. Dashboard Studio gains a custom visualization
+      framework, Token Manager, cascading inputs, and unlimited input results.
+      Also in 10.4: Data Management home page, modern side navigation, Splunk AI
+      Assistant 2.0 (cloud), Edge/Ingest Processor FedRAMP Moderate, SPL2 pipeline
+      templates (Enterprise), and FIPS 140-3 for Edge Processor.
+
+  - id: splunk-enterprise-10-4-welcome
+    url: https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview
+    title: "What's new in Splunk Enterprise 10.4"
+    publishedAt: "2026-05-18T12:00:00+00:00"
+    topics: [splunk]
+    categories: [product-release, tutorial]
+    tags: [splunk-enterprise, "10.4", release-notes]
+    summary: >-
+      Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio
+      visualization enhancements, consolidated Data Management, modern navigation,
+      SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and
+      scalability/resilience improvements. Use this page when briefing customers
+      on upgrade scope.
+
+  - id: splunk-dashboard-studio-whatsnew
+    url: https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features
+    title: "What's new in Dashboard Studio (Splunk Platform 10.4)"
+    publishedAt: "2026-05-18T12:00:00+00:00"
+    topics: [splunk]
+    categories: [product-release, tutorial]
+    tags: [dashboard-studio, "10.4", visualizations]
+    summary: >-
+      Dashboard Studio updates in Splunk 10.4: custom visualization framework,
+      centralized Token Manager for debugging, unlimited input results, cascading
+      inputs, and admin resource controls — aimed at richer, more reliable
+      dashboards without hitting prior limits.
+
+  - id: splunk-ds-limit-blog
+    url: https://www.splunk.com/en_us/blog/platform/dashboard-studio-the-limit-does-not-exist.html
+    title: "Dashboard Studio: The Limit Does Not Exist"
+    publishedAt: "2026-05-21T12:00:00+00:00"
+    topics: [splunk]
+    categories: [product-release, tutorial]
+    tags: [dashboard-studio, visualizations]
+    summary: >-
+      Splunk blog deep-dive on Dashboard Studio 10.4 capabilities — custom viz
+      framework, removing caps on visualizations and input results, and patterns
+      for building more complex operational dashboards.

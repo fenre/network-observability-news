@@ -4,9 +4,10 @@
 site:
   title: "Network Observability News"
   description: >-
-    An auto-updated, AI-summarised news index covering Splunk, Cisco Data
-    Fabric, and Network Observability. Each entry links to the original source
-    and carries a neutral, original summary — never the source article text.
+    Product and platform updates for Splunk and Cisco partners: releases,
+    new features, release notes, and practical how-tos — not cyber-incident
+    headlines or politics. Each entry links to the original source with an
+    original summary — never the full article text.
   # GitHub Pages project-site base URL (no trailing slash). Used for absolute
   # URLs in feed.json, rss.xml, sitemap.xml, llms.txt, manifest.json.
   base_url: "https://fenre.github.io/network-observability-news"
@@ -22,7 +23,8 @@ fetch:
   request_timeout_seconds: 20
   # Polite delay (seconds) between full-text fetches to the same host.
   polite_delay_seconds: 2.0
-  max_items_per_feed: 60
+  # Cap each source per run (30+ feeds); pairs with retention.max_items_per_day.
+  max_items_per_feed: 20
 
 enrich:
   # Provider-agnostic: the client talks the OpenAI Chat Completions wire format
@@ -40,13 +42,57 @@ enrich:
 retention:
   # Rolling window for the full published surfaces. Items older than this many
   # days are pruned from data/items.json (history stays in git).
-  days: 365
-  # Hard cap regardless of age (keeps Pages small).
-  max_items: 4000
+  days: 90
+  # Max non-release items per UTC calendar day. Product releases are EXTRA
+  # (they do not consume these slots — a day with 2 releases + cap 12 keeps 14).
+  max_items_per_day: 12
+  # How to pick survivors when a day has too many items:
+  #   importance — technical score + trusted-source reserve (recommended)
+  #   published_at — newest timestamps only (legacy behaviour)
+  daily_cap_method: importance
+  # Slots per day reserved for trusted engineering RSS (Cisco, ntop, OTel, …).
+  priority_reserved_slots: 6
+  # Splunk/Cisco product-release feeds get reserved cap slots.
+  priority_source_ids:
+    - gnews-splunk-blog
+    - gnews-splunk-platform
+    - gnews-splunk-features
+    - gnews-splunk-dev
+    - gnews-cisco-agenticops
+  # Product releases (Splunk / Cisco) always pass relevance + daily cap.
+  must_keep:
+    enabled: true
+    # Extra regexes on title+summary (Python re syntax); defaults cover Splunk/Cisco GA.
+    patterns: []
+  # Hard cap regardless of age (keeps Pages small). ~90d × 12/day upper bound.
+  max_items: 1200
 
 classification:
   # Topic assigned when no keyword and no source hint matches.
   default_topic: "network-observability"
+
+# Partner briefing editorial line (see newsfeed/editorial.py).
+editorial:
+  # product_updates — releases, features, how-tos; drop incident/politics noise
+  focus: product_updates
+  drop_incidents: true
+  drop_politics: true
+  # Default category filter on the web UI (empty = show all).
+  default_categories:
+    - product-release
+    - tutorial
+  curated_enabled: true
+  highlights_enabled: true
+  highlights_limit: 10
+
+# Technical-audience gate (see newsfeed/relevance.py). Drops finance/PR/stub
+# items that only mention a brand in passing. Engineering blogs are trusted;
+# Google News requires stronger technical signals in title/summary.
+relevance:
+  enabled: true
+  min_score_googlenews: 2
+  min_score_gnews_trusted_publisher: 1
+  min_score_default: 1
 
 build:
   # How many recent items to inline in llms-full.txt.

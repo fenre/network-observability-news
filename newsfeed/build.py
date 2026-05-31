@@ -15,12 +15,22 @@ import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import __version__, config, store, util
+from . import __version__, config, highlights, store, util
 
 TOPIC_LABELS = {
     "splunk": "Splunk",
     "cisco-data-fabric": "Cisco Data Fabric",
     "network-observability": "Network Observability",
+}
+
+CATEGORY_LABELS = {
+    "product-release": "Product release",
+    "security": "Security",
+    "outage": "Outage / incident",
+    "tutorial": "How-to / guide",
+    "research": "Research / report",
+    "standards": "Standards / protocols",
+    "news": "Industry news",
 }
 
 # AI/LLM crawler allow-list (mirrors the convention in the sibling repo).
@@ -76,6 +86,13 @@ def _topic_badges(topics, *, cls="badge") -> str:
     )
 
 
+def _category_badges(categories, *, cls="badge cat") -> str:
+    return " ".join(
+        f'<span class="{cls} c-{c}">{_esc(CATEGORY_LABELS.get(c, c))}</span>'
+        for c in categories
+    )
+
+
 def _public(item: dict) -> dict:
     return store.strip_transient(item)
 
@@ -120,6 +137,10 @@ def build_site(out_dir: str | Path, *, settings: dict, items: list[dict], log=pr
 
     # Derived structures for filters / clusters.
     present_topics = [t for t in config.VALID_TOPICS if any(t in it.get("topics", []) for it in pub)]
+    present_categories = [
+        c for c in config.VALID_CATEGORIES
+        if any(c in it.get("categories", []) for it in pub)
+    ]
     source_counts: dict[str, dict] = {}
     for it in pub:
         s = it.get("source", {})
@@ -137,10 +158,19 @@ def build_site(out_dir: str | Path, *, settings: dict, items: list[dict], log=pr
         _write(out / "api" / "items" / f"{it['id']}.json", json.dumps(it, ensure_ascii=False, indent=2))
 
     # data.js powers index.html under file:// without a server (no fetch/CORS).
+    editorial = settings.get("editorial") or {}
+    default_cats = editorial.get("default_categories") or []
+    highlight_ids = highlights.pick_highlights(pub, settings)
+    by_id = {it["id"]: it for it in pub}
+    highlight_items = [by_id[i] for i in highlight_ids if i in by_id]
+
     data_js = {
         "generatedAt": generated_at,
         "title": site.get("title", ""),
         "topics": present_topics,
+        "categories": present_categories,
+        "defaultCategories": [c for c in default_cats if c in present_categories],
+        "highlights": highlight_items,
         "sources": sources_list,
         "items": pub,
     }
@@ -218,8 +248,16 @@ def _render_item_html(tpl, it, siblings, site, base_url, repo_url) -> str:
             f'<div class="also">Also filed under '
             f'{len(siblings)} other source{"s" if len(siblings) > 1 else ""}: {links}</div>'
         )
+    cats = it.get("categories", [])
     tags = it.get("tags", [])
-    tags_html = ("Tags: " + ", ".join(_esc(t) for t in tags)) if tags else ""
+    meta_parts = []
+    if cats:
+        meta_parts.append(_category_badges(cats))
+    if tags:
+        meta_parts.append(
+            '<span class="feat-tags">Features: ' + ", ".join(_esc(t) for t in tags) + "</span>"
+        )
+    tags_html = " ".join(meta_parts)
 
     json_ld = {
         "@context": "https://schema.org",
@@ -274,6 +312,9 @@ def _render_item_md(tpl, it, siblings, base_url, repo_url) -> str:
         "HOMEPAGE_MD": homepage_md,
         "PUBLISHED": it.get("publishedAt", "") or "unknown",
         "TOPICS_CSV": ", ".join(it.get("topics", [])) or "—",
+        "CATEGORIES_CSV": ", ".join(
+            CATEGORY_LABELS.get(c, c) for c in it.get("categories", [])
+        ) or "—",
         "TAGS_CSV": ", ".join(it.get("tags", [])) or "—",
         "ATTRIBUTION": it.get("attribution", ""),
         "BASE_URL": base_url,

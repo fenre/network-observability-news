@@ -209,6 +209,55 @@
   .pill.t-splunk { color: var(--t-splunk); background: #fdf2f8; }
   .pill.t-cisco-data-fabric { color: var(--t-cisco); background: #ecfeff; }
   .pill.t-network-observability { color: var(--t-netobs); background: #f0fdf4; }
+  .cat {
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    color: var(--text);
+  }
+  .cat.c-product-release { border-color: #be185d; color: #9d174d; background: #fdf2f8; }
+  .cat.c-security { border-color: #b45309; color: #92400e; background: #fffbeb; }
+  .cat.c-outage { border-color: #dc2626; color: #991b1b; background: #fef2f2; }
+  .cat.c-tutorial { border-color: #2563eb; color: #1e40af; background: #eff6ff; }
+  .category-btn {
+    font: inherit;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .category-btn[aria-pressed=true] {
+    border-color: transparent;
+    color: #fff;
+    background: var(--text);
+  }
+  .category-btn.c-product-release[aria-pressed=true] { background: #be185d; }
+  .category-btn.c-security[aria-pressed=true] { background: #b45309; }
+  .category-btn.c-outage[aria-pressed=true] { background: #dc2626; }
+  .category-btn.c-tutorial[aria-pressed=true] { background: #2563eb; }
+  .preset-btn {
+    font: inherit;
+    font-size: 0.82rem;
+    padding: 6px 12px;
+    margin-right: 6px;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+  }
+  .preset-btn[aria-pressed=true] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
   .item h2 {
     margin: 0 0 6px;
     font-size: 1.08rem;
@@ -244,6 +293,47 @@
     color: var(--muted);
   }
   mark { background: var(--mark); padding: 0 2px; border-radius: 2px; }
+  .highlights {
+    margin-bottom: 28px;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #fdf2f8 0%, #eff6ff 100%);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+  }
+  .highlights h2 {
+    margin: 0 0 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .highlights ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .highlight-item h3 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  .highlight-item h3 a { color: var(--text); text-decoration: none; }
+  .highlight-item h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .highlight-item p {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .highlight-meta {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+
   .empty {
     text-align: center;
     padding: 48px 20px;
@@ -282,7 +372,7 @@
     <div class="filter-grid">
       <div class="field field-wide">
         <label for="q">Search</label>
-        <input id="q" type="search" placeholder="Title, summary, tags, source…" autocomplete="off">
+        <input id="q" type="search" placeholder="e.g. 10.4, Dashboard Studio, Federated Search…" autocomplete="off">
       </div>
       <div class="field">
         <label for="age">Published</label>
@@ -313,15 +403,28 @@
     <div class="topics-row">
       <span class="lbl">Topics</span>
       <span id="topicChips"></span>
+    </div>
+    <div class="topics-row">
+      <span class="lbl">View</span>
+      <button type="button" class="preset-btn" id="presetBriefing" aria-pressed="false">Partner briefing</button>
+      <button type="button" class="preset-btn" id="presetAll" aria-pressed="false">All categories</button>
+    </div>
+    <div class="topics-row">
+      <span class="lbl">Category</span>
+      <span id="categoryChips"></span>
       <label class="opts"><input type="checkbox" id="cluster" checked> Group similar stories</label>
     </div>
   </div>
 </div>
 
 <main class="page">
+  <section class="highlights page" id="highlightsSection" hidden>
+    <h2>Platform updates — Splunk &amp; Cisco (briefing picks)</h2>
+    <ol id="highlightsList"></ol>
+  </section>
   <p id="count"></p>
   <ol id="list"></ol>
-  <p class="empty" id="empty" hidden>No stories match your filters. Try widening the time range or clearing topic filters.</p>
+  <p class="empty" id="empty" hidden>No stories match your filters. Try “All categories”, a wider time range, or clear topic filters.</p>
 </main>
 
 <footer class="page">
@@ -334,20 +437,34 @@
 <script src="data.js"></script>
 <script>
 (function(){
-  var DATA = window.NEWS_DATA || {items:[], topics:[], sources:[]};
+  var DATA = window.NEWS_DATA || {items:[], topics:[], categories:[], sources:[], highlights:[]};
   var items = DATA.items || [];
+  var highlightItems = DATA.highlights || [];
   var TOPIC_LABELS = {
     "splunk": "Splunk",
     "cisco-data-fabric": "Cisco Data Fabric",
     "network-observability": "Network Observability"
   };
+  var CATEGORY_LABELS = {
+    "product-release": "Product release",
+    "security": "Security",
+    "outage": "Outage",
+    "tutorial": "How-to",
+    "research": "Research",
+    "standards": "Standards",
+    "news": "News"
+  };
   var MS_DAY = 86400000;
-  var state = { q: "", topics: new Set(), source: "", sort: "new", cluster: true, maxAgeDays: 0 };
+  var DEFAULT_CATS = DATA.defaultCategories || [];
+  var BRIEFING_CATS = ["product-release", "tutorial"];
+  var state = { q: "", topics: new Set(), categories: new Set(), source: "", sort: "new", cluster: true, maxAgeDays: 0 };
+  var catButtons = {};
 
   var elList = document.getElementById("list"),
       elCount = document.getElementById("count"),
       elEmpty = document.getElementById("empty"),
       elChips = document.getElementById("topicChips"),
+      elCatChips = document.getElementById("categoryChips"),
       elSource = document.getElementById("source");
 
   (DATA.topics || []).forEach(function(t){
@@ -363,6 +480,49 @@
     };
     elChips.appendChild(b);
   });
+
+  (DATA.categories || []).forEach(function(c){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "category-btn c-" + c;
+    b.textContent = CATEGORY_LABELS[c] || c;
+    b.setAttribute("aria-pressed", "false");
+    b.onclick = function(){
+      if (state.categories.has(c)) { state.categories.delete(c); b.setAttribute("aria-pressed", "false"); }
+      else { state.categories.add(c); b.setAttribute("aria-pressed", "true"); }
+      document.getElementById("presetBriefing").setAttribute("aria-pressed", "false");
+      document.getElementById("presetAll").setAttribute("aria-pressed", "false");
+      render();
+    };
+    catButtons[c] = b;
+    elCatChips.appendChild(b);
+  });
+
+  function setCategoryFilter(cats, presetId){
+    state.categories = new Set(cats || []);
+    Object.keys(catButtons).forEach(function(c){
+      var on = state.categories.has(c);
+      catButtons[c].setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    ["presetBriefing", "presetAll"].forEach(function(id){
+      var el = document.getElementById(id);
+      if (el) el.setAttribute("aria-pressed", id === presetId ? "true" : "false");
+    });
+    render();
+  }
+
+  function applyDefaultCategories(){
+    var cats = DEFAULT_CATS.length ? DEFAULT_CATS : BRIEFING_CATS;
+    var available = cats.filter(function(c){ return catButtons[c]; });
+    if (available.length) setCategoryFilter(available, "presetBriefing");
+  }
+
+  document.getElementById("presetBriefing").onclick = function(){
+    setCategoryFilter(BRIEFING_CATS.filter(function(c){ return catButtons[c]; }), "presetBriefing");
+  };
+  document.getElementById("presetAll").onclick = function(){
+    setCategoryFilter([], "presetAll");
+  };
 
   (DATA.sources || []).forEach(function(s){
     var o = document.createElement("option");
@@ -428,6 +588,53 @@
     }).join("");
   }
 
+  function categoryPills(cats){
+    return (cats || []).map(function(c){
+      return '<span class="cat c-' + c + '">' + esc(CATEGORY_LABELS[c] || c) + '</span>';
+    }).join("");
+  }
+
+  function briefingScore(it){
+    var hay = (it.title + " " + it.summary).toLowerCase();
+    var s = 0;
+    if ((it.categories || []).indexOf("product-release") >= 0) s += 100;
+    if ((it.topics || []).indexOf("splunk") >= 0) s += 40;
+    if (hay.indexOf("10.4") >= 0) s += 80;
+    if (hay.indexOf("dashboard studio") >= 0) s += 60;
+    if ((it.canonicalUrl || it.url || "").indexOf("splunk.com") >= 0) s += 30;
+    if (it.summarySource === "curated") s += 25;
+    return s;
+  }
+
+  function renderHighlights(){
+    var sec = document.getElementById("highlightsSection"),
+        ol = document.getElementById("highlightsList");
+    if (!sec || !ol) return;
+    var picks = highlightItems.length ? highlightItems : items.filter(function(it){
+      return briefingScore(it) >= 140;
+    }).sort(function(a,b){
+      return briefingScore(b) - briefingScore(a) || ((b.publishedAt||"") > (a.publishedAt||"") ? 1 : -1);
+    }).slice(0, 8);
+    if (!picks.length){
+      sec.hidden = true;
+      return;
+    }
+    sec.hidden = false;
+    ol.innerHTML = "";
+    picks.forEach(function(it){
+      var t = relTime(it.publishedAt);
+      var li = document.createElement("li");
+      li.className = "highlight-item";
+      var link = it.canonicalUrl || it.url;
+      li.innerHTML =
+        '<div class="highlight-meta">' + esc(t.rel) + (t.abs ? ' · ' + esc(t.abs) : '') +
+          ' · ' + esc(it.attribution || it.source.name) + '</div>' +
+        '<h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(it.title) + '</a></h3>' +
+        '<p>' + esc(it.summary || "") + '</p>';
+      ol.appendChild(li);
+    });
+  }
+
   function matches(it){
     if (state.source && it.source.id !== state.source) return false;
     if (state.maxAgeDays > 0 && ageDays(it.publishedAt) > state.maxAgeDays) return false;
@@ -436,8 +643,13 @@
       (it.topics || []).forEach(function(t){ if (state.topics.has(t)) ok = true; });
       if (!ok) return false;
     }
+    if (state.categories.size){
+      var okCat = false;
+      (it.categories || []).forEach(function(c){ if (state.categories.has(c)) okCat = true; });
+      if (!okCat) return false;
+    }
     if (state.q){
-      var hay = (it.title + " " + it.summary + " " + (it.tags || []).join(" ") + " " + it.source.name).toLowerCase();
+      var hay = (it.title + " " + it.summary + " " + (it.categories || []).join(" ") + " " + (it.tags || []).join(" ") + " " + it.source.name).toLowerCase();
       if (hay.indexOf(state.q) < 0) return false;
     }
     return true;
@@ -446,6 +658,10 @@
   function render(){
     var filtered = items.filter(matches);
     filtered.sort(function(a, b){
+      if (state.sort === "new" && state.categories.size > 0){
+        var sb = briefingScore(b) - briefingScore(a);
+        if (sb) return sb;
+      }
       var c = (a.publishedAt || "") < (b.publishedAt || "") ? -1 : ((a.publishedAt || "") > (b.publishedAt || "") ? 1 : 0);
       return state.sort === "new" ? -c : c;
     });
@@ -483,9 +699,9 @@
         '<div class="item-top">' +
           '<span class="item-time" title="' + esc(it.publishedAt || "") + '">' + esc(t.rel) +
             (t.abs ? ' <span class="abs">(' + esc(t.abs) + ')</span>' : '') + '</span>' +
-          '<span class="topics">' + topicPills(it.topics) + '</span>' +
+          '<span class="topics">' + topicPills(it.topics) + categoryPills(it.categories) + '</span>' +
         '</div>' +
-        '<h2><a href="' + esc(it.url) + '" target="_blank" rel="noopener nofollow">' + hl(it.title) + '</a></h2>' +
+        '<h2><a href="' + esc(it.canonicalUrl || it.url) + '" target="_blank" rel="noopener nofollow">' + hl(it.title) + '</a></h2>' +
         '<div class="item-meta">' + esc(it.attribution || ("via " + it.source.name)) + '</div>' +
         '<p class="item-summary">' + hl(it.summary || "") + '</p>' +
         '<div class="item-links">' +
@@ -513,7 +729,8 @@
     var d = new Date(g.getAttribute("datetime"));
     if (!isNaN(d)) g.textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
   }
-  render();
+  renderHighlights();
+  applyDefaultCategories();
 })();
 </script>
 </body>

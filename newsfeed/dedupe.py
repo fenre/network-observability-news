@@ -17,7 +17,7 @@ from difflib import SequenceMatcher
 from . import util
 
 _TITLE_SIMILARITY_THRESHOLD = 0.84
-_TIME_WINDOW_DAYS = 7
+_TIME_WINDOW_DAYS = 21
 
 
 class _UnionFind:

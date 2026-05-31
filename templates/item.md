@@ -3,6 +3,7 @@
 - **Source:** [{{SOURCE_NAME}}]({{URL}}){{HOMEPAGE_MD}}
 - **Published:** {{PUBLISHED}}
 - **Topics:** {{TOPICS_CSV}}
+- **Categories:** {{CATEGORIES_CSV}}
 - **Tags:** {{TAGS_CSV}}
 - **Attribution:** {{ATTRIBUTION}}
 - **Canonical (this index):** {{BASE_URL}}/items/{{ID}}.html
