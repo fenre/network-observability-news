@@ -1,5 +1,35 @@
 [
   {
+    "id": "de8bebdd531f35e2",
+    "title": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid - TechWatch",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCWGNwdGc1ZGZFVHBmZjYwbWFQOEEySTdvd0hJeTBPdXM4WmNNeVBYb0xjUnRsRExqZDhWa1h3ZGZDYWxURUFZbTZXdGxfeHBfMkJ0WGRRcHF6bEFY?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCWGNwdGc1ZGZFVHBmZjYwbWFQOEEySTdvd0hJeTBPdXM4WmNNeVBYb0xjUnRsRExqZDhWa1h3ZGZDYWxURUFZbTZXdGxfeHBfMkJ0WGRRcHF6bEFY?oc=5",
+    "source": {
+      "id": "gnews-splunk-nordics-no",
+      "name": "TechWatch",
+      "homepage": "https://news.google.com/"
+    },
+    "author": null,
+    "publishedAt": "2026-05-29T12:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global",
+      "nordics",
+      "nordics-no"
+    ],
+    "summary": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid TechWatch",
+    "summarySource": "extractive",
+    "clusterId": "de8bebdd531f35e2",
+    "lang": "en",
+    "license": null,
+    "attribution": "via TechWatch (Google News)"
+  },
+  {
     "id": "87e79cb621644727",
     "title": "ntop Summer Tour: Interop Japan, Italy, Greece, Norway, Croatia…",
     "url": "https://www.ntop.org/ntop-summer-tour-interop-japan-italy-greece-norway-croatia/",
@@ -26,6 +56,11 @@
     "attribution": "via ntop Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global",
+      "nordics",
+      "nordics-no"
     ]
   },
   {
@@ -41,20 +76,21 @@
     "author": "Sreenivas Rao",
     "publishedAt": "2026-05-28T15:00:46+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [
       "nexus-dashboard"
     ],
-    "summary": "Complexity is the enemy of visibility. Discover how the new Nexus Data Broker integration in Nexus Dashboard 4.2 eliminates manual overhead to deliver a truly unified, single source of truth for your network.",
+    "summary": "Trusted network data for end-to-end visibility with Nexus Data Broker",
     "summarySource": "extractive",
     "clusterId": "beb782f40239a10f",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -70,12 +106,9 @@
     "author": "Story DeWeese",
     "publishedAt": "2026-05-28T14:00:45+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Explore top networking automation sessions, labs, and workshops at Cisco Live US 2026. From IOS XE and AI-ready infra to ACR and telemetry, this guide helps you master the tools driving the future of network management. Plan your schedule now!",
+    "summary": "Explore Enterprise Networking Automation at Cisco Live US 2026",
     "summarySource": "extractive",
     "clusterId": "29eec24aad7c4a8e",
     "lang": "en",
@@ -83,6 +116,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -110,7 +146,150 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
+  },
+  {
+    "id": "cd5a855fcef5ca31",
+    "title": "Splunk Denmark Splunk User Group",
+    "url": "https://usergroups.splunk.com/denmark-splunk-user-group/",
+    "canonicalUrl": "https://usergroups.splunk.com/denmark-splunk-user-group",
+    "source": {
+      "id": "curated-nordics",
+      "name": "Splunk Nordics (curated)",
+      "homepage": "https://usergroups.splunk.com/"
+    },
+    "author": null,
+    "publishedAt": "2026-05-28T12:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:47:19+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "denmark",
+      "user-group"
+    ],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global",
+      "nordics",
+      "nordics-dk"
+    ],
+    "summary": "Denmark Splunk User Group chapter — regional Splunk practitioners meeting virtually and in person across Denmark.",
+    "summarySource": "curated",
+    "clusterId": "cd5a855fcef5ca31",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk Nordics (curated)",
+    "agentNote": "Denmark chapter hub — use for Danish partner and customer community engagement."
+  },
+  {
+    "id": "13dc7e1da77c0b3d",
+    "title": "Splunk Oslo Splunk User Group",
+    "url": "https://usergroups.splunk.com/oslo-splunk-user-group/",
+    "canonicalUrl": "https://usergroups.splunk.com/oslo-splunk-user-group",
+    "source": {
+      "id": "curated-nordics",
+      "name": "Splunk Nordics (curated)",
+      "homepage": "https://usergroups.splunk.com/"
+    },
+    "author": null,
+    "publishedAt": "2026-05-28T12:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:47:19+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "oslo",
+      "user-group"
+    ],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global",
+      "nordics",
+      "nordics-no"
+    ],
+    "summary": "Oslo Splunk User Group chapter page on Splunk User Groups — local in-person and virtual meetups for Splunk practitioners in Norway.",
+    "summarySource": "curated",
+    "clusterId": "13dc7e1da77c0b3d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk Nordics (curated)",
+    "agentNote": "Norway chapter hub — point Norwegian customers and partners here for local meetups and Nordic conference updates."
+  },
+  {
+    "id": "30873abb235d64a6",
+    "title": "Nordic Splunk User Conference 2026 (Oslo)",
+    "url": "https://usergroups.splunk.com/events/details/splunk-oslo-splunk-user-group-presents-nordic-splunk-user-conference/cohost-denmark-splunk-user-group/",
+    "canonicalUrl": "https://usergroups.splunk.com/events/details/splunk-oslo-splunk-user-group-presents-nordic-splunk-user-conference/cohost-denmark-splunk-user-group",
+    "source": {
+      "id": "curated-nordics",
+      "name": "Splunk Nordics (curated)",
+      "homepage": "https://usergroups.splunk.com/"
+    },
+    "author": null,
+    "publishedAt": "2026-05-28T08:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:47:19+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "conference",
+      "oslo",
+      "user-group"
+    ],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global",
+      "nordics",
+      "nordics-no",
+      "nordics-dk"
+    ],
+    "summary": "Two-day Nordic Splunk User Conference in Oslo (Technical Museum, Jan 15–16 2026), co-hosted by the Oslo and Denmark Splunk user groups — aimed at ~200 practitioners across the Nordics for networking and technical sessions.",
+    "summarySource": "curated",
+    "clusterId": "30873abb235d64a6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk Nordics (curated)",
+    "agentNote": "Primary Nordic community event for partner briefings — co-hosted by Oslo and Denmark user groups; use for customer invitations and local enablement talking points."
+  },
+  {
+    "id": "b29626d40b78ad58",
+    "title": "(+) Nedetid koster verden 600 milliarder dollar i året - cw.no",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHhjdExyM1BZcGdOVXpTQ1p1UXFtREJ0RC0wVUlWaTVaN3ZOU09BUDhZMU9ORFVzU3pKOGc0akV3SkRKUWhpVlZ3YUJYNG0tcGZTYUd3azB3clowb2ltWm9NVjYxLW1lQWFYVl96azRIX3FGamYyckxjaGRLUTNWZy1IYldKd3hUOFlWSHFhSTI0MWpkVlRqaV81YkItVGg4anc?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHhjdExyM1BZcGdOVXpTQ1p1UXFtREJ0RC0wVUlWaTVaN3ZOU09BUDhZMU9ORFVzU3pKOGc0akV3SkRKUWhpVlZ3YUJYNG0tcGZTYUd3azB3clowb2ltWm9NVjYxLW1lQWFYVl96azRIX3FGamYyckxjaGRLUTNWZy1IYldKd3hUOFlWSHFhSTI0MWpkVlRqaV81YkItVGg4anc?oc=5",
+    "source": {
+      "id": "gnews-splunk-nordics-dk",
+      "name": "cw.no",
+      "homepage": "https://news.google.com/"
+    },
+    "author": null,
+    "publishedAt": "2026-05-28T04:05:00+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global",
+      "nordics",
+      "nordics-dk"
+    ],
+    "summary": "(+) Nedetid koster verden 600 milliarder dollar i året cw.no",
+    "summarySource": "extractive",
+    "clusterId": "b29626d40b78ad58",
+    "lang": "en",
+    "license": null,
+    "attribution": "via cw.no (Google News)"
   },
   {
     "id": "184b703dcf14cb9e",
@@ -137,6 +316,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -164,6 +346,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -179,12 +364,9 @@
     "author": "Romie Castelli",
     "publishedAt": "2026-05-27T15:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Discover why financial agility is the new competitive edge. Learn how Cisco Capital helps IT leaders modernize infrastructure and accelerate AI adoption, even in a complex economic landscape.",
+    "summary": "Why Financial Agility is the New Competitive Edge",
     "summarySource": "extractive",
     "clusterId": "bfce03078a79b206",
     "lang": "en",
@@ -192,6 +374,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -207,12 +392,9 @@
     "author": "Albert Chiang",
     "publishedAt": "2026-05-26T15:00:12+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Quantum threats are driving the need for post-quantum cryptography across the network stack, as attackers can capture encrypted data today and decrypt it in the future. Discover how Cisco full-stack PQC helps protect both devices and data.",
+    "summary": "Securing campus and branch networks from boot to transport with full-stack PQC",
     "summarySource": "extractive",
     "clusterId": "c41af8c62df0fb49",
     "lang": "en",
@@ -220,6 +402,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -237,7 +422,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check - Network World",
+    "summary": "2026 network outage report and internet health check Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -245,6 +430,9 @@
     "attribution": "via Network World (Google News)",
     "categories": [
       "outage"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -271,7 +459,43 @@
     "clusterId": "05b862d01629502b",
     "lang": "en",
     "license": null,
-    "attribution": "via AIMultiple (Google News)"
+    "attribution": "via AIMultiple (Google News)",
+    "audiences": [
+      "global"
+    ]
+  },
+  {
+    "id": "046166508da9f81b",
+    "title": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNREdnc0FjeGF6LUdKUWg3NUU0UEg3MXk3cWUwZkxnMjVsVWMtUEhuSEVuTVhOekM0dkg4T2dNTjRFakNIdFA1NzJpNVZ4OEttYjRLWnR4cUlxekJQMWh4RGdjVnc0VlpjaXlyXzdTVjdZZUZiZk5HSDJmcHZKcGkzRUNaSl9acDhqZk1Ma0dITFYzblZiWGUtbDlXNUlNSmxJMnB4N3BtSDZtSVNybThRZFNNOGNBeDZMMExUcWt0NWVtQUFlczFRMnNxWDZwSjZ0SFMwSWIwRVFiYllEWXo1QmF1N2gwMWhnTFhadHd3?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNREdnc0FjeGF6LUdKUWg3NUU0UEg3MXk3cWUwZkxnMjVsVWMtUEhuSEVuTVhOekM0dkg4T2dNTjRFakNIdFA1NzJpNVZ4OEttYjRLWnR4cUlxekJQMWh4RGdjVnc0VlpjaXlyXzdTVjdZZUZiZk5HSDJmcHZKcGkzRUNaSl9acDhqZk1Ma0dITFYzblZiWGUtbDlXNUlNSmxJMnB4N3BtSDZtSVNybThRZFNNOGNBeDZMMExUcWt0NWVtQUFlczFRMnNxWDZwSjZ0SFMwSWIwRVFiYllEWXo1QmF1N2gwMWhnTFhadHd3?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-25T14:36:30+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "046166508da9f81b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "8b14493319c91129",
@@ -296,6 +520,9 @@
     "attribution": "via APNIC Blog",
     "categories": [
       "standards"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -321,6 +548,9 @@
     "attribution": "via Microsoft Azure (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -348,6 +578,9 @@
     "attribution": "via TechTarget (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -373,6 +606,9 @@
     "attribution": "via citybiz (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -400,6 +636,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -427,6 +666,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -442,12 +684,9 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-05-21T15:00:40+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Preview the Cisco Network Platform Product team’s standout lineup of Cisco Live sessions showcasing how to simplify operations, scale automation, strengthen visibility, and put AI to work across the network.",
+    "summary": "Cisco Live 2026 Las Vegas: Explore AI and automation across the network",
     "summarySource": "extractive",
     "clusterId": "7710efb8d5302e82",
     "lang": "en",
@@ -455,6 +694,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -474,7 +716,7 @@
       "cisco-data-fabric"
     ],
     "tags": [],
-    "summary": "SONiC is an open-source, Linux-based network OS delivering scalable, AI-optimized networking. Cisco integrates SONiC on its 8000 and N9000 Series platforms, providing flexible, high-performance data centers for AI and cloud workloads.",
+    "summary": "One open NOS, any workload: SONiC on Cisco",
     "summarySource": "extractive",
     "clusterId": "0a699c44dab04629",
     "lang": "en",
@@ -482,6 +724,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -512,6 +757,9 @@
     "categories": [
       "product-release",
       "standards"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -543,7 +791,10 @@
     "clusterId": "caab671193a087a1",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "a61234ef335bc0fb",
@@ -575,7 +826,10 @@
     "clusterId": "98d4c0ba438c99e3",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "373e426195e56249",
@@ -604,6 +858,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -631,7 +888,10 @@
     "clusterId": "7fa4ae36d1befa44",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "bd4d1ec09d95de7d",
@@ -656,6 +916,9 @@
     "attribution": "via Cisco Blogs (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -671,11 +934,9 @@
     "author": "Venkat Garigipati",
     "publishedAt": "2026-05-20T15:00:54+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "What changes when the network adapts to AI traffic in real time? Cisco Intelligent Packet Flow delivers faster job completion, higher GPU efficiency, and operational consistency across large AI fabrics.",
+    "summary": "AI network performance with Cisco Intelligent Packet Flow",
     "summarySource": "extractive",
     "clusterId": "bd4d1ec09d95de7d",
     "lang": "en",
@@ -683,6 +944,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -708,6 +972,9 @@
     "attribution": "via Database Trends and Applications (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -733,6 +1000,9 @@
     "attribution": "via APNIC Blog",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -756,15 +1026,17 @@
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "summary": "Splunk blog deep-dive on Dashboard Studio 10.4 capabilities — custom viz framework, removing caps on visualizations and input results, and patterns for building more complex operational dashboards.",
     "summarySource": "curated",
     "clusterId": "caab671193a087a1",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "9bf8d32fa3e0faf1",
@@ -783,7 +1055,7 @@
       "cisco-data-fabric"
     ],
     "tags": [],
-    "summary": "At EANTC 2026, Cisco N9000 switches dominated 12-vendor validation tests, including VXLAN EVPN and secure PTP/MACsec. These results prove Cisco’s open, AI-ready architecture is the industry standard for performance and multivendor integration.",
+    "summary": "Cisco N9000 excels in EANTC 2026 VXLAN EVPN and timing tests",
     "summarySource": "extractive",
     "clusterId": "9bf8d32fa3e0faf1",
     "lang": "en",
@@ -791,6 +1063,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -820,6 +1095,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -847,6 +1125,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -874,36 +1155,10 @@
     "clusterId": "003a3d6381bd3d0f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "1016a748ed8da633",
-    "title": "Sending data from Edge Processors to Splunk Cloud Platform or Splunk Enterprise - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPMGtiVl9wcm9hTldoeE1UZGNDdk00RmkxOVYyWTJtaDhxb3VTQ0NIQk5LbHlIVFBhVm96bUhiRUZwTFNGYjNOTGlMcjdSZnlYZDBlakRheUdUeWs2UW9GeDlkcWxjOGl3QzFVZHBVNS1QalQ4T1Fnbmp0czRSWjh4RmJIcVRfQUNIdkZKeDE5QTNfOEpoNTU4ckU5RTZacS1aV2lIeFRjTlk5Z2JqV2YzdEZsR0Z4X2FRT1dUT01kTHlabDZVbl92ZEVxa3dPNU1hZ3haUUNHTEJ3OWkwRXl3NDFlRlNCOWdCU3RwUUE5T1B3MDBtem5aTXNYVTljMXJjTm13Ulp0a1pHR1NlakhmdVk0OXFOVFpOSWhGdEc3M2c3R2Q5eDlwZWd0OEo2TWdLV3JNOXFHT05HVmZONnBxeEJQN1AtSVpPUlBBcg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPMGtiVl9wcm9hTldoeE1UZGNDdk00RmkxOVYyWTJtaDhxb3VTQ0NIQk5LbHlIVFBhVm96bUhiRUZwTFNGYjNOTGlMcjdSZnlYZDBlakRheUdUeWs2UW9GeDlkcWxjOGl3QzFVZHBVNS1QalQ4T1Fnbmp0czRSWjh4RmJIcVRfQUNIdkZKeDE5QTNfOEpoNTU4ckU5RTZacS1aV2lIeFRjTlk5Z2JqV2YzdEZsR0Z4X2FRT1dUT01kTHlabDZVbl92ZEVxa3dPNU1hZ3haUUNHTEJ3OWkwRXl3NDFlRlNCOWdCU3RwUUE5T1B3MDBtem5aTXNYVTljMXJjTm13Ulp0a1pHR1NlakhmdVk0OXFOVFpOSWhGdEc3M2c3R2Q5eDlwZWd0OEo2TWdLV3JNOXFHT05HVmZONnBxeEJQN1AtSVpPUlBBcg?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-05-18T15:45:48+00:00",
-    "fetchedAt": "2026-05-31T19:06:45+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "edge-processor"
-    ],
-    "categories": [
-      "product-release"
-    ],
-    "summary": "Sending data from Edge Processors to Splunk Cloud Platform or Splunk Enterprise Splunk",
-    "summarySource": "extractive",
-    "clusterId": "1016a748ed8da633",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "bca86e026e08a809",
@@ -932,6 +1187,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -961,6 +1219,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -993,7 +1254,10 @@
     "clusterId": "98d4c0ba438c99e3",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "6a2b95e74f43ffcc",
@@ -1027,7 +1291,10 @@
     "clusterId": "10ac969e7c698b77",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "27db95eeb7c1fcf2",
@@ -1057,10 +1324,13 @@
     ],
     "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
     "summarySource": "curated",
-    "clusterId": "25caa8d3495a4776",
+    "clusterId": "27db95eeb7c1fcf2",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "3f96c435944396d9",
@@ -1085,6 +1355,9 @@
     "attribution": "via AI CERTs (Google News)",
     "categories": [
       "security"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1114,6 +1387,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1143,6 +1419,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1172,6 +1451,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1201,6 +1483,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1230,6 +1515,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1259,6 +1547,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1288,6 +1579,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1321,7 +1615,10 @@
     "clusterId": "10ac969e7c698b77",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "cff65a66dd9d7386",
@@ -1348,6 +1645,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1375,6 +1675,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1402,7 +1705,10 @@
     "clusterId": "37923ec2300310c4",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "e35eaed1d9cd9256",
@@ -1430,7 +1736,10 @@
     "clusterId": "e35eaed1d9cd9256",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "cd6cfc31bb52c536",
@@ -1457,6 +1766,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1486,10 +1798,13 @@
     ],
     "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
     "summarySource": "curated",
-    "clusterId": "25caa8d3495a4776",
+    "clusterId": "27db95eeb7c1fcf2",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (canonical)"
+    "attribution": "via Splunk (canonical)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "9564df87430d1c1f",
@@ -1518,6 +1833,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1545,7 +1863,10 @@
     "clusterId": "37923ec2300310c4",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "3675c6a38fff7d62",
@@ -1572,34 +1893,10 @@
     "clusterId": "3675c6a38fff7d62",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "0de40656fa7e0853",
-    "title": "Set up user authentication with LDAP - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQlcyaU5lRmV0SWt5VzdwcGtaUGlnVTRIeEoyRmhFNWFYbkxGWnF0cEVIc2VCbERHb2U0TElQbmFvWmdpcUozSXZVc2FGZW56OFJvOUIzWThSMFA3YjJFRFRxVmg0WDNNNUo0S0ZtdFZ1cUVsbjFwU3lETkM1OGJzZkRjZzZOLXo5QVZnWkJRLXNua3ZXeXhkYlE2LXJWSW95SFFrdWx2RGRwQ250ekp6cF9USm9lMV94Z2llczRHWnNTWUR0akhxUl8ycjhTU0lqUFZfVUpjUHBXYnhkU0RmZ3pXRnJkY3lLcDdaeTZJVVAzQQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQlcyaU5lRmV0SWt5VzdwcGtaUGlnVTRIeEoyRmhFNWFYbkxGWnF0cEVIc2VCbERHb2U0TElQbmFvWmdpcUozSXZVc2FGZW56OFJvOUIzWThSMFA3YjJFRFRxVmg0WDNNNUo0S0ZtdFZ1cUVsbjFwU3lETkM1OGJzZkRjZzZOLXo5QVZnWkJRLXNua3ZXeXhkYlE2LXJWSW95SFFrdWx2RGRwQ250ekp6cF9USm9lMV94Z2llczRHWnNTWUR0akhxUl8ycjhTU0lqUFZfVUpjUHBXYnhkU0RmZ3pXRnJkY3lLcDdaeTZJVVAzQQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-05-16T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T19:06:45+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "summary": "Set up user authentication with LDAP Splunk",
-    "summarySource": "extractive",
-    "clusterId": "0de40656fa7e0853",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "b232fe27996653a6",
@@ -1624,6 +1921,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1653,6 +1953,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "standards"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1668,11 +1971,9 @@
     "author": "Clarence Filsfils",
     "publishedAt": "2026-05-14T15:00:40+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "The Multipath Reliable Connection (MRC) protocol marks a leap in AI infrastructure. By leveraging Cisco-pioneered SRv6, MRC enables near-perfect uptime and full bisection bandwidth at the scale of 100,000+ GPUs, powering the next generation of AI.",
+    "summary": "MRC and SRv6: How Foundational Networking Innovations Are Enabling the Next Generation of AI Supercomputers",
     "summarySource": "extractive",
     "clusterId": "07846afab0607f53",
     "lang": "en",
@@ -1680,6 +1981,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1707,7 +2011,10 @@
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "0f3de20662a17100",
@@ -1734,6 +2041,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1749,11 +2059,9 @@
     "author": "Usha Andra",
     "publishedAt": "2026-05-13T13:39:01+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Join Cisco at the ONUG AI Networking Summit in Dallas to discover how our latest innovations in scale, simplicity, and security are powering the next generation of AI-ready enterprise infrastructure.",
+    "summary": "Cisco at ONUG Dallas 2026: Securing the AI Data Center in the Agentic Era",
     "summarySource": "extractive",
     "clusterId": "20a80910e290fbda",
     "lang": "en",
@@ -1761,6 +2069,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1788,6 +2099,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1815,7 +2129,10 @@
     "clusterId": "c4c78fcef357b85e",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "9a8fed51dc32de00",
@@ -1844,6 +2161,9 @@
     "attribution": "via Amazon Web Services (AWS) (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1866,12 +2186,15 @@
     "categories": [
       "product-release"
     ],
-    "summary": "How Splunk Enterprise handles your data - Splunk",
+    "summary": "How Splunk Enterprise handles your data Splunk",
     "summarySource": "extractive",
     "clusterId": "500e30261251d651",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "1fc0c6345f8fd9df",
@@ -1901,6 +2224,9 @@
     "categories": [
       "tutorial",
       "standards"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1916,11 +2242,9 @@
     "author": "Ramya Korada",
     "publishedAt": "2026-05-12T15:00:49+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Explore how Cisco and Red Hat are helping enterprises scale secure AI and solve some of today’s most pressing challenges from the data center core to the furthest edge.",
+    "summary": "Cisco and Red Hat are powering intelligent core to edge: Red Hat Summit insights",
     "summarySource": "extractive",
     "clusterId": "62e105756ab54302",
     "lang": "en",
@@ -1928,6 +2252,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1955,6 +2282,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -1980,6 +2310,9 @@
     "attribution": "via digital terminal (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2007,7 +2340,10 @@
     "clusterId": "9e168412a2a7bcd9",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "a7949dd27d4265d2",
@@ -2032,6 +2368,9 @@
     "attribution": "via APNIC Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2059,6 +2398,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2074,11 +2416,9 @@
     "author": "Rakesh Kumar",
     "publishedAt": "2026-05-07T15:00:16+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cisco N9000 switches and AMD Pensando Pollara 400 NICs deliver a high-performance AI fabric. MLPerf-validated, this solution eliminates GPU underutilization, maximizing ROI by accelerating enterprise AI training and inference workloads.",
+    "summary": "Benchmarking scale-out AI fabrics with Cisco N9000 + AMD Pensando™ Pollara 400 NICs",
     "summarySource": "extractive",
     "clusterId": "e33caf2b285c072b",
     "lang": "en",
@@ -2086,6 +2426,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "research"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2113,6 +2456,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "security"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2138,6 +2484,9 @@
     "attribution": "via Let's Data Science (Google News)",
     "categories": [
       "research"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2167,7 +2516,10 @@
     "clusterId": "4467f26429941c01",
     "lang": "en",
     "license": null,
-    "attribution": "via Oracle Blogs (Google News)"
+    "attribution": "via Oracle Blogs (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "01f6b2a69b1188fe",
@@ -2196,6 +2548,9 @@
     "attribution": "via Visual Studio Magazine (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2225,6 +2580,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2240,12 +2598,9 @@
     "author": "Jesus Illescas",
     "publishedAt": "2026-05-06T20:49:02+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Discover developer productivity tools: set up VS Code, automate code quality, debug Python effectively, and ship reproducible builds with uv and Docker.",
+    "summary": "Month of Developer Productivity: Build and Forget",
     "summarySource": "extractive",
     "clusterId": "46b8ae0c98c38f7a",
     "lang": "en",
@@ -2253,6 +2608,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2278,6 +2636,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2305,6 +2666,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2320,12 +2684,9 @@
     "author": "Stefani Johnson",
     "publishedAt": "2026-05-06T15:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Wireless networking is vital for AI, hybrid work, and cloud access. AI-driven management simplifies operations, automates manual tasks, and lightens the load for smaller IT teams.",
+    "summary": "Lean IT, future-ready: How to save time and simplify wireless management with AI",
     "summarySource": "extractive",
     "clusterId": "7afd87663be612c3",
     "lang": "en",
@@ -2333,6 +2694,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2360,7 +2724,10 @@
     "clusterId": "dc569d26ea5fb37a",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "dc6ee835555ba560",
@@ -2381,7 +2748,7 @@
     "tags": [
       "nexus-dashboard"
     ],
-    "summary": "Discover how Cisco Nexus Dashboard 4.2 modernizes data centers with AI-driven operations, enhanced security with Live Protect, and unified management across physical, virtual, and cloud environments.",
+    "summary": "Modernize your data center operations with Cisco Nexus Dashboard",
     "summarySource": "extractive",
     "clusterId": "dc6ee835555ba560",
     "lang": "en",
@@ -2389,6 +2756,9 @@
     "attribution": "via Cisco Data Center Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2404,12 +2774,9 @@
     "author": "Ed Novak",
     "publishedAt": "2026-05-05T15:00:05+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cisco Agentic Workflows unifies existing automation tools into a cohesive, enterprise-grade strategy that acts as a force multiplier to help network, automation teams streamline fragmented tasks and attain a new level of competency and control.",
+    "summary": "Why your automation stack needs Cisco Agentic Workflows",
     "summarySource": "extractive",
     "clusterId": "4c7e5e5cc4cef8b9",
     "lang": "en",
@@ -2417,6 +2784,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2432,12 +2802,9 @@
     "author": "Barry Yuan",
     "publishedAt": "2026-05-04T18:48:48+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "A practical DevNet lab for connecting a public OpenAI-compatible target to Cisco AI Defense Explorer, running a Quick Scan, and reviewing AI red team findings.",
+    "summary": "Try Cisco AI Defense Explorer Edition in this hands-on lab",
     "summarySource": "extractive",
     "clusterId": "811dab48e5218020",
     "lang": "en",
@@ -2445,6 +2812,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2460,12 +2830,9 @@
     "author": "Aruna Ravichandran",
     "publishedAt": "2026-05-04T13:00:22+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "This May the 4th, we’re bringing Galaxy Mode to the Cisco AI Assistant. Troubleshoot network issues, create workflows, and more with an engaging, limited-time experience.",
+    "summary": "Galaxy Mode is live: A limited-time look at what your Cisco AI Assistant and AgenticOps can already do",
     "summarySource": "extractive",
     "clusterId": "04aa08530f859b28",
     "lang": "en",
@@ -2473,6 +2840,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2500,6 +2870,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2527,6 +2900,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2554,6 +2930,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2579,7 +2958,40 @@
     "attribution": "via Amazon Web Services (AWS) (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
+  },
+  {
+    "id": "434f16427de9a2e9",
+    "title": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLWlfdWdyMXd3LVdEQ2hpVFl1UHpfbjQ2a2J2X3dUWklRWmV6LXVFSVp5cWJJMkhwRW1IN29RSXA5MFpQUkdqMWtpcnVNY3VNLVBzYVZQWXMwRjNFejdlWTA3T29acGplZktWemg1c1lkTzZxRDl4N3ExM2ltal83X0JEM2lNLV80LU1PWjl1MEs2MDQw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLWlfdWdyMXd3LVdEQ2hpVFl1UHpfbjQ2a2J2X3dUWklRWmV6LXVFSVp5cWJJMkhwRW1IN29RSXA5MFpQUkdqMWtpcnVNY3VNLVBzYVZQWXMwRjNFejdlWTA3T29acGplZktWemg1c1lkTzZxRDl4N3ExM2ltal83X0JEM2lNLV80LU1PWjl1MEs2MDQw?oc=5",
+    "source": {
+      "id": "gnews-splunk-nordics-no",
+      "name": "Digi.no",
+      "homepage": "https://news.google.com/"
+    },
+    "author": null,
+    "publishedAt": "2026-05-01T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global",
+      "nordics",
+      "nordics-no"
+    ],
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
+    "summarySource": "extractive",
+    "clusterId": "434f16427de9a2e9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Digi.no (Google News)"
   },
   {
     "id": "65bad520b8b39704",
@@ -2606,6 +3018,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2633,6 +3048,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2662,6 +3080,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2689,6 +3110,9 @@
     "attribution": "via Amazon Web Services (AWS) (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2716,6 +3140,9 @@
     "attribution": "via The Fast Mode (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2741,6 +3168,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2756,12 +3186,9 @@
     "author": "Miriam Kung",
     "publishedAt": "2026-04-29T15:00:54+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Learn how site-based, role-based access control (RBAC) in Cisco Catalyst Center helps you securely delegate permissions across on-premises networks using access groups, while defining what users can do and where they can do it.",
+    "summary": "Simplify access control in five easy steps",
     "summarySource": "extractive",
     "clusterId": "1c40051c55aea558",
     "lang": "en",
@@ -2769,6 +3196,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2794,6 +3224,9 @@
     "attribution": "via RIPE Labs",
     "categories": [
       "standards"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2821,6 +3254,9 @@
     "attribution": "via Help Net Security (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2836,12 +3272,9 @@
     "author": "Lesly Anzo",
     "publishedAt": "2026-04-28T15:00:58+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cisco MV smart cameras bring physical security into the Meraki dashboard. With AI tools like license plate recognition and cross-camera tracking, teams can find footage and investigate incidents faster. See how networking and security converge.",
+    "summary": "The power of your network: Solving a physical security incident on Vision portal",
     "summarySource": "extractive",
     "clusterId": "a20d4962fa3ff3d9",
     "lang": "en",
@@ -2849,6 +3282,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2878,6 +3314,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2905,6 +3344,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2934,6 +3376,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "security"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2961,6 +3406,9 @@
     "attribution": "via SDxCentral (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -2990,6 +3438,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3005,12 +3456,9 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-04-24T20:09:01+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Discover the top insights from our recent Reddit AMA with Cisco experts on tackling real-world network automation challenges at scale. Learn best practices for multi-system integration, deterministic execution, and using AI as a reasoning layer.",
+    "summary": "Recap Scaling the Future: Reddit AMA on Network Automation at Scale",
     "summarySource": "extractive",
     "clusterId": "3a9a34c425e6e0a1",
     "lang": "en",
@@ -3018,6 +3466,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3033,12 +3484,9 @@
     "author": "Oleksii Borysenko",
     "publishedAt": "2026-04-24T18:57:58+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Use developer portal analytics and feedback to drive product decisions. Learn key indicators and see how Cisco DevNet improves developer experiences. Stop guessing, start measuring what matters for your API and documentation users.",
+    "summary": "Product sprints for developer-oriented portals and content",
     "summarySource": "extractive",
     "clusterId": "c4515c388a22049c",
     "lang": "en",
@@ -3046,7 +3494,40 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
+  },
+  {
+    "id": "dba52a083204f852",
+    "title": "TLS and mTLS support | Splunk Cloud Platform (last updated 2026-04-24T16:38:53.529Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaWNpZUV3dGg1X1gxQk5scGpiS2RVeHRYa25iT0xfQjExMTd6TkVSc1hrcFF0SFlUVEVkOENNUnVabnNuemdFeFY4VUtuVXc1ZUhTUGU1RHVCUVZlYU15SHZqb1ZQclpnUktlMVdzb3dFRzJodlRSOHpoZ3VKQ3pJaEIxU1ZGYy1VRWdTRWc3akdFNkE5RXE4QkJzOHRaNlEzcG4tUW9RZnVvRjc2T3ljOEszZWowb0pTTFIwTS1Td014emxDM2RybmNlQkJON21kcHNmdWNqZVpsTHdqNWVWYnphMHlMLWcwSUxJLWExMkZreFpSQmNFMW5wZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaWNpZUV3dGg1X1gxQk5scGpiS2RVeHRYa25iT0xfQjExMTd6TkVSc1hrcFF0SFlUVEVkOENNUnVabnNuemdFeFY4VUtuVXc1ZUhTUGU1RHVCUVZlYU15SHZqb1ZQclpnUktlMVdzb3dFRzJodlRSOHpoZ3VKQ3pJaEIxU1ZGYy1VRWdTRWc3akdFNkE5RXE4QkJzOHRaNlEzcG4tUW9RZnVvRjc2T3ljOEszZWowb0pTTFIwTS1Td014emxDM2RybmNlQkJON21kcHNmdWNqZVpsTHdqNWVWYnphMHlMLWcwSUxJLWExMkZreFpSQmNFMW5wZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-04-24T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "TLS and mTLS support | Splunk Cloud Platform (last updated 2026-04-24T16:38:53.529Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "dba52a083204f852",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "d2dcd25f7ccfd19c",
@@ -3075,6 +3556,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3100,6 +3584,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3125,6 +3612,9 @@
     "attribution": "via RIPE Labs",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3154,6 +3644,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3181,6 +3674,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3208,6 +3704,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3223,12 +3722,9 @@
     "author": "Ron Brash",
     "publishedAt": "2026-04-21T12:01:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Build a credible OT security foundation without breaking the bank. Our \"Starter Pack\" framework leverages People, Process, and Technology to help mid-sized industrial operations implement smart, sequenced cybersecurity investments effectively.",
+    "summary": "Stop Overthinking OT Security: People, Process and Technology",
     "summarySource": "extractive",
     "clusterId": "a7f8e720bcdb60cb",
     "lang": "en",
@@ -3236,6 +3732,9 @@
     "attribution": "via Cisco Blogs — Splunk",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3265,6 +3764,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3280,12 +3782,9 @@
     "author": "Minse Kim",
     "publishedAt": "2026-04-20T15:00:05+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Discover how Cisco’s AI-powered Radio Resource Management (AI-RRM) boosts network performance and simplifies configuration for mission-critical Wi-Fi.",
+    "summary": "How Cisco built an AI-RRM that maximizes your wireless solution",
     "summarySource": "extractive",
     "clusterId": "e25648a56b465d16",
     "lang": "en",
@@ -3293,6 +3792,9 @@
     "attribution": "via Cisco Networking Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3320,6 +3822,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3347,6 +3852,9 @@
     "attribution": "via Cloudflare Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3372,34 +3880,10 @@
     "attribution": "via RIPE Labs",
     "categories": [
       "standards"
+    ],
+    "audiences": [
+      "global"
     ]
-  },
-  {
-    "id": "704cc9e46480a0f3",
-    "title": "Splunk Enterprise 10.2.3 known issues - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQU2pzaXhrRGlnTWpGRkpJcHRfWkFyNTBfdjQyNUF5cjRmSmQ3ZGN6ODh4cmRkWGRzTDJRZ3lKRnpQSmFmcUlOQ1NFcklwUUxZMTBLQUFiVTFRSXk1S2VzemQ2cDhXTEpyUEVFanZ5ajNIUVRFcTB4UDVlUHVRdFp2Ql9JWDlkUS1CSnNhQl9tVXFOa1RROFJQb0NzMURTVGZ3eXJoY0xPLTBOTHZfR0dPZVZpSFNJbWFZRk8zY19rdDlwWGw0WVY0SXdDV0hFbzFYWVdVdm1td0Zfdzdmc04zN0JyZVNBUjNibExLbi1pRWc3NkY5Zy1HSDJOZVhhVjA?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQU2pzaXhrRGlnTWpGRkpJcHRfWkFyNTBfdjQyNUF5cjRmSmQ3ZGN6ODh4cmRkWGRzTDJRZ3lKRnpQSmFmcUlOQ1NFcklwUUxZMTBLQUFiVTFRSXk1S2VzemQ2cDhXTEpyUEVFanZ5ajNIUVRFcTB4UDVlUHVRdFp2Ql9JWDlkUS1CSnNhQl9tVXFOa1RROFJQb0NzMURTVGZ3eXJoY0xPLTBOTHZfR0dPZVZpSFNJbWFZRk8zY19rdDlwWGw0WVY0SXdDV0hFbzFYWVdVdm1td0Zfdzdmc04zN0JyZVNBUjNibExLbi1pRWc3NkY5Zy1HSDJOZVhhVjA?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-20T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T19:06:45+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
-    "summarySource": "extractive",
-    "clusterId": "704cc9e46480a0f3",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "928505cfb7060fe2",
@@ -3424,6 +3908,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3453,6 +3940,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3482,7 +3972,10 @@
     "clusterId": "ff140ed8ca0c4fe1",
     "lang": "en",
     "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
+    "attribution": "via CyberSecurityNews (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "bcf850f655183977",
@@ -3511,7 +4004,10 @@
     "clusterId": "bcf850f655183977",
     "lang": "en",
     "license": null,
-    "attribution": "via gbhackers.com (Google News)"
+    "attribution": "via gbhackers.com (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "3a9a34c425e6e0a1",
@@ -3526,12 +4022,9 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-04-14T22:50:25+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Join Cisco's leading experts for a Reddit AMA on April 20, 2026, to discuss network automation at scale. Bring your toughest questions about network management, architectural scaling, and the future of automation fabrics.",
+    "summary": "Scaling the Future: Join Our Reddit AMA on Network Automation at Scale",
     "summarySource": "extractive",
     "clusterId": "3a9a34c425e6e0a1",
     "lang": "en",
@@ -3539,6 +4032,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3569,6 +4065,9 @@
     "attribution": "via ThousandEyes (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3594,6 +4093,9 @@
     "attribution": "via TechTarget (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3624,7 +4126,10 @@
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "0b3f15450d24e35d",
@@ -3653,6 +4158,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "security"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3678,6 +4186,9 @@
     "attribution": "via SDxCentral (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3693,12 +4204,9 @@
     "author": "Kamal Hathi",
     "publishedAt": "2026-04-09T20:00:02+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cisco announces the intent to acquire Galileo Technologies, Inc., a dynamic player in the observability for AI space that is helping make AI more reliable, trustworthy, safe, and observable",
+    "summary": "Making AI Trustworthy and Observable in Real-Time: Cisco Announces Intent to Acquire Galileo",
     "summarySource": "extractive",
     "clusterId": "06d6fe0d12434c98",
     "lang": "en",
@@ -3706,6 +4214,9 @@
     "attribution": "via Cisco Blogs — Splunk",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3731,7 +4242,10 @@
     "clusterId": "06d6fe0d12434c98",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via Cisco Blogs (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "5d634e8a40929982",
@@ -3759,7 +4273,10 @@
     "clusterId": "5d634e8a40929982",
     "lang": "en",
     "license": null,
-    "attribution": "via crn.com (Google News)"
+    "attribution": "via crn.com (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "1c3ee3ba26d5c141",
@@ -3784,6 +4301,9 @@
     "attribution": "via Network World (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3809,6 +4329,9 @@
     "attribution": "via Packet Pushers Blog",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3834,6 +4357,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3863,6 +4389,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -3893,7 +4422,10 @@
     "clusterId": "e6185ae1eb6c0a30",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "92a8ad746360014a",
@@ -3923,6 +4455,42 @@
     "clusterId": "92a8ad746360014a",
     "lang": "en",
     "license": null,
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
+  },
+  {
+    "id": "76ca4e8b01fd4d95",
+    "title": "Monitor detection coverage and health using Detection Studio in Splunk Enterprise Security - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNRFlmTTY4VGNiU3ZnX1RhanhGV1BaazFxcWttLWVXNC1YUnluSkRtMnQ3OFpPVG1JNFcxM1ljb0h0cHc0MllMTEJGYjJjcUk2aDRNRGRUblBPZzZ3eU1IbVM0bTZjUFpFQmpoaWEyVmdidlBvbFZ6TDFzMlJlaXkwdml2ck5nSGppWjdEaVA5OFFhcmpUX1Uxc1VVUlVoM3hPMkRXakZqYXRVajBKLXlRZ1gtWGJXckptS05fYTJiSzFBelo3SThBaHVaVWZwQUVtclFhOW5QNWJQejBHTUttV0E3TlU0NmkybnRqelZvODdpWnFxMG5rYmxfNkVHSk1LcGhaX25GalJ3R2xuSTlrZkVEUy1fcDRHNnFjMmxaN2c1UEhkbWZ0enJhanZROXBSRkF2YnF6RWo1TUo4dGtaaUk0M05lNl9KTUVEbFJQaEowLXpDMFJFd3hSUWwxMTNBMGx0cTFYTVM2TEpNQ1ZpWXdLZGJiSVZ0V0lhVWlTYjgxR0J1MXFCa093TjFhWEpJSnRaOFh3?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNRFlmTTY4VGNiU3ZnX1RhanhGV1BaazFxcWttLWVXNC1YUnluSkRtMnQ3OFpPVG1JNFcxM1ljb0h0cHc0MllMTEJGYjJjcUk2aDRNRGRUblBPZzZ3eU1IbVM0bTZjUFpFQmpoaWEyVmdidlBvbFZ6TDFzMlJlaXkwdml2ck5nSGppWjdEaVA5OFFhcmpUX1Uxc1VVUlVoM3hPMkRXakZqYXRVajBKLXlRZ1gtWGJXckptS05fYTJiSzFBelo3SThBaHVaVWZwQUVtclFhOW5QNWJQejBHTUttV0E3TlU0NmkybnRqelZvODdpWnFxMG5rYmxfNkVHSk1LcGhaX25GalJ3R2xuSTlrZkVEUy1fcDRHNnFjMmxaN2c1UEhkbWZ0enJhanZROXBSRkF2YnF6RWo1TUo4dGtaaUk0M05lNl9KTUVEbFJQaEowLXpDMFJFd3hSUWwxMTNBMGx0cTFYTVM2TEpNQ1ZpWXdLZGJiSVZ0V0lhVWlTYjgxR0J1MXFCa093TjFhWEpJSnRaOFh3?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-04-08T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Monitor detection coverage and health using Detection Studio in Splunk Enterprise Security Splunk",
+    "summarySource": "extractive",
+    "clusterId": "76ca4e8b01fd4d95",
+    "lang": "en",
+    "license": null,
     "attribution": "via Splunk (Google News)"
   },
   {
@@ -3948,12 +4516,15 @@
       "product-release",
       "security"
     ],
-    "summary": "Finding-based detections available in Splunk Enterprise Security Splunk",
+    "summary": "Finding-based detections available in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "0c8746de7021a2b6",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "9d2ec863ad8fe91f",
@@ -3980,7 +4551,44 @@
     "attribution": "via Prometheus Blog",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
+  },
+  {
+    "id": "30027059f1a2db5b",
+    "title": "Pair Splunk SOAR (Cloud) with Splunk Enterprise Security - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYWTRTcjREZU9GRE1ZaXl2bXJCdXpodG51N2pWT0hvdnQwSjBSUFpJelRsWFQwdVBrSGtWQ0RuSm9BRlpQSlRZUDJZZ2tUVEFQTHZoOXprLVZhVU5oWVdiZGdMbTRrZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYWTRTcjREZU9GRE1ZaXl2bXJCdXpodG51N2pWT0hvdnQwSjBSUFpJelRsWFQwdVBrSGtWQ0RuSm9BRlpQSlRZUDJZZ2tUVEFQTHZoOXprLVZhVU5oWVdiZGdMbTRrZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-04-07T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security",
+      "splunk-soar"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Pair Splunk SOAR (Cloud) with Splunk Enterprise Security Splunk",
+    "summarySource": "extractive",
+    "clusterId": "30027059f1a2db5b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "8dfcf1bfdb711fac",
@@ -3995,15 +4603,11 @@
     "author": "Adrian Iliesiu",
     "publishedAt": "2026-04-02T23:39:27+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Catch up on the Cisco Meraki Month of Meraki series. Explore OAuth, Splunk, Cisco Spaces, ThousandEyes, and AI-driven APIs to build smarter, automated, and observable networks.",
+    "summary": "Celebrating the Month of Meraki",
     "summarySource": "extractive",
     "clusterId": "8dfcf1bfdb711fac",
     "lang": "en",
@@ -4011,6 +4615,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4036,6 +4643,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4065,6 +4675,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4084,7 +4697,7 @@
       "splunk"
     ],
     "tags": [],
-    "summary": "Release notes for the Splunk Common Information Model Add-on Splunk",
+    "summary": "Release notes for the Splunk Common Information Model Add-on - Splunk",
     "summarySource": "extractive",
     "clusterId": "3c418dac442c81d7",
     "lang": "en",
@@ -4092,6 +4705,9 @@
     "attribution": "via Splunk (Google News)",
     "categories": [
       "product-release"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4107,12 +4723,9 @@
     "author": "John Filitz",
     "publishedAt": "2026-04-01T14:51:01+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cisco at S4x26 showcased how Cyber Vision enables OT asset discovery and segmentation without extra hardware, while also demonstrating the power of Splunk — driving visibility, control, and streamlined SecOps workflows to cut OT cyber risk.",
+    "summary": "How Visibility-Driven Segmentation is Redefining the OT Security Starting Line",
     "summarySource": "extractive",
     "clusterId": "1305deb10bf62959",
     "lang": "en",
@@ -4120,6 +4733,9 @@
     "attribution": "via Cisco Blogs — Splunk",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4135,16 +4751,12 @@
     "author": "Chuck Churchill",
     "publishedAt": "2026-04-01T13:19:39+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ai-ops",
       "thousandeyes"
     ],
-    "summary": "Learn how Cisco IT is evolving beyond reactive MTTR by leveraging unified observability, AI-driven workflows, and centralized data to prevent incidents before they impact users.",
+    "summary": "Beyond MTTR: Why the future of IT is preventative, not reactive",
     "summarySource": "extractive",
     "clusterId": "605c6ba7e17eac78",
     "lang": "en",
@@ -4152,6 +4764,9 @@
     "attribution": "via Cisco Blogs — Splunk",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4167,12 +4782,9 @@
     "author": "Barry Yuan",
     "publishedAt": "2026-03-31T22:17:11+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "OpenClaw enables powerful AI agent workflows—but introduces new security risks. Learn why securing tools, MCP servers, and agent-generated code is critical, and how DefenseClaw helps protect your environment.",
+    "summary": "Don’t deploy OpenClaw without securing it – Try this opensource solution and hands-on lab",
     "summarySource": "extractive",
     "clusterId": "6bf371385a0c9d0a",
     "lang": "en",
@@ -4180,6 +4792,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4205,6 +4820,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4232,6 +4850,9 @@
     "attribution": "via SecurityBrief Australia (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4262,6 +4883,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4277,12 +4901,9 @@
     "author": "Neelesh Pateriya",
     "publishedAt": "2026-03-27T18:01:48+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Start a Learning Lab, get instant LLM access. No provider signups, no LLM configuration—just open the terminal and the model is ready. AI Defense, MCP Security, A2A Protocol, and Skill Security labs are live now, with more AI-powered labs coming.",
+    "summary": "Bringing AI to DevNet Learning Labs",
     "summarySource": "extractive",
     "clusterId": "95cda00d9125fed5",
     "lang": "en",
@@ -4290,6 +4911,9 @@
     "attribution": "via Cisco Developer Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4315,6 +4939,9 @@
     "attribution": "via Cloud Native Now (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4344,6 +4971,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4374,6 +5004,9 @@
     "attribution": "via ThousandEyes (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4401,7 +5034,10 @@
     "clusterId": "5825be4c5f5c4044",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "95fa0af6ae0197ea",
@@ -4430,6 +5066,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4455,6 +5094,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4484,6 +5126,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4513,6 +5158,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4542,6 +5190,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4571,6 +5222,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4598,6 +5252,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4627,6 +5284,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "standards"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4656,6 +5316,9 @@
     "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4681,6 +5344,9 @@
     "attribution": "via Techzine Global (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4706,7 +5372,10 @@
     "clusterId": "a3bd4e6027656944",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via Cisco Blogs (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "470248f343f4ee4a",
@@ -4735,6 +5404,9 @@
     "attribution": "via ThousandEyes (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4763,6 +5435,9 @@
     "attribution": "via Network World (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4790,7 +5465,10 @@
     "clusterId": "f1a77767d7008339",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "b02380e03bdc2146",
@@ -4817,6 +5495,9 @@
     "attribution": "via Cisco Blogs (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4846,6 +5527,9 @@
     "attribution": "via Cisco Blogs (Google News)",
     "categories": [
       "security"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4875,7 +5559,10 @@
     "clusterId": "4cdce66ccbc03b08",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via Cisco Blogs (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "3f7d3ceeaaa34691",
@@ -4902,7 +5589,10 @@
     "clusterId": "3f7d3ceeaaa34691",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via Cisco Blogs (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "a4269b7d9e067fd9",
@@ -4931,6 +5621,9 @@
     "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4956,6 +5649,9 @@
     "attribution": "via Prometheus Blog",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -4981,6 +5677,9 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
+    ],
+    "audiences": [
+      "global"
     ]
   },
   {
@@ -5006,6 +5705,44 @@
     "attribution": "via Analytics India Magazine (Google News)",
     "categories": [
       "news"
+    ],
+    "audiences": [
+      "global"
     ]
+  },
+  {
+    "id": "b8d959c346a1a7a1",
+    "title": "What's new in Dashboard Studio - Splunk",
+    "url": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-02-10T08:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:47:19+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "dashboard-studio",
+      "10.4",
+      "visualizations"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Dashboard Studio updates in Splunk 10.4: custom visualization framework, centralized Token Manager for debugging, unlimited input results, cascading inputs, and admin resource controls — aimed at richer, more reliable dashboards without hitting prior limits.",
+    "summarySource": "curated",
+    "clusterId": "98d4c0ba438c99e3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
   }
 ]

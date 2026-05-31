@@ -20,6 +20,8 @@ TEMPLATES_DIR = ROOT / "templates"
 SETTINGS_PATH = CONFIG_DIR / "settings.yaml"
 SOURCES_PATH = CONFIG_DIR / "sources.yaml"
 CURATED_PATH = CONFIG_DIR / "curated.yaml"
+CURATED_NORDICS_PATH = CONFIG_DIR / "curated-nordics.yaml"
+AUDIENCES_PATH = CONFIG_DIR / "audiences.yaml"
 BLOCKLIST_PATH = CONFIG_DIR / "blocklist.txt"
 
 ITEMS_PATH = DATA_DIR / "items.json"
@@ -39,7 +41,10 @@ VALID_CATEGORIES = (
     "research",
     "standards",
     "news",
+    "event",
 )
+
+VALID_AUDIENCES = ("global", "nordics", "nordics-no", "nordics-dk")
 
 
 def _load_yaml(path: Path) -> Any:
@@ -67,6 +72,13 @@ def load_sources(*, enabled_only: bool = True) -> list[dict]:
             continue
         out.append(src)
     return out
+
+
+def load_audiences_config() -> dict:
+    if not AUDIENCES_PATH.is_file():
+        return {}
+    data = _load_yaml(AUDIENCES_PATH) or {}
+    return data if isinstance(data, dict) else {}
 
 
 def load_blocklist() -> list[str]:

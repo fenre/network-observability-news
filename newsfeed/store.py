@@ -100,6 +100,10 @@ def merge_items(existing: list[dict], incoming: list[dict]) -> list[dict]:
                 cur["summarySource"] = "curated"
             if inc.get("tags"):
                 cur["tags"] = inc["tags"]
+            if inc.get("audiences"):
+                cur["audiences"] = inc["audiences"]
+            if inc.get("agentNote"):
+                cur["agentNote"] = inc["agentNote"]
         else:
             by_id[iid] = inc
     return list(by_id.values())
@@ -129,6 +133,10 @@ def prune(items: list[dict], settings: dict, *, log=None) -> list[dict]:
     cutoff = util.now_utc().timestamp() - days * 86400
     kept = []
     for it in items:
+        sid = (it.get("source") or {}).get("id", "")
+        if sid.startswith("curated-"):
+            kept.append(it)
+            continue
         dt = util.parse_iso(it.get("publishedAt"))
         if dt is None or dt.timestamp() >= cutoff:
             kept.append(it)

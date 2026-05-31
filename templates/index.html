@@ -406,6 +406,7 @@
     </div>
     <div class="topics-row">
       <span class="lbl">View</span>
+      <button type="button" class="preset-btn" id="presetNordics" aria-pressed="false">Nordics (NO/DK)</button>
       <button type="button" class="preset-btn" id="presetBriefing" aria-pressed="false">Partner briefing</button>
       <button type="button" class="preset-btn" id="presetAll" aria-pressed="false">All categories</button>
     </div>
@@ -421,6 +422,11 @@
   <section class="highlights page" id="highlightsSection" hidden>
     <h2>Platform updates — Splunk &amp; Cisco (briefing picks)</h2>
     <ol id="highlightsList"></ol>
+  </section>
+  <section class="highlights page" id="talkingPointsSection" hidden>
+    <h2>Nordic partner context (for agents)</h2>
+    <ul id="talkingPointsList"></ul>
+    <p class="meta">Agents: fetch <a href="api/briefing-nordics.json">api/briefing-nordics.json</a></p>
   </section>
   <p id="count"></p>
   <ol id="list"></ol>
@@ -452,12 +458,14 @@
     "tutorial": "How-to",
     "research": "Research",
     "standards": "Standards",
-    "news": "News"
+    "news": "News",
+    "event": "Event"
   };
   var MS_DAY = 86400000;
   var DEFAULT_CATS = DATA.defaultCategories || [];
   var BRIEFING_CATS = ["product-release", "tutorial"];
-  var state = { q: "", topics: new Set(), categories: new Set(), source: "", sort: "new", cluster: true, maxAgeDays: 0 };
+  var TALKING_POINTS = DATA.talkingPoints || [];
+  var state = { q: "", topics: new Set(), categories: new Set(), source: "", sort: "new", cluster: true, maxAgeDays: 0, nordicsOnly: false };
   var catButtons = {};
 
   var elList = document.getElementById("list"),
@@ -490,8 +498,10 @@
     b.onclick = function(){
       if (state.categories.has(c)) { state.categories.delete(c); b.setAttribute("aria-pressed", "false"); }
       else { state.categories.add(c); b.setAttribute("aria-pressed", "true"); }
-      document.getElementById("presetBriefing").setAttribute("aria-pressed", "false");
-      document.getElementById("presetAll").setAttribute("aria-pressed", "false");
+      ["presetBriefing", "presetAll", "presetNordics"].forEach(function(id){
+        var el = document.getElementById(id);
+        if (el) el.setAttribute("aria-pressed", "false");
+      });
       render();
     };
     catButtons[c] = b;
@@ -504,11 +514,16 @@
       var on = state.categories.has(c);
       catButtons[c].setAttribute("aria-pressed", on ? "true" : "false");
     });
-    ["presetBriefing", "presetAll"].forEach(function(id){
+    ["presetBriefing", "presetAll", "presetNordics"].forEach(function(id){
       var el = document.getElementById(id);
       if (el) el.setAttribute("aria-pressed", id === presetId ? "true" : "false");
     });
     render();
+  }
+
+  function hasNordicsAudience(it){
+    var aud = it.audiences || [];
+    return aud.indexOf("nordics") >= 0 || aud.indexOf("nordics-no") >= 0 || aud.indexOf("nordics-dk") >= 0;
   }
 
   function applyDefaultCategories(){
@@ -521,10 +536,16 @@
   }
 
   document.getElementById("presetBriefing").onclick = function(){
+    state.nordicsOnly = false;
     setCategoryFilter(BRIEFING_CATS.filter(function(c){ return catButtons[c]; }), "presetBriefing");
   };
   document.getElementById("presetAll").onclick = function(){
+    state.nordicsOnly = false;
     setCategoryFilter([], "presetAll");
+  };
+  document.getElementById("presetNordics").onclick = function(){
+    state.nordicsOnly = true;
+    setCategoryFilter([], "presetNordics");
   };
 
   (DATA.sources || []).forEach(function(s){
@@ -638,7 +659,24 @@
     });
   }
 
+  function renderTalkingPoints(){
+    var sec = document.getElementById("talkingPointsSection"),
+        ul = document.getElementById("talkingPointsList");
+    if (!sec || !ul || !TALKING_POINTS.length){
+      if (sec) sec.hidden = true;
+      return;
+    }
+    sec.hidden = false;
+    ul.innerHTML = "";
+    TALKING_POINTS.forEach(function(pt){
+      var li = document.createElement("li");
+      li.textContent = pt;
+      ul.appendChild(li);
+    });
+  }
+
   function matches(it){
+    if (state.nordicsOnly && !hasNordicsAudience(it)) return false;
     if (state.source && it.source.id !== state.source) return false;
     if (state.maxAgeDays > 0 && ageDays(it.publishedAt) > state.maxAgeDays) return false;
     if (state.topics.size){
@@ -733,6 +771,7 @@
     if (!isNaN(d)) g.textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
   }
   renderHighlights();
+  renderTalkingPoints();
   applyDefaultCategories();
 })();
 </script>

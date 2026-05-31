@@ -3,60 +3,81 @@
 from __future__ import annotations
 
 from difflib import SequenceMatcher
+from pathlib import Path
 
 from . import config, util
 from .normalize import canonical_url
 
-_CURATED_SOURCE = {
-    "id": "curated-splunk-platform",
-    "name": "Splunk (canonical)",
-    "homepage": "https://www.splunk.com/en_us/blog/platform",
-    "type": "curated",
-    "topics": ["splunk"],
-    "fulltext": "allow",
-    "license": None,
-    "enabled": True,
+_CURATED_SOURCES: dict[str, dict] = {
+    "curated-splunk-platform": {
+        "id": "curated-splunk-platform",
+        "name": "Splunk (canonical)",
+        "homepage": "https://www.splunk.com/en_us/blog/platform",
+        "type": "curated",
+        "topics": ["splunk"],
+        "fulltext": "allow",
+        "license": None,
+        "enabled": True,
+    },
+    "curated-nordics": {
+        "id": "curated-nordics",
+        "name": "Splunk Nordics (curated)",
+        "homepage": "https://usergroups.splunk.com/",
+        "type": "curated",
+        "topics": ["splunk"],
+        "fulltext": "deny",
+        "license": None,
+        "enabled": True,
+    },
 }
+
+_CURATED_PATHS: tuple[tuple[Path, str], ...] = (
+    (config.CURATED_PATH, "curated-splunk-platform"),
+    (config.CURATED_NORDICS_PATH, "curated-nordics"),
+)
 
 
 def load_curated_entries(settings: dict, *, log=print) -> list[dict]:
     """Return raw entries compatible with normalize()."""
-    path = config.CURATED_PATH
-    if not path.is_file():
-        return []
-
     ed = (settings.get("editorial") or {})
     if not ed.get("curated_enabled", True):
         return []
 
-    data = config._load_yaml(path) or {}
-    rows = data.get("curated") or []
     out: list[dict] = []
-    for row in rows:
-        if not isinstance(row, dict):
+    for path, source_key in _CURATED_PATHS:
+        if not path.is_file():
             continue
-        url = (row.get("url") or "").strip()
-        title = util.collapse_ws(row.get("title") or "")
-        if not url or not title:
-            continue
-        out.append({
-            "title": title,
-            "link": url,
-            "author": None,
-            "published_iso": row.get("publishedAt") or util.now_utc_iso(),
-            "publisher": "Splunk",
-            "feed_tags": row.get("tags") or [],
-            "_snippet": row.get("summary") or "",
-            "_fulltext": "",
-            "_source": dict(_CURATED_SOURCE),
-            "_curated_id": row.get("id") or "",
-            "_curated_topics": row.get("topics") or ["splunk"],
-            "_curated_categories": row.get("categories") or ["product-release"],
-            "_curated_summary": row.get("summary") or "",
-            "_curated_tags": row.get("tags") or [],
-        })
+        source = _CURATED_SOURCES[source_key]
+        data = config._load_yaml(path) or {}
+        rows = data.get("curated") or []
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            url = (row.get("url") or "").strip()
+            title = util.collapse_ws(row.get("title") or "")
+            if not url or not title:
+                continue
+            audiences = row.get("audiences") or ["global"]
+            out.append({
+                "title": title,
+                "link": url,
+                "author": None,
+                "published_iso": row.get("publishedAt") or util.now_utc_iso(),
+                "publisher": source.get("name", "Splunk"),
+                "feed_tags": row.get("tags") or [],
+                "_snippet": row.get("summary") or "",
+                "_fulltext": "",
+                "_source": dict(source),
+                "_curated_id": row.get("id") or "",
+                "_curated_topics": row.get("topics") or ["splunk"],
+                "_curated_categories": row.get("categories") or ["product-release"],
+                "_curated_summary": row.get("summary") or "",
+                "_curated_tags": row.get("tags") or [],
+                "_curated_audiences": audiences,
+                "_curated_agent_note": (row.get("agentNote") or "").strip(),
+            })
     if out:
-        log(f"  curated: {len(out)} canonical Splunk platform page(s)")
+        log(f"  curated: {len(out)} canonical page(s) (platform + nordics)")
     return out
 
 
@@ -72,8 +93,15 @@ def apply_curated_overrides(items: list[dict], curated_raw: list[dict], *, log=p
     if not curated_raw:
         return
 
+    platform_raw = [
+        r for r in curated_raw
+        if (r.get("_source") or {}).get("id") == "curated-splunk-platform"
+    ]
+    if not platform_raw:
+        return
+
     canon_by_title: list[tuple[str, dict]] = []
-    for raw in curated_raw:
+    for raw in platform_raw:
         canon = canonical_url(raw.get("link") or "")
         canon_by_title.append((raw.get("title", ""), {
             "url": raw.get("link"),
@@ -81,9 +109,9 @@ def apply_curated_overrides(items: list[dict], curated_raw: list[dict], *, log=p
             "summary": raw.get("_curated_summary") or raw.get("_snippet") or "",
             "summarySource": "curated",
             "source": {
-                "id": _CURATED_SOURCE["id"],
-                "name": _CURATED_SOURCE["name"],
-                "homepage": _CURATED_SOURCE["homepage"],
+                "id": "curated-splunk-platform",
+                "name": _CURATED_SOURCES["curated-splunk-platform"]["name"],
+                "homepage": _CURATED_SOURCES["curated-splunk-platform"]["homepage"],
             },
             "attribution": "via Splunk (canonical)",
             "tags": list(raw.get("_curated_tags") or []),
@@ -92,7 +120,7 @@ def apply_curated_overrides(items: list[dict], curated_raw: list[dict], *, log=p
 
     upgraded = 0
     for it in items:
-        if (it.get("source") or {}).get("id") == _CURATED_SOURCE["id"]:
+        if (it.get("source") or {}).get("id") in _CURATED_SOURCES:
             continue
         title = it.get("title", "")
         for ct, patch in canon_by_title:
@@ -111,7 +139,7 @@ def apply_curated_overrides(items: list[dict], curated_raw: list[dict], *, log=p
 
 
 def normalize_curated_extras(item: dict, raw: dict) -> None:
-    """After classify — lock in curated topics/categories/summary."""
+    """After classify — lock in curated topics/categories/summary/audiences."""
     if (raw.get("_source") or {}).get("type") != "curated":
         return
     topics = raw.get("_curated_topics") or ["splunk"]
@@ -125,3 +153,11 @@ def normalize_curated_extras(item: dict, raw: dict) -> None:
     tags = raw.get("_curated_tags") or []
     if tags:
         item["tags"] = sorted({*(item.get("tags") or []), *tags})
+    aud = raw.get("_curated_audiences") or ["global"]
+    cleaned = [a for a in aud if a in config.VALID_AUDIENCES]
+    if "global" not in cleaned:
+        cleaned.insert(0, "global")
+    item["audiences"] = cleaned or ["global"]
+    note = (raw.get("_curated_agent_note") or "").strip()
+    if note:
+        item["agentNote"] = util.truncate_chars(note, 500)

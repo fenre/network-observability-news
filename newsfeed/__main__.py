@@ -14,10 +14,12 @@ Examples:
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 
 from . import (
     __version__,
+    audiences as audiences_mod,
     build as build_mod,
     classify as classify_mod,
     config,
@@ -29,6 +31,38 @@ from . import (
     normalize as normalize_mod,
     store,
 )
+
+
+_COMMUNITY_NORDIC_RE = re.compile(
+    r"|".join([
+        r"\bnorway\b", r"\bnorge\b", r"\bdenmark\b", r"\bdanmark\b",
+        r"\bnordic\b", r"\boslo\b", r"\bcopenhagen\b", r"\bhelsinki\b",
+        r"\bbergen\b", r"\btrondheim\b", r"\baarhus\b",
+    ]),
+    re.IGNORECASE,
+)
+
+
+def _filter_community_nordic_raw(raw_entries: list[dict], *, log) -> list[dict]:
+    """Keep only Nordic-relevant rows from the Splunk Community UG events feed."""
+    kept: list[dict] = []
+    dropped = 0
+    for raw in raw_entries:
+        sid = (raw.get("_source") or {}).get("id", "")
+        if sid != "splunk-community-ug-events":
+            kept.append(raw)
+            continue
+        hay = " ".join([
+            raw.get("title", ""),
+            raw.get("_snippet", ""),
+        ])
+        if _COMMUNITY_NORDIC_RE.search(hay):
+            kept.append(raw)
+        else:
+            dropped += 1
+    if dropped:
+        log(f"  community UG: kept {len(kept)} Nordic-tagged row(s), dropped {dropped} other region(s)")
+    return kept
 
 
 def _make_logger(quiet: bool):
@@ -47,6 +81,7 @@ def cmd_run(args) -> int:
     sources = config.load_sources()
     enabled_source_ids = {s["id"] for s in sources}
     enabled_source_ids.add("curated-splunk-platform")
+    enabled_source_ids.add("curated-nordics")
     blocklist = config.load_blocklist()
     log(f"newsfeed {__version__} — run ({'DRY-RUN' if dry else 'live'}, "
         f"LLM {'on' if use_llm else 'off'}) — {len(sources)} sources")
@@ -62,6 +97,7 @@ def cmd_run(args) -> int:
     )
     curated_raw = curated_mod.load_curated_entries(settings, log=log)
     raw_entries = curated_raw + raw_entries
+    raw_entries = _filter_community_nordic_raw(raw_entries, log=log)
     if args.limit:
         raw_entries = raw_entries[: args.limit]
     log(f"  fetched {len(raw_entries)} raw entries (incl. curated)")
@@ -107,6 +143,7 @@ def cmd_run(args) -> int:
             curated_mod.normalize_curated_extras(it, raw)
     curated_mod.apply_curated_overrides(merged, curated_raw, log=log)
     dedupe_mod.cluster(merged)
+    audiences_mod.assign_audiences(merged, settings, log=log)
     merged = relevance_mod.filter_technical(merged, settings, log=log)
 
     # 6) enrich (new + any still-extractive get a chance to upgrade)

@@ -29,7 +29,7 @@ _SUMMARY_PROMPT = (
     "Splunk, Cisco Data Fabric, and network observability.\n"
     "Write an ORIGINAL, neutral summary of the article below in {n} sentences "
     "or fewer. Do NOT copy sentences verbatim from the source. Be factual and "
-    "vendor-neutral. Then list up to 5 short lower-case topic/product tags.\n\n"
+    "vendor-neutral.{nordic_hint} Then list up to 5 short lower-case topic/product tags.\n\n"
     "Return ONLY minified JSON of the form:\n"
     '{{"summary": "<text>", "tags": ["tag1", "tag2"]}}\n\n'
     "TITLE: {title}\n"
@@ -100,8 +100,17 @@ class LLMClient:
         if not self.available or self._client is None:
             return None
         body = _content_for_summary(item)[:8000]
+        aud = set(item.get("audiences") or [])
+        nordic_hint = ""
+        if aud & {"nordics", "nordics-no", "nordics-dk"}:
+            nordic_hint = (
+                " If relevant, add one short sentence on why this matters for "
+                "Splunk partners in Norway and Denmark (events, regulation, or "
+                "local community)."
+            )
         prompt = _SUMMARY_PROMPT.format(
             n=sentences,
+            nordic_hint=nordic_hint,
             title=item.get("title", ""),
             source=item.get("source", {}).get("name", ""),
             body=body or item.get("title", ""),

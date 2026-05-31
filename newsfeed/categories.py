@@ -37,6 +37,11 @@ _CATEGORY_SIGNALS: tuple[tuple[str, tuple[str, ...]], ...] = (
         "ietf", "rfc ", "openconfig", "yang model", "semantic convention",
         "internet protocol", "bgp ", "ripe ", "apnic ", "routing policy",
     )),
+    ("event", (
+        "user group", "usergroup", "meetup", "conference", "splunkug",
+        "splunk user conference", "in-person event", "virtual splunk user group",
+        "splunk community champions",
+    )),
 )
 
 # Source ids that default to engineering-blog category when nothing else matches.
@@ -73,6 +78,10 @@ def assign_categories(item: dict, settings: dict) -> dict:
             found.append(cat)
 
     sid = (item.get("source") or {}).get("id", "")
+    canon = (item.get("canonicalUrl") or item.get("url") or "").lower()
+    if "usergroups.splunk.com" in canon:
+        found.append("event")
+
     if not found and sid in _ENGINEERING_SOURCES:
         found.append("tutorial")
 

@@ -16,6 +16,7 @@
     "topics",
     "tags",
     "categories",
+    "audiences",
     "summary",
     "summarySource",
     "clusterId",
@@ -69,11 +70,27 @@
           "tutorial",
           "research",
           "standards",
-          "news"
+          "news",
+          "event"
         ]
       },
       "uniqueItems": true,
       "minItems": 1
+    },
+    "audiences": {
+      "type": "array",
+      "description": "Agent/region targeting. global = default; nordics* = Norway/Denmark partner slice.",
+      "items": {
+        "type": "string",
+        "enum": ["global", "nordics", "nordics-no", "nordics-dk"]
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "agentNote": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Optional static briefing hint for AI agents (curated entries)."
     },
     "summary": {
       "type": "string",

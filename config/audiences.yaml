@@ -1,0 +1,72 @@
+# Audience signals for agent-first regional briefings (Norway / Denmark).
+# Used by newsfeed/audiences.py — patterns are Python regex (case-insensitive).
+
+signals:
+  nordics:
+    - "\\bnorway\\b"
+    - "\\bnorge\\b"
+    - "\\bdenmark\\b"
+    - "\\bdanmark\\b"
+    - "\\bnordic\\b"
+    - "\\bscandinavia\\b"
+    - "\\boslo\\b"
+    - "\\bcopenhagen\\b"
+    - "\\bkøbenhavn\\b"
+    - "\\bkobenhavn\\b"
+    - "\\bhelsinki\\b"
+    - "usergroups\\.splunk\\.com"
+    - "splunk user group"
+    - "nordic splunk user conference"
+    - "\\bconscia\\b"
+    - "\\batea\\b"
+    - "\\bwingmen\\b"
+    - "\\bspringboard\\b"
+  nordics_no:
+    - "\\bnorway\\b"
+    - "\\bnorge\\b"
+    - "\\boslo\\b"
+    - "\\bbergen\\b"
+    - "\\btrondheim\\b"
+    - "\\.no/"
+  nordics_dk:
+    - "\\bdenmark\\b"
+    - "\\bdanmark\\b"
+    - "\\bcopenhagen\\b"
+    - "\\bkøbenhavn\\b"
+    - "\\bkobenhavn\\b"
+    - "\\baarhus\\b"
+    - "\\bårhus\\b"
+    - "\\.dk/"
+  regulatory:
+    - "\\bnis2\\b"
+    - "\\bgdpr\\b"
+    - "eu data act"
+
+# Feeds that always tag nordics (see config/sources.yaml).
+nordic_source_ids:
+  - gnews-splunk-nordics
+  - gnews-splunk-nordics-no
+  - gnews-splunk-nordics-dk
+  - splunk-community-ug-events
+  - curated-nordics
+
+# Optional retention priority (merged into settings retention at run time).
+boost_source_ids:
+  - gnews-splunk-nordics
+  - gnews-splunk-nordics-no
+  - gnews-splunk-nordics-dk
+  - curated-nordics
+
+talkingPoints:
+  - >-
+    Splunk Platform GA (e.g. 10.4, Dashboard Studio) applies to EU/Nordic estates;
+    confirm Splunk Cloud region, data residency, and upgrade windows with each customer.
+  - >-
+    NIS2 and sector regulation often drive observability and SOC investment in Norway
+    and Denmark — tie product capabilities to compliance outcomes, not generic threat news.
+  - >-
+    Local enablement: Oslo and Denmark Splunk user groups, Nordic Splunk User Conference,
+    and .conf sessions — use curated event links in briefing-nordics.json for dates and URLs.
+  - >-
+    Summaries are in English for agent consistency; NO/DK source articles may be in local
+    language — verify claims at canonicalUrl before customer-facing slides.

@@ -54,10 +54,13 @@ Freshness: the site is rebuilt on a schedule (about every 6 hours). It is a
   represent it as one.
 
 Hallucination guard: item ids are the first 16 hex chars of sha1(canonicalUrl).
-  Do not fabricate ids or links. The authoritative dataset is /api/items.json.
+  Do not fabricate ids or links. Norway/Denmark partners: /api/briefing-nordics.json;
+  global partners: /api/briefing.json; full dataset: /api/items.json.
 
 [Resources]
 Agent entrypoint:   /AGENTS.md
+Nordics briefing:   /api/briefing-nordics.json
+Partner briefing:   /api/briefing.json
 LLM site index:     /llms.txt
 LLM full summaries: /llms-full.txt
 Machine manifest:   /manifest.json

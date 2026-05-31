@@ -238,6 +238,17 @@ def is_technical_audience(item: dict, settings: dict) -> bool:
     if _is_must_keep(item, settings):
         return True
 
+    aud = set(item.get("audiences") or [])
+    cats = set(item.get("categories") or [])
+    canon = (item.get("canonicalUrl") or item.get("url") or "").lower()
+    if aud & {"nordics", "nordics-no", "nordics-dk"}:
+        if "event" in cats or "usergroups.splunk.com" in canon:
+            return True
+        if (item.get("source") or {}).get("id", "").startswith("gnews-splunk-nordics"):
+            return True
+        if (item.get("source") or {}).get("id") == "curated-nordics":
+            return True
+
     if editorial.is_incident_or_politics(item, settings):
         return False
 

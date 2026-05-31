@@ -15,7 +15,7 @@ import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import __version__, config, highlights, store, util
+from . import __version__, audiences, config, highlights, store, util
 
 TOPIC_LABELS = {
     "splunk": "Splunk",
@@ -31,6 +31,7 @@ CATEGORY_LABELS = {
     "research": "Research / report",
     "standards": "Standards / protocols",
     "news": "Industry news",
+    "event": "Event / user group",
 }
 
 # AI/LLM crawler allow-list (mirrors the convention in the sibling repo).
@@ -121,6 +122,7 @@ def build_site(out_dir: str | Path, *, settings: dict, items: list[dict], log=pr
     repo_url = str(site.get("repository", "")).rstrip("/")
     build_cfg = settings.get("build", {}) or {}
     generated_at = _generated_at()
+    audiences._compile_patterns(settings)
 
     # Enforce the takedown blocklist at build time too, so a freshly-blocked
     # item disappears from the published site on the very next build even
@@ -133,6 +135,9 @@ def build_site(out_dir: str | Path, *, settings: dict, items: list[dict], log=pr
 
     # Public, sorted dataset (newest first), transient keys stripped.
     pub = [_public(it) for it in items]
+    for it in pub:
+        audiences.ensure_default_audiences(it)
+    audiences.assign_audiences(pub, settings, log=log)
     pub.sort(key=lambda it: (it.get("publishedAt") or "", it.get("id") or ""), reverse=True)
 
     # Derived structures for filters / clusters.
@@ -164,6 +169,59 @@ def build_site(out_dir: str | Path, *, settings: dict, items: list[dict], log=pr
     by_id = {it["id"]: it for it in pub}
     highlight_items = [by_id[i] for i in highlight_ids if i in by_id]
 
+    product_releases = [
+        it for it in pub
+        if "product-release" in (it.get("categories") or [])
+    ][:60]
+
+    briefing = {
+        "generatedAt": generated_at,
+        "purpose": "partner_briefing",
+        "highlights": highlight_items,
+        "productReleases": product_releases,
+        "filterHints": {
+            "categories": ["product-release"],
+            "topics": ["splunk", "cisco-data-fabric", "network-observability"],
+        },
+    }
+    _write(out / "api" / "briefing.json", json.dumps(briefing, ensure_ascii=False, indent=2))
+
+    def _has_nordics(it: dict) -> bool:
+        return bool(set(it.get("audiences") or []) & {"nordics", "nordics-no", "nordics-dk"})
+
+    local_nordics = [it for it in pub if _has_nordics(it)][:40]
+    events_nordics = [
+        it for it in local_nordics
+        if "event" in (it.get("categories") or []) or "user-group" in (it.get("tags") or [])
+    ][:20]
+
+    briefing_nordics = {
+        "generatedAt": generated_at,
+        "purpose": "partner_briefing_nordics",
+        "audience": {
+            "id": "nordics",
+            "countries": ["NO", "DK"],
+            "locale": "en",
+            "maintainer": site.get("maintainer", ""),
+        },
+        "platformSpine": {
+            "highlights": highlight_items,
+            "productReleases": product_releases,
+        },
+        "local": local_nordics,
+        "events": events_nordics,
+        "talkingPoints": audiences.talking_points(),
+        "filterHints": {
+            "audiences": ["nordics", "nordics-no", "nordics-dk"],
+            "categories": ["product-release", "event", "tutorial"],
+            "topics": ["splunk", "cisco-data-fabric", "network-observability"],
+        },
+    }
+    _write(
+        out / "api" / "briefing-nordics.json",
+        json.dumps(briefing_nordics, ensure_ascii=False, indent=2),
+    )
+
     data_js = {
         "generatedAt": generated_at,
         "title": site.get("title", ""),
@@ -171,6 +229,7 @@ def build_site(out_dir: str | Path, *, settings: dict, items: list[dict], log=pr
         "categories": present_categories,
         "defaultCategories": [c for c in default_cats if c in present_categories],
         "highlights": highlight_items,
+        "talkingPoints": audiences.talking_points(),
         "sources": sources_list,
         "items": pub,
     }
@@ -417,6 +476,8 @@ def _render_llms(items, site, base_url, generated_at) -> str:
         lines.append("")
     lines += [
         "## Machine surfaces",
+        f"- [Partner briefing — Nordics NO/DK (JSON)]({base_url}/api/briefing-nordics.json)",
+        f"- [Partner briefing — global (JSON)]({base_url}/api/briefing.json)",
         f"- [Full dataset (JSON)]({base_url}/api/items.json)",
         f"- [JSON Feed 1.1]({base_url}/feed.json)",
         f"- [RSS 2.0]({base_url}/rss.xml)",
@@ -475,6 +536,8 @@ def _render_manifest(items, topics, sources, site, base_url, generated_at) -> st
         "surfaces": {
             "human": "/index.html",
             "items_json": "/api/items.json",
+            "briefing_json": "/api/briefing.json",
+            "briefing_nordics_json": "/api/briefing-nordics.json",
             "item_json": "/api/items/{id}.json",
             "item_html": "/items/{id}.html",
             "item_md": "/items/{id}.md",
@@ -565,6 +628,8 @@ def _render_ai_txt(site, base_url, repo_url) -> str:
         f"Agent entrypoint: {base_url}/AGENTS.md\n"
         f"LLM index:        {base_url}/llms.txt\n"
         f"Full summaries:   {base_url}/llms-full.txt\n"
+        f"Partner briefing (Nordics): {base_url}/api/briefing-nordics.json\n"
+        f"Partner briefing (global):  {base_url}/api/briefing.json\n"
         f"Dataset (JSON):   {base_url}/api/items.json\n"
         f"JSON Feed:        {base_url}/feed.json\n"
     )
@@ -589,6 +654,8 @@ Prefer the machine surfaces over scraping the HTML:
 
 | Surface | Path | Use |
 |---|---|---|
+| Nordics briefing (NO/DK) | `{base_url}/api/briefing-nordics.json` | **Start here for Norway/Denmark partners** |
+| Partner briefing (global) | `{base_url}/api/briefing.json` | Highlights + product releases (all regions) |
 | Full dataset | `{base_url}/api/items.json` | All items as a JSON array |
 | Single item | `{base_url}/api/items/{{id}}.json` | One item by id |
 | JSON Feed 1.1 | `{base_url}/feed.json` | Subscribe / sync |
@@ -601,6 +668,26 @@ Prefer the machine surfaces over scraping the HTML:
 ## Topics
 
 {topic_lines}
+
+## Claude Code and coding agents
+
+This site is built for **agent-first consumption** (especially Claude Code):
+
+1. **Norway / Denmark partners:** fetch `{base_url}/api/briefing-nordics.json` once per
+   session. Use `platformSpine.highlights` / `platformSpine.productReleases` for global
+   GA news; use `local` and `events` for Nordic community and regional stories; read
+   `talkingPoints` before customer-facing output.
+2. **Other regions:** fetch `{base_url}/api/briefing.json` for the global partner slice.
+3. Fall back to `{base_url}/api/items.json` only when you need a wider slice (filter
+   client-side: `audiences` contains `nordics`, `categories` contains `product-release`).
+4. Prefer `canonicalUrl` over `url` when linking or citing (Google News wrappers
+   are normalized away where possible).
+5. Summaries are briefing aids — verify claims against `canonicalUrl` before
+   customer-facing slides. Optional per-item `agentNote` is authoritative context
+   from the maintainer (curated entries only).
+
+Local clone: committed source of truth is `data/items.json`; run
+`python -m newsfeed build` to refresh `dist/` without network.
 
 ## Rules for agents
 
@@ -615,6 +702,7 @@ Prefer the machine surfaces over scraping the HTML:
 ## Field contract (per item)
 
 `id, title, url, canonicalUrl, source{{id,name,homepage}}, author, publishedAt,
-fetchedAt, topics[], tags[], summary, summarySource(llm|extractive|publisher|none),
-clusterId, lang, license, attribution`
+fetchedAt, topics[], tags[], categories[], audiences[], agentNote?,
+summary, summarySource(llm|extractive|publisher|curated|none), clusterId, lang,
+license, attribution`
 """

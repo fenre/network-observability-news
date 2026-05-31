@@ -116,6 +116,7 @@ def normalize(raw: dict, settings: dict) -> dict | None:
         "topics": [],
         "tags": [],
         "categories": [],
+        "audiences": ["global"],
         "summary": "",
         "summarySource": "none",
         "clusterId": util.short_id(canon),

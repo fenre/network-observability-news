@@ -80,6 +80,47 @@ sources:
     license: null
     enabled: true
 
+  # ---- Nordics (NO/DK) — agent briefing slice --------------------------------
+  - id: gnews-splunk-nordics
+    name: "Google News — Splunk Nordics"
+    homepage: "https://news.google.com/"
+    feed: "https://news.google.com/rss/search?q=Splunk+(Norway+OR+Denmark+OR+Nordic+OR+Oslo+OR+Copenhagen)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-splunk-nordics-no
+    name: "Google News — Splunk Norway"
+    homepage: "https://news.google.com/"
+    feed: "https://news.google.com/rss/search?q=Splunk+(Norge+OR+Norway+OR+Oslo)&hl=no-NO&gl=NO&ceid=NO:no"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-splunk-nordics-dk
+    name: "Google News — Splunk Denmark"
+    homepage: "https://news.google.com/"
+    feed: "https://news.google.com/rss/search?q=Splunk+(Danmark+OR+Denmark+OR+K%C3%B8benhavn)&hl=da-DK&gl=DK&ceid=DK:da"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: splunk-community-ug-events
+    name: "Splunk Community — Global User Group Events"
+    homepage: "https://community.splunk.com/t5/Community-Blog/bg-p/Community-Blog"
+    feed: "https://community.splunk.com/t5/s/gxcuf89792/rss/Community-Blog"
+    type: rss
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
   - id: cisco-tag-splunk
     name: "Cisco Blogs — Splunk"
     homepage: "https://blogs.cisco.com/tag/splunk"

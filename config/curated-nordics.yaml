@@ -1,0 +1,49 @@
+# Nordic partner briefing spine — stable URLs for agents (NO/DK).
+# Loaded alongside config/curated.yaml.
+
+curated:
+  - id: nordic-splunk-user-conference-2026
+    url: >-
+      https://usergroups.splunk.com/events/details/splunk-oslo-splunk-user-group-presents-nordic-splunk-user-conference/cohost-denmark-splunk-user-group/
+    title: "Nordic Splunk User Conference 2026 (Oslo)"
+    publishedAt: "2026-05-28T08:00:00+00:00"
+    topics: [splunk]
+    categories: [event]
+    audiences: [nordics, nordics-no, nordics-dk]
+    tags: [user-group, oslo, conference]
+    agentNote: >-
+      Primary Nordic community event for partner briefings — co-hosted by Oslo and
+      Denmark user groups; use for customer invitations and local enablement talking points.
+    summary: >-
+      Two-day Nordic Splunk User Conference in Oslo (Technical Museum, Jan 15–16 2026),
+      co-hosted by the Oslo and Denmark Splunk user groups — aimed at ~200 practitioners
+      across the Nordics for networking and technical sessions.
+
+  - id: splunk-oslo-user-group
+    url: https://usergroups.splunk.com/oslo-splunk-user-group/
+    title: "Splunk Oslo Splunk User Group"
+    publishedAt: "2026-05-28T12:00:00+00:00"
+    topics: [splunk]
+    categories: [event]
+    audiences: [nordics, nordics-no]
+    tags: [user-group, oslo]
+    agentNote: >-
+      Norway chapter hub — point Norwegian customers and partners here for local meetups
+      and Nordic conference updates.
+    summary: >-
+      Oslo Splunk User Group chapter page on Splunk User Groups — local in-person and
+      virtual meetups for Splunk practitioners in Norway.
+
+  - id: splunk-denmark-user-group
+    url: https://usergroups.splunk.com/denmark-splunk-user-group/
+    title: "Splunk Denmark Splunk User Group"
+    publishedAt: "2026-05-28T12:00:00+00:00"
+    topics: [splunk]
+    categories: [event]
+    audiences: [nordics, nordics-dk]
+    tags: [user-group, denmark]
+    agentNote: >-
+      Denmark chapter hub — use for Danish partner and customer community engagement.
+    summary: >-
+      Denmark Splunk User Group chapter — regional Splunk practitioners meeting
+      virtually and in person across Denmark.

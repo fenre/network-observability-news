@@ -5,6 +5,10 @@ Guidance for AI coding agents and contributors working on
 generated agent entrypoint at `dist/AGENTS.md` describing how to *consume* the
 data — this file is about *developing* the project.)
 
+**Claude Code (primary consumer):** see `CLAUDE.md` for live URLs and briefing
+workflow. **Norway/Denmark:** `https://fenre.github.io/network-observability-news/api/briefing-nordics.json`.
+Global: `https://fenre.github.io/network-observability-news/api/briefing.json`.
+
 ## What this project is
 
 A static, GitHub-Pages-hosted **news aggregator** for Splunk, Cisco Data
