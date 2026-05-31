@@ -18,7 +18,7 @@
     "tags": [
       "grafana"
     ],
-    "summary": "Most platform and observability teams have logs they know are noise. These could be throwaway health check logs, forgotten DEBUG logs, or verbose INFO logs from little used services that only serve to inflate your bill. Regardless of what they contain and why they're there in the first place, the hard part is getting rid of them.",
+    "summary": "Eliminate noisy log lines with Adaptive Logs drop rules",
     "summarySource": "extractive",
     "clusterId": "f4844f9307db5ce6",
     "lang": "en",
@@ -44,7 +44,7 @@
     "tags": [
       "grafana"
     ],
-    "summary": "When an unexpected alert fires these days, most engineers' first move is to ask their AI assistant for help.You ask why your checkout service is slow and the assistant gets to work, but it can't get any meaningful insights—at least not quickly—without the proper guidance. So, the next thing you know you're sharing deals about your existing data sources, the services you have running, how they connect, which labels and metrics matter, and on and on. Every conversation starts from scratch, and that discovery process eats into the time you actually need for troubleshooting.",
+    "summary": "Faster fixes, less context sharing: how Grafana Assistant learns your infrastructure before you even ask",
     "summarySource": "extractive",
     "clusterId": "d6922dd99374cb93",
     "lang": "en",
@@ -71,7 +71,7 @@
       "grafana",
       "opentelemetry"
     ],
-    "summary": "Continuous profiling is becoming a standard part of the observability stack, and for good reason. It's the only signal that tells you why your code is slow or expensive, not just that it is. Metrics tell you CPU usage is high.",
+    "summary": "Introducing Pyroscope 2.0: faster, more cost-effective continuous profiling at scale",
     "summarySource": "extractive",
     "clusterId": "c87e40b79dc6598b",
     "lang": "en",
@@ -97,7 +97,7 @@
     "tags": [
       "grafana"
     ],
-    "summary": "Part of what makes Cloud Provider Observability in Grafana Cloud really useful is that it gives you prebuilt dashboards and drill-downs for AWS, Azure, and Google Cloud. Out of the box you get service overviews, instance-level views, and quick links to explore your data. However, you might already have dashboards you trust, want a view tailored to your team’s workflow, or need to change which panels show up when you drill into a single instance.",
+    "summary": "Customize preconfigured views for AWS, Azure, and Google Cloud with Cloud Provider Observability in Grafana Cloud",
     "summarySource": "extractive",
     "clusterId": "c12b19b3ef6fb254",
     "lang": "en",
@@ -123,7 +123,7 @@
     "tags": [
       "grafana"
     ],
-    "summary": "So your database is slow. Now what? Grafana Cloud Database Observability already gives you visibility into your SQL queries with RED metrics, individual execution samples, wait event breakdowns, table schemas, and visual explain plans.",
+    "summary": "Troubleshoot performance issues faster with the new Grafana Assistant integration for Database Observability",
     "summarySource": "extractive",
     "clusterId": "a5afdadf4e181726",
     "lang": "en",
@@ -149,7 +149,7 @@
     "tags": [
       "grafana"
     ],
-    "summary": "To simulate real user behavior, performance tests often rely on API keys, tokens, or credentials to interact with real systems. But as your testing suite grows, this sensitive data can start to sprawl across scripts, configs, and environments, increasing the risk of exposure and making tests harder to manage and maintain. To address this challenge, we’re rolling out secrets management for Grafana Cloud k6 , the fully managed performance testing platform powered by k6 OSS.",
+    "summary": "Secure performance testing at scale: Introducing secrets management for Grafana Cloud k6",
     "summarySource": "extractive",
     "clusterId": "92d859fee29a52ad",
     "lang": "en",
@@ -175,7 +175,7 @@
     "tags": [
       "grafana"
     ],
-    "summary": "Evaluating agents is hard. Verifying observability tasks is harder. Yes, AI agents have gotten dramatically and quantifiably better at coding and tool use, but observability presents a different kind of challenge.",
+    "summary": "Introducing o11y-bench: an open benchmark for AI agents running observability workflows",
     "summarySource": "extractive",
     "clusterId": "6f81c2622a0befcd",
     "lang": "en",
@@ -202,7 +202,7 @@
       "grafana",
       "opentelemetry"
     ],
-    "summary": "The way you write code is changing, which means the way you observe your systems and respond to issues needs to change, too. Engineers today spend much of their day working via command line, as agentic tools like Cursor and Claude Code have become highly effective at handling many day-to-day engineering tasks. This greatly accelerates code generation, but it doesn't solve for the context switching that comes when you have to jump into another tool that's not part of this new, faster workflow.",
+    "summary": "Get observability in the terminal, for you and your agents, with the gcx CLI tool",
     "summarySource": "extractive",
     "clusterId": "3f9fddbd5499832f",
     "lang": "en",
@@ -229,7 +229,7 @@
       "grafana",
       "opentelemetry"
     ],
-    "summary": "The observability industry has developed great tools for using metrics, logs, traces, and profiles to monitor the cloud native applications that have dominated the last decade of software development. But when it comes to understanding what an AI system is actually doing, we’re often left reading raw conversations, guessing at quality, and reacting too late. And that’s a problem.",
+    "summary": "AI Observability in Grafana Cloud: A complete solution for monitoring your agentic workloads",
     "summarySource": "extractive",
     "clusterId": "29090cbe1aeded78",
     "lang": "en",
@@ -256,7 +256,7 @@
       "grafana",
       "opentelemetry"
     ],
-    "summary": "For years, teams have relied on k6 to take a more proactive approach to performance testing, ensuring they can catch issues early and deliver more reliable user experiences. That approach has helped make k6 one of the most widely used performance testing tools in the open source community today, with more than 30k stars on GitHub . Last year, we introduced k6 1.0 , a major release that brought TypeScript support, native extensions, revamped test insights, and production-grade stability guarantees.",
+    "summary": "AI-assisted testing, extensions updates, and more: k6 2.0 is here",
     "summarySource": "extractive",
     "clusterId": "277d36555e2c80f3",
     "lang": "en",
@@ -288,6 +288,31 @@
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
+  },
+  {
+    "id": "3ad6abe6e6308e55",
+    "title": "Justin Barney - Cisco Newsroom",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ2d2S3o0UTFhZWhGVGtkZEFNWThNU3RDTjFMQXJiX2VZR1F5YkIwYTdGR3F2QlQwYWlDcWctemVvQ19NM3loV05zRWhOZXgtSzUwZDhLaHNsUXFZVVcxNDlQUGdNallYdXRMMWlDYWNNbzNmSUpqdGdwcTRJNHkyZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ2d2S3o0UTFhZWhGVGtkZEFNWThNU3RDTjFMQXJiX2VZR1F5YkIwYTdGR3F2QlQwYWlDcWctemVvQ19NM3loV05zRWhOZXgtSzUwZDhLaHNsUXFZVVcxNDlQUGdNallYdXRMMWlDYWNNbzNmSUpqdGdwcTRJNHkyZw?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Cisco Newsroom",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-05-28T18:09:23+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "Justin Barney Cisco Newsroom",
+    "summarySource": "extractive",
+    "clusterId": "3ad6abe6e6308e55",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Newsroom (Google News)"
   },
   {
     "id": "ebb4e8d410c8216b",
@@ -545,10 +570,11 @@
     "publishedAt": "2026-05-26T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [],
-    "summary": "2026 network outage report and internet health check - Network World",
+    "summary": "2026 network outage report and internet health check Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -700,6 +726,31 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Data Center Blog"
+  },
+  {
+    "id": "a87b643be6c38019",
+    "title": "Space as the next network edge – the evolution of global connectivity (Reader Forum) - RCR Wireless News",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZl9Nd0Z4bEZkbUJpWnR0ay1FNTM5ZXVETHd2eEdHSy1WTk1hV2VqREphd2JJMGV6UTVlWVlNRGNVVlBSS2FPR1ZSUF9OYVBvM2lVb2kyaC0xUXF2OE5NVm9xLTV3a1RydEJnbE9XWTRGd2Y5SUhERzNUcVJLOWc0V3l5TjVOR2V2WXJMRjdUbkhsMjAxZTNscTYyeEFsUHo3Qk04TkFOdFo?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZl9Nd0Z4bEZkbUJpWnR0ay1FNTM5ZXVETHd2eEdHSy1WTk1hV2VqREphd2JJMGV6UTVlWVlNRGNVVlBSS2FPR1ZSUF9OYVBvM2lVb2kyaC0xUXF2OE5NVm9xLTV3a1RydEJnbE9XWTRGd2Y5SUhERzNUcVJLOWc0V3l5TjVOR2V2WXJMRjdUbkhsMjAxZTNscTYyeEFsUHo3Qk04TkFOdFo?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "RCR Wireless News",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-05-21T10:18:55+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "Space as the next network edge – the evolution of global connectivity (Reader Forum) RCR Wireless News",
+    "summarySource": "extractive",
+    "clusterId": "a87b643be6c38019",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RCR Wireless News (Google News)"
   },
   {
     "id": "373e426195e56249",
@@ -961,13 +1012,12 @@
     "publishedAt": "2026-05-14T00:28:22+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Visibility Is Table Stakes. Confidence Wins. ThousandEyes",
+    "summary": "Visibility Is Table Stakes. Confidence Wins. - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "26c2027f9d3dae26",
     "lang": "en",
@@ -1085,7 +1135,7 @@
       "homepage": "https://news.google.com/search?q=Kentik%20OR%20Catchpoint%20network"
     },
     "author": null,
-    "publishedAt": "2026-05-11T10:56:13+00:00",
+    "publishedAt": "2026-05-11T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
       "network-observability"
@@ -1969,6 +2019,31 @@
     "attribution": "via crn.com (Google News)"
   },
   {
+    "id": "29dd69be6245a55d",
+    "title": "A simpler path to unified, AI-ready network operations - Cisco Blogs",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQnlPRE02UmoxZmdBd0dxRjZEdmNKeWZmUmRHWHBhSTh6TU9MOHR3WmgwM1pMWHNHZ1VfeGpjRkFZVG9rRUFoQjAxYXppMzRfZGt3XzA3bDdKUW1QaDZmZGVGQllDRDhfNmsxMXpoUDVkandoT213Y1lKQkdTQmtWdUktZXF5QjEwXzNnUk8zc2hwUQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQnlPRE02UmoxZmdBd0dxRjZEdmNKeWZmUmRHWHBhSTh6TU9MOHR3WmgwM1pMWHNHZ1VfeGpjRkFZVG9rRUFoQjAxYXppMzRfZGt3XzA3bDdKUW1QaDZmZGVGQllDRDhfNmsxMXpoUDVkandoT213Y1lKQkdTQmtWdUktZXF5QjEwXzNnUk8zc2hwUQ?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Cisco Blogs",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-04-09T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "A simpler path to unified, AI-ready network operations Cisco Blogs",
+    "summarySource": "extractive",
+    "clusterId": "29dd69be6245a55d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs (Google News)"
+  },
+  {
     "id": "17cd7fd2f6feb935",
     "title": "Powering MWC Barcelona – Building a Unified SOC and NOC with Splunk in Record Time - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR00yQzJ6SW1RbWV3cjdFR2c3THhoalBmM2xkUkdUNGRoMmpER0YtTlFpR3N3NnpJNnpSRl82b1ZBMnd5eGY3NFZVMVNSZEhGaEVrSjNSazNxQ3Zzb2I5aHZOQ3FfUExMZk8zT1dsY1dWZGhFdmlXeHltaXZrZGNJTWlkem5UcTVLWGI0c0Z3N3FCTktqZFUwNGNuM3MxME5oQ0lrdTFscWtfZ0VOYkhmSldTOA?oc=5",
@@ -2054,10 +2129,11 @@
     "publishedAt": "2026-04-07T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [],
-    "summary": "Empowering Retail Success: How Cisco and Zebra Transform Operations - Cisco Blogs",
+    "summary": "Empowering Retail Success: How Cisco and Zebra Transform Operations Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "3ec54db17a09ae35",
     "lang": "en",
@@ -2139,6 +2215,31 @@
     "attribution": "via Claim Depot (Google News)"
   },
   {
+    "id": "999fbc8b754e07d9",
+    "title": "Celebrating the Month of Meraki - Cisco Blogs",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iekl1MlNxcldTUTkxa0JtNEt2ZXVBczBIRm12eUlwekZ2SU5sVGt4aEZFQlhWZjA5a0pUYzZwWXBUVjhYTkZPenJZcjFQX05pSVZTZWtXYmQwTVNyOVpDVldHV0U2Z1FxcnBoMmJ2M3gwU2c?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iekl1MlNxcldTUTkxa0JtNEt2ZXVBczBIRm12eUlwekZ2SU5sVGt4aEZFQlhWZjA5a0pUYzZwWXBUVjhYTkZPenJZcjFQX05pSVZTZWtXYmQwTVNyOVpDVldHV0U2Z1FxcnBoMmJ2M3gwU2c?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Cisco Blogs",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-04-02T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "Celebrating the Month of Meraki Cisco Blogs",
+    "summarySource": "extractive",
+    "clusterId": "999fbc8b754e07d9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs (Google News)"
+  },
+  {
     "id": "1305deb10bf62959",
     "title": "How Visibility-Driven Segmentation is Redefining the OT Security Starting Line",
     "url": "https://blogs.cisco.com/industrial-iot/how-visibility-driven-segmentation-is-redefining-the-ot-security-starting-line",
@@ -2203,13 +2304,12 @@
     "publishedAt": "2026-04-01T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Assuring the First Mile: How Wireless Active Testing Powered Cisco Live Amsterdam 2026 ThousandEyes",
+    "summary": "Assuring the First Mile: How Wireless Active Testing Powered Cisco Live Amsterdam 2026 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "e175e4731239d678",
     "lang": "en",
@@ -3009,12 +3109,12 @@
   },
   {
     "id": "e7d1968071a0368f",
-    "title": "Cisco Live Amsterdam - how DHL Express keeps a ThousandEyes focused on its global network to ensure 100% uptime - diginomica",
+    "title": "Cisco Live Amsterdam - how DHL Express keeps a ThousandEyes focused on its global network to ensure 100% uptime - Diginomica",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZmtOZWVFeloxb1B5SnlHTTNFdWo4Snhzb0o1SV9vaTlqM243bkZYTzZCSmVvd3NxYVFtU0kySWJTOHc3UHdWbjRjTVRhWGp4dFNmcHpQVTNjR29GWUNCRGxmRV9udnhrbl8xd0thQUZIWGpwWHYwbGptenlteGlNTTJwdzBmdjY0LVgtQkdsaUZ4SkdQc1B2UDJXRzhSUjQwY0Q4cHpBa3ZDc1BNdVBzTzZkdFJpOUXSAbwBQVVfeXFMTl8xYms4V0ZRS0daeUJJYmg4TWZ3NWo4RGdUTzBYdzRpd25wRlIzSDNsUXVpYXo3RGdZdmFvZWZ0ZzJ5RU5Kek9GZDl4aG1CZ3N0WnE4WGEzX3Z4Rk1ZU1FOa19RTGhZVEJEQmpyVjc2NGVLUk9oVmNZYTRJc3V0QVN6SWVBbjRxRHpOZmxYVGdzVGRLN0Rxa0V4bEtLSjZKVkV3c21HV2E4SWJvRk9hM1RVOHc4N3BfbHpKSEk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZmtOZWVFeloxb1B5SnlHTTNFdWo4Snhzb0o1SV9vaTlqM243bkZYTzZCSmVvd3NxYVFtU0kySWJTOHc3UHdWbjRjTVRhWGp4dFNmcHpQVTNjR29GWUNCRGxmRV9udnhrbl8xd0thQUZIWGpwWHYwbGptenlteGlNTTJwdzBmdjY0LVgtQkdsaUZ4SkdQc1B2UDJXRzhSUjQwY0Q4cHpBa3ZDc1BNdVBzTzZkdFJpOUXSAbwBQVVfeXFMTl8xYms4V0ZRS0daeUJJYmg4TWZ3NWo4RGdUTzBYdzRpd25wRlIzSDNsUXVpYXo3RGdZdmFvZWZ0ZzJ5RU5Kek9GZDl4aG1CZ3N0WnE4WGEzX3Z4Rk1ZU1FOa19RTGhZVEJEQmpyVjc2NGVLUk9oVmNZYTRJc3V0QVN6SWVBbjRxRHpOZmxYVGdzVGRLN0Rxa0V4bEtLSjZKVkV3c21HV2E4SWJvRk9hM1RVOHc4N3BfbHpKSEk?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "diginomica",
+      "name": "Diginomica",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -3027,12 +3127,12 @@
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Cisco Live Amsterdam - how DHL Express keeps a ThousandEyes focused on its global network to ensure 100% uptime diginomica",
+    "summary": "Cisco Live Amsterdam - how DHL Express keeps a ThousandEyes focused on its global network to ensure 100% uptime Diginomica",
     "summarySource": "extractive",
     "clusterId": "e7d1968071a0368f",
     "lang": "en",
     "license": null,
-    "attribution": "via diginomica (Google News)"
+    "attribution": "via Diginomica (Google News)"
   },
   {
     "id": "a3418922576d0daf",
@@ -3335,6 +3435,31 @@
     "attribution": "via TechTarget (Google News)"
   },
   {
+    "id": "fc40207d45565c3c",
+    "title": "2026 network outage report and internet health check - ARNnet",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQREF0aDJ2Rjk4M1VqcFJ0Sk9jOU5VMjFVNTlEeXBKdGYwQmRSYzlSV2xORnNCemNOM2Fzb3BQS3QyeS1ONGhkWm1RUjdXX0hJUWdfX3FCSng5S2xqSlZGajRleEFwcE44Y3BOMVFYbDg3LVFSTnpqOUsxQ29TWWttYk4wSDdXcDVnNVpyUmw0dHNQT3V1cEc1RHBFUW9hZzM5cl93?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQREF0aDJ2Rjk4M1VqcFJ0Sk9jOU5VMjFVNTlEeXBKdGYwQmRSYzlSV2xORnNCemNOM2Fzb3BQS3QyeS1ONGhkWm1RUjdXX0hJUWdfX3FCSng5S2xqSlZGajRleEFwcE44Y3BOMVFYbDg3LVFSTnpqOUsxQ29TWWttYk4wSDdXcDVnNVpyUmw0dHNQT3V1cEc1RHBFUW9hZzM5cl93?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "ARNnet",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-01-21T08:00:00+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check ARNnet",
+    "summarySource": "extractive",
+    "clusterId": "fc40207d45565c3c",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ARNnet (Google News)"
+  },
+  {
     "id": "76da73b34a4a420a",
     "title": "NETSCOUT Enhances 5G Network Slicing with Real-Time Observability - The Fast Mode",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMXpJVG1ZZlBEaTQ1aG82X3RiQnN4VGZ5dG9DaHhQQzhySHpqMGRyUUg4UGRoNUxDalBPZEZidF9seERxV3N4M3IzQ1NjUnJfb3ZDa3lBY2F0UTJZbTA0QkVLdFZvVjFvV3AybUx1TzZHN01VSE4yRXBnRjhTa2ZWdEVqMW1IMmVoQmQyMmlkQ3pkQmJmY1JiMlF1M0NqR2tyZW0yaGw5SkdJWU5BYkp5U1VPN3N3emdlejRWQQ?oc=5",
@@ -3372,13 +3497,12 @@
     "publishedAt": "2026-01-16T08:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "X Outage Analysis: January 16, 2026 ThousandEyes",
+    "summary": "X Outage Analysis: January 16, 2026 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "499da163d7f9c02f",
     "lang": "en",
@@ -3399,13 +3523,12 @@
     "publishedAt": "2026-01-13T08:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "The Top Internet Outages of 2025: Analyses and Takeaways ThousandEyes",
+    "summary": "The Top Internet Outages of 2025: Analyses and Takeaways - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "900722d17b15d066",
     "lang": "en",
@@ -3478,13 +3601,12 @@
     "publishedAt": "2025-12-19T08:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "YouTube and Google Service Disruption Analysis: December 19, 2025 ThousandEyes",
+    "summary": "YouTube and Google Service Disruption Analysis: December 19, 2025 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "ab27d3cc342a1028",
     "lang": "en",
@@ -3505,13 +3627,12 @@
     "publishedAt": "2025-12-19T08:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Parsing Recent Cloudflare and Venmo Outages ThousandEyes",
+    "summary": "Parsing Recent Cloudflare and Venmo Outages - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "8c1f98fed4f323d9",
     "lang": "en",
@@ -3733,13 +3854,12 @@
     "publishedAt": "2025-12-05T08:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Cloudflare Outage Analysis: December 5, 2025 ThousandEyes",
+    "summary": "Cloudflare Outage Analysis: December 5, 2025 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "6c2c4810ca5f618c",
     "lang": "en",
@@ -3943,7 +4063,7 @@
       "splunk"
     ],
     "tags": [],
-    "summary": "From Detection to Deep Dive: Splunk Attack Analyzer and Endace for GovWare 2025 Security Cisco Blogs",
+    "summary": "From Detection to Deep Dive: Splunk Attack Analyzer and Endace for GovWare 2025 Security - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "bcb3665806422520",
     "lang": "en",
@@ -4308,6 +4428,31 @@
     "attribution": "via Business Wire (Google News)"
   },
   {
+    "id": "3df866c7795e7f02",
+    "title": "Cloudflare behind the latest outage to break the internet - Fierce Network",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTZXVzNaVGtzcUZLZHVlYWNpZUlpeGFvYmRNaVRERW5DVlBjby1HYXN0QmtObWtKOEtKNW9WTVkxbFctNG1EdWVpb1BSWlhIdFpzZWRkSzJwODljVHVtaUlaUEFVUjdlcVEzWllWRWZtM1EtOHJJdTlyQWVINTU0TGdwVGlhMTR3S2Nz?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTZXVzNaVGtzcUZLZHVlYWNpZUlpeGFvYmRNaVRERW5DVlBjby1HYXN0QmtObWtKOEtKNW9WTVkxbFctNG1EdWVpb1BSWlhIdFpzZWRkSzJwODljVHVtaUlaUEFVUjdlcVEzWllWRWZtM1EtOHJJdTlyQWVINTU0TGdwVGlhMTR3S2Nz?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Fierce Network",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2025-11-18T08:00:00+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "Cloudflare behind the latest outage to break the internet Fierce Network",
+    "summarySource": "extractive",
+    "clusterId": "3df866c7795e7f02",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Fierce Network (Google News)"
+  },
+  {
     "id": "309bf340c9a71498",
     "title": "Kentik Launches the First Agentic AI Solution That Deeply Understands the Network - Yahoo Finance",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbG9mRi1MTWlEU1p4b0xBQm02VDl1ckZablN6QW00cHdlV29jRGlLY0pJR2VDbWpCZVZUVzI3bkduT2V2ODk3ZjlRR0xqdXlheDFVbjBmcDRaMy1BRlp4ZmxDdTE4dlE4bWxFYy1IOGZLRGV2U0ROZm9HbDdWYXRyVkxRRFQ?oc=5",
@@ -4544,18 +4689,42 @@
     "publishedAt": "2025-10-31T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Tutorial: Dashboard Filters ThousandEyes",
+    "summary": "Tutorial: Dashboard Filters - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "a0bc7bf52590b5f3",
     "lang": "en",
     "license": null,
     "attribution": "via ThousandEyes (Google News)"
+  },
+  {
+    "id": "3ce1724040cdf0bd",
+    "title": "When the Cloud’s Backbone Falters: Why Digital Resilience Demands More Than Redundancy - Cisco Blogs",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb2V2VmJhTEZzSjRyajNkSkFNSHVRZ00yelRKZXZ0Wi1TSU1wZDlJamZISUtsa2dzWkZocFRjQncyQVdudkFoMzVJWjFvT2YzLVNETWN6OW50b0VYMlY1MWp5S3ctTHNSbHJES3hxaExTVjJYZmpCY2ZiNHZvcHhEWjVnaTZ0MHVVemtfa0ItYlVQYS1sNU55YXVEUGg5elRoRHFzY1FwYUVDNlFqRnprRjFpX1RObTlPRTZZ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb2V2VmJhTEZzSjRyajNkSkFNSHVRZ00yelRKZXZ0Wi1TSU1wZDlJamZISUtsa2dzWkZocFRjQncyQVdudkFoMzVJWjFvT2YzLVNETWN6OW50b0VYMlY1MWp5S3ctTHNSbHJES3hxaExTVjJYZmpCY2ZiNHZvcHhEWjVnaTZ0MHVVemtfa0ItYlVQYS1sNU55YXVEUGg5elRoRHFzY1FwYUVDNlFqRnprRjFpX1RObTlPRTZZ?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Cisco Blogs",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2025-10-31T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "When the Cloud’s Backbone Falters: Why Digital Resilience Demands More Than Redundancy Cisco Blogs",
+    "summarySource": "extractive",
+    "clusterId": "3ce1724040cdf0bd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "23456c196631d01b",
@@ -4724,13 +4893,12 @@
     "publishedAt": "2025-10-24T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Catching BGP Zombies: Announcing the ThousandEyes BGP Stuck Route Observatory ThousandEyes",
+    "summary": "Catching BGP Zombies: Announcing the ThousandEyes BGP Stuck Route Observatory - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "e9ce4d4335e39c76",
     "lang": "en",
@@ -5000,13 +5168,12 @@
     "publishedAt": "2025-10-13T07:00:00+00:00",
     "fetchedAt": "2026-05-31T13:22:03+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Why Traditional Monitoring Won’t Survive the AI Era ThousandEyes",
+    "summary": "Why Traditional Monitoring Won’t Survive the AI Era - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "a56ddb88608c5323",
     "lang": "en",
@@ -5027,13 +5194,12 @@
     "publishedAt": "2025-10-10T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "The Anatomy of a Backend Outage and Incidents at X, Claude & More ThousandEyes",
+    "summary": "The Anatomy of a Backend Outage and Incidents at X, Claude & More - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "eb2102949aaeb6a6",
     "lang": "en",
@@ -5108,13 +5274,12 @@
     "publishedAt": "2025-10-09T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Microsoft Azure Front Door Outage Analysis: October 9, 2025 ThousandEyes",
+    "summary": "Microsoft Azure Front Door Outage Analysis: October 9, 2025 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "18378c5e34bc903f",
     "lang": "en",
@@ -5135,13 +5300,12 @@
     "publishedAt": "2025-10-09T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Microsoft-AT&T Service Disruption: October 9, 2025 ThousandEyes",
+    "summary": "Microsoft-AT&T Service Disruption: October 9, 2025 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "1018e3774eb179dc",
     "lang": "en",
@@ -5756,7 +5920,7 @@
     "tags": [],
     "summary": "Cisco Supercharges Observability with Agentic AI for Real-Time Business Insights Cisco Newsroom",
     "summarySource": "extractive",
-    "clusterId": "e0b19899347ce48f",
+    "clusterId": "aca78758115cf270",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Newsroom (Google News)"
@@ -5784,6 +5948,31 @@
     "lang": "en",
     "license": null,
     "attribution": "via The Times of India (Google News)"
+  },
+  {
+    "id": "aca78758115cf270",
+    "title": "Cisco Supercharges Observability with Agentic AI for Real-Time Business Insights - PR Newswire",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeXRTQktWRlI4RHdzSmRkemZjYVlsWFBGaWtyZGRvMTBRYWxLVGZucmdMRUItVjlWTEdqTkhfRmhXQ1BabnRkY216UzNzdmNkWEdrZXROYmNHd2xWelk4UE9rRzdTNzJ1Uk85akVkUW5QWXNTYnhSb2NPNENTYW9ZV3dUZjFhQmhpUXJtbDNfUS1IOVZyUzFWYWgxVzVxR1B0YmNLZEZPSVFsS2tsY1RWZ2hKQnVwM0t6RXk3YnVLUkRFc1U0REI5c0JOYjRhNk51bXc?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeXRTQktWRlI4RHdzSmRkemZjYVlsWFBGaWtyZGRvMTBRYWxLVGZucmdMRUItVjlWTEdqTkhfRmhXQ1BabnRkY216UzNzdmNkWEdrZXROYmNHd2xWelk4UE9rRzdTNzJ1Uk85akVkUW5QWXNTYnhSb2NPNENTYW9ZV3dUZjFhQmhpUXJtbDNfUS1IOVZyUzFWYWgxVzVxR1B0YmNLZEZPSVFsS2tsY1RWZ2hKQnVwM0t6RXk3YnVLUkRFc1U0REI5c0JOYjRhNk51bXc?oc=5",
+    "source": {
+      "id": "gnews-splunk",
+      "name": "PR Newswire",
+      "homepage": "https://news.google.com/search?q=Splunk%20observability"
+    },
+    "author": null,
+    "publishedAt": "2025-09-09T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "splunk",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "Cisco Supercharges Observability with Agentic AI for Real-Time Business Insights PR Newswire",
+    "summarySource": "extractive",
+    "clusterId": "aca78758115cf270",
+    "lang": "en",
+    "license": null,
+    "attribution": "via PR Newswire (Google News)"
   },
   {
     "id": "9bf296d02f004db4",
@@ -6157,6 +6346,32 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Newsroom (Google News)"
+  },
+  {
+    "id": "b229776d38b67fd9",
+    "title": "Splunk Innovation at Black Hat USA - Cisco Blogs",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LN1VyUy00NDRpVVd4cDRNX1AwV2VudnVNbzJVM0paWTN0OVI1NWZYRnQ0Ml9iallPcGgxSlVZc1huYnpOdlNab2o3RzZScFdjbkczbE02UkpDV1l0dk41TGg1NDFfN0pLRWdrTUtCbXNQYmhjc1E?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LN1VyUy00NDRpVVd4cDRNX1AwV2VudnVNbzJVM0paWTN0OVI1NWZYRnQ0Ml9iallPcGgxSlVZc1huYnpOdlNab2o3RzZScFdjbkczbE02UkpDV1l0dk41TGg1NDFfN0pLRWdrTUtCbXNQYmhjc1E?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Cisco Blogs",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2025-09-03T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T15:47:35+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "summary": "Splunk Innovation at Black Hat USA Cisco Blogs",
+    "summarySource": "extractive",
+    "clusterId": "b229776d38b67fd9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "9160f393b770c1e1",
@@ -6564,10 +6779,11 @@
     "publishedAt": "2025-08-04T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [],
-    "summary": "How Nestlé Revamped Its Network for Resilience and Efficiency - Cisco Blogs",
+    "summary": "How Nestlé Revamped Its Network for Resilience and Efficiency Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "fbafcc14d864f7f4",
     "lang": "en",
@@ -6588,13 +6804,12 @@
     "publishedAt": "2025-08-04T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "An AI Assistant Fit for the AI Era Network ThousandEyes",
+    "summary": "An AI Assistant Fit for the AI Era Network - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "31259888b14e33b8",
     "lang": "en",
@@ -6720,13 +6935,12 @@
     "publishedAt": "2025-07-24T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Starlink Outage Analysis: July 24, 2025 ThousandEyes",
+    "summary": "Starlink Outage Analysis: July 24, 2025 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "29fe58e684612604",
     "lang": "en",
@@ -6747,13 +6961,12 @@
     "publishedAt": "2025-07-18T07:00:00+00:00",
     "fetchedAt": "2026-05-31T13:22:03+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Monitoring Root DNS Prefixes ThousandEyes",
+    "summary": "Monitoring Root DNS Prefixes - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "909e8f1afd5b471d",
     "lang": "en",
@@ -6847,13 +7060,12 @@
     "publishedAt": "2025-07-14T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Cloudflare Outage Analysis: July 14, 2025 ThousandEyes",
+    "summary": "Cloudflare Outage Analysis: July 14, 2025 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "dc3fb9e468610161",
     "lang": "en",
@@ -6927,13 +7139,12 @@
     "publishedAt": "2025-06-25T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "ITOps Lessons From Outages at Google Cloud and OpenAI ThousandEyes",
+    "summary": "ITOps Lessons From Outages at Google Cloud and OpenAI - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "68779ea792bf1cae",
     "lang": "en",
@@ -6954,13 +7165,12 @@
     "publishedAt": "2025-06-12T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Google Cloud Outage Analysis: June 12, 2025 ThousandEyes",
+    "summary": "Google Cloud Outage Analysis: June 12, 2025 - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "f63e42f59a1dd65e",
     "lang": "en",
