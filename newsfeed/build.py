@@ -215,7 +215,7 @@ def _render_item_html(tpl, it, siblings, site, base_url, repo_url) -> str:
             for s in siblings
         )
         cluster_html = (
-            f'<div class="cta" style="background:#0f141b">Also covered by '
+            f'<div class="also">Also filed under '
             f'{len(siblings)} other source{"s" if len(siblings) > 1 else ""}: {links}</div>'
         )
     tags = it.get("tags", [])

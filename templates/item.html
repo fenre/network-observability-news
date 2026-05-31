@@ -12,53 +12,140 @@
 <meta property="og:description" content="{{SUMMARY_ATTR}}">
 <link rel="alternate" type="application/json" href="../api/items/{{ID}}.json">
 <link rel="alternate" type="text/markdown" href="{{ID}}.md">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <style>
-  body{margin:0;background:#0d1117;color:#e6edf3;
-    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  a{color:#00a4fd;text-decoration:none}a:hover{text-decoration:underline}
-  .wrap{max-width:760px;margin:0 auto;padding:28px 18px 60px}
-  .back{color:#9aa7b4;font-size:13px}
-  h1{font-size:25px;line-height:1.3;margin:14px 0 10px}
-  .line{color:#9aa7b4;font-size:13px;margin-bottom:18px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-  .badge{font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid #2b3340;color:#9aa7b4}
-  .badge.t-splunk{color:#ed0080;border-color:#ed0080}
-  .badge.t-cisco-data-fabric{color:#00bceb;border-color:#00bceb}
-  .badge.t-network-observability{color:#00c853;border-color:#00c853}
-  .summary{font-size:17px;background:#161b22;border:1px solid #2b3340;border-radius:12px;padding:16px 18px}
-  .summary .src{color:#9aa7b4;font-size:12.5px;margin-bottom:6px}
-  .cta{margin:20px 0;padding:14px 16px;border:1px solid #2b3340;border-radius:12px;background:#11161d}
-  .tags{color:#9aa7b4;font-size:13px;margin-top:16px}
-  .formats{color:#9aa7b4;font-size:13px;margin-top:10px}
-  .disc{color:#778;font-size:12px;border-top:1px solid #2b3340;margin-top:26px;padding-top:14px}
+  :root {
+    --paper: #f3efe6;
+    --ink: #1c1916;
+    --ink-soft: #4a4540;
+    --rule: #c4b9a4;
+    --link: #3d4f3a;
+    --link-hover: #1a2e18;
+    --t-splunk: #8b2252;
+    --t-cisco: #1a5c5c;
+    --t-netobs: #3d5230;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --serif: "Newsreader", Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 18px/1.6 var(--serif);
+  }
+  a { color: var(--link); text-underline-offset: 2px; }
+  a:hover { color: var(--link-hover); }
+  .shell { max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; }
+
+  .back {
+    font: 400 12px/1 var(--mono);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .back:hover { color: var(--ink); text-decoration: underline; }
+
+  h1 {
+    margin: 20px 0 12px;
+    font: 600 1.85rem/1.22 var(--serif);
+    font-variation-settings: "opsz" 60;
+    letter-spacing: -0.02em;
+  }
+  .byline {
+    font: 400 12px/1.5 var(--mono);
+    color: var(--ink-soft);
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 24px;
+  }
+  .byline .badge {
+    margin-left: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .badge.t-splunk { color: var(--t-splunk); }
+  .badge.t-cisco-data-fabric { color: var(--t-cisco); }
+  .badge.t-network-observability { color: var(--t-netobs); }
+
+  .lede-box {
+    margin: 0 0 28px;
+    padding: 0 0 0 16px;
+    border-left: 3px solid var(--ink);
+  }
+  .lede-box .kicker {
+    font: 500 10px/1 var(--mono);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+  }
+  .lede-box .text { margin: 0; font-size: 1.08rem; }
+
+  .source-cta {
+    font: 400 13px/1.5 var(--mono);
+    padding: 14px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 20px;
+  }
+  .source-cta a { font-weight: 500; }
+
+  .also {
+    font: 400 12px/1.5 var(--mono);
+    color: var(--ink-soft);
+    margin-bottom: 16px;
+    padding-left: 12px;
+    border-left: 2px solid var(--rule);
+  }
+  .tags, .formats {
+    font: 400 12px/1.5 var(--mono);
+    color: var(--ink-soft);
+    margin-top: 12px;
+  }
+  .disc {
+    margin-top: 36px;
+    padding-top: 16px;
+    border-top: 2px solid var(--ink);
+    font: 400 11px/1.55 var(--mono);
+    color: var(--ink-soft);
+  }
 </style>
 <script type="application/ld+json">{{JSON_LD}}</script>
 </head>
 <body>
-<div class="wrap">
-  <a class="back" href="../index.html">&larr; {{SITE_TITLE}}</a>
+<div class="shell">
+  <a class="back" href="../index.html">&larr; index</a>
   <h1>{{TITLE}}</h1>
-  <div class="line">{{ATTRIBUTION}}{{PUBLISHED_HTML}} {{TOPICS_HTML}}</div>
+  <div class="byline">{{ATTRIBUTION}}{{PUBLISHED_HTML}} {{TOPICS_HTML}}</div>
 
-  <div class="summary">
-    <div class="src">Original, machine-generated summary ({{SUMMARY_SOURCE}}) &mdash; not the source article text:</div>
-    {{SUMMARY_HTML}}
+  <div class="lede-box">
+    <div class="kicker">Wire summary ({{SUMMARY_SOURCE}}) — not the publisher&rsquo;s full text</div>
+    <p class="text">{{SUMMARY_HTML}}</p>
   </div>
 
-  <div class="cta">
-    Read the full article at the source:
+  <p class="source-cta">
+    Full article at
     <a href="{{URL}}" target="_blank" rel="noopener nofollow">{{SOURCE_NAME}} &rarr;</a>
-  </div>
+  </p>
 
   {{CLUSTER_HTML}}
   <div class="tags">{{TAGS_HTML}}</div>
-  <div class="formats">Machine formats:
-    <a href="../api/items/{{ID}}.json">JSON</a> &middot;
-    <a href="{{ID}}.md">Markdown</a></div>
+  <div class="formats">
+    <a href="../api/items/{{ID}}.json">json</a> &middot;
+    <a href="{{ID}}.md">markdown</a>
+  </div>
 
-  <p class="disc">This page indexes a third-party article. The title and link belong to
-  the original publisher. The summary above is original content generated by this
-  aggregator and may contain errors. Removal requests:
-  <a href="{{REPO_URL}}/issues">open an issue</a>.</p>
+  <p class="disc">
+    This brief indexes a third-party article. Title and link belong to the original
+    publisher; the summary is original machine-generated text and may contain errors.
+    <a href="{{REPO_URL}}/issues">Request removal</a>.
+  </p>
 </div>
 </body>
 </html>

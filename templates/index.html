@@ -11,213 +11,465 @@
 <meta property="og:type" content="website">
 <link rel="alternate" type="application/feed+json" title="JSON Feed" href="feed.json">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --bg:#0d1117; --panel:#161b22; --panel2:#1c2230; --border:#2b3340;
-    --text:#e6edf3; --muted:#9aa7b4; --accent:#00a4fd; --accent2:#7c5cff;
-    --chip:#21262d; --ok:#2ea043;
-    --t-splunk:#ed0080; --t-cisco:#00bceb; --t-netobs:#00c853;
+  :root {
+    --paper: #f3efe6;
+    --paper-deep: #ebe5d8;
+    --ink: #1c1916;
+    --ink-soft: #4a4540;
+    --rule: #c4b9a4;
+    --rule-light: #ddd6c8;
+    --link: #3d4f3a;
+    --link-hover: #1a2e18;
+    --mark: #e8dcc0;
+    --t-splunk: #8b2252;
+    --t-cisco: #1a5c5c;
+    --t-netobs: #3d5230;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --serif: "Newsreader", Georgia, "Times New Roman", serif;
   }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);
-    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
-  header{padding:28px 20px 18px;border-bottom:1px solid var(--border);
-    background:linear-gradient(180deg,#10151c,var(--bg))}
-  .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
-  h1{margin:0 0 6px;font-size:26px;letter-spacing:-.01em}
-  .sub{color:var(--muted);margin:0;font-size:14px}
-  .meta{color:var(--muted);font-size:12.5px;margin-top:10px}
-  .controls{position:sticky;top:0;z-index:5;background:var(--bg);
-    border-bottom:1px solid var(--border);padding:12px 0}
-  .controls .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-  input[type=search],select{background:var(--panel);color:var(--text);
-    border:1px solid var(--border);border-radius:8px;padding:8px 11px;font-size:14px}
-  input[type=search]{flex:1;min-width:220px}
-  .chips{display:flex;gap:8px;flex-wrap:wrap}
-  .chip{background:var(--chip);border:1px solid var(--border);color:var(--muted);
-    border-radius:999px;padding:5px 12px;font-size:13px;cursor:pointer;user-select:none}
-  .chip[aria-pressed=true]{color:#fff;border-color:transparent}
-  .chip.t-splunk[aria-pressed=true]{background:var(--t-splunk)}
-  .chip.t-cisco-data-fabric[aria-pressed=true]{background:var(--t-cisco);color:#022}
-  .chip.t-network-observability[aria-pressed=true]{background:var(--t-netobs);color:#022}
-  label.toggle{color:var(--muted);font-size:13px;display:flex;gap:6px;align-items:center;cursor:pointer}
-  main{padding:18px 0 60px}
-  .count{color:var(--muted);font-size:13px;margin:6px 0 14px}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;
-    padding:16px 18px;margin-bottom:14px}
-  .card h2{margin:0 0 6px;font-size:17px;line-height:1.35}
-  .card .line{color:var(--muted);font-size:12.5px;margin-bottom:8px;display:flex;
-    gap:8px;flex-wrap:wrap;align-items:center}
-  .badge{font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid var(--border);
-    background:var(--panel2);color:var(--muted)}
-  .badge.t-splunk{color:var(--t-splunk);border-color:var(--t-splunk)}
-  .badge.t-cisco-data-fabric{color:var(--t-cisco);border-color:var(--t-cisco)}
-  .badge.t-network-observability{color:var(--t-netobs);border-color:var(--t-netobs)}
-  .summary{color:var(--text);margin:0 0 8px}
-  .foot{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
-  .dups{font-size:12px;color:var(--muted);margin-top:6px;border-top:1px dashed var(--border);padding-top:8px}
-  .dups a{color:var(--muted)}
-  .empty{color:var(--muted);text-align:center;padding:50px 10px}
-  footer{border-top:1px solid var(--border);color:var(--muted);font-size:12.5px;
-    padding:22px 0 40px}
-  footer a{color:var(--muted)}
-  .src-tag{font-size:11px}
-  mark{background:rgba(0,164,253,.28);color:inherit;border-radius:3px}
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body {
+    margin: 0;
+    color: var(--ink);
+    font: 17px/1.55 var(--serif);
+    background:
+      linear-gradient(90deg, var(--rule-light) 1px, transparent 1px) 0 0 / 24px 24px,
+      linear-gradient(var(--rule-light) 1px, transparent 1px) 0 0 / 24px 24px,
+      var(--paper);
+    background-attachment: fixed;
+  }
+  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:hover { color: var(--link-hover); }
+  .shell { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+
+  /* Masthead */
+  .masthead {
+    padding: 36px 0 20px;
+    border-bottom: 2px solid var(--ink);
+  }
+  .masthead-kicker {
+    font: 500 11px/1 var(--mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 10px;
+  }
+  .masthead h1 {
+    margin: 0;
+    font: 600 2.35rem/1.08 var(--serif);
+    letter-spacing: -0.02em;
+    font-variation-settings: "opsz" 72;
+  }
+  .masthead-lede {
+    margin: 14px 0 0;
+    max-width: 52em;
+    color: var(--ink-soft);
+    font-size: 1.05rem;
+    font-style: italic;
+  }
+  .masthead-meta {
+    margin: 16px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule);
+    font: 400 12px/1.5 var(--mono);
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+  .masthead-meta a { color: var(--ink-soft); }
+  .masthead-meta a:hover { color: var(--ink); }
+
+  /* Desk controls */
+  .desk {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--rule);
+    padding: 14px 0;
+  }
+  .desk-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    align-items: center;
+  }
+  .desk input[type=search],
+  .desk select {
+    font: 400 13px/1.4 var(--mono);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--ink);
+    color: var(--ink);
+    padding: 6px 2px;
+    border-radius: 0;
+  }
+  .desk input[type=search] {
+    flex: 1;
+    min-width: 200px;
+  }
+  .desk input[type=search]::placeholder { color: var(--ink-soft); opacity: 0.7; }
+  .desk select { cursor: pointer; max-width: 220px; }
+  .topic-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border: 1px solid var(--rule);
+  }
+  .topic-filters button {
+    font: 500 11px/1 var(--mono);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--paper);
+    border: none;
+    border-right: 1px solid var(--rule);
+    color: var(--ink-soft);
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  .topic-filters button:last-child { border-right: none; }
+  .topic-filters button[aria-pressed=true] {
+    color: var(--paper);
+    background: var(--ink);
+  }
+  .topic-filters button.t-splunk[aria-pressed=true] { background: var(--t-splunk); }
+  .topic-filters button.t-cisco-data-fabric[aria-pressed=true] { background: var(--t-cisco); }
+  .topic-filters button.t-network-observability[aria-pressed=true] { background: var(--t-netobs); }
+  .desk label.toggle {
+    font: 400 12px/1 var(--mono);
+    color: var(--ink-soft);
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  /* Index */
+  main { padding: 8px 0 72px; }
+  .index-hdr {
+    font: 400 11px/1 var(--mono);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 16px 0 8px;
+    border-bottom: 1px solid var(--rule);
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: 12px;
+  }
+  .index-hdr span:last-child { text-align: right; }
+  #count {
+    font: 400 12px/1 var(--mono);
+    color: var(--ink-soft);
+    padding: 10px 0 4px;
+  }
+
+  /* Story rows — wire index, not cards */
+  #list { margin: 0; padding: 0; list-style: none; }
+  .story {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: 12px 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--rule-light);
+    position: relative;
+  }
+  .story::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: transparent;
+  }
+  .story.has-splunk::before { background: var(--t-splunk); }
+  .story.has-cisco::before { background: var(--t-cisco); }
+  .story.has-netobs::before { background: var(--t-netobs); }
+  .story-date {
+    font: 400 12px/1.35 var(--mono);
+    color: var(--ink-soft);
+    padding-top: 3px;
+  }
+  .story-body h2 {
+    margin: 0 0 6px;
+    font: 600 1.2rem/1.3 var(--serif);
+    font-variation-settings: "opsz" 48;
+  }
+  .story-body h2 a { color: var(--ink); text-decoration: none; }
+  .story-body h2 a:hover { text-decoration: underline; color: var(--link-hover); }
+  .story-byline {
+    font: 400 12px/1.4 var(--mono);
+    color: var(--ink-soft);
+    margin-bottom: 8px;
+  }
+  .story-byline .topic {
+    display: inline;
+    margin-left: 8px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .story-byline .topic.t-splunk { color: var(--t-splunk); }
+  .story-byline .topic.t-cisco-data-fabric { color: var(--t-cisco); }
+  .story-byline .topic.t-network-observability { color: var(--t-netobs); }
+  .story-summary {
+    margin: 0 0 10px;
+    color: var(--ink);
+    font-size: 0.98rem;
+    max-width: 58em;
+  }
+  .story-foot {
+    font: 400 11px/1.5 var(--mono);
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+  }
+  .story-foot a { color: var(--ink-soft); }
+  .story-foot a:hover { color: var(--ink); }
+  .story-foot .sep::before { content: "·"; margin-right: 12px; color: var(--rule); }
+  .story-dups {
+    grid-column: 2;
+    margin: -4px 0 0;
+    padding: 8px 0 0 12px;
+    border-left: 2px solid var(--rule);
+    font: 400 11px/1.45 var(--mono);
+    color: var(--ink-soft);
+  }
+  .story-dups a { color: var(--ink-soft); }
+  mark { background: var(--mark); color: inherit; padding: 0 1px; }
+
+  .empty {
+    padding: 48px 0;
+    text-align: center;
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 24px 0 48px;
+    font: 400 12px/1.55 var(--mono);
+    color: var(--ink-soft);
+  }
+  footer a { color: var(--ink-soft); }
+
+  @media (max-width: 600px) {
+    .story, .index-hdr { grid-template-columns: 1fr; }
+    .story-date { margin-bottom: -8px; }
+    .story::before { left: 0; width: 100%; height: 2px; top: auto; bottom: auto; }
+  }
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <h1>{{SITE_TITLE}}</h1>
-    <p class="sub">{{SITE_DESCRIPTION}}</p>
-    <p class="meta">
-      <span id="hdr-count">{{ITEM_COUNT}}</span> items &middot;
-      updated <time id="gen" datetime="{{GENERATED_AT}}">{{GENERATED_AT}}</time> &middot;
-      <a href="feed.json">JSON Feed</a> &middot; <a href="rss.xml">RSS</a> &middot;
-      <a href="llms.txt">llms.txt</a> &middot; <a href="api/items.json">API</a> &middot;
-      <a href="{{REPO_URL}}">source</a>
-    </p>
-  </div>
+<header class="masthead shell">
+  <p class="masthead-kicker">Splunk &middot; Cisco Data Fabric &middot; Network Observability</p>
+  <h1>{{SITE_TITLE}}</h1>
+  <p class="masthead-lede">{{SITE_DESCRIPTION}}</p>
+  <p class="masthead-meta">
+    <span><span id="hdr-count">{{ITEM_COUNT}}</span> indexed items</span>
+    <span>refreshed <time id="gen" datetime="{{GENERATED_AT}}">{{GENERATED_AT}}</time></span>
+    <a href="feed.json">json feed</a>
+    <a href="rss.xml">rss</a>
+    <a href="llms.txt">llms.txt</a>
+    <a href="api/items.json">api</a>
+    <a href="{{REPO_URL}}">github</a>
+  </p>
 </header>
 
-<div class="controls">
-  <div class="wrap">
-    <input id="q" type="search" placeholder="Search titles, summaries, tags, sources&hellip;" autocomplete="off">
-    <div class="chips" id="topicChips"></div>
-    <select id="source"><option value="">All sources</option></select>
-    <select id="sort">
-      <option value="new">Newest</option>
-      <option value="old">Oldest</option>
+<div class="desk">
+  <div class="shell desk-row">
+    <input id="q" type="search" placeholder="filter index…" autocomplete="off" aria-label="Search">
+    <div class="topic-filters" id="topicChips" role="group" aria-label="Topics"></div>
+    <select id="source" aria-label="Source"><option value="">all sources</option></select>
+    <select id="sort" aria-label="Sort">
+      <option value="new">newest first</option>
+      <option value="old">oldest first</option>
     </select>
-    <label class="toggle"><input type="checkbox" id="cluster" checked> Group duplicates</label>
+    <label class="toggle"><input type="checkbox" id="cluster" checked> merge dupes</label>
   </div>
 </div>
 
-<main class="wrap">
-  <div class="count" id="count"></div>
-  <div id="list"></div>
-  <div class="empty" id="empty" hidden>No matching items.</div>
+<main class="shell">
+  <div class="index-hdr" aria-hidden="true">
+    <span>date</span>
+    <span>headline &amp; wire copy</span>
+  </div>
+  <p id="count"></p>
+  <ol id="list"></ol>
+  <p class="empty" id="empty" hidden>Nothing in the index matches that filter.</p>
 </main>
 
-<footer>
-  <div class="wrap">
-    Aggregated headlines link to their original publishers, who retain all rights.
-    Summaries are original, machine-generated, and may contain errors &mdash; always
-    verify against the linked source. AI usage policy: <a href="ai.txt">ai.txt</a> &middot;
-    agents: <a href="AGENTS.md">AGENTS.md</a>.
-    <br>{{SITE_TITLE}} v{{VERSION}} &middot; content MIT-licensed &middot;
-    <a href="{{REPO_URL}}/issues">report / removal request</a>.
-  </div>
+<footer class="shell">
+  Headlines link to original publishers, who retain all rights. Summaries here are
+  original and machine-generated — verify against the source.
+  <a href="ai.txt">ai.txt</a> &middot; <a href="AGENTS.md">AGENTS.md</a> &middot;
+  <a href="{{REPO_URL}}/issues">removal</a>.
+  <br>{{SITE_TITLE}} v{{VERSION}} &middot; MIT (code + summaries).
 </footer>
 
 <script src="data.js"></script>
 <script>
 (function(){
-  var DATA = (window.NEWS_DATA||{items:[],topics:[],sources:[]});
-  var items = DATA.items||[];
+  var DATA = window.NEWS_DATA || {items:[], topics:[], sources:[]};
+  var items = DATA.items || [];
   var TOPIC_LABELS = {
-    "splunk":"Splunk",
-    "cisco-data-fabric":"Cisco Data Fabric",
-    "network-observability":"Network Observability"
+    "splunk": "splunk",
+    "cisco-data-fabric": "cisco fabric",
+    "network-observability": "net obs"
   };
   var state = {q:"", topics:new Set(), source:"", sort:"new", cluster:true};
 
-  var elList=document.getElementById("list"),
-      elCount=document.getElementById("count"),
-      elEmpty=document.getElementById("empty"),
-      elChips=document.getElementById("topicChips"),
-      elSource=document.getElementById("source");
+  var elList = document.getElementById("list"),
+      elCount = document.getElementById("count"),
+      elEmpty = document.getElementById("empty"),
+      elChips = document.getElementById("topicChips"),
+      elSource = document.getElementById("source");
 
-  // Build topic chips
-  (DATA.topics||[]).forEach(function(t){
-    var b=document.createElement("button");
-    b.className="chip t-"+t; b.textContent=TOPIC_LABELS[t]||t;
-    b.setAttribute("aria-pressed","false");
-    b.onclick=function(){
-      if(state.topics.has(t)){state.topics.delete(t);b.setAttribute("aria-pressed","false");}
-      else{state.topics.add(t);b.setAttribute("aria-pressed","true");}
+  (DATA.topics || []).forEach(function(t){
+    var b = document.createElement("button");
+    b.className = "t-" + t;
+    b.textContent = TOPIC_LABELS[t] || t;
+    b.setAttribute("aria-pressed", "false");
+    b.onclick = function(){
+      if (state.topics.has(t)) { state.topics.delete(t); b.setAttribute("aria-pressed", "false"); }
+      else { state.topics.add(t); b.setAttribute("aria-pressed", "true"); }
       render();
     };
     elChips.appendChild(b);
   });
-  // Source dropdown
-  (DATA.sources||[]).forEach(function(s){
-    var o=document.createElement("option");o.value=s.id;o.textContent=s.name+" ("+s.count+")";
+
+  (DATA.sources || []).forEach(function(s){
+    var o = document.createElement("option");
+    o.value = s.id;
+    o.textContent = s.name + " (" + s.count + ")";
     elSource.appendChild(o);
   });
 
-  document.getElementById("q").addEventListener("input",function(e){state.q=e.target.value.trim().toLowerCase();render();});
-  elSource.addEventListener("change",function(e){state.source=e.target.value;render();});
-  document.getElementById("sort").addEventListener("change",function(e){state.sort=e.target.value;render();});
-  document.getElementById("cluster").addEventListener("change",function(e){state.cluster=e.target.checked;render();});
+  document.getElementById("q").addEventListener("input", function(e){
+    state.q = e.target.value.trim().toLowerCase();
+    render();
+  });
+  elSource.addEventListener("change", function(e){ state.source = e.target.value; render(); });
+  document.getElementById("sort").addEventListener("change", function(e){ state.sort = e.target.value; render(); });
+  document.getElementById("cluster").addEventListener("change", function(e){ state.cluster = e.target.checked; render(); });
 
-  function esc(s){return (s||"").replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
-  function hl(s){ if(!state.q) return esc(s);
-    var i=(s||"").toLowerCase().indexOf(state.q);
-    if(i<0) return esc(s);
-    return esc(s.slice(0,i))+"<mark>"+esc(s.slice(i,i+state.q.length))+"</mark>"+esc(s.slice(i+state.q.length));
+  function esc(s){
+    return (s || "").replace(/[&<>"]/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];
+    });
   }
-  function fmtDate(iso){ if(!iso) return ""; var d=new Date(iso); if(isNaN(d)) return iso;
-    return d.toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"}); }
+  function hl(s){
+    if (!state.q) return esc(s);
+    var i = (s || "").toLowerCase().indexOf(state.q);
+    if (i < 0) return esc(s);
+    return esc(s.slice(0, i)) + "<mark>" + esc(s.slice(i, i + state.q.length)) + "</mark>" + esc(s.slice(i + state.q.length));
+  }
+  function fmtDate(iso){
+    if (!iso) return "—";
+    var d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString(undefined, {day:"numeric", month:"short", year:"numeric"});
+  }
+  function topicSpans(topics){
+    return (topics || []).map(function(t){
+      return '<span class="topic t-' + t + '">' + esc(TOPIC_LABELS[t] || t) + '</span>';
+    }).join("");
+  }
+  function storyClasses(topics){
+    var c = "story";
+    if ((topics || []).indexOf("splunk") >= 0) c += " has-splunk";
+    if ((topics || []).indexOf("cisco-data-fabric") >= 0) c += " has-cisco";
+    if ((topics || []).indexOf("network-observability") >= 0) c += " has-netobs";
+    return c;
+  }
 
   function matches(it){
-    if(state.source && it.source.id!==state.source) return false;
-    if(state.topics.size){ var ok=false; (it.topics||[]).forEach(function(t){if(state.topics.has(t))ok=true;}); if(!ok) return false; }
-    if(state.q){
-      var hay=(it.title+" "+it.summary+" "+(it.tags||[]).join(" ")+" "+it.source.name).toLowerCase();
-      if(hay.indexOf(state.q)<0) return false;
+    if (state.source && it.source.id !== state.source) return false;
+    if (state.topics.size){
+      var ok = false;
+      (it.topics || []).forEach(function(t){ if (state.topics.has(t)) ok = true; });
+      if (!ok) return false;
+    }
+    if (state.q){
+      var hay = (it.title + " " + it.summary + " " + (it.tags || []).join(" ") + " " + it.source.name).toLowerCase();
+      if (hay.indexOf(state.q) < 0) return false;
     }
     return true;
   }
 
   function render(){
-    var filtered=items.filter(matches);
-    filtered.sort(function(a,b){
-      var c=(a.publishedAt||"")<(b.publishedAt||"")?-1:((a.publishedAt||"")>(b.publishedAt||"")?1:0);
-      return state.sort==="new"?-c:c;
+    var filtered = items.filter(matches);
+    filtered.sort(function(a, b){
+      var c = (a.publishedAt || "") < (b.publishedAt || "") ? -1 : ((a.publishedAt || "") > (b.publishedAt || "") ? 1 : 0);
+      return state.sort === "new" ? -c : c;
     });
 
-    var groups, order=[];
-    if(state.cluster){
-      groups={};
-      filtered.forEach(function(it){ (groups[it.clusterId]=groups[it.clusterId]||[]).push(it); if(order.indexOf(it.clusterId)<0)order.push(it.clusterId); });
+    var groups = {}, order = [];
+    if (state.cluster){
+      filtered.forEach(function(it){
+        groups[it.clusterId] = groups[it.clusterId] || [];
+        groups[it.clusterId].push(it);
+        if (order.indexOf(it.clusterId) < 0) order.push(it.clusterId);
+      });
     } else {
-      groups={}; filtered.forEach(function(it){ groups[it.id]=[it]; order.push(it.id); });
+      filtered.forEach(function(it){
+        groups[it.id] = [it];
+        order.push(it.id);
+      });
     }
 
-    elList.innerHTML="";
+    elList.innerHTML = "";
     order.forEach(function(key){
-      var grp=groups[key]; var it=grp[0];
-      var card=document.createElement("article"); card.className="card";
-      var topics=(it.topics||[]).map(function(t){return '<span class="badge t-'+t+'">'+(TOPIC_LABELS[t]||t)+'</span>';}).join(" ");
-      var dups="";
-      if(grp.length>1){
-        dups='<div class="dups">Also covered by '+(grp.length-1)+' other source'+(grp.length>2?'s':'')+': '+
-          grp.slice(1).map(function(d){return '<a href="'+esc(d.url)+'" target="_blank" rel="noopener nofollow">'+esc(d.source.name)+'</a>';}).join(", ")+'</div>';
+      var grp = groups[key], it = grp[0];
+      var li = document.createElement("li");
+      li.className = storyClasses(it.topics);
+
+      var dups = "";
+      if (grp.length > 1){
+        dups = '<div class="story-dups">Also filed under ' +
+          grp.slice(1).map(function(d){
+            return '<a href="' + esc(d.url) + '" target="_blank" rel="noopener nofollow">' + esc(d.source.name) + '</a>';
+          }).join(", ") + '</div>';
       }
-      card.innerHTML=
-        '<h2><a href="'+esc(it.url)+'" target="_blank" rel="noopener nofollow">'+hl(it.title)+'</a></h2>'+
-        '<div class="line"><span class="src-tag">'+esc(it.attribution||("via "+it.source.name))+'</span>'+
-          (it.publishedAt?'<span>&middot; '+fmtDate(it.publishedAt)+'</span>':'')+' '+topics+'</div>'+
-        '<p class="summary">'+hl(it.summary||"")+'</p>'+
-        '<div class="foot"><a href="items/'+esc(it.id)+'.html">details</a>'+
-          '<a href="api/items/'+esc(it.id)+'.json">json</a>'+
-          '<a href="items/'+esc(it.id)+'.md">markdown</a>'+
-          '<span>'+esc((it.tags||[]).slice(0,6).join(", "))+'</span></div>'+
-        dups;
-      elList.appendChild(card);
+
+      li.innerHTML =
+        '<div class="story-date">' + esc(fmtDate(it.publishedAt)) + '</div>' +
+        '<div class="story-body">' +
+          '<h2><a href="' + esc(it.url) + '" target="_blank" rel="noopener nofollow">' + hl(it.title) + '</a></h2>' +
+          '<div class="story-byline">' + esc(it.attribution || ("via " + it.source.name)) + topicSpans(it.topics) + '</div>' +
+          '<p class="story-summary">' + hl(it.summary || "") + '</p>' +
+          '<div class="story-foot">' +
+            '<a href="items/' + esc(it.id) + '.html">brief</a>' +
+            '<span class="sep"></span><a href="api/items/' + esc(it.id) + '.json">json</a>' +
+            '<span class="sep"></span><a href="items/' + esc(it.id) + '.md">md</a>' +
+            (it.tags && it.tags.length ? '<span class="sep"></span><span>' + esc(it.tags.slice(0, 5).join(" · ")) + '</span>' : '') +
+          '</div>' +
+          dups +
+        '</div>';
+
+      elList.appendChild(li);
     });
 
-    var shown=state.cluster?order.length:filtered.length;
-    elCount.textContent=filtered.length+" item"+(filtered.length===1?"":"s")+
-      (state.cluster?(" in "+order.length+" cluster"+(order.length===1?"":"s")):"");
-    elEmpty.hidden=filtered.length>0;
+    elCount.textContent = filtered.length + " item" + (filtered.length === 1 ? "" : "s") +
+      (state.cluster ? (" · " + order.length + " cluster" + (order.length === 1 ? "" : "s")) : "");
+    elEmpty.hidden = filtered.length > 0;
   }
 
-  var g=document.getElementById("gen");
-  if(g){var d=new Date(g.getAttribute("datetime")); if(!isNaN(d)) g.textContent=d.toLocaleString();}
+  var g = document.getElementById("gen");
+  if (g){
+    var d = new Date(g.getAttribute("datetime"));
+    if (!isNaN(d)) g.textContent = d.toLocaleString(undefined, {dateStyle:"medium", timeStyle:"short"});
+  }
   render();
 })();
 </script>
