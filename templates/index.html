@@ -11,310 +11,324 @@
 <meta property="og:type" content="website">
 <link rel="alternate" type="application/feed+json" title="JSON Feed" href="feed.json">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper: #f3efe6;
-    --paper-deep: #ebe5d8;
-    --ink: #1c1916;
-    --ink-soft: #4a4540;
-    --rule: #c4b9a4;
-    --rule-light: #ddd6c8;
-    --link: #3d4f3a;
-    --link-hover: #1a2e18;
-    --mark: #e8dcc0;
-    --t-splunk: #8b2252;
-    --t-cisco: #1a5c5c;
-    --t-netobs: #3d5230;
-    --mono: "IBM Plex Mono", ui-monospace, monospace;
-    --serif: "Newsreader", Georgia, "Times New Roman", serif;
+    --bg: #f7f8fa;
+    --surface: #fff;
+    --text: #1a1d21;
+    --muted: #5c6570;
+    --border: #e2e6eb;
+    --border-strong: #c8cfd8;
+    --accent: #2563eb;
+    --accent-soft: #eff6ff;
+    --mark: #fef08a;
+    --t-splunk: #be185d;
+    --t-cisco: #0e7490;
+    --t-netobs: #15803d;
+    --radius: 8px;
+    --shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
   }
   * { box-sizing: border-box; }
-  html { background: var(--paper); }
   body {
     margin: 0;
-    color: var(--ink);
-    font: 17px/1.55 var(--serif);
-    background:
-      linear-gradient(90deg, var(--rule-light) 1px, transparent 1px) 0 0 / 24px 24px,
-      linear-gradient(var(--rule-light) 1px, transparent 1px) 0 0 / 24px 24px,
-      var(--paper);
-    background-attachment: fixed;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
-  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
-  a:hover { color: var(--link-hover); }
-  .shell { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .page { max-width: 960px; margin: 0 auto; padding: 0 20px; }
 
-  /* Masthead */
-  .masthead {
-    padding: 36px 0 20px;
-    border-bottom: 2px solid var(--ink);
+  header.site-hdr {
+    padding: 28px 0 24px;
   }
-  .masthead-kicker {
-    font: 500 11px/1 var(--mono);
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    margin: 0 0 10px;
-  }
-  .masthead h1 {
-    margin: 0;
-    font: 600 2.35rem/1.08 var(--serif);
+  header.site-hdr h1 {
+    margin: 0 0 8px;
+    font-size: 1.65rem;
+    font-weight: 650;
     letter-spacing: -0.02em;
-    font-variation-settings: "opsz" 72;
   }
-  .masthead-lede {
-    margin: 14px 0 0;
-    max-width: 52em;
-    color: var(--ink-soft);
-    font-size: 1.05rem;
-    font-style: italic;
+  header.site-hdr .tagline {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    max-width: 42rem;
   }
-  .masthead-meta {
-    margin: 16px 0 0;
-    padding-top: 12px;
-    border-top: 1px solid var(--rule);
-    font: 400 12px/1.5 var(--mono);
-    color: var(--ink-soft);
+  header.site-hdr .stats {
+    margin-top: 14px;
+    font-size: 0.8rem;
+    color: var(--muted);
     display: flex;
     flex-wrap: wrap;
-    gap: 6px 14px;
+    gap: 8px 16px;
   }
-  .masthead-meta a { color: var(--ink-soft); }
-  .masthead-meta a:hover { color: var(--ink); }
+  header.site-hdr .stats a { color: var(--muted); font-weight: 500; }
+  header.site-hdr .stats a:hover { color: var(--accent); }
 
-  /* Desk controls */
-  .desk {
+  /* Filter panel */
+  .filters {
     position: sticky;
     top: 0;
-    z-index: 4;
-    background: color-mix(in srgb, var(--paper) 92%, transparent);
-    backdrop-filter: blur(6px);
-    border-bottom: 1px solid var(--rule);
-    padding: 14px 0;
+    z-index: 10;
+    background: var(--bg);
+    padding: 0 0 16px;
   }
-  .desk-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 14px;
-    align-items: center;
+  .filters-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 14px 16px;
   }
-  .desk input[type=search],
-  .desk select {
-    font: 400 13px/1.4 var(--mono);
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid var(--ink);
-    color: var(--ink);
-    padding: 6px 2px;
-    border-radius: 0;
-  }
-  .desk input[type=search] {
-    flex: 1;
-    min-width: 200px;
-  }
-  .desk input[type=search]::placeholder { color: var(--ink-soft); opacity: 0.7; }
-  .desk select { cursor: pointer; max-width: 220px; }
-  .topic-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-    border: 1px solid var(--rule);
-  }
-  .topic-filters button {
-    font: 500 11px/1 var(--mono);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    background: var(--paper);
-    border: none;
-    border-right: 1px solid var(--rule);
-    color: var(--ink-soft);
-    padding: 8px 12px;
-    cursor: pointer;
-  }
-  .topic-filters button:last-child { border-right: none; }
-  .topic-filters button[aria-pressed=true] {
-    color: var(--paper);
-    background: var(--ink);
-  }
-  .topic-filters button.t-splunk[aria-pressed=true] { background: var(--t-splunk); }
-  .topic-filters button.t-cisco-data-fabric[aria-pressed=true] { background: var(--t-cisco); }
-  .topic-filters button.t-network-observability[aria-pressed=true] { background: var(--t-netobs); }
-  .desk label.toggle {
-    font: 400 12px/1 var(--mono);
-    color: var(--ink-soft);
-    display: flex;
-    gap: 6px;
-    align-items: center;
-    cursor: pointer;
-  }
-
-  /* Index */
-  main { padding: 8px 0 72px; }
-  .index-hdr {
-    font: 400 11px/1 var(--mono);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    padding: 16px 0 8px;
-    border-bottom: 1px solid var(--rule);
+  .filter-grid {
     display: grid;
-    grid-template-columns: 5.5rem 1fr;
-    gap: 12px;
-  }
-  .index-hdr span:last-child { text-align: right; }
-  #count {
-    font: 400 12px/1 var(--mono);
-    color: var(--ink-soft);
-    padding: 10px 0 4px;
-  }
-
-  /* Story rows — wire index, not cards */
-  #list { margin: 0; padding: 0; list-style: none; }
-  .story {
-    display: grid;
-    grid-template-columns: 5.5rem 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 12px 16px;
-    padding: 18px 0;
-    border-bottom: 1px solid var(--rule-light);
-    position: relative;
+    align-items: end;
   }
-  .story::before {
-    content: "";
-    position: absolute;
-    left: -20px;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: transparent;
+  .field label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin-bottom: 5px;
   }
-  .story.has-splunk::before { background: var(--t-splunk); }
-  .story.has-cisco::before { background: var(--t-cisco); }
-  .story.has-netobs::before { background: var(--t-netobs); }
-  .story-date {
-    font: 400 12px/1.35 var(--mono);
-    color: var(--ink-soft);
-    padding-top: 3px;
+  .field input[type=search],
+  .field select {
+    width: 100%;
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 8px 10px;
+    border: 1px solid var(--border-strong);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--text);
   }
-  .story-body h2 {
+  .field input[type=search]:focus,
+  .field select:focus {
+    outline: 2px solid var(--accent-soft);
+    border-color: var(--accent);
+  }
+  .field-wide { grid-column: 1 / -1; }
+  @media (min-width: 640px) {
+    .field-wide { grid-column: span 2; }
+  }
+  .topics-row {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  .topics-row .lbl {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin-right: 4px;
+  }
+  .topic-btn {
+    font: inherit;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .topic-btn[aria-pressed=true] {
+    border-color: transparent;
+    color: #fff;
+    background: var(--text);
+  }
+  .topic-btn.t-splunk[aria-pressed=true] { background: var(--t-splunk); }
+  .topic-btn.t-cisco-data-fabric[aria-pressed=true] { background: var(--t-cisco); }
+  .topic-btn.t-network-observability[aria-pressed=true] { background: var(--t-netobs); }
+  .opts {
+    margin-left: auto;
+    font-size: 0.85rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+
+  main { padding-bottom: 56px; }
+  #count {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+
+  #list { list-style: none; margin: 0; padding: 0; }
+  .item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+  }
+  .item:hover { border-color: var(--border-strong); }
+  .item-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    align-items: baseline;
+    margin-bottom: 6px;
+  }
+  .item-time {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .item-time .abs {
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .item-top .topics { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill {
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: var(--bg);
+    color: var(--muted);
+  }
+  .pill.t-splunk { color: var(--t-splunk); background: #fdf2f8; }
+  .pill.t-cisco-data-fabric { color: var(--t-cisco); background: #ecfeff; }
+  .pill.t-network-observability { color: var(--t-netobs); background: #f0fdf4; }
+  .item h2 {
     margin: 0 0 6px;
-    font: 600 1.2rem/1.3 var(--serif);
-    font-variation-settings: "opsz" 48;
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.35;
   }
-  .story-body h2 a { color: var(--ink); text-decoration: none; }
-  .story-body h2 a:hover { text-decoration: underline; color: var(--link-hover); }
-  .story-byline {
-    font: 400 12px/1.4 var(--mono);
-    color: var(--ink-soft);
+  .item h2 a { color: var(--text); text-decoration: none; }
+  .item h2 a:hover { color: var(--accent); text-decoration: underline; }
+  .item-meta {
+    font-size: 0.8rem;
+    color: var(--muted);
     margin-bottom: 8px;
   }
-  .story-byline .topic {
-    display: inline;
-    margin-left: 8px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: 500;
-  }
-  .story-byline .topic.t-splunk { color: var(--t-splunk); }
-  .story-byline .topic.t-cisco-data-fabric { color: var(--t-cisco); }
-  .story-byline .topic.t-network-observability { color: var(--t-netobs); }
-  .story-summary {
+  .item-summary {
     margin: 0 0 10px;
-    color: var(--ink);
-    font-size: 0.98rem;
-    max-width: 58em;
+    color: var(--text);
+    font-size: 0.92rem;
+    line-height: 1.55;
   }
-  .story-foot {
-    font: 400 11px/1.5 var(--mono);
-    color: var(--ink-soft);
+  .item-links {
+    font-size: 0.78rem;
+    color: var(--muted);
     display: flex;
     flex-wrap: wrap;
-    gap: 4px 12px;
+    gap: 4px 14px;
   }
-  .story-foot a { color: var(--ink-soft); }
-  .story-foot a:hover { color: var(--ink); }
-  .story-foot .sep::before { content: "·"; margin-right: 12px; color: var(--rule); }
-  .story-dups {
-    grid-column: 2;
-    margin: -4px 0 0;
-    padding: 8px 0 0 12px;
-    border-left: 2px solid var(--rule);
-    font: 400 11px/1.45 var(--mono);
-    color: var(--ink-soft);
+  .item-links a { font-weight: 500; }
+  .item-dups {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    font-size: 0.78rem;
+    color: var(--muted);
   }
-  .story-dups a { color: var(--ink-soft); }
-  mark { background: var(--mark); color: inherit; padding: 0 1px; }
-
+  mark { background: var(--mark); padding: 0 2px; border-radius: 2px; }
   .empty {
-    padding: 48px 0;
     text-align: center;
-    font-style: italic;
-    color: var(--ink-soft);
+    padding: 48px 20px;
+    color: var(--muted);
+    background: var(--surface);
+    border: 1px dashed var(--border-strong);
+    border-radius: var(--radius);
   }
 
   footer {
-    border-top: 2px solid var(--ink);
-    padding: 24px 0 48px;
-    font: 400 12px/1.55 var(--mono);
-    color: var(--ink-soft);
+    padding: 24px 0 40px;
+    font-size: 0.8rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
   }
-  footer a { color: var(--ink-soft); }
-
-  @media (max-width: 600px) {
-    .story, .index-hdr { grid-template-columns: 1fr; }
-    .story-date { margin-bottom: -8px; }
-    .story::before { left: 0; width: 100%; height: 2px; top: auto; bottom: auto; }
-  }
+  footer a { color: var(--muted); }
 </style>
 </head>
 <body>
-<header class="masthead shell">
-  <p class="masthead-kicker">Splunk &middot; Cisco Data Fabric &middot; Network Observability</p>
+<header class="site-hdr page">
   <h1>{{SITE_TITLE}}</h1>
-  <p class="masthead-lede">{{SITE_DESCRIPTION}}</p>
-  <p class="masthead-meta">
-    <span><span id="hdr-count">{{ITEM_COUNT}}</span> indexed items</span>
-    <span>refreshed <time id="gen" datetime="{{GENERATED_AT}}">{{GENERATED_AT}}</time></span>
-    <a href="feed.json">json feed</a>
-    <a href="rss.xml">rss</a>
+  <p class="tagline">{{SITE_DESCRIPTION}}</p>
+  <p class="stats">
+    <span><strong id="hdr-count">{{ITEM_COUNT}}</strong> items</span>
+    <span>Updated <time id="gen" datetime="{{GENERATED_AT}}">{{GENERATED_AT}}</time></span>
+    <a href="feed.json">JSON Feed</a>
+    <a href="rss.xml">RSS</a>
     <a href="llms.txt">llms.txt</a>
-    <a href="api/items.json">api</a>
-    <a href="{{REPO_URL}}">github</a>
+    <a href="api/items.json">API</a>
+    <a href="{{REPO_URL}}">GitHub</a>
   </p>
 </header>
 
-<div class="desk">
-  <div class="shell desk-row">
-    <input id="q" type="search" placeholder="filter index…" autocomplete="off" aria-label="Search">
-    <div class="topic-filters" id="topicChips" role="group" aria-label="Topics"></div>
-    <select id="source" aria-label="Source"><option value="">all sources</option></select>
-    <select id="sort" aria-label="Sort">
-      <option value="new">newest first</option>
-      <option value="old">oldest first</option>
-    </select>
-    <label class="toggle"><input type="checkbox" id="cluster" checked> merge dupes</label>
+<div class="filters page">
+  <div class="filters-panel">
+    <div class="filter-grid">
+      <div class="field field-wide">
+        <label for="q">Search</label>
+        <input id="q" type="search" placeholder="Title, summary, tags, source…" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="age">Published</label>
+        <select id="age" aria-label="Time since published">
+          <option value="">Any time</option>
+          <option value="1">Last 24 hours</option>
+          <option value="2">Last 48 hours</option>
+          <option value="7">Last 7 days</option>
+          <option value="14">Last 14 days</option>
+          <option value="30">Last 30 days</option>
+          <option value="90">Last 90 days</option>
+          <option value="180">Last 6 months</option>
+          <option value="365">Last year</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="source">Source</label>
+        <select id="source"><option value="">All sources</option></select>
+      </div>
+      <div class="field">
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="new">Newest first</option>
+          <option value="old">Oldest first</option>
+        </select>
+      </div>
+    </div>
+    <div class="topics-row">
+      <span class="lbl">Topics</span>
+      <span id="topicChips"></span>
+      <label class="opts"><input type="checkbox" id="cluster" checked> Group similar stories</label>
+    </div>
   </div>
 </div>
 
-<main class="shell">
-  <div class="index-hdr" aria-hidden="true">
-    <span>date</span>
-    <span>headline &amp; wire copy</span>
-  </div>
+<main class="page">
   <p id="count"></p>
   <ol id="list"></ol>
-  <p class="empty" id="empty" hidden>Nothing in the index matches that filter.</p>
+  <p class="empty" id="empty" hidden>No stories match your filters. Try widening the time range or clearing topic filters.</p>
 </main>
 
-<footer class="shell">
-  Headlines link to original publishers, who retain all rights. Summaries here are
-  original and machine-generated — verify against the source.
-  <a href="ai.txt">ai.txt</a> &middot; <a href="AGENTS.md">AGENTS.md</a> &middot;
-  <a href="{{REPO_URL}}/issues">removal</a>.
-  <br>{{SITE_TITLE}} v{{VERSION}} &middot; MIT (code + summaries).
+<footer class="page">
+  Headlines link to original publishers. Summaries are machine-generated — verify at the source.
+  <a href="ai.txt">AI policy</a> · <a href="AGENTS.md">For agents</a> ·
+  <a href="{{REPO_URL}}/issues">Removal request</a>.
+  <br>{{SITE_TITLE}} v{{VERSION}}
 </footer>
 
 <script src="data.js"></script>
@@ -323,11 +337,12 @@
   var DATA = window.NEWS_DATA || {items:[], topics:[], sources:[]};
   var items = DATA.items || [];
   var TOPIC_LABELS = {
-    "splunk": "splunk",
-    "cisco-data-fabric": "cisco fabric",
-    "network-observability": "net obs"
+    "splunk": "Splunk",
+    "cisco-data-fabric": "Cisco Data Fabric",
+    "network-observability": "Network Observability"
   };
-  var state = {q:"", topics:new Set(), source:"", sort:"new", cluster:true};
+  var MS_DAY = 86400000;
+  var state = { q: "", topics: new Set(), source: "", sort: "new", cluster: true, maxAgeDays: 0 };
 
   var elList = document.getElementById("list"),
       elCount = document.getElementById("count"),
@@ -337,7 +352,8 @@
 
   (DATA.topics || []).forEach(function(t){
     var b = document.createElement("button");
-    b.className = "t-" + t;
+    b.type = "button";
+    b.className = "topic-btn t-" + t;
     b.textContent = TOPIC_LABELS[t] || t;
     b.setAttribute("aria-pressed", "false");
     b.onclick = function(){
@@ -362,6 +378,10 @@
   elSource.addEventListener("change", function(e){ state.source = e.target.value; render(); });
   document.getElementById("sort").addEventListener("change", function(e){ state.sort = e.target.value; render(); });
   document.getElementById("cluster").addEventListener("change", function(e){ state.cluster = e.target.checked; render(); });
+  document.getElementById("age").addEventListener("change", function(e){
+    state.maxAgeDays = parseInt(e.target.value, 10) || 0;
+    render();
+  });
 
   function esc(s){
     return (s || "").replace(/[&<>"]/g, function(c){
@@ -374,27 +394,43 @@
     if (i < 0) return esc(s);
     return esc(s.slice(0, i)) + "<mark>" + esc(s.slice(i, i + state.q.length)) + "</mark>" + esc(s.slice(i + state.q.length));
   }
-  function fmtDate(iso){
-    if (!iso) return "—";
+
+  function parseDate(iso){
+    if (!iso) return null;
     var d = new Date(iso);
-    if (isNaN(d)) return iso;
-    return d.toLocaleDateString(undefined, {day:"numeric", month:"short", year:"numeric"});
+    return isNaN(d) ? null : d;
   }
-  function topicSpans(topics){
+
+  function relTime(iso){
+    var d = parseDate(iso);
+    if (!d) return { rel: "Unknown date", abs: "" };
+    var sec = Math.floor((Date.now() - d.getTime()) / 1000);
+    var rel;
+    if (sec < 60) rel = "Just now";
+    else if (sec < 3600) rel = Math.floor(sec / 60) + " min ago";
+    else if (sec < 86400) rel = Math.floor(sec / 3600) + " h ago";
+    else if (sec < 604800) rel = Math.floor(sec / 86400) + " d ago";
+    else if (sec < 2592000) rel = Math.floor(sec / 604800) + " wk ago";
+    else rel = Math.floor(sec / 2592000) + " mo ago";
+    var abs = d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+    return { rel: rel, abs: abs };
+  }
+
+  function ageDays(iso){
+    var d = parseDate(iso);
+    if (!d) return Infinity;
+    return (Date.now() - d.getTime()) / MS_DAY;
+  }
+
+  function topicPills(topics){
     return (topics || []).map(function(t){
-      return '<span class="topic t-' + t + '">' + esc(TOPIC_LABELS[t] || t) + '</span>';
+      return '<span class="pill t-' + t + '">' + esc(TOPIC_LABELS[t] || t) + '</span>';
     }).join("");
-  }
-  function storyClasses(topics){
-    var c = "story";
-    if ((topics || []).indexOf("splunk") >= 0) c += " has-splunk";
-    if ((topics || []).indexOf("cisco-data-fabric") >= 0) c += " has-cisco";
-    if ((topics || []).indexOf("network-observability") >= 0) c += " has-netobs";
-    return c;
   }
 
   function matches(it){
     if (state.source && it.source.id !== state.source) return false;
+    if (state.maxAgeDays > 0 && ageDays(it.publishedAt) > state.maxAgeDays) return false;
     if (state.topics.size){
       var ok = false;
       (it.topics || []).forEach(function(t){ if (state.topics.has(t)) ok = true; });
@@ -431,44 +467,51 @@
     elList.innerHTML = "";
     order.forEach(function(key){
       var grp = groups[key], it = grp[0];
+      var t = relTime(it.publishedAt);
       var li = document.createElement("li");
-      li.className = storyClasses(it.topics);
+      li.className = "item";
 
       var dups = "";
       if (grp.length > 1){
-        dups = '<div class="story-dups">Also filed under ' +
+        dups = '<div class="item-dups">Also covered by ' +
           grp.slice(1).map(function(d){
             return '<a href="' + esc(d.url) + '" target="_blank" rel="noopener nofollow">' + esc(d.source.name) + '</a>';
           }).join(", ") + '</div>';
       }
 
       li.innerHTML =
-        '<div class="story-date">' + esc(fmtDate(it.publishedAt)) + '</div>' +
-        '<div class="story-body">' +
-          '<h2><a href="' + esc(it.url) + '" target="_blank" rel="noopener nofollow">' + hl(it.title) + '</a></h2>' +
-          '<div class="story-byline">' + esc(it.attribution || ("via " + it.source.name)) + topicSpans(it.topics) + '</div>' +
-          '<p class="story-summary">' + hl(it.summary || "") + '</p>' +
-          '<div class="story-foot">' +
-            '<a href="items/' + esc(it.id) + '.html">brief</a>' +
-            '<span class="sep"></span><a href="api/items/' + esc(it.id) + '.json">json</a>' +
-            '<span class="sep"></span><a href="items/' + esc(it.id) + '.md">md</a>' +
-            (it.tags && it.tags.length ? '<span class="sep"></span><span>' + esc(it.tags.slice(0, 5).join(" · ")) + '</span>' : '') +
-          '</div>' +
-          dups +
-        '</div>';
+        '<div class="item-top">' +
+          '<span class="item-time" title="' + esc(it.publishedAt || "") + '">' + esc(t.rel) +
+            (t.abs ? ' <span class="abs">(' + esc(t.abs) + ')</span>' : '') + '</span>' +
+          '<span class="topics">' + topicPills(it.topics) + '</span>' +
+        '</div>' +
+        '<h2><a href="' + esc(it.url) + '" target="_blank" rel="noopener nofollow">' + hl(it.title) + '</a></h2>' +
+        '<div class="item-meta">' + esc(it.attribution || ("via " + it.source.name)) + '</div>' +
+        '<p class="item-summary">' + hl(it.summary || "") + '</p>' +
+        '<div class="item-links">' +
+          '<a href="items/' + esc(it.id) + '.html">Details</a>' +
+          '<a href="api/items/' + esc(it.id) + '.json">JSON</a>' +
+          '<a href="items/' + esc(it.id) + '.md">Markdown</a>' +
+          (it.tags && it.tags.length ? '<span>' + esc(it.tags.slice(0, 6).join(", ")) + '</span>' : '') +
+        '</div>' + dups;
 
       elList.appendChild(li);
     });
 
-    elCount.textContent = filtered.length + " item" + (filtered.length === 1 ? "" : "s") +
-      (state.cluster ? (" · " + order.length + " cluster" + (order.length === 1 ? "" : "s")) : "");
+    var ageLabel = "";
+    if (state.maxAgeDays === 1) ageLabel = " (last 24h)";
+    else if (state.maxAgeDays === 2) ageLabel = " (last 48h)";
+    else if (state.maxAgeDays > 0) ageLabel = " (last " + state.maxAgeDays + "d)";
+
+    elCount.textContent = filtered.length + " stor" + (filtered.length === 1 ? "y" : "ies") + ageLabel +
+      (state.cluster ? " · " + order.length + " group" + (order.length === 1 ? "" : "s") : "");
     elEmpty.hidden = filtered.length > 0;
   }
 
   var g = document.getElementById("gen");
   if (g){
     var d = new Date(g.getAttribute("datetime"));
-    if (!isNaN(d)) g.textContent = d.toLocaleString(undefined, {dateStyle:"medium", timeStyle:"short"});
+    if (!isNaN(d)) g.textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
   }
   render();
 })();

@@ -12,138 +12,99 @@
 <meta property="og:description" content="{{SUMMARY_ATTR}}">
 <link rel="alternate" type="application/json" href="../api/items/{{ID}}.json">
 <link rel="alternate" type="text/markdown" href="{{ID}}.md">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper: #f3efe6;
-    --ink: #1c1916;
-    --ink-soft: #4a4540;
-    --rule: #c4b9a4;
-    --link: #3d4f3a;
-    --link-hover: #1a2e18;
-    --t-splunk: #8b2252;
-    --t-cisco: #1a5c5c;
-    --t-netobs: #3d5230;
-    --mono: "IBM Plex Mono", ui-monospace, monospace;
-    --serif: "Newsreader", Georgia, serif;
+    --bg: #f7f8fa;
+    --surface: #fff;
+    --text: #1a1d21;
+    --muted: #5c6570;
+    --border: #e2e6eb;
+    --accent: #2563eb;
+    --t-splunk: #be185d;
+    --t-cisco: #0e7490;
+    --t-netobs: #15803d;
   }
-  * { box-sizing: border-box; }
   body {
     margin: 0;
-    background: var(--paper);
-    color: var(--ink);
-    font: 18px/1.6 var(--serif);
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
-  a { color: var(--link); text-underline-offset: 2px; }
-  a:hover { color: var(--link-hover); }
-  .shell { max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; }
-
-  .back {
-    font: 400 12px/1 var(--mono);
-    letter-spacing: 0.06em;
+  a { color: var(--accent); }
+  .page { max-width: 680px; margin: 0 auto; padding: 28px 20px 56px; }
+  .back { font-size: 0.85rem; color: var(--muted); font-weight: 500; }
+  h1 { margin: 16px 0 12px; font-size: 1.5rem; font-weight: 650; line-height: 1.3; }
+  .byline { font-size: 0.85rem; color: var(--muted); margin-bottom: 20px; }
+  .pill {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
     text-transform: uppercase;
-    color: var(--ink-soft);
-    text-decoration: none;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+    background: var(--bg);
   }
-  .back:hover { color: var(--ink); text-decoration: underline; }
-
-  h1 {
-    margin: 20px 0 12px;
-    font: 600 1.85rem/1.22 var(--serif);
-    font-variation-settings: "opsz" 60;
-    letter-spacing: -0.02em;
-  }
-  .byline {
-    font: 400 12px/1.5 var(--mono);
-    color: var(--ink-soft);
-    padding-bottom: 20px;
-    border-bottom: 1px solid var(--rule);
-    margin-bottom: 24px;
-  }
-  .byline .badge {
-    margin-left: 10px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: 500;
-  }
-  .badge.t-splunk { color: var(--t-splunk); }
-  .badge.t-cisco-data-fabric { color: var(--t-cisco); }
-  .badge.t-network-observability { color: var(--t-netobs); }
-
-  .lede-box {
-    margin: 0 0 28px;
-    padding: 0 0 0 16px;
-    border-left: 3px solid var(--ink);
-  }
-  .lede-box .kicker {
-    font: 500 10px/1 var(--mono);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    margin-bottom: 10px;
-  }
-  .lede-box .text { margin: 0; font-size: 1.08rem; }
-
-  .source-cta {
-    font: 400 13px/1.5 var(--mono);
-    padding: 14px 0;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
+  .pill.t-splunk { color: var(--t-splunk); }
+  .pill.t-cisco-data-fabric { color: var(--t-cisco); }
+  .pill.t-network-observability { color: var(--t-netobs); }
+  .summary-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 20px;
     margin-bottom: 20px;
   }
-  .source-cta a { font-weight: 500; }
-
-  .also {
-    font: 400 12px/1.5 var(--mono);
-    color: var(--ink-soft);
+  .summary-box .kicker {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .summary-box p { margin: 0; }
+  .cta {
+    font-size: 0.9rem;
+    padding: 14px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
     margin-bottom: 16px;
-    padding-left: 12px;
-    border-left: 2px solid var(--rule);
   }
-  .tags, .formats {
-    font: 400 12px/1.5 var(--mono);
-    color: var(--ink-soft);
-    margin-top: 12px;
-  }
+  .also, .tags, .formats { font-size: 0.85rem; color: var(--muted); margin-top: 12px; }
   .disc {
-    margin-top: 36px;
+    margin-top: 28px;
     padding-top: 16px;
-    border-top: 2px solid var(--ink);
-    font: 400 11px/1.55 var(--mono);
-    color: var(--ink-soft);
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--muted);
   }
 </style>
 <script type="application/ld+json">{{JSON_LD}}</script>
 </head>
 <body>
-<div class="shell">
-  <a class="back" href="../index.html">&larr; index</a>
+<div class="page">
+  <a class="back" href="../index.html">&larr; All stories</a>
   <h1>{{TITLE}}</h1>
   <div class="byline">{{ATTRIBUTION}}{{PUBLISHED_HTML}} {{TOPICS_HTML}}</div>
 
-  <div class="lede-box">
-    <div class="kicker">Wire summary ({{SUMMARY_SOURCE}}) — not the publisher&rsquo;s full text</div>
-    <p class="text">{{SUMMARY_HTML}}</p>
+  <div class="summary-box">
+    <div class="kicker">Summary ({{SUMMARY_SOURCE}}) — not the full article</div>
+    <p>{{SUMMARY_HTML}}</p>
   </div>
 
-  <p class="source-cta">
-    Full article at
-    <a href="{{URL}}" target="_blank" rel="noopener nofollow">{{SOURCE_NAME}} &rarr;</a>
+  <p class="cta">
+    Read the full article at
+    <a href="{{URL}}" target="_blank" rel="noopener nofollow"><strong>{{SOURCE_NAME}}</strong> &rarr;</a>
   </p>
 
   {{CLUSTER_HTML}}
   <div class="tags">{{TAGS_HTML}}</div>
   <div class="formats">
-    <a href="../api/items/{{ID}}.json">json</a> &middot;
-    <a href="{{ID}}.md">markdown</a>
+    <a href="../api/items/{{ID}}.json">JSON</a> &middot;
+    <a href="{{ID}}.md">Markdown</a>
   </div>
 
   <p class="disc">
-    This brief indexes a third-party article. Title and link belong to the original
-    publisher; the summary is original machine-generated text and may contain errors.
+    This page indexes a third-party article. The publisher owns the original content.
     <a href="{{REPO_URL}}/issues">Request removal</a>.
   </p>
 </div>

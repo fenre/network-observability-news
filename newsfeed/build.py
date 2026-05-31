@@ -250,7 +250,7 @@ def _render_item_html(tpl, it, siblings, site, base_url, repo_url) -> str:
         "SOURCE_NAME": _esc(it.get("source", {}).get("name", "")),
         "ATTRIBUTION": _esc(it.get("attribution", "")),
         "PUBLISHED_HTML": published_html,
-        "TOPICS_HTML": _topic_badges(it.get("topics", [])),
+        "TOPICS_HTML": _topic_badges(it.get("topics", []), cls="pill"),
         "TAGS_HTML": tags_html,
         "CLUSTER_HTML": cluster_html,
         "JSON_LD": json_ld_str,
