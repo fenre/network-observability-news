@@ -89,6 +89,17 @@ def merge_items(existing: list[dict], incoming: list[dict]) -> list[dict]:
             cur["attribution"] = inc.get("attribution", cur.get("attribution"))
             if inc.get("publishedAt"):
                 cur["publishedAt"] = inc["publishedAt"]
+            if inc.get("canonicalUrl"):
+                cur["canonicalUrl"] = inc["canonicalUrl"]
+            if inc.get("categories"):
+                cur["categories"] = inc["categories"]
+            if inc.get("topics"):
+                cur["topics"] = inc["topics"]
+            if inc.get("summary") and inc.get("summarySource") == "curated":
+                cur["summary"] = inc["summary"]
+                cur["summarySource"] = "curated"
+            if inc.get("tags"):
+                cur["tags"] = inc["tags"]
         else:
             by_id[iid] = inc
     return list(by_id.values())
@@ -129,7 +140,8 @@ def prune(items: list[dict], settings: dict, *, log=None) -> list[dict]:
 
     kept.sort(key=_sort_key, reverse=True)
     before_max = len(kept)
-    kept = kept[:max_items]
+    if max_items > 0:
+        kept = kept[:max_items]
     max_dropped = before_max - len(kept)
 
     cap_method = (retention.get("daily_cap_method") or "importance").strip().lower()

@@ -18,6 +18,11 @@
 name: Update and deploy
 
 on:
+  push:
+    branches: [main]
+    # Avoid an infinite loop when this job commits data/*.json back to main.
+    paths-ignore:
+      - "data/**"
   schedule:
     - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:

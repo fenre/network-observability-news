@@ -512,9 +512,12 @@
   }
 
   function applyDefaultCategories(){
-    var cats = DEFAULT_CATS.length ? DEFAULT_CATS : BRIEFING_CATS;
-    var available = cats.filter(function(c){ return catButtons[c]; });
-    if (available.length) setCategoryFilter(available, "presetBriefing");
+    if (DEFAULT_CATS.length){
+      var available = DEFAULT_CATS.filter(function(c){ return catButtons[c]; });
+      if (available.length) setCategoryFilter(available, "presetBriefing");
+      return;
+    }
+    setCategoryFilter([], "presetAll");
   }
 
   document.getElementById("presetBriefing").onclick = function(){

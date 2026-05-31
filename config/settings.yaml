@@ -24,7 +24,7 @@ fetch:
   # Polite delay (seconds) between full-text fetches to the same host.
   polite_delay_seconds: 2.0
   # Cap each source per run (30+ feeds); pairs with retention.max_items_per_day.
-  max_items_per_feed: 20
+  max_items_per_feed: 40
 
 enrich:
   # Provider-agnostic: the client talks the OpenAI Chat Completions wire format
@@ -43,14 +43,10 @@ retention:
   # Rolling window for the full published surfaces. Items older than this many
   # days are pruned from data/items.json (history stays in git).
   days: 90
-  # Max non-release items per UTC calendar day. Product releases are EXTRA
-  # (they do not consume these slots — a day with 2 releases + cap 12 keeps 14).
-  max_items_per_day: 12
-  # How to pick survivors when a day has too many items:
-  #   importance — technical score + trusted-source reserve (recommended)
-  #   published_at — newest timestamps only (legacy behaviour)
+  # Per-day cap disabled (0 = keep all items that pass relevance + age window).
+  # Product releases are always kept via must_keep even when a cap is set.
+  max_items_per_day: 0
   daily_cap_method: importance
-  # Slots per day reserved for trusted engineering RSS (Cisco, ntop, OTel, …).
   priority_reserved_slots: 6
   # Splunk/Cisco product-release feeds get reserved cap slots.
   priority_source_ids:
@@ -64,8 +60,8 @@ retention:
     enabled: true
     # Extra regexes on title+summary (Python re syntax); defaults cover Splunk/Cisco GA.
     patterns: []
-  # Hard cap regardless of age (keeps Pages small). ~90d × 12/day upper bound.
-  max_items: 1200
+  # Global cap disabled (0 = no limit beyond the age window).
+  max_items: 0
 
 classification:
   # Topic assigned when no keyword and no source hint matches.
@@ -77,10 +73,8 @@ editorial:
   focus: product_updates
   drop_incidents: true
   drop_politics: true
-  # Default category filter on the web UI (empty = show all).
-  default_categories:
-    - product-release
-    - tutorial
+  # Default category filter on the web UI (empty = show all stories).
+  default_categories: []
   curated_enabled: true
   highlights_enabled: true
   highlights_limit: 10
