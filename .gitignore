@@ -1,0 +1,23 @@
+# Built site — regenerated deterministically from committed data/ by
+# `python -m newsfeed build`. Never committed; GitHub Pages publishes it.
+/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
+
+# Tooling / OS
+.DS_Store
+*.log
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# NOTE: data/ is intentionally NOT ignored. data/items.json,
+# data/enrich-cache.json and data/feed-cache.json are the committed
+# source-of-truth ("git is the database").

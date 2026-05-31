@@ -1,0 +1,16 @@
+# Python dependencies for the network-observability-news pipeline.
+#
+# CI (.github/workflows/update-and-deploy.yml) pins Python 3.12, where wheels
+# for every dependency below are available. The pipeline imports the heavy
+# parsing/LLM dependencies lazily, so `python -m newsfeed run --dry-run` and
+# `python -m newsfeed build` still work if trafilatura / the LLM SDK are not
+# installed (deterministic extractive fallback kicks in).
+#
+# Pinned for reproducible builds. Bump deliberately.
+
+feedparser==6.0.11        # RSS/Atom parsing + ETag/Last-Modified conditional GET
+trafilatura==1.12.2       # robots-aware readability + main-text extraction (Apache-2.0)
+httpx==0.28.1             # polite HTTP client for full-text fetch + LLM calls
+PyYAML==6.0.2             # config/*.yaml loading
+jsonschema==4.23.0        # validate items against schemas/item.schema.json
+openai==1.59.6            # provider-agnostic LLM client (OpenAI-compatible base_url)

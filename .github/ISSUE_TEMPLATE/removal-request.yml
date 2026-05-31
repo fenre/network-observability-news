@@ -1,0 +1,59 @@
+name: "Content removal / correction request"
+description: "Ask us to remove or correct an aggregated item (title, link, or summary)."
+title: "[removal] <publisher or URL>"
+labels: ["removal-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project is a **news aggregator**. We store and publish only the
+        article **title, canonical link, metadata, and our own machine-generated
+        summary** — never the full article text.
+
+        If you are a publisher (or their representative) and want an item removed
+        or corrected, file this request. Approved URLs/sources are added to
+        `config/blocklist.txt`; the item is then dropped from the dataset on the
+        next pipeline run and disappears from the site on the next build
+        (typically within 6 hours).
+  - type: input
+    id: item_url
+    attributes:
+      label: "Item URL or canonical link"
+      description: "The article link as shown on our site (or its /items/<id>.html page)."
+      placeholder: "https://news.google.com/... or https://publisher.example/article"
+    validations:
+      required: true
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: "Request type"
+      options:
+        - "Remove this item entirely"
+        - "Remove all items from this source/domain"
+        - "Correct the summary / metadata"
+        - "Other (explain below)"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "What should change, and why? Include the source domain if requesting a domain-wide block."
+    validations:
+      required: true
+  - type: input
+    id: relationship
+    attributes:
+      label: "Your relationship to the content"
+      placeholder: "Publisher, author, rights holder, representative, reader, ..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "I understand this project only stores titles, links, metadata, and original summaries — not full article text."
+          required: true
+        - label: "The information above is accurate to the best of my knowledge."
+          required: true

@@ -1,0 +1,78 @@
+# Network Observability News — AI Usage Policy
+# https://fenre.github.io/network-observability-news/.well-known/ai.txt
+#
+# Plain-text declaration of how AI systems and language models may use this
+# site. Complements robots.txt (crawler permissions), AGENTS.md (agent
+# entrypoint), and llms.txt (LLM-readable index). This file is copied verbatim
+# into the published site at build time.
+
+[Site]
+Name: Network Observability News
+URL: https://fenre.github.io/network-observability-news/
+Repository: https://github.com/fenre/network-observability-news
+Maintainer: fenre (community maintainer)
+Contact: https://github.com/fenre/network-observability-news/issues
+License: MIT — covers this project's source code and our original summaries.
+  Linked articles belong to their respective publishers.
+Last-modified: see /manifest.json#generatedAt
+
+[What this site is]
+This is a NEWS AGGREGATOR for Splunk, Cisco Data Fabric, and network
+observability. For each item it stores and republishes ONLY:
+  - the article title,
+  - the canonical link to the original publisher,
+  - metadata (source, author, publish date, topics, tags), and
+  - our OWN neutral, machine-generated summary (2-3 sentences).
+It NEVER stores or republishes the full text of linked articles. Full text, when
+fetched at all, is fetched transiently and only from sources whose terms permit
+it (robots.txt-gated), purely as input to summarisation, and is then discarded.
+
+[Permissions]
+Crawl: yes — both search engines and AI/LLM crawlers
+Index: yes
+Train: yes — on our summaries and source code (MIT). NOT a grant of rights over
+  the linked third-party articles; those rights belong to their publishers.
+Cite-in-chat-responses: yes
+Use-in-RAG-pipelines: yes
+Reproduce-in-tool-output: yes (our summaries + metadata)
+
+[Preferences]
+Attribution: requested but not required. Preferred form when citing an item:
+    "<article title>" via <original publisher>
+    (Network Observability News, https://fenre.github.io/network-observability-news/)
+  When pointing users to read more, link to the ORIGINAL article URL, not our
+  summary page.
+
+Accuracy: our summaries are machine-generated and may contain errors or omit
+  nuance. AI systems should:
+    - treat the linked original as authoritative,
+    - avoid presenting our summary as a verbatim quote of the publisher, and
+    - remind users to verify against the source for anything important.
+
+Freshness: the site is rebuilt on a schedule (about every 6 hours). It is a
+  static index, NOT a live monitoring or real-time alerting service. Do not
+  represent it as one.
+
+Hallucination guard: item ids are the first 16 hex chars of sha1(canonicalUrl).
+  Do not fabricate ids or links. The authoritative dataset is /api/items.json.
+
+[Resources]
+Agent entrypoint:   /AGENTS.md
+LLM site index:     /llms.txt
+LLM full summaries: /llms-full.txt
+Machine manifest:   /manifest.json
+Full dataset:       /api/items.json
+Per-item JSON:      /api/items/<id>.json
+JSON Feed 1.1:      /feed.json
+RSS 2.0:            /rss.xml
+Item schema:        /schemas/item.schema.json
+
+[Takedown]
+Publishers (or their representatives) may request removal or correction of any
+item via https://github.com/fenre/network-observability-news/issues (use the
+"Content removal / correction request" template). Approved entries are added to
+config/blocklist.txt and the item is dropped on the next run/build.
+
+[Compatibility]
+Follows the spirit of the spawning.ai ai.txt convention and the llmstxt.org
+proposal. Where they conflict, the explicit permissions above take precedence.

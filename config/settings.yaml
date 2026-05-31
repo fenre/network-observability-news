@@ -1,0 +1,55 @@
+# Global pipeline + site settings. All knobs the pipeline and build read live
+# here so behaviour can change without touching code.
+
+site:
+  title: "Network Observability News"
+  description: >-
+    An auto-updated, AI-summarised news index covering Splunk, Cisco Data
+    Fabric, and Network Observability. Each entry links to the original source
+    and carries a neutral, original summary — never the source article text.
+  # GitHub Pages project-site base URL (no trailing slash). Used for absolute
+  # URLs in feed.json, rss.xml, sitemap.xml, llms.txt, manifest.json.
+  base_url: "https://fenre.github.io/network-observability-news"
+  repository: "https://github.com/fenre/network-observability-news"
+  contact: "https://github.com/fenre/network-observability-news/issues"
+  maintainer: "fenre (community maintainer)"
+  language: "en"
+
+fetch:
+  # Identifiable User-Agent with a contact URL (legal/polite requirement).
+  user_agent: "network-observability-news/0.1 (+https://github.com/fenre/network-observability-news; aggregator bot; contact: https://github.com/fenre/network-observability-news/issues)"
+  contact: "https://github.com/fenre/network-observability-news/issues"
+  request_timeout_seconds: 20
+  # Polite delay (seconds) between full-text fetches to the same host.
+  polite_delay_seconds: 2.0
+  max_items_per_feed: 60
+
+enrich:
+  # Provider-agnostic: the client talks the OpenAI Chat Completions wire format
+  # and honours a custom base_url, so it works with OpenAI, Azure-compatible
+  # gateways, OpenRouter, Together, Groq, local llama.cpp servers, etc.
+  api_key_env: "LLM_API_KEY"
+  model_env: "LLM_MODEL"
+  base_url_env: "LLM_BASE_URL"     # optional; default = OpenAI public endpoint
+  default_model: "gpt-4o-mini"     # small/cheap default; override via LLM_MODEL
+  # Cost guard: never enrich more than this many NEW items per pipeline run.
+  max_new_items_per_run: 40
+  summary_sentences: 3
+  request_timeout_seconds: 40
+
+retention:
+  # Rolling window for the full published surfaces. Items older than this many
+  # days are pruned from data/items.json (history stays in git).
+  days: 365
+  # Hard cap regardless of age (keeps Pages small).
+  max_items: 4000
+
+classification:
+  # Topic assigned when no keyword and no source hint matches.
+  default_topic: "network-observability"
+
+build:
+  # How many recent items to inline in llms-full.txt.
+  recent_items_for_llms_full: 120
+  # How many recent items to include in rss.xml / feed.json.
+  feed_items: 80

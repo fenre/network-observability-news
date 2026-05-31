@@ -1,0 +1,131 @@
+# Source registry. The pipeline reads RSS/Atom feeds (the "spine") plus
+# Google News RSS query feeds for broad topic coverage that does not depend on
+# scraping arbitrary sites.
+#
+# Per-source fields:
+#   id        stable slug (used in item.source.id; keep stable forever)
+#   name      human-readable source name
+#   homepage  source homepage (shown in UI / attribution)
+#   feed      RSS/Atom (or Google News RSS) URL fed to feedparser
+#   type      rss | atom | googlenews   (googlenews => publisher taken per-entry
+#             from the Google News <source> element, so attribution points at
+#             the real outlet)
+#   topics    fallback topic tags applied when keyword routing finds nothing
+#   fulltext  allow | deny   (DEFAULT deny — only flip where the source ToS
+#             and robots.txt permit transient full-text fetch for summarising;
+#             we still never store or republish the fetched body)
+#   license   SPDX id or null if unknown
+#   enabled   true | false
+#
+# SAFE-BY-DEFAULT: every source below is fulltext: deny. The full-text path is
+# fully implemented and robots.txt-gated; flip a source to `allow` only after
+# you have confirmed its terms permit it.
+#
+# All feed URLs below were probed and parse cleanly with feedparser. Direct
+# vendor feeds that block bots (ThousandEyes 403) or lack a stable public RSS
+# (Splunk blog, Kentik) are covered via Google News query feeds instead.
+
+sources:
+  # ---- Splunk -------------------------------------------------------------
+  - id: gnews-splunk
+    name: "Google News — Splunk"
+    homepage: "https://news.google.com/search?q=Splunk%20observability"
+    feed: "https://news.google.com/rss/search?q=Splunk+(observability+OR+%22data+fabric%22+OR+network+OR+Cisco)&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [splunk]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: cisco-tag-splunk
+    name: "Cisco Blogs — Splunk"
+    homepage: "https://blogs.cisco.com/tag/splunk"
+    feed: "https://blogs.cisco.com/tag/splunk/feed"
+    type: rss
+    topics: [splunk, cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  # ---- Cisco / Data Fabric ------------------------------------------------
+  - id: cisco-networking-blog
+    name: "Cisco Networking Blog"
+    homepage: "https://blogs.cisco.com/networking"
+    feed: "https://blogs.cisco.com/networking/feed"
+    type: rss
+    topics: [cisco-data-fabric, network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: cisco-datacenter-blog
+    name: "Cisco Data Center Blog"
+    homepage: "https://blogs.cisco.com/datacenter"
+    feed: "https://blogs.cisco.com/datacenter/feed"
+    type: rss
+    topics: [cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-cisco-data-fabric
+    name: "Google News — Cisco Data Fabric"
+    homepage: "https://news.google.com/search?q=%22Cisco%20Data%20Fabric%22"
+    feed: "https://news.google.com/rss/search?q=%22Cisco+Data+Fabric%22&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  # ---- Network Observability — vendor blogs -------------------------------
+  - id: grafana-blog
+    name: "Grafana Labs Blog"
+    homepage: "https://grafana.com/blog"
+    feed: "https://grafana.com/blog/index.xml"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: ntop-blog
+    name: "ntop Blog"
+    homepage: "https://www.ntop.org/blog"
+    feed: "https://www.ntop.org/feed/"
+    type: rss
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  # ---- Network Observability — broad coverage via Google News -------------
+  - id: gnews-network-observability
+    name: "Google News — network observability"
+    homepage: "https://news.google.com/search?q=%22network%20observability%22"
+    feed: "https://news.google.com/rss/search?q=%22network+observability%22&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-thousandeyes
+    name: "Google News — ThousandEyes"
+    homepage: "https://news.google.com/search?q=ThousandEyes"
+    feed: "https://news.google.com/rss/search?q=%22ThousandEyes%22&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [network-observability, cisco-data-fabric]
+    fulltext: deny
+    license: null
+    enabled: true
+
+  - id: gnews-kentik-catchpoint
+    name: "Google News — Kentik / Catchpoint"
+    homepage: "https://news.google.com/search?q=Kentik%20OR%20Catchpoint%20network"
+    feed: "https://news.google.com/rss/search?q=Kentik+OR+Catchpoint+network&hl=en-US&gl=US&ceid=US:en"
+    type: googlenews
+    topics: [network-observability]
+    fulltext: deny
+    license: null
+    enabled: true

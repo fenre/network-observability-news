@@ -1,0 +1,104 @@
+# Refresh the dataset on a schedule, commit it back, then build + deploy the
+# static site to GitHub Pages — one workflow, one job.
+#
+# Pattern sources (sibling repo splunk-monitoring-use-cases):
+#   * commit-back block  -> .github/workflows/regulatory-watch.yml
+#   * Pages build/deploy + action pins -> .github/workflows/pages.yml
+#
+# The pipeline ("python -m newsfeed run") is the ONLY step that touches the
+# network / LLM. The build ("python -m newsfeed build") is deterministic from
+# the committed data/, so what we deploy always matches what we committed.
+#
+# One-time setup (see README.md):
+#   1. Settings -> Pages -> Source: "GitHub Actions".
+#   2. Add repo secret  LLM_API_KEY        (optional — without it the pipeline
+#      uses deterministic extractive summaries and spends nothing).
+#      Optionally add repo variables LLM_MODEL and LLM_BASE_URL.
+
+name: Update and deploy
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+    inputs:
+      no_llm:
+        description: "Force extractive summaries (skip LLM even if a key is set)."
+        type: boolean
+        default: false
+
+# Commit the refreshed dataset (contents) and publish Pages (pages + id-token).
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Singleton: never let two refreshes race on the committed data/ or on Pages.
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run pipeline (fetch + enrich + store)
+        env:
+          # Optional. If LLM_API_KEY is unset/empty the pipeline falls back to
+          # deterministic extractive summaries (no spend).
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+        run: |
+          if [ "${{ inputs.no_llm }}" = "true" ]; then
+            python -m newsfeed run --no-llm
+          else
+            python -m newsfeed run
+          fi
+
+      - name: Commit refreshed data/ (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/items.json data/enrich-cache.json data/feed-cache.json
+          if git diff --cached --quiet; then
+            echo "No dataset changes; nothing to commit."
+          else
+            git commit -m "chore(data): refresh news dataset $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Build dist/
+        run: |
+          python -m newsfeed build --out dist
+          echo "---"
+          ls -la dist | head -40
+
+      - name: Setup Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
