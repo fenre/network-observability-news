@@ -48,7 +48,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "This summer we are touring to present all the latest development and enhancements to our tool suite. In particular we will be focusing on: For those who cannot meet us in person can follow us in webinars, but we definitively prefer to see you in person. Below you can see some of our 2026 summer […]",
+    "summary": "ntop Summer Tour: Interop Japan, Italy, Greece, Norway, Croatia…",
     "summarySource": "extractive",
     "clusterId": "87e79cb621644727",
     "lang": "en",
@@ -624,11 +624,9 @@
     "author": "admin",
     "publishedAt": "2026-05-21T17:30:21+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Today we have run our webinar that was divided in two distinct sections. Below you can find both the video and the presentation slides. Stay tuned as the next webinar will be scheduled soon and we’ll be talking about AI.",
+    "summary": "Observability and Large Networks Monitoring Webinar (Video and Slides)",
     "summarySource": "extractive",
     "clusterId": "354a2b122a130c9b",
     "lang": "en",
@@ -850,7 +848,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "AI-Powered Network Monitoring: Introducing ntopng MCP Server for Headless Security Connect your network monitoring directly to AI assistants. Query ClickHouse flows, pull live host stats, and automate security investigations—all through natural language. Table of Contents What is MCP?",
+    "summary": "AI-Powered Network Monitoring: Introducing ntopng MCP Server",
     "summarySource": "extractive",
     "clusterId": "373e426195e56249",
     "lang": "en",
@@ -1026,7 +1024,8 @@
       "visualizations"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "summary": "Splunk blog deep-dive on Dashboard Studio 10.4 capabilities — custom viz framework, removing caps on visualizations and input results, and patterns for building more complex operational dashboards.",
     "summarySource": "curated",
@@ -1356,7 +1355,7 @@
     ],
     "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
     "summarySource": "curated",
-    "clusterId": "27db95eeb7c1fcf2",
+    "clusterId": "25caa8d3495a4776",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (canonical)",
@@ -1405,13 +1404,11 @@
     "author": "admin",
     "publishedAt": "2026-05-18T08:11:12+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
-    "summary": "Modern digital security relies on public-key encryption (like RSA and ECC) to protect global data. The future arrival of a Cryptographically Relevant Quantum Computer (CRQC) will completely break these mathematical foundations. To counter this, organizations must migrate to Post-Quantum Cryptography (PQC) — new, math-based algorithms deployed via standard software that quantum computers cannot exploit.",
+    "summary": "Post-Quantum Cryptography (PQC) Analysis",
     "summarySource": "extractive",
     "clusterId": "9614ab34e02b6c52",
     "lang": "en",
@@ -1830,7 +1827,7 @@
     ],
     "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
     "summarySource": "curated",
-    "clusterId": "27db95eeb7c1fcf2",
+    "clusterId": "25caa8d3495a4776",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (canonical)",
@@ -1929,6 +1926,36 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "5b27d89b7a3920ca",
+    "title": "Monitor Windows data with the Splunk platform - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPall3a0x5SUdHR19LZ0kxQjUzWVlxYWowQ1RkaDBWVGZSQXp1ZU40SDFWb1prSDAxajBZZERFTXVJNGxKSDhFWXR2TjlqZ2lndmgzVzVpOGFhZ3VnRGloOHZKaHNTQVBnZVhodS1QV2ZVLS1GYk9iR1VQYm1pUnpRNmN3SWJSWnl0eWhWQ2dpQ2ZacllVTkRTZGpyMEVhaEYwU0ZXZmxwNC05aS1USUJQcDFDZU5ZMEg0Vlk1Njh3MFpnQzVyYWpQX25MVWN3SEFaTG1KUUNBbHUza2xDWHc?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPall3a0x5SUdHR19LZ0kxQjUzWVlxYWowQ1RkaDBWVGZSQXp1ZU40SDFWb1prSDAxajBZZERFTXVJNGxKSDhFWXR2TjlqZ2lndmgzVzVpOGFhZ3VnRGloOHZKaHNTQVBnZVhodS1QV2ZVLS1GYk9iR1VQYm1pUnpRNmN3SWJSWnl0eWhWQ2dpQ2ZacllVTkRTZGpyMEVhaEYwU0ZXZmxwNC05aS1USUJQcDFDZU5ZMEg0Vlk1Njh3MFpnQzVyYWpQX25MVWN3SEFaTG1KUUNBbHUza2xDWHc?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-16T07:00:00+00:00",
+    "fetchedAt": "2026-06-01T02:55:36+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Monitor Windows data with the Splunk platform Splunk",
+    "summarySource": "extractive",
+    "clusterId": "5b27d89b7a3920ca",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "b232fe27996653a6",
@@ -2101,7 +2128,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Use the Value Insights dashboard Splunk",
+    "summary": "Use the Value Insights dashboard - Splunk",
     "summarySource": "extractive",
     "clusterId": "0fb15cb6f726f2c2",
     "lang": "en",
@@ -2195,6 +2222,36 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "a885ed2318c107d7",
+    "title": "Use forwarders to get data into Splunk Enterprise - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU3k3LW9BRGxQV1VFdVV2UTlIa1FIcTg4NFNtS1hkb3VBWVJ2UHliY3c1WV9fRHEyRWlLLXlNWl9ZbjdKcnZlODIyZE1jNXF6UU1SNThVbF9LU1NieXJGVmRNTElGc1FVeXBMZGRFdXoyYkw4YVBHaW11cnJBUGt6QWRRQnJ2SUthVHVzVUdSLXQ4eXlTTVRyT1JMcFRITi1zeTBjZXUtbklCS0gySEpHRlhCS0dIclhkaGthdlpyQngyZ1pONFdBcDVPbWFTUmpkUkE?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU3k3LW9BRGxQV1VFdVV2UTlIa1FIcTg4NFNtS1hkb3VBWVJ2UHliY3c1WV9fRHEyRWlLLXlNWl9ZbjdKcnZlODIyZE1jNXF6UU1SNThVbF9LU1NieXJGVmRNTElGc1FVeXBMZGRFdXoyYkw4YVBHaW11cnJBUGt6QWRRQnJ2SUthVHVzVUdSLXQ4eXlTTVRyT1JMcFRITi1zeTBjZXUtbklCS0gySEpHRlhCS0dIclhkaGthdlpyQngyZ1pONFdBcDVPbWFTUmpkUkE?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-13T07:00:00+00:00",
+    "fetchedAt": "2026-06-01T02:55:36+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Use forwarders to get data into Splunk Enterprise Splunk",
+    "summarySource": "extractive",
+    "clusterId": "a885ed2318c107d7",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "9a8fed51dc32de00",
@@ -2573,7 +2630,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -2634,7 +2691,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "Is your network a “black box,” or do you have the granular clarity needed to stay ahead of modern traffic demands? We are excited to announce an upcoming two-part webinar focused on the latest enhancements to nProbe and ntopng. These updates are designed to push the boundaries of what’s possible in network monitoring, moving beyond simple statistics into […]",
+    "summary": "May 21st: You’re invited to Observability and Large-Network Monitoring Webinar",
     "summarySource": "extractive",
     "clusterId": "acb19c2a159146cc",
     "lang": "en",
@@ -2767,7 +2824,7 @@
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd09rTlpwWWtiN2dlbkllNlJvWnl4UHphdjJlSjllSWpHUDFmdmViRTRDVUtpN2t1QzcxUjZrTDhLTkxKeW1wQm41eDI3clZUaDdSLWFiSHhjaV82bWFqRHhMX050R3h6dkM3N2NDQzNkSXlCTFNVNTBPUEJDbjRYaFZpajFlY056bWI3cUJKWEZ3eU5MMjIyZVRCVVJBRERfbDNMUGxHYmdoOHdOcWZUV3NOMjZYVGJfanFkTUpMU1hTNU8tOUVfVFdXWjV2Wl9DQzU1WEVIXzAzYUgwT2pV?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd09rTlpwWWtiN2dlbkllNlJvWnl4UHphdjJlSjllSWpHUDFmdmViRTRDVUtpN2t1QzcxUjZrTDhLTkxKeW1wQm41eDI3clZUaDdSLWFiSHhjaV82bWFqRHhMX050R3h6dkM3N2NDQzNkSXlCTFNVNTBPUEJDbjRYaFZpajFlY056bWI3cUJKWEZ3eU5MMjIyZVRCVVJBRERfbDNMUGxHYmdoOHdOcWZUV3NOMjZYVGJfanFkTUpMU1hTNU8tOUVfVFdXWjV2Wl9DQzU1WEVIXzAzYUgwT2pV?oc=5",
     "source": {
-      "id": "gnews-splunk-blog",
+      "id": "gnews-splunk-features",
       "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
@@ -2781,7 +2838,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "What's new | Platform (last updated 2026-05-06T16:34:28.924Z) - Splunk",
+    "summary": "What's new | Platform (last updated 2026-05-06T16:34:28.924Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "dc569d26ea5fb37a",
     "lang": "en",
@@ -3236,6 +3293,35 @@
     ]
   },
   {
+    "id": "ed4f0003792ee88c",
+    "title": "IETF 125 post-meeting survey",
+    "url": "http://www.ietf.org/blog/ietf125-survey/",
+    "canonicalUrl": "https://www.ietf.org/blog/ietf125-survey",
+    "source": {
+      "id": "ietf-blog",
+      "name": "IETF Blog",
+      "homepage": "https://www.ietf.org/blog"
+    },
+    "author": "Akanksha Gohil, Paige Mustafa",
+    "publishedAt": "2026-04-29T16:00:00+00:00",
+    "fetchedAt": "2026-06-01T02:55:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "summarySource": "extractive",
+    "clusterId": "ed4f0003792ee88c",
+    "lang": "en",
+    "license": null,
+    "attribution": "via IETF Blog"
+  },
+  {
     "id": "1c40051c55aea558",
     "title": "Simplify access control in five easy steps",
     "url": "https://blogs.cisco.com/networking/simplify-access-control-in-five-easy-steps/",
@@ -3430,7 +3516,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "Wazuh is a free, open-source security platform that combines SIEM (Security Information and Event Management) and XDR (Extended Detection and Response) capabilities. It is primarily used to monitor endpoints, cloud workloads, and containers to detect threats, ensure compliance, and respond to incidents in real-time. Integrating Wazuh with ntopng creates a powerful security layer by bridging […]",
+    "summary": "Merging ntopng Asset Inventory with Wazuh",
     "summarySource": "extractive",
     "clusterId": "68c7376adc8520ce",
     "lang": "en",
@@ -3946,6 +4032,36 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "f7bcf8a14476044c",
+    "title": "Install Splunk AI Assistant for Splunk Cloud customers - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPLVZnbUVJOGFlTEd4NHNPcGN3Wm5EcDAyT3Fyd3RZS2ZiT3JxMFhWR3JYTUJETU03TDVFekJQWmJxa2g3QXhCMTJ6V3RNdzNzU0pDU0lMWmFxOGQ4dGwyLU5fS0EwcVFyNnc1R3A3cW1sMURKdE15NHFSTHJxZEs1cURRM0t3YklNLVRnUHNwUVp3MFJjMmRfWVdRS3p3dTJvT2gzVVdEWHZ3UlVTblVoeHhORl85VUdyemUxRmpRaHNiMFZWSFc5UEtiT25jTThLU2ozQmpSRzMwNDJWR2c2d0FvWHVQcnNOVGlJWVF2RXBaU0liVHlGalRFaFdwLUJOT3FSMQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPLVZnbUVJOGFlTEd4NHNPcGN3Wm5EcDAyT3Fyd3RZS2ZiT3JxMFhWR3JYTUJETU03TDVFekJQWmJxa2g3QXhCMTJ6V3RNdzNzU0pDU0lMWmFxOGQ4dGwyLU5fS0EwcVFyNnc1R3A3cW1sMURKdE15NHFSTHJxZEs1cURRM0t3YklNLVRnUHNwUVp3MFJjMmRfWVdRS3p3dTJvT2gzVVdEWHZ3UlVTblVoeHhORl85VUdyemUxRmpRaHNiMFZWSFc5UEtiT25jTThLU2ozQmpSRzMwNDJWR2c2d0FvWHVQcnNOVGlJWVF2RXBaU0liVHlGalRFaFdwLUJOT3FSMQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-04-20T07:00:00+00:00",
+    "fetchedAt": "2026-06-01T02:55:36+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Install Splunk AI Assistant for Splunk Cloud customers Splunk",
+    "summarySource": "extractive",
+    "clusterId": "f7bcf8a14476044c",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "704cc9e46480a0f3",
@@ -4759,7 +4875,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "Passkey authentication is a passwordless sign-in method that allows you to log in to websites and apps using the same way you unlock your device—such as a fingerprint, face scan, or a screen lock PIN. It is designed to replace traditional passwords entirely, offering a significantly more secure and faster experience. In ntopng, it can […]",
+    "summary": "HowTo Enable Passkey in ntopng",
     "summarySource": "extractive",
     "clusterId": "1031e2a0c18f9c0e",
     "lang": "en",
@@ -4967,7 +5083,7 @@
       "grafana",
       "ntopng"
     ],
-    "summary": "Modern network monitoring is no longer just about collecting data, it’s more about turning large volumes of time-series data into actionable insights. When enabling dump to ClickHouse, both for raw flow data and timeseries, users can build a highly scalable and flexible observability stack that goes far beyond traditional dashboards. In fact, in this post […]",
+    "summary": "Building Custom ntopng Dashboards Using Grafana and ClickHouse",
     "summarySource": "extractive",
     "clusterId": "f99f759dc62e86e4",
     "lang": "en",
@@ -5210,7 +5326,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "ntopng has always supported multiple authentication methods to fit different environments: local accounts, LDAP, RADIUS, HTTP basic auth, etc. Now it also supports OpenID Connect (OIDC), bringing native Single Sign-on (SSO) support for any standards-compliant Identity Provider (IdP), including Keycloak, Okta, Auth0, Azure AD / Entra ID, Google Workspace, and more. Why SSO?",
+    "summary": "Single Sign-On on ntopng with OpenID Connect (OIDC)",
     "summarySource": "extractive",
     "clusterId": "eefd299216c3d7c7",
     "lang": "en",
@@ -5332,11 +5448,9 @@
     "author": "admin",
     "publishedAt": "2026-03-17T20:21:09+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "by Ivan Nardi One of the recurring challenges when embedding the nDPI library into a production application is answering a deceptively simple question: what is nDPI actually doing right now? You know packets are coming in, flows are being classified, and risks are being flagged — but at what rate? With what latency?",
+    "summary": "Observing nDPI from the Inside: Introducing USDT Tracepoints",
     "summarySource": "extractive",
     "clusterId": "474a223f56ac12c3",
     "lang": "en",
@@ -5400,7 +5514,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "Multi-Factor Authentication (MFA) is a security system that requires users to provide two or more verification factors to gain access to a resource such as an application, online account, or VPN. The use of MFA with sensitive information as network traffic is a key feature, in particular for the ntopng admin users. In the current […]",
+    "summary": "HowTo Enable Multi-Factor Authentication (MFA) in ntopng",
     "summarySource": "extractive",
     "clusterId": "eb81da51fd2cfb6d",
     "lang": "en",
@@ -5833,6 +5947,41 @@
     "summary": "Dashboard Studio updates in Splunk 10.4: custom visualization framework, centralized Token Manager for debugging, unlimited input results, cascading inputs, and admin resource controls — aimed at richer, more reliable dashboards without hitting prior limits.",
     "summarySource": "curated",
     "clusterId": "98d4c0ba438c99e3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
+  },
+  {
+    "id": "25caa8d3495a4776",
+    "title": "What’s New With Splunk Enterprise 8.1 - Splunk",
+    "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2020-10-21T07:00:00+00:00",
+    "fetchedAt": "2026-06-01T02:55:36+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-enterprise",
+      "10.4",
+      "release-notes"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
+    "summarySource": "curated",
+    "clusterId": "25caa8d3495a4776",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (canonical)"
