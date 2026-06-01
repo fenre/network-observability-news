@@ -48,7 +48,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "ntop Summer Tour: Interop Japan, Italy, Greece, Norway, Croatia…",
+    "summary": "This summer we are touring to present all the latest development and enhancements to our tool suite. In particular we will be focusing on: For those who cannot meet us in person can follow us in webinars, but we definitively prefer to see you in person. Below you can see some of our 2026 summer […]",
     "summarySource": "extractive",
     "clusterId": "87e79cb621644727",
     "lang": "en",
@@ -490,7 +490,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) - Splunk",
+    "summary": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) Splunk",
     "summarySource": "extractive",
     "clusterId": "046166508da9f81b",
     "lang": "en",
@@ -512,7 +512,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Ephemeral leaks and automated BGP route leak detection",
+    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -624,9 +624,11 @@
     "author": "admin",
     "publishedAt": "2026-05-21T17:30:21+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Observability and Large Networks Monitoring Webinar (Video and Slides)",
+    "summary": "Today we have run our webinar that was divided in two distinct sections. Below you can find both the video and the presentation slides. Stay tuned as the next webinar will be scheduled soon and we’ll be talking about AI.",
     "summarySource": "extractive",
     "clusterId": "354a2b122a130c9b",
     "lang": "en",
@@ -848,7 +850,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "AI-Powered Network Monitoring: Introducing ntopng MCP Server",
+    "summary": "AI-Powered Network Monitoring: Introducing ntopng MCP Server for Headless Security Connect your network monitoring directly to AI assistants. Query ClickHouse flows, pull live host stats, and automate security investigations—all through natural language. Table of Contents What is MCP?",
     "summarySource": "extractive",
     "clusterId": "373e426195e56249",
     "lang": "en",
@@ -906,7 +908,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "AI network performance with Cisco Intelligent Packet Flow Cisco Blogs",
+    "summary": "AI network performance with Cisco Intelligent Packet Flow - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "bd4d1ec09d95de7d",
     "lang": "en",
@@ -990,7 +992,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Authoritative DNS over encrypted transport at OARC 45",
+    "summary": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
     "summarySource": "extractive",
     "clusterId": "b3b7d8547d6d0d64",
     "lang": "en",
@@ -1184,7 +1186,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Sending data from Edge Processors to Splunk Cloud Platform or Splunk Enterprise Splunk",
+    "summary": "Sending data from Edge Processors to Splunk Cloud Platform or Splunk Enterprise - Splunk",
     "summarySource": "extractive",
     "clusterId": "1016a748ed8da633",
     "lang": "en",
@@ -1404,11 +1406,13 @@
     "author": "admin",
     "publishedAt": "2026-05-18T08:11:12+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "ntopng"
     ],
-    "summary": "Post-Quantum Cryptography (PQC) Analysis",
+    "summary": "Modern digital security relies on public-key encryption (like RSA and ECC) to protect global data. The future arrival of a Cryptographically Relevant Quantum Computer (CRQC) will completely break these mathematical foundations. To counter this, organizations must migrate to Post-Quantum Cryptography (PQC) — new, math-based algorithms deployed via standard software that quantum computers cannot exploit.",
     "summarySource": "extractive",
     "clusterId": "9614ab34e02b6c52",
     "lang": "en",
@@ -1950,12 +1954,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Monitor Windows data with the Splunk platform Splunk",
+    "summary": "Monitor Windows data with the Splunk platform - Splunk",
     "summarySource": "extractive",
     "clusterId": "5b27d89b7a3920ca",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "2d47c5e1a2810920",
+    "title": "PeeringDB update: October 2025 to April 2026",
+    "url": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026/",
+    "canonicalUrl": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-05-15T03:41:13+00:00",
+    "fetchedAt": "2026-06-01T11:15:23+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: From Kubernetes migration to improved ASN comparison and stronger data normalization, PeeringDB has delivered a range of updates over the past six months. This report highlights key operational changes, new search capabilities, and what's coming next to support users and contributors.",
+    "summarySource": "extractive",
+    "clusterId": "2d47c5e1a2810920",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "b232fe27996653a6",
@@ -2106,6 +2138,36 @@
     ]
   },
   {
+    "id": "3cde1928b6093913",
+    "title": "Determine your Splunk Cloud Platform Experience - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOR3JaNnZUejBxRGtNS25UX19rMTRzOTZqRjRxRTNWaVZEMm43TUpvWGdTVFdzUlJXM3lKYXdXU2tENU9xY3FkWElwTmJxRTFPUTRYRk42MDRMNzE0VEJzXzlsNWhtRmZ3UjFhZEtlUFlGUFNUeF9SZEh6Nll4aXUtazdtUFMweE1iT2JaQ0c4WXFnRllmRDBOTHVLV3Z5N3VlN2piZUVnQUtKRWdJSlRtV3p1bzRuTVp1Z3UwcElaWVFGTzliY05OVVp5RmxqYXJidF9ua2xJb2tlaEtnWFRPRWY1eDBaV2paUk1XZFFOWE8tSUZBcnNWWVdtV2oyOExmZzFV?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOR3JaNnZUejBxRGtNS25UX19rMTRzOTZqRjRxRTNWaVZEMm43TUpvWGdTVFdzUlJXM3lKYXdXU2tENU9xY3FkWElwTmJxRTFPUTRYRk42MDRMNzE0VEJzXzlsNWhtRmZ3UjFhZEtlUFlGUFNUeF9SZEh6Nll4aXUtazdtUFMweE1iT2JaQ0c4WXFnRllmRDBOTHVLV3Z5N3VlN2piZUVnQUtKRWdJSlRtV3p1bzRuTVp1Z3UwcElaWVFGTzliY05OVVp5RmxqYXJidF9ua2xJb2tlaEtnWFRPRWY1eDBaV2paUk1XZFFOWE8tSUZBcnNWWVdtV2oyOExmZzFV?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-14T07:00:00+00:00",
+    "fetchedAt": "2026-06-01T11:15:23+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Determine your Splunk Cloud Platform Experience Splunk",
+    "summarySource": "extractive",
+    "clusterId": "3cde1928b6093913",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "0fb15cb6f726f2c2",
     "title": "Use the Value Insights dashboard - Splunk",
     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdmhtckM5QXNfbkJpNjdESlFMZlU3QlVfSENVdnBOQ0ZtWHZ5eXJJWlg1Z1JMYzVQOEIwbGVkUkZ3SmJ4RE5ncmpiSi1IdEZJdjc5UmxHUlFEbmlzMEpNSDlRNFBSdWV6OG9YaEEtSVhOejdrS0FyLTA5T25FVzYtbjU5aEFVZXl3WW5mSmdkZ2RrdnhGOWRMcTVWRExLTUstMks5VjY0RzQ2dTdHZmtJd2Rha0RYN29jRGdFZ0ZLNEhLcWN0OVV4SEFmaHhGSUd4Z0dZc293X2IwWmJDS0ZiV2lhTklxdENkRk5jUllUakZFa28?oc=5",
@@ -2246,7 +2308,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Use forwarders to get data into Splunk Enterprise Splunk",
+    "summary": "Use forwarders to get data into Splunk Enterprise - Splunk",
     "summarySource": "extractive",
     "clusterId": "a885ed2318c107d7",
     "lang": "en",
@@ -2305,7 +2367,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "How Splunk Enterprise handles your data Splunk",
+    "summary": "How Splunk Enterprise handles your data - Splunk",
     "summarySource": "extractive",
     "clusterId": "500e30261251d651",
     "lang": "en",
@@ -2479,7 +2541,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "RIR Governance Document Version 2: Status Report May 2026 now available",
+    "summary": "The NRO NC has updated the status report related to comments received during the consultation on the second version of the RIR Governance Document.",
     "summarySource": "extractive",
     "clusterId": "a7949dd27d4265d2",
     "lang": "en",
@@ -2630,7 +2692,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -2691,7 +2753,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "May 21st: You’re invited to Observability and Large-Network Monitoring Webinar",
+    "summary": "Is your network a “black box,” or do you have the granular clarity needed to stay ahead of modern traffic demands? We are excited to announce an upcoming two-part webinar focused on the latest enhancements to nProbe and ntopng. These updates are designed to push the boundaries of what’s possible in network monitoring, moving beyond simple statistics into […]",
     "summarySource": "extractive",
     "clusterId": "acb19c2a159146cc",
     "lang": "en",
@@ -2703,6 +2765,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "fc75ffc6c218def3",
+    "title": "SCION: The overlay network for bankers",
+    "url": "https://blog.apnic.net/2026/05/07/scion-the-overlay-network-for-bankers/",
+    "canonicalUrl": "https://blog.apnic.net/2026/05/07/scion-the-overlay-network-for-bankers",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-05-07T04:13:28+00:00",
+    "fetchedAt": "2026-06-01T11:15:23+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "SCION has both supporters and critics, but it faces a major challenge: Replacing BGP while competing in an environment where network decisions are driven more by carrier costs than by strategic priorities.",
+    "summarySource": "extractive",
+    "clusterId": "fc75ffc6c218def3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "46b8ae0c98c38f7a",
@@ -2838,7 +2928,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "What's new | Platform (last updated 2026-05-06T16:34:28.924Z) Splunk",
+    "summary": "What's new | Platform (last updated 2026-05-06T16:34:28.924Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "dc569d26ea5fb37a",
     "lang": "en",
@@ -2981,7 +3071,7 @@
       "splunk"
     ],
     "tags": [],
-    "summary": "Splunk Edge Hub OS release notes - Splunk",
+    "summary": "Splunk Edge Hub OS release notes Splunk",
     "summarySource": "extractive",
     "clusterId": "66aa39fa39c88afe",
     "lang": "en",
@@ -3235,6 +3325,34 @@
     ]
   },
   {
+    "id": "f0d86e816d11a03b",
+    "title": "[Podcast] CIDR inside",
+    "url": "https://blog.apnic.net/2026/04/30/podcast-cidr-inside/",
+    "canonicalUrl": "https://blog.apnic.net/2026/04/30/podcast-cidr-inside",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-04-29T20:30:00+00:00",
+    "fetchedAt": "2026-06-01T11:15:23+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Geoff Huston discusses the CIDR Report, a 30-year-long series of data about who is sending excess data in BGP. Does the CIDR Report still hold value?",
+    "summarySource": "extractive",
+    "clusterId": "f0d86e816d11a03b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "955d3b2d6d7a5ade",
     "title": "Eino Launches Agentic Network Observability Platform for AI-Native Enterprise Networks - The Fast Mode",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcUZzWHN4YmNyUkZleHdmZXBxdERQSlAtbG9TX0h6S1M3VlRLcUc5Wm1FeGcyVU90VVFhY2hWUVRIdFh5ZFN5OTRWM2JVNDd4aGo2VkZCVUxvR2ZsR2tqbGU3SGtuVEFmelZxZ2xfOWlKenM4N2ZGZF90aU9LZVNuWWVjMzZDVXY4LXpRX1I5NlVtc1lfRDJYZTA3eXNsbEhQemdZdzZZY3BxdmNMUTNNLUZlQWttRlNBZDNndkloMkNGSndIQ3hyQkxWSWU4bzVHUXB0MDVISXQ?oc=5",
@@ -3314,7 +3432,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "summary": "IETF 125 post-meeting survey",
     "summarySource": "extractive",
     "clusterId": "ed4f0003792ee88c",
     "lang": "en",
@@ -3406,6 +3524,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "7ebb58055483a869",
+    "title": "Pacific routing security sets a deadline",
+    "url": "https://blog.apnic.net/2026/04/29/pacific-routing-security-sets-a-deadline/",
+    "canonicalUrl": "https://blog.apnic.net/2026/04/29/pacific-routing-security-sets-a-deadline",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Terry Sweetser",
+    "publishedAt": "2026-04-29T03:38:04+00:00",
+    "fetchedAt": "2026-06-01T11:15:23+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: PITA 30 showed both the risks of insecure routing and the opportunities for rapid improvement in the Pacific, with PITA 31 set as an implementation target.",
+    "summarySource": "extractive",
+    "clusterId": "7ebb58055483a869",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -3516,7 +3662,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "Merging ntopng Asset Inventory with Wazuh",
+    "summary": "Wazuh is a free, open-source security platform that combines SIEM (Security Information and Event Management) and XDR (Extended Detection and Response) capabilities. It is primarily used to monitor endpoints, cloud workloads, and containers to detect threats, ensure compliance, and respond to incidents in real-time. Integrating Wazuh with ntopng creates a powerful security layer by bridging […]",
     "summarySource": "extractive",
     "clusterId": "68c7376adc8520ce",
     "lang": "en",
@@ -4086,7 +4232,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -4694,7 +4840,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Monitor detection coverage and health using Detection Studio in Splunk Enterprise Security - Splunk",
+    "summary": "Monitor detection coverage and health using Detection Studio in Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "76ca4e8b01fd4d95",
     "lang": "en",
@@ -4724,7 +4870,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Finding-based detections available in Splunk Enterprise Security Splunk",
+    "summary": "Finding-based detections available in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "0c8746de7021a2b6",
     "lang": "en",
@@ -4875,7 +5021,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "HowTo Enable Passkey in ntopng",
+    "summary": "Passkey authentication is a passwordless sign-in method that allows you to log in to websites and apps using the same way you unlock your device—such as a fingerprint, face scan, or a screen lock PIN. It is designed to replace traditional passwords entirely, offering a significantly more secure and faster experience. In ntopng, it can […]",
     "summarySource": "extractive",
     "clusterId": "1031e2a0c18f9c0e",
     "lang": "en",
@@ -5083,7 +5229,7 @@
       "grafana",
       "ntopng"
     ],
-    "summary": "Building Custom ntopng Dashboards Using Grafana and ClickHouse",
+    "summary": "Modern network monitoring is no longer just about collecting data, it’s more about turning large volumes of time-series data into actionable insights. When enabling dump to ClickHouse, both for raw flow data and timeseries, users can build a highly scalable and flexible observability stack that goes far beyond traditional dashboards. In fact, in this post […]",
     "summarySource": "extractive",
     "clusterId": "f99f759dc62e86e4",
     "lang": "en",
@@ -5326,7 +5472,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "Single Sign-On on ntopng with OpenID Connect (OIDC)",
+    "summary": "ntopng has always supported multiple authentication methods to fit different environments: local accounts, LDAP, RADIUS, HTTP basic auth, etc. Now it also supports OpenID Connect (OIDC), bringing native Single Sign-on (SSO) support for any standards-compliant Identity Provider (IdP), including Keycloak, Okta, Auth0, Azure AD / Entra ID, Google Workspace, and more. Why SSO?",
     "summarySource": "extractive",
     "clusterId": "eefd299216c3d7c7",
     "lang": "en",
@@ -5448,9 +5594,11 @@
     "author": "admin",
     "publishedAt": "2026-03-17T20:21:09+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Observing nDPI from the Inside: Introducing USDT Tracepoints",
+    "summary": "by Ivan Nardi One of the recurring challenges when embedding the nDPI library into a production application is answering a deceptively simple question: what is nDPI actually doing right now? You know packets are coming in, flows are being classified, and risks are being flagged — but at what rate? With what latency?",
     "summarySource": "extractive",
     "clusterId": "474a223f56ac12c3",
     "lang": "en",
@@ -5514,7 +5662,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "HowTo Enable Multi-Factor Authentication (MFA) in ntopng",
+    "summary": "Multi-Factor Authentication (MFA) is a security system that requires users to provide two or more verification factors to gain access to a resource such as an application, online account, or VPN. The use of MFA with sensitive information as network traffic is a key feature, in particular for the ntopng admin users. In the current […]",
     "summarySource": "extractive",
     "clusterId": "eb81da51fd2cfb6d",
     "lang": "en",
@@ -5573,7 +5721,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Top 5 Skills to Power Your Career in the Age of AgenticOps Cisco Blogs",
+    "summary": "Top 5 Skills to Power Your Career in the Age of AgenticOps - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "a3bd4e6027656944",
     "lang": "en",
