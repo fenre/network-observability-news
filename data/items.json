@@ -1,5 +1,35 @@
 [
   {
+    "id": "504e8f104b766eda",
+    "title": "Enforcing the First AS in BGP AS_PATHs",
+    "url": "https://blog.cloudflare.com/enforce-first-as-bgp/",
+    "canonicalUrl": "https://blog.cloudflare.com/enforce-first-as-bgp",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Mingwei Zhang",
+    "publishedAt": "2026-06-03T17:00:00+00:00",
+    "fetchedAt": "2026-06-03T20:49:45+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
+    "summarySource": "extractive",
+    "clusterId": "504e8f104b766eda",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "5e104c781f573166",
     "title": "AI infrastructure has entered its operational era",
     "url": "https://blogs.cisco.com/datacenter/ai-infrastructure-has-entered-its-operational-era/",
@@ -109,7 +139,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure TechTarget",
+    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure - TechTarget",
     "summarySource": "extractive",
     "clusterId": "965013d806dfdf27",
     "lang": "en",
@@ -317,7 +347,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check - Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -1760,7 +1790,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Edge Security Alert: Cisco Fixes SD-WAN Zero-Day CVEs AI CERTs",
+    "summary": "Edge Security Alert: Cisco Fixes SD-WAN Zero-Day CVEs - AI CERTs",
     "summarySource": "extractive",
     "clusterId": "3f96c435944396d9",
     "lang": "en",
@@ -2114,7 +2144,7 @@
       "product-release",
       "tutorial"
     ],
-    "summary": "How to use this manual | Splunk Enterprise (last updated 2026-05-17T14:51:55.336Z) Splunk",
+    "summary": "How to use this manual | Splunk Enterprise (last updated 2026-05-17T14:51:55.336Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "e35eaed1d9cd9256",
     "lang": "en",
@@ -3147,7 +3177,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Creating searches using the REST API Splunk",
+    "summary": "Creating searches using the REST API - Splunk",
     "summarySource": "extractive",
     "clusterId": "940edc9e05b35e7a",
     "lang": "en",
@@ -4494,17 +4524,15 @@
     "author": "Arthur Silva Sens (@ArthurSens)",
     "publishedAt": "2026-04-22T00:00:00+00:00",
     "fetchedAt": "2026-06-03T16:23:40+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "news"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Prometheus documentation now includes a new Kapa.ai integration. This is available as part of the partnership between CNCF and Kapa.ai , which helps CNCF projects make their documentation and knowledge more accessible. You can now use the Ask AI entry on prometheus.io to ask questions in natural language and get answers grounded in Prometheus documentation.",
+    "summary": "Ask the Prometheus docs with Kapa.ai",
     "summarySource": "extractive",
     "clusterId": "914cbbf93daa4ba9",
     "lang": "en",
@@ -4645,11 +4673,9 @@
     "author": "Anni Wang",
     "publishedAt": "2026-04-20T13:00:00+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
+    "summary": "Building the agentic cloud: everything we launched during Agents Week 2026",
     "summarySource": "extractive",
     "clusterId": "7743bd3d66332a06",
     "lang": "en",
@@ -5049,7 +5075,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
@@ -5470,20 +5496,18 @@
     "author": "Amy Super",
     "publishedAt": "2026-04-08T00:00:00+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "opentelemetry"
     ],
-    "summary": "Prometheus has always prioritized solving complex technical challenges to deliver a reliable, performant open-source monitoring system. Over time, however, users have expressed a variety of experience-related pain points. Those pain points range from onboarding and configuration to documentation, mental models, and interoperability across the ecosystem.",
+    "summary": "Introducing the UX Research Working Group",
     "summarySource": "extractive",
     "clusterId": "9d2ec863ad8fe91f",
     "lang": "en",
     "license": null,
     "attribution": "via Prometheus Blog",
     "categories": [
-      "research"
+      "news"
     ],
     "audiences": [
       "global"
@@ -6311,7 +6335,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Top 5 Skills to Power Your Career in the Age of AgenticOps Cisco Blogs",
+    "summary": "Top 5 Skills to Power Your Career in the Age of AgenticOps - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "a3bd4e6027656944",
     "lang": "en",
