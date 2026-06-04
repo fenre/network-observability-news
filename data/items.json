@@ -725,7 +725,7 @@
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHhjdExyM1BZcGdOVXpTQ1p1UXFtREJ0RC0wVUlWaTVaN3ZOU09BUDhZMU9ORFVzU3pKOGc0akV3SkRKUWhpVlZ3YUJYNG0tcGZTYUd3azB3clowb2ltWm9NVjYxLW1lQWFYVl96azRIX3FGamYyckxjaGRLUTNWZy1IYldKd3hUOFlWSHFhSTI0MWpkVlRqaV81YkItVGg4anc?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHhjdExyM1BZcGdOVXpTQ1p1UXFtREJ0RC0wVUlWaTVaN3ZOU09BUDhZMU9ORFVzU3pKOGc0akV3SkRKUWhpVlZ3YUJYNG0tcGZTYUd3azB3clowb2ltWm9NVjYxLW1lQWFYVl96azRIX3FGamYyckxjaGRLUTNWZy1IYldKd3hUOFlWSHFhSTI0MWpkVlRqaV81YkItVGg4anc?oc=5",
     "source": {
-      "id": "gnews-splunk-nordics-dk",
+      "id": "gnews-splunk-nordics-no",
       "name": "cw.no",
       "homepage": "https://news.google.com/"
     },
@@ -740,7 +740,7 @@
     "audiences": [
       "global",
       "nordics",
-      "nordics-dk"
+      "nordics-no"
     ],
     "summary": "(+) Nedetid koster verden 600 milliarder dollar i året cw.no",
     "summarySource": "extractive",
@@ -948,7 +948,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
+    "summary": "Ephemeral leaks and automated BGP route leak detection",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -1405,7 +1405,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Selector Closes the Network-to-Cloud Visibility Gap with AI-Powered Multi-Cloud Observability Solution Database Trends and Applications",
+    "summary": "Selector Closes the Network-to-Cloud Visibility Gap with AI-Powered Multi-Cloud Observability Solution - Database Trends and Applications",
     "summarySource": "extractive",
     "clusterId": "d253da19b5a0203d",
     "lang": "en",
@@ -1433,7 +1433,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
+    "summary": "Authoritative DNS over encrypted transport at OARC 45",
     "summarySource": "extractive",
     "clusterId": "b3b7d8547d6d0d64",
     "lang": "en",
@@ -1627,7 +1627,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Sending data from Edge Processors to Splunk Cloud Platform or Splunk Enterprise - Splunk",
+    "summary": "Sending data from Edge Processors to Splunk Cloud Platform or Splunk Enterprise Splunk",
     "summarySource": "extractive",
     "clusterId": "1016a748ed8da633",
     "lang": "en",
@@ -1821,7 +1821,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Edge Security Alert: Cisco Fixes SD-WAN Zero-Day CVEs AI CERTs",
+    "summary": "Edge Security Alert: Cisco Fixes SD-WAN Zero-Day CVEs - AI CERTs",
     "summarySource": "extractive",
     "clusterId": "3f96c435944396d9",
     "lang": "en",
@@ -2175,7 +2175,7 @@
       "product-release",
       "tutorial"
     ],
-    "summary": "How to use this manual | Splunk Enterprise (last updated 2026-05-17T14:51:55.336Z) Splunk",
+    "summary": "How to use this manual | Splunk Enterprise (last updated 2026-05-17T14:51:55.336Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "e35eaed1d9cd9256",
     "lang": "en",
@@ -2482,7 +2482,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: From Kubernetes migration to improved ASN comparison and stronger data normalization, PeeringDB has delivered a range of updates over the past six months. This report highlights key operational changes, new search capabilities, and what's coming next to support users and contributors.",
+    "summary": "PeeringDB update: October 2025 to April 2026",
     "summarySource": "extractive",
     "clusterId": "2d47c5e1a2810920",
     "lang": "en",
@@ -2749,7 +2749,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-05-14T14:01:50.613Z) Splunk",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-05-14T14:01:50.613Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
@@ -2782,7 +2782,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Cloud Platform Quick Start Splunk",
+    "summary": "Splunk Cloud Platform Quick Start - Splunk",
     "summarySource": "extractive",
     "clusterId": "260c3fcc4fbfceea",
     "lang": "en",
@@ -3200,7 +3200,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "The NRO NC has updated the status report related to comments received during the consultation on the second version of the RIR Governance Document.",
+    "summary": "RIR Governance Document Version 2: Status Report May 2026 now available",
     "summarySource": "extractive",
     "clusterId": "a7949dd27d4265d2",
     "lang": "en",
@@ -3476,7 +3476,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SCION has both supporters and critics, but it faces a major challenge: Replacing BGP while competing in an environment where network decisions are driven more by carrier costs than by strategic priorities.",
+    "summary": "SCION: The overlay network for bankers",
     "summarySource": "extractive",
     "clusterId": "fc75ffc6c218def3",
     "lang": "en",
@@ -3899,7 +3899,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
     "summarySource": "extractive",
     "clusterId": "434f16427de9a2e9",
     "lang": "en",
@@ -4049,7 +4049,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Geoff Huston discusses the CIDR Report, a 30-year-long series of data about who is sending excess data in BGP. Does the CIDR Report still hold value?",
+    "summary": "[Podcast] CIDR inside",
     "summarySource": "extractive",
     "clusterId": "f0d86e816d11a03b",
     "lang": "en",
@@ -4201,34 +4201,6 @@
     ]
   },
   {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-06-04T02:56:26+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "a20d4962fa3ff3d9",
     "title": "The power of your network: Solving a physical security incident on Vision portal",
     "url": "https://blogs.cisco.com/networking/the-power-of-your-network-solving-a-physical-security-incident-on-vision-portal/",
@@ -4367,7 +4339,7 @@
       "network-observability"
     ],
     "tags": [],
-    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem SDxCentral",
+    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "80f1daeefd0a1f82",
     "lang": "en",
@@ -4910,7 +4882,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk AI Assistant for Splunk Cloud customers Splunk",
+    "summary": "Install Splunk AI Assistant for Splunk Cloud customers - Splunk",
     "summarySource": "extractive",
     "clusterId": "f7bcf8a14476044c",
     "lang": "en",
@@ -5029,7 +5001,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
@@ -5247,7 +5219,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
@@ -5450,7 +5422,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
+    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -5744,7 +5716,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Connect Splunk App for SOAR to Splunk SOAR Splunk",
+    "summary": "Connect Splunk App for SOAR to Splunk SOAR - Splunk",
     "summarySource": "extractive",
     "clusterId": "21aee3f4642a5e47",
     "lang": "en",
@@ -6201,7 +6173,7 @@
     "categories": [
       "news"
     ],
-    "summary": "Troubleshoot Splunk AI Assistant for SPL Splunk",
+    "summary": "Troubleshoot Splunk AI Assistant for SPL - Splunk",
     "summarySource": "extractive",
     "clusterId": "5825be4c5f5c4044",
     "lang": "en",
@@ -6366,34 +6338,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "41c34892d17e8afd",
-    "title": "Startup Radar: NetPrompt AI Targets Faster MTTR with an LLM and AI Agents",
-    "url": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-03-18T15:15:45+00:00",
-    "fetchedAt": "2026-06-04T02:56:26+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetPrompt AI is a network management startup. The company aims to improve your Mean Time To Repair (MTTR) by integrating a reasoning LLM that can analyze network data with AI agents that can take action (with human approval). Here's what I learned from a briefing with the company.",
-    "summarySource": "extractive",
-    "clusterId": "41c34892d17e8afd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a0ffd15a19c770a8",
@@ -6615,16 +6559,16 @@
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbjB0YW4wNEphQXFrS0F2cGx0UFc3VDdsbUc2bHZsT0R6ajVGZ21naElyNHNURjFHeFdHYlhJM1ByZFN0UzQ2WGNXRWRqX3NBd08tWWZ5SUNkaDgzZG9Mbk96TERXWWlpd3h4WDRZWU1IVmtZbTNTVUZUazFnOFA3MFVSbXUzelZpRV9BX3dUekdydHY2VnR3dUNLNW5NamRpS0NkUTY1ZDZRVldVNjB5cUZja0V5dFFpME84ZlBB?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbjB0YW4wNEphQXFrS0F2cGx0UFc3VDdsbUc2bHZsT0R6ajVGZ21naElyNHNURjFHeFdHYlhJM1ByZFN0UzQ2WGNXRWRqX3NBd08tWWZ5SUNkaDgzZG9Mbk96TERXWWlpd3h4WDRZWU1IVmtZbTNTVUZUazFnOFA3MFVSbXUzelZpRV9BX3dUekdydHY2VnR3dUNLNW5NamRpS0NkUTY1ZDZRVldVNjB5cUZja0V5dFFpME84ZlBB?oc=5",
     "source": {
-      "id": "gnews-network-observability",
+      "id": "gnews-cisco-nexus-aci",
       "name": "Network World",
-      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+      "homepage": "https://news.google.com/search?q=Cisco%20Nexus%20Dashboard"
     },
     "author": null,
     "publishedAt": "2026-03-10T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
       "splunk",
-      "network-observability"
+      "cisco-data-fabric"
     ],
     "tags": [],
     "summary": "Cisco blends Splunk analytics, security with core data center management Network World",
