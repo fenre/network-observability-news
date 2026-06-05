@@ -1,5 +1,65 @@
 [
   {
+    "id": "1777c882c6807c66",
+    "title": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-05T00:57:10+00:00",
+    "fetchedAt": "2026-06-05T02:44:36+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "1777c882c6807c66",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
+  },
+  {
+    "id": "be4a1e8479c936ad",
+    "title": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "url": "https://blog.apnic.net/2026/06/05/non-human-identity-for-workloads-securing-the-next-phase-of-automation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/05/non-human-identity-for-workloads-securing-the-next-phase-of-automation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Kathleen Moriarty",
+    "publishedAt": "2026-06-04T23:49:54+00:00",
+    "fetchedAt": "2026-06-05T02:44:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
+    "summarySource": "extractive",
+    "clusterId": "be4a1e8479c936ad",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8ffdafbeb251d535",
     "title": "From tenant-aware to job-aware: scaling shared AI clusters with Cisco Nexus One",
     "url": "https://blogs.cisco.com/datacenter/from-tenant-aware-to-job-aware-scaling-shared-ai-clusters-with-cisco-nexus-one/",
@@ -1018,7 +1078,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "summary": "Non-Human Identity for Workloads and AI Agents",
     "summarySource": "extractive",
     "clusterId": "134d577c34b6e8a0",
     "lang": "en",
@@ -1102,7 +1162,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Ephemeral leaks and automated BGP route leak detection",
+    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -1457,36 +1517,6 @@
     ]
   },
   {
-    "id": "7fa4ae36d1befa44",
-    "title": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSldWQ3NEbjk4MWlrWHpKSGt1QnY2R0ZOQkZ3aTJ6ZnBUVnFYcTkxN2hUR1kyeVpUS0hFb1UyZkRpR01ubUUzODh1TUo3NGxxRy1sb01kT2VCdWppMGtNanR4dS1ZVUdKUnpqSVN3emExYi1TNkRKQm1zclB2eTJjdThMMXUtRWtWa0p6UU4yWWNRajU2MHpwUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSldWQ3NEbjk4MWlrWHpKSGt1QnY2R0ZOQkZ3aTJ6ZnBUVnFYcTkxN2hUR1kyeVpUS0hFb1UyZkRpR01ubUUzODh1TUo3NGxxRy1sb01kT2VCdWppMGtNanR4dS1ZVUdKUnpqSVN3emExYi1TNkRKQm1zclB2eTJjdThMMXUtRWtWa0p6UU4yWWNRajU2MHpwUQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-features",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-05-20T22:23:27+00:00",
-    "fetchedAt": "2026-05-31T17:11:16+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "summary": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership Splunk",
-    "summarySource": "extractive",
-    "clusterId": "7fa4ae36d1befa44",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "bd4d1ec09d95de7d",
     "title": "AI network performance with Cisco Intelligent Packet Flow - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkxmbVRoODBJWXVwN0dlSHlrM0ZsVVRUMDhySXl2OWtsMWQ2NE43cjRQdHEzQnNGb0tXMU5YcDdSX2hBY091YlB6TFpWR0I3enJoRHYyM2l2ZWFKZTVENE44NzIyNmxKeU9McEF1bHBRbldyN0h4VWNhSWNReHY2bVNLVVYyaGQzaWZuRGNHbGUxLTZ2b3I0?oc=5",
@@ -1559,7 +1589,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Selector Closes the Network-to-Cloud Visibility Gap with AI-Powered Multi-Cloud Observability Solution - Database Trends and Applications",
+    "summary": "Selector Closes the Network-to-Cloud Visibility Gap with AI-Powered Multi-Cloud Observability Solution Database Trends and Applications",
     "summarySource": "extractive",
     "clusterId": "d253da19b5a0203d",
     "lang": "en",
@@ -1568,6 +1598,36 @@
     "categories": [
       "news"
     ],
+    "audiences": [
+      "global"
+    ]
+  },
+  {
+    "id": "7fa4ae36d1befa44",
+    "title": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSldWQ3NEbjk4MWlrWHpKSGt1QnY2R0ZOQkZ3aTJ6ZnBUVnFYcTkxN2hUR1kyeVpUS0hFb1UyZkRpR01ubUUzODh1TUo3NGxxRy1sb01kT2VCdWppMGtNanR4dS1ZVUdKUnpqSVN3emExYi1TNkRKQm1zclB2eTJjdThMMXUtRWtWa0p6UU4yWWNRajU2MHpwUQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSldWQ3NEbjk4MWlrWHpKSGt1QnY2R0ZOQkZ3aTJ6ZnBUVnFYcTkxN2hUR1kyeVpUS0hFb1UyZkRpR01ubUUzODh1TUo3NGxxRy1sb01kT2VCdWppMGtNanR4dS1ZVUdKUnpqSVN3emExYi1TNkRKQm1zclB2eTJjdThMMXUtRWtWa0p6UU4yWWNRajU2MHpwUQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-20T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T17:11:16+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "summary": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership Splunk",
+    "summarySource": "extractive",
+    "clusterId": "7fa4ae36d1befa44",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)",
     "audiences": [
       "global"
     ]
@@ -1587,7 +1647,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Authoritative DNS over encrypted transport at OARC 45",
+    "summary": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
     "summarySource": "extractive",
     "clusterId": "b3b7d8547d6d0d64",
     "lang": "en",
@@ -1621,8 +1681,7 @@
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "summary": "Splunk blog deep-dive on Dashboard Studio 10.4 capabilities — custom viz framework, removing caps on visualizations and input results, and patterns for building more complex operational dashboards.",
     "summarySource": "curated",
@@ -2331,7 +2390,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apps and add-ons | Splunk Enterprise (last updated 2026-05-17T14:51:56.179Z) - Splunk",
+    "summary": "Apps and add-ons | Splunk Enterprise (last updated 2026-05-17T14:51:56.179Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "e6ea24142d6ee04c",
     "lang": "en",
@@ -2359,7 +2418,7 @@
       "product-release",
       "tutorial"
     ],
-    "summary": "How to use this manual | Splunk Enterprise (last updated 2026-05-17T14:51:55.336Z) - Splunk",
+    "summary": "How to use this manual | Splunk Enterprise (last updated 2026-05-17T14:51:55.336Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "e35eaed1d9cd9256",
     "lang": "en",
@@ -2608,7 +2667,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Use forwarders to get data into Splunk Cloud Platform - Splunk",
+    "summary": "Use forwarders to get data into Splunk Cloud Platform Splunk",
     "summarySource": "extractive",
     "clusterId": "89d394cd6436b9be",
     "lang": "en",
@@ -2646,6 +2705,36 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "595707c8a04bd1fb",
+    "title": "Secure Splunk Enterprise with FIPS - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdEdoNGMwLXp3MlR0LWFzRWw0Sy1CUFQ1TjFNLXpYZnVkM05zbVJpVGN5cHA3bm9qNGl5dDdkU0VHekRsaTc5b1pMMHZKX2VYb1FYYVg4cmNlOWY4Q25vSDR1TTI1djh2Y2s2U0YwY3MydVU2c0N2YjdFT0dwR3JydnMwSDFGbXNzSm9IQmE1cGhWc3c5SExBckxyWlhyTDhZSnFjMlhRdE5lcTNlRi1NWjRXWkJYbDlDeV9QN0NLVWRWWlJnbWtkallHcmdWWVFXSExlMjA1Yzl5eVMwZ3Y3aVNlOTc1ekw2M3FSdl9RbzJTRzBhNEFKODNsamxSUTZk?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdEdoNGMwLXp3MlR0LWFzRWw0Sy1CUFQ1TjFNLXpYZnVkM05zbVJpVGN5cHA3bm9qNGl5dDdkU0VHekRsaTc5b1pMMHZKX2VYb1FYYVg4cmNlOWY4Q25vSDR1TTI1djh2Y2s2U0YwY3MydVU2c0N2YjdFT0dwR3JydnMwSDFGbXNzSm9IQmE1cGhWc3c5SExBckxyWlhyTDhZSnFjMlhRdE5lcTNlRi1NWjRXWkJYbDlDeV9QN0NLVWRWWlJnbWtkallHcmdWWVFXSExlMjA1Yzl5eVMwZ3Y3aVNlOTc1ekw2M3FSdl9RbzJTRzBhNEFKODNsamxSUTZk?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-16T07:00:00+00:00",
+    "fetchedAt": "2026-06-05T02:44:36+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Secure Splunk Enterprise with FIPS Splunk",
+    "summarySource": "extractive",
+    "clusterId": "595707c8a04bd1fb",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "3c5a9d0cd9ea80ce",
     "title": "Legacy Out of Contract",
     "url": "https://labs.ripe.net/author/qasim-lone/legacy-out-of-contract/",
@@ -2666,12 +2755,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming from them.",
+    "summary": "Legacy Out of Contract",
     "summarySource": "extractive",
     "clusterId": "3c5a9d0cd9ea80ce",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "2d47c5e1a2810920",
+    "title": "PeeringDB update: October 2025 to April 2026",
+    "url": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026/",
+    "canonicalUrl": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-05-15T03:41:13+00:00",
+    "fetchedAt": "2026-06-05T02:44:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: From Kubernetes migration to improved ASN comparison and stronger data normalization, PeeringDB has delivered a range of updates over the past six months. This report highlights key operational changes, new search capabilities, and what's coming next to support users and contributors.",
+    "summarySource": "extractive",
+    "clusterId": "2d47c5e1a2810920",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "b232fe27996653a6",
@@ -2966,7 +3083,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Cloud Platform Quick Start - Splunk",
+    "summary": "Splunk Cloud Platform Quick Start Splunk",
     "summarySource": "extractive",
     "clusterId": "260c3fcc4fbfceea",
     "lang": "en",
@@ -3083,7 +3200,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Use forwarders to get data into Splunk Cloud Platform Splunk",
+    "summary": "Use forwarders to get data into Splunk Cloud Platform - Splunk",
     "summarySource": "extractive",
     "clusterId": "89d394cd6436b9be",
     "lang": "en",
@@ -3330,7 +3447,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
+    "summary": "Operational Review of Public ENUM Under e164.arpa",
     "summarySource": "extractive",
     "clusterId": "53c0b1c2f79088bd",
     "lang": "en",
@@ -3410,7 +3527,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "RIR Governance Document Version 2: Status Report May 2026 now available",
+    "summary": "The NRO NC has updated the status report related to comments received during the consultation on the second version of the RIR Governance Document.",
     "summarySource": "extractive",
     "clusterId": "a7949dd27d4265d2",
     "lang": "en",
@@ -3664,6 +3781,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "fc75ffc6c218def3",
+    "title": "SCION: The overlay network for bankers",
+    "url": "https://blog.apnic.net/2026/05/07/scion-the-overlay-network-for-bankers/",
+    "canonicalUrl": "https://blog.apnic.net/2026/05/07/scion-the-overlay-network-for-bankers",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-05-07T04:13:28+00:00",
+    "fetchedAt": "2026-06-05T02:44:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "SCION has both supporters and critics, but it faces a major challenge: Replacing BGP while competing in an environment where network decisions are driven more by carrier costs than by strategic priorities.",
+    "summarySource": "extractive",
+    "clusterId": "fc75ffc6c218def3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "46b8ae0c98c38f7a",
@@ -4269,35 +4414,6 @@
     ]
   },
   {
-    "id": "ed4f0003792ee88c",
-    "title": "IETF 125 post-meeting survey",
-    "url": "http://www.ietf.org/blog/ietf125-survey/",
-    "canonicalUrl": "https://www.ietf.org/blog/ietf125-survey",
-    "source": {
-      "id": "ietf-blog",
-      "name": "IETF Blog",
-      "homepage": "https://www.ietf.org/blog"
-    },
-    "author": "Akanksha Gohil, Paige Mustafa",
-    "publishedAt": "2026-04-29T16:00:00+00:00",
-    "fetchedAt": "2026-06-04T14:43:11+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "IETF 125 post-meeting survey",
-    "summarySource": "extractive",
-    "clusterId": "ed4f0003792ee88c",
-    "lang": "en",
-    "license": null,
-    "attribution": "via IETF Blog"
-  },
-  {
     "id": "1c40051c55aea558",
     "title": "Simplify access control in five easy steps",
     "url": "https://blogs.cisco.com/networking/simplify-access-control-in-five-easy-steps/",
@@ -4340,7 +4456,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "The IHR BGP monitoring tool is a simple web-based application that leverages the RIS Live and BGPlay APIs to monitor your prefixes and their RPKI status.",
+    "summary": "From BGP Data to Insight: Simplifying Real-Time Routing Analysis",
     "summarySource": "extractive",
     "clusterId": "9ec74d2d53faf1fc",
     "lang": "en",
@@ -4382,34 +4498,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-06-04T19:56:57+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -4678,7 +4766,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Encryption between DNS resolvers and users is growing - but what about the next hop? We measure the real-world deployment of encrypted resolver-to-authoritative DNS (ADoX), finding limited, highly concentrated adoption and little support among resolvers.",
+    "summary": "ADoX Deployment in the Wild",
     "summarySource": "extractive",
     "clusterId": "ef43d916b8083e30",
     "lang": "en",
@@ -4790,7 +4878,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "DDoS mitigation often relies on BGP for \"scrubbing\", but how this appears in routing data is not well understood. We analyse five major providers to distinguish between always-on and on-demand protection, showing how mitigation manifests in practice and what it means for routing visibility and RPKI.",
+    "summary": "Understanding DDoS Scrubbing in BGP: Five Leading Scrubbers",
     "summarySource": "extractive",
     "clusterId": "3737131026706da4",
     "lang": "en",
@@ -4878,9 +4966,7 @@
     "author": "Jonas Mücke",
     "publishedAt": "2026-04-22T08:29:30+00:00",
     "fetchedAt": "2026-06-04T14:43:11+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "news"
@@ -4888,7 +4974,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "QUIC enhances privacy, but passive measurements still reveal deployment details. Using network telescope data, we analyse QUIC behaviour across major content providers and validate our findings with flow data and active measurements.",
+    "summary": "Using QUIC Backscatter to Infer Hypergiant Deployment Configurations",
     "summarySource": "extractive",
     "clusterId": "a6150e5704006aed",
     "lang": "en",
@@ -5113,7 +5199,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "BGP location communities offer a rare glimpse into where networks actually interconnect, but most remain undocumented and opaque. This work shows that, by exploiting a measurable spatial signal in routing data, it is possible to infer their city-level meaning at scale using only passive observations.",
+    "summary": "Towards Understanding City-Level Routing Using BGP Location Communities",
     "summarySource": "extractive",
     "clusterId": "100d51769dde0ced",
     "lang": "en",
@@ -5149,7 +5235,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk AI Assistant for Splunk Cloud customers - Splunk",
+    "summary": "Install Splunk AI Assistant for Splunk Cloud customers Splunk",
     "summarySource": "extractive",
     "clusterId": "f7bcf8a14476044c",
     "lang": "en",
@@ -5268,7 +5354,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
@@ -5689,7 +5775,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
+    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -6016,7 +6102,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Connect Splunk App for SOAR to Splunk SOAR - Splunk",
+    "summary": "Connect Splunk App for SOAR to Splunk SOAR Splunk",
     "summarySource": "extractive",
     "clusterId": "21aee3f4642a5e47",
     "lang": "en",
@@ -6473,7 +6559,7 @@
     "categories": [
       "news"
     ],
-    "summary": "Troubleshoot Splunk AI Assistant for SPL - Splunk",
+    "summary": "Troubleshoot Splunk AI Assistant for SPL Splunk",
     "summarySource": "extractive",
     "clusterId": "5825be4c5f5c4044",
     "lang": "en",
@@ -6638,34 +6724,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "41c34892d17e8afd",
-    "title": "Startup Radar: NetPrompt AI Targets Faster MTTR with an LLM and AI Agents",
-    "url": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-03-18T15:15:45+00:00",
-    "fetchedAt": "2026-06-04T19:56:57+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetPrompt AI is a network management startup. The company aims to improve your Mean Time To Repair (MTTR) by integrating a reasoning LLM that can analyze network data with AI agents that can take action (with human approval). Here's what I learned from a briefing with the company.",
-    "summarySource": "extractive",
-    "clusterId": "41c34892d17e8afd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a0ffd15a19c770a8",
@@ -6839,7 +6897,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Top 5 Skills to Power Your Career in the Age of AgenticOps Cisco Blogs",
+    "summary": "Top 5 Skills to Power Your Career in the Age of AgenticOps - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "a3bd4e6027656944",
     "lang": "en",
