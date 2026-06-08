@@ -641,7 +641,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check - Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -1741,7 +1741,8 @@
       "visualizations"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "summary": "Splunk blog deep-dive on Dashboard Studio 10.4 capabilities — custom viz framework, removing caps on visualizations and input results, and patterns for building more complex operational dashboards.",
     "summarySource": "curated",
@@ -6967,16 +6968,16 @@
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbjB0YW4wNEphQXFrS0F2cGx0UFc3VDdsbUc2bHZsT0R6ajVGZ21naElyNHNURjFHeFdHYlhJM1ByZFN0UzQ2WGNXRWRqX3NBd08tWWZ5SUNkaDgzZG9Mbk96TERXWWlpd3h4WDRZWU1IVmtZbTNTVUZUazFnOFA3MFVSbXUzelZpRV9BX3dUekdydHY2VnR3dUNLNW5NamRpS0NkUTY1ZDZRVldVNjB5cUZja0V5dFFpME84ZlBB?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbjB0YW4wNEphQXFrS0F2cGx0UFc3VDdsbUc2bHZsT0R6ajVGZ21naElyNHNURjFHeFdHYlhJM1ByZFN0UzQ2WGNXRWRqX3NBd08tWWZ5SUNkaDgzZG9Mbk96TERXWWlpd3h4WDRZWU1IVmtZbTNTVUZUazFnOFA3MFVSbXUzelZpRV9BX3dUekdydHY2VnR3dUNLNW5NamRpS0NkUTY1ZDZRVldVNjB5cUZja0V5dFFpME84ZlBB?oc=5",
     "source": {
-      "id": "gnews-cisco-nexus-aci",
+      "id": "gnews-network-observability",
       "name": "Network World",
-      "homepage": "https://news.google.com/search?q=Cisco%20Nexus%20Dashboard"
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
     "publishedAt": "2026-03-10T07:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [
       "splunk",
-      "cisco-data-fabric"
+      "network-observability"
     ],
     "tags": [],
     "summary": "Cisco blends Splunk analytics, security with core data center management Network World",
@@ -7009,12 +7010,13 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
       "dashboard-studio",
+      "10.4",
       "visualizations"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
