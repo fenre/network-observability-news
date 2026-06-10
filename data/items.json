@@ -1,5 +1,35 @@
 [
   {
+    "id": "7d32fd72cb1e0adc",
+    "title": "The 2026 Zeek Project Survey: Coming June 23",
+    "url": "https://zeek.org/2026/06/the-2026-zeek-project-survey-coming-june-23/",
+    "canonicalUrl": "https://zeek.org/2026/06/the-2026-zeek-project-survey-coming-june-23",
+    "source": {
+      "id": "zeek-blog",
+      "name": "Zeek Blog",
+      "homepage": "https://zeek.org"
+    },
+    "author": "Michelle Pathe",
+    "publishedAt": "2026-06-10T15:00:05+00:00",
+    "fetchedAt": "2026-06-10T20:18:47+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
+    "summarySource": "extractive",
+    "clusterId": "7d32fd72cb1e0adc",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Zeek Blog"
+  },
+  {
     "id": "ca6cff54c8e7b88d",
     "title": "Route public traffic to private applications with Cloudflare",
     "url": "https://blog.cloudflare.com/private-origins-dns-routing/",
@@ -50,7 +80,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
+    "summary": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
     "summarySource": "extractive",
     "clusterId": "b751e7a12571ae36",
     "lang": "en",
@@ -86,34 +116,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via iTWire (Google News)"
-  },
-  {
-    "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Network World",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-10T03:10:35+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
-    "summarySource": "extractive",
-    "clusterId": "b371ae0584668e9d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Network World (Google News)",
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "f044b222d041135e",
@@ -236,6 +238,34 @@
     "attribution": "via Passionate In Marketing (Google News)"
   },
   {
+    "id": "b371ae0584668e9d",
+    "title": "2026 network outage report and internet health check - Network World",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-06-09T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T10:48:25+00:00",
+    "topics": [],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check Network World",
+    "summarySource": "extractive",
+    "clusterId": "b371ae0584668e9d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)",
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ]
+  },
+  {
     "id": "af8ab56e8a9b1ec1",
     "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
     "url": "https://blog.cloudflare.com/frontier-model-defense/",
@@ -341,10 +371,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-06-10T15:00:11+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -352,7 +379,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -773,7 +800,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -781,7 +810,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
+    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -1155,6 +1184,36 @@
       "nordics",
       "nordics-no"
     ]
+  },
+  {
+    "id": "96c7d7d9369dc862",
+    "title": "ManageEngine OpManager Nexus Introduces Real-Time Network Observability With OpenConfig and gNMI - VMblog",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX1lLV293NUVVSUdYRnVRYlNLRlVkY0NRQnZtbWxCVlc0VW1TVEQteU1uTk40bFJvQVRxc0N6YUpoTTZPRDhfZ0RQMnA2ZXNSb1gxNWpoQmYxREF5RHRyRlJBYUpPMlV3X3JBOEZzRU1wYlQ2cFRBbXJYRy1GVENRMjFwY3dROEFzazdINVVxRlAxLTFUVTJjbWo1N3BSeVRkTkRIem83ZVd6OWx4V1dJTmVBcVNBaG40RnJOUC1R?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX1lLV293NUVVSUdYRnVRYlNLRlVkY0NRQnZtbWxCVlc0VW1TVEQteU1uTk40bFJvQVRxc0N6YUpoTTZPRDhfZ0RQMnA2ZXNSb1gxNWpoQmYxREF5RHRyRlJBYUpPMlV3X3JBOEZzRU1wYlQ2cFRBbXJYRy1GVENRMjFwY3dROEFzazdINVVxRlAxLTFUVTJjbWo1N3BSeVRkTkRIem83ZVd6OWx4V1dJTmVBcVNBaG40RnJOUC1R?oc=5",
+    "source": {
+      "id": "gnews-network-observability",
+      "name": "VMblog",
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+    },
+    "author": null,
+    "publishedAt": "2026-05-29T00:25:51+00:00",
+    "fetchedAt": "2026-06-10T20:18:47+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ManageEngine OpManager Nexus Introduces Real-Time Network Observability With OpenConfig and gNMI VMblog",
+    "summarySource": "extractive",
+    "clusterId": "1713ab3e4083d332",
+    "lang": "en",
+    "license": null,
+    "attribution": "via VMblog (Google News)"
   },
   {
     "id": "beb782f40239a10f",
@@ -1562,7 +1621,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "summary": "Non-Human Identity for Workloads and AI Agents",
     "summarySource": "extractive",
     "clusterId": "134d577c34b6e8a0",
     "lang": "en",
@@ -1588,7 +1647,7 @@
       "security",
       "tutorial"
     ],
-    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution - AIMultiple",
+    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution AIMultiple",
     "summarySource": "extractive",
     "clusterId": "05b862d01629502b",
     "lang": "en",
@@ -2290,7 +2349,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Selector extends AI-driven observability into multi-cloud environments Help Net Security",
+    "summary": "Selector extends AI-driven observability into multi-cloud environments - Help Net Security",
     "summarySource": "extractive",
     "clusterId": "3fbef3220de58b46",
     "lang": "en",
@@ -2993,7 +3052,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Known issues - Splunk",
+    "summary": "Known issues Splunk",
     "summarySource": "extractive",
     "clusterId": "320ff812efaf3a1e",
     "lang": "en",
@@ -3180,7 +3239,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Known issues Splunk",
+    "summary": "Known issues - Splunk",
     "summarySource": "extractive",
     "clusterId": "320ff812efaf3a1e",
     "lang": "en",
@@ -3418,40 +3477,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming from them.",
+    "summary": "Legacy Out of Contract",
     "summarySource": "extractive",
     "clusterId": "3c5a9d0cd9ea80ce",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
-  },
-  {
-    "id": "2d47c5e1a2810920",
-    "title": "PeeringDB update: October 2025 to April 2026",
-    "url": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026/",
-    "canonicalUrl": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Leo Vegoda",
-    "publishedAt": "2026-05-15T03:41:13+00:00",
-    "fetchedAt": "2026-06-10T02:44:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "PeeringDB update: October 2025 to April 2026",
-    "summarySource": "extractive",
-    "clusterId": "2d47c5e1a2810920",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "b232fe27996653a6",
@@ -3466,16 +3497,18 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Introducing Zeek 8.2",
+    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -4198,7 +4231,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
+    "summary": "Operational Review of Public ENUM Under e164.arpa",
     "summarySource": "extractive",
     "clusterId": "53c0b1c2f79088bd",
     "lang": "en",
@@ -4594,34 +4627,6 @@
     ]
   },
   {
-    "id": "fc75ffc6c218def3",
-    "title": "SCION: The overlay network for bankers",
-    "url": "https://blog.apnic.net/2026/05/07/scion-the-overlay-network-for-bankers/",
-    "canonicalUrl": "https://blog.apnic.net/2026/05/07/scion-the-overlay-network-for-bankers",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-05-07T04:13:28+00:00",
-    "fetchedAt": "2026-06-10T02:44:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "SCION: The overlay network for bankers",
-    "summarySource": "extractive",
-    "clusterId": "fc75ffc6c218def3",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "46b8ae0c98c38f7a",
     "title": "Month of Developer Productivity: Build and Forget",
     "url": "https://blogs.cisco.com/developer/month-of-developer-productivity-build-and-forget/",
@@ -4665,9 +4670,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
+    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -5034,7 +5041,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
     "summarySource": "extractive",
     "clusterId": "434f16427de9a2e9",
     "lang": "en",
@@ -5235,15 +5242,18 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
+    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
@@ -5293,7 +5303,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "The IHR BGP monitoring tool is a simple web-based application that leverages the RIS Live and BGPlay APIs to monitor your prefixes and their RPKI status.",
+    "summary": "From BGP Data to Insight: Simplifying Real-Time Routing Analysis",
     "summarySource": "extractive",
     "clusterId": "9ec74d2d53faf1fc",
     "lang": "en",
@@ -5335,34 +5345,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-06-10T15:00:11+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -5683,9 +5665,11 @@
     "author": "Fatema Bannat Wala",
     "publishedAt": "2026-04-23T21:31:47+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Revisiting Weird-ness: Investigating DNS NOTIFY at Scale",
+    "summary": "At ESnet, our Zeek deployment was logging 4.2 million weirds per day. When we investigated, 90% were DNS-related and 98% of those came from a single opcode. After submitting a PR to fix it, daily weirds dropped to 1.3 million.",
     "summarySource": "extractive",
     "clusterId": "8add41a23eb12610",
     "lang": "en",
@@ -6120,9 +6104,11 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-04-16T22:32:54+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Zeek 8.2 Development Update",
+    "summary": "The Zeek development team is closing in on Zeek 8.2, our final feature release in the 8.x cycle! This blog post provides a sneak peek at some of the new functionality and changes in that release. As always, this is an excellent opportunity to test-drive the upcoming release and send us any feedback you may […]",
     "summarySource": "extractive",
     "clusterId": "928505cfb7060fe2",
     "lang": "en",
@@ -6189,7 +6175,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
@@ -6610,7 +6596,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
+    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -6636,9 +6622,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-04-08T17:41:49+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "The Hidden Features of Zeek",
+    "summary": "A Zeek user spent years maintaining a careful system of named test PCAPs, tracking which scripts belonged to which tests and building a testing workflow from scratch. Then they discovered btest, Zeek’s built-in testing framework that automatically creates baselines—no more manual tracking! This pattern repeats constantly.",
     "summarySource": "extractive",
     "clusterId": "a840f23b44590930",
     "lang": "en",
@@ -7023,9 +7011,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-04-02T17:53:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Zeek Workshop Europe 2026 Recap",
+    "summary": "Close to 100 people gathered at CERN in Geneva on March 25-26 for Zeek Workshop Europe 2026. The two-day event brought together practitioners from across Europe for knowledge sharing, training, and networking. The workshop kicked off with presentations covering Zeek development, deployment strategies, and real-world use cases.",
     "summarySource": "extractive",
     "clusterId": "6eee3323c48ef8eb",
     "lang": "en",
@@ -7207,9 +7197,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-03-31T22:03:43+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Reduce conn.log from 35GB to 5GB with a Simple Hook",
+    "summary": "Blocking scanners at your network edge solves one problem but creates another: Zeek will log every failed connection attempt, filling conn.log with noise from hosts you’ve already blocked. A simple log filtering hook can eliminate this noise. Aaron Scantlin from NERSC (National Energy Research Scientific Computing Center) shared this approach during a February community discussion […]",
     "summarySource": "extractive",
     "clusterId": "e432f1f02fb82772",
     "lang": "en",
@@ -7591,34 +7583,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "41c34892d17e8afd",
-    "title": "Startup Radar: NetPrompt AI Targets Faster MTTR with an LLM and AI Agents",
-    "url": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-03-18T15:15:45+00:00",
-    "fetchedAt": "2026-06-10T15:00:11+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetPrompt AI is a network management startup. The company aims to improve your Mean Time To Repair (MTTR) by integrating a reasoning LLM that can analyze network data with AI agents that can take action (with human approval). Here's what I learned from a briefing with the company.",
-    "summarySource": "extractive",
-    "clusterId": "41c34892d17e8afd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a0ffd15a19c770a8",
