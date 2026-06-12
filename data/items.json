@@ -1,5 +1,35 @@
 [
   {
+    "id": "fd604dbe3082673d",
+    "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
+    "url": "https://blog.cloudflare.com/scaling-security-scans/",
+    "canonicalUrl": "https://blog.cloudflare.com/scaling-security-scans",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Dave Baxter",
+    "publishedAt": "2026-06-12T13:00:00+00:00",
+    "fetchedAt": "2026-06-12T14:41:58+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare Security Insights system now processes over 120 scans per second, providing frequent insights for all customers. By optimizing Kafka consumers, Postgres queries, and our API, we scaled our throughput 10x without adding hardware.",
+    "summarySource": "extractive",
+    "clusterId": "fd604dbe3082673d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "f88a957372c1fbca",
     "title": "BGP Router ID structuring in IPv6 native networks",
     "url": "https://blog.apnic.net/2026/06/12/bgp-router-id-structuring-in-ipv6-native-networks/",
@@ -21,7 +51,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -108,7 +138,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -254,7 +284,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -427,7 +457,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -470,6 +500,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
+  },
+  {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-06-12T14:41:58+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "cf2b1475de175420",
@@ -586,7 +647,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
+    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -855,7 +916,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -995,7 +1056,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1303,7 +1364,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1730,7 +1791,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
+    "summary": "Ephemeral leaks and automated BGP route leak detection",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -2210,7 +2271,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
+    "summary": "Authoritative DNS over encrypted transport at OARC 45",
     "summarySource": "extractive",
     "clusterId": "b3b7d8547d6d0d64",
     "lang": "en",
@@ -3527,7 +3588,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: From Kubernetes migration to improved ASN comparison and stronger data normalization, PeeringDB has delivered a range of updates over the past six months. This report highlights key operational changes, new search capabilities, and what's coming next to support users and contributors.",
+    "summary": "PeeringDB update: October 2025 to April 2026",
     "summarySource": "extractive",
     "clusterId": "2d47c5e1a2810920",
     "lang": "en",
@@ -4597,7 +4658,7 @@
     "tags": [
       "opentelemetry"
     ],
-    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing Visual Studio Magazine",
+    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing - Visual Studio Magazine",
     "summarySource": "extractive",
     "clusterId": "01f6b2a69b1188fe",
     "lang": "en",
@@ -4975,11 +5036,9 @@
     "author": "Luís Duarte",
     "publishedAt": "2026-05-01T13:00:00+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
+    "summary": "Introducing Dynamic Workflows: durable execution that follows the tenant",
     "summarySource": "extractive",
     "clusterId": "0a0bc5ee8203b4d5",
     "lang": "en",
@@ -5346,6 +5405,34 @@
     ]
   },
   {
+    "id": "8f803313392af741",
+    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
+    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
+    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-04-28T18:52:08+00:00",
+    "fetchedAt": "2026-06-12T14:41:58+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
+    "summarySource": "extractive",
+    "clusterId": "8f803313392af741",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "a20d4962fa3ff3d9",
     "title": "The power of your network: Solving a physical security incident on Vision portal",
     "url": "https://blogs.cisco.com/networking/the-power-of-your-network-solving-a-physical-security-incident-on-vision-portal/",
@@ -5644,6 +5731,38 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "54cb7b280584c73a",
+    "title": "OpenTelemetry co-founder tools up to push project to 1.0 - The Register",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTg5b0xhaHoyTkE4bFc2bXV1YlJlXzRkenkyMURTeFdkNV9VYUZIckt0Wjh2NzNsejFkTFllOVBKaGI1ak9rcFJuSDd5UHpjcDFCZVpPTnczSU5mSjJFZjJPWENJd2stcDNwYTZJUmp5bG1GcmU1Zm5yWmM3VGpBNEpMcFJGdTVoSm43QkxrZzlyYld2X3B4anZWbTdGSDBnMVQ1Vm9iT21JNG90XzRPTg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTg5b0xhaHoyTkE4bFc2bXV1YlJlXzRkenkyMURTeFdkNV9VYUZIckt0Wjh2NzNsejFkTFllOVBKaGI1ak9rcFJuSDd5UHpjcDFCZVpPTnczSU5mSjJFZjJPWENJd2stcDNwYTZJUmp5bG1GcmU1Zm5yWmM3VGpBNEpMcFJGdTVoSm43QkxrZzlyYld2X3B4anZWbTdGSDBnMVQ1Vm9iT21JNG90XzRPTg?oc=5",
+    "source": {
+      "id": "gnews-opentelemetry-network",
+      "name": "The Register",
+      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-04-24T07:00:00+00:00",
+    "fetchedAt": "2026-06-12T14:41:58+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "OpenTelemetry co-founder tools up to push project to 1.0 The Register",
+    "summarySource": "extractive",
+    "clusterId": "54cb7b280584c73a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Register (Google News)"
   },
   {
     "id": "8add41a23eb12610",
@@ -6072,7 +6191,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Fixed issues | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-04-17T17:53:47.044Z) Splunk",
+    "summary": "Fixed issues | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-04-17T17:53:47.044Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "a45b029d962c8fd2",
     "lang": "en",
@@ -6138,6 +6257,35 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "2471eafe0ee12bab",
+    "title": "TORNOG1: Canada’s First All-Day Network Operators Event",
+    "url": "https://packetpushers.net/blog/packet-pushers-covers-tornog1/",
+    "canonicalUrl": "https://packetpushers.net/blog/packet-pushers-covers-tornog1",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-04-16T15:02:13+00:00",
+    "fetchedAt": "2026-06-12T14:41:58+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summarySource": "extractive",
+    "clusterId": "2471eafe0ee12bab",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "ff140ed8ca0c4fe1",
@@ -6289,7 +6437,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry - infoq.com",
+    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry infoq.com",
     "summarySource": "extractive",
     "clusterId": "63ef6ec3b153e0ab",
     "lang": "en",
@@ -6547,7 +6695,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
+    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -7552,6 +7700,34 @@
     ]
   },
   {
+    "id": "41c34892d17e8afd",
+    "title": "Startup Radar: NetPrompt AI Targets Faster MTTR with an LLM and AI Agents",
+    "url": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-03-18T15:15:45+00:00",
+    "fetchedAt": "2026-06-12T14:41:58+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetPrompt AI is a network management startup. The company aims to improve your Mean Time To Repair (MTTR) by integrating a reasoning LLM that can analyze network data with AI agents that can take action (with human approval). Here's what I learned from a briefing with the company.",
+    "summarySource": "extractive",
+    "clusterId": "41c34892d17e8afd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "a0ffd15a19c770a8",
     "title": "Deprecating Span Events API",
     "url": "https://opentelemetry.io/blog/2026/deprecating-span-events/",
@@ -7660,12 +7836,13 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
       "dashboard-studio",
+      "10.4",
       "visualizations"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -7729,13 +7906,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
