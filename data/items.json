@@ -115,7 +115,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ManageEngine Expands Network Monitoring and Security Automation Capabilities for Enterprises - digital terminal",
+    "summary": "ManageEngine Expands Network Monitoring and Security Automation Capabilities for Enterprises digital terminal",
     "summarySource": "extractive",
     "clusterId": "737d04aab7c88883",
     "lang": "en",
@@ -260,7 +260,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities The Fast Mode",
+    "summary": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities - The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "55fa88e77c8df400",
     "lang": "en",
@@ -4131,7 +4131,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access LinkedIn",
+    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access - LinkedIn",
     "summarySource": "extractive",
     "clusterId": "07326b367316c04e",
     "lang": "en",
@@ -6322,7 +6322,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -6627,7 +6627,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
@@ -7664,7 +7664,7 @@
     "categories": [
       "news"
     ],
-    "summary": "Troubleshoot Splunk AI Assistant for SPL Splunk",
+    "summary": "Troubleshoot Splunk AI Assistant for SPL - Splunk",
     "summarySource": "extractive",
     "clusterId": "5825be4c5f5c4044",
     "lang": "en",
@@ -7891,38 +7891,6 @@
     ]
   },
   {
-    "id": "bb6f198de33dd375",
-    "title": "Kubernetes attributes promoted to release candidate in OTel Semantic Conventions",
-    "url": "https://opentelemetry.io/blog/2026/k8s-semconv-rc/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/k8s-semconv-rc",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-03-16T15:14:23+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "summary": "Over the past few months, the K8s (Kubernetes) Semantic Conventions SIG focused on stabilizing Kubernetes attributes used by OpenTelemetry Collector processors such as k8sattributes and resourcedetection . That work has now paid off: Kubernetes attributes have been promoted to release candidate status. Users can try this new schema via feature gates and provide feedback before the final stable release.",
-    "summarySource": "extractive",
-    "clusterId": "bb6f198de33dd375",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog",
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "b8d959c346a1a7a1",
     "title": "What's new in Dashboard Studio - Splunk",
     "url": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
@@ -7939,13 +7907,12 @@
       "splunk"
     ],
     "tags": [
-      "dashboard-studio",
       "10.4",
+      "dashboard-studio",
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
