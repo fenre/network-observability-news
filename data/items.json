@@ -1,5 +1,37 @@
 [
   {
+    "id": "b7d8408dcb170f8d",
+    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T00:07:50+00:00",
+    "fetchedAt": "2026-06-16T03:00:17+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "b7d8408dcb170f8d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
+  },
+  {
     "id": "82d27cb7f1257826",
     "title": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln - AD HOC NEWS",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE9hRG9Hb3d4WndOa2ZRUlQyWHpidnpJV3NfdENwU1I5S1VxYWtYVkFfdTB6UWt0M2hoUzlIOGJmY1padVVRa3ZRcEcyQjU0WHVCNkNrNVZvcFh1OEpyNkZtTDhBMVNXU0lWSEZBcTVMU3pMZ0NQN3hENGxDZzYtSTVQS2tGa1hfTGtWanRaRUFzaGR6Ni1yRHYwMjVGQmNzdkhacnNMVGpKUDF6ajVNdHMwM2Q1MVV2ZExXOVJybw?oc=5",
@@ -51,7 +83,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -322,12 +354,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "tutorial",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "BGP Router ID structuring in IPv6 native networks",
+    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -414,7 +447,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -590,7 +623,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
+    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -823,10 +856,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-06-15T17:04:20+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -834,7 +864,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -956,7 +986,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -2130,7 +2160,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Ephemeral leaks and automated BGP route leak detection",
+    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -2615,7 +2645,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Authoritative DNS over encrypted transport at OARC 45",
+    "summary": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
     "summarySource": "extractive",
     "clusterId": "b3b7d8547d6d0d64",
     "lang": "en",
@@ -3535,7 +3565,7 @@
       "splunk"
     ],
     "tags": [],
-    "summary": "Release notes - Splunk",
+    "summary": "Release notes Splunk",
     "summarySource": "extractive",
     "clusterId": "cd6cfc31bb52c536",
     "lang": "en",
@@ -3975,6 +4005,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "2d47c5e1a2810920",
+    "title": "PeeringDB update: October 2025 to April 2026",
+    "url": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026/",
+    "canonicalUrl": "https://blog.apnic.net/2026/05/15/peeringdb-update-october-2025-to-april-2026",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-05-15T03:41:13+00:00",
+    "fetchedAt": "2026-06-16T03:00:17+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: From Kubernetes migration to improved ASN comparison and stronger data normalization, PeeringDB has delivered a range of updates over the past six months. This report highlights key operational changes, new search capabilities, and what's coming next to support users and contributors.",
+    "summarySource": "extractive",
+    "clusterId": "2d47c5e1a2810920",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "b232fe27996653a6",
     "title": "Introducing Zeek 8.2",
     "url": "https://zeek.org/2026/05/introducing-zeek-8-2/",
@@ -4324,7 +4382,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-05-14T14:01:50.613Z) - Splunk",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-05-14T14:01:50.613Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
@@ -4659,7 +4717,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Set up and use HTTP Event Collector in Splunk Web | Splunk Enterprise (last updated 2026-05-13T23:23:28.124Z) Splunk",
+    "summary": "Set up and use HTTP Event Collector in Splunk Web | Splunk Enterprise (last updated 2026-05-13T23:23:28.124Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "45c04e7db2742e8a",
     "lang": "en",
@@ -5617,7 +5675,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
     "summarySource": "extractive",
     "clusterId": "434f16427de9a2e9",
     "lang": "en",
@@ -5920,34 +5978,6 @@
     ]
   },
   {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-06-15T17:04:20+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "a20d4962fa3ff3d9",
     "title": "The power of your network: Solving a physical security incident on Vision portal",
     "url": "https://blogs.cisco.com/networking/the-power-of-your-network-solving-a-physical-security-incident-on-vision-portal/",
@@ -6084,7 +6114,7 @@
       "network-observability"
     ],
     "tags": [],
-    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem SDxCentral",
+    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "80f1daeefd0a1f82",
     "lang": "en",
@@ -6685,7 +6715,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -6718,7 +6748,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes for Splunk Enterprise Security Splunk",
+    "summary": "Release notes for Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "a72bd4a7853e2e3f",
     "lang": "en",
@@ -6837,7 +6867,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
@@ -7055,7 +7085,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
@@ -7258,7 +7288,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
+    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -7423,7 +7453,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security - Splunk",
+    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
@@ -8270,34 +8300,6 @@
     ]
   },
   {
-    "id": "41c34892d17e8afd",
-    "title": "Startup Radar: NetPrompt AI Targets Faster MTTR with an LLM and AI Agents",
-    "url": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-netprompt-ai-targets-faster-mttr-with-an-llm-and-ai-agents",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-03-18T15:15:45+00:00",
-    "fetchedAt": "2026-06-15T17:04:20+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetPrompt AI is a network management startup. The company aims to improve your Mean Time To Repair (MTTR) by integrating a reasoning LLM that can analyze network data with AI agents that can take action (with human approval). Here's what I learned from a briefing with the company.",
-    "summarySource": "extractive",
-    "clusterId": "41c34892d17e8afd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "a0ffd15a19c770a8",
     "title": "Deprecating Span Events API",
     "url": "https://opentelemetry.io/blog/2026/deprecating-span-events/",
@@ -8346,13 +8348,12 @@
       "splunk"
     ],
     "tags": [
-      "dashboard-studio",
       "10.4",
+      "dashboard-studio",
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
