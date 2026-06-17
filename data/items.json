@@ -1,5 +1,36 @@
 [
   {
+    "id": "a2d856c850f39e51",
+    "title": "Lean IT, future-ready: Why adopting WPA3 for Wi‑Fi 7 is easier than you think",
+    "url": "https://blogs.cisco.com/networking/lean-it-future-ready-why-adopting-wpa3-for-wi%e2%80%91fi-7-is-easier-than-you-think/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/lean-it-future-ready-why-adopting-wpa3-for-wi%e2%80%91fi-7-is-easier-than-you-think",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Ameya Ahir",
+    "publishedAt": "2026-06-17T15:00:58+00:00",
+    "fetchedAt": "2026-06-17T20:04:36+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "AI can transform wireless management and operations, but it also accelerates security threats. But wireless security has also evolved: Modern standards like WPA3, available on Wi‑Fi 7, deliver stronger protection without adding operational burden.",
+    "summarySource": "extractive",
+    "clusterId": "a2d856c850f39e51",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
     "id": "26ea9cd251faa79a",
     "title": "Introducing the Cloudflare One stack: agent-powered deployment",
     "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
@@ -28,34 +59,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Network World",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-17T03:26:56+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
-    "summarySource": "extractive",
-    "clusterId": "b371ae0584668e9d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Network World (Google News)",
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "bab7e64f296bdb11",
@@ -140,12 +143,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
+    "summary": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
     "summarySource": "extractive",
     "clusterId": "9124c89297fd44a8",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "b371ae0584668e9d",
+    "title": "2026 network outage report and internet health check - Network World",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T10:48:25+00:00",
+    "topics": [],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check Network World",
+    "summarySource": "extractive",
+    "clusterId": "b371ae0584668e9d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)",
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "7c16cac9cf4665db",
@@ -241,6 +272,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AD HOC NEWS (Google News)"
+  },
+  {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-06-17T20:04:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "6d5c47fbd8de35f2",
@@ -632,7 +691,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
+    "summary": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -806,7 +865,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
+    "summary": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
     "summarySource": "extractive",
     "clusterId": "b751e7a12571ae36",
     "lang": "en",
@@ -1055,6 +1114,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
+  },
+  {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-06-17T20:04:36+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "cf2b1475de175420",
@@ -2289,7 +2379,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "summary": "Non-Human Identity for Workloads and AI Agents",
     "summarySource": "extractive",
     "clusterId": "134d577c34b6e8a0",
     "lang": "en",
@@ -4270,7 +4360,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming from them.",
+    "summary": "Legacy Out of Contract",
     "summarySource": "extractive",
     "clusterId": "3c5a9d0cd9ea80ce",
     "lang": "en",
@@ -5144,7 +5234,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
+    "summary": "Operational Review of Public ENUM Under e164.arpa",
     "summarySource": "extractive",
     "clusterId": "53c0b1c2f79088bd",
     "lang": "en",
@@ -5730,12 +5820,9 @@
     "author": "Ed Novak",
     "publishedAt": "2026-05-05T15:00:05+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cisco Agentic Workflows unifies existing automation tools into a cohesive, enterprise-grade strategy that acts as a force multiplier to help network, automation teams streamline fragmented tasks and attain a new level of competency and control.",
+    "summary": "Why your automation stack needs Cisco Agentic Workflows",
     "summarySource": "extractive",
     "clusterId": "4c7e5e5cc4cef8b9",
     "lang": "en",
@@ -6245,6 +6332,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "8f803313392af741",
+    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
+    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
+    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-04-28T18:52:08+00:00",
+    "fetchedAt": "2026-06-17T20:04:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
+    "summarySource": "extractive",
+    "clusterId": "8f803313392af741",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -7147,6 +7262,35 @@
     ]
   },
   {
+    "id": "2471eafe0ee12bab",
+    "title": "TORNOG1: Canada’s First All-Day Network Operators Event",
+    "url": "https://packetpushers.net/blog/packet-pushers-covers-tornog1/",
+    "canonicalUrl": "https://packetpushers.net/blog/packet-pushers-covers-tornog1",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-04-16T15:02:13+00:00",
+    "fetchedAt": "2026-06-17T20:04:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summarySource": "extractive",
+    "clusterId": "2471eafe0ee12bab",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "ff140ed8ca0c4fe1",
     "title": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS3U5eUZjdFB4NlV2WUp1dXpIMHJDWUFUMUJVV2dFSlVYaXE2VGpPRXZINExaMTVvY0VVTDBrNkRNTlBfcHk4em5pWW1HY2lzbXVESTFCRVpXWXFqdlZCRW4zbVJLU1hWUDdPT01SeWhXQkg1NFFhUXFpWkJxTEZLb1ZxSWlyOEFx0gGOAUFVX3lxTE5ESVFYSUI1cnlSSkdkeDhhQXNNU3VDY2o2UXd5aHUyN0M4Qk1YWUxyamxiSmxrZGRvZ05GY3ZFcFpGOHF4dkVwSHJFcnZ0dG9ZWWQ2d2NUelRJOFNCblcyV0laWUVaWW9EdHlIbndBNnZiSWN5cVQwNUtGVG55TUw2NEF5NVdFejNtOVRoa1E?oc=5",
@@ -7500,14 +7644,13 @@
     "publishedAt": "2026-04-09T07:00:00+00:00",
     "fetchedAt": "2026-05-31T17:06:32+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
       "product-release"
     ],
-    "summary": "▸ Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform crn.com",
+    "summary": "▸ Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform - crn.com",
     "summarySource": "extractive",
     "clusterId": "5d634e8a40929982",
     "lang": "en",
@@ -7560,7 +7703,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
+    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -8440,66 +8583,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "a8cad23992d16cca",
-    "title": "Your First Zeek Script Doesn’t Need to Be Perfect",
-    "url": "https://zeek.org/2026/03/your-first-zeek-script-doesnt-need-to-be-perfect/",
-    "canonicalUrl": "https://zeek.org/2026/03/your-first-zeek-script-doesnt-need-to-be-perfect",
-    "source": {
-      "id": "zeek-blog",
-      "name": "Zeek Blog",
-      "homepage": "https://zeek.org"
-    },
-    "author": "Michelle Pathe",
-    "publishedAt": "2026-03-19T16:15:28+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Your First Zeek Script Doesn’t Need to Be Perfect",
-    "summarySource": "extractive",
-    "clusterId": "a8cad23992d16cca",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Zeek Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "eefd299216c3d7c7",
-    "title": "Single Sign-On on ntopng with OpenID Connect (OIDC)",
-    "url": "https://www.ntop.org/single-sign-on-on-ntopng-with-openid-connect-oidc/",
-    "canonicalUrl": "https://www.ntop.org/single-sign-on-on-ntopng-with-openid-connect-oidc",
-    "source": {
-      "id": "ntop-blog",
-      "name": "ntop Blog",
-      "homepage": "https://www.ntop.org/blog"
-    },
-    "author": "Alfredo Cardigliano",
-    "publishedAt": "2026-03-19T15:03:24+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "ntopng"
-    ],
-    "summary": "ntopng has always supported multiple authentication methods to fit different environments: local accounts, LDAP, RADIUS, HTTP basic auth, etc. Now it also supports OpenID Connect (OIDC), bringing native Single Sign-on (SSO) support for any standards-compliant Identity Provider (IdP), including Keycloak, Okta, Auth0, Azure AD / Entra ID, Google Workspace, and more. Why SSO?",
-    "summarySource": "extractive",
-    "clusterId": "eefd299216c3d7c7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ntop Blog",
     "categories": [
       "tutorial"
     ],
