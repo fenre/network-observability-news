@@ -106,8 +106,7 @@
     "publishedAt": "2026-06-19T08:58:34+00:00",
     "fetchedAt": "2026-06-19T10:16:49+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -116,12 +115,44 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA Warns of Actively Exploited Splunk Enterprise Critical Function Flaw cyberpress.org",
+    "summary": "CISA Warns of Actively Exploited Splunk Enterprise Critical Function Flaw - cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "afa5caa3e8f40214",
     "lang": "en",
     "license": null,
     "attribution": "via cyberpress.org (Google News)"
+  },
+  {
+    "id": "2da2ccb9cdbe959d",
+    "title": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks - CyberSecurityNews",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3pLU0FVS1pBOUlPcHNNNFduMENpVEg3bWNhZzFqZlBLbWR3UzZXTmxjSzlIOTJqRTZpdmtIVXpUMVRlcU1JaEhwcUszSDliVWZDUWRMa29lMWZRd01KeDhvOGhnRmlFMUR3TW4wZmZUS2U3OEl5Y0Zn0gF_QVVfeXFMTm5sSWw1Q2FHN05pYmhoT1hNVENIcWRfV1psZ3dKYVVBTUtBdXhTVHY4UE43amtXYW16NWd5MGc5ZEVkMzdNSmVJM2ExcHhuTl9hRHRhbXdHSWFkUjlPd0tKUkpSQVdsUnZCSHBMQ0JlbFp5aWZrRl9PNXVVZlIzZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3pLU0FVS1pBOUlPcHNNNFduMENpVEg3bWNhZzFqZlBLbWR3UzZXTmxjSzlIOTJqRTZpdmtIVXpUMVRlcU1JaEhwcUszSDliVWZDUWRMa29lMWZRd01KeDhvOGhnRmlFMUR3TW4wZmZUS2U3OEl5Y0Zn0gF_QVVfeXFMTm5sSWw1Q2FHN05pYmhoT1hNVENIcWRfV1psZ3dKYVVBTUtBdXhTVHY4UE43amtXYW16NWd5MGc5ZEVkMzdNSmVJM2ExcHhuTl9hRHRhbXdHSWFkUjlPd0tKUkpSQVdsUnZCSHBMQ0JlbFp5aWZrRl9PNXVVZlIzZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "CyberSecurityNews",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-19T08:06:40+00:00",
+    "fetchedAt": "2026-06-20T02:42:20+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks CyberSecurityNews",
+    "summarySource": "extractive",
+    "clusterId": "2da2ccb9cdbe959d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via CyberSecurityNews (Google News)"
   },
   {
     "id": "bbe7ae9c59516afa",
@@ -596,7 +627,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "b7d8408dcb170f8d",
     "lang": "en",
@@ -655,7 +686,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -1398,7 +1429,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1487,10 +1518,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-06-19T19:29:57+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -1498,7 +1526,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -1857,7 +1885,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1894,7 +1922,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Insights, No Barriers: Splunk Observability Cloud Free Edition Splunk",
+    "summary": "Deep Insights, No Barriers: Splunk Observability Cloud Free Edition - Splunk",
     "summarySource": "extractive",
     "clusterId": "ffc0822016b5366e",
     "lang": "en",
@@ -2029,7 +2057,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2369,7 +2397,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6552,34 +6580,6 @@
     ]
   },
   {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-06-19T19:29:57+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "a20d4962fa3ff3d9",
     "title": "The power of your network: Solving a physical security incident on Vision portal",
     "url": "https://blogs.cisco.com/networking/the-power-of-your-network-solving-a-physical-security-incident-on-vision-portal/",
@@ -7492,7 +7492,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
@@ -7835,7 +7835,7 @@
   },
   {
     "id": "5d634e8a40929982",
-    "title": "▸ Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform - crn.com",
+    "title": "Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform - crn.com",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmp1dHFIZXA1ZVpzV2I2MjdnYmczS3pWWW1ESjFOeWlvcTFuVVM4YW1IenpCb0taZE5pQ1YyUGR3WG1fdFpjVXlYbWRnb0tlZV9oODcxV3JIVGo3TXFTRENwTlZYMFlaRHdBYnpVT1lnb0NEdVRjcmdDZEw5TGVQbkMzVVJHcVM0SUlRZHpJLWZYMWlLOHFBTF9GdmlXVG1sQk1XaTZ4OGVRbVRNdkdRRnBrc2J4ek1qZHl4eV9BRkx3WXdJOXduOQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmp1dHFIZXA1ZVpzV2I2MjdnYmczS3pWWW1ESjFOeWlvcTFuVVM4YW1IenpCb0taZE5pQ1YyUGR3WG1fdFpjVXlYbWRnb0tlZV9oODcxV3JIVGo3TXFTRENwTlZYMFlaRHdBYnpVT1lnb0NEdVRjcmdDZEw5TGVQbkMzVVJHcVM0SUlRZHpJLWZYMWlLOHFBTF9GdmlXVG1sQk1XaTZ4OGVRbVRNdkdRRnBrc2J4ek1qZHl4eV9BRkx3WXdJOXduOQ?oc=5",
     "source": {
@@ -7847,13 +7847,14 @@
     "publishedAt": "2026-04-09T07:00:00+00:00",
     "fetchedAt": "2026-05-31T17:06:32+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
       "product-release"
     ],
-    "summary": "▸ Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform - crn.com",
+    "summary": "Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform crn.com",
     "summarySource": "extractive",
     "clusterId": "5d634e8a40929982",
     "lang": "en",
@@ -7906,7 +7907,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
+    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
