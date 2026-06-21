@@ -1,5 +1,37 @@
 [
   {
+    "id": "82c16fa2829f3035",
+    "title": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "Rescana",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-21T07:38:57+00:00",
+    "fetchedAt": "2026-06-21T09:40:19+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
+    "summarySource": "extractive",
+    "clusterId": "82c16fa2829f3035",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Rescana (Google News)"
+  },
+  {
     "id": "d717a96130082765",
     "title": "CISA Issues Alert on Critical Splunk Enterprise Bug Under Active Exploitation - gbhackers.com",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tZGtWclA5QlRnZlRvMjV5ay1QcXVpODdTUWFiMlB4STVvRkU1YnBtemNKZE1LZEliOWxrcFdQdjB4cDJUMndIZERJQ0JYamQ3aUo2NkYxcV9DU3Fjbzl3OU9IQld3YmNVaGZZTW5LVXV0WVB5TkZmSGxCdFVXbVk?oc=5",
@@ -250,7 +282,7 @@
   },
   {
     "id": "d99dcf410419b476",
-    "title": "Critical Splunk Enterprise vulnerability being exploited - thestack.technology",
+    "title": "Critical Splunk Enterprise vulnerability is now getting exploited - thestack.technology",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR19ONFZRX0JNekRqdUtTVS12cHVtM1prQXZzeTBrZ0RpNVlyX2NnZVV5OFdWOUctdk01T2FERGhRTkZXRjFfX183Y3ZaY05laVhEeE90UW1iQVhSa0ZTcWNaSzJMODFLSE8zTGpKaHQzamt1enVQaEFzWEcyS0hMNEhoV0NlNm9aYldtT3d2YXNSU3dfRlFEWXQ5VE56a0E?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR19ONFZRX0JNekRqdUtTVS12cHVtM1prQXZzeTBrZ0RpNVlyX2NnZVV5OFdWOUctdk01T2FERGhRTkZXRjFfX183Y3ZaY05laVhEeE90UW1iQVhSa0ZTcWNaSzJMODFLSE8zTGpKaHQzamt1enVQaEFzWEcyS0hMNEhoV0NlNm9aYldtT3d2YXNSU3dfRlFEWXQ5VE56a0E?oc=5",
     "source": {
@@ -273,7 +305,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise vulnerability being exploited thestack.technology",
+    "summary": "Critical Splunk Enterprise vulnerability is now getting exploited thestack.technology",
     "summarySource": "extractive",
     "clusterId": "d99dcf410419b476",
     "lang": "en",
@@ -651,7 +683,7 @@
     "tags": [
       "edge-processor"
     ],
-    "summary": "Release notes for Edge Processors on Splunk Cloud Platform - Splunk",
+    "summary": "Release notes for Edge Processors on Splunk Cloud Platform Splunk",
     "summarySource": "extractive",
     "clusterId": "c98cafcbabe02e92",
     "lang": "en",
@@ -1290,7 +1322,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise Splunk",
+    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise - Splunk",
     "summarySource": "extractive",
     "clusterId": "daca3eda34529781",
     "lang": "en",
@@ -1958,7 +1990,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Insights, No Barriers: Splunk Observability Cloud Free Edition Splunk",
+    "summary": "Deep Insights, No Barriers: Splunk Observability Cloud Free Edition - Splunk",
     "summarySource": "extractive",
     "clusterId": "ffc0822016b5366e",
     "lang": "en",
@@ -2338,7 +2370,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid TechWatch",
+    "summary": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid - TechWatch",
     "summarySource": "extractive",
     "clusterId": "de8bebdd531f35e2",
     "lang": "en",
