@@ -103,7 +103,7 @@
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
-    "publishedAt": "2026-06-19T10:52:30+00:00",
+    "publishedAt": "2026-06-19T12:32:46+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
     "topics": [
       "splunk",
@@ -262,8 +262,7 @@
     "publishedAt": "2026-06-19T04:24:18+00:00",
     "fetchedAt": "2026-06-19T10:16:49+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -273,7 +272,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure SecurityWeek",
+    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure - SecurityWeek",
     "summarySource": "extractive",
     "clusterId": "bbe7ae9c59516afa",
     "lang": "en",
@@ -882,37 +881,6 @@
     "attribution": "via The Cyber Express (Google News)"
   },
   {
-    "id": "9bf7607b1a8c1bf3",
-    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - The Hacker News",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "The Hacker News",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-06-13T13:23:00+00:00",
-    "fetchedAt": "2026-06-13T13:44:38+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication The Hacker News",
-    "summarySource": "extractive",
-    "clusterId": "9bf7607b1a8c1bf3",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Hacker News (Google News)"
-  },
-  {
     "id": "e0de290e21e08c5e",
     "title": "Splunk Enterprise Pre-Auth RCE Chain Exposes Database With Zero Authentication - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVnVsZTAzNmdYWVJyQUxVOFJMbTJsQ2ZucDZlbzJ2Y05WUHdSbFByY2tMSUc0ZXEtVEJqZVo5cndNeEZBSXAzY0hjUzNFczViX0tETUpPSzRjeHVWQnUtOXBrbWVrLVplOUVCZWMyb0tWZHlsVU9lcWowaE1aZmR4RdIBhgFBVV95cUxPQXRKa0YwZGlmT0p4dlItWDVDZmlmYVk4c2M2dWJWcWkyemU1OF9Yc3pfajVpNnYxVlZFREZ1emlZVmZJdGZrWTJSS2pkdnc4S0hUYUhIeW5IckFyVllsdlFCZ0R0OW1RMjFILVlOUHRxR0MzX0E2QmJIdzl2am56dTRJQm5OUQ?oc=5",
@@ -971,6 +939,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via gbhackers.com (Google News)"
+  },
+  {
+    "id": "9bf7607b1a8c1bf3",
+    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - The Hacker News",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "The Hacker News",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-13T07:00:00+00:00",
+    "fetchedAt": "2026-06-13T13:44:38+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication The Hacker News",
+    "summarySource": "extractive",
+    "clusterId": "9bf7607b1a8c1bf3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Hacker News (Google News)"
   },
   {
     "id": "498a1de1360800c5",
@@ -1080,12 +1079,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "tutorial",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "BGP Router ID structuring in IPv6 native networks",
+    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -1204,7 +1204,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -1380,7 +1380,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
+    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -1525,7 +1525,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1684,7 +1684,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -1953,7 +1953,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2097,7 +2097,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2188,7 +2188,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure - TechTarget",
+    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure TechTarget",
     "summarySource": "extractive",
     "clusterId": "965013d806dfdf27",
     "lang": "en",
@@ -2370,7 +2370,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid - TechWatch",
+    "summary": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid TechWatch",
     "summarySource": "extractive",
     "clusterId": "de8bebdd531f35e2",
     "lang": "en",
@@ -2465,7 +2465,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2892,7 +2892,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Ephemeral leaks and automated BGP route leak detection",
+    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -3285,7 +3285,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Selector Closes the Network-to-Cloud Visibility Gap with AI-Powered Multi-Cloud Observability Solution - Database Trends and Applications",
+    "summary": "Selector Closes the Network-to-Cloud Visibility Gap with AI-Powered Multi-Cloud Observability Solution Database Trends and Applications",
     "summarySource": "extractive",
     "clusterId": "d253da19b5a0203d",
     "lang": "en",
@@ -3371,7 +3371,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Authoritative DNS over encrypted transport at OARC 45",
+    "summary": "The use of encrypted DNS transports for communication between recursive resolvers and authoritative services in the DNS was an important topic of discussion OARC 46 in Edinburgh.",
     "summarySource": "extractive",
     "clusterId": "b3b7d8547d6d0d64",
     "lang": "en",
@@ -7740,7 +7740,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Cisco Galileo buy reflects blurring lines in AI observability - TechTarget",
+    "summary": "Cisco Galileo buy reflects blurring lines in AI observability TechTarget",
     "summarySource": "extractive",
     "clusterId": "d2605ce00e508093",
     "lang": "en",
@@ -7824,9 +7824,9 @@
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWQ5SWZrUHdObWUzMG1sdGM2c0V0NGhUVTNnNTBidG1NYTNTa0E3QUtuQURoMk9kRXZkTmxEV3YwMWFvQUI2dVBINHlZbC1tYWlGeVdvLVhzREVwbWVGOFRtak5UeW1QTkZaNVNWaUZXbm5vWEUyNlpLanhUaFZ3X1dQN09MZlRFSnBtb1hpbDg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWQ5SWZrUHdObWUzMG1sdGM2c0V0NGhUVTNnNTBidG1NYTNTa0E3QUtuQURoMk9kRXZkTmxEV3YwMWFvQUI2dVBINHlZbC1tYWlGeVdvLVhzREVwbWVGOFRtak5UeW1QTkZaNVNWaUZXbm5vWEUyNlpLanhUaFZ3X1dQN09MZlRFSnBtb1hpbDg?oc=5",
     "source": {
-      "id": "gnews-splunk",
+      "id": "gnews-cisco-agenticops",
       "name": "SDxCentral",
-      "homepage": "https://news.google.com/search?q=Splunk%20observability"
+      "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
     "publishedAt": "2026-04-10T07:00:00+00:00",
@@ -7880,9 +7880,9 @@
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RNVNTbnVNM2p1eVl2Z2JINjZtbDA5TjJyQzNNR3ktT3BteHRoeVJZd0pNUm96ZFdUaU5Ua2NUbHJ0N1J2c1diUzFSd1NzdWxqVDlROGZrVEIzc0ZWTjd5d3M4c2R0ZHlZcV9yMWo0X1RIZDh2aWZRdi1TbnMxMlU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RNVNTbnVNM2p1eVl2Z2JINjZtbDA5TjJyQzNNR3ktT3BteHRoeVJZd0pNUm96ZFdUaU5Ua2NUbHJ0N1J2c1diUzFSd1NzdWxqVDlROGZrVEIzc0ZWTjd5d3M4c2R0ZHlZcV9yMWo0X1RIZDh2aWZRdi1TbnMxMlU?oc=5",
     "source": {
-      "id": "gnews-splunk",
+      "id": "gnews-cisco-agenticops",
       "name": "Cisco Blogs",
-      "homepage": "https://news.google.com/search?q=Splunk%20observability"
+      "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
     "publishedAt": "2026-04-09T07:00:00+00:00",
@@ -7908,15 +7908,16 @@
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmp1dHFIZXA1ZVpzV2I2MjdnYmczS3pWWW1ESjFOeWlvcTFuVVM4YW1IenpCb0taZE5pQ1YyUGR3WG1fdFpjVXlYbWRnb0tlZV9oODcxV3JIVGo3TXFTRENwTlZYMFlaRHdBYnpVT1lnb0NEdVRjcmdDZEw5TGVQbkMzVVJHcVM0SUlRZHpJLWZYMWlLOHFBTF9GdmlXVG1sQk1XaTZ4OGVRbVRNdkdRRnBrc2J4ek1qZHl4eV9BRkx3WXdJOXduOQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmp1dHFIZXA1ZVpzV2I2MjdnYmczS3pWWW1ESjFOeWlvcTFuVVM4YW1IenpCb0taZE5pQ1YyUGR3WG1fdFpjVXlYbWRnb0tlZV9oODcxV3JIVGo3TXFTRENwTlZYMFlaRHdBYnpVT1lnb0NEdVRjcmdDZEw5TGVQbkMzVVJHcVM0SUlRZHpJLWZYMWlLOHFBTF9GdmlXVG1sQk1XaTZ4OGVRbVRNdkdRRnBrc2J4ek1qZHl4eV9BRkx3WXdJOXduOQ?oc=5",
     "source": {
-      "id": "gnews-splunk",
+      "id": "gnews-cisco-agenticops",
       "name": "crn.com",
-      "homepage": "https://news.google.com/search?q=Splunk%20observability"
+      "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
     "publishedAt": "2026-04-09T07:00:00+00:00",
     "fetchedAt": "2026-05-31T17:06:32+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -7947,7 +7948,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Cisco to acquire Galileo for AI observability - Network World",
+    "summary": "Cisco to acquire Galileo for AI observability Network World",
     "summarySource": "extractive",
     "clusterId": "1c3ee3ba26d5c141",
     "lang": "en",
@@ -8277,6 +8278,36 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "04772c5ceff40164",
+    "title": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90YVV4N2FlZS11ci1udHktYzdadjFHNXlER0dXTk03TzR5S2lVYjNPcWcxWG9EeWJ4b1VZajVydkhsbGNqczJMa0s4R0NZcU1xMnY0RG0xRXpMT2Z3VUZacDNMZ0Zxc2k4UTNuSUlWeW05WU12Rmo0?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90YVV4N2FlZS11ci1udHktYzdadjFHNXlER0dXTk03TzR5S2lVYjNPcWcxWG9EeWJ4b1VZajVydkhsbGNqczJMa0s4R0NZcU1xMnY0RG0xRXpMT2Z3VUZacDNMZ0Zxc2k4UTNuSUlWeW05WU12Rmo0?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-04-08T07:00:00+00:00",
+    "fetchedAt": "2026-06-22T03:28:57+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "04772c5ceff40164",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "9d2ec863ad8fe91f",
