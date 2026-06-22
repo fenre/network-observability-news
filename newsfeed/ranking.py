@@ -18,7 +18,6 @@ _PRIORITY_SOURCE_IDS = frozenset({
     "ntop-blog",
     "opentelemetry-blog",
     "zeek-blog",
-    "cloudflare-blog",
     "gnews-splunk-blog",
     "gnews-splunk-platform",
     "gnews-splunk-dev",
