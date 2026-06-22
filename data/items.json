@@ -591,12 +591,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
+    "summary": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
     "summarySource": "extractive",
     "clusterId": "9124c89297fd44a8",
     "lang": "en",
@@ -859,7 +859,7 @@
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
-    "publishedAt": "2026-06-15T08:09:09+00:00",
+    "publishedAt": "2026-06-15T08:35:48+00:00",
     "fetchedAt": "2026-06-15T11:51:20+00:00",
     "topics": [
       "splunk",
@@ -1176,7 +1176,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
+    "summary": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -1300,6 +1300,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "b751e7a12571ae36",
+    "title": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
+    "url": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design/",
+    "canonicalUrl": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Sasha Romijn",
+    "publishedAt": "2026-06-10T09:51:00+00:00",
+    "fetchedAt": "2026-06-22T11:40:19+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
+    "summarySource": "extractive",
+    "clusterId": "b751e7a12571ae36",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "daca3eda34529781",
     "title": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZXRKNjd2ZXVpekE4SzhFUGFtRXdvRHVuZTVFTFVLcW5pZkpWcWdxb1Z2VmQ0aWFDUU5jcEgwZTYzRkFpSXFZZUlZWkRKNXlGcEZQcTI2Wnl2cC05My1EOHFR?oc=5",
@@ -1322,7 +1350,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise - Splunk",
+    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise Splunk",
     "summarySource": "extractive",
     "clusterId": "daca3eda34529781",
     "lang": "en",
@@ -2370,7 +2398,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid TechWatch",
+    "summary": "Alle teknologiledere i undersøkelsen har opplevd KI-relatert nedetid - TechWatch",
     "summarySource": "extractive",
     "clusterId": "de8bebdd531f35e2",
     "lang": "en",
@@ -2814,6 +2842,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "134d577c34b6e8a0",
+    "title": "Non-Human Identity for Workloads and AI Agents",
+    "url": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents/",
+    "canonicalUrl": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Kathleen Moriarty",
+    "publishedAt": "2026-05-26T07:52:01+00:00",
+    "fetchedAt": "2026-06-22T11:40:19+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "summarySource": "extractive",
+    "clusterId": "134d577c34b6e8a0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "05b862d01629502b",
@@ -4761,6 +4817,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "3c5a9d0cd9ea80ce",
+    "title": "Legacy Out of Contract",
+    "url": "https://labs.ripe.net/author/qasim-lone/legacy-out-of-contract/",
+    "canonicalUrl": "https://labs.ripe.net/author/qasim-lone/legacy-out-of-contract",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Qasim Lone",
+    "publishedAt": "2026-05-15T11:39:22+00:00",
+    "fetchedAt": "2026-06-22T11:40:19+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming from them.",
+    "summarySource": "extractive",
+    "clusterId": "3c5a9d0cd9ea80ce",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "b232fe27996653a6",
     "title": "Introducing Zeek 8.2",
     "url": "https://zeek.org/2026/05/introducing-zeek-8-2/",
@@ -5595,6 +5679,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "53c0b1c2f79088bd",
+    "title": "Operational Review of Public ENUM Under e164.arpa",
+    "url": "https://labs.ripe.net/author/hisham_ibrahim/operational-review-of-public-enum-under-e164arpa/",
+    "canonicalUrl": "https://labs.ripe.net/author/hisham_ibrahim/operational-review-of-public-enum-under-e164arpa",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Hisham Ibrahim",
+    "publishedAt": "2026-05-12T10:02:35+00:00",
+    "fetchedAt": "2026-06-22T11:40:19+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
+    "summarySource": "extractive",
+    "clusterId": "53c0b1c2f79088bd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "7ff5b4f1807ecb68",
@@ -8852,36 +8964,6 @@
     "categories": [
       "news"
     ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "5825be4c5f5c4044",
-    "title": "Troubleshoot Splunk AI Assistant for SPL - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUFotTGJfTjNmSWVaYXROYmEyZXVxcFRYODlTNUdUQnI5bFNaVE5IUURaQ3Y3QkVUSmhDUDdEaFpZQjcxVnM4bUtFUW9SMDZ5aEhzS25VUU5ZWmpmWHU1X1doUUlWV2tOdXpHQ1RjQVUtTDByNUNNa3ZpV19ta09UWXQybHBULVlLTi0xV0NDUmhwSjI3cnF6X0tNRk5hSi1ERElzeVFaMDRjV0VyMkJPTWIyblVhMjA3R2Q2YXZNV0d3T19fOXJ3dTNtVlhZLWcwTEJrTVZSY3h6eUMxTkR3aEI2eXBwYmt4MXc?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUFotTGJfTjNmSWVaYXROYmEyZXVxcFRYODlTNUdUQnI5bFNaVE5IUURaQ3Y3QkVUSmhDUDdEaFpZQjcxVnM4bUtFUW9SMDZ5aEhzS25VUU5ZWmpmWHU1X1doUUlWV2tOdXpHQ1RjQVUtTDByNUNNa3ZpV19ta09UWXQybHBULVlLTi0xV0NDUmhwSjI3cnF6X0tNRk5hSi1ERElzeVFaMDRjV0VyMkJPTWIyblVhMjA3R2Q2YXZNV0d3T19fOXJ3dTNtVlhZLWcwTEJrTVZSY3h6eUMxTkR3aEI2eXBwYmt4MXc?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-03-24T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T17:06:32+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "summary": "Troubleshoot Splunk AI Assistant for SPL - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "5825be4c5f5c4044",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
     "audiences": [
       "global"
     ]
