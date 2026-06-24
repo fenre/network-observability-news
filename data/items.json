@@ -32,6 +32,37 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "cb9bc633d2fabb02",
+    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+    "url": "https://blog.cloudflare.com/oauth-for-all/",
+    "canonicalUrl": "https://blog.cloudflare.com/oauth-for-all",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Nick Comer",
+    "publishedAt": "2026-06-24T06:00:00+00:00",
+    "fetchedAt": "2026-06-24T14:12:17+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen.",
+    "summarySource": "extractive",
+    "clusterId": "cb9bc633d2fabb02",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "118c513dda6a0735",
     "title": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "url": "https://blog.apnic.net/2026/06/24/hunting-stuck-routes-with-the-bgp-clock-and-the-bgp-stuck-route-observatory/",
@@ -44,9 +75,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -56,7 +85,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -531,8 +560,7 @@
     "publishedAt": "2026-06-18T21:52:48+00:00",
     "fetchedAt": "2026-06-19T03:38:21+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -542,7 +570,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise vulnerability is now getting exploited thestack.technology",
+    "summary": "Critical Splunk Enterprise vulnerability is now getting exploited - thestack.technology",
     "summarySource": "extractive",
     "clusterId": "d99dcf410419b476",
     "lang": "en",
@@ -686,7 +714,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk AppDynamics On-Premises Virtual Appliance Enhancements Splunk",
+    "summary": "Splunk AppDynamics On-Premises Virtual Appliance Enhancements - Splunk",
     "summarySource": "extractive",
     "clusterId": "7b4d1ed32f4fe2af",
     "lang": "en",
@@ -897,7 +925,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
+    "summary": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
     "summarySource": "extractive",
     "clusterId": "9124c89297fd44a8",
     "lang": "en",
@@ -1228,7 +1256,8 @@
     "publishedAt": "2026-06-15T08:35:48+00:00",
     "fetchedAt": "2026-06-15T11:51:20+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1238,7 +1267,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed - The Cyber Express",
+    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed The Cyber Express",
     "summarySource": "extractive",
     "clusterId": "add5538c3aeb7157",
     "lang": "en",
@@ -1482,7 +1511,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -1573,7 +1602,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
+    "summary": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -1601,7 +1630,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -1717,7 +1746,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
+    "summary": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
     "summarySource": "extractive",
     "clusterId": "b751e7a12571ae36",
     "lang": "en",
@@ -1805,7 +1834,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -1950,7 +1979,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2109,7 +2138,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
+    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -2378,7 +2407,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2522,7 +2551,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2890,7 +2919,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3261,7 +3290,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "summary": "Non-Human Identity for Workloads and AI Agents",
     "summarySource": "extractive",
     "clusterId": "134d577c34b6e8a0",
     "lang": "en",
@@ -3345,7 +3374,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
+    "summary": "Ephemeral leaks and automated BGP route leak detection",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -3487,11 +3516,9 @@
     "author": "Abe Carryl",
     "publishedAt": "2026-05-21T17:00:00+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard.",
+    "summary": "Announcing Claude Compliance API support with Cloudflare CASB",
     "summarySource": "extractive",
     "clusterId": "202592deab37b1b8",
     "lang": "en",
@@ -5232,7 +5259,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last time, we looked at legacy address space in terms of contract coverage, ROA coverage, and proportion of announced prefixes. Now it’s time to take a closer look at those blocks still to be brought under contract and get a clearer picture of what kind of behaviour we see coming from them.",
+    "summary": "Legacy Out of Contract",
     "summarySource": "extractive",
     "clusterId": "3c5a9d0cd9ea80ce",
     "lang": "en",
@@ -6066,7 +6093,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A 2026 operational review of Public ENUM under e164.arpa found that half of the current delegations show some form of DNS problem. The findings are expected to be discussed at RIPE 92, including the operational status and future support of Public ENUM under e164.arpa.",
+    "summary": "Operational Review of Public ENUM Under e164.arpa",
     "summarySource": "extractive",
     "clusterId": "53c0b1c2f79088bd",
     "lang": "en",
@@ -7885,7 +7912,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk AI Assistant for Splunk Cloud customers - Splunk",
+    "summary": "Install Splunk AI Assistant for Splunk Cloud customers Splunk",
     "summarySource": "extractive",
     "clusterId": "f7bcf8a14476044c",
     "lang": "en",
@@ -9284,13 +9311,12 @@
       "splunk"
     ],
     "tags": [
-      "dashboard-studio",
       "10.4",
+      "dashboard-studio",
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
