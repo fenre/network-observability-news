@@ -10,7 +10,7 @@
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
-    "publishedAt": "2026-06-23T18:52:09+00:00",
+    "publishedAt": "2026-06-24T00:57:12+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
@@ -100,9 +100,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -110,7 +108,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
+    "summary": "The 2026 Zeek Project Survey Is Now Open",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -161,8 +159,7 @@
     "publishedAt": "2026-06-21T07:38:57+00:00",
     "fetchedAt": "2026-06-21T09:40:19+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -172,7 +169,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
     "summarySource": "extractive",
     "clusterId": "82c16fa2829f3035",
     "lang": "en",
@@ -193,8 +190,7 @@
     "publishedAt": "2026-06-20T08:43:31+00:00",
     "fetchedAt": "2026-06-20T13:45:36+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -203,7 +199,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA Issues Alert on Critical Splunk Enterprise Bug Under Active Exploitation gbhackers.com",
+    "summary": "CISA Issues Alert on Critical Splunk Enterprise Bug Under Active Exploitation - gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "d717a96130082765",
     "lang": "en",
@@ -286,8 +282,7 @@
     "publishedAt": "2026-06-19T12:32:46+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -296,7 +291,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... Security Affairs",
+    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... - Security Affairs",
     "summarySource": "extractive",
     "clusterId": "977648c99482a509",
     "lang": "en",
@@ -410,8 +405,7 @@
     "publishedAt": "2026-06-19T08:06:40+00:00",
     "fetchedAt": "2026-06-20T02:42:20+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -421,7 +415,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks CyberSecurityNews",
+    "summary": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "2da2ccb9cdbe959d",
     "lang": "en",
@@ -534,7 +528,9 @@
     "author": "Sai Natarajan",
     "publishedAt": "2026-06-18T15:00:32+00:00",
     "fetchedAt": "2026-06-18T20:14:59+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -542,7 +538,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Powering the Future of AI: Cisco’s Breakthroughs in Secure AI Networking with NVIDIA",
+    "summary": "Cisco delivers foundational infrastructure for giga-scale AI, combining advanced networking, silicon diversity, and integrated security to help enterprises, neoclouds, and sovereign cloud providers deploy AI securely at scale.",
     "summarySource": "extractive",
     "clusterId": "845ebfcf333858e8",
     "lang": "en",
@@ -562,7 +558,10 @@
     "author": "Jenn Garrison",
     "publishedAt": "2026-06-18T15:00:19+00:00",
     "fetchedAt": "2026-06-18T20:14:59+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -570,7 +569,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Ask the experts: 5 tips for hybrid network operations with Global Overview",
+    "summary": "Meraki dashboard, Catalyst Center, cloud networking, hybrid network management, Meraki platform",
     "summarySource": "extractive",
     "clusterId": "84eddab6d1f9cad5",
     "lang": "en",
@@ -590,7 +589,11 @@
     "author": "Matt Swartz",
     "publishedAt": "2026-06-18T15:00:09+00:00",
     "fetchedAt": "2026-06-18T20:14:59+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -598,7 +601,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The less obvious headliner at BottleRock 2026",
+    "summary": "BottleRock Napa Valley proves that Wi-Fi 7 and 6 GHz standard power are ready for high-density, real-world use. See how Cisco and Splunk turn event-scale data into a resilient operating model.",
     "summarySource": "extractive",
     "clusterId": "c091ec63c17c745b",
     "lang": "en",
@@ -628,7 +631,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk AppDynamics On-Premises Virtual Appliance Enhancements Splunk",
+    "summary": "Splunk AppDynamics On-Premises Virtual Appliance Enhancements - Splunk",
     "summarySource": "extractive",
     "clusterId": "7b4d1ed32f4fe2af",
     "lang": "en",
@@ -711,7 +714,10 @@
     "author": "Ameya Ahir",
     "publishedAt": "2026-06-17T15:00:58+00:00",
     "fetchedAt": "2026-06-17T20:04:36+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -719,7 +725,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lean IT, future-ready: Why adopting WPA3 for Wi‑Fi 7 is easier than you think",
+    "summary": "AI can transform wireless management and operations, but it also accelerates security threats. But wireless security has also evolved: Modern standards like WPA3, available on Wi‑Fi 7, deliver stronger protection without adding operational burden.",
     "summarySource": "extractive",
     "clusterId": "a2d856c850f39e51",
     "lang": "en",
@@ -881,12 +887,12 @@
   },
   {
     "id": "7c16cac9cf4665db",
-    "title": "New AI tuning for Cisco Nexus Dashboard Fabric Controller targets data center bottlenecks - AD HOC NEWS",
+    "title": "New AI tuning for Cisco Nexus Dashboard Fabric Controller targets data center bottlenecks - Ad-hoc-news.de",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc2NzaTJ0UU9sWkc2LWlxVV9HaU52WE9FZV9iTGR4XzEtQVUtVFo0Z2V4ZlBpXzY4bUV0RHBTcklwS0dXZ0JZc3pnQkg0R1huWWRMa3ZIT2Z4ZDlMNUNCTmltUUFvdkg4ZHJGMHN0ZFRmM0NyMHRISjhMNkhrRjdXbEZFU0tVYXN2UUJyQzZSWlFqZUFYMzFzNEpteS1QbW9KQmFDMksxbm1OeDhCQmpfNDJlR2NPT2RpcGVvZmZjdEhKd2x0UVRycw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc2NzaTJ0UU9sWkc2LWlxVV9HaU52WE9FZV9iTGR4XzEtQVUtVFo0Z2V4ZlBpXzY4bUV0RHBTcklwS0dXZ0JZc3pnQkg0R1huWWRMa3ZIT2Z4ZDlMNUNCTmltUUFvdkg4ZHJGMHN0ZFRmM0NyMHRISjhMNkhrRjdXbEZFU0tVYXN2UUJyQzZSWlFqZUFYMzFzNEpteS1QbW9KQmFDMksxbm1OeDhCQmpfNDJlR2NPT2RpcGVvZmZjdEhKd2x0UVRycw?oc=5",
     "source": {
       "id": "gnews-cisco-nexus-aci",
-      "name": "AD HOC NEWS",
+      "name": "Ad-hoc-news.de",
       "homepage": "https://news.google.com/search?q=Cisco%20Nexus%20Dashboard"
     },
     "author": null,
@@ -904,12 +910,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "New AI tuning for Cisco Nexus Dashboard Fabric Controller targets data center bottlenecks AD HOC NEWS",
+    "summary": "New AI tuning for Cisco Nexus Dashboard Fabric Controller targets data center bottlenecks Ad-hoc-news.de",
     "summarySource": "extractive",
     "clusterId": "7c16cac9cf4665db",
     "lang": "en",
     "license": null,
-    "attribution": "via AD HOC NEWS (Google News)"
+    "attribution": "via Ad-hoc-news.de (Google News)"
   },
   {
     "id": "c98cafcbabe02e92",
@@ -930,7 +936,7 @@
     "tags": [
       "edge-processor"
     ],
-    "summary": "Release notes for Edge Processors on Splunk Cloud Platform - Splunk",
+    "summary": "Release notes for Edge Processors on Splunk Cloud Platform Splunk",
     "summarySource": "extractive",
     "clusterId": "c98cafcbabe02e92",
     "lang": "en",
@@ -966,42 +972,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Matrix of roles and capabilities | Observability Cloud (last updated 2026-06-16T02:21:34.950Z) - Splunk",
+    "summary": "Matrix of roles and capabilities | Observability Cloud (last updated 2026-06-16T02:21:34.950Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "3098e224770d5142",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "2c68808f33945c5f",
-    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T02:20:39+00:00",
-    "fetchedAt": "2026-05-31T17:21:22+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) Splunk",
-    "summarySource": "extractive",
-    "clusterId": "2c68808f33945c5f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "b7d8408dcb170f8d",
@@ -1037,12 +1013,12 @@
   },
   {
     "id": "82d27cb7f1257826",
-    "title": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln - AD HOC NEWS",
+    "title": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln - Ad-hoc-news.de",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE9hRG9Hb3d4WndOa2ZRUlQyWHpidnpJV3NfdENwU1I5S1VxYWtYVkFfdTB6UWt0M2hoUzlIOGJmY1padVVRa3ZRcEcyQjU0WHVCNkNrNVZvcFh1OEpyNkZtTDhBMVNXU0lWSEZBcTVMU3pMZ0NQN3hENGxDZzYtSTVQS2tGa1hfTGtWanRaRUFzaGR6Ni1yRHYwMjVGQmNzdkhacnNMVGpKUDF6ajVNdHMwM2Q1MVV2ZExXOVJybw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE9hRG9Hb3d4WndOa2ZRUlQyWHpidnpJV3NfdENwU1I5S1VxYWtYVkFfdTB6UWt0M2hoUzlIOGJmY1padVVRa3ZRcEcyQjU0WHVCNkNrNVZvcFh1OEpyNkZtTDhBMVNXU0lWSEZBcTVMU3pMZ0NQN3hENGxDZzYtSTVQS2tGa1hfTGtWanRaRUFzaGR6Ni1yRHYwMjVGQmNzdkhacnNMVGpKUDF6ajVNdHMwM2Q1MVV2ZExXOVJybw?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "AD HOC NEWS",
+      "name": "Ad-hoc-news.de",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -1059,12 +1035,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln AD HOC NEWS",
+    "summary": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln Ad-hoc-news.de",
     "summarySource": "extractive",
     "clusterId": "82d27cb7f1257826",
     "lang": "en",
     "license": null,
-    "attribution": "via AD HOC NEWS (Google News)"
+    "attribution": "via Ad-hoc-news.de (Google News)"
   },
   {
     "id": "5c2505b4acedac6d",
@@ -1087,7 +1063,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -1137,7 +1113,10 @@
     "author": "Aditya Sankar",
     "publishedAt": "2026-06-15T12:00:52+00:00",
     "fetchedAt": "2026-06-15T17:04:20+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1145,7 +1124,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Defenseclaw for On-Prem AI SOC Workflow at Black Hat Asia",
+    "summary": "At Black Hat Asia, we tested a private AI SOC workflow built with Ollama, NVIDIA GPU acceleration, Open WebUI, OpenClaw, DefenseClaw, Cisco AI Defense and MCP integrations, with Splunk audit visibility.",
     "summarySource": "extractive",
     "clusterId": "618b3fab8d2de48b",
     "lang": "en",
@@ -1260,8 +1239,7 @@
     "publishedAt": "2026-06-13T08:20:39+00:00",
     "fetchedAt": "2026-06-20T08:45:06+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1270,7 +1248,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Pre-Auth RCE Chain Exposes Databases gbhackers.com",
+    "summary": "Critical Splunk Enterprise Pre-Auth RCE Chain Exposes Databases - gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "f09da3319f8ffeea",
     "lang": "en",
@@ -1622,9 +1600,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1632,7 +1608,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
+    "summary": "The 2026 Zeek Project Survey: Coming June 23",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -1692,7 +1668,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise - Splunk",
+    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise Splunk",
     "summarySource": "extractive",
     "clusterId": "daca3eda34529781",
     "lang": "en",
@@ -1892,7 +1868,10 @@
     "author": "Lee Peterson",
     "publishedAt": "2026-06-08T15:00:16+00:00",
     "fetchedAt": "2026-06-08T15:35:49+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -1900,7 +1879,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Powering the AI-ready branch with agentic operations and quantum-era security",
+    "summary": "At Cisco Live 2026 Las Vegas, Cisco introduces a new branch and WAN architecture for the AI era, with AgenticOps, quantum-resilient security, simplified operations, and the expanded Cisco 8000 Series Secure Routers family.",
     "summarySource": "extractive",
     "clusterId": "ec33b70fd1f64029",
     "lang": "en",
@@ -1984,10 +1963,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -1995,7 +1971,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -2117,7 +2093,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From tenant-aware to job-aware: scaling shared AI clusters with Cisco Nexus One",
+    "summary": "Discover how Job-ID-based segmentation secures and optimizes backend AI fabrics, ensuring high-performance connectivity for demanding AI and machine learning workloads at scale.",
     "summarySource": "extractive",
     "clusterId": "8ffdafbeb251d535",
     "lang": "en",
@@ -2323,7 +2299,9 @@
     "author": "Jeremy Foster",
     "publishedAt": "2026-06-03T15:00:32+00:00",
     "fetchedAt": "2026-06-03T16:23:40+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2331,7 +2309,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI infrastructure has entered its operational era",
+    "summary": "Buying GPUs is the easy part; operationalizing them is the real challenge. Discover how secure, automated infrastructure helps bridge the gap between deployment and business value—taking you from rack to production in hours, not weeks.",
     "summarySource": "extractive",
     "clusterId": "5e104c781f573166",
     "lang": "en",
@@ -2351,7 +2329,10 @@
     "author": "Casey Tong",
     "publishedAt": "2026-06-03T14:00:44+00:00",
     "fetchedAt": "2026-06-03T16:23:40+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -2359,7 +2340,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Share Your Experience: Where the Human Voice Thrives in the Age of AI",
+    "summary": "DevNet’s Share Your Experience (SYE) initiative uses your insights to drive product improvements. Through Design Thinking at Cisco Live, we turn feedback into action. Join us in building a better developer experience, one interaction at a time.",
     "summarySource": "extractive",
     "clusterId": "8c78481426719985",
     "lang": "en",
@@ -2411,9 +2392,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2421,7 +2400,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
+    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -2441,7 +2420,9 @@
     "author": "Murali Gandluru",
     "publishedAt": "2026-06-02T13:00:07+00:00",
     "fetchedAt": "2026-06-02T16:08:27+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2449,7 +2430,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "End-to-end AI networking: Cisco’s answer to the inferencing era",
+    "summary": "Scale AI infrastructure securely and simplify operations with end-to-end AI networking from Cisco. By bridging Kubernetes and the network fabric, we deliver the visibility and integrated security needed for the age of inferencing.",
     "summarySource": "extractive",
     "clusterId": "385609be45c71db7",
     "lang": "en",
@@ -2469,7 +2450,10 @@
     "author": "Joe Vaccaro",
     "publishedAt": "2026-06-02T12:50:53+00:00",
     "fetchedAt": "2026-06-02T16:08:27+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -2477,7 +2461,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From signal to action: The next step in Cisco AgenticOps",
+    "summary": "Cisco AgenticOps transforms network operations by combining AI-driven agents with human oversight to deliver trusted, autonomous, and accountable IT workflows that detect, diagnose, remediate, and validate issues, ensuring seamless user experience.",
     "summarySource": "extractive",
     "clusterId": "37225c6eeb13882a",
     "lang": "en",
@@ -2497,7 +2481,10 @@
     "author": "Michael Dickman",
     "publishedAt": "2026-06-02T12:50:44+00:00",
     "fetchedAt": "2026-06-02T16:08:27+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -2505,7 +2492,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Trust at machine speed: Building secure campus networks for the AI era",
+    "summary": "Campus networks are evolving as people, agents, devices, and autonomous systems interact in real time. Cisco delivers AgenticOps, machine-speed trust, and AI-ready infrastructure to help organizations operate securely and scale efficiently.",
     "summarySource": "extractive",
     "clusterId": "edefdaf47c241e81",
     "lang": "en",
@@ -2525,7 +2512,10 @@
     "author": "Rohit Agarwalla",
     "publishedAt": "2026-06-02T12:50:22+00:00",
     "fetchedAt": "2026-06-02T16:08:27+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2533,7 +2523,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Unveils Multicloud Fabric in Cloud Control: Network Ready for the AI Era",
+    "summary": "Cisco Multicloud Fabric simplifies networking for the AI era with a unified, secure, and on-demand global fabric that connects sites and clouds through a single, intelligent platform.",
     "summarySource": "extractive",
     "clusterId": "bba6dcb6d90a3267",
     "lang": "en",
@@ -2705,7 +2695,10 @@
     "author": "Matt DeNapoli",
     "publishedAt": "2026-06-01T14:24:55+00:00",
     "fetchedAt": "2026-06-01T17:23:58+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2713,7 +2706,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "DevNet Sandbox: Building the Future of Developer Experiences",
+    "summary": "Starting August 1st, the Cisco DevNet Sandbox will go offline for a complete rebuild. We're creating a modern experience focused on AI, automation, and programmability. Stay tuned for our next-gen platform for the developer community.",
     "summarySource": "extractive",
     "clusterId": "4efe607eb9c101c0",
     "lang": "en",
@@ -2857,11 +2850,13 @@
     "author": "Sreenivas Rao",
     "publishedAt": "2026-05-28T15:00:46+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [
       "nexus-dashboard"
     ],
-    "summary": "Trusted network data for end-to-end visibility with Nexus Data Broker",
+    "summary": "Complexity is the enemy of visibility. Discover how the new Nexus Data Broker integration in Nexus Dashboard 4.2 eliminates manual overhead to deliver a truly unified, single source of truth for your network.",
     "summarySource": "extractive",
     "clusterId": "beb782f40239a10f",
     "lang": "en",
@@ -2887,9 +2882,12 @@
     "author": "Story DeWeese",
     "publishedAt": "2026-05-28T14:00:45+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Explore Enterprise Networking Automation at Cisco Live US 2026",
+    "summary": "Explore top networking automation sessions, labs, and workshops at Cisco Live US 2026. From IOS XE and AI-ready infra to ACR and telemetry, this guide helps you master the tools driving the future of network management. Plan your schedule now!",
     "summarySource": "extractive",
     "clusterId": "29eec24aad7c4a8e",
     "lang": "en",
@@ -3145,9 +3143,12 @@
     "author": "Romie Castelli",
     "publishedAt": "2026-05-27T15:00:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Why Financial Agility is the New Competitive Edge",
+    "summary": "Discover why financial agility is the new competitive edge. Learn how Cisco Capital helps IT leaders modernize infrastructure and accelerate AI adoption, even in a complex economic landscape.",
     "summarySource": "extractive",
     "clusterId": "bfce03078a79b206",
     "lang": "en",
@@ -3203,9 +3204,12 @@
     "author": "Albert Chiang",
     "publishedAt": "2026-05-26T15:00:12+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Securing campus and branch networks from boot to transport with full-stack PQC",
+    "summary": "Quantum threats are driving the need for post-quantum cryptography across the network stack, as attackers can capture encrypted data today and decrypt it in the future. Discover how Cisco full-stack PQC helps protect both devices and data.",
     "summarySource": "extractive",
     "clusterId": "c41af8c62df0fb49",
     "lang": "en",
@@ -3499,7 +3503,7 @@
       "cisco-data-fabric"
     ],
     "tags": [],
-    "summary": "One open NOS, any workload: SONiC on Cisco",
+    "summary": "SONiC is an open-source, Linux-based network OS delivering scalable, AI-optimized networking. Cisco integrates SONiC on its 8000 and N9000 Series platforms, providing flexible, high-performance data centers for AI and cloud workloads.",
     "summarySource": "extractive",
     "clusterId": "0a699c44dab04629",
     "lang": "en",
@@ -3658,9 +3662,11 @@
     "author": "Venkat Garigipati",
     "publishedAt": "2026-05-20T15:00:54+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
-    "summary": "AI network performance with Cisco Intelligent Packet Flow",
+    "summary": "What changes when the network adapts to AI traffic in real time? Cisco Intelligent Packet Flow delivers faster job completion, higher GPU efficiency, and operational consistency across large AI fabrics.",
     "summarySource": "extractive",
     "clusterId": "bd4d1ec09d95de7d",
     "lang": "en",
@@ -3836,7 +3842,7 @@
       "cisco-data-fabric"
     ],
     "tags": [],
-    "summary": "Cisco N9000 excels in EANTC 2026 VXLAN EVPN and timing tests",
+    "summary": "At EANTC 2026, Cisco N9000 switches dominated 12-vendor validation tests, including VXLAN EVPN and secure PTP/MACsec. These results prove Cisco’s open, AI-ready architecture is the industry standard for performance and multivendor integration.",
     "summarySource": "extractive",
     "clusterId": "9bf8d32fa3e0faf1",
     "lang": "en",
@@ -5174,11 +5180,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
+    "summary": "Introducing Zeek 8.2",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
@@ -5236,9 +5240,11 @@
     "author": "Clarence Filsfils",
     "publishedAt": "2026-05-14T15:00:40+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
-    "summary": "MRC and SRv6: How Foundational Networking Innovations Are Enabling the Next Generation of AI Supercomputers",
+    "summary": "The Multipath Reliable Connection (MRC) protocol marks a leap in AI infrastructure. By leveraging Cisco-pioneered SRv6, MRC enables near-perfect uptime and full bisection bandwidth at the scale of 100,000+ GPUs, powering the next generation of AI.",
     "summarySource": "extractive",
     "clusterId": "07846afab0607f53",
     "lang": "en",
@@ -5488,6 +5494,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "2c68808f33945c5f",
+    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-05-14T14:01:50.613Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-14T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T17:21:22+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-05-14T14:01:50.613Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "2c68808f33945c5f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "260c3fcc4fbfceea",
@@ -6014,7 +6050,7 @@
     "fetchedAt": "2026-05-31T16:35:44+00:00",
     "topics": [],
     "tags": [],
-    "summary": "“Observability Has Fundamentally Transformed From A Technical Monitoring Function Into A Strategic Business Catalyst” digital terminal",
+    "summary": "“Observability Has Fundamentally Transformed From A Technical Monitoring Function Into A Strategic Business Catalyst” - digital terminal",
     "summarySource": "extractive",
     "clusterId": "7ff5b4f1807ecb68",
     "lang": "en",
@@ -6366,9 +6402,12 @@
     "author": "Jesus Illescas",
     "publishedAt": "2026-05-06T20:49:02+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Month of Developer Productivity: Build and Forget",
+    "summary": "Discover developer productivity tools: set up VS Code, automate code quality, debug Python effectively, and ship reproducible builds with uv and Docker.",
     "summarySource": "extractive",
     "clusterId": "46b8ae0c98c38f7a",
     "lang": "en",
@@ -6394,11 +6433,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
+    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -6570,9 +6607,12 @@
     "author": "Barry Yuan",
     "publishedAt": "2026-05-04T18:48:48+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Try Cisco AI Defense Explorer Edition in this hands-on lab",
+    "summary": "A practical DevNet lab for connecting a public OpenAI-compatible target to Cisco AI Defense Explorer, running a Quick Scan, and reviewing AI red team findings.",
     "summarySource": "extractive",
     "clusterId": "811dab48e5218020",
     "lang": "en",
@@ -6951,11 +6991,9 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
+    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
@@ -7054,34 +7092,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -7278,9 +7288,12 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-04-24T20:09:01+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Recap Scaling the Future: Reddit AMA on Network Automation at Scale",
+    "summary": "Discover the top insights from our recent Reddit AMA with Cisco experts on tackling real-world network automation challenges at scale. Learn best practices for multi-system integration, deterministic execution, and using AI as a reasoning layer.",
     "summarySource": "extractive",
     "clusterId": "3a9a34c425e6e0a1",
     "lang": "en",
@@ -7306,9 +7319,12 @@
     "author": "Oleksii Borysenko",
     "publishedAt": "2026-04-24T18:57:58+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Product sprints for developer-oriented portals and content",
+    "summary": "Use developer portal analytics and feedback to drive product decisions. Learn key indicators and see how Cisco DevNet improves developer experiences. Stop guessing, start measuring what matters for your API and documentation users.",
     "summarySource": "extractive",
     "clusterId": "c4515c388a22049c",
     "lang": "en",
@@ -7460,11 +7476,9 @@
     "author": "Fatema Bannat Wala",
     "publishedAt": "2026-04-23T21:31:47+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "At ESnet, our Zeek deployment was logging 4.2 million weirds per day. When we investigated, 90% were DNS-related and 98% of those came from a single opcode. After submitting a PR to fix it, daily weirds dropped to 1.3 million.",
+    "summary": "Revisiting Weird-ness: Investigating DNS NOTIFY at Scale",
     "summarySource": "extractive",
     "clusterId": "8add41a23eb12610",
     "lang": "en",
@@ -7634,9 +7648,12 @@
     "author": "Ron Brash",
     "publishedAt": "2026-04-21T12:01:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [],
-    "summary": "Stop Overthinking OT Security: People, Process and Technology",
+    "summary": "Build a credible OT security foundation without breaking the bank. Our \"Starter Pack\" framework leverages People, Process, and Technology to help mid-sized industrial operations implement smart, sequenced cybersecurity investments effectively.",
     "summarySource": "extractive",
     "clusterId": "a7f8e720bcdb60cb",
     "lang": "en",
@@ -7929,11 +7946,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-04-16T22:32:54+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "The Zeek development team is closing in on Zeek 8.2, our final feature release in the 8.x cycle! This blog post provides a sneak peek at some of the new functionality and changes in that release. As always, this is an excellent opportunity to test-drive the upcoming release and send us any feedback you may […]",
+    "summary": "Zeek 8.2 Development Update",
     "summarySource": "extractive",
     "clusterId": "928505cfb7060fe2",
     "lang": "en",
@@ -8000,7 +8015,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
@@ -8084,9 +8099,12 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-04-14T22:50:25+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Scaling the Future: Join Our Reddit AMA on Network Automation at Scale",
+    "summary": "Join Cisco's leading experts for a Reddit AMA on April 20, 2026, to discuss network automation at scale. Bring your toughest questions about network management, architectural scaling, and the future of automation fabrics.",
     "summarySource": "extractive",
     "clusterId": "3a9a34c425e6e0a1",
     "lang": "en",
@@ -8298,9 +8316,12 @@
     "author": "Kamal Hathi",
     "publishedAt": "2026-04-09T20:00:02+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [],
-    "summary": "Making AI Trustworthy and Observable in Real-Time: Cisco Announces Intent to Acquire Galileo",
+    "summary": "Cisco announces the intent to acquire Galileo Technologies, Inc., a dynamic player in the observability for AI space that is helping make AI more reliable, trustworthy, safe, and observable",
     "summarySource": "extractive",
     "clusterId": "06d6fe0d12434c98",
     "lang": "en",
@@ -8414,7 +8435,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
+    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -8440,11 +8461,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-04-08T17:41:49+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "A Zeek user spent years maintaining a careful system of named test PCAPs, tracking which scripts belonged to which tests and building a testing workflow from scratch. Then they discovered btest, Zeek’s built-in testing framework that automatically creates baselines—no more manual tracking! This pattern repeats constantly.",
+    "summary": "The Hidden Features of Zeek",
     "summarySource": "extractive",
     "clusterId": "a840f23b44590930",
     "lang": "en",
@@ -8857,11 +8876,15 @@
     "author": "Adrian Iliesiu",
     "publishedAt": "2026-04-02T23:39:27+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
-    "summary": "Celebrating the Month of Meraki",
+    "summary": "Catch up on the Cisco Meraki Month of Meraki series. Explore OAuth, Splunk, Cisco Spaces, ThousandEyes, and AI-driven APIs to build smarter, automated, and observable networks.",
     "summarySource": "extractive",
     "clusterId": "8dfcf1bfdb711fac",
     "lang": "en",
@@ -8887,11 +8910,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-04-02T17:53:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Close to 100 people gathered at CERN in Geneva on March 25-26 for Zeek Workshop Europe 2026. The two-day event brought together practitioners from across Europe for knowledge sharing, training, and networking. The workshop kicked off with presentations covering Zeek development, deployment strategies, and real-world use cases.",
+    "summary": "Zeek Workshop Europe 2026 Recap",
     "summarySource": "extractive",
     "clusterId": "6eee3323c48ef8eb",
     "lang": "en",
@@ -9249,13 +9270,12 @@
       "splunk"
     ],
     "tags": [
-      "dashboard-studio",
       "10.4",
+      "dashboard-studio",
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
