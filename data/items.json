@@ -1,5 +1,33 @@
 [
   {
+    "id": "9ba7ee21ac4099be",
+    "title": "[Podcast] What ‘name-based routing’ really means",
+    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-06-24T20:30:00+00:00",
+    "fetchedAt": "2026-06-25T02:38:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summarySource": "extractive",
+    "clusterId": "9ba7ee21ac4099be",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "7bca2b2e982427b5",
     "title": "Don't Wrap OpenTelemetry — You're Probably Hurting More Than Helping",
     "url": "https://opentelemetry.io/blog/2026/dont-wrap-opentelemetry/",
@@ -75,7 +103,9 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
@@ -85,40 +115,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
+    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Network World",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-24T04:00:06+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
-    "summarySource": "extractive",
-    "clusterId": "b371ae0584668e9d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Network World (Google News)",
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "55407e36caa11567",
@@ -209,6 +211,34 @@
     "attribution": "via Zeek Blog"
   },
   {
+    "id": "b371ae0584668e9d",
+    "title": "2026 network outage report and internet health check - Network World",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-06-23T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T10:48:25+00:00",
+    "topics": [],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check Network World",
+    "summarySource": "extractive",
+    "clusterId": "b371ae0584668e9d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)",
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ]
+  },
+  {
     "id": "009e730bc0fa29bb",
     "title": "How we found a bug in the hyper HTTP library",
     "url": "https://blog.cloudflare.com/hyper-bug/",
@@ -252,8 +282,7 @@
     "publishedAt": "2026-06-21T07:38:57+00:00",
     "fetchedAt": "2026-06-21T09:40:19+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -263,7 +292,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
     "summarySource": "extractive",
     "clusterId": "82c16fa2829f3035",
     "lang": "en",
@@ -406,8 +435,7 @@
     "publishedAt": "2026-06-19T10:50:33+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -417,7 +445,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) Help Net Security",
+    "summary": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) - Help Net Security",
     "summarySource": "extractive",
     "clusterId": "15d6411c7945d6b0",
     "lang": "en",
@@ -438,8 +466,7 @@
     "publishedAt": "2026-06-19T10:39:58+00:00",
     "fetchedAt": "2026-06-20T19:14:23+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -448,7 +475,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday BleepingComputer",
+    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday - BleepingComputer",
     "summarySource": "extractive",
     "clusterId": "66c2708c5faff854",
     "lang": "en",
@@ -967,7 +994,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Finding-based detections available in Splunk Enterprise Security Splunk",
+    "summary": "Finding-based detections available in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "0c8746de7021a2b6",
     "lang": "en",
@@ -1147,8 +1174,7 @@
     "publishedAt": "2026-06-15T20:24:25+00:00",
     "fetchedAt": "2026-06-15T20:48:57+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1157,12 +1183,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln Ad-hoc-news.de",
+    "summary": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln - Ad-hoc-news.de",
     "summarySource": "extractive",
     "clusterId": "82d27cb7f1257826",
     "lang": "en",
     "license": null,
     "attribution": "via Ad-hoc-news.de (Google News)"
+  },
+  {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-06-25T02:38:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "6d5c47fbd8de35f2",
@@ -1239,8 +1293,7 @@
     "publishedAt": "2026-06-15T09:00:08+00:00",
     "fetchedAt": "2026-06-15T11:51:20+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1250,7 +1303,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution LinkedIn",
+    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution - LinkedIn",
     "summarySource": "extractive",
     "clusterId": "14b7c67b92bd0f11",
     "lang": "en",
@@ -1271,8 +1324,7 @@
     "publishedAt": "2026-06-15T08:35:48+00:00",
     "fetchedAt": "2026-06-15T11:51:20+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1282,7 +1334,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed The Cyber Express",
+    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed - The Cyber Express",
     "summarySource": "extractive",
     "clusterId": "add5538c3aeb7157",
     "lang": "en",
@@ -1333,7 +1385,8 @@
     "publishedAt": "2026-06-13T08:20:39+00:00",
     "fetchedAt": "2026-06-20T08:45:06+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1342,7 +1395,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Pre-Auth RCE Chain Exposes Databases - gbhackers.com",
+    "summary": "Critical Splunk Enterprise Pre-Auth RCE Chain Exposes Databases gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "f09da3319f8ffeea",
     "lang": "en",
@@ -1363,8 +1416,7 @@
     "publishedAt": "2026-06-13T07:00:00+00:00",
     "fetchedAt": "2026-06-13T13:44:38+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1373,7 +1425,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication The Hacker News",
+    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - The Hacker News",
     "summarySource": "extractive",
     "clusterId": "9bf7607b1a8c1bf3",
     "lang": "en",
@@ -1520,12 +1572,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "tutorial",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "BGP Router ID structuring in IPv6 native networks",
+    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -1546,8 +1599,7 @@
     "publishedAt": "2026-06-11T07:00:00+00:00",
     "fetchedAt": "2026-06-11T15:43:52+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1556,7 +1608,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script CyberSecurityNews",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "eea0755d6b0320ce",
     "lang": "en",
@@ -1644,7 +1696,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -1820,7 +1872,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
+    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -2045,6 +2097,37 @@
     "attribution": "via Sahm (Google News)"
   },
   {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-06-25T02:38:07+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "923a55dacc21d28b",
     "title": "Your AI bill is out of control. Cloudflare can fix it now.",
     "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
@@ -2127,7 +2210,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -3250,7 +3333,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "MCP Server release notes Splunk",
+    "summary": "MCP Server release notes - Splunk",
     "summarySource": "extractive",
     "clusterId": "184b703dcf14cb9e",
     "lang": "en",
@@ -3337,7 +3420,7 @@
       "security",
       "tutorial"
     ],
-    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution AIMultiple",
+    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution - AIMultiple",
     "summarySource": "extractive",
     "clusterId": "05b862d01629502b",
     "lang": "en",
@@ -3395,7 +3478,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Ephemeral leaks and automated BGP route leak detection",
+    "summary": "Guest Post: Many BGP route leaks flagged by automated systems are short-lived artifacts of normal convergence. Doug Madory draws on Cloudflare Radar, RouteViews, and Jared Mauch’s leak detector to show how these 'ephemeral leaks' occur, why they rarely disrupt traffic, and why they still matter for routing security.",
     "summarySource": "extractive",
     "clusterId": "8b14493319c91129",
     "lang": "en",
@@ -7005,7 +7088,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Overview of threat intelligence in Splunk Enterprise Security Splunk",
+    "summary": "Overview of threat intelligence in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "09f22d91dcb2e4d7",
     "lang": "en",
@@ -7155,6 +7238,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "8f803313392af741",
+    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
+    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
+    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-04-28T18:52:08+00:00",
+    "fetchedAt": "2026-06-25T02:38:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
+    "summarySource": "extractive",
+    "clusterId": "8f803313392af741",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -8057,6 +8168,35 @@
     ]
   },
   {
+    "id": "2471eafe0ee12bab",
+    "title": "TORNOG1: Canada’s First All-Day Network Operators Event",
+    "url": "https://packetpushers.net/blog/packet-pushers-covers-tornog1/",
+    "canonicalUrl": "https://packetpushers.net/blog/packet-pushers-covers-tornog1",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-04-16T15:02:13+00:00",
+    "fetchedAt": "2026-06-25T02:38:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summarySource": "extractive",
+    "clusterId": "2471eafe0ee12bab",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "ff140ed8ca0c4fe1",
     "title": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS3U5eUZjdFB4NlV2WUp1dXpIMHJDWUFUMUJVV2dFSlVYaXE2VGpPRXZINExaMTVvY0VVTDBrNkRNTlBfcHk4em5pWW1HY2lzbXVESTFCRVpXWXFqdlZCRW4zbVJLU1hWUDdPT01SeWhXQkg1NFFhUXFpWkJxTEZLb1ZxSWlyOEFx0gGOAUFVX3lxTE5ESVFYSUI1cnlSSkdkeDhhQXNNU3VDY2o2UXd5aHUyN0M4Qk1YWUxyamxiSmxrZGRvZ05GY3ZFcFpGOHF4dkVwSHJFcnZ0dG9ZWWQ2d2NUelRJOFNCblcyV0laWUVaWW9EdHlIbndBNnZiSWN5cVQwNUtGVG55TUw2NEF5NVdFejNtOVRoa1E?oc=5",
@@ -8070,15 +8210,14 @@
     "publishedAt": "2026-04-16T07:00:00+00:00",
     "fetchedAt": "2026-05-31T17:06:32+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks CyberSecurityNews",
+    "summary": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "ff140ed8ca0c4fe1",
     "lang": "en",
@@ -8102,15 +8241,14 @@
     "publishedAt": "2026-04-16T07:00:00+00:00",
     "fetchedAt": "2026-05-31T17:06:32+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise and Cloud Platform Exposed to Dangerous RCE Vulnerability gbhackers.com",
+    "summary": "Splunk Enterprise and Cloud Platform Exposed to Dangerous RCE Vulnerability - gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "bcf850f655183977",
     "lang": "en",
@@ -8470,7 +8608,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
+    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
