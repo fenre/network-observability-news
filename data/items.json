@@ -1,5 +1,37 @@
 [
   {
+    "id": "89266d93cad33249",
+    "title": "Introducing ntop SBOM (Software BOM)",
+    "url": "https://www.ntop.org/introducing-ntop-sbom-software-bom/",
+    "canonicalUrl": "https://www.ntop.org/introducing-ntop-sbom-software-bom",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-06-26T05:31:53+00:00",
+    "fetchedAt": "2026-06-26T08:54:17+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A Software Bill of Materials (SBOM) is a formal, machine-readable inventory that lists every component, library, and dependency included within a software application. Think of it as a digital “ingredient label” that tells you exactly what went into building the software, which versions are running, and where each piece originated. Typically, it documents: SBOMs are […]",
+    "summarySource": "extractive",
+    "clusterId": "89266d93cad33249",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "62622fb585459d38",
     "title": "There are humans here – how the Zeek project thinks about AI usage",
     "url": "https://zeek.org/2026/06/there-are-humans-here-how-the-zeek-project-thinks-about-ai-usage/",
@@ -78,7 +110,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Catalyst SD-WAN Manager Zero-Day Exploited to Gain Root Access via Malicious CSV Upload gbhackers.com",
+    "summary": "Cisco Catalyst SD-WAN Manager Zero-Day Exploited to Gain Root Access via Malicious CSV Upload - gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "faba746e09a6b509",
     "lang": "en",
@@ -134,7 +166,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -217,9 +249,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -229,7 +259,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -309,7 +339,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check - Network World",
+    "summary": "2026 network outage report and internet health check Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -398,7 +428,8 @@
     "publishedAt": "2026-06-20T08:43:31+00:00",
     "fetchedAt": "2026-06-20T13:45:36+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -407,7 +438,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA Issues Alert on Critical Splunk Enterprise Bug Under Active Exploitation - gbhackers.com",
+    "summary": "CISA Issues Alert on Critical Splunk Enterprise Bug Under Active Exploitation gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "d717a96130082765",
     "lang": "en",
@@ -490,7 +521,8 @@
     "publishedAt": "2026-06-19T12:32:46+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -499,7 +531,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... - Security Affairs",
+    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... Security Affairs",
     "summarySource": "extractive",
     "clusterId": "977648c99482a509",
     "lang": "en",
@@ -850,6 +882,7 @@
     "publishedAt": "2026-06-17T23:05:51+00:00",
     "fetchedAt": "2026-06-23T02:36:16+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -861,7 +894,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
+    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "1b10424d982019f4",
     "lang": "en",
@@ -1294,34 +1327,6 @@
     "attribution": "via Ad-hoc-news.de (Google News)"
   },
   {
-    "id": "5c2505b4acedac6d",
-    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
-    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-06-15T13:02:36+00:00",
-    "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "summarySource": "extractive",
-    "clusterId": "5c2505b4acedac6d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -1680,7 +1685,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -1799,7 +1804,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -1975,7 +1980,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -2197,34 +2202,6 @@
     "attribution": "via Sahm (Google News)"
   },
   {
-    "id": "618b90329c9790cd",
-    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
-    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-06-05T18:29:57+00:00",
-    "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "summarySource": "extractive",
-    "clusterId": "618b90329c9790cd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "923a55dacc21d28b",
     "title": "Your AI bill is out of control. Cloudflare can fix it now.",
     "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
@@ -2307,7 +2284,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
+    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -5493,11 +5470,41 @@
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "a67d3b78d5183b33",
+    "title": "Splunk OT Intelligence release notes - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdXUtRDRZcEtIZjNrcUw2RWY0aWNRNTdfYjYwOC1MUFVkSE1mWjBlVWFFeW1icHhZazhTdzBHcTNSNWZWS3BVdjV5SmdWUHFsckowN2VUMXV4ZXdfYUNRd1cwcjZNRzVQRVFmVzAwV0VzcFdZbmtBb19pQmtBQTlIakhXbENPZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdXUtRDRZcEtIZjNrcUw2RWY0aWNRNTdfYjYwOC1MUFVkSE1mWjBlVWFFeW1icHhZazhTdzBHcTNSNWZWS3BVdjV5SmdWUHFsckowN2VUMXV4ZXdfYUNRd1cwcjZNRzVQRVFmVzAwV0VzcFdZbmtBb19pQmtBQTlIakhXbENPZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-05-14T22:11:01+00:00",
+    "fetchedAt": "2026-06-26T08:54:17+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk OT Intelligence release notes Splunk",
+    "summarySource": "extractive",
+    "clusterId": "a67d3b78d5183b33",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "6174aa94bfc6454c",
@@ -7266,7 +7273,6 @@
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
-      "security",
       "tutorial"
     ],
     "audiences": [
@@ -7496,7 +7502,7 @@
       "network-observability"
     ],
     "tags": [],
-    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem - SDxCentral",
+    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem SDxCentral",
     "summarySource": "extractive",
     "clusterId": "80f1daeefd0a1f82",
     "lang": "en",
@@ -8249,35 +8255,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "2471eafe0ee12bab",
-    "title": "TORNOG1: Canada’s First All-Day Network Operators Event",
-    "url": "https://packetpushers.net/blog/packet-pushers-covers-tornog1/",
-    "canonicalUrl": "https://packetpushers.net/blog/packet-pushers-covers-tornog1",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-04-16T15:02:13+00:00",
-    "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
-    "summarySource": "extractive",
-    "clusterId": "2471eafe0ee12bab",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "ff140ed8ca0c4fe1",
@@ -9382,6 +9359,38 @@
     ]
   },
   {
+    "id": "fefe5f8da136aaab",
+    "title": "Sustaining OpenTelemetry: Moving from Dependency Management to Stewardship - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXhYQzRyUzNINWd0ZzhRUFVRd29pa05WMVYtMEQxLTVQOVhXMDRRNXBHVDNzZFBfNklkMnlDT3RZSHZ6clNPQ1dBU2ktR2Rsa1NLb3dKM0tQLWNPQkZraDhnZnBHMzNOQnlJY28xeldRSVhfTnBseHJlZ3ZxSHdoelhzdndXTGVVQ0JGTXllVDlnQ2h6clU4TlRHX3d4RUo2c2R6Q2lQNWNpX005SzNxS0pINHdRVnF0VWltVlZB?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXhYQzRyUzNINWd0ZzhRUFVRd29pa05WMVYtMEQxLTVQOVhXMDRRNXBHVDNzZFBfNklkMnlDT3RZSHZ6clNPQ1dBU2ktR2Rsa1NLb3dKM0tQLWNPQkZraDhnZnBHMzNOQnlJY28xeldRSVhfTnBseHJlZ3ZxSHdoelhzdndXTGVVQ0JGTXllVDlnQ2h6clU4TlRHX3d4RUo2c2R6Q2lQNWNpX005SzNxS0pINHdRVnF0VWltVlZB?oc=5",
+    "source": {
+      "id": "gnews-opentelemetry-network",
+      "name": "Bloomberg.com",
+      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-03-31T07:00:00+00:00",
+    "fetchedAt": "2026-06-26T08:54:17+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Sustaining OpenTelemetry: Moving from Dependency Management to Stewardship Bloomberg.com",
+    "summarySource": "extractive",
+    "clusterId": "fefe5f8da136aaab",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Bloomberg.com (Google News)"
+  },
+  {
     "id": "21ded55ea1add27c",
     "title": "Why AI-powered security needs network telemetry across the hybrid cloud - SecurityBrief Australia",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUDNVZklNeUVWNTVpb0tQeFpYcWZldmhoaGJOc2x1VzJZR01PS0lXanlvbFk0V3A4VXlpWXBHREhVYjUyV1lXQWxNNE1aRjFVUUpRVHJKNElJQ1F3S0NTdmU3dVZvNFN6RkVhZEd4Um9ncE1xQmQzczVjQU9JV1p1YjBiY0tjR0UtaElYb1UxX3VZQ05zU2tZa0RzTzRDdUxvQlZhLUw3cC0tZw?oc=5",
@@ -9431,7 +9440,7 @@
       "grafana",
       "ntopng"
     ],
-    "summary": "Modern network monitoring is no longer just about collecting data, it’s more about turning large volumes of time-series data into actionable insights. When enabling dump to ClickHouse, both for raw flow data and timeseries, users can build a highly scalable and flexible observability stack that goes far beyond traditional dashboards. In fact, in this post […]",
+    "summary": "Building Custom ntopng Dashboards Using Grafana and ClickHouse",
     "summarySource": "extractive",
     "clusterId": "f99f759dc62e86e4",
     "lang": "en",
