@@ -138,40 +138,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach SecurityBrief Australia",
+    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach - SecurityBrief Australia",
     "summarySource": "extractive",
     "clusterId": "d900f36b310c92da",
     "lang": "en",
     "license": null,
     "attribution": "via SecurityBrief Australia (Google News)"
-  },
-  {
-    "id": "9ba7ee21ac4099be",
-    "title": "[Podcast] What ‘name-based routing’ really means",
-    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
-    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-06-24T20:30:00+00:00",
-    "fetchedAt": "2026-06-26T02:41:18+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "[Podcast] What ‘name-based routing’ really means",
-    "summarySource": "extractive",
-    "clusterId": "9ba7ee21ac4099be",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "7bca2b2e982427b5",
@@ -1031,7 +1003,8 @@
     "publishedAt": "2026-06-16T16:38:53+00:00",
     "fetchedAt": "2026-06-17T02:57:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1041,7 +1014,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
+    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution Resecurity",
     "summarySource": "extractive",
     "clusterId": "bab7e64f296bdb11",
     "lang": "en",
@@ -1679,7 +1652,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "tutorial",
       "standards"
     ],
     "audiences": [
@@ -2136,6 +2108,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
+  },
+  {
+    "id": "b0d6676961a8c2ad",
+    "title": "Attackers exploiting unpatched Cisco SD-WAN flaw - csoonline.com",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BwVW50MTdiejB6ckFpUElZbEJBUFI3Q24tenU1TlIzVWM3ZnQtMFdhYlFta3d0c1U4b0FmU0FmRkNUNzRHV1Z0VHRZdnZaZEx0SFhBMmJqY19nUjVneGtCX3pFUzQ1WnVyZjQ4cXhHOC1Uc1pDTWlpVEdldEN0UktBYXU2bUFoVk1uLWRmWlNBZ1lLT1RKbjQyaw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BwVW50MTdiejB6ckFpUElZbEJBUFI3Q24tenU1TlIzVWM3ZnQtMFdhYlFta3d0c1U4b0FmU0FmRkNUNzRHV1Z0VHRZdnZaZEx0SFhBMmJqY19nUjVneGtCX3pFUzQ1WnVyZjQ4cXhHOC1Uc1pDTWlpVEdldEN0UktBYXU2bUFoVk1uLWRmWlNBZ1lLT1RKbjQyaw?oc=5",
+    "source": {
+      "id": "gnews-cisco-sdwan",
+      "name": "csoonline.com",
+      "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
+    },
+    "author": null,
+    "publishedAt": "2026-06-08T07:00:00+00:00",
+    "fetchedAt": "2026-06-26T14:09:10+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Attackers exploiting unpatched Cisco SD-WAN flaw csoonline.com",
+    "summarySource": "extractive",
+    "clusterId": "b0d6676961a8c2ad",
+    "lang": "en",
+    "license": null,
+    "attribution": "via csoonline.com (Google News)"
   },
   {
     "id": "1777c882c6807c66",
@@ -4041,7 +4041,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability DevOps.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - DevOps.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -5499,7 +5499,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk OT Intelligence release notes Splunk",
+    "summary": "Splunk OT Intelligence release notes - Splunk",
     "summarySource": "extractive",
     "clusterId": "a67d3b78d5183b33",
     "lang": "en",
@@ -6158,7 +6158,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 5 Use Cases for Splunk Enterprise Security - Express Computer",
+    "summary": "Top 5 Use Cases for Splunk Enterprise Security Express Computer",
     "summarySource": "extractive",
     "clusterId": "23d73347e7c4a62d",
     "lang": "en",
@@ -6564,7 +6564,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -6623,7 +6623,7 @@
     "tags": [
       "opentelemetry"
     ],
-    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing - Visual Studio Magazine",
+    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing Visual Studio Magazine",
     "summarySource": "extractive",
     "clusterId": "01f6b2a69b1188fe",
     "lang": "en",
@@ -7502,7 +7502,7 @@
       "network-observability"
     ],
     "tags": [],
-    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem SDxCentral",
+    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "80f1daeefd0a1f82",
     "lang": "en",
@@ -8345,7 +8345,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Declarative Configuration Reaches Stability Milestone infoq.com",
+    "summary": "OpenTelemetry Declarative Configuration Reaches Stability Milestone - infoq.com",
     "summarySource": "extractive",
     "clusterId": "73d29ed82a5fab14",
     "lang": "en",
@@ -9383,7 +9383,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Sustaining OpenTelemetry: Moving from Dependency Management to Stewardship Bloomberg.com",
+    "summary": "Sustaining OpenTelemetry: Moving from Dependency Management to Stewardship - Bloomberg.com",
     "summarySource": "extractive",
     "clusterId": "fefe5f8da136aaab",
     "lang": "en",
