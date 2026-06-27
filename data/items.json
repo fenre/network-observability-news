@@ -932,6 +932,39 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "1b10424d982019f4",
+    "title": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "ThousandEyes",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-06-17T23:05:51+00:00",
+    "fetchedAt": "2026-06-23T02:36:16+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
+    "summarySource": "extractive",
+    "clusterId": "1b10424d982019f4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ThousandEyes (Google News)"
+  },
+  {
     "id": "82c755021c845235",
     "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
     "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
@@ -1048,39 +1081,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "1b10424d982019f4",
-    "title": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-17T07:00:00+00:00",
-    "fetchedAt": "2026-06-23T02:36:16+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
-    "summarySource": "extractive",
-    "clusterId": "1b10424d982019f4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ThousandEyes (Google News)"
-  },
-  {
     "id": "bab7e64f296bdb11",
     "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
@@ -1094,7 +1094,8 @@
     "publishedAt": "2026-06-16T16:38:53+00:00",
     "fetchedAt": "2026-06-17T02:57:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1104,7 +1105,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
+    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution Resecurity",
     "summarySource": "extractive",
     "clusterId": "bab7e64f296bdb11",
     "lang": "en",
@@ -4131,7 +4132,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability DevOps.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - DevOps.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -5589,7 +5590,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk OT Intelligence release notes - Splunk",
+    "summary": "Splunk OT Intelligence release notes Splunk",
     "summarySource": "extractive",
     "clusterId": "a67d3b78d5183b33",
     "lang": "en",
