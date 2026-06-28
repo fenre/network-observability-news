@@ -932,39 +932,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "1b10424d982019f4",
-    "title": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-17T23:05:51+00:00",
-    "fetchedAt": "2026-06-23T02:36:16+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
-    "summarySource": "extractive",
-    "clusterId": "1b10424d982019f4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ThousandEyes (Google News)"
-  },
-  {
     "id": "82c755021c845235",
     "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
     "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
@@ -1079,6 +1046,39 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "1b10424d982019f4",
+    "title": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "ThousandEyes",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-06-17T07:00:00+00:00",
+    "fetchedAt": "2026-06-23T02:36:16+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
+    "summarySource": "extractive",
+    "clusterId": "1b10424d982019f4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "bab7e64f296bdb11",
@@ -1317,7 +1317,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) - Splunk",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
@@ -1985,7 +1985,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise - Splunk",
+    "summary": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise Splunk",
     "summarySource": "extractive",
     "clusterId": "daca3eda34529781",
     "lang": "en",
@@ -5160,13 +5160,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
     "summarySource": "curated",
@@ -6399,7 +6398,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Cloud Platform Service Details Splunk",
+    "summary": "Splunk Cloud Platform Service Details - Splunk",
     "summarySource": "extractive",
     "clusterId": "1ca194d8ee17f8e3",
     "lang": "en",
@@ -8218,7 +8217,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk AI Assistant for Splunk Cloud customers - Splunk",
+    "summary": "Install Splunk AI Assistant for Splunk Cloud customers Splunk",
     "summarySource": "extractive",
     "clusterId": "f7bcf8a14476044c",
     "lang": "en",
@@ -8248,7 +8247,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -8281,7 +8280,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes for Splunk Enterprise Security Splunk",
+    "summary": "Release notes for Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "a72bd4a7853e2e3f",
     "lang": "en",
@@ -9110,7 +9109,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) - Splunk",
+    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "04772c5ceff40164",
     "lang": "en",
@@ -9352,7 +9351,7 @@
       "splunk"
     ],
     "tags": [],
-    "summary": "Release notes for the Splunk Common Information Model Add-on - Splunk",
+    "summary": "Release notes for the Splunk Common Information Model Add-on Splunk",
     "summarySource": "extractive",
     "clusterId": "3c418dac442c81d7",
     "lang": "en",
