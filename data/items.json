@@ -570,38 +570,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "15d6411c7945d6b0",
-    "title": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) - Help Net Security",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1dsU0llU2h2cDByaFNOYjRiLUd3RjZ0UkVIb19Lcnc5UWd1YjM5NEJhRDlJbmg5elBOWUl3aWZKUWRyWHI4QTJ2UUhsMDZxU0RtUUFxeFVjR3l4eWZJSzJuUVlmQzdGWDlEaDRBbHhJa2JHSTYxRXVGQTdEVGI2emlrMlFJazdQb2JHeVRWa0ZfMkk?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1dsU0llU2h2cDByaFNOYjRiLUd3RjZ0UkVIb19Lcnc5UWd1YjM5NEJhRDlJbmg5elBOWUl3aWZKUWRyWHI4QTJ2UUhsMDZxU0RtUUFxeFVjR3l4eWZJSzJuUVlmQzdGWDlEaDRBbHhJa2JHSTYxRXVGQTdEVGI2emlrMlFJazdQb2JHeVRWa0ZfMkk?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "Help Net Security",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-06-19T10:50:33+00:00",
-    "fetchedAt": "2026-06-19T14:48:26+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) Help Net Security",
-    "summarySource": "extractive",
-    "clusterId": "15d6411c7945d6b0",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Help Net Security (Google News)"
-  },
-  {
     "id": "66c2708c5faff854",
     "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday - BleepingComputer",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZEM0QWNWdjRGcFZFYVVfWkl2SHdpbDZIa0paSVpmUF8zSXRLV0JRNzh6eUhCZGpRSndabWgySVlsN3RIa2R4SlRfNEdoejVNRF84SmUxSXgwMmRiMlN5VkVmdV9QSFdVTkc4aDhIalZuY05aY0JiQ2dySzJiZkdPVnVoU2t0UXlYTWNzVGNScW5fM1E0RlNPVjRmOHp5bFhSTTVHOTI3ZWljX2IxU3hJ0gG0AUFVX3lxTFA5RUFEcVd3a0JoaURvMmZ5bFM0SkcxejJSVWpOWk1HeVIyYlFuZzc5MlhCcHBqMXkzM3pLZFBwZUI5aXdzeUdJV0RNbGE0aDRtUnBjc2IwNEVHcEswa2hZNGJHa1locG9nUW94elE2aFpHOGd4bjBqbnVvZGZ5V2xJN3BhU1FsUXYtQ1k2azB5cWsta3pIMXFQN25nOUIxc3BOX2QzYU9DcUxlZVRLOXd0R0lkcg?oc=5",
@@ -723,6 +691,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via Security Affairs (Google News)"
+  },
+  {
+    "id": "15d6411c7945d6b0",
+    "title": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) - Help Net Security",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1dsU0llU2h2cDByaFNOYjRiLUd3RjZ0UkVIb19Lcnc5UWd1YjM5NEJhRDlJbmg5elBOWUl3aWZKUWRyWHI4QTJ2UUhsMDZxU0RtUUFxeFVjR3l4eWZJSzJuUVlmQzdGWDlEaDRBbHhJa2JHSTYxRXVGQTdEVGI2emlrMlFJazdQb2JHeVRWa0ZfMkk?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1dsU0llU2h2cDByaFNOYjRiLUd3RjZ0UkVIb19Lcnc5UWd1YjM5NEJhRDlJbmg5elBOWUl3aWZKUWRyWHI4QTJ2UUhsMDZxU0RtUUFxeFVjR3l4eWZJSzJuUVlmQzdGWDlEaDRBbHhJa2JHSTYxRXVGQTdEVGI2emlrMlFJazdQb2JHeVRWa0ZfMkk?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "Help Net Security",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-19T07:00:00+00:00",
+    "fetchedAt": "2026-06-19T14:48:26+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) Help Net Security",
+    "summarySource": "extractive",
+    "clusterId": "15d6411c7945d6b0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Help Net Security (Google News)"
   },
   {
     "id": "bbe7ae9c59516afa",
@@ -7245,7 +7245,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
     "summarySource": "extractive",
     "clusterId": "434f16427de9a2e9",
     "lang": "en",
