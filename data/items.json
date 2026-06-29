@@ -1,31 +1,35 @@
 [
   {
-    "id": "8c5f46f1fcce10ba",
-    "title": "ASPA Is Live. Can You See It Working?",
-    "url": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
-    "canonicalUrl": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working",
+    "id": "a0da964cae2994a5",
+    "title": "Call for Contributors: OpenTelemetry for Dart and Flutter",
+    "url": "https://opentelemetry.io/blog/2026/dart-flutter-opentelemetry/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/dart-flutter-opentelemetry",
     "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
     },
-    "author": "Ritesh Mukherjee",
-    "publishedAt": "2026-06-29T06:40:15+00:00",
-    "fetchedAt": "2026-06-29T10:28:40+00:00",
-    "topics": [],
-    "tags": [],
+    "author": null,
+    "publishedAt": "2026-06-29T12:30:53+00:00",
+    "fetchedAt": "2026-06-29T15:34:51+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
     "categories": [
-      "standards"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network?",
+    "summary": "Why OpenTelemetry for Dart and Flutter? Dart is a full-stack language and the language of Flutter , one of the most popular frameworks for building cross-platform applications. Data shows over 20% of current app store submissions are Flutter apps.",
     "summarySource": "extractive",
-    "clusterId": "8c5f46f1fcce10ba",
+    "clusterId": "a0da964cae2994a5",
     "lang": "en",
     "license": null,
-    "attribution": "via RIPE Labs"
+    "attribution": "via OpenTelemetry Blog"
   },
   {
     "id": "3a045f7b2ab6c528",
@@ -253,7 +257,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -336,9 +340,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -348,7 +350,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -1232,7 +1234,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
+    "summary": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
     "summarySource": "extractive",
     "clusterId": "9124c89297fd44a8",
     "lang": "en",
@@ -1430,12 +1432,12 @@
   },
   {
     "id": "82d27cb7f1257826",
-    "title": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln - Ad-hoc-news.de",
+    "title": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln - AD HOC NEWS",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE9hRG9Hb3d4WndOa2ZRUlQyWHpidnpJV3NfdENwU1I5S1VxYWtYVkFfdTB6UWt0M2hoUzlIOGJmY1padVVRa3ZRcEcyQjU0WHVCNkNrNVZvcFh1OEpyNkZtTDhBMVNXU0lWSEZBcTVMU3pMZ0NQN3hENGxDZzYtSTVQS2tGa1hfTGtWanRaRUFzaGR6Ni1yRHYwMjVGQmNzdkhacnNMVGpKUDF6ajVNdHMwM2Q1MVV2ZExXOVJybw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE9hRG9Hb3d4WndOa2ZRUlQyWHpidnpJV3NfdENwU1I5S1VxYWtYVkFfdTB6UWt0M2hoUzlIOGJmY1padVVRa3ZRcEcyQjU0WHVCNkNrNVZvcFh1OEpyNkZtTDhBMVNXU0lWSEZBcTVMU3pMZ0NQN3hENGxDZzYtSTVQS2tGa1hfTGtWanRaRUFzaGR6Ni1yRHYwMjVGQmNzdkhacnNMVGpKUDF6ajVNdHMwM2Q1MVV2ZExXOVJybw?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "Ad-hoc-news.de",
+      "name": "AD HOC NEWS",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -1452,12 +1454,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln Ad-hoc-news.de",
+    "summary": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln AD HOC NEWS",
     "summarySource": "extractive",
     "clusterId": "82d27cb7f1257826",
     "lang": "en",
     "license": null,
-    "attribution": "via Ad-hoc-news.de (Google News)"
+    "attribution": "via AD HOC NEWS (Google News)"
   },
   {
     "id": "6d5c47fbd8de35f2",
@@ -1821,7 +1823,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -1912,7 +1914,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
+    "summary": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -1940,7 +1942,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -2056,7 +2058,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
+    "summary": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
     "summarySource": "extractive",
     "clusterId": "b751e7a12571ae36",
     "lang": "en",
@@ -2144,7 +2146,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -2511,7 +2513,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
+    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -3721,7 +3723,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "summary": "Non-Human Identity for Workloads and AI Agents",
     "summarySource": "extractive",
     "clusterId": "134d577c34b6e8a0",
     "lang": "en",
@@ -4176,7 +4178,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability Virtualization Review",
+    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability - Virtualization Review",
     "summarySource": "extractive",
     "clusterId": "4a9ec00b59fb84be",
     "lang": "en",
@@ -4594,7 +4596,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "What's new - Splunk",
+    "summary": "What's new Splunk",
     "summarySource": "extractive",
     "clusterId": "003a3d6381bd3d0f",
     "lang": "en",
@@ -9358,7 +9360,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) Splunk",
+    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "04772c5ceff40164",
     "lang": "en",
@@ -9783,13 +9785,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
