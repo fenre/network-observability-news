@@ -65,6 +65,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "8c5f46f1fcce10ba",
+    "title": "ASPA Is Live. Can You See It Working?",
+    "url": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
+    "canonicalUrl": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ritesh Mukherjee",
+    "publishedAt": "2026-06-29T06:40:15+00:00",
+    "fetchedAt": "2026-06-30T09:00:24+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network?",
+    "summarySource": "extractive",
+    "clusterId": "8c5f46f1fcce10ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "3a045f7b2ab6c528",
     "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
@@ -290,7 +318,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -373,9 +401,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -385,7 +411,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -465,7 +491,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check - Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -492,6 +518,7 @@
     "publishedAt": "2026-06-23T07:00:00+00:00",
     "fetchedAt": "2026-06-27T02:33:18+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -503,7 +530,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Claude Outage Analysis: June 23, 2026 - ThousandEyes",
+    "summary": "Claude Outage Analysis: June 23, 2026 ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "5acfbc461c4fae9a",
     "lang": "en",
@@ -1295,12 +1322,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
+    "summary": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
     "summarySource": "extractive",
     "clusterId": "9124c89297fd44a8",
     "lang": "en",
@@ -1391,7 +1418,7 @@
     "tags": [
       "edge-processor"
     ],
-    "summary": "Release notes for Edge Processors on Splunk Cloud Platform - Splunk",
+    "summary": "Release notes for Edge Processors on Splunk Cloud Platform Splunk",
     "summarySource": "extractive",
     "clusterId": "c98cafcbabe02e92",
     "lang": "en",
@@ -1516,7 +1543,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -1647,6 +1674,40 @@
     "lang": "en",
     "license": null,
     "attribution": "via The Cyber Express (Google News)"
+  },
+  {
+    "id": "b7ca815dc1021ab8",
+    "title": "From Noise to Signal: Machine Learning Anomaly Detection for Network Telemetry - ThousandEyes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRU15cHhHRkFEakpTMTdtZFVuUVhTYlIzNWwzZVI5RmpTNnhQQko1dHFhYkFvVWs4UWd1RjFuNnBHX2hsaWl0dC1fbmFQQ1pkMERsUHJIT21KTWR4Qzk3UTVmb2k4UVhSV25ycnZtclVDN1pDQ3AwcFdMcTdUMTBqdUVMdjhzRGZXMXAzdg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRU15cHhHRkFEakpTMTdtZFVuUVhTYlIzNWwzZVI5RmpTNnhQQko1dHFhYkFvVWs4UWd1RjFuNnBHX2hsaWl0dC1fbmFQQ1pkMERsUHJIT21KTWR4Qzk3UTVmb2k4UVhSV25ycnZtclVDN1pDQ3AwcFdMcTdUMTBqdUVMdjhzRGZXMXAzdg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "ThousandEyes",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-06-15T07:00:00+00:00",
+    "fetchedAt": "2026-06-30T09:00:24+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "ai-ops",
+      "thousandeyes"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "From Noise to Signal: Machine Learning Anomaly Detection for Network Telemetry ThousandEyes",
+    "summarySource": "extractive",
+    "clusterId": "b7ca815dc1021ab8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "e0de290e21e08c5e",
@@ -1845,6 +1906,7 @@
     "publishedAt": "2026-06-12T07:00:00+00:00",
     "fetchedAt": "2026-06-22T18:59:11+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -1856,7 +1918,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Meta Outage Analysis: June 12, 2026 - ThousandEyes",
+    "summary": "Meta Outage Analysis: June 12, 2026 ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "5acfbc461c4fae9a",
     "lang": "en",
@@ -1885,7 +1947,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -1937,6 +1999,7 @@
     "publishedAt": "2026-06-11T07:00:00+00:00",
     "fetchedAt": "2026-06-16T10:59:10+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -1948,7 +2011,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Google Gemini Outage Analysis: June 10, 2026 - ThousandEyes",
+    "summary": "Google Gemini Outage Analysis: June 10, 2026 ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "079277307d3da9e6",
     "lang": "en",
@@ -1976,7 +2039,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
+    "summary": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -2004,7 +2067,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -2100,6 +2163,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "b751e7a12571ae36",
+    "title": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
+    "url": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design/",
+    "canonicalUrl": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Sasha Romijn",
+    "publishedAt": "2026-06-10T09:51:00+00:00",
+    "fetchedAt": "2026-06-30T09:00:24+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In this guest post, Sasha Romijn details how the scope of a single authentication cookie created a potential path to full account compromise across RIPE NCC services.",
+    "summarySource": "extractive",
+    "clusterId": "b751e7a12571ae36",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "daca3eda34529781",
     "title": "Unauthenticated Arbitrary File Creation and Truncation in a PostgreSQL Sidecar Service Endpoint in Splunk Enterprise - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZXRKNjd2ZXVpekE4SzhFUGFtRXdvRHVuZTVFTFVLcW5pZkpWcWdxb1Z2VmQ0aWFDUU5jcEgwZTYzRkFpSXFZZUlZWkRKNXlGcEZQcTI2Wnl2cC05My1EOHFR?oc=5",
@@ -2180,7 +2271,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -2411,7 +2502,7 @@
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
-    "publishedAt": "2026-06-05T22:34:43+00:00",
+    "publishedAt": "2026-06-05T19:21:10+00:00",
     "fetchedAt": "2026-06-05T02:44:36+00:00",
     "topics": [
       "splunk"
@@ -2477,10 +2568,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-06-30T02:41:05+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -2488,7 +2576,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -2578,7 +2666,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
+    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -3119,6 +3207,7 @@
     "publishedAt": "2026-06-02T07:00:00+00:00",
     "fetchedAt": "2026-06-02T20:38:19+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -3130,7 +3219,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes - ThousandEyes",
+    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "863aec017166a31b",
     "lang": "en",
@@ -3768,6 +3857,34 @@
     ]
   },
   {
+    "id": "134d577c34b6e8a0",
+    "title": "Non-Human Identity for Workloads and AI Agents",
+    "url": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents/",
+    "canonicalUrl": "https://labs.ripe.net/author/kathleen_moriarty/non-human-identity-for-workloads-and-ai-agents",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Kathleen Moriarty",
+    "publishedAt": "2026-05-26T07:52:01+00:00",
+    "fetchedAt": "2026-06-30T09:00:24+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Passwords and API keys are giving way to a new generation of short-lived machine credentials. But as non-human identities scale rapidly, the growing question is how much trust and assurance those identities should carry.",
+    "summarySource": "extractive",
+    "clusterId": "134d577c34b6e8a0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "05b862d01629502b",
     "title": "Top 10+ SIEM Systems & How to Choose the Best Solution - AIMultiple",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kdUFlcEpTSlFvdGoxc3pIQTc5NFlaenRFVUZsSkpKOWh2R0pqUk5jQ1hseXZfdVZUelFfb3AybnZ2dGM5bU1UZA?oc=5",
@@ -4215,7 +4332,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability Virtualization Review",
+    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability - Virtualization Review",
     "summarySource": "extractive",
     "clusterId": "4a9ec00b59fb84be",
     "lang": "en",
@@ -4633,7 +4750,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "What's new Splunk",
+    "summary": "What's new - Splunk",
     "summarySource": "extractive",
     "clusterId": "003a3d6381bd3d0f",
     "lang": "en",
@@ -5855,7 +5972,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk OT Intelligence release notes - Splunk",
+    "summary": "Splunk OT Intelligence release notes Splunk",
     "summarySource": "extractive",
     "clusterId": "a67d3b78d5183b33",
     "lang": "en",
@@ -6952,7 +7069,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -7011,7 +7128,7 @@
     "tags": [
       "opentelemetry"
     ],
-    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing - Visual Studio Magazine",
+    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing Visual Studio Magazine",
     "summarySource": "extractive",
     "clusterId": "01f6b2a69b1188fe",
     "lang": "en",
@@ -7674,35 +7791,6 @@
     ]
   },
   {
-    "id": "ed4f0003792ee88c",
-    "title": "IETF 125 post-meeting survey",
-    "url": "http://www.ietf.org/blog/ietf125-survey/",
-    "canonicalUrl": "https://www.ietf.org/blog/ietf125-survey",
-    "source": {
-      "id": "ietf-blog",
-      "name": "IETF Blog",
-      "homepage": "https://www.ietf.org/blog"
-    },
-    "author": "Akanksha Gohil, Paige Mustafa",
-    "publishedAt": "2026-04-29T16:00:00+00:00",
-    "fetchedAt": "2026-06-29T19:47:30+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "IETF 125 post-meeting survey",
-    "summarySource": "extractive",
-    "clusterId": "ed4f0003792ee88c",
-    "lang": "en",
-    "license": null,
-    "attribution": "via IETF Blog"
-  },
-  {
     "id": "1c40051c55aea558",
     "title": "Simplify access control in five easy steps",
     "url": "https://blogs.cisco.com/networking/simplify-access-control-in-five-easy-steps/",
@@ -7787,34 +7875,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-06-30T02:41:05+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -8738,7 +8798,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
@@ -8930,7 +8990,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry infoq.com",
+    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry - infoq.com",
     "summarySource": "extractive",
     "clusterId": "63ef6ec3b153e0ab",
     "lang": "en",
@@ -9190,7 +9250,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
+    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
