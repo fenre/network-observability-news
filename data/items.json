@@ -1,7 +1,7 @@
 [
   {
     "id": "c4ce630deefa075b",
-    "title": "Splunk ES Premier Achieves FedRAMP Moderate Certification - ExecutiveBiz",
+    "title": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification - ExecutiveBiz",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "source": {
@@ -19,12 +19,13 @@
       "enterprise-security"
     ],
     "categories": [
+      "product-release",
       "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Splunk ES Premier Achieves FedRAMP Moderate Certification ExecutiveBiz",
+    "summary": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification ExecutiveBiz",
     "summarySource": "extractive",
     "clusterId": "c4ce630deefa075b",
     "lang": "en",
@@ -233,7 +234,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Catalyst SD-WAN Manager Zero-Day Exploited to Gain Root Access via Malicious CSV Upload - gbhackers.com",
+    "summary": "Cisco Catalyst SD-WAN Manager Zero-Day Exploited to Gain Root Access via Malicious CSV Upload gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "faba746e09a6b509",
     "lang": "en",
@@ -261,12 +262,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach - SecurityBrief Australia",
+    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach SecurityBrief Australia",
     "summarySource": "extractive",
     "clusterId": "d900f36b310c92da",
     "lang": "en",
     "license": null,
     "attribution": "via SecurityBrief Australia (Google News)"
+  },
+  {
+    "id": "9ba7ee21ac4099be",
+    "title": "[Podcast] What ‘name-based routing’ really means",
+    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-06-24T20:30:00+00:00",
+    "fetchedAt": "2026-06-30T02:41:05+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summarySource": "extractive",
+    "clusterId": "9ba7ee21ac4099be",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "7bca2b2e982427b5",
@@ -344,7 +373,9 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
@@ -354,7 +385,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
+    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -996,7 +1027,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk AppDynamics On-Premises Virtual Appliance Enhancements Splunk",
+    "summary": "Splunk AppDynamics On-Premises Virtual Appliance Enhancements - Splunk",
     "summarySource": "extractive",
     "clusterId": "7b4d1ed32f4fe2af",
     "lang": "en",
@@ -1136,7 +1167,6 @@
     "publishedAt": "2026-06-17T07:00:00+00:00",
     "fetchedAt": "2026-06-23T02:36:16+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -1148,7 +1178,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "1b10424d982019f4",
     "lang": "en",
@@ -1186,6 +1216,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via Resecurity (Google News)"
+  },
+  {
+    "id": "b7d8408dcb170f8d",
+    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T13:45:57+00:00",
+    "fetchedAt": "2026-06-16T03:00:17+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "b7d8408dcb170f8d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "82f189f472e5a543",
@@ -1403,38 +1465,6 @@
     ]
   },
   {
-    "id": "b7d8408dcb170f8d",
-    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "The Fast Mode",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T00:17:48+00:00",
-    "fetchedAt": "2026-06-16T03:00:17+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
-    "summarySource": "extractive",
-    "clusterId": "b7d8408dcb170f8d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Fast Mode (Google News)"
-  },
-  {
     "id": "82d27cb7f1257826",
     "title": "Splunk Inc (Acquired) Stock (US8486371045): Security spotlight after critical Splunk Enterprise vuln - AD HOC NEWS",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE9hRG9Hb3d4WndOa2ZRUlQyWHpidnpJV3NfdENwU1I5S1VxYWtYVkFfdTB6UWt0M2hoUzlIOGJmY1padVVRa3ZRcEcyQjU0WHVCNkNrNVZvcFh1OEpyNkZtTDhBMVNXU0lWSEZBcTVMU3pMZ0NQN3hENGxDZzYtSTVQS2tGa1hfTGtWanRaRUFzaGR6Ni1yRHYwMjVGQmNzdkhacnNMVGpKUDF6ajVNdHMwM2Q1MVV2ZExXOVJybw?oc=5",
@@ -1464,6 +1494,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AD HOC NEWS (Google News)"
+  },
+  {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-06-30T02:41:05+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "6d5c47fbd8de35f2",
@@ -1821,12 +1879,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "tutorial",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "BGP Router ID structuring in IPv6 native networks",
+    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -1945,7 +2004,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -2121,7 +2180,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
+    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -2406,6 +2465,37 @@
     "attribution": "via Sahm (Google News)"
   },
   {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-06-30T02:41:05+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "923a55dacc21d28b",
     "title": "Your AI bill is out of control. Cloudflare can fix it now.",
     "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
@@ -2488,7 +2578,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -7605,7 +7695,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "summary": "IETF 125 post-meeting survey",
     "summarySource": "extractive",
     "clusterId": "ed4f0003792ee88c",
     "lang": "en",
@@ -7697,6 +7787,34 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "8f803313392af741",
+    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
+    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
+    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-04-28T18:52:08+00:00",
+    "fetchedAt": "2026-06-30T02:41:05+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
+    "summarySource": "extractive",
+    "clusterId": "8f803313392af741",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -8599,6 +8717,35 @@
     ]
   },
   {
+    "id": "2471eafe0ee12bab",
+    "title": "TORNOG1: Canada’s First All-Day Network Operators Event",
+    "url": "https://packetpushers.net/blog/packet-pushers-covers-tornog1/",
+    "canonicalUrl": "https://packetpushers.net/blog/packet-pushers-covers-tornog1",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-04-16T15:02:13+00:00",
+    "fetchedAt": "2026-06-30T02:41:05+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
+    "summarySource": "extractive",
+    "clusterId": "2471eafe0ee12bab",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "ff140ed8ca0c4fe1",
     "title": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS3U5eUZjdFB4NlV2WUp1dXpIMHJDWUFUMUJVV2dFSlVYaXE2VGpPRXZINExaMTVvY0VVTDBrNkRNTlBfcHk4em5pWW1HY2lzbXVESTFCRVpXWXFqdlZCRW4zbVJLU1hWUDdPT01SeWhXQkg1NFFhUXFpWkJxTEZLb1ZxSWlyOEFx0gGOAUFVX3lxTE5ESVFYSUI1cnlSSkdkeDhhQXNNU3VDY2o2UXd5aHUyN0M4Qk1YWUxyamxiSmxrZGRvZ05GY3ZFcFpGOHF4dkVwSHJFcnZ0dG9ZWWQ2d2NUelRJOFNCblcyV0laWUVaWW9EdHlIbndBNnZiSWN5cVQwNUtGVG55TUw2NEF5NVdFejNtOVRoa1E?oc=5",
@@ -9043,7 +9190,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
+    "summary": "Aria Networks is a network hardware and software startup that sells Ethernet switches to companies that run GPU clusters for AI model training and inferencing. Aria Networks makes switches with Broadcom ASICs (Tomahawk 5 and 6) running the SONiC network OS. But Aria Networks isn’t really a hardware play.",
     "summarySource": "extractive",
     "clusterId": "f9858845f5bd2447",
     "lang": "en",
@@ -9655,62 +9802,6 @@
     ]
   },
   {
-    "id": "6bf371385a0c9d0a",
-    "title": "Don’t deploy OpenClaw without securing it – Try this opensource solution and hands-on lab",
-    "url": "https://blogs.cisco.com/developer/openclaw-ai-agent-security/",
-    "canonicalUrl": "https://blogs.cisco.com/developer/openclaw-ai-agent-security",
-    "source": {
-      "id": "cisco-developer-blog",
-      "name": "Cisco Developer Blog",
-      "homepage": "https://blogs.cisco.com/developer"
-    },
-    "author": "Barry Yuan",
-    "publishedAt": "2026-03-31T22:17:11+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Don’t deploy OpenClaw without securing it – Try this opensource solution and hands-on lab",
-    "summarySource": "extractive",
-    "clusterId": "6bf371385a0c9d0a",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Developer Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "e432f1f02fb82772",
-    "title": "Reduce conn.log from 35GB to 5GB with a Simple Hook",
-    "url": "https://zeek.org/2026/03/reduce-conn-log-from-35gb-to-5gb-with-a-simple-hook/",
-    "canonicalUrl": "https://zeek.org/2026/03/reduce-conn-log-from-35gb-to-5gb-with-a-simple-hook",
-    "source": {
-      "id": "zeek-blog",
-      "name": "Zeek Blog",
-      "homepage": "https://zeek.org"
-    },
-    "author": "Michelle Pathe",
-    "publishedAt": "2026-03-31T22:03:43+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Reduce conn.log from 35GB to 5GB with a Simple Hook",
-    "summarySource": "extractive",
-    "clusterId": "e432f1f02fb82772",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Zeek Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "b8d959c346a1a7a1",
     "title": "What's new in Dashboard Studio - Splunk",
     "url": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
@@ -9727,13 +9818,12 @@
       "splunk"
     ],
     "tags": [
-      "dashboard-studio",
       "10.4",
+      "dashboard-studio",
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -9762,12 +9852,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
