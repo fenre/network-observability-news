@@ -1,5 +1,37 @@
 [
   {
+    "id": "7b64d2b955c23564",
+    "title": "Cisco Nexus One, next-generation data center networking architecture",
+    "url": "https://blogs.cisco.com/datacenter/cisco-nexus-one-next-generation-data-center-networking-architecture/",
+    "canonicalUrl": "https://blogs.cisco.com/datacenter/cisco-nexus-one-next-generation-data-center-networking-architecture",
+    "source": {
+      "id": "cisco-datacenter-blog",
+      "name": "Cisco Data Center Blog",
+      "homepage": "https://blogs.cisco.com/datacenter"
+    },
+    "author": "Will Eatherton",
+    "publishedAt": "2026-07-02T15:00:36+00:00",
+    "fetchedAt": "2026-07-02T19:13:57+00:00",
+    "topics": [
+      "cisco-data-fabric"
+    ],
+    "tags": [
+      "nexus-hyperfabric"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Discover Nexus One: the next evolution in data center networking. Build your infrastructure your way with an open, flexible architecture that supports ACI, NX-OS, and SONiC to power your most critical AI workloads.",
+    "summarySource": "extractive",
+    "clusterId": "7b64d2b955c23564",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Data Center Blog"
+  },
+  {
     "id": "db74f17976fe252b",
     "title": "Embedded network security: The ultimate defense against AI-driven threats",
     "url": "https://blogs.cisco.com/networking/embedded-network-security-the-ultimate-defense-against-ai-driven-threats/",
@@ -181,34 +213,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Network World",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-07-01T05:16:40+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
-    "summarySource": "extractive",
-    "clusterId": "b371ae0584668e9d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Network World (Google News)",
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "157a10a10d9bec9d",
     "title": "Protecting against rising cybersecurity risks in data centers",
     "url": "https://blogs.cisco.com/datacenter/protecting-against-rising-cybersecurity-risks-in-data-centers/",
@@ -269,6 +273,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk Community (Google News)"
+  },
+  {
+    "id": "b371ae0584668e9d",
+    "title": "2026 network outage report and internet health check - Network World",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-06-30T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T10:48:25+00:00",
+    "topics": [],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check Network World",
+    "summarySource": "extractive",
+    "clusterId": "b371ae0584668e9d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)",
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "34a033f43010e298",
@@ -459,36 +491,6 @@
     "attribution": "via Security Boulevard (Google News)"
   },
   {
-    "id": "2c68808f33945c5f",
-    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-06-26T17:04:34+00:00",
-    "fetchedAt": "2026-05-31T17:21:22+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk",
-    "summarySource": "extractive",
-    "clusterId": "2c68808f33945c5f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "47ad838a11759be6",
     "title": "Why network automation is creating an observability paradox - Computer Weekly",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzQ5LWlEczR2ZU1GNVVVc3k5SkJEekNQRXdJSkVCRmhJeGRvX2VrMk9vaUhFVFNvWXZ5S1VqTTNmRnpxRXlrWGpoVF9Cdy1QYllhODZkYUwyd3FrcS1pRXNxelhhV013OXFCNmFkam9kaVF5cUJURzNWV3VuYzVhczhhTEhkc24tUDhCNkh4OEZUVjlma1RMSG5YYm1XTEE?oc=5",
@@ -561,7 +563,9 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -569,7 +573,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There are humans here – how the Zeek project thinks about AI usage",
+    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -826,7 +830,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -834,7 +840,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey Is Now Open",
+    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -1581,38 +1587,6 @@
     "attribution": "via Resecurity (Google News)"
   },
   {
-    "id": "b7d8408dcb170f8d",
-    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "The Fast Mode",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T13:45:57+00:00",
-    "fetchedAt": "2026-06-16T03:00:17+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
-    "summarySource": "extractive",
-    "clusterId": "b7d8408dcb170f8d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Fast Mode (Google News)"
-  },
-  {
     "id": "82f189f472e5a543",
     "title": "Cloudflare DMARC Management is now generally available",
     "url": "https://blog.cloudflare.com/dmarc-management-ga/",
@@ -1669,6 +1643,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "b7d8408dcb170f8d",
+    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T07:07:11+00:00",
+    "fetchedAt": "2026-06-16T03:00:17+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "b7d8408dcb170f8d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "eb6955f4707182b6",
@@ -1856,6 +1862,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "2c68808f33945c5f",
+    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T02:20:39+00:00",
+    "fetchedAt": "2026-05-31T17:21:22+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "2c68808f33945c5f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "82d27cb7f1257826",
@@ -2450,7 +2486,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2458,7 +2496,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey: Coming June 23",
+    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -3298,7 +3336,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3306,7 +3346,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
+    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -4891,7 +4931,7 @@
       "cisco-data-fabric"
     ],
     "tags": [],
-    "summary": "At EANTC 2026, Cisco N9000 switches dominated 12-vendor validation tests, including VXLAN EVPN and secure PTP/MACsec. These results prove Cisco’s open, AI-ready architecture is the industry standard for performance and multivendor integration.",
+    "summary": "Cisco N9000 excels in EANTC 2026 VXLAN EVPN and timing tests",
     "summarySource": "extractive",
     "clusterId": "9bf8d32fa3e0faf1",
     "lang": "en",
@@ -6229,16 +6269,18 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Introducing Zeek 8.2",
+    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -7510,9 +7552,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
+    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -8068,20 +8112,52 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
+    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "ed4f0003792ee88c",
+    "title": "IETF 125 post-meeting survey",
+    "url": "http://www.ietf.org/blog/ietf125-survey/",
+    "canonicalUrl": "https://www.ietf.org/blog/ietf125-survey",
+    "source": {
+      "id": "ietf-blog",
+      "name": "IETF Blog",
+      "homepage": "https://www.ietf.org/blog"
+    },
+    "author": "Akanksha Gohil, Paige Mustafa",
+    "publishedAt": "2026-04-29T16:00:00+00:00",
+    "fetchedAt": "2026-07-02T19:13:57+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "summarySource": "extractive",
+    "clusterId": "ed4f0003792ee88c",
+    "lang": "en",
+    "license": null,
+    "attribution": "via IETF Blog"
   },
   {
     "id": "1c40051c55aea558",
@@ -8552,9 +8628,11 @@
     "author": "Fatema Bannat Wala",
     "publishedAt": "2026-04-23T21:31:47+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Revisiting Weird-ness: Investigating DNS NOTIFY at Scale",
+    "summary": "At ESnet, our Zeek deployment was logging 4.2 million weirds per day. When we investigated, 90% were DNS-related and 98% of those came from a single opcode. After submitting a PR to fix it, daily weirds dropped to 1.3 million.",
     "summarySource": "extractive",
     "clusterId": "8add41a23eb12610",
     "lang": "en",
@@ -8939,7 +9017,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -9022,9 +9100,11 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-04-16T22:32:54+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Zeek 8.2 Development Update",
+    "summary": "The Zeek development team is closing in on Zeek 8.2, our final feature release in the 8.x cycle! This blog post provides a sneak peek at some of the new functionality and changes in that release. As always, this is an excellent opportunity to test-drive the upcoming release and send us any feedback you may […]",
     "summarySource": "extractive",
     "clusterId": "928505cfb7060fe2",
     "lang": "en",
@@ -9541,9 +9621,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-04-08T17:41:49+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "The Hidden Features of Zeek",
+    "summary": "A Zeek user spent years maintaining a careful system of named test PCAPs, tracking which scripts belonged to which tests and building a testing workflow from scratch. Then they discovered btest, Zeek’s built-in testing framework that automatically creates baselines—no more manual tracking! This pattern repeats constantly.",
     "summarySource": "extractive",
     "clusterId": "a840f23b44590930",
     "lang": "en",
