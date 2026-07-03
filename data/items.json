@@ -1,5 +1,63 @@
 [
   {
+    "id": "ba567b547efd1264",
+    "title": "SSH key exchange failures when managing legacy network devices",
+    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tuwan Azgar Jaleel",
+    "publishedAt": "2026-07-02T22:37:20+00:00",
+    "fetchedAt": "2026-07-03T02:12:13+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summarySource": "extractive",
+    "clusterId": "ba567b547efd1264",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
+    "id": "1d16f334ab9080b9",
+    "title": "What Actually Catches Threats in a Zeek Deployment?",
+    "url": "https://zeek.org/2026/07/what-actually-catches-threats-in-a-zeek-deployment/",
+    "canonicalUrl": "https://zeek.org/2026/07/what-actually-catches-threats-in-a-zeek-deployment",
+    "source": {
+      "id": "zeek-blog",
+      "name": "Zeek Blog",
+      "homepage": "https://zeek.org"
+    },
+    "author": "Michelle Pathe",
+    "publishedAt": "2026-07-02T19:20:01+00:00",
+    "fetchedAt": "2026-07-03T02:12:13+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
+    "summarySource": "extractive",
+    "clusterId": "1d16f334ab9080b9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Zeek Blog"
+  },
+  {
     "id": "7b64d2b955c23564",
     "title": "Cisco Nexus One, next-generation data center networking architecture",
     "url": "https://blogs.cisco.com/datacenter/cisco-nexus-one-next-generation-data-center-networking-architecture/",
@@ -316,7 +374,8 @@
     "publishedAt": "2026-06-29T16:59:08+00:00",
     "fetchedAt": "2026-06-30T14:03:17+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -326,7 +385,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
+    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "34a033f43010e298",
     "lang": "en",
@@ -421,7 +480,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's new - Splunk",
+    "summary": "What's new Splunk",
     "summarySource": "extractive",
     "clusterId": "7dd50a7de11e2fe2",
     "lang": "en",
@@ -489,6 +548,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via Security Boulevard (Google News)"
+  },
+  {
+    "id": "2c68808f33945c5f",
+    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-06-26T17:04:34+00:00",
+    "fetchedAt": "2026-05-31T17:21:22+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "2c68808f33945c5f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)",
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "47ad838a11759be6",
@@ -695,6 +784,34 @@
     "attribution": "via SecurityBrief Australia (Google News)"
   },
   {
+    "id": "9ba7ee21ac4099be",
+    "title": "[Podcast] What ‘name-based routing’ really means",
+    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-06-24T20:30:00+00:00",
+    "fetchedAt": "2026-07-03T02:12:13+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summarySource": "extractive",
+    "clusterId": "9ba7ee21ac4099be",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "7bca2b2e982427b5",
     "title": "Don't Wrap OpenTelemetry — You're Probably Hurting More Than Helping",
     "url": "https://opentelemetry.io/blog/2026/dont-wrap-opentelemetry/",
@@ -770,7 +887,9 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
@@ -780,7 +899,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
+    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -1587,6 +1706,38 @@
     "attribution": "via Resecurity (Google News)"
   },
   {
+    "id": "b7d8408dcb170f8d",
+    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T13:45:57+00:00",
+    "fetchedAt": "2026-06-16T03:00:17+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "b7d8408dcb170f8d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
+  },
+  {
     "id": "82f189f472e5a543",
     "title": "Cloudflare DMARC Management is now generally available",
     "url": "https://blog.cloudflare.com/dmarc-management-ga/",
@@ -1643,38 +1794,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
-  },
-  {
-    "id": "b7d8408dcb170f8d",
-    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "The Fast Mode",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T07:07:11+00:00",
-    "fetchedAt": "2026-06-16T03:00:17+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
-    "summarySource": "extractive",
-    "clusterId": "b7d8408dcb170f8d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "eb6955f4707182b6",
@@ -1862,36 +1981,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "2c68808f33945c5f",
-    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T02:20:39+00:00",
-    "fetchedAt": "2026-05-31T17:21:22+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-16T02:20:39.944Z) Splunk",
-    "summarySource": "extractive",
-    "clusterId": "2c68808f33945c5f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "82d27cb7f1257826",
@@ -2312,12 +2401,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "tutorial",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "BGP Router ID structuring in IPv6 native networks",
+    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -2335,7 +2425,7 @@
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
-    "publishedAt": "2026-06-11T18:09:29+00:00",
+    "publishedAt": "2026-06-11T19:41:58+00:00",
     "fetchedAt": "2026-06-11T10:12:18+00:00",
     "topics": [
       "network-observability"
@@ -2466,7 +2556,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -2614,7 +2704,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
+    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -2979,7 +3069,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -8152,7 +8242,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
+    "summary": "IETF 125 post-meeting survey",
     "summarySource": "extractive",
     "clusterId": "ed4f0003792ee88c",
     "lang": "en",
@@ -9392,7 +9482,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
@@ -9535,14 +9625,13 @@
     "publishedAt": "2026-04-09T07:00:00+00:00",
     "fetchedAt": "2026-05-31T17:06:32+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
       "product-release"
     ],
-    "summary": "Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform crn.com",
+    "summary": "Cisco To Snap Up AI Observability Startup Galileo Technologies To Expand Splunk Platform - crn.com",
     "summarySource": "extractive",
     "clusterId": "5d634e8a40929982",
     "lang": "en",
@@ -9621,11 +9710,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-04-08T17:41:49+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "A Zeek user spent years maintaining a careful system of named test PCAPs, tracking which scripts belonged to which tests and building a testing workflow from scratch. Then they discovered btest, Zeek’s built-in testing framework that automatically creates baselines—no more manual tracking! This pattern repeats constantly.",
+    "summary": "The Hidden Features of Zeek",
     "summarySource": "extractive",
     "clusterId": "a840f23b44590930",
     "lang": "en",
@@ -10072,12 +10159,13 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
       "dashboard-studio",
+      "10.4",
       "visualizations"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
