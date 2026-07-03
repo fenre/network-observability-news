@@ -1,5 +1,37 @@
 [
   {
+    "id": "3b5e31584e1e04dd",
+    "title": "Discussing of LLM and Intelligent Monitoring at GRNOG 20",
+    "url": "https://www.ntop.org/discussing-of-llm-and-intelligent-monitoring-at-grnog-20/",
+    "canonicalUrl": "https://www.ntop.org/discussing-of-llm-and-intelligent-monitoring-at-grnog-20",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-07-03T14:56:59+00:00",
+    "fetchedAt": "2026-07-03T19:07:27+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Earlier this week ntop attended the GRNOG 20, the annual meeting of Greek Network Operators. This has been a great place to discuss about network visibility in large networks, understand what are the problems network operators face with, and see what ntop can do in terms of visibility. ntop has been traditionally a company based […]",
+    "summarySource": "extractive",
+    "clusterId": "3b5e31584e1e04dd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "f0c0dbec8346f446",
     "title": "OpenTelemetry Graduates to CNCF's Highest Maturity Level - infoq.com",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4QnpHNUk3bTIwSEJUdWxDZnNMUUozVlpXVDR1c0tyamNKX0FzRG5SNVpJNzYzRnpYNlZFM2dCcmRlQnpxRWpDNWQzR2F1Q0JJWUQ4MjQ1WkhoVmpoZEJmQmViRmx6MGNSSk51MnhTOWE?oc=5",
@@ -24,7 +56,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level infoq.com",
+    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level - infoq.com",
     "summarySource": "extractive",
     "clusterId": "f0c0dbec8346f446",
     "lang": "en",
@@ -58,6 +90,39 @@
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
+  },
+  {
+    "id": "a5ab58604cc3c2a7",
+    "title": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - ThousandEyes",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "ThousandEyes",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-07-02T18:18:30+00:00",
+    "fetchedAt": "2026-07-03T19:07:27+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations ThousandEyes",
+    "summarySource": "extractive",
+    "clusterId": "a5ab58604cc3c2a7",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "7b64d2b955c23564",
@@ -370,8 +435,7 @@
     "publishedAt": "2026-06-29T16:59:08+00:00",
     "fetchedAt": "2026-06-30T14:03:17+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -381,7 +445,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway CyberSecurityNews",
+    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "34a033f43010e298",
     "lang": "en",
@@ -1189,8 +1253,7 @@
     "publishedAt": "2026-06-19T07:00:00+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1199,7 +1262,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... Security Affairs",
+    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... - Security Affairs",
     "summarySource": "extractive",
     "clusterId": "977648c99482a509",
     "lang": "en",
@@ -1220,8 +1283,7 @@
     "publishedAt": "2026-06-19T07:00:00+00:00",
     "fetchedAt": "2026-06-20T19:14:23+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1230,7 +1292,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday BleepingComputer",
+    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday - BleepingComputer",
     "summarySource": "extractive",
     "clusterId": "66c2708c5faff854",
     "lang": "en",
@@ -1701,7 +1763,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "standards"
+      "news"
     ],
     "audiences": [
       "global"
@@ -1798,7 +1860,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Finding-based detections available in Splunk Enterprise Security - Splunk",
+    "summary": "Finding-based detections available in Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "0c8746de7021a2b6",
     "lang": "en",
@@ -1807,6 +1869,39 @@
     "audiences": [
       "global"
     ]
+  },
+  {
+    "id": "514f8a3ad359e0e2",
+    "title": "Managing access to investigations in Splunk Enterprise Security - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMzl6S1pkcFg5bDVFTUZSbzBmQ0tsbkcwOU4tbkU5cWdBNGdJMkJLX05XWUFEaHd5WG9qajFpUEg0LVdKUnFrUUtGSjhzaVRxWG9fTU9UY25fbm1ZWFQ4YVU2WENPRnF3aFNUaV83WlBYbTlwUTA3OHI0b3ZicDB5TE1NLW52eWdxYzd6Ny1IczJGWThvMHBPcDJ6VHBiYktCVGRNeWhlSE10UWZZT212RUF2X1JZN0tST0Q1amdFR3hqcWhyXzlQUXJDYVV1X0VtMHVyM0lUN1NWeVFpdjIyMlp6WQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMzl6S1pkcFg5bDVFTUZSbzBmQ0tsbkcwOU4tbkU5cWdBNGdJMkJLX05XWUFEaHd5WG9qajFpUEg0LVdKUnFrUUtGSjhzaVRxWG9fTU9UY25fbm1ZWFQ4YVU2WENPRnF3aFNUaV83WlBYbTlwUTA3OHI0b3ZicDB5TE1NLW52eWdxYzd6Ny1IczJGWThvMHBPcDJ6VHBiYktCVGRNeWhlSE10UWZZT212RUF2X1JZN0tST0Q1amdFR3hqcWhyXzlQUXJDYVV1X0VtMHVyM0lUN1NWeVFpdjIyMlp6WQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T03:54:02+00:00",
+    "fetchedAt": "2026-07-03T19:07:27+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Managing access to investigations in Splunk Enterprise Security Splunk",
+    "summarySource": "extractive",
+    "clusterId": "514f8a3ad359e0e2",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "7c16cac9cf4665db",
@@ -2371,7 +2466,7 @@
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
-    "publishedAt": "2026-06-11T19:41:58+00:00",
+    "publishedAt": "2026-06-11T16:30:14+00:00",
     "fetchedAt": "2026-06-11T10:12:18+00:00",
     "topics": [
       "network-observability"
@@ -2566,34 +2661,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "b751e7a12571ae36",
-    "title": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
-    "url": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design/",
-    "canonicalUrl": "https://labs.ripe.net/author/sasha_romijn/1000-third-parties-could-have-stolen-ripe-ncc-session-tokens-by-design",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Sasha Romijn",
-    "publishedAt": "2026-06-10T09:51:00+00:00",
-    "fetchedAt": "2026-07-03T08:52:49+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "1000 Third Parties Could Have Stolen RIPE NCC Session Tokens - By Design",
-    "summarySource": "extractive",
-    "clusterId": "b751e7a12571ae36",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "daca3eda34529781",
@@ -4667,7 +4734,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability Virtualization Review",
+    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability - Virtualization Review",
     "summarySource": "extractive",
     "clusterId": "4a9ec00b59fb84be",
     "lang": "en",
@@ -7430,7 +7497,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -7489,7 +7556,7 @@
     "tags": [
       "opentelemetry"
     ],
-    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing - Visual Studio Magazine",
+    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing Visual Studio Magazine",
     "summarySource": "extractive",
     "clusterId": "01f6b2a69b1188fe",
     "lang": "en",
@@ -7843,7 +7910,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenShift vs Kubernetes 2026: $1K Per-Core Gap [Tested] tech-insider.org",
+    "summary": "OpenShift vs Kubernetes 2026: $1K Per-Core Gap [Tested] - tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "27970bf63c673d35",
     "lang": "en",
@@ -8396,7 +8463,7 @@
       "network-observability"
     ],
     "tags": [],
-    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem - SDxCentral",
+    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem SDxCentral",
     "summarySource": "extractive",
     "clusterId": "80f1daeefd0a1f82",
     "lang": "en",
@@ -8616,7 +8683,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry co-founder tools up to push project to 1.0 The Register",
+    "summary": "OpenTelemetry co-founder tools up to push project to 1.0 - The Register",
     "summarySource": "extractive",
     "clusterId": "54cb7b280584c73a",
     "lang": "en",
@@ -9020,7 +9087,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -9332,7 +9399,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry infoq.com",
+    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry - infoq.com",
     "summarySource": "extractive",
     "clusterId": "63ef6ec3b153e0ab",
     "lang": "en",
@@ -9390,7 +9457,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
@@ -10094,12 +10161,13 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
       "dashboard-studio",
+      "10.4",
       "visualizations"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
