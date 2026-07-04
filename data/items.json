@@ -56,7 +56,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level - infoq.com",
+    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level infoq.com",
     "summarySource": "extractive",
     "clusterId": "f0c0dbec8346f446",
     "lang": "en",
@@ -432,10 +432,11 @@
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
-    "publishedAt": "2026-06-29T16:59:08+00:00",
+    "publishedAt": "2026-06-29T16:18:17+00:00",
     "fetchedAt": "2026-06-30T14:03:17+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -445,7 +446,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
+    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "34a033f43010e298",
     "lang": "en",
@@ -1253,7 +1254,8 @@
     "publishedAt": "2026-06-19T07:00:00+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1262,7 +1264,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... - Security Affairs",
+    "summary": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... Security Affairs",
     "summarySource": "extractive",
     "clusterId": "977648c99482a509",
     "lang": "en",
@@ -1283,7 +1285,8 @@
     "publishedAt": "2026-06-19T07:00:00+00:00",
     "fetchedAt": "2026-06-20T19:14:23+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1292,7 +1295,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday - BleepingComputer",
+    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday BleepingComputer",
     "summarySource": "extractive",
     "clusterId": "66c2708c5faff854",
     "lang": "en",
@@ -1686,6 +1689,38 @@
     "attribution": "via ThousandEyes (Google News)"
   },
   {
+    "id": "b7d8408dcb170f8d",
+    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T21:45:53+00:00",
+    "fetchedAt": "2026-06-16T03:00:17+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "b7d8408dcb170f8d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
+  },
+  {
     "id": "bab7e64f296bdb11",
     "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
@@ -1776,38 +1811,6 @@
     "attribution": "via RIPE Labs"
   },
   {
-    "id": "b7d8408dcb170f8d",
-    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "The Fast Mode",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T07:07:11+00:00",
-    "fetchedAt": "2026-06-16T03:00:17+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
-    "summarySource": "extractive",
-    "clusterId": "b7d8408dcb170f8d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Fast Mode (Google News)"
-  },
-  {
     "id": "eb6955f4707182b6",
     "title": "Install SPL2-based apps | Splunk Enterprise (last updated 2026-06-16T02:13:33.109Z) - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVk9OU29saDV0RkdKTWZwOUZDNWdmWTBlZnlhSW9MNDNtbnVuRzcyTi1jN2Q3ckc0bi13bFF1ZUhMQWJ5VmpTTEZYaTBUQkY3WEhPZlBLSlowbldPak14a0d2MW0tY21zeEh1SUZxSS1NYWRkcDNIdUJSZGpBdmR5T2Fyazl4ZzdfSWMxcjZJOS1kQmxwV3RYU3dsczF0aWlKRFMxMGN0eXFZOVlsSUxFaGwtc3NrT1AwVW8w?oc=5",
@@ -1860,7 +1863,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Finding-based detections available in Splunk Enterprise Security Splunk",
+    "summary": "Finding-based detections available in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "0c8746de7021a2b6",
     "lang": "en",
@@ -1896,7 +1899,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Managing access to investigations in Splunk Enterprise Security Splunk",
+    "summary": "Managing access to investigations in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "514f8a3ad359e0e2",
     "lang": "en",
@@ -4734,7 +4737,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability - Virtualization Review",
+    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability Virtualization Review",
     "summarySource": "extractive",
     "clusterId": "4a9ec00b59fb84be",
     "lang": "en",
@@ -4914,7 +4917,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - DevOps.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability DevOps.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -7497,7 +7500,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -7556,7 +7559,7 @@
     "tags": [
       "opentelemetry"
     ],
-    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing Visual Studio Magazine",
+    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing - Visual Studio Magazine",
     "summarySource": "extractive",
     "clusterId": "01f6b2a69b1188fe",
     "lang": "en",
@@ -7910,7 +7913,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenShift vs Kubernetes 2026: $1K Per-Core Gap [Tested] - tech-insider.org",
+    "summary": "OpenShift vs Kubernetes 2026: $1K Per-Core Gap [Tested] tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "27970bf63c673d35",
     "lang": "en",
@@ -9087,7 +9090,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -9399,7 +9402,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry - infoq.com",
+    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry infoq.com",
     "summarySource": "extractive",
     "clusterId": "63ef6ec3b153e0ab",
     "lang": "en",
@@ -9457,7 +9460,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
@@ -10161,13 +10164,12 @@
       "splunk"
     ],
     "tags": [
-      "dashboard-studio",
       "10.4",
+      "dashboard-studio",
       "visualizations"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
