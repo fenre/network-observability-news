@@ -1,5 +1,35 @@
 [
   {
+    "id": "d60aa296f006f6d4",
+    "title": "Network Telemetry Market Forecast 2035: Size & Industry Trends - Market Growth Reports",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcWRuX0RKV21VOVlFN3lNNDRVZkhvTTlicHNJYnFPV1kxU0pXdGlYQm1Ga1F2ZUtnYl9iVm1reE1jVTU2cmNsbW16cDJXWUZBNEV4TUNDZXR1TmVldThpYmJmUnBLMzhBdC1TbWtWOE1kQmNNcjlaRFlncHFzTHlpU0d6Wlh4UV9hREE?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcWRuX0RKV21VOVlFN3lNNDRVZkhvTTlicHNJYnFPV1kxU0pXdGlYQm1Ga1F2ZUtnYl9iVm1reE1jVTU2cmNsbW16cDJXWUZBNEV4TUNDZXR1TmVldThpYmJmUnBLMzhBdC1TbWtWOE1kQmNNcjlaRFlncHFzTHlpU0d6Wlh4UV9hREE?oc=5",
+    "source": {
+      "id": "gnews-network-observability",
+      "name": "Market Growth Reports",
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+    },
+    "author": null,
+    "publishedAt": "2026-07-06T06:42:21+00:00",
+    "fetchedAt": "2026-07-06T10:01:24+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Telemetry Market Forecast 2035: Size & Industry Trends Market Growth Reports",
+    "summarySource": "extractive",
+    "clusterId": "d60aa296f006f6d4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Market Growth Reports (Google News)"
+  },
+  {
     "id": "3b5e31584e1e04dd",
     "title": "Discussing of LLM and Intelligent Monitoring at GRNOG 20",
     "url": "https://www.ntop.org/discussing-of-llm-and-intelligent-monitoring-at-grnog-20/",
@@ -62,6 +92,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
+  },
+  {
+    "id": "ba567b547efd1264",
+    "title": "SSH key exchange failures when managing legacy network devices",
+    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tuwan Azgar Jaleel",
+    "publishedAt": "2026-07-02T22:37:20+00:00",
+    "fetchedAt": "2026-07-06T10:01:24+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summarySource": "extractive",
+    "clusterId": "ba567b547efd1264",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "1d16f334ab9080b9",
@@ -845,6 +903,34 @@
     "attribution": "via SecurityBrief Australia (Google News)"
   },
   {
+    "id": "9ba7ee21ac4099be",
+    "title": "[Podcast] What ‘name-based routing’ really means",
+    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-06-24T20:30:00+00:00",
+    "fetchedAt": "2026-07-06T10:01:24+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summarySource": "extractive",
+    "clusterId": "9ba7ee21ac4099be",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "7bca2b2e982427b5",
     "title": "Don't Wrap OpenTelemetry — You're Probably Hurting More Than Helping",
     "url": "https://opentelemetry.io/blog/2026/dont-wrap-opentelemetry/",
@@ -948,7 +1034,9 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
@@ -958,7 +1046,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
+    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -2476,12 +2564,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "tutorial",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "BGP Router ID structuring in IPv6 native networks",
+    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -2630,7 +2719,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -2776,7 +2865,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
+    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -3138,7 +3227,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
+    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -9090,7 +9179,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk AI Assistant for Splunk Cloud customers Splunk",
+    "summary": "Install Splunk AI Assistant for Splunk Cloud customers - Splunk",
     "summarySource": "extractive",
     "clusterId": "f7bcf8a14476044c",
     "lang": "en",
@@ -9432,7 +9521,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry - infoq.com",
+    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry infoq.com",
     "summarySource": "extractive",
     "clusterId": "63ef6ec3b153e0ab",
     "lang": "en",
@@ -9821,7 +9910,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk Enterprise Security on an on-prem search head Splunk",
+    "summary": "Install Splunk Enterprise Security on an on-prem search head - Splunk",
     "summarySource": "extractive",
     "clusterId": "e173df2ebb3ef8df",
     "lang": "en",
@@ -10012,7 +10101,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) - Splunk",
+    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "04772c5ceff40164",
     "lang": "en",
@@ -10048,104 +10137,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "30027059f1a2db5b",
-    "title": "Pair Splunk SOAR (Cloud) with Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYWTRTcjREZU9GRE1ZaXl2bXJCdXpodG51N2pWT0hvdnQwSjBSUFpJelRsWFQwdVBrSGtWQ0RuSm9BRlpQSlRZUDJZZ2tUVEFQTHZoOXprLVZhVU5oWVdiZGdMbTRrZw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYWTRTcjREZU9GRE1ZaXl2bXJCdXpodG51N2pWT0hvdnQwSjBSUFpJelRsWFQwdVBrSGtWQ0RuSm9BRlpQSlRZUDJZZ2tUVEFQTHZoOXprLVZhVU5oWVdiZGdMbTRrZw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-07T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T20:46:33+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security",
-      "splunk-soar"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Pair Splunk SOAR (Cloud) with Splunk Enterprise Security - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "30027059f1a2db5b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "21aee3f4642a5e47",
-    "title": "Connect Splunk App for SOAR to Splunk SOAR - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RWFJYNmlOamZzTkdjTzZuc1NUR1lYTi1nNTNQTXRyZEc3dWRxSkRlTEVSNnpQZ3c4OWc1cEhjZldPMFA3UlItN3Zod3FiRGxCaHhoWWpFd1R0TGxQcXVGeHF3b2V2dDVsR2JZRjFQVzIzLVU?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RWFJYNmlOamZzTkdjTzZuc1NUR1lYTi1nNTNQTXRyZEc3dWRxSkRlTEVSNnpQZ3c4OWc1cEhjZldPMFA3UlItN3Zod3FiRGxCaHhoWWpFd1R0TGxQcXVGeHF3b2V2dDVsR2JZRjFQVzIzLVU?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-07T07:00:00+00:00",
-    "fetchedAt": "2026-06-04T02:56:26+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Connect Splunk App for SOAR to Splunk SOAR - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "21aee3f4642a5e47",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "1668d296eeaf5c62",
-    "title": "Splunk SOAR (Cloud) introduction - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUlczNnhwWl93OUwydFh0VF84Nm1CbC1xajJteVh6MGltRFIxUmFXclBPUEh6MmVjaXlCaXhYZzZNYmc2N0hxR2EtNEQyVXZBaE5WemlGQVlNMFQxemdCeV9sS2ltbWhET3RWdUhIdnMza1FjWVF3UDdfTWRVQWhaY2JpUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUlczNnhwWl93OUwydFh0VF84Nm1CbC1xajJteVh6MGltRFIxUmFXclBPUEh6MmVjaXlCaXhYZzZNYmc2N0hxR2EtNEQyVXZBaE5WemlGQVlNMFQxemdCeV9sS2ltbWhET3RWdUhIdnMza1FjWVF3UDdfTWRVQWhaY2JpUQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-07T07:00:00+00:00",
-    "fetchedAt": "2026-06-09T02:31:10+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Splunk SOAR (Cloud) introduction - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "1668d296eeaf5c62",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "b8d959c346a1a7a1",
