@@ -1,5 +1,462 @@
 [
   {
+    "id": "348782493055ff54",
+    "title": "SharpHound Recon Attack – How AI enhanced the threat hunt",
+    "url": "https://blogs.cisco.com/security/clamer-soc-2026-sharphound",
+    "canonicalUrl": "https://blogs.cisco.com/security/clamer-soc-2026-sharphound",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Manoj Sudhakara",
+    "publishedAt": "2026-07-07T17:59:20+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "enterprise-security",
+      "thousandeyes"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "During the Cisco Live Americas 2026 Agentic SOC, we discovered and investigated suspicious LDAP activity both manually and with the assistance of AI. This helped us understand how the Agentic SOC can improve the threat-hunting process.",
+    "summarySource": "extractive",
+    "clusterId": "348782493055ff54",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "3b9b455e5b1af53e",
+    "title": "Machine Speed, Human Judgement: How AI Changed the SOC in 2026",
+    "url": "https://blogs.cisco.com/security/machine-speed-human-judgement",
+    "canonicalUrl": "https://blogs.cisco.com/security/machine-speed-human-judgement",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Todd Dow",
+    "publishedAt": "2026-07-07T17:59:16+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A firsthand look inside the Cisco Live 2026 SOC and how AI, automation, and agentic workflows are transforming modern security operations.",
+    "summarySource": "extractive",
+    "clusterId": "3b9b455e5b1af53e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "8e305f2089bebaa5",
+    "title": "Elevating Expertise in the SOC",
+    "url": "https://blogs.cisco.com/security/elevating-expertise-with-lessons-learned",
+    "canonicalUrl": "https://blogs.cisco.com/security/elevating-expertise-with-lessons-learned",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Erik Dove",
+    "publishedAt": "2026-07-07T17:59:03+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "At Cisco Live AMER 2026, Tier One SOC Analysts elevate their expertise by investigating further with Splunk Security and Endace.",
+    "summarySource": "extractive",
+    "clusterId": "8e305f2089bebaa5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "680029d37632b51a",
+    "title": "Educate at Event Speed: Cisco Live Security Operations Center",
+    "url": "https://blogs.cisco.com/security/educate-event-speed-cisco-live-soc",
+    "canonicalUrl": "https://blogs.cisco.com/security/educate-event-speed-cisco-live-soc",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Bilal Qamar",
+    "publishedAt": "2026-07-07T17:58:48+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "At Cisco Live AMER 2026, the Cisco Event SOC turned live operations into education through SOC tours, speaker sessions, and World of Solutions conversations.",
+    "summarySource": "extractive",
+    "clusterId": "680029d37632b51a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "88027454121af708",
+    "title": "What Working the Cisco Live SOC Taught Me About AI, Detection, and Response",
+    "url": "https://blogs.cisco.com/security/clamer-soc-2026-pm-experience",
+    "canonicalUrl": "https://blogs.cisco.com/security/clamer-soc-2026-pm-experience",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Logan Buntrock",
+    "publishedAt": "2026-07-07T17:58:43+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "enterprise-security",
+      "thousandeyes"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A product manager’s view from the Cisco Live SOC on using AI, Splunk ES, and XDR to investigate faster and build better detection and response products.",
+    "summarySource": "extractive",
+    "clusterId": "88027454121af708",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "933cfd26697dd7dc",
+    "title": "Cable to Cloud – A Product Engineer’s Journey Through the Cisco Live AMER 2026 SOC",
+    "url": "https://blogs.cisco.com/security/clamer-soc-2026-engineer-journey",
+    "canonicalUrl": "https://blogs.cisco.com/security/clamer-soc-2026-engineer-journey",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Manoj Sudhakara",
+    "publishedAt": "2026-07-07T17:58:37+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A Cisco product engineer's first-time journey through the Cisco Live AMER 2026 Security Operations Center — from cabling the \"SOC in a Box\" on day one to teardown.",
+    "summarySource": "extractive",
+    "clusterId": "933cfd26697dd7dc",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "d672671599901175",
+    "title": "The Experience Dividend: How Better Digital Experience Protects Revenue, Trust, and Growth",
+    "url": "https://blogs.cisco.com/security/clamer-soc-2026-dividend",
+    "canonicalUrl": "https://blogs.cisco.com/security/clamer-soc-2026-dividend",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Chris Perkins",
+    "publishedAt": "2026-07-07T17:54:54+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "enterprise-security",
+      "thousandeyes"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Inside the Cisco Live Americas 2026 Agentic SOC, Cisco Security and Splunk Security used evidence-backed AI workflows, human validation, and integrated telemetry to protect, educate, and innovate.",
+    "summarySource": "extractive",
+    "clusterId": "d672671599901175",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "5f470c1fac0afc7a",
+    "title": "AIM: Building an Agentic Tier-2 SOC Analyst at Cisco Live AMER 2026",
+    "url": "https://blogs.cisco.com/security/clamer-soc-2026-agentic-tier-2",
+    "canonicalUrl": "https://blogs.cisco.com/security/clamer-soc-2026-agentic-tier-2",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Manoj Sudhakara",
+    "publishedAt": "2026-07-07T17:54:52+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "An Agentic Incident Mate that triages a Cisco Extended Detection and Response (XDR) incident end-to-end across XDR, EndaceProbe, and Splunk Enterprise Security, and returns a Tier-2 report in minutes.",
+    "summarySource": "extractive",
+    "clusterId": "5f470c1fac0afc7a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "40ce4ad94fccac12",
+    "title": "Building the Agentic SOC at Cisco Live Americas 2026",
+    "url": "https://blogs.cisco.com/security/clamer-soc-2026",
+    "canonicalUrl": "https://blogs.cisco.com/security/clamer-soc-2026",
+    "source": {
+      "id": "cisco-tag-splunk",
+      "name": "Cisco Blogs — Splunk",
+      "homepage": "https://blogs.cisco.com/tag/splunk"
+    },
+    "author": "Jessica (Bair) Oppenheimer",
+    "publishedAt": "2026-07-07T17:54:43+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "enterprise-security",
+      "thousandeyes"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Inside the Cisco Live Americas 2026 Agentic SOC, Cisco Security and Splunk Security used evidence-backed AI workflows, human validation, and integrated telemetry to protect, educate, and innovate.",
+    "summarySource": "extractive",
+    "clusterId": "40ce4ad94fccac12",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs — Splunk"
+  },
+  {
+    "id": "b371ae0584668e9d",
+    "title": "2026 network outage report and internet health check - Network World",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-07-07T16:28:34+00:00",
+    "fetchedAt": "2026-05-31T10:48:25+00:00",
+    "topics": [],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check Network World",
+    "summarySource": "extractive",
+    "clusterId": "b371ae0584668e9d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)",
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ]
+  },
+  {
+    "id": "97f34ea5f34937a9",
+    "title": "Is Your VPN Ready for the Quantum Era? – Quantum Series, Part 1",
+    "url": "https://blogs.cisco.com/developer/is-your-vpn-ready-for-the-quantum-era-quantum-series-part-1/",
+    "canonicalUrl": "https://blogs.cisco.com/developer/is-your-vpn-ready-for-the-quantum-era-quantum-series-part-1",
+    "source": {
+      "id": "cisco-developer-blog",
+      "name": "Cisco Developer Blog",
+      "homepage": "https://blogs.cisco.com/developer"
+    },
+    "author": "Julio Gomez",
+    "publishedAt": "2026-07-07T15:58:59+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Quantum computers will break today's crypto. We introduce the two pillars of a secure handshake, key exchange and auth, and how each faces a different quantum threat: \"harvest now, decrypt later\" versus the slower risk to long-lived trust anchors.",
+    "summarySource": "extractive",
+    "clusterId": "97f34ea5f34937a9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Developer Blog"
+  },
+  {
+    "id": "c92ecc7aecfde6d7",
+    "title": "The Hidden Costs of Downtime: Q&A with Splunk’s Greg Leffler",
+    "url": "https://blogs.cisco.com/networking/the-hidden-costs-of-downtime-qa-with-splunks-greg-leffler/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/the-hidden-costs-of-downtime-qa-with-splunks-greg-leffler",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Greg Leffler",
+    "publishedAt": "2026-07-07T15:00:32+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The latest edition of Splunk’s The Hidden Costs of Downtime report—developed in collaboration with Cisco ThousandEyes—shines a light on the critical role of the network in maintaining digital resilience.",
+    "summarySource": "extractive",
+    "clusterId": "c92ecc7aecfde6d7",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
+    "id": "6f4bf3e98fe8397a",
+    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
+    "canonicalUrl": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Ling Wu",
+    "publishedAt": "2026-07-07T13:00:00+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
+    "summarySource": "extractive",
+    "clusterId": "6f4bf3e98fe8397a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "88a8d0573fdb3591",
+    "title": "Cisco SD-WAN Vulnerability: 7 Zero-Days in 2026 - tech-insider.org",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xY2x2YV8zZ1JRRkY5TDFmdmhhMGhZTEk5WDNBeDAwQ1ZJc0hwWVY0NEkySWxKb1ZXMXpvXzB0WER0SlhSRHp4ZjVITjdwZW9jVGEtS0V4QWg2VDdKdnhUM1lJQWNROEM4?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xY2x2YV8zZ1JRRkY5TDFmdmhhMGhZTEk5WDNBeDAwQ1ZJc0hwWVY0NEkySWxKb1ZXMXpvXzB0WER0SlhSRHp4ZjVITjdwZW9jVGEtS0V4QWg2VDdKdnhUM1lJQWNROEM4?oc=5",
+    "source": {
+      "id": "gnews-cisco-sdwan",
+      "name": "tech-insider.org",
+      "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
+    },
+    "author": null,
+    "publishedAt": "2026-07-07T08:16:32+00:00",
+    "fetchedAt": "2026-07-07T19:45:22+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco SD-WAN Vulnerability: 7 Zero-Days in 2026 tech-insider.org",
+    "summarySource": "extractive",
+    "clusterId": "88a8d0573fdb3591",
+    "lang": "en",
+    "license": null,
+    "attribution": "via tech-insider.org (Google News)"
+  },
+  {
     "id": "0cc2166ff1b8c791",
     "title": "Accelerating Wi-Fi troubleshooting with AgenticOps",
     "url": "https://blogs.cisco.com/networking/accelerating-wi-fi-troubleshooting-with-agenticops/",
@@ -492,34 +949,6 @@
     "attribution": "via Splunk Community (Google News)"
   },
   {
-    "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Network World",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-30T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
-    "summarySource": "extractive",
-    "clusterId": "b371ae0584668e9d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Network World (Google News)",
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "34a033f43010e298",
     "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
@@ -707,38 +1136,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "3a045f7b2ab6c528",
-    "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "Security Boulevard",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-06-26T18:06:02+00:00",
-    "fetchedAt": "2026-06-26T19:39:03+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) Security Boulevard",
-    "summarySource": "extractive",
-    "clusterId": "3a045f7b2ab6c528",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Security Boulevard (Google News)"
-  },
-  {
     "id": "2c68808f33945c5f",
     "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
@@ -795,6 +1192,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via Computer Weekly (Google News)"
+  },
+  {
+    "id": "3a045f7b2ab6c528",
+    "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "Security Boulevard",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-26T07:00:00+00:00",
+    "fetchedAt": "2026-06-26T19:39:03+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) Security Boulevard",
+    "summarySource": "extractive",
+    "clusterId": "3a045f7b2ab6c528",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Security Boulevard (Google News)"
   },
   {
     "id": "89266d93cad33249",
@@ -2243,10 +2672,7 @@
     "author": "Aditya Sankar",
     "publishedAt": "2026-06-15T12:00:52+00:00",
     "fetchedAt": "2026-06-15T17:04:20+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2254,7 +2680,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At Black Hat Asia, we tested a private AI SOC workflow built with Ollama, NVIDIA GPU acceleration, Open WebUI, OpenClaw, DefenseClaw, Cisco AI Defense and MCP integrations, with Splunk audit visibility.",
+    "summary": "Defenseclaw for On-Prem AI SOC Workflow at Black Hat Asia",
     "summarySource": "extractive",
     "clusterId": "618b3fab8d2de48b",
     "lang": "en",
@@ -3033,9 +3459,7 @@
     "author": "Dan Jones",
     "publishedAt": "2026-06-09T06:00:00+00:00",
     "fetchedAt": "2026-06-09T14:33:39+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "security"
@@ -3043,7 +3467,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's customer zero.",
+    "summary": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
     "summarySource": "extractive",
     "clusterId": "af8ab56e8a9b1ec1",
     "lang": "en",
@@ -3731,10 +4155,7 @@
     "author": "Rohit Agarwalla",
     "publishedAt": "2026-06-02T12:50:22+00:00",
     "fetchedAt": "2026-06-02T16:08:27+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3742,7 +4163,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Multicloud Fabric simplifies networking for the AI era with a unified, secure, and on-demand global fabric that connects sites and clouds through a single, intelligent platform.",
+    "summary": "Cisco Unveils Multicloud Fabric in Cloud Control: Network Ready for the AI Era",
     "summarySource": "extractive",
     "clusterId": "bba6dcb6d90a3267",
     "lang": "en",
@@ -5089,7 +5510,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability DevOps.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - DevOps.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -6963,7 +7384,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access LinkedIn",
+    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access - LinkedIn",
     "summarySource": "extractive",
     "clusterId": "07326b367316c04e",
     "lang": "en",
@@ -9062,12 +9483,9 @@
     "author": "Ron Brash",
     "publishedAt": "2026-04-21T12:01:00+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Build a credible OT security foundation without breaking the bank. Our \"Starter Pack\" framework leverages People, Process, and Technology to help mid-sized industrial operations implement smart, sequenced cybersecurity investments effectively.",
+    "summary": "Stop Overthinking OT Security: People, Process and Technology",
     "summarySource": "extractive",
     "clusterId": "a7f8e720bcdb60cb",
     "lang": "en",
@@ -9733,12 +10151,9 @@
     "author": "Kamal Hathi",
     "publishedAt": "2026-04-09T20:00:02+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Cisco announces the intent to acquire Galileo Technologies, Inc., a dynamic player in the observability for AI space that is helping make AI more reliable, trustworthy, safe, and observable",
+    "summary": "Making AI Trustworthy and Observable in Real-Time: Cisco Announces Intent to Acquire Galileo",
     "summarySource": "extractive",
     "clusterId": "06d6fe0d12434c98",
     "lang": "en",
@@ -9832,94 +10247,6 @@
     "attribution": "via Network World (Google News)",
     "categories": [
       "news"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "f9858845f5bd2447",
-    "title": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
-    "url": "https://packetpushers.net/blog/startup-radar-aria-networks-cranks-up-telemetry-to-optimize-ethernet-for-ai-workloads/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-aria-networks-cranks-up-telemetry-to-optimize-ethernet-for-ai-workloads",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-08T18:54:23+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Startup Radar: Aria Networks Cranks Up Telemetry to Optimize Ethernet for AI Workloads",
-    "summarySource": "extractive",
-    "clusterId": "f9858845f5bd2447",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog",
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "a840f23b44590930",
-    "title": "The Hidden Features of Zeek",
-    "url": "https://zeek.org/2026/04/the-hidden-features-of-zeek/",
-    "canonicalUrl": "https://zeek.org/2026/04/the-hidden-features-of-zeek",
-    "source": {
-      "id": "zeek-blog",
-      "name": "Zeek Blog",
-      "homepage": "https://zeek.org"
-    },
-    "author": "Michelle Pathe",
-    "publishedAt": "2026-04-08T17:41:49+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "The Hidden Features of Zeek",
-    "summarySource": "extractive",
-    "clusterId": "a840f23b44590930",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Zeek Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "1c551331d604a5e0",
-    "title": "Inside Adobe's OpenTelemetry pipeline: simplicity at scale",
-    "url": "https://opentelemetry.io/blog/2026/devex-adobe/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/devex-adobe",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T14:29:48+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "summary": "As part of an ongoing series, the Developer Experience SIG interviews organizations about their real-world OpenTelemetry Collector deployments to share practical lessons with the broader community. This post features Adobe, a global software company whose observability team has built an OpenTelemetry-based telemetry pipeline designed for simplicity at massive scale, with thousands of collectors running per signal type across the company’s infrastructure. Organizational structure Adobe’s central observability team is responsible for providing observability infrastructure across the company.",
-    "summarySource": "extractive",
-    "clusterId": "1c551331d604a5e0",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog",
-    "categories": [
-      "tutorial"
     ],
     "audiences": [
       "global"
