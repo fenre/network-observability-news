@@ -15,8 +15,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "outage"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -145,7 +144,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level infoq.com",
+    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level - infoq.com",
     "summarySource": "extractive",
     "clusterId": "f0c0dbec8346f446",
     "lang": "en",
@@ -173,7 +172,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summary": "SSH key exchange failures when managing legacy network devices",
     "summarySource": "extractive",
     "clusterId": "ba567b547efd1264",
     "lang": "en",
@@ -193,9 +192,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -203,7 +200,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
+    "summary": "What Actually Catches Threats in a Zeek Deployment?",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -469,7 +466,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -527,7 +524,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check - Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -862,9 +859,7 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -872,7 +867,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
+    "summary": "There are humans here – how the Zeek project thinks about AI usage",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -986,7 +981,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -1097,9 +1092,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -1109,7 +1102,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -1159,9 +1152,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1169,7 +1160,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
+    "summary": "The 2026 Zeek Project Survey Is Now Open",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -2595,6 +2586,7 @@
     "publishedAt": "2026-06-12T07:00:00+00:00",
     "fetchedAt": "2026-06-22T18:59:11+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -2606,7 +2598,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Meta Outage Analysis: June 12, 2026 - ThousandEyes",
+    "summary": "Meta Outage Analysis: June 12, 2026 ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "5acfbc461c4fae9a",
     "lang": "en",
@@ -2635,7 +2627,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -2717,6 +2709,7 @@
     "publishedAt": "2026-06-11T07:00:00+00:00",
     "fetchedAt": "2026-06-16T10:59:10+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -2728,7 +2721,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Google Gemini Outage Analysis: June 10, 2026 - ThousandEyes",
+    "summary": "Google Gemini Outage Analysis: June 10, 2026 ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "079277307d3da9e6",
     "lang": "en",
@@ -2784,7 +2777,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -2804,9 +2797,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2814,7 +2805,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
+    "summary": "The 2026 Zeek Project Survey: Coming June 23",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -2932,7 +2923,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -3109,7 +3100,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3294,7 +3285,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Non-Human Identity is evolving as automation and AI increase machine-to-machine connections. Short-lived, key-based credentials address long-standing risks, but industry now needs clear assurance levels for workload identities. Collaboration will shape the next phase of NHI standards.",
+    "summary": "Non-Human Identity for workloads: Securing the next phase of automation",
     "summarySource": "extractive",
     "clusterId": "be4a1e8479c936ad",
     "lang": "en",
@@ -3589,7 +3580,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3646,9 +3637,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3656,7 +3645,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
+    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -3735,7 +3724,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3847,6 +3836,7 @@
     "publishedAt": "2026-06-02T07:00:00+00:00",
     "fetchedAt": "2026-06-02T20:38:19+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -3858,7 +3848,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes - ThousandEyes",
+    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "863aec017166a31b",
     "lang": "en",
@@ -4101,7 +4091,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4612,7 +4602,7 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager Microsoft Azure",
+    "summary": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager - Microsoft Azure",
     "summarySource": "extractive",
     "clusterId": "1869619191ee7e59",
     "lang": "en",
@@ -4925,7 +4915,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability Virtualization Review",
+    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability - Virtualization Review",
     "summarySource": "extractive",
     "clusterId": "4a9ec00b59fb84be",
     "lang": "en",
@@ -5105,7 +5095,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability DevOps.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - DevOps.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -6555,11 +6545,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
+    "summary": "Introducing Zeek 8.2",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
@@ -7690,7 +7678,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -7749,7 +7737,7 @@
     "tags": [
       "opentelemetry"
     ],
-    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing - Visual Studio Magazine",
+    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing Visual Studio Magazine",
     "summarySource": "extractive",
     "clusterId": "01f6b2a69b1188fe",
     "lang": "en",
@@ -7835,11 +7823,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
+    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -8420,11 +8406,9 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
+    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
@@ -8881,7 +8865,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry co-founder tools up to push project to 1.0 The Register",
+    "summary": "OpenTelemetry co-founder tools up to push project to 1.0 - The Register",
     "summarySource": "extractive",
     "clusterId": "54cb7b280584c73a",
     "lang": "en",
@@ -8901,11 +8885,9 @@
     "author": "Fatema Bannat Wala",
     "publishedAt": "2026-04-23T21:31:47+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "At ESnet, our Zeek deployment was logging 4.2 million weirds per day. When we investigated, 90% were DNS-related and 98% of those came from a single opcode. After submitting a PR to fix it, daily weirds dropped to 1.3 million.",
+    "summary": "Revisiting Weird-ness: Investigating DNS NOTIFY at Scale",
     "summarySource": "extractive",
     "clusterId": "8add41a23eb12610",
     "lang": "en",
@@ -9370,11 +9352,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-04-16T22:32:54+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "The Zeek development team is closing in on Zeek 8.2, our final feature release in the 8.x cycle! This blog post provides a sneak peek at some of the new functionality and changes in that release. As always, this is an excellent opportunity to test-drive the upcoming release and send us any feedback you may […]",
+    "summary": "Zeek 8.2 Development Update",
     "summarySource": "extractive",
     "clusterId": "928505cfb7060fe2",
     "lang": "en",
@@ -9601,7 +9581,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry infoq.com",
+    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry - infoq.com",
     "summarySource": "extractive",
     "clusterId": "63ef6ec3b153e0ab",
     "lang": "en",
@@ -9932,263 +9912,6 @@
     ]
   },
   {
-    "id": "e6185ae1eb6c0a30",
-    "title": "Analyze risk with risk-based alerting in Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcFM5T2VJbUlxRUxRZlFGcVdVSWxseHdvMVVRc0Jra1ZoWmpyLWdXSFdzUWhnbW9ncHQxQmdwMF9nNTFjZ05uOEFfZFJuX0g4UzVIdmtDUEFWUG9PZnpSLUNHRm5ia0cwYnBGOFZHNXFCa1IycFQyb1RyT2RmNHBwbWwyVV9rZGhhcGd1VnQ3MDdlRGRUeG5KZGZQZktRNkoyR0pOOG1iNDdHM3FNblUyMG9xLXdTVnpTeEtvVHlRb3NDRHlCbk1URHZqT0lKVnE4VVV4aHhPOHo2SGpfWDZncjN3bGFqWkp0dmc?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcFM5T2VJbUlxRUxRZlFGcVdVSWxseHdvMVVRc0Jra1ZoWmpyLWdXSFdzUWhnbW9ncHQxQmdwMF9nNTFjZ05uOEFfZFJuX0g4UzVIdmtDUEFWUG9PZnpSLUNHRm5ia0cwYnBGOFZHNXFCa1IycFQyb1RyT2RmNHBwbWwyVV9rZGhhcGd1VnQ3MDdlRGRUeG5KZGZQZktRNkoyR0pOOG1iNDdHM3FNblUyMG9xLXdTVnpTeEtvVHlRb3NDRHlCbk1URHZqT0lKVnE4VVV4aHhPOHo2SGpfWDZncjN3bGFqWkp0dmc?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T17:21:22+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "summary": "Analyze risk with risk-based alerting in Splunk Enterprise Security - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "e6185ae1eb6c0a30",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "e173df2ebb3ef8df",
-    "title": "Install Splunk Enterprise Security on an on-prem search head - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN1NIWmM2dEszWjFIZ2hzdmM1ZzdqWTNXTmtmdWhBa2JSazJMcUppeTNRMlpDYndkRUtVQWQtbkt4OW1sRkt5NzRTeXRqZmNOU3R6cUlPS0VQbTNraFAwNFdGbHExUWVHbktvd2pMNjFGcEhQa1lBdUJoWWZYTlVNWEpmazRxWlBMZDVhcVlBQUk3SHo0ZXZ3amd1a2YzMEMwR3ZLWkZrUFdXa2FRQWdHWW9qRTI3ZzVsWk1ZSDBobmNXSHlyN2FwenFybFVVVzA2VVhJd0JtN1Y?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN1NIWmM2dEszWjFIZ2hzdmM1ZzdqWTNXTmtmdWhBa2JSazJMcUppeTNRMlpDYndkRUtVQWQtbkt4OW1sRkt5NzRTeXRqZmNOU3R6cUlPS0VQbTNraFAwNFdGbHExUWVHbktvd2pMNjFGcEhQa1lBdUJoWWZYTlVNWEpmazRxWlBMZDVhcVlBQUk3SHo0ZXZ3amd1a2YzMEMwR3ZLWkZrUFdXa2FRQWdHWW9qRTI3ZzVsWk1ZSDBobmNXSHlyN2FwenFybFVVVzA2VVhJd0JtN1Y?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-06-19T03:38:21+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Install Splunk Enterprise Security on an on-prem search head - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "e173df2ebb3ef8df",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "b30390597f415534",
-    "title": "Limitations | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-04-08T21:20:44.854Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQlVFbXhEYWd5OEdIaVVpTGxFTzN0MGtJN29haFRZUk5NRzdlRWNKb09hRjA2RVRtZFFfX3RHcjBtVVBob2oyUkhtTmhKX3lyR05TOFZMWkJOR2hqeDYyVXBteE9DdzFrQVFZdXNkRDdvU0JONmx2ZVI2Z0pLWnBteGFqQ1VvazhkcUJoZWtPYVdyVmpNNFQzZFpBekZBVGdwX2RiWnpseXNBV2t1MktFS25xX2twYVlQc0xuUjlJbEtVQzJORGN5OVN2ZVdKb1lPdEl6VENkMA?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQlVFbXhEYWd5OEdIaVVpTGxFTzN0MGtJN29haFRZUk5NRzdlRWNKb09hRjA2RVRtZFFfX3RHcjBtVVBob2oyUkhtTmhKX3lyR05TOFZMWkJOR2hqeDYyVXBteE9DdzFrQVFZdXNkRDdvU0JONmx2ZVI2Z0pLWnBteGFqQ1VvazhkcUJoZWtPYVdyVmpNNFQzZFpBekZBVGdwX2RiWnpseXNBV2t1MktFS25xX2twYVlQc0xuUjlJbEtVQzJORGN5OVN2ZVdKb1lPdEl6VENkMA?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-07-02T02:37:05+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Limitations | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-04-08T21:20:44.854Z) - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "b30390597f415534",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "92a8ad746360014a",
-    "title": "Monitor your security operations center with findings in Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPS01JTEZQNVFYdHRTcU1LMEo0Y0RoenVnQXpZQnhuSW5wdHQ1NjFFQmFGVXRCS1RJQkxDWlhEa09ZeFkzdkZ0Z2hIRFA0aVdmVjRYWmpsR25yM2tJMmc4VG9EeVNHNzlSMHpON1BzUFoyZWNkcHZQYnlSY0pQQ0RrdkJEV0lLUFYtbDZUOEtoYk1Jc2pOeVV4YU5PY2tsY3BPbks5M1NjWEZnUVdUbVdPOWNYT09fZXhNdXNuQ1ViQ2NXSVk0VlhEYzdLSlRNVlJzVW81Qk05dnFYejhJLUZOenQ2RFNfZE5fYjRRcERhWGFMdV9oV2c?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPS01JTEZQNVFYdHRTcU1LMEo0Y0RoenVnQXpZQnhuSW5wdHQ1NjFFQmFGVXRCS1RJQkxDWlhEa09ZeFkzdkZ0Z2hIRFA0aVdmVjRYWmpsR25yM2tJMmc4VG9EeVNHNzlSMHpON1BzUFoyZWNkcHZQYnlSY0pQQ0RrdkJEV0lLUFYtbDZUOEtoYk1Jc2pOeVV4YU5PY2tsY3BPbks5M1NjWEZnUVdUbVdPOWNYT09fZXhNdXNuQ1ViQ2NXSVk0VlhEYzdLSlRNVlJzVW81Qk05dnFYejhJLUZOenQ2RFNfZE5fYjRRcERhWGFMdV9oV2c?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T17:21:22+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "summary": "Monitor your security operations center with findings in Splunk Enterprise Security - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "92a8ad746360014a",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-06-04T14:43:11+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
-    "summarySource": "extractive",
-    "clusterId": "7e4a3a46646c71e1",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "76ca4e8b01fd4d95",
-    "title": "Monitor detection coverage and health using Detection Studio in Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNRFlmTTY4VGNiU3ZnX1RhanhGV1BaazFxcWttLWVXNC1YUnluSkRtMnQ3OFpPVG1JNFcxM1ljb0h0cHc0MllMTEJGYjJjcUk2aDRNRGRUblBPZzZ3eU1IbVM0bTZjUFpFQmpoaWEyVmdidlBvbFZ6TDFzMlJlaXkwdml2ck5nSGppWjdEaVA5OFFhcmpUX1Uxc1VVUlVoM3hPMkRXakZqYXRVajBKLXlRZ1gtWGJXckptS05fYTJiSzFBelo3SThBaHVaVWZwQUVtclFhOW5QNWJQejBHTUttV0E3TlU0NmkybnRqelZvODdpWnFxMG5rYmxfNkVHSk1LcGhaX25GalJ3R2xuSTlrZkVEUy1fcDRHNnFjMmxaN2c1UEhkbWZ0enJhanZROXBSRkF2YnF6RWo1TUo4dGtaaUk0M05lNl9KTUVEbFJQaEowLXpDMFJFd3hSUWwxMTNBMGx0cTFYTVM2TEpNQ1ZpWXdLZGJiSVZ0V0lhVWlTYjgxR0J1MXFCa093TjFhWEpJSnRaOFh3?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNRFlmTTY4VGNiU3ZnX1RhanhGV1BaazFxcWttLWVXNC1YUnluSkRtMnQ3OFpPVG1JNFcxM1ljb0h0cHc0MllMTEJGYjJjcUk2aDRNRGRUblBPZzZ3eU1IbVM0bTZjUFpFQmpoaWEyVmdidlBvbFZ6TDFzMlJlaXkwdml2ck5nSGppWjdEaVA5OFFhcmpUX1Uxc1VVUlVoM3hPMkRXakZqYXRVajBKLXlRZ1gtWGJXckptS05fYTJiSzFBelo3SThBaHVaVWZwQUVtclFhOW5QNWJQejBHTUttV0E3TlU0NmkybnRqelZvODdpWnFxMG5rYmxfNkVHSk1LcGhaX25GalJ3R2xuSTlrZkVEUy1fcDRHNnFjMmxaN2c1UEhkbWZ0enJhanZROXBSRkF2YnF6RWo1TUo4dGtaaUk0M05lNl9KTUVEbFJQaEowLXpDMFJFd3hSUWwxMTNBMGx0cTFYTVM2TEpNQ1ZpWXdLZGJiSVZ0V0lhVWlTYjgxR0J1MXFCa093TjFhWEpJSnRaOFh3?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T20:46:33+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Monitor detection coverage and health using Detection Studio in Splunk Enterprise Security - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "76ca4e8b01fd4d95",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "3bc0201d2ab6b24f",
-    "title": "ThousandEyes MCP Server Enables AI Powered Digital Assurance for MSPs - Cisco Blogs",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNellnQ3YxZlJaejNYc3lEOFRjMGV3YnBsWkVJaml1VWRGckpWWkdpQVR2czlLVVYxTmZKYUxsQVA0aUUxZWNPOUJUZUxmZ0Nab3NJbWZwa1lIcFZ6U212RmV2cDlINW4xd1RNOHl3eFRjdldta3FHVU5tV2I2eWwwMDdtUmFqSGlhRkxfWHhBNWJEU1Z1SWRBenVPWEtCMlgwaWxz?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNellnQ3YxZlJaejNYc3lEOFRjMGV3YnBsWkVJaml1VWRGckpWWkdpQVR2czlLVVYxTmZKYUxsQVA0aUUxZWNPOUJUZUxmZ0Nab3NJbWZwa1lIcFZ6U212RmV2cDlINW4xd1RNOHl3eFRjdldta3FHVU5tV2I2eWwwMDdtUmFqSGlhRkxfWHhBNWJEU1Z1SWRBenVPWEtCMlgwaWxz?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Cisco Blogs",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-06-11T02:54:06+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "ThousandEyes MCP Server Enables AI Powered Digital Assurance for MSPs - Cisco Blogs",
-    "summarySource": "extractive",
-    "clusterId": "3bc0201d2ab6b24f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
-  },
-  {
-    "id": "04772c5ceff40164",
-    "title": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90YVV4N2FlZS11ci1udHktYzdadjFHNXlER0dXTk03TzR5S2lVYjNPcWcxWG9EeWJ4b1VZajVydkhsbGNqczJMa0s4R0NZcU1xMnY0RG0xRXpMT2Z3VUZacDNMZ0Zxc2k4UTNuSUlWeW05WU12Rmo0?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90YVV4N2FlZS11ci1udHktYzdadjFHNXlER0dXTk03TzR5S2lVYjNPcWcxWG9EeWJ4b1VZajVydkhsbGNqczJMa0s4R0NZcU1xMnY0RG0xRXpMT2Z3VUZacDNMZ0Zxc2k4UTNuSUlWeW05WU12Rmo0?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-08T07:00:00+00:00",
-    "fetchedAt": "2026-06-22T03:28:57+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Installation prerequisites | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-04-08T22:52:41.158Z) Splunk",
-    "summarySource": "extractive",
-    "clusterId": "04772c5ceff40164",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
     "id": "b8d959c346a1a7a1",
     "title": "What's new in Dashboard Studio - Splunk",
     "url": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
@@ -10273,12 +9996,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
