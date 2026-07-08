@@ -1,5 +1,35 @@
 [
   {
+    "id": "995cba7d0f0e8392",
+    "title": "Introducing Meerkat: an experiment in global consensus",
+    "url": "https://blog.cloudflare.com/meerkat-introduction/",
+    "canonicalUrl": "https://blog.cloudflare.com/meerkat-introduction",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "João Pedro Leite",
+    "publishedAt": "2026-07-08T13:00:00+00:00",
+    "fetchedAt": "2026-07-08T13:47:15+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
+    "summarySource": "extractive",
+    "clusterId": "995cba7d0f0e8392",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "b371ae0584668e9d",
     "title": "2026 network outage report and internet health check - Network World",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
@@ -48,7 +78,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summary": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
     "summarySource": "extractive",
     "clusterId": "7e1194185e5261ed",
     "lang": "en",
@@ -225,7 +255,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -316,8 +346,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -494,8 +523,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "outage"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -624,7 +652,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level infoq.com",
+    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level - infoq.com",
     "summarySource": "extractive",
     "clusterId": "f0c0dbec8346f446",
     "lang": "en",
@@ -652,7 +680,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summary": "SSH key exchange failures when managing legacy network devices",
     "summarySource": "extractive",
     "clusterId": "ba567b547efd1264",
     "lang": "en",
@@ -946,7 +974,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1461,7 +1489,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -1572,9 +1600,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -1584,7 +1610,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -2515,7 +2541,7 @@
     "tags": [
       "edge-processor"
     ],
-    "summary": "Release notes for Edge Processors on Splunk Cloud Platform Splunk",
+    "summary": "Release notes for Edge Processors on Splunk Cloud Platform - Splunk",
     "summarySource": "extractive",
     "clusterId": "c98cafcbabe02e92",
     "lang": "en",
@@ -3108,7 +3134,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -3257,7 +3283,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -3305,9 +3331,7 @@
     "author": "Shruti Mittal",
     "publishedAt": "2026-06-10T13:00:00+00:00",
     "fetchedAt": "2026-06-10T15:00:11+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3315,7 +3339,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Application Services for Private Origins is available now in closed beta. Route public hostnames to private IP origins over your existing IPsec, GRE, CNI, or Cloudflare Mesh paths. No public IPs or extra connector software required.",
+    "summary": "Route public traffic to private applications with Cloudflare",
     "summarySource": "extractive",
     "clusterId": "ca6cff54c8e7b88d",
     "lang": "en",
@@ -3431,7 +3455,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -3606,7 +3630,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4086,7 +4110,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4230,7 +4254,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4596,7 +4620,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
