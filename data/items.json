@@ -1,5 +1,35 @@
 [
   {
+    "id": "fe867475c1adacab",
+    "title": "Why we cannot wait for better post-quantum signature algorithms",
+    "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
+    "canonicalUrl": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Christopher Patton",
+    "publishedAt": "2026-07-09T14:00:00+00:00",
+    "fetchedAt": "2026-07-09T14:39:15+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
+    "summarySource": "extractive",
+    "clusterId": "fe867475c1adacab",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "f9e171e427792cdf",
     "title": "ASPA at APNIC: Strengthening BGP path validation",
     "url": "https://blog.apnic.net/2026/07/09/aspa-at-apnic-strengthening-bgp-path-validation/",
@@ -21,7 +51,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
+    "summary": "ASPA at APNIC: Strengthening BGP path validation",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -81,7 +111,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
+    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -199,7 +229,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summary": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
     "summarySource": "extractive",
     "clusterId": "7e1194185e5261ed",
     "lang": "en",
@@ -376,7 +406,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -467,8 +497,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -673,8 +702,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "outage"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -831,7 +859,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summary": "SSH key exchange failures when managing legacy network devices",
     "summarySource": "extractive",
     "clusterId": "ba567b547efd1264",
     "lang": "en",
@@ -1125,7 +1153,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1537,12 +1565,12 @@
   },
   {
     "id": "619f2e9413b86ed9",
-    "title": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain - techtimes.com",
+    "title": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain - Tech Times",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVlpuZG5ra0dFLVB5enBJUDlnMUwwZ3pxX0lYcmRaUVNQZWpDNDFEekdZaTkxc3M0WFV4bXpfYlNuOGNfYmRuaWZ1RHY1bzNwQjBDbi1wbkNQWWZGcVBqLTY4NFRkaWl3dmhpdENXNDBRaUNUdGxVVUpVdF9PYWlBX3pOWF9CeHh0cU9EVGhQRFNLNlpGSEVEcVlhNmg5OWstYmE5Rl9xR05QZmk3QWlyZlNXU2Rjd3czNE1pRHpteHhVc1l6M0x3WQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVlpuZG5ra0dFLVB5enBJUDlnMUwwZ3pxX0lYcmRaUVNQZWpDNDFEekdZaTkxc3M0WFV4bXpfYlNuOGNfYmRuaWZ1RHY1bzNwQjBDbi1wbkNQWWZGcVBqLTY4NFRkaWl3dmhpdENXNDBRaUNUdGxVVUpVdF9PYWlBX3pOWF9CeHh0cU9EVGhQRFNLNlpGSEVEcVlhNmg5OWstYmE5Rl9xR05QZmk3QWlyZlNXU2Rjd3czNE1pRHpteHhVc1l6M0x3WQ?oc=5",
     "source": {
       "id": "gnews-cisco-sdwan",
-      "name": "techtimes.com",
+      "name": "Tech Times",
       "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
     },
     "author": null,
@@ -1556,12 +1584,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain techtimes.com",
+    "summary": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain Tech Times",
     "summarySource": "extractive",
     "clusterId": "619f2e9413b86ed9",
     "lang": "en",
     "license": null,
-    "attribution": "via techtimes.com (Google News)"
+    "attribution": "via Tech Times (Google News)"
   },
   {
     "id": "b0b23546f8beb4d8",
@@ -1642,7 +1670,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -1753,9 +1781,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -1765,7 +1791,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -2743,6 +2769,39 @@
     ]
   },
   {
+    "id": "046166508da9f81b",
+    "title": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNREdnc0FjeGF6LUdKUWg3NUU0UEg3MXk3cWUwZkxnMjVsVWMtUEhuSEVuTVhOekM0dkg4T2dNTjRFakNIdFA1NzJpNVZ4OEttYjRLWnR4cUlxekJQMWh4RGdjVnc0VlpjaXlyXzdTVjdZZUZiZk5HSDJmcHZKcGkzRUNaSl9acDhqZk1Ma0dITFYzblZiWGUtbDlXNUlNSmxJMnB4N3BtSDZtSVNybThRZFNNOGNBeDZMMExUcWt0NWVtQUFlczFRMnNxWDZwSjZ0SFMwSWIwRVFiYllEWXo1QmF1N2gwMWhnTFhadHd3?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNREdnc0FjeGF6LUdKUWg3NUU0UEg3MXk3cWUwZkxnMjVsVWMtUEhuSEVuTVhOekM0dkg4T2dNTjRFakNIdFA1NzJpNVZ4OEttYjRLWnR4cUlxekJQMWh4RGdjVnc0VlpjaXlyXzdTVjdZZUZiZk5HSDJmcHZKcGkzRUNaSl9acDhqZk1Ma0dITFYzblZiWGUtbDlXNUlNSmxJMnB4N3BtSDZtSVNybThRZFNNOGNBeDZMMExUcWt0NWVtQUFlczFRMnNxWDZwSjZ0SFMwSWIwRVFiYllEWXo1QmF1N2gwMWhnTFhadHd3?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T20:46:33+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "046166508da9f81b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "514f8a3ad359e0e2",
     "title": "Managing access to investigations in Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMzl6S1pkcFg5bDVFTUZSbzBmQ0tsbkcwOU4tbkU5cWdBNGdJMkJLX05XWUFEaHd5WG9qajFpUEg0LVdKUnFrUUtGSjhzaVRxWG9fTU9UY25fbm1ZWFQ4YVU2WENPRnF3aFNUaV83WlBYbTlwUTA3OHI0b3ZicDB5TE1NLW52eWdxYzd6Ny1IczJGWThvMHBPcDJ6VHBiYktCVGRNeWhlSE10UWZZT212RUF2X1JZN0tST0Q1amdFR3hqcWhyXzlQUXJDYVV1X0VtMHVyM0lUN1NWeVFpdjIyMlp6WQ?oc=5",
@@ -3188,9 +3247,7 @@
     "author": "Dave Baxter",
     "publishedAt": "2026-06-12T13:00:00+00:00",
     "fetchedAt": "2026-06-12T14:41:58+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3198,7 +3255,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare Security Insights system now processes over 120 scans per second, providing frequent insights for all customers. By optimizing Kafka consumers, Postgres queries, and our API, we scaled our throughput 10x without adding hardware.",
+    "summary": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
     "summarySource": "extractive",
     "clusterId": "fd604dbe3082673d",
     "lang": "en",
@@ -3289,7 +3346,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -3438,7 +3495,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
+    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -3582,7 +3639,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Government online services rely on authoritative DNS as a critical foundation of national digital infrastructure. This study presents a systematic framework to assess DNS resilience, revealing strengths, weaknesses, and operational practices shaping governments’ ability to withstand failures and attacks.",
+    "summary": "Unveiling the hidden complexity of authoritative DNS resilience",
     "summarySource": "extractive",
     "clusterId": "f044b222d041135e",
     "lang": "en",
@@ -3757,7 +3814,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4237,7 +4294,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4381,7 +4438,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4747,7 +4804,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5151,39 +5208,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "046166508da9f81b",
-    "title": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNREdnc0FjeGF6LUdKUWg3NUU0UEg3MXk3cWUwZkxnMjVsVWMtUEhuSEVuTVhOekM0dkg4T2dNTjRFakNIdFA1NzJpNVZ4OEttYjRLWnR4cUlxekJQMWh4RGdjVnc0VlpjaXlyXzdTVjdZZUZiZk5HSDJmcHZKcGkzRUNaSl9acDhqZk1Ma0dITFYzblZiWGUtbDlXNUlNSmxJMnB4N3BtSDZtSVNybThRZFNNOGNBeDZMMExUcWt0NWVtQUFlczFRMnNxWDZwSjZ0SFMwSWIwRVFiYllEWXo1QmF1N2gwMWhnTFhadHd3?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNREdnc0FjeGF6LUdKUWg3NUU0UEg3MXk3cWUwZkxnMjVsVWMtUEhuSEVuTVhOekM0dkg4T2dNTjRFakNIdFA1NzJpNVZ4OEttYjRLWnR4cUlxekJQMWh4RGdjVnc0VlpjaXlyXzdTVjdZZUZiZk5HSDJmcHZKcGkzRUNaSl9acDhqZk1Ma0dITFYzblZiWGUtbDlXNUlNSmxJMnB4N3BtSDZtSVNybThRZFNNOGNBeDZMMExUcWt0NWVtQUFlczFRMnNxWDZwSjZ0SFMwSWIwRVFiYllEWXo1QmF1N2gwMWhnTFhadHd3?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-05-25T14:36:30+00:00",
-    "fetchedAt": "2026-05-31T20:46:33+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Deploy Cisco Talos Intelligence for Splunk Enterprise Security (Cloud Only) - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "046166508da9f81b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "7569399012653b98",
@@ -10294,7 +10318,7 @@
       "product-release",
       "security"
     ],
-    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix - Splunk",
+    "summary": "Splunk Enterprise Security Editions Cloud Capability Matrix Splunk",
     "summarySource": "extractive",
     "clusterId": "61c13d0b223ea6eb",
     "lang": "en",
