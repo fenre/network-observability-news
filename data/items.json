@@ -1,5 +1,33 @@
 [
   {
+    "id": "1f9fa7a192d39a63",
+    "title": "Life on the Internet adoption curve",
+    "url": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-07-12T22:53:59+00:00",
+    "fetchedAt": "2026-07-13T02:03:41+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summarySource": "extractive",
+    "clusterId": "1f9fa7a192d39a63",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "e9cb677c34a42bfa",
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
     "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
@@ -28,6 +56,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "02388e08138ad979",
+    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
+    "url": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tony Smith",
+    "publishedAt": "2026-07-10T09:20:25+00:00",
+    "fetchedAt": "2026-07-13T02:03:41+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summarySource": "extractive",
+    "clusterId": "02388e08138ad979",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b7ecce91bb0ed51",
@@ -131,12 +188,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "product-release",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "ASPA at APNIC: Strengthening BGP path validation",
+    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -196,7 +254,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
+    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -292,6 +350,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AOL.com (Google News)"
+  },
+  {
+    "id": "7e1194185e5261ed",
+    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
+    "url": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Steven Wallace",
+    "publishedAt": "2026-07-08T01:09:23+00:00",
+    "fetchedAt": "2026-07-13T02:03:41+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summarySource": "extractive",
+    "clusterId": "7e1194185e5261ed",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "8572d742be42f267",
@@ -926,6 +1012,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
+  },
+  {
+    "id": "ba567b547efd1264",
+    "title": "SSH key exchange failures when managing legacy network devices",
+    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tuwan Azgar Jaleel",
+    "publishedAt": "2026-07-02T22:37:20+00:00",
+    "fetchedAt": "2026-07-13T02:03:41+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summarySource": "extractive",
+    "clusterId": "ba567b547efd1264",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "1d16f334ab9080b9",
@@ -1675,7 +1789,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain Tech Times",
+    "summary": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain - Tech Times",
     "summarySource": "extractive",
     "clusterId": "619f2e9413b86ed9",
     "lang": "en",
@@ -1739,6 +1853,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via SecurityBrief Australia (Google News)"
+  },
+  {
+    "id": "9ba7ee21ac4099be",
+    "title": "[Podcast] What ‘name-based routing’ really means",
+    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-06-24T20:30:00+00:00",
+    "fetchedAt": "2026-07-13T02:03:41+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summarySource": "extractive",
+    "clusterId": "9ba7ee21ac4099be",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "7bca2b2e982427b5",
@@ -1844,7 +1986,9 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
@@ -1854,7 +1998,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
+    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -2785,7 +2929,7 @@
     "tags": [
       "edge-processor"
     ],
-    "summary": "Release notes for Edge Processors on Splunk Cloud Platform Splunk",
+    "summary": "Release notes for Edge Processors on Splunk Cloud Platform - Splunk",
     "summarySource": "extractive",
     "clusterId": "c98cafcbabe02e92",
     "lang": "en",
@@ -3461,12 +3605,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "tutorial",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "BGP Router ID structuring in IPv6 native networks",
+    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -3615,7 +3760,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 router addresses using Subnet-Router Anycast addresses",
+    "summary": "Guest Post: Identifying active IPv6 addresses helps assess deployment, reveal gaps, and detect vulnerable devices. Subnet-Router Anycast (SRA) probing removes the need for prior knowledge of address allocation.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -4305,7 +4450,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Gigamon & Splunk join forces on federated telemetry ChannelLife Australia",
+    "summary": "Gigamon & Splunk join forces on federated telemetry - ChannelLife Australia",
     "summarySource": "extractive",
     "clusterId": "013188778612268e",
     "lang": "en",
@@ -4681,7 +4826,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption infoq.com",
+    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption - infoq.com",
     "summarySource": "extractive",
     "clusterId": "945da4c859998397",
     "lang": "en",
@@ -5747,7 +5892,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability Virtualization Review",
+    "summary": "OpenTelemetry Pushes Deeper into Cloud Observability - Virtualization Review",
     "summarySource": "extractive",
     "clusterId": "4a9ec00b59fb84be",
     "lang": "en",
@@ -5927,7 +6072,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability DevOps.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - DevOps.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -7415,7 +7560,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk OT Intelligence release notes Splunk",
+    "summary": "Splunk OT Intelligence release notes - Splunk",
     "summarySource": "extractive",
     "clusterId": "a67d3b78d5183b33",
     "lang": "en",
@@ -8510,7 +8655,7 @@
     "categories": [
       "news"
     ],
-    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus - Oracle Blogs",
+    "summary": "A New Era of MySQL Monitoring: OpenTelemetry Metrics with Prometheus Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "4467f26429941c01",
     "lang": "en",
@@ -8569,7 +8714,7 @@
     "tags": [
       "opentelemetry"
     ],
-    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing - Visual Studio Magazine",
+    "summary": "VS Code 1.119 Adds Agent Browser Sharing, OpenTelemetry Tracing Visual Studio Magazine",
     "summarySource": "extractive",
     "clusterId": "01f6b2a69b1188fe",
     "lang": "en",
@@ -9696,7 +9841,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry co-founder tools up to push project to 1.0 The Register",
+    "summary": "OpenTelemetry co-founder tools up to push project to 1.0 - The Register",
     "summarySource": "extractive",
     "clusterId": "54cb7b280584c73a",
     "lang": "en",
@@ -10070,7 +10215,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk AI Assistant for Splunk Cloud customers - Splunk",
+    "summary": "Install Splunk AI Assistant for Splunk Cloud customers Splunk",
     "summarySource": "extractive",
     "clusterId": "f7bcf8a14476044c",
     "lang": "en",
@@ -10100,7 +10245,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -10412,7 +10557,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry infoq.com",
+    "summary": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry - infoq.com",
     "summarySource": "extractive",
     "clusterId": "63ef6ec3b153e0ab",
     "lang": "en",
