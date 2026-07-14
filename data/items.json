@@ -1,7 +1,67 @@
 [
   {
+    "id": "768508c36920eab9",
+    "title": "Spicy vs. Binpac Performance, One Year Later",
+    "url": "https://zeek.org/2026/07/spicy-vs-binpac-performance-one-year-later/",
+    "canonicalUrl": "https://zeek.org/2026/07/spicy-vs-binpac-performance-one-year-later",
+    "source": {
+      "id": "zeek-blog",
+      "name": "Zeek Blog",
+      "homepage": "https://zeek.org"
+    },
+    "author": "Evan Typanski",
+    "publishedAt": "2026-07-14T15:00:16+00:00",
+    "fetchedAt": "2026-07-14T19:07:36+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
+    "summarySource": "extractive",
+    "clusterId": "768508c36920eab9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Zeek Blog"
+  },
+  {
+    "id": "d581d2da960fb300",
+    "title": "A broken DNSSEC rollover took down .AL. Now 1.1.1.1 tells you when validation is bypassed",
+    "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
+    "canonicalUrl": "https://blog.cloudflare.com/dnssec-nta-ede-33",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Sebastiaan Neuteboom",
+    "publishedAt": "2026-07-14T13:00:00+00:00",
+    "fetchedAt": "2026-07-14T19:07:36+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "When a failed DNSSEC key rollover took down the .AL TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
+    "summarySource": "extractive",
+    "clusterId": "d581d2da960fb300",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for 'Splunk beating' prowess - SDxCentral",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
@@ -10,7 +70,7 @@
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
-    "publishedAt": "2026-07-14T11:48:45+00:00",
+    "publishedAt": "2026-07-14T11:54:02+00:00",
     "fetchedAt": "2026-07-14T13:16:33+00:00",
     "topics": [
       "splunk"
@@ -22,7 +82,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for 'Splunk beating' prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
@@ -197,7 +257,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-09T18:33:40+00:00",
     "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -205,7 +267,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’ve Updated the Zeek Contribution Guide",
+    "summary": "A lot of people who use Zeek have never contributed to it. Not because they don’t have anything to offer, but because they don’t know where to start or assume contributing means writing code they’re not confident in. That gap showed up directly in the feedback from last year’s community survey.",
     "summarySource": "extractive",
     "clusterId": "2b7ecce91bb0ed51",
     "lang": "en",
@@ -1141,7 +1203,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1149,7 +1213,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What Actually Catches Threats in a Zeek Deployment?",
+    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -1843,7 +1907,9 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1851,7 +1917,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There are humans here – how the Zeek project thinks about AI usage",
+    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -2140,7 +2206,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2148,7 +2216,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey Is Now Open",
+    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -2372,37 +2440,6 @@
     "attribution": "via cyberpress.org (Google News)"
   },
   {
-    "id": "2da2ccb9cdbe959d",
-    "title": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks - CyberSecurityNews",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3pLU0FVS1pBOUlPcHNNNFduMENpVEg3bWNhZzFqZlBLbWR3UzZXTmxjSzlIOTJqRTZpdmtIVXpUMVRlcU1JaEhwcUszSDliVWZDUWRMa29lMWZRd01KeDhvOGhnRmlFMUR3TW4wZmZUS2U3OEl5Y0Zn0gF_QVVfeXFMTm5sSWw1Q2FHN05pYmhoT1hNVENIcWRfV1psZ3dKYVVBTUtBdXhTVHY4UE43amtXYW16NWd5MGc5ZEVkMzdNSmVJM2ExcHhuTl9hRHRhbXdHSWFkUjlPd0tKUkpSQVdsUnZCSHBMQ0JlbFp5aWZrRl9PNXVVZlIzZw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3pLU0FVS1pBOUlPcHNNNFduMENpVEg3bWNhZzFqZlBLbWR3UzZXTmxjSzlIOTJqRTZpdmtIVXpUMVRlcU1JaEhwcUszSDliVWZDUWRMa29lMWZRd01KeDhvOGhnRmlFMUR3TW4wZmZUS2U3OEl5Y0Zn0gF_QVVfeXFMTm5sSWw1Q2FHN05pYmhoT1hNVENIcWRfV1psZ3dKYVVBTUtBdXhTVHY4UE43amtXYW16NWd5MGc5ZEVkMzdNSmVJM2ExcHhuTl9hRHRhbXdHSWFkUjlPd0tKUkpSQVdsUnZCSHBMQ0JlbFp5aWZrRl9PNXVVZlIzZw?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-06-19T08:06:40+00:00",
-    "fetchedAt": "2026-06-20T02:42:20+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks - CyberSecurityNews",
-    "summarySource": "extractive",
-    "clusterId": "2da2ccb9cdbe959d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
-  },
-  {
     "id": "977648c99482a509",
     "title": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to... - Security Affairs",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQNWEtMkppS1lOWHJFTy1GeXRLSjc4QW96NWpabU8yZk1pdmpvb3lMZkhzaWhoWnRSNXVTeG9rSHkxNUEyM0ZjcjZMWkJDLVVGUUpsU0RBMEwtZjg2QXV0OFVWNld2VjVmWm9WYXdsQzJYVF9xcWRoZzNhdFhudk1IempiWGYwWWNjN21PWjBHYU9YMF9XZHFfYTV3d3dEX1F4dXYtTUU4Yk1kSWp5YVhQSWNUX3Y4RXNFbi1jd21LanRWeGJvZVdrcjJHM05iaWg5aWt3RkJSWFk2SHdPWGpHdTlRSGFmcS11S3EtYjVDNlVCWU1TamJBMEU1UnZuZFla0gGGAkFVX3lxTE5mUFotZlU1MWU3MG52ZXdjV01vaGRVMnhJMGwwczdoZVBaVzZpd3Q4WC1Ia0NQLVd5djhmX2pJNFFBRWk5bW8wSE5LYTBPaklHS1NBd2t0aTZHWW5LMUdnNEZHakVmMkRUbnVKNExhMWZSNnZEYnlrcnZlWFhEc0RLOTRSUm55ZnZBUE95WUtQWXRrVDAzd0RpNTZqLWw1LWVrbVF2QkJHQlpWQXdvT0lST3RfMFl5dUxqbFMzZExxWFp6Ym1aYXhJaFE0WHRaRi12M215cGVYSV9oekJ2Rm4yQjQtempqYW1tSXlUaGtBYmUtamFXd05WZG5NdVlPc2dOdC1zRmc?oc=5",
@@ -2446,8 +2483,7 @@
     "publishedAt": "2026-06-19T07:00:00+00:00",
     "fetchedAt": "2026-06-20T19:14:23+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -2456,12 +2492,44 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday BleepingComputer",
+    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday - BleepingComputer",
     "summarySource": "extractive",
     "clusterId": "66c2708c5faff854",
     "lang": "en",
     "license": null,
     "attribution": "via BleepingComputer (Google News)"
+  },
+  {
+    "id": "2da2ccb9cdbe959d",
+    "title": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks - CyberSecurityNews",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3pLU0FVS1pBOUlPcHNNNFduMENpVEg3bWNhZzFqZlBLbWR3UzZXTmxjSzlIOTJqRTZpdmtIVXpUMVRlcU1JaEhwcUszSDliVWZDUWRMa29lMWZRd01KeDhvOGhnRmlFMUR3TW4wZmZUS2U3OEl5Y0Zn0gF_QVVfeXFMTm5sSWw1Q2FHN05pYmhoT1hNVENIcWRfV1psZ3dKYVVBTUtBdXhTVHY4UE43amtXYW16NWd5MGc5ZEVkMzdNSmVJM2ExcHhuTl9hRHRhbXdHSWFkUjlPd0tKUkpSQVdsUnZCSHBMQ0JlbFp5aWZrRl9PNXVVZlIzZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QX3pLU0FVS1pBOUlPcHNNNFduMENpVEg3bWNhZzFqZlBLbWR3UzZXTmxjSzlIOTJqRTZpdmtIVXpUMVRlcU1JaEhwcUszSDliVWZDUWRMa29lMWZRd01KeDhvOGhnRmlFMUR3TW4wZmZUS2U3OEl5Y0Zn0gF_QVVfeXFMTm5sSWw1Q2FHN05pYmhoT1hNVENIcWRfV1psZ3dKYVVBTUtBdXhTVHY4UE43amtXYW16NWd5MGc5ZEVkMzdNSmVJM2ExcHhuTl9hRHRhbXdHSWFkUjlPd0tKUkpSQVdsUnZCSHBMQ0JlbFp5aWZrRl9PNXVVZlIzZw?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "CyberSecurityNews",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-19T07:00:00+00:00",
+    "fetchedAt": "2026-06-20T02:42:20+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks CyberSecurityNews",
+    "summarySource": "extractive",
+    "clusterId": "2da2ccb9cdbe959d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via CyberSecurityNews (Google News)"
   },
   {
     "id": "15d6411c7945d6b0",
@@ -2812,9 +2880,7 @@
     "author": "Abe Carryl",
     "publishedAt": "2026-06-17T13:00:00+00:00",
     "fetchedAt": "2026-06-17T14:58:03+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2822,7 +2888,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required.",
+    "summary": "Introducing the Cloudflare One stack: agent-powered deployment",
     "summarySource": "extractive",
     "clusterId": "26ea9cd251faa79a",
     "lang": "en",
@@ -3286,7 +3352,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -3878,7 +3944,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3886,7 +3954,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey: Coming June 23",
+    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -4297,7 +4365,10 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-07-13T19:16:00+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -4305,7 +4376,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -4750,7 +4821,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4758,7 +4831,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
+    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -7672,16 +7745,18 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Introducing Zeek 8.2",
+    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -8096,7 +8171,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access - LinkedIn",
+    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access LinkedIn",
     "summarySource": "extractive",
     "clusterId": "07326b367316c04e",
     "lang": "en",
@@ -8953,9 +9028,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
+    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -9539,15 +9616,18 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
+    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
@@ -9576,7 +9656,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "IETF 125 post-meeting survey",
+    "summary": "The IETF 125 Shenzhen meeting was held 14-20 March 2026 and the results of the post-meeting survey are now available.",
     "summarySource": "extractive",
     "clusterId": "ed4f0003792ee88c",
     "lang": "en",
@@ -9700,6 +9780,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
+  },
+  {
+    "id": "8f803313392af741",
+    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
+    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
+    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-04-28T18:52:08+00:00",
+    "fetchedAt": "2026-07-14T19:07:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
+    "summarySource": "extractive",
+    "clusterId": "8f803313392af741",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -10465,7 +10573,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.2.3 known issues - Splunk",
+    "summary": "Splunk Enterprise 10.2.3 known issues Splunk",
     "summarySource": "extractive",
     "clusterId": "704cc9e46480a0f3",
     "lang": "en",
@@ -10617,7 +10725,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
+    "summary": "The Packet Pushers went to the inaugural all-day event for network operators in Toronto, Canada, TORNOG1, on April 13, 2026. TORNOG presents deep dives into specific skills and technologies relevant to modern network operations, including BGP optimization, peering policies, and cutting-edge network automation. It helps to gain direct access to technical leads and decision-makers ...",
     "summarySource": "extractive",
     "clusterId": "2471eafe0ee12bab",
     "lang": "en",
