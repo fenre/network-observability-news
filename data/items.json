@@ -10,7 +10,7 @@
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
-    "publishedAt": "2026-07-14T19:33:12+00:00",
+    "publishedAt": "2026-07-15T01:33:12+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
@@ -40,9 +40,7 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T15:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -50,7 +48,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
+    "summary": "Spicy vs. Binpac Performance, One Year Later",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -292,12 +290,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summary": "Life on the Internet adoption curve",
     "summarySource": "extractive",
     "clusterId": "1f9fa7a192d39a63",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
+  },
+  {
+    "id": "af265c92f67a8d00",
+    "title": "Inside the Packet: How Kubernetes Networking Actually Works at L3/L4 - Cloud Native Now",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3dKTDBTM0FraENpSmpfOHlqenpqRW9mdXo5OXVzcUJoXy1EM1FIX0pzTGlZR2pmU0FtRmlSdUkzLTF3aWExbndiWVJIbWdma1VjbWVPcHllOUlSTmRYNzRSUnJOSGd5eEZrM2xrbGplMEpoNWRGdEVmNGFqcTkwT0JkTnNpSUpDMV9US2kwLUQ3dzExOHZpVFBUdU1Pc193bzNRa0l0NFJhVDRlNFk3bW5kZ1V2QQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3dKTDBTM0FraENpSmpfOHlqenpqRW9mdXo5OXVzcUJoXy1EM1FIX0pzTGlZR2pmU0FtRmlSdUkzLTF3aWExbndiWVJIbWdma1VjbWVPcHllOUlSTmRYNzRSUnJOSGd5eEZrM2xrbGplMEpoNWRGdEVmNGFqcTkwT0JkTnNpSUpDMV9US2kwLUQ3dzExOHZpVFBUdU1Pc193bzNRa0l0NFJhVDRlNFk3bW5kZ1V2QQ?oc=5",
+    "source": {
+      "id": "gnews-ebpf-cilium",
+      "name": "Cloud Native Now",
+      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-07-10T13:18:30+00:00",
+    "fetchedAt": "2026-07-15T07:54:45+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Inside the Packet: How Kubernetes Networking Actually Works at L3/L4 Cloud Native Now",
+    "summarySource": "extractive",
+    "clusterId": "af265c92f67a8d00",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloud Native Now (Google News)"
   },
   {
     "id": "e9cb677c34a42bfa",
@@ -351,7 +377,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summary": "APNIC Publishes Submission to Malaysia Public Consultation",
     "summarySource": "extractive",
     "clusterId": "02388e08138ad979",
     "lang": "en",
@@ -371,9 +397,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-09T18:33:40+00:00",
     "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -381,7 +405,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A lot of people who use Zeek have never contributed to it. Not because they don’t have anything to offer, but because they don’t know where to start or assume contributing means writing code they’re not confident in. That gap showed up directly in the feedback from last year’s community survey.",
+    "summary": "We’ve Updated the Zeek Contribution Guide",
     "summarySource": "extractive",
     "clusterId": "2b7ecce91bb0ed51",
     "lang": "en",
@@ -468,7 +492,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
+    "summary": "ASPA at APNIC: Strengthening BGP path validation",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -528,7 +552,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
+    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -646,7 +670,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summary": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
     "summarySource": "extractive",
     "clusterId": "7e1194185e5261ed",
     "lang": "en",
@@ -855,7 +879,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -946,8 +970,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1124,8 +1147,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "outage"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -1282,7 +1304,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summary": "SSH key exchange failures when managing legacy network devices",
     "summarySource": "extractive",
     "clusterId": "ba567b547efd1264",
     "lang": "en",
@@ -1302,9 +1324,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1312,7 +1332,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
+    "summary": "What Actually Catches Threats in a Zeek Deployment?",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -1577,7 +1597,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1714,6 +1734,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via ExecutiveBiz (Google News)"
+  },
+  {
+    "id": "8c5f46f1fcce10ba",
+    "title": "ASPA Is Live. Can You See It Working?",
+    "url": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
+    "canonicalUrl": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ritesh Mukherjee",
+    "publishedAt": "2026-06-29T06:40:15+00:00",
+    "fetchedAt": "2026-07-15T07:54:45+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network?",
+    "summarySource": "extractive",
+    "clusterId": "8c5f46f1fcce10ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "7dd50a7de11e2fe2",
@@ -2000,9 +2048,7 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2010,7 +2056,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
+    "summary": "There are humans here – how the Zeek project thinks about AI usage",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -2124,7 +2170,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -2235,9 +2281,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -2247,7 +2291,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -2329,9 +2373,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2339,7 +2381,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
+    "summary": "The 2026 Zeek Project Survey Is Now Open",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -2606,8 +2648,7 @@
     "publishedAt": "2026-06-19T07:00:00+00:00",
     "fetchedAt": "2026-06-20T19:14:23+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -2616,7 +2657,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday BleepingComputer",
+    "summary": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday - BleepingComputer",
     "summarySource": "extractive",
     "clusterId": "66c2708c5faff854",
     "lang": "en",
@@ -3116,12 +3157,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
+    "summary": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
     "summarySource": "extractive",
     "clusterId": "9124c89297fd44a8",
     "lang": "en",
@@ -3444,34 +3485,6 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
-    "id": "5c2505b4acedac6d",
-    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
-    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-06-15T13:02:36+00:00",
-    "fetchedAt": "2026-07-13T19:16:00+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "summarySource": "extractive",
-    "clusterId": "5c2505b4acedac6d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -3645,7 +3658,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations Business Insider",
+    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations - Business Insider",
     "summarySource": "extractive",
     "clusterId": "01553c52c86d9f94",
     "lang": "en",
@@ -3696,7 +3709,8 @@
     "publishedAt": "2026-06-13T07:00:00+00:00",
     "fetchedAt": "2026-06-17T02:57:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -3705,7 +3719,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Pre-Auth RCE Chain Exposes Database With Zero Authentication - CyberSecurityNews",
+    "summary": "Splunk Enterprise Pre-Auth RCE Chain Exposes Database With Zero Authentication CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "e0de290e21e08c5e",
     "lang": "en",
@@ -3887,7 +3901,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to design and structure BGP Router IDs in IPv6-native networks.",
+    "summary": "BGP Router ID structuring in IPv6 native networks",
     "summarySource": "extractive",
     "clusterId": "f88a957372c1fbca",
     "lang": "en",
@@ -3978,7 +3992,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Discovery of IPv6 Router Addresses Using Subnet-Router Anycast",
+    "summary": "Brute-force IPv6 scanning doesn't scale, and ICMPv6 rate limiting can undermine topology measurements. Maynard Koch and colleagues show how Subnet-Router Anycast (SRA) probing discovers more router addresses, delivers more stable results, and expands the IPv6 measurement toolbox.",
     "summarySource": "extractive",
     "clusterId": "2939ee6eb3e233c6",
     "lang": "en",
@@ -4056,9 +4070,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4066,7 +4078,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
+    "summary": "The 2026 Zeek Project Survey: Coming June 23",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -4357,7 +4369,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4460,34 +4472,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
-  },
-  {
-    "id": "618b90329c9790cd",
-    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
-    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-06-05T18:29:57+00:00",
-    "fetchedAt": "2026-07-13T19:16:00+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "summarySource": "extractive",
-    "clusterId": "618b90329c9790cd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "923a55dacc21d28b",
@@ -4865,7 +4849,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4922,9 +4906,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4932,7 +4914,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
+    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -5011,7 +4993,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5409,7 +5391,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -7830,11 +7812,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
+    "summary": "Introducing Zeek 8.2",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
@@ -9110,11 +9090,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
+    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -9695,11 +9673,9 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
+    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
@@ -9712,35 +9688,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "ed4f0003792ee88c",
-    "title": "IETF 125 post-meeting survey",
-    "url": "http://www.ietf.org/blog/ietf125-survey/",
-    "canonicalUrl": "https://www.ietf.org/blog/ietf125-survey",
-    "source": {
-      "id": "ietf-blog",
-      "name": "IETF Blog",
-      "homepage": "https://www.ietf.org/blog"
-    },
-    "author": "Akanksha Gohil, Paige Mustafa",
-    "publishedAt": "2026-04-29T16:00:00+00:00",
-    "fetchedAt": "2026-07-14T07:51:21+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "IETF 125 post-meeting survey",
-    "summarySource": "extractive",
-    "clusterId": "ed4f0003792ee88c",
-    "lang": "en",
-    "license": null,
-    "attribution": "via IETF Blog"
   },
   {
     "id": "1c40051c55aea558",
@@ -10747,99 +10694,6 @@
     "categories": [
       "tutorial"
     ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "2471eafe0ee12bab",
-    "title": "TORNOG1: Canada’s First All-Day Network Operators Event",
-    "url": "https://packetpushers.net/blog/packet-pushers-covers-tornog1/",
-    "canonicalUrl": "https://packetpushers.net/blog/packet-pushers-covers-tornog1",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-04-16T15:02:13+00:00",
-    "fetchedAt": "2026-07-13T19:16:00+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "TORNOG1: Canada’s First All-Day Network Operators Event",
-    "summarySource": "extractive",
-    "clusterId": "2471eafe0ee12bab",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
-    "id": "ff140ed8ca0c4fe1",
-    "title": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks - CyberSecurityNews",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS3U5eUZjdFB4NlV2WUp1dXpIMHJDWUFUMUJVV2dFSlVYaXE2VGpPRXZINExaMTVvY0VVTDBrNkRNTlBfcHk4em5pWW1HY2lzbXVESTFCRVpXWXFqdlZCRW4zbVJLU1hWUDdPT01SeWhXQkg1NFFhUXFpWkJxTEZLb1ZxSWlyOEFx0gGOAUFVX3lxTE5ESVFYSUI1cnlSSkdkeDhhQXNNU3VDY2o2UXd5aHUyN0M4Qk1YWUxyamxiSmxrZGRvZ05GY3ZFcFpGOHF4dkVwSHJFcnZ0dG9ZWWQ2d2NUelRJOFNCblcyV0laWUVaWW9EdHlIbndBNnZiSWN5cVQwNUtGVG55TUw2NEF5NVdFejNtOVRoa1E?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS3U5eUZjdFB4NlV2WUp1dXpIMHJDWUFUMUJVV2dFSlVYaXE2VGpPRXZINExaMTVvY0VVTDBrNkRNTlBfcHk4em5pWW1HY2lzbXVESTFCRVpXWXFqdlZCRW4zbVJLU1hWUDdPT01SeWhXQkg1NFFhUXFpWkJxTEZLb1ZxSWlyOEFx0gGOAUFVX3lxTE5ESVFYSUI1cnlSSkdkeDhhQXNNU3VDY2o2UXd5aHUyN0M4Qk1YWUxyamxiSmxrZGRvZ05GY3ZFcFpGOHF4dkVwSHJFcnZ0dG9ZWWQ2d2NUelRJOFNCblcyV0laWUVaWW9EdHlIbndBNnZiSWN5cVQwNUtGVG55TUw2NEF5NVdFejNtOVRoa1E?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-04-16T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T17:06:32+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "summary": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks CyberSecurityNews",
-    "summarySource": "extractive",
-    "clusterId": "ff140ed8ca0c4fe1",
-    "lang": "en",
-    "license": null,
-    "attribution": "via CyberSecurityNews (Google News)",
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "bcf850f655183977",
-    "title": "Splunk Enterprise and Cloud Platform Exposed to Dangerous RCE Vulnerability - gbhackers.com",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOEFkZ0xmOGhGV0VET2RHdVVOTVRGbno0Y2RDWS1STWxEbmV4c2J5dHd5TnhIamcwLV93cjdXUU45Zjl5bWQyV1hfVTB0TjlPOTJkR0tsRHdKQWRpamZKbmNMSTJOMzRjUzM4cm45LVlDa2k2ZHNmalM2VUtiZ3htUnRxZ9IBiAFBVV95cUxOdmlWOUNFR2NNeWtOdVdiYTdvRVQyd1Z1WEE2a1hqMFRYcFR2TFNZcGctcGNkQ08tVUF6cTR2WmwySVpKQWhXYkNEb0VQd19zM3pVUVNwVDBub3JlM2hYUHQ3aDJDWUxFZHFaMnBURjIzVnJKUkJ3U3pwZ3JBWTdKM0tHWVlzMDUt?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOEFkZ0xmOGhGV0VET2RHdVVOTVRGbno0Y2RDWS1STWxEbmV4c2J5dHd5TnhIamcwLV93cjdXUU45Zjl5bWQyV1hfVTB0TjlPOTJkR0tsRHdKQWRpamZKbmNMSTJOMzRjUzM4cm45LVlDa2k2ZHNmalM2VUtiZ3htUnRxZ9IBiAFBVV95cUxOdmlWOUNFR2NNeWtOdVdiYTdvRVQyd1Z1WEE2a1hqMFRYcFR2TFNZcGctcGNkQ08tVUF6cTR2WmwySVpKQWhXYkNEb0VQd19zM3pVUVNwVDBub3JlM2hYUHQ3aDJDWUxFZHFaMnBURjIzVnJKUkJ3U3pwZ3JBWTdKM0tHWVlzMDUt?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "gbhackers.com",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-04-16T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T17:06:32+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "summary": "Splunk Enterprise and Cloud Platform Exposed to Dangerous RCE Vulnerability gbhackers.com",
-    "summarySource": "extractive",
-    "clusterId": "bcf850f655183977",
-    "lang": "en",
-    "license": null,
-    "attribution": "via gbhackers.com (Google News)",
     "audiences": [
       "global"
     ]
