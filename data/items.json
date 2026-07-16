@@ -1,5 +1,37 @@
 [
   {
+    "id": "2b0883379119c4bd",
+    "title": "OpenTelemetry Has Graduated… Now what?",
+    "url": "https://opentelemetry.io/blog/2026/otel-grad-now-what/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/otel-grad-now-what",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-07-15T18:59:02+00:00",
+    "fetchedAt": "2026-07-16T01:56:20+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In case you missed it: OpenTelemetry (OTel) has officially achieved CNCF graduated status ! It now stands proudly alongside amazing open source projects such as Kubernetes and Prometheus , to name just a few. It’s been a long journey, and we’re very excited… But, now what?",
+    "summarySource": "extractive",
+    "clusterId": "2b0883379119c4bd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
     "id": "8ec7ab83862d4b50",
     "title": "Lean IT, future-ready: Making wireless careers attractive in the age of AI",
     "url": "https://blogs.cisco.com/networking/lean-it-future-ready-making-wireless-careers-attractive-in-the-age-of-ai/",
@@ -43,9 +75,7 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T15:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -53,7 +83,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
+    "summary": "Spicy vs. Binpac Performance, One Year Later",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -94,7 +124,7 @@
   },
   {
     "id": "d581d2da960fb300",
-    "title": "A broken DNSSEC rollover took down .AL. Now 1.1.1.1 tells you when validation is bypassed",
+    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
     "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
     "canonicalUrl": "https://blog.cloudflare.com/dnssec-nta-ede-33",
     "source": {
@@ -115,7 +145,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When a failed DNSSEC key rollover took down the .AL TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
+    "summary": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
     "summarySource": "extractive",
     "clusterId": "d581d2da960fb300",
     "lang": "en",
@@ -344,7 +374,7 @@
       "homepage": "https://blog.cloudflare.com"
     },
     "author": "Chenxi Zhang",
-    "publishedAt": "2026-07-10T13:00:00+00:00",
+    "publishedAt": "2026-07-10T12:00:00+00:00",
     "fetchedAt": "2026-07-10T14:05:49+00:00",
     "topics": [
       "network-observability"
@@ -376,9 +406,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-09T18:33:40+00:00",
     "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -386,7 +414,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A lot of people who use Zeek have never contributed to it. Not because they don’t have anything to offer, but because they don’t know where to start or assume contributing means writing code they’re not confident in. That gap showed up directly in the feedback from last year’s community survey.",
+    "summary": "We’ve Updated the Zeek Contribution Guide",
     "summarySource": "extractive",
     "clusterId": "2b7ecce91bb0ed51",
     "lang": "en",
@@ -434,7 +462,7 @@
       "homepage": "https://blog.cloudflare.com"
     },
     "author": "Christopher Patton",
-    "publishedAt": "2026-07-09T14:00:00+00:00",
+    "publishedAt": "2026-07-09T13:40:47+00:00",
     "fetchedAt": "2026-07-09T14:39:15+00:00",
     "topics": [
       "network-observability"
@@ -583,7 +611,7 @@
       "homepage": "https://blog.cloudflare.com"
     },
     "author": "João Pedro Leite",
-    "publishedAt": "2026-07-08T13:00:00+00:00",
+    "publishedAt": "2026-07-08T12:00:00+00:00",
     "fetchedAt": "2026-07-08T13:47:15+00:00",
     "topics": [
       "network-observability"
@@ -1078,7 +1106,7 @@
       "homepage": "https://blog.cloudflare.com"
     },
     "author": "Ling Wu",
-    "publishedAt": "2026-07-07T13:00:00+00:00",
+    "publishedAt": "2026-07-07T12:00:00+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
     "topics": [
       "network-observability"
@@ -1294,9 +1322,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1304,7 +1330,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
+    "summary": "What Actually Catches Threats in a Zeek Deployment?",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -2028,9 +2054,7 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2038,7 +2062,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
+    "summary": "There are humans here – how the Zeek project thinks about AI usage",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -2327,9 +2351,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2337,7 +2359,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
+    "summary": "The 2026 Zeek Project Survey Is Now Open",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -2922,7 +2944,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard.",
+    "summary": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard",
     "summarySource": "extractive",
     "clusterId": "82c755021c845235",
     "lang": "en",
@@ -3050,38 +3072,6 @@
     "attribution": "via ThousandEyes (Google News)"
   },
   {
-    "id": "b7d8408dcb170f8d",
-    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "The Fast Mode",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T16:19:33+00:00",
-    "fetchedAt": "2026-06-16T03:00:17+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
-    "summarySource": "extractive",
-    "clusterId": "b7d8408dcb170f8d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Fast Mode (Google News)"
-  },
-  {
     "id": "82f189f472e5a543",
     "title": "Cloudflare DMARC Management is now generally available",
     "url": "https://blog.cloudflare.com/dmarc-management-ga/",
@@ -3125,7 +3115,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "standards"
+      "news"
     ],
     "audiences": [
       "global"
@@ -3136,6 +3126,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "b7d8408dcb170f8d",
+    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-16T07:40:55+00:00",
+    "fetchedAt": "2026-06-16T03:00:17+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "b7d8408dcb170f8d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "eb6955f4707182b6",
@@ -3473,7 +3495,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -4064,9 +4086,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4074,7 +4094,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
+    "summary": "The 2026 Zeek Project Survey: Coming June 23",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -4485,10 +4505,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-07-15T18:59:53+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -4496,7 +4513,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -4941,9 +4958,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4951,7 +4966,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
+    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -7862,11 +7877,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
+    "summary": "Introducing Zeek 8.2",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
@@ -9145,11 +9158,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
+    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -9733,11 +9744,9 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
+    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
@@ -9862,40 +9871,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Amazon CloudWatch Introduces OpenTelemetry Metrics Support in Preview - infoq.com",
+    "summary": "Amazon CloudWatch Introduces OpenTelemetry Metrics Support in Preview infoq.com",
     "summarySource": "extractive",
     "clusterId": "8caa2ddf5c6c4514",
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
-  },
-  {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-07-15T18:59:53+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -10730,34 +10711,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "928505cfb7060fe2",
-    "title": "Zeek 8.2 Development Update",
-    "url": "https://zeek.org/2026/04/zeek-8-2-development-update/",
-    "canonicalUrl": "https://zeek.org/2026/04/zeek-8-2-development-update",
-    "source": {
-      "id": "zeek-blog",
-      "name": "Zeek Blog",
-      "homepage": "https://zeek.org"
-    },
-    "author": "Christian Kreibich",
-    "publishedAt": "2026-04-16T22:32:54+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Zeek 8.2 Development Update",
-    "summarySource": "extractive",
-    "clusterId": "928505cfb7060fe2",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Zeek Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "b8d959c346a1a7a1",
