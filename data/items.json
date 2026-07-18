@@ -1,5 +1,35 @@
 [
   {
+    "id": "94e757d0087eed24",
+    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+    "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+    "canonicalUrl": "https://blog.cloudflare.com/wordpress-vulnerabilities",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Vikram Grover",
+    "publishedAt": "2026-07-17T21:30:43+00:00",
+    "fetchedAt": "2026-07-18T01:49:38+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
+    "summarySource": "extractive",
+    "clusterId": "94e757d0087eed24",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "cb9d541a7b55e8f5",
     "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
@@ -288,7 +318,9 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T15:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -296,7 +328,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Spicy vs. Binpac Performance, One Year Later",
+    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -348,7 +380,9 @@
     "author": "Sebastiaan Neuteboom",
     "publishedAt": "2026-07-14T13:00:00+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -356,7 +390,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
+    "summary": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
     "summarySource": "extractive",
     "clusterId": "d581d2da960fb300",
     "lang": "en",
@@ -497,7 +531,9 @@
     "author": "Benedikt Wolters",
     "publishedAt": "2026-07-13T13:00:00+00:00",
     "fetchedAt": "2026-07-13T14:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -505,7 +541,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
+    "summary": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher precision — while reducing friction for legitimate users.",
     "summarySource": "extractive",
     "clusterId": "6e82b3f37b7a84d6",
     "lang": "en",
@@ -585,7 +621,9 @@
     "author": "Chenxi Zhang",
     "publishedAt": "2026-07-10T12:00:00+00:00",
     "fetchedAt": "2026-07-10T14:05:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -593,7 +631,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Improving Smart Tiered Cache for Public Cloud Regions",
+    "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
     "summarySource": "extractive",
     "clusterId": "e9cb677c34a42bfa",
     "lang": "en",
@@ -613,7 +651,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-09T18:33:40+00:00",
     "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -621,7 +661,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’ve Updated the Zeek Contribution Guide",
+    "summary": "A lot of people who use Zeek have never contributed to it. Not because they don’t have anything to offer, but because they don’t know where to start or assume contributing means writing code they’re not confident in. That gap showed up directly in the feedback from last year’s community survey.",
     "summarySource": "extractive",
     "clusterId": "2b7ecce91bb0ed51",
     "lang": "en",
@@ -671,7 +711,9 @@
     "author": "Christopher Patton",
     "publishedAt": "2026-07-09T13:40:47+00:00",
     "fetchedAt": "2026-07-09T14:39:15+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -679,7 +721,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why we cannot wait for better post-quantum signature algorithms",
+    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
     "summarySource": "extractive",
     "clusterId": "fe867475c1adacab",
     "lang": "en",
@@ -818,7 +860,9 @@
     "author": "João Pedro Leite",
     "publishedAt": "2026-07-08T12:00:00+00:00",
     "fetchedAt": "2026-07-08T13:47:15+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -826,7 +870,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Meerkat: an experiment in global consensus",
+    "summary": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
     "summarySource": "extractive",
     "clusterId": "995cba7d0f0e8392",
     "lang": "en",
@@ -1279,7 +1323,9 @@
     "author": "Ling Wu",
     "publishedAt": "2026-07-07T12:00:00+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1287,7 +1333,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "summary": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
     "summarySource": "extractive",
     "clusterId": "6f4bf3e98fe8397a",
     "lang": "en",
@@ -1399,7 +1445,9 @@
     "author": "Connor Harwood",
     "publishedAt": "2026-07-06T13:00:00+00:00",
     "fetchedAt": "2026-07-06T15:16:51+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1407,7 +1455,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your Worker can now have its own cache in front of it",
+    "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
     "summarySource": "extractive",
     "clusterId": "34e529a2fa92844f",
     "lang": "en",
@@ -1521,7 +1569,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1529,7 +1579,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What Actually Catches Threats in a Zeek Deployment?",
+    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -1644,7 +1694,9 @@
     "author": "Emily Lanfear",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1652,7 +1704,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
     "summarySource": "extractive",
     "clusterId": "faa365cefdf0f4b5",
     "lang": "en",
@@ -1672,7 +1724,9 @@
     "author": "Matthew Conroy",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1680,7 +1734,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Making AI search smarter",
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
     "summarySource": "extractive",
     "clusterId": "f9df4918a8e14436",
     "lang": "en",
@@ -1700,7 +1754,9 @@
     "author": "Will Papper",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -1708,7 +1764,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
     "summarySource": "extractive",
     "clusterId": "afae27bfbd6e396d",
     "lang": "en",
@@ -1728,7 +1784,9 @@
     "author": "Bryan Becker",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1736,7 +1794,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your site, your rules: new AI traffic options for all customers",
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
     "summarySource": "extractive",
     "clusterId": "6ed4f8aaa0e3b2e4",
     "lang": "en",
@@ -1756,7 +1814,9 @@
     "author": "Oliver Payne",
     "publishedAt": "2026-07-01T06:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1764,7 +1824,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unmasking the crawls with Attribution Business Insights",
+    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
     "summarySource": "extractive",
     "clusterId": "bf9bca10aabd74d0",
     "lang": "en",
@@ -2137,6 +2197,41 @@
     "attribution": "via Computer Weekly (Google News)"
   },
   {
+    "id": "e4abe5db260cbed6",
+    "title": "What's new in Dashboard Studio - Splunk",
+    "url": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-26T07:00:00+00:00",
+    "fetchedAt": "2026-07-18T01:49:38+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "dashboard-studio",
+      "10.4",
+      "visualizations"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Dashboard Studio updates in Splunk 10.4: custom visualization framework, centralized Token Manager for debugging, unlimited input results, cascading inputs, and admin resource controls — aimed at richer, more reliable dashboards without hitting prior limits.",
+    "summarySource": "curated",
+    "clusterId": "98d4c0ba438c99e3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
+  },
+  {
     "id": "3a045f7b2ab6c528",
     "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
@@ -2243,7 +2338,9 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2251,7 +2348,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There are humans here – how the Zeek project thinks about AI usage",
+    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -2299,7 +2396,9 @@
     "author": "André Venceslau",
     "publishedAt": "2026-06-25T13:00:00+00:00",
     "fetchedAt": "2026-06-25T14:10:23+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2307,7 +2406,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we built saga rollbacks for Cloudflare Workflows",
+    "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
     "summarySource": "extractive",
     "clusterId": "b0b23546f8beb4d8",
     "lang": "en",
@@ -2415,15 +2514,18 @@
     "author": "Nick Comer",
     "publishedAt": "2026-06-24T06:00:00+00:00",
     "fetchedAt": "2026-06-24T14:12:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release",
+      "outage"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+    "summary": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen.",
     "summarySource": "extractive",
     "clusterId": "cb9bc633d2fabb02",
     "lang": "en",
@@ -2535,7 +2637,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2543,7 +2647,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey Is Now Open",
+    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -2595,7 +2699,9 @@
     "author": "Matt Lewis",
     "publishedAt": "2026-06-22T18:00:00+00:00",
     "fetchedAt": "2026-06-22T18:59:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2603,7 +2709,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we found a bug in the hyper HTTP library",
+    "summary": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions.",
     "summarySource": "extractive",
     "clusterId": "009e730bc0fa29bb",
     "lang": "en",
@@ -2717,7 +2823,9 @@
     "author": "Brendan Irvine-Broque",
     "publishedAt": "2026-06-19T13:00:00+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2725,7 +2833,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Temporary Cloudflare Accounts for AI agents",
+    "summary": "The moment an agent needs to deploy something, it slams face-first into a wall built for humans. Today we're rolling out Temporary Accounts on Cloudflare Workers. Any agent can now run wrangler deploy — temporary and get a live Worker in seconds.",
     "summarySource": "extractive",
     "clusterId": "fd6b244d6a5f1630",
     "lang": "en",
@@ -2962,7 +3070,9 @@
     "author": "Grant Bourzikas",
     "publishedAt": "2026-06-18T17:59:40+00:00",
     "fetchedAt": "2026-06-18T20:14:59+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security"
@@ -2970,7 +3080,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Build your own vulnerability harness",
+    "summary": "We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.",
     "summarySource": "extractive",
     "clusterId": "3c6593d3e624a782",
     "lang": "en",
@@ -3652,6 +3762,34 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-07-18T01:49:38+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -4266,7 +4404,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4274,7 +4414,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey: Coming June 23",
+    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -4609,38 +4749,6 @@
     "attribution": "via csoonline.com (Google News)"
   },
   {
-    "id": "1777c882c6807c66",
-    "title": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "The Fast Mode",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-05T19:21:10+00:00",
-    "fetchedAt": "2026-06-05T02:44:36+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer The Fast Mode",
-    "summarySource": "extractive",
-    "clusterId": "1777c882c6807c66",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Fast Mode (Google News)"
-  },
-  {
     "id": "ad0af5312a1ff000",
     "title": "NetApp Cisco Splunk SOAR Link Puts Ransomware Resilience In Focus - Sahm",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSmRGTjdZZWpMTG03QWlHZjc0QzFiY2VjQ19RVzA2TzVlYzJ3OFZJeWgwSnVpVWplQVNzSURuYkZBeWFFRl90d0U3RzFNamc3VDkyZUZPaUotNzFSeFVhQUhISTlxLVAydkVYY3dLNkxLNGdXVjYzSm5PMHdpVEw2WlNWTFBPLURWOVBFSVVvYVJIWXp1eEUyTkpuS2lmN2tkcVpDeXU2bjlfb0RkajF6c0t2ekhYSWNx?oc=5",
@@ -4671,6 +4779,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
+  },
+  {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-07-18T01:49:38+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "923a55dacc21d28b",
@@ -4731,6 +4870,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via StorageReview.com (Google News)"
+  },
+  {
+    "id": "1777c882c6807c66",
+    "title": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-06-05T01:57:10+00:00",
+    "fetchedAt": "2026-06-05T02:44:36+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-soar"
+    ],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "1777c882c6807c66",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "be4a1e8479c936ad",
@@ -5110,7 +5281,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5118,7 +5291,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
+    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -8029,16 +8202,18 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Introducing Zeek 8.2",
+    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -9310,9 +9485,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
+    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -9896,15 +10073,18 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
+    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
@@ -10028,6 +10208,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
+  },
+  {
+    "id": "8f803313392af741",
+    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
+    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
+    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-04-28T18:52:08+00:00",
+    "fetchedAt": "2026-07-18T01:49:38+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
+    "summarySource": "extractive",
+    "clusterId": "8f803313392af741",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -10166,7 +10374,7 @@
       "network-observability"
     ],
     "tags": [],
-    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem SDxCentral",
+    "summary": "Google Cloud ingests Broadcom’s AppNeta into ‘first-party’ network observability ecosystem - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "80f1daeefd0a1f82",
     "lang": "en",
