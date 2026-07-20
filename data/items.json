@@ -1,5 +1,33 @@
 [
   {
+    "id": "ba3a1ff39c67adc0",
+    "title": "Who's Running All Those Tiny RPKI Servers?",
+    "url": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
+    "canonicalUrl": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ties Dirksen",
+    "publishedAt": "2026-07-20T07:57:23+00:00",
+    "fetchedAt": "2026-07-20T08:45:31+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "summarySource": "extractive",
+    "clusterId": "428157edc0974b27",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "94e757d0087eed24",
     "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
     "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
@@ -129,7 +157,8 @@
     "publishedAt": "2026-07-16T10:16:57+00:00",
     "fetchedAt": "2026-07-16T19:00:21+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -138,7 +167,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse - cyberpress.org",
+    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "e69474227cf5c759",
     "lang": "en",
@@ -593,6 +622,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "1f9fa7a192d39a63",
+    "title": "Life on the Internet adoption curve",
+    "url": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-07-12T22:53:59+00:00",
+    "fetchedAt": "2026-07-20T08:45:31+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summarySource": "extractive",
+    "clusterId": "1f9fa7a192d39a63",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "af265c92f67a8d00",
     "title": "Inside the Packet: How Kubernetes Networking Actually Works at L3/L4 - Cloud Native Now",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3dKTDBTM0FraENpSmpfOHlqenpqRW9mdXo5OXVzcUJoXy1EM1FIX0pzTGlZR2pmU0FtRmlSdUkzLTF3aWExbndiWVJIbWdma1VjbWVPcHllOUlSTmRYNzRSUnJOSGd5eEZrM2xrbGplMEpoNWRGdEVmNGFqcTkwT0JkTnNpSUpDMV9US2kwLUQ3dzExOHZpVFBUdU1Pc193bzNRa0l0NFJhVDRlNFk3bW5kZ1V2QQ?oc=5",
@@ -647,6 +704,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "02388e08138ad979",
+    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
+    "url": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tony Smith",
+    "publishedAt": "2026-07-10T09:20:25+00:00",
+    "fetchedAt": "2026-07-20T08:45:31+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summarySource": "extractive",
+    "clusterId": "02388e08138ad979",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b7ecce91bb0ed51",
@@ -748,12 +834,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "product-release",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "ASPA at APNIC: Strengthening BGP path validation",
+    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -813,7 +900,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
+    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -907,6 +994,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AOL.com (Google News)"
+  },
+  {
+    "id": "7e1194185e5261ed",
+    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
+    "url": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Steven Wallace",
+    "publishedAt": "2026-07-08T01:09:23+00:00",
+    "fetchedAt": "2026-07-20T08:45:31+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summarySource": "extractive",
+    "clusterId": "7e1194185e5261ed",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "870fe662e93ffac1",
@@ -1511,6 +1626,34 @@
     "attribution": "via infoq.com (Google News)"
   },
   {
+    "id": "ba567b547efd1264",
+    "title": "SSH key exchange failures when managing legacy network devices",
+    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tuwan Azgar Jaleel",
+    "publishedAt": "2026-07-02T22:37:20+00:00",
+    "fetchedAt": "2026-07-20T08:45:31+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summarySource": "extractive",
+    "clusterId": "ba567b547efd1264",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "1d16f334ab9080b9",
     "title": "What Actually Catches Threats in a Zeek Deployment?",
     "url": "https://zeek.org/2026/07/what-actually-catches-threats-in-a-zeek-deployment/",
@@ -1955,6 +2098,34 @@
     "attribution": "via ExecutiveBiz (Google News)"
   },
   {
+    "id": "8c5f46f1fcce10ba",
+    "title": "ASPA Is Live. Can You See It Working?",
+    "url": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
+    "canonicalUrl": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ritesh Mukherjee",
+    "publishedAt": "2026-06-29T06:40:15+00:00",
+    "fetchedAt": "2026-07-20T08:45:31+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network?",
+    "summarySource": "extractive",
+    "clusterId": "8c5f46f1fcce10ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "7dd50a7de11e2fe2",
     "title": "What's new - Splunk",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUDd1bnlnWDZQbmdvblhLcHUzQVJxZG5nYkUwOEowUU05RmRYX0JGQURpZXJmQUE5NGd4RXd5WDVPU21yMXpSYzR4Z0l3dkZnTE4xSnJKZHJCSFVBZmRHd0ZqMzZIUnlFMnJiejgxSno2bnFoYWFYcEJzeWdGa3lCZnhNMWVTRG1QNEVLNWxOaVdacGJKYmlnenJHZkRGc2RUbUc4cGpoa3l6WXZvbkpxLWJqNzFUNXBrSFNfd1BUMS04SXhoMnNOMXJsbFhwLXZ2Snl5NFNaNmxySHo1ejdN?oc=5",
@@ -2374,6 +2545,34 @@
     "attribution": "via Tech Times (Google News)"
   },
   {
+    "id": "9ba7ee21ac4099be",
+    "title": "[Podcast] What ‘name-based routing’ really means",
+    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-06-24T20:30:00+00:00",
+    "fetchedAt": "2026-07-20T08:45:31+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summarySource": "extractive",
+    "clusterId": "9ba7ee21ac4099be",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "7bca2b2e982427b5",
     "title": "Don't Wrap OpenTelemetry — You're Probably Hurting More Than Helping",
     "url": "https://opentelemetry.io/blog/2026/dont-wrap-opentelemetry/",
@@ -2474,7 +2673,9 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
@@ -2484,7 +2685,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
+    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -3311,12 +3512,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "LatencyMON, Rebuilt: Safer, Faster, and More Connected",
+    "summary": "We've rewritten LatencyMON from the ground up, retiring its legacy libraries for a modern, more secure codebase, with a refreshed interface and new ways to group and explore your RIPE Atlas latency data.",
     "summarySource": "extractive",
     "clusterId": "9124c89297fd44a8",
     "lang": "en",
@@ -5331,7 +5532,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption - infoq.com",
+    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption infoq.com",
     "summarySource": "extractive",
     "clusterId": "945da4c859998397",
     "lang": "en",
@@ -9721,7 +9922,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
     "summarySource": "extractive",
     "clusterId": "434f16427de9a2e9",
     "lang": "en",
@@ -10612,38 +10813,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Blogs — Splunk",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "6d18de1b5b5013b0",
-    "title": "How Skyscanner scales OpenTelemetry: managing collectors across 24 production clusters",
-    "url": "https://opentelemetry.io/blog/2026/devex-skyscanner/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/devex-skyscanner",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-21T07:54:19+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "summary": "The Developer Experience SIG is publishing a series of blog posts featuring real-world OpenTelemetry deployments from companies across different industries and scales. This post features Skyscanner , a global travel search platform based in Edinburgh, Scotland. With 1,400 employees worldwide running over 1,000 microservices across 24 production Kubernetes clusters, Skyscanner’s journey with OpenTelemetry offers valuable lessons for organizations operating at scale.",
-    "summarySource": "extractive",
-    "clusterId": "6d18de1b5b5013b0",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog",
     "categories": [
       "tutorial"
     ],
