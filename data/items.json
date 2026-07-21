@@ -1,5 +1,35 @@
 [
   {
+    "id": "ee07d4bde1d2c985",
+    "title": "Cloudflare Internal DNS is now generally available",
+    "url": "https://blog.cloudflare.com/internal-dns/",
+    "canonicalUrl": "https://blog.cloudflare.com/internal-dns",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Hannes Gerhart",
+    "publishedAt": "2026-07-20T20:59:31+00:00",
+    "fetchedAt": "2026-07-21T01:58:43+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+    "summarySource": "extractive",
+    "clusterId": "ee07d4bde1d2c985",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "06f8621675c8bb1f",
     "title": "CocoaPods Deprecation Notice for OpenTelemetry Swift",
     "url": "https://opentelemetry.io/blog/2026/otel-swift-cocoapods-deprecation/",
@@ -63,34 +93,6 @@
     "attribution": "via Cisco Developer Blog"
   },
   {
-    "id": "ba3a1ff39c67adc0",
-    "title": "Who's Running All Those Tiny RPKI Servers?",
-    "url": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
-    "canonicalUrl": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Ties Dirksen",
-    "publishedAt": "2026-07-20T07:57:23+00:00",
-    "fetchedAt": "2026-07-20T08:45:31+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Who's Running All Those Tiny RPKI Servers?",
-    "summarySource": "extractive",
-    "clusterId": "ba3a1ff39c67adc0",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "94e757d0087eed24",
     "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
     "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
@@ -103,7 +105,9 @@
     "author": "Vikram Grover",
     "publishedAt": "2026-07-17T21:30:43+00:00",
     "fetchedAt": "2026-07-18T01:49:38+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -111,7 +115,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+    "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
     "summarySource": "extractive",
     "clusterId": "94e757d0087eed24",
     "lang": "en",
@@ -437,7 +441,9 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T15:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -445,7 +451,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Spicy vs. Binpac Performance, One Year Later",
+    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -497,7 +503,9 @@
     "author": "Sebastiaan Neuteboom",
     "publishedAt": "2026-07-14T13:00:00+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -505,7 +513,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
+    "summary": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
     "summarySource": "extractive",
     "clusterId": "d581d2da960fb300",
     "lang": "en",
@@ -646,7 +654,9 @@
     "author": "Benedikt Wolters",
     "publishedAt": "2026-07-13T13:00:00+00:00",
     "fetchedAt": "2026-07-13T14:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -654,7 +664,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
+    "summary": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher precision — while reducing friction for legitimate users.",
     "summarySource": "extractive",
     "clusterId": "6e82b3f37b7a84d6",
     "lang": "en",
@@ -692,6 +702,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "1f9fa7a192d39a63",
+    "title": "Life on the Internet adoption curve",
+    "url": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-07-12T22:53:59+00:00",
+    "fetchedAt": "2026-07-21T01:58:43+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summarySource": "extractive",
+    "clusterId": "1f9fa7a192d39a63",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "af265c92f67a8d00",
@@ -734,7 +772,9 @@
     "author": "Chenxi Zhang",
     "publishedAt": "2026-07-10T12:00:00+00:00",
     "fetchedAt": "2026-07-10T14:05:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -742,12 +782,41 @@
     "audiences": [
       "global"
     ],
-    "summary": "Improving Smart Tiered Cache for Public Cloud Regions",
+    "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
     "summarySource": "extractive",
     "clusterId": "e9cb677c34a42bfa",
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "02388e08138ad979",
+    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
+    "url": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tony Smith",
+    "publishedAt": "2026-07-10T09:20:25+00:00",
+    "fetchedAt": "2026-07-21T01:58:43+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summarySource": "extractive",
+    "clusterId": "02388e08138ad979",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b7ecce91bb0ed51",
@@ -762,7 +831,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-09T18:33:40+00:00",
     "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -770,7 +841,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’ve Updated the Zeek Contribution Guide",
+    "summary": "A lot of people who use Zeek have never contributed to it. Not because they don’t have anything to offer, but because they don’t know where to start or assume contributing means writing code they’re not confident in. That gap showed up directly in the feedback from last year’s community survey.",
     "summarySource": "extractive",
     "clusterId": "2b7ecce91bb0ed51",
     "lang": "en",
@@ -820,7 +891,9 @@
     "author": "Christopher Patton",
     "publishedAt": "2026-07-09T13:40:47+00:00",
     "fetchedAt": "2026-07-09T14:39:15+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -828,7 +901,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why we cannot wait for better post-quantum signature algorithms",
+    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
     "summarySource": "extractive",
     "clusterId": "fe867475c1adacab",
     "lang": "en",
@@ -851,12 +924,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "product-release",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "ASPA at APNIC: Strengthening BGP path validation",
+    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -916,7 +990,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
+    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -967,7 +1041,9 @@
     "author": "João Pedro Leite",
     "publishedAt": "2026-07-08T12:00:00+00:00",
     "fetchedAt": "2026-07-08T13:47:15+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -975,7 +1051,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Meerkat: an experiment in global consensus",
+    "summary": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
     "summarySource": "extractive",
     "clusterId": "995cba7d0f0e8392",
     "lang": "en",
@@ -1013,6 +1089,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AOL.com (Google News)"
+  },
+  {
+    "id": "7e1194185e5261ed",
+    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
+    "url": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Steven Wallace",
+    "publishedAt": "2026-07-08T01:09:23+00:00",
+    "fetchedAt": "2026-07-21T01:58:43+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summarySource": "extractive",
+    "clusterId": "7e1194185e5261ed",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "870fe662e93ffac1",
@@ -1428,7 +1532,9 @@
     "author": "Ling Wu",
     "publishedAt": "2026-07-07T12:00:00+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1436,7 +1542,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "summary": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
     "summarySource": "extractive",
     "clusterId": "6f4bf3e98fe8397a",
     "lang": "en",
@@ -1548,7 +1654,9 @@
     "author": "Connor Harwood",
     "publishedAt": "2026-07-06T13:00:00+00:00",
     "fetchedAt": "2026-07-06T15:16:51+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1556,7 +1664,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your Worker can now have its own cache in front of it",
+    "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
     "summarySource": "extractive",
     "clusterId": "34e529a2fa92844f",
     "lang": "en",
@@ -1658,6 +1766,34 @@
     "attribution": "via infoq.com (Google News)"
   },
   {
+    "id": "ba567b547efd1264",
+    "title": "SSH key exchange failures when managing legacy network devices",
+    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tuwan Azgar Jaleel",
+    "publishedAt": "2026-07-02T22:37:20+00:00",
+    "fetchedAt": "2026-07-21T01:58:43+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summarySource": "extractive",
+    "clusterId": "ba567b547efd1264",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "1d16f334ab9080b9",
     "title": "What Actually Catches Threats in a Zeek Deployment?",
     "url": "https://zeek.org/2026/07/what-actually-catches-threats-in-a-zeek-deployment/",
@@ -1670,7 +1806,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1678,7 +1816,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What Actually Catches Threats in a Zeek Deployment?",
+    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -1793,7 +1931,9 @@
     "author": "Emily Lanfear",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1801,7 +1941,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
     "summarySource": "extractive",
     "clusterId": "faa365cefdf0f4b5",
     "lang": "en",
@@ -1821,7 +1961,9 @@
     "author": "Matthew Conroy",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1829,7 +1971,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Making AI search smarter",
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
     "summarySource": "extractive",
     "clusterId": "f9df4918a8e14436",
     "lang": "en",
@@ -1849,7 +1991,9 @@
     "author": "Will Papper",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -1857,7 +2001,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
     "summarySource": "extractive",
     "clusterId": "afae27bfbd6e396d",
     "lang": "en",
@@ -1877,7 +2021,9 @@
     "author": "Bryan Becker",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1885,7 +2031,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your site, your rules: new AI traffic options for all customers",
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
     "summarySource": "extractive",
     "clusterId": "6ed4f8aaa0e3b2e4",
     "lang": "en",
@@ -1905,7 +2051,9 @@
     "author": "Oliver Payne",
     "publishedAt": "2026-07-01T06:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1913,7 +2061,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unmasking the crawls with Attribution Business Insights",
+    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
     "summarySource": "extractive",
     "clusterId": "bf9bca10aabd74d0",
     "lang": "en",
@@ -2427,7 +2575,9 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2435,7 +2585,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There are humans here – how the Zeek project thinks about AI usage",
+    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -2455,7 +2605,9 @@
     "author": "André Venceslau",
     "publishedAt": "2026-06-25T13:00:00+00:00",
     "fetchedAt": "2026-06-25T14:10:23+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2463,7 +2615,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we built saga rollbacks for Cloudflare Workflows",
+    "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
     "summarySource": "extractive",
     "clusterId": "b0b23546f8beb4d8",
     "lang": "en",
@@ -2525,6 +2677,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Tech Times (Google News)"
+  },
+  {
+    "id": "9ba7ee21ac4099be",
+    "title": "[Podcast] What ‘name-based routing’ really means",
+    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
+    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-06-24T20:30:00+00:00",
+    "fetchedAt": "2026-07-21T01:58:43+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summarySource": "extractive",
+    "clusterId": "9ba7ee21ac4099be",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "7bca2b2e982427b5",
@@ -2599,7 +2779,9 @@
     "author": "Nick Comer",
     "publishedAt": "2026-06-24T06:00:00+00:00",
     "fetchedAt": "2026-06-24T14:12:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release",
@@ -2608,7 +2790,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+    "summary": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen.",
     "summarySource": "extractive",
     "clusterId": "cb9bc633d2fabb02",
     "lang": "en",
@@ -2628,7 +2810,9 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "thousandeyes"
     ],
@@ -2638,7 +2822,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
+    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -2720,7 +2904,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2728,7 +2914,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey Is Now Open",
+    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -2780,7 +2966,9 @@
     "author": "Matt Lewis",
     "publishedAt": "2026-06-22T18:00:00+00:00",
     "fetchedAt": "2026-06-22T18:59:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2788,7 +2976,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we found a bug in the hyper HTTP library",
+    "summary": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions.",
     "summarySource": "extractive",
     "clusterId": "009e730bc0fa29bb",
     "lang": "en",
@@ -2902,7 +3090,9 @@
     "author": "Brendan Irvine-Broque",
     "publishedAt": "2026-06-19T13:00:00+00:00",
     "fetchedAt": "2026-06-19T14:48:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2910,7 +3100,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Temporary Cloudflare Accounts for AI agents",
+    "summary": "The moment an agent needs to deploy something, it slams face-first into a wall built for humans. Today we're rolling out Temporary Accounts on Cloudflare Workers. Any agent can now run wrangler deploy — temporary and get a live Worker in seconds.",
     "summarySource": "extractive",
     "clusterId": "fd6b244d6a5f1630",
     "lang": "en",
@@ -3147,7 +3337,9 @@
     "author": "Grant Bourzikas",
     "publishedAt": "2026-06-18T17:59:40+00:00",
     "fetchedAt": "2026-06-18T20:14:59+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security"
@@ -3155,7 +3347,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Build your own vulnerability harness",
+    "summary": "We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.",
     "summarySource": "extractive",
     "clusterId": "3c6593d3e624a782",
     "lang": "en",
@@ -3477,7 +3669,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "standards"
+      "news"
     ],
     "audiences": [
       "global"
@@ -3857,7 +4049,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -4478,7 +4670,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4486,7 +4680,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey: Coming June 23",
+    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -4865,10 +5059,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-07-20T19:29:15+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -4876,7 +5067,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -5353,7 +5544,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5361,7 +5554,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
+    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -5568,7 +5761,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption infoq.com",
+    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption - infoq.com",
     "summarySource": "extractive",
     "clusterId": "945da4c859998397",
     "lang": "en",
@@ -8272,16 +8465,18 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-05-15T00:41:23+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "Introducing Zeek 8.2",
+    "summary": "The Zeek team is proud to announce Zeek 8.2! This release marks our final checkpoint on the road to Zeek 9, and rounds out our new ZeroMQ support in important ways. It also includes a range of new features and improvements, so let’s cover the highlights in this blog post.",
     "summarySource": "extractive",
     "clusterId": "b232fe27996653a6",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -9586,9 +9781,11 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-05-06T18:22:17+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
+    "summary": "Getting Zeek deployed is one thing. Keeping it running well is another, and it looks different for every environment. Last month, we asked the Zeek community: once Zeek is in production, what does the ongoing care actually look like?",
     "summarySource": "extractive",
     "clusterId": "76fcce421cbf27cc",
     "lang": "en",
@@ -10172,15 +10369,18 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-04-29T18:40:46+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
-    "summary": "How to Write Zeek Logs in JSON & TSV Simultaneously",
+    "summary": "Zeek can write the same log stream in multiple formats simultaneously. If you need JSON for your SIEM and TSV for long-term archives, you’re in luck: a few lines of code handles both. There are several reasons one might want two log formats simultaneously.",
     "summarySource": "extractive",
     "clusterId": "cc9114db17a053d9",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog",
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
@@ -10304,34 +10504,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
-  },
-  {
-    "id": "8f803313392af741",
-    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
-    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
-    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-04-28T18:52:08+00:00",
-    "fetchedAt": "2026-07-20T19:29:15+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
-    "summarySource": "extractive",
-    "clusterId": "8f803313392af741",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
@@ -10812,34 +10984,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "914cbbf93daa4ba9",
-    "title": "Ask the Prometheus docs with Kapa.ai",
-    "url": "https://prometheus.io/blog/2026/04/22/ask-the-prometheus-docs-with-kapa-ai/",
-    "canonicalUrl": "https://prometheus.io/blog/2026/04/22/ask-the-prometheus-docs-with-kapa-ai",
-    "source": {
-      "id": "prometheus-blog",
-      "name": "Prometheus Blog",
-      "homepage": "https://prometheus.io/blog"
-    },
-    "author": "Arthur Silva Sens (@ArthurSens)",
-    "publishedAt": "2026-04-22T00:00:00+00:00",
-    "fetchedAt": "2026-06-03T16:23:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Ask the Prometheus docs with Kapa.ai",
-    "summarySource": "extractive",
-    "clusterId": "914cbbf93daa4ba9",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Prometheus Blog"
   },
   {
     "id": "b8d959c346a1a7a1",
