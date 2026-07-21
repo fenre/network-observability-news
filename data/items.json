@@ -1,5 +1,98 @@
 [
   {
+    "id": "87b9be2f1613d7e1",
+    "title": "Cisco-Powered Networking, Managed by Lumen: Simple, Secure and Responsive",
+    "url": "https://blogs.cisco.com/networking/cisco-powered-networking-managed-by-lumen-simple-secure-and-responsive/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/cisco-powered-networking-managed-by-lumen-simple-secure-and-responsive",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Lee Peterson",
+    "publishedAt": "2026-07-21T16:00:34+00:00",
+    "fetchedAt": "2026-07-17T13:14:10+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Solve network fragmentation with Cisco and Lumen. Our managed service provides secure, reliable connectivity for critical environments like hospitals. Learn more.",
+    "summarySource": "extractive",
+    "clusterId": "87b9be2f1613d7e1",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
+    "id": "ba909b840b08367e",
+    "title": "Lean IT, future-ready: Three “ah-ha!” moments when small teams think big",
+    "url": "https://blogs.cisco.com/networking/lean-it-future-ready-three-ah-ha-moments-when-small-teams-think-big/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/lean-it-future-ready-three-ah-ha-moments-when-small-teams-think-big",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Miriam Kung",
+    "publishedAt": "2026-07-21T15:00:50+00:00",
+    "fetchedAt": "2026-07-21T19:07:52+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "From professional services to nonprofit wellness to fashion retail, get a glimpse of how Cisco customers are discovering new ways to connect securely, simplify operations, and scale with confidence.",
+    "summarySource": "extractive",
+    "clusterId": "ba909b840b08367e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
+    "id": "5f52a0c8ae0bf335",
+    "title": "The workforce has AI agents. The Wi-Fi network has…tickets.",
+    "url": "https://blogs.cisco.com/networking/the-workforce-has-ai-agents-the-wi-fi-network-hastickets/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/the-workforce-has-ai-agents-the-wi-fi-network-hastickets",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Amrit Nijjer",
+    "publishedAt": "2026-07-21T15:00:14+00:00",
+    "fetchedAt": "2026-07-21T19:07:52+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "AI agents need robust networks. Learn how to modernize your campus and branch Wi-Fi to move beyond reactive tickets and unlock AI-driven business growth.",
+    "summarySource": "extractive",
+    "clusterId": "5f52a0c8ae0bf335",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
     "id": "229ebf6f1daba406",
     "title": "How the 2026 World Cup affected Internet traffic",
     "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
@@ -50,7 +143,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
+    "summary": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
     "summarySource": "extractive",
     "clusterId": "17d8060b1d412bde",
     "lang": "en",
@@ -171,7 +264,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "summary": "Who's Running All Those Tiny RPKI Servers?",
     "summarySource": "extractive",
     "clusterId": "ba3a1ff39c67adc0",
     "lang": "en",
@@ -207,34 +300,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "87b9be2f1613d7e1",
-    "title": "Cisco-Powered Networking, Managed by Lumen: Simple, Secure and Responsive",
-    "url": "https://blogs.cisco.com/networking/cisco-powered-networking-managed-by-lumen-simple-secure-and-responsive/",
-    "canonicalUrl": "https://blogs.cisco.com/networking/cisco-powered-networking-managed-by-lumen-simple-secure-and-responsive",
-    "source": {
-      "id": "cisco-networking-blog",
-      "name": "Cisco Networking Blog",
-      "homepage": "https://blogs.cisco.com/networking"
-    },
-    "author": "Lee Peterson",
-    "publishedAt": "2026-07-17T13:00:34+00:00",
-    "fetchedAt": "2026-07-17T13:14:10+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco-Powered Networking, Managed by Lumen: Simple, Secure and Responsive",
-    "summarySource": "extractive",
-    "clusterId": "87b9be2f1613d7e1",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Networking Blog"
   },
   {
     "id": "96a707c0cb42f950",
@@ -312,8 +377,7 @@
     "publishedAt": "2026-07-16T10:16:57+00:00",
     "fetchedAt": "2026-07-16T19:00:21+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -322,7 +386,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse cyberpress.org",
+    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse - cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "e69474227cf5c759",
     "lang": "en",
@@ -788,34 +852,6 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "1f9fa7a192d39a63",
-    "title": "Life on the Internet adoption curve",
-    "url": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-07-12T22:53:59+00:00",
-    "fetchedAt": "2026-07-21T01:58:43+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Life on the Internet adoption curve",
-    "summarySource": "extractive",
-    "clusterId": "1f9fa7a192d39a63",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "af265c92f67a8d00",
     "title": "Inside the Packet: How Kubernetes Networking Actually Works at L3/L4 - Cloud Native Now",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3dKTDBTM0FraENpSmpfOHlqenpqRW9mdXo5OXVzcUJoXy1EM1FIX0pzTGlZR2pmU0FtRmlSdUkzLTF3aWExbndiWVJIbWdma1VjbWVPcHllOUlSTmRYNzRSUnJOSGd5eEZrM2xrbGplMEpoNWRGdEVmNGFqcTkwT0JkTnNpSUpDMV9US2kwLUQ3dzExOHZpVFBUdU1Pc193bzNRa0l0NFJhVDRlNFk3bW5kZ1V2QQ?oc=5",
@@ -872,35 +908,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "02388e08138ad979",
-    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
-    "url": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Tony Smith",
-    "publishedAt": "2026-07-10T09:20:25+00:00",
-    "fetchedAt": "2026-07-21T01:58:43+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "APNIC Publishes Submission to Malaysia Public Consultation",
-    "summarySource": "extractive",
-    "clusterId": "02388e08138ad979",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b7ecce91bb0ed51",
@@ -1006,7 +1013,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
       "standards"
     ],
     "audiences": [
@@ -1171,34 +1177,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via AOL.com (Google News)"
-  },
-  {
-    "id": "7e1194185e5261ed",
-    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
-    "url": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Steven Wallace",
-    "publishedAt": "2026-07-08T01:09:23+00:00",
-    "fetchedAt": "2026-07-21T01:58:43+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
-    "summarySource": "extractive",
-    "clusterId": "7e1194185e5261ed",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "870fe662e93ffac1",
@@ -1848,34 +1826,6 @@
     "attribution": "via infoq.com (Google News)"
   },
   {
-    "id": "ba567b547efd1264",
-    "title": "SSH key exchange failures when managing legacy network devices",
-    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Tuwan Azgar Jaleel",
-    "publishedAt": "2026-07-02T22:37:20+00:00",
-    "fetchedAt": "2026-07-21T01:58:43+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "SSH key exchange failures when managing legacy network devices",
-    "summarySource": "extractive",
-    "clusterId": "ba567b547efd1264",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "1d16f334ab9080b9",
     "title": "What Actually Catches Threats in a Zeek Deployment?",
     "url": "https://zeek.org/2026/07/what-actually-catches-threats-in-a-zeek-deployment/",
@@ -2336,34 +2286,6 @@
     "attribution": "via ExecutiveBiz (Google News)"
   },
   {
-    "id": "8c5f46f1fcce10ba",
-    "title": "ASPA Is Live. Can You See It Working?",
-    "url": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
-    "canonicalUrl": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Ritesh Mukherjee",
-    "publishedAt": "2026-06-29T06:40:15+00:00",
-    "fetchedAt": "2026-07-21T13:22:08+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network?",
-    "summarySource": "extractive",
-    "clusterId": "8c5f46f1fcce10ba",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "7dd50a7de11e2fe2",
     "title": "What's new - Splunk",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUDd1bnlnWDZQbmdvblhLcHUzQVJxZG5nYkUwOEowUU05RmRYX0JGQURpZXJmQUE5NGd4RXd5WDVPU21yMXpSYzR4Z0l3dkZnTE4xSnJKZHJCSFVBZmRHd0ZqMzZIUnlFMnJiejgxSno2bnFoYWFYcEJzeWdGa3lCZnhNMWVTRG1QNEVLNWxOaVdacGJKYmlnenJHZkRGc2RUbUc4cGpoa3l6WXZvbkpxLWJqNzFUNXBrSFNfd1BUMS04SXhoMnNOMXJsbFhwLXZ2Snl5NFNaNmxySHo1ejdN?oc=5",
@@ -2785,34 +2707,6 @@
     "attribution": "via Tech Times (Google News)"
   },
   {
-    "id": "9ba7ee21ac4099be",
-    "title": "[Podcast] What ‘name-based routing’ really means",
-    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
-    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-06-24T20:30:00+00:00",
-    "fetchedAt": "2026-07-21T01:58:43+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "[Podcast] What ‘name-based routing’ really means",
-    "summarySource": "extractive",
-    "clusterId": "9ba7ee21ac4099be",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "7bca2b2e982427b5",
     "title": "Don't Wrap OpenTelemetry — You're Probably Hurting More Than Helping",
     "url": "https://opentelemetry.io/blog/2026/dont-wrap-opentelemetry/",
@@ -3022,6 +2916,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
+  },
+  {
+    "id": "bab006ace6c6a5f6",
+    "title": "Install Splunk AI Assistant for Splunk Enterprise customers with Cloud Connected - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQRUZDeFVCWmtYY0MtRURYRmJWYmJHbnpfQ0dnb3FUTUxWRTFlYkgtejZ0dmVBMVVtbkx4bUExeXplMWhsT3lfRC1FSVlLUXBmSDVzeUdqdGUya1Q5TFZmclQ2bW5odHhteXVkT3o4eTBMTTNCc3FXUTI5VFpKZlNub2FQdjNwRUhrZDh6cllqdzhSbnNhS3paMTdINzY3eUhfUXJTZEJJb2RrVXZtOW1NWk5HaHhPTVpLNFk4SDM1SDcybFV3bEtZRlpMbHlLZ2NQMld3QUExVVAwNzdaT0Z4NVFDeUUwQVpJQ29QZG8zX1VvdmJrX2o2UElvWlFnSDhjamdpSzFDejI5Qk1abEZ4TXpoN3hxM0I0c3hld0VHNUNhWXpqdk9Md3dzWEw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQRUZDeFVCWmtYY0MtRURYRmJWYmJHbnpfQ0dnb3FUTUxWRTFlYkgtejZ0dmVBMVVtbkx4bUExeXplMWhsT3lfRC1FSVlLUXBmSDVzeUdqdGUya1Q5TFZmclQ2bW5odHhteXVkT3o4eTBMTTNCc3FXUTI5VFpKZlNub2FQdjNwRUhrZDh6cllqdzhSbnNhS3paMTdINzY3eUhfUXJTZEJJb2RrVXZtOW1NWk5HaHhPTVpLNFk4SDM1SDcybFV3bEtZRlpMbHlLZ2NQMld3QUExVVAwNzdaT0Z4NVFDeUUwQVpJQ29QZG8zX1VvdmJrX2o2UElvWlFnSDhjamdpSzFDejI5Qk1abEZ4TXpoN3hxM0I0c3hld0VHNUNhWXpqdk9Md3dzWEw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-06-23T07:00:00+00:00",
+    "fetchedAt": "2026-07-21T19:07:52+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Install Splunk AI Assistant for Splunk Enterprise customers with Cloud Connected Splunk",
+    "summarySource": "extractive",
+    "clusterId": "bab006ace6c6a5f6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "5acfbc461c4fae9a",
@@ -3618,10 +3542,7 @@
     "author": "Ameya Ahir",
     "publishedAt": "2026-06-17T15:00:58+00:00",
     "fetchedAt": "2026-06-17T20:04:36+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3629,7 +3550,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI can transform wireless management and operations, but it also accelerates security threats. But wireless security has also evolved: Modern standards like WPA3, available on Wi‑Fi 7, deliver stronger protection without adding operational burden.",
+    "summary": "Lean IT, future-ready: Why adopting WPA3 for Wi‑Fi 7 is easier than you think",
     "summarySource": "extractive",
     "clusterId": "a2d856c850f39e51",
     "lang": "en",
@@ -4127,6 +4048,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AD HOC NEWS (Google News)"
+  },
+  {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-07-21T19:07:52+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "6d5c47fbd8de35f2",
@@ -5038,10 +4987,7 @@
     "author": "Lee Peterson",
     "publishedAt": "2026-06-08T15:00:16+00:00",
     "fetchedAt": "2026-06-08T15:35:49+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -5049,7 +4995,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At Cisco Live 2026 Las Vegas, Cisco introduces a new branch and WAN architecture for the AI era, with AgenticOps, quantum-resilient security, simplified operations, and the expanded Cisco 8000 Series Secure Routers family.",
+    "summary": "Powering the AI-ready branch with agentic operations and quantum-era security",
     "summarySource": "extractive",
     "clusterId": "ec33b70fd1f64029",
     "lang": "en",
@@ -5115,6 +5061,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
+  },
+  {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-07-21T19:07:52+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "923a55dacc21d28b",
@@ -5644,10 +5621,7 @@
     "author": "Joe Vaccaro",
     "publishedAt": "2026-06-02T12:50:53+00:00",
     "fetchedAt": "2026-06-02T16:08:27+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -5655,7 +5629,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco AgenticOps transforms network operations by combining AI-driven agents with human oversight to deliver trusted, autonomous, and accountable IT workflows that detect, diagnose, remediate, and validate issues, ensuring seamless user experience.",
+    "summary": "From signal to action: The next step in Cisco AgenticOps",
     "summarySource": "extractive",
     "clusterId": "37225c6eeb13882a",
     "lang": "en",
@@ -8543,7 +8517,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk OT Intelligence release notes Splunk",
+    "summary": "Splunk OT Intelligence release notes - Splunk",
     "summarySource": "extractive",
     "clusterId": "a67d3b78d5183b33",
     "lang": "en",
@@ -10531,12 +10505,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Amazon CloudWatch Introduces OpenTelemetry Metrics Support in Preview infoq.com",
+    "summary": "Amazon CloudWatch Introduces OpenTelemetry Metrics Support in Preview - infoq.com",
     "summarySource": "extractive",
     "clusterId": "8caa2ddf5c6c4514",
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
+  },
+  {
+    "id": "8f803313392af741",
+    "title": "Zenarmor Tackles Zero Trust, Secure Access with a Custom Security Stack: RSA 2026 Briefing Note",
+    "url": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note/",
+    "canonicalUrl": "https://packetpushers.net/blog/zenarmor-tackles-zero-trust-secure-access-with-a-custom-security-stack-rsa-2026-briefing-note",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-04-28T18:52:08+00:00",
+    "fetchedAt": "2026-07-21T19:07:52+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zenarmor competes in the secure network access space. It provides zero trust networking with access policies that can be enforced according to user identity, device posture and location, and application type. It provides a comprehensive suite of home-grown security controls, and incorporates WireGuard as an overlay to build private mesh networks.",
+    "summarySource": "extractive",
+    "clusterId": "8f803313392af741",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "a20d4962fa3ff3d9",
