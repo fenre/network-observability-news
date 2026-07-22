@@ -10,7 +10,7 @@
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
-    "publishedAt": "2026-07-21T19:32:25+00:00",
+    "publishedAt": "2026-07-22T01:32:25+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
@@ -562,38 +562,6 @@
     "attribution": "via Zeek Blog"
   },
   {
-    "id": "feb4cb34b4f289b4",
-    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - Amazon Web Services (AWS)",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
-    "source": {
-      "id": "gnews-opentelemetry-network",
-      "name": "Amazon Web Services (AWS)",
-      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-07-14T13:37:01+00:00",
-    "fetchedAt": "2026-07-15T01:46:22+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline Amazon Web Services (AWS)",
-    "summarySource": "extractive",
-    "clusterId": "feb4cb34b4f289b4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Amazon Web Services (AWS) (Google News)"
-  },
-  {
     "id": "d581d2da960fb300",
     "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
     "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
@@ -684,6 +652,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "feb4cb34b4f289b4",
+    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - Amazon Web Services (AWS)",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
+    "source": {
+      "id": "gnews-opentelemetry-network",
+      "name": "Amazon Web Services (AWS)",
+      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-07-14T07:00:00+00:00",
+    "fetchedAt": "2026-07-15T01:46:22+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline Amazon Web Services (AWS)",
+    "summarySource": "extractive",
+    "clusterId": "feb4cb34b4f289b4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Amazon Web Services (AWS) (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -796,7 +796,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summary": "Life on the Internet adoption curve",
     "summarySource": "extractive",
     "clusterId": "1f9fa7a192d39a63",
     "lang": "en",
@@ -883,7 +883,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summary": "APNIC Publishes Submission to Malaysia Public Consultation",
     "summarySource": "extractive",
     "clusterId": "02388e08138ad979",
     "lang": "en",
@@ -998,7 +998,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
+    "summary": "ASPA at APNIC: Strengthening BGP path validation",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -1058,7 +1058,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
+    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -1176,7 +1176,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summary": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
     "summarySource": "extractive",
     "clusterId": "7e1194185e5261ed",
     "lang": "en",
@@ -1353,7 +1353,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1444,8 +1444,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1580,7 +1579,7 @@
   },
   {
     "id": "88a8d0573fdb3591",
-    "title": "Cisco SD-WAN Vulnerability: 7 Zero-Days in 2026 - tech-insider.org",
+    "title": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] - tech-insider.org",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xY2x2YV8zZ1JRRkY5TDFmdmhhMGhZTEk5WDNBeDAwQ1ZJc0hwWVY0NEkySWxKb1ZXMXpvXzB0WER0SlhSRHp4ZjVITjdwZW9jVGEtS0V4QWg2VDdKdnhUM1lJQWNROEM4?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xY2x2YV8zZ1JRRkY5TDFmdmhhMGhZTEk5WDNBeDAwQ1ZJc0hwWVY0NEkySWxKb1ZXMXpvXzB0WER0SlhSRHp4ZjVITjdwZW9jVGEtS0V4QWg2VDdKdnhUM1lJQWNROEM4?oc=5",
     "source": {
@@ -1589,7 +1588,7 @@
       "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
     },
     "author": null,
-    "publishedAt": "2026-07-07T08:16:32+00:00",
+    "publishedAt": "2026-07-07T07:00:00+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
     "topics": [],
     "tags": [],
@@ -1599,7 +1598,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN Vulnerability: 7 Zero-Days in 2026 - tech-insider.org",
+    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "88a8d0573fdb3591",
     "lang": "en",
@@ -1654,8 +1653,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "outage"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -1812,7 +1810,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summary": "SSH key exchange failures when managing legacy network devices",
     "summarySource": "extractive",
     "clusterId": "ba567b547efd1264",
     "lang": "en",
@@ -2105,7 +2103,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2715,7 +2713,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Internet routing is shifting from IP-based forwarding to name-based decisions, with DNS and intermediaries steering requests. How does this work in practice, and who decides where your request is served from?",
+    "summary": "[Podcast] What ‘name-based routing’ really means",
     "summarySource": "extractive",
     "clusterId": "9ba7ee21ac4099be",
     "lang": "en",
@@ -2826,9 +2824,7 @@
     "author": "Kemal Sanjta",
     "publishedAt": "2026-06-24T05:04:25+00:00",
     "fetchedAt": "2026-06-24T08:56:30+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "thousandeyes"
     ],
@@ -2838,7 +2834,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: BGP stuck routes remain an important problem for network operators. To help bridge this visibility gap, Cisco ThousandEyes introduced a methodology for measuring the prevalence of stuck routes: The BGP Clock.",
+    "summary": "Hunting stuck routes with the BGP Clock and the BGP Stuck Route Observatory",
     "summarySource": "extractive",
     "clusterId": "118c513dda6a0735",
     "lang": "en",
@@ -4059,34 +4055,6 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
-    "id": "5c2505b4acedac6d",
-    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
-    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-06-15T13:02:36+00:00",
-    "fetchedAt": "2026-07-21T19:07:52+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "summarySource": "extractive",
-    "clusterId": "5c2505b4acedac6d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -5072,34 +5040,6 @@
     "attribution": "via Sahm (Google News)"
   },
   {
-    "id": "618b90329c9790cd",
-    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
-    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-06-05T18:29:57+00:00",
-    "fetchedAt": "2026-07-21T19:07:52+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "summarySource": "extractive",
-    "clusterId": "618b90329c9790cd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "923a55dacc21d28b",
     "title": "Your AI bill is out of control. Cloudflare can fix it now.",
     "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
@@ -5507,7 +5447,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6049,7 +5989,7 @@
     "license": null,
     "attribution": "via Cisco Data Center Blog",
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -10163,7 +10103,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
     "summarySource": "extractive",
     "clusterId": "434f16427de9a2e9",
     "lang": "en",
@@ -10912,38 +10852,6 @@
     "attribution": "via RIPE Labs",
     "categories": [
       "news"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "2ce3fd917f03ca89",
-    "title": "Deprecating OpenTracing compatibility requirements",
-    "url": "https://opentelemetry.io/blog/2026/deprecating-opentracing-compatibility/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/deprecating-opentracing-compatibility",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-04-23T07:54:39+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "summary": "On March 19, 2026, the OpenTelemetry Specification project merged PR #4938 , deprecating OpenTracing compatibility requirements in the specification. This change updates the specification to match where the ecosystem already is: OpenTracing has been archived for years, and new integrations are expected to use native OpenTelemetry APIs and SDKs instead of building on OpenTracing shim requirements. This is a deprecation of specification requirements, not an immediate removal of compatibility material and not a requirement to remove existing shim artifacts right away.",
-    "summarySource": "extractive",
-    "clusterId": "2ce3fd917f03ca89",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog",
-    "categories": [
-      "tutorial"
     ],
     "audiences": [
       "global"
