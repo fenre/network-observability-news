@@ -1,5 +1,33 @@
 [
   {
+    "id": "c06f5e3bc6364366",
+    "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
+    "url": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there/",
+    "canonicalUrl": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Md.Kamruzzaman Khan",
+    "publishedAt": "2026-07-22T11:29:16+00:00",
+    "fetchedAt": "2026-07-22T13:26:39+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "When Bangladesh vanished from the global routing table in July 2024, public routing data captured the event as it unfolded. Drawing on first-hand observations from inside one affected network, this article explores what that data can and cannot tell us.",
+    "summarySource": "extractive",
+    "clusterId": "c06f5e3bc6364366",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "b371ae0584668e9d",
     "title": "2026 network outage report and internet health check - Network World",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
@@ -10,7 +38,7 @@
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
-    "publishedAt": "2026-07-22T01:32:25+00:00",
+    "publishedAt": "2026-07-22T07:32:25+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
@@ -142,6 +170,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "17d8060b1d412bde",
+    "title": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
+    "url": "https://labs.ripe.net/author/antonio-prado/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
+    "canonicalUrl": "https://labs.ripe.net/author/antonio-prado/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Antonio Prado",
+    "publishedAt": "2026-07-21T12:33:47+00:00",
+    "fetchedAt": "2026-07-22T13:26:39+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
+    "summarySource": "extractive",
+    "clusterId": "17d8060b1d412bde",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "ee07d4bde1d2c985",
     "title": "Cloudflare Internal DNS is now generally available",
     "url": "https://blog.cloudflare.com/internal-dns/",
@@ -230,6 +286,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Developer Blog"
+  },
+  {
+    "id": "ba3a1ff39c67adc0",
+    "title": "Who's Running All Those Tiny RPKI Servers?",
+    "url": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
+    "canonicalUrl": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ties Dirksen",
+    "publishedAt": "2026-07-20T07:57:23+00:00",
+    "fetchedAt": "2026-07-22T13:26:39+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "summarySource": "extractive",
+    "clusterId": "ba3a1ff39c67adc0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "94e757d0087eed24",
@@ -335,7 +419,8 @@
     "publishedAt": "2026-07-16T10:16:57+00:00",
     "fetchedAt": "2026-07-16T19:00:21+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -344,7 +429,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse - cyberpress.org",
+    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "e69474227cf5c759",
     "lang": "en",
@@ -776,34 +861,6 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "1f9fa7a192d39a63",
-    "title": "Life on the Internet adoption curve",
-    "url": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-07-12T22:53:59+00:00",
-    "fetchedAt": "2026-07-22T01:57:17+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Life on the Internet adoption curve",
-    "summarySource": "extractive",
-    "clusterId": "1f9fa7a192d39a63",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "af265c92f67a8d00",
     "title": "Inside the Packet: How Kubernetes Networking Actually Works at L3/L4 - Cloud Native Now",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3dKTDBTM0FraENpSmpfOHlqenpqRW9mdXo5OXVzcUJoXy1EM1FIX0pzTGlZR2pmU0FtRmlSdUkzLTF3aWExbndiWVJIbWdma1VjbWVPcHllOUlSTmRYNzRSUnJOSGd5eEZrM2xrbGplMEpoNWRGdEVmNGFqcTkwT0JkTnNpSUpDMV9US2kwLUQ3dzExOHZpVFBUdU1Pc193bzNRa0l0NFJhVDRlNFk3bW5kZ1V2QQ?oc=5",
@@ -860,35 +917,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "02388e08138ad979",
-    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
-    "url": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Tony Smith",
-    "publishedAt": "2026-07-10T09:20:25+00:00",
-    "fetchedAt": "2026-07-22T01:57:17+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "APNIC Publishes Submission to Malaysia Public Consultation",
-    "summarySource": "extractive",
-    "clusterId": "02388e08138ad979",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b7ecce91bb0ed51",
@@ -957,7 +985,7 @@
       "homepage": "https://blog.cloudflare.com"
     },
     "author": "Christopher Patton",
-    "publishedAt": "2026-07-09T13:40:47+00:00",
+    "publishedAt": "2026-07-09T14:00:00+00:00",
     "fetchedAt": "2026-07-09T14:39:15+00:00",
     "topics": [
       "network-observability"
@@ -969,7 +997,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
+    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
     "summarySource": "extractive",
     "clusterId": "fe867475c1adacab",
     "lang": "en",
@@ -992,7 +1020,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
       "standards"
     ],
     "audiences": [
@@ -1154,34 +1181,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via AOL.com (Google News)"
-  },
-  {
-    "id": "7e1194185e5261ed",
-    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
-    "url": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Steven Wallace",
-    "publishedAt": "2026-07-08T01:09:23+00:00",
-    "fetchedAt": "2026-07-22T01:57:17+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
-    "summarySource": "extractive",
-    "clusterId": "7e1194185e5261ed",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "870fe662e93ffac1",
@@ -1790,34 +1789,6 @@
     "attribution": "via infoq.com (Google News)"
   },
   {
-    "id": "ba567b547efd1264",
-    "title": "SSH key exchange failures when managing legacy network devices",
-    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
-    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Tuwan Azgar Jaleel",
-    "publishedAt": "2026-07-02T22:37:20+00:00",
-    "fetchedAt": "2026-07-22T01:57:17+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "SSH key exchange failures when managing legacy network devices",
-    "summarySource": "extractive",
-    "clusterId": "ba567b547efd1264",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "1d16f334ab9080b9",
     "title": "What Actually Catches Threats in a Zeek Deployment?",
     "url": "https://zeek.org/2026/07/what-actually-catches-threats-in-a-zeek-deployment/",
@@ -2272,6 +2243,34 @@
     "attribution": "via ExecutiveBiz (Google News)"
   },
   {
+    "id": "8c5f46f1fcce10ba",
+    "title": "ASPA Is Live. Can You See It Working?",
+    "url": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
+    "canonicalUrl": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ritesh Mukherjee",
+    "publishedAt": "2026-06-29T06:40:15+00:00",
+    "fetchedAt": "2026-07-22T13:26:39+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network?",
+    "summarySource": "extractive",
+    "clusterId": "8c5f46f1fcce10ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "7dd50a7de11e2fe2",
     "title": "What's new - Splunk",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUDd1bnlnWDZQbmdvblhLcHUzQVJxZG5nYkUwOEowUU05RmRYX0JGQURpZXJmQUE5NGd4RXd5WDVPU21yMXpSYzR4Z0l3dkZnTE4xSnJKZHJCSFVBZmRHd0ZqMzZIUnlFMnJiejgxSno2bnFoYWFYcEJzeWdGa3lCZnhNMWVTRG1QNEVLNWxOaVdacGJKYmlnenJHZkRGc2RUbUc4cGpoa3l6WXZvbkpxLWJqNzFUNXBrSFNfd1BUMS04SXhoMnNOMXJsbFhwLXZ2Snl5NFNaNmxySHo1ejdN?oc=5",
@@ -2691,34 +2690,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Tech Times (Google News)"
-  },
-  {
-    "id": "9ba7ee21ac4099be",
-    "title": "[Podcast] What ‘name-based routing’ really means",
-    "url": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means/",
-    "canonicalUrl": "https://blog.apnic.net/2026/06/25/podcast-what-name-based-routing-really-means",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-06-24T20:30:00+00:00",
-    "fetchedAt": "2026-07-22T01:57:17+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "[Podcast] What ‘name-based routing’ really means",
-    "summarySource": "extractive",
-    "clusterId": "9ba7ee21ac4099be",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "7bca2b2e982427b5",
@@ -5735,6 +5706,7 @@
     "publishedAt": "2026-06-02T07:00:00+00:00",
     "fetchedAt": "2026-06-02T20:38:19+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -5746,7 +5718,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes - ThousandEyes",
+    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "863aec017166a31b",
     "lang": "en",
@@ -10103,7 +10075,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten Digi.no",
+    "summary": "Studie: «Forgiftning» av KI-modeller truer påliteligheten - Digi.no",
     "summarySource": "extractive",
     "clusterId": "434f16427de9a2e9",
     "lang": "en",
@@ -10824,34 +10796,6 @@
     "attribution": "via Zeek Blog",
     "categories": [
       "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "3737131026706da4",
-    "title": "Understanding DDoS Scrubbing in BGP: Five Leading Scrubbers",
-    "url": "https://labs.ripe.net/author/shyam-krishna-khadka/understanding-ddos-scrubbing-in-bgp-five-leading-scrubbers/",
-    "canonicalUrl": "https://labs.ripe.net/author/shyam-krishna-khadka/understanding-ddos-scrubbing-in-bgp-five-leading-scrubbers",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Shyam Krishna Khadka",
-    "publishedAt": "2026-04-23T11:12:40+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Understanding DDoS Scrubbing in BGP: Five Leading Scrubbers",
-    "summarySource": "extractive",
-    "clusterId": "3737131026706da4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs",
-    "categories": [
-      "news"
     ],
     "audiences": [
       "global"
