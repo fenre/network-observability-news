@@ -1,5 +1,35 @@
 [
   {
+    "id": "ff13c1a5013baae9",
+    "title": "Who Is Eating My Bandwidth ?",
+    "url": "https://www.ntop.org/who-is-eating-my-bandwidth/",
+    "canonicalUrl": "https://www.ntop.org/who-is-eating-my-bandwidth",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-07-26T17:31:00+00:00",
+    "fetchedAt": "2026-07-26T19:00:33+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Every network administrator has, at some point, asked the same question: who is eating my bandwidth? On a typical corporate LAN connected via flat-rate fiber, the answer is mostly a curiosity — useful for capacity planning, less so for the monthly bill. But the moment your network relies on a metered link — a 4G/5G […]",
+    "summarySource": "extractive",
+    "clusterId": "ff13c1a5013baae9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "438a7ff3adc2a75c",
     "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
     "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
@@ -7283,7 +7313,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - DevOps.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability DevOps.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -10867,7 +10897,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "Wazuh is a free, open-source security platform that combines SIEM (Security Information and Event Management) and XDR (Extended Detection and Response) capabilities. It is primarily used to monitor endpoints, cloud workloads, and containers to detect threats, ensure compliance, and respond to incidents in real-time. Integrating Wazuh with ntopng creates a powerful security layer by bridging […]",
+    "summary": "Merging ntopng Asset Inventory with Wazuh",
     "summarySource": "extractive",
     "clusterId": "68c7376adc8520ce",
     "lang": "en",
