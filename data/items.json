@@ -156,7 +156,7 @@
   },
   {
     "id": "6cf5286b02afc09d",
-    "title": "Splunk Zero-Day: CVSS 9.8, 3-Day CISA Deadline [2026] - tech-insider.org",
+    "title": "Splunk Zero-Day CVE-2026-20253: CVSS 9.8, CISA KEV [2026] - tech-insider.org",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TOFZNUjhmY0RfekMyRVY2dDZnT0lkXzZYYTBobnJjb1BtSV9SblJmZFpkR2NDMThEekhmak9uOGNGWnhkWHdHM2YzRWpPeUptMGF0alpCRFVUa1VLRVZmVVJWa2hiQzA?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TOFZNUjhmY0RfekMyRVY2dDZnT0lkXzZYYTBobnJjb1BtSV9SblJmZFpkR2NDMThEekhmak9uOGNGWnhkWHdHM2YzRWpPeUptMGF0alpCRFVUa1VLRVZmVVJWa2hiQzA?oc=5",
     "source": {
@@ -168,7 +168,8 @@
     "publishedAt": "2026-07-24T03:30:00+00:00",
     "fetchedAt": "2026-07-24T13:22:17+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -178,7 +179,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Zero-Day: CVSS 9.8, 3-Day CISA Deadline [2026] - tech-insider.org",
+    "summary": "Splunk Zero-Day CVE-2026-20253: CVSS 9.8, CISA KEV [2026] tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "6cf5286b02afc09d",
     "lang": "en",
@@ -206,7 +207,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking The Fast Mode",
+    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "e509dc7d3ef80fe8",
     "lang": "en",
@@ -408,7 +409,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:38+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -416,7 +419,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 3)",
+    "summary": "This is Part 3 of a three-part series. Read Part 1 and Part 2. Introduction Back in Part 1 and Part 2, we presented our motivational package, ip-distance, how you can easily write unit tests in BTest, and how you can generate events—either by hand or through Zeek’s event tracing utility—to test your Zeek content. […]",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -436,7 +439,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:24+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -444,7 +449,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 2)",
+    "summary": "This is Part 2 of a three-part series. Read Part 1 and Part 3. Introduction In the previous part of this blog series, we presented our motivational package, ip-distance, and how you can easily write unit tests in BTest.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -464,7 +469,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:10+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -472,7 +479,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 1)",
+    "summary": "This is Part 1 of a three-part series. Read Part 2 and Part 3. Introduction As someone who ships a lot of Zeek packages to production, I’m always looking for ways to improve package testing.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -538,6 +545,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via TechTarget (Google News)"
+  },
+  {
+    "id": "68e7fbb9db5c7fd5",
+    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
+    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-07-22T15:54:49+00:00",
+    "fetchedAt": "2026-07-28T01:52:21+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
+    "summarySource": "extractive",
+    "clusterId": "68e7fbb9db5c7fd5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "c06f5e3bc6364366",
@@ -1257,7 +1295,9 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T08:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1265,7 +1305,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Spicy vs. Binpac Performance, One Year Later",
+    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -1560,7 +1600,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-09T11:33:40+00:00",
     "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1568,7 +1610,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’ve Updated the Zeek Contribution Guide",
+    "summary": "A lot of people who use Zeek have never contributed to it. Not because they don’t have anything to offer, but because they don’t know where to start or assume contributing means writing code they’re not confident in. That gap showed up directly in the feedback from last year’s community survey.",
     "summarySource": "extractive",
     "clusterId": "2b7ecce91bb0ed51",
     "lang": "en",
@@ -1600,7 +1642,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Infoblox to acquire Kentik in DNS and network observability deal CRN Asia",
+    "summary": "Infoblox to acquire Kentik in DNS and network observability deal - CRN Asia",
     "summarySource": "extractive",
     "clusterId": "3d49e2beaf4f3f4b",
     "lang": "en",
@@ -1749,7 +1791,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apica Grows Global SI Partner Network on the Strength of its Agentic-Ready, OpenTelemetry-Native Pipeline AOL.com",
+    "summary": "Apica Grows Global SI Partner Network on the Strength of its Agentic-Ready, OpenTelemetry-Native Pipeline - AOL.com",
     "summarySource": "extractive",
     "clusterId": "fa1d6bf14da1a35f",
     "lang": "en",
@@ -2416,7 +2458,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2424,7 +2468,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What Actually Catches Threats in a Zeek Deployment?",
+    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -3213,7 +3257,9 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3221,7 +3267,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There are humans here – how the Zeek project thinks about AI usage",
+    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -3510,7 +3556,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3518,7 +3566,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey Is Now Open",
+    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -4652,6 +4700,34 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-07-28T01:52:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -5295,7 +5371,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5303,7 +5381,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey: Coming June 23",
+    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -5665,6 +5743,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
+  },
+  {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-07-28T01:52:21+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "923a55dacc21d28b",
@@ -6136,7 +6245,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6144,7 +6255,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
+    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
