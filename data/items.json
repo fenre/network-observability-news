@@ -1,5 +1,33 @@
 [
   {
+    "id": "710e00c2f52ffc01",
+    "title": "Groundcover raises $100M as observability pivots from monitoring to AI infrastructure - Network World",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQODNXR2d5OUlKLWRoM0wwc1ZvOUYtWTdRTk9NakY4ZEtualVqXy1wUDBwQ0ZwYXo2Y2hJczk4VGhOeXdqSmlUNHVNeXBobDhsZnhZNTNFNHNvcUNRazNMdjQ2Y3YwR2x0Wlh6VWR4LXlGRFBLVU5pSkJmNEY3WjBvbkw2dXBUZk1IOW5TU0lpbUYxelhQOTdqb2tiTHkyeUlFSThkQjQwUi1FQzBQVmdvZzlUU2drZlBMSm9KRUpEOEFKbm5DWkJSUEM5VHgyaW8?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQODNXR2d5OUlKLWRoM0wwc1ZvOUYtWTdRTk9NakY4ZEtualVqXy1wUDBwQ0ZwYXo2Y2hJczk4VGhOeXdqSmlUNHVNeXBobDhsZnhZNTNFNHNvcUNRazNMdjQ2Y3YwR2x0Wlh6VWR4LXlGRFBLVU5pSkJmNEY3WjBvbkw2dXBUZk1IOW5TU0lpbUYxelhQOTdqb2tiTHkyeUlFSThkQjQwUi1FQzBQVmdvZzlUU2drZlBMSm9KRUpEOEFKbm5DWkJSUEM5VHgyaW8?oc=5",
+    "source": {
+      "id": "gnews-network-observability",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+    },
+    "author": null,
+    "publishedAt": "2026-07-31T17:13:01+00:00",
+    "fetchedAt": "2026-08-01T02:06:57+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Groundcover raises $100M as observability pivots from monitoring to AI infrastructure Network World",
+    "summarySource": "extractive",
+    "clusterId": "710e00c2f52ffc01",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)"
+  },
+  {
     "id": "45b0586e1de4dbf1",
     "title": "An API for MoQ: provision your own isolated relays",
     "url": "https://blog.cloudflare.com/moq-relays/",
@@ -12,7 +40,9 @@
     "author": "Mike English",
     "publishedAt": "2026-07-31T13:00:00+00:00",
     "fetchedAt": "2026-07-31T13:47:02+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -20,7 +50,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "An API for MoQ: provision your own isolated relays",
+    "summary": "Last year we made every Cloudflare server a Media over QUIC (MoQ) relay. Now the new provisioning API lets you create your own isolated relay and control who can publish and who can only watch.",
     "summarySource": "extractive",
     "clusterId": "45b0586e1de4dbf1",
     "lang": "en",
@@ -135,7 +165,9 @@
     "author": "Simona Badoiu",
     "publishedAt": "2026-07-30T13:00:00+00:00",
     "fetchedAt": "2026-07-30T13:42:27+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -143,7 +175,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+    "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
     "summarySource": "extractive",
     "clusterId": "ac6d7c759f98feac",
     "lang": "en",
@@ -219,7 +251,9 @@
     "author": "Kevin Guthrie",
     "publishedAt": "2026-07-29T13:00:00+00:00",
     "fetchedAt": "2026-07-29T13:52:07+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -227,7 +261,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Post-quantum authentication to origins is now supported",
+    "summary": "Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providing PQ authentication for all Cloudflare products.",
     "summarySource": "extractive",
     "clusterId": "dc650289861112ed",
     "lang": "en",
@@ -259,7 +293,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you’ve opened ntopng recently, you may have noticed something feels a little different — a little faster. That’s not your imagination. We’ve rebuilt the main menu, footer and top header, interfaces selector and the preferences pages using Vue.js, the first step in a broader effort to modernize ntopng’s entire interface.",
+    "summary": "Supercharging ntopng: Engineering a Fast, Modern Network GUI",
     "summarySource": "extractive",
     "clusterId": "b7be6ebcd9c9661f",
     "lang": "en",
@@ -309,7 +343,9 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-07-28T13:00:00+00:00",
     "fetchedAt": "2026-07-28T13:47:12+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -317,7 +353,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
+    "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
     "summarySource": "extractive",
     "clusterId": "4fc13a075def04de",
     "lang": "en",
@@ -428,7 +464,9 @@
     "author": "Fisher Darling",
     "publishedAt": "2026-07-27T13:00:00+00:00",
     "fetchedAt": "2026-07-27T14:15:23+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -436,7 +474,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’re open-sourcing our privacy proxy CLI",
+    "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
     "summarySource": "extractive",
     "clusterId": "7c2ba6f8ee876851",
     "lang": "en",
@@ -487,9 +525,7 @@
     "author": "admin",
     "publishedAt": "2026-07-26T17:31:00+00:00",
     "fetchedAt": "2026-07-26T19:00:33+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -499,7 +535,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every network administrator has, at some point, asked the same question: who is eating my bandwidth? On a typical corporate LAN connected via flat-rate fiber, the answer is mostly a curiosity — useful for capacity planning, less so for the monthly bill. But the moment your network relies on a metered link — a 4G/5G […]",
+    "summary": "Who Is Eating My Bandwidth ?",
     "summarySource": "extractive",
     "clusterId": "ff13c1a5013baae9",
     "lang": "en",
@@ -519,7 +555,9 @@
     "author": "Bryton Herdes",
     "publishedAt": "2026-07-24T17:25:28+00:00",
     "fetchedAt": "2026-07-24T19:15:41+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "standards"
@@ -527,7 +565,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+    "summary": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
     "summarySource": "extractive",
     "clusterId": "438a7ff3adc2a75c",
     "lang": "en",
@@ -607,7 +645,9 @@
     "author": "Anthony Turcios",
     "publishedAt": "2026-07-23T18:40:38+00:00",
     "fetchedAt": "2026-07-23T19:03:27+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -615,7 +655,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Cache Response Rules",
+    "summary": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
     "summarySource": "extractive",
     "clusterId": "f0d23dd320ac6d0c",
     "lang": "en",
@@ -952,6 +992,37 @@
     "attribution": "via TechTarget (Google News)"
   },
   {
+    "id": "68e7fbb9db5c7fd5",
+    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
+    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-07-22T15:54:49+00:00",
+    "fetchedAt": "2026-08-01T02:06:57+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
+    "summarySource": "extractive",
+    "clusterId": "68e7fbb9db5c7fd5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "c06f5e3bc6364366",
     "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "url": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there/",
@@ -1115,7 +1186,9 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-07-21T12:59:40+00:00",
     "fetchedAt": "2026-07-21T13:22:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1123,7 +1196,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How the 2026 World Cup affected Internet traffic",
+    "summary": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
     "summarySource": "extractive",
     "clusterId": "229ebf6f1daba406",
     "lang": "en",
@@ -1241,7 +1314,9 @@
     "author": "Hannes Gerhart",
     "publishedAt": "2026-07-20T20:59:31+00:00",
     "fetchedAt": "2026-07-21T01:58:43+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -1249,7 +1324,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare Internal DNS is now generally available",
+    "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
     "summarySource": "extractive",
     "clusterId": "ee07d4bde1d2c985",
     "lang": "en",
@@ -1332,7 +1407,9 @@
     "author": "Vikram Grover",
     "publishedAt": "2026-07-17T21:30:43+00:00",
     "fetchedAt": "2026-07-18T01:49:38+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1340,7 +1417,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+    "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
     "summarySource": "extractive",
     "clusterId": "94e757d0087eed24",
     "lang": "en",
@@ -1666,7 +1743,9 @@
     "author": "Sebastiaan Neuteboom",
     "publishedAt": "2026-07-14T13:00:00+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1674,7 +1753,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
+    "summary": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
     "summarySource": "extractive",
     "clusterId": "d581d2da960fb300",
     "lang": "en",
@@ -1847,7 +1926,9 @@
     "author": "Benedikt Wolters",
     "publishedAt": "2026-07-13T13:00:00+00:00",
     "fetchedAt": "2026-07-13T14:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1855,7 +1936,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
+    "summary": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher precision — while reducing friction for legitimate users.",
     "summarySource": "extractive",
     "clusterId": "6e82b3f37b7a84d6",
     "lang": "en",
@@ -1935,7 +2016,9 @@
     "author": "Chenxi Zhang",
     "publishedAt": "2026-07-10T12:00:00+00:00",
     "fetchedAt": "2026-07-10T14:05:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1943,7 +2026,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Improving Smart Tiered Cache for Public Cloud Regions",
+    "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
     "summarySource": "extractive",
     "clusterId": "e9cb677c34a42bfa",
     "lang": "en",
@@ -2023,7 +2106,9 @@
     "author": "Christopher Patton",
     "publishedAt": "2026-07-09T14:00:00+00:00",
     "fetchedAt": "2026-07-09T14:39:15+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2031,7 +2116,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why we cannot wait for better post-quantum signature algorithms",
+    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.",
     "summarySource": "extractive",
     "clusterId": "fe867475c1adacab",
     "lang": "en",
@@ -2198,7 +2283,9 @@
     "author": "João Pedro Leite",
     "publishedAt": "2026-07-08T12:00:00+00:00",
     "fetchedAt": "2026-07-08T13:47:15+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2206,7 +2293,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Meerkat: an experiment in global consensus",
+    "summary": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
     "summarySource": "extractive",
     "clusterId": "995cba7d0f0e8392",
     "lang": "en",
@@ -2659,7 +2746,9 @@
     "author": "Ling Wu",
     "publishedAt": "2026-07-07T12:00:00+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2667,7 +2756,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "summary": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
     "summarySource": "extractive",
     "clusterId": "6f4bf3e98fe8397a",
     "lang": "en",
@@ -2779,7 +2868,9 @@
     "author": "Connor Harwood",
     "publishedAt": "2026-07-06T13:00:00+00:00",
     "fetchedAt": "2026-07-06T15:16:51+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2787,7 +2878,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your Worker can now have its own cache in front of it",
+    "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
     "summarySource": "extractive",
     "clusterId": "34e529a2fa92844f",
     "lang": "en",
@@ -2837,9 +2928,7 @@
     "author": "admin",
     "publishedAt": "2026-07-03T14:56:59+00:00",
     "fetchedAt": "2026-07-03T19:07:27+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -2849,7 +2938,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Earlier this week ntop attended the GRNOG 20, the annual meeting of Greek Network Operators. This has been a great place to discuss about network visibility in large networks, understand what are the problems network operators face with, and see what ntop can do in terms of visibility. ntop has been traditionally a company based […]",
+    "summary": "Discussing of LLM and Intelligent Monitoring at GRNOG 20",
     "summarySource": "extractive",
     "clusterId": "3b5e31584e1e04dd",
     "lang": "en",
@@ -3052,7 +3141,9 @@
     "author": "Matthew Conroy",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3060,7 +3151,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Making AI search smarter",
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
     "summarySource": "extractive",
     "clusterId": "f9df4918a8e14436",
     "lang": "en",
@@ -3108,7 +3199,9 @@
     "author": "Bryan Becker",
     "publishedAt": "2026-07-01T13:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3116,7 +3209,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your site, your rules: new AI traffic options for all customers",
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
     "summarySource": "extractive",
     "clusterId": "6ed4f8aaa0e3b2e4",
     "lang": "en",
@@ -3136,7 +3229,9 @@
     "author": "Oliver Payne",
     "publishedAt": "2026-07-01T06:00:00+00:00",
     "fetchedAt": "2026-07-01T14:16:17+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3144,7 +3239,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unmasking the crawls with Attribution Business Insights",
+    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
     "summarySource": "extractive",
     "clusterId": "bf9bca10aabd74d0",
     "lang": "en",
@@ -3306,12 +3401,12 @@
   },
   {
     "id": "c4ce630deefa075b",
-    "title": "Splunk ES Premier Achieves FedRAMP Moderate Certification - executivebiz.com",
+    "title": "Splunk ES Premier Achieves FedRAMP Moderate Certification - ExecutiveBiz",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "source": {
       "id": "gnews-splunk-es-soar",
-      "name": "executivebiz.com",
+      "name": "ExecutiveBiz",
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
@@ -3329,12 +3424,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk ES Premier Achieves FedRAMP Moderate Certification executivebiz.com",
+    "summary": "Splunk ES Premier Achieves FedRAMP Moderate Certification ExecutiveBiz",
     "summarySource": "extractive",
     "clusterId": "c4ce630deefa075b",
     "lang": "en",
     "license": null,
-    "attribution": "via executivebiz.com (Google News)"
+    "attribution": "via ExecutiveBiz (Google News)"
   },
   {
     "id": "34a033f43010e298",
@@ -3582,12 +3677,12 @@
   },
   {
     "id": "3a045f7b2ab6c528",
-    "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - securityboulevard.com",
+    "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "securityboulevard.com",
+      "name": "Security Boulevard",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -3605,12 +3700,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) securityboulevard.com",
+    "summary": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) Security Boulevard",
     "summarySource": "extractive",
     "clusterId": "3a045f7b2ab6c528",
     "lang": "en",
     "license": null,
-    "attribution": "via securityboulevard.com (Google News)"
+    "attribution": "via Security Boulevard (Google News)"
   },
   {
     "id": "2c68808f33945c5f",
@@ -3667,7 +3762,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A Software Bill of Materials (SBOM) is a formal, machine-readable inventory that lists every component, library, and dependency included within a software application. Think of it as a digital “ingredient label” that tells you exactly what went into building the software, which versions are running, and where each piece originated. Typically, it documents: SBOMs are […]",
+    "summary": "Introducing ntop SBOM (Software BOM)",
     "summarySource": "extractive",
     "clusterId": "89266d93cad33249",
     "lang": "en",
@@ -3954,12 +4049,12 @@
     ],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "We just returned from an incredible week in Japan! Interop Tokyo 2026 is the region’s premier computing and networking event. This year’s experience exceeded all our expectations.",
+    "summary": "Interop Tokyo 2026: Showcasing the Future of Network Visibility and AI",
     "summarySource": "extractive",
     "clusterId": "bc0935acbca10b54",
     "lang": "en",
@@ -4830,12 +4925,12 @@
   },
   {
     "id": "bab7e64f296bdb11",
-    "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - resecurity.com",
+    "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "resecurity.com",
+      "name": "Resecurity",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -4853,42 +4948,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution resecurity.com",
+    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution Resecurity",
     "summarySource": "extractive",
     "clusterId": "bab7e64f296bdb11",
     "lang": "en",
     "license": null,
-    "attribution": "via resecurity.com (Google News)"
-  },
-  {
-    "id": "5cba8b26b6a64374",
-    "title": "Building an AI-Ready Network: Why Your Network Observability Practice Has to Come First - Solutions Review",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkc1M1V6Z0ZaemJhVkEyZHQ5WDNWSDB1bWhwTUpLSlhKcUZnQ2hsSDNSanZ5U0dGMVJzRUlBbWJFY1JJUHlwWVRFbXg2cHVaNE9LVU1EaXQydS1rSmZySmg0WVJSc3FGZFEzbjJ4ZG9sRm02alZRUUo0cEw1WUU5VTlhWnBIU05yZHJlbFlES3JkODdULVd3RDVIOFlreUFsZlI5T1NXcndqUWdlakNweURnWklNOVFxd3Jxdnk5OW9GUnk2RmJDVS1rS2h4UEk?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkc1M1V6Z0ZaemJhVkEyZHQ5WDNWSDB1bWhwTUpLSlhKcUZnQ2hsSDNSanZ5U0dGMVJzRUlBbWJFY1JJUHlwWVRFbXg2cHVaNE9LVU1EaXQydS1rSmZySmg0WVJSc3FGZFEzbjJ4ZG9sRm02alZRUUo0cEw1WUU5VTlhWnBIU05yZHJlbFlES3JkODdULVd3RDVIOFlreUFsZlI5T1NXcndqUWdlakNweURnWklNOVFxd3Jxdnk5OW9GUnk2RmJDVS1rS2h4UEk?oc=5",
-    "source": {
-      "id": "gnews-network-observability",
-      "name": "Solutions Review",
-      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
-    },
-    "author": null,
-    "publishedAt": "2026-06-16T07:00:00+00:00",
-    "fetchedAt": "2026-07-31T13:47:02+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Building an AI-Ready Network: Why Your Network Observability Practice Has to Come First Solutions Review",
-    "summarySource": "extractive",
-    "clusterId": "5cba8b26b6a64374",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Solutions Review (Google News)"
+    "attribution": "via Resecurity (Google News)"
   },
   {
     "id": "046166508da9f81b",
@@ -5109,6 +5174,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AD HOC NEWS (Google News)"
+  },
+  {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-08-01T02:06:57+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "6d5c47fbd8de35f2",
@@ -5898,9 +5991,7 @@
     "author": "admin",
     "publishedAt": "2026-06-09T20:40:31+00:00",
     "fetchedAt": "2026-06-10T02:44:40+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -5910,7 +6001,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Today we have previewed out first AI-based tool named nAnalyst during out webinar taht we have run with support of the Alibaba Qwen team. This tool is designed to (finally) explain what happens in your network, and we’ll introduce it in September with bet starting on June 22nd. For those who missed the webinar can […]",
+    "summary": "Previewing nAnalyst, the layer that finally explains your network",
     "summarySource": "extractive",
     "clusterId": "9d499b94b441fe2b",
     "lang": "en",
@@ -6124,6 +6215,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
+  },
+  {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-08-01T02:06:57+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "923a55dacc21d28b",
@@ -6362,7 +6484,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modern observability platforms are expected to answer questions that traditional monitoring systems were never designed to handle: Conventional network timeseries are excellent for long-term capacity planning and trend analysis, but they often smooth away the short-lived events that matter most during troubleshooting and incident analysis. With the introduction of High-Resolution Timeseries, ntopng closes this visibility gap […]",
+    "summary": "Observability: Enabling High-Resolution Timeseries in ntopng",
     "summarySource": "extractive",
     "clusterId": "34150e4e06c24c1b",
     "lang": "en",
@@ -7015,7 +7137,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "This summer we are touring to present all the latest development and enhancements to our tool suite. In particular we will be focusing on: For those who cannot meet us in person can follow us in webinars, but we definitively prefer to see you in person. Below you can see some of our 2026 summer […]",
+    "summary": "ntop Summer Tour: Interop Japan, Italy, Greece, Norway, Croatia…",
     "summarySource": "extractive",
     "clusterId": "87e79cb621644727",
     "lang": "en",
@@ -7482,7 +7604,7 @@
       "security",
       "tutorial"
     ],
-    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution AIMultiple",
+    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution - AIMultiple",
     "summarySource": "extractive",
     "clusterId": "05b862d01629502b",
     "lang": "en",
@@ -7621,11 +7743,9 @@
     "author": "admin",
     "publishedAt": "2026-05-21T17:30:21+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Today we have run our webinar that was divided in two distinct sections. Below you can find both the video and the presentation slides. Stay tuned as the next webinar will be scheduled soon and we’ll be talking about AI.",
+    "summary": "Observability and Large Networks Monitoring Webinar (Video and Slides)",
     "summarySource": "extractive",
     "clusterId": "354a2b122a130c9b",
     "lang": "en",
@@ -7904,7 +8024,7 @@
     "tags": [
       "ntopng"
     ],
-    "summary": "AI-Powered Network Monitoring: Introducing ntopng MCP Server for Headless Security Connect your network monitoring directly to AI assistants. Query ClickHouse flows, pull live host stats, and automate security investigations—all through natural language. Table of Contents What is MCP?",
+    "summary": "AI-Powered Network Monitoring: Introducing ntopng MCP Server",
     "summarySource": "extractive",
     "clusterId": "373e426195e56249",
     "lang": "en",
@@ -8006,34 +8126,6 @@
     "attribution": "via HackerNoon (Google News)"
   },
   {
-    "id": "bd4d1ec09d95de7d",
-    "title": "AI network performance with Cisco Intelligent Packet Flow - Cisco Blogs",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkxmbVRoODBJWXVwN0dlSHlrM0ZsVVRUMDhySXl2OWtsMWQ2NE43cjRQdHEzQnNGb0tXMU5YcDdSX2hBY091YlB6TFpWR0I3enJoRHYyM2l2ZWFKZTVENE44NzIyNmxKeU9McEF1bHBRbldyN0h4VWNhSWNReHY2bVNLVVYyaGQzaWZuRGNHbGUxLTZ2b3I0?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkxmbVRoODBJWXVwN0dlSHlrM0ZsVVRUMDhySXl2OWtsMWQ2NE43cjRQdHEzQnNGb0tXMU5YcDdSX2hBY091YlB6TFpWR0I3enJoRHYyM2l2ZWFKZTVENE44NzIyNmxKeU9McEF1bHBRbldyN0h4VWNhSWNReHY2bVNLVVYyaGQzaWZuRGNHbGUxLTZ2b3I0?oc=5",
-    "source": {
-      "id": "gnews-cisco-nexus-aci",
-      "name": "Cisco Blogs",
-      "homepage": "https://news.google.com/search?q=Cisco%20Nexus%20Dashboard"
-    },
-    "author": null,
-    "publishedAt": "2026-05-20T07:00:00+00:00",
-    "fetchedAt": "2026-07-30T19:14:11+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AI network performance with Cisco Intelligent Packet Flow Cisco Blogs",
-    "summarySource": "extractive",
-    "clusterId": "bd4d1ec09d95de7d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
-  },
-  {
     "id": "9a0c4489522bc332",
     "title": "OpenTelemetry Graduation Sets Stage for AI Observability - devops.com",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPazhLTElGRlVCWUlzSTFIMlBJdWdjMzRZWUFrVGE2R3ZURmVISTlHdHItdWlIUHAwbWZOT3ZTYlVUaWlJbkJQRTNnOWZ6MDVic1Y0aXRCM0JjMXFmZG90OG50MllKaS1ZM2ZQNDFOeExVOHlnZXpITFV5NXdydHg0ZkxR?oc=5",
@@ -8058,7 +8150,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability devops.com",
+    "summary": "OpenTelemetry Graduation Sets Stage for AI Observability - devops.com",
     "summarySource": "extractive",
     "clusterId": "9a0c4489522bc332",
     "lang": "en",
@@ -8579,13 +8671,11 @@
     "author": "admin",
     "publishedAt": "2026-05-18T08:11:12+00:00",
     "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
-    "summary": "Modern digital security relies on public-key encryption (like RSA and ECC) to protect global data. The future arrival of a Cryptographically Relevant Quantum Computer (CRQC) will completely break these mathematical foundations. To counter this, organizations must migrate to Post-Quantum Cryptography (PQC) — new, math-based algorithms deployed via standard software that quantum computers cannot exploit.",
+    "summary": "Post-Quantum Cryptography (PQC) Analysis",
     "summarySource": "extractive",
     "clusterId": "9614ab34e02b6c52",
     "lang": "en",
@@ -9933,7 +10023,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access - LinkedIn",
+    "summary": "Cisco Warns of Actively Exploited Critical SD-WAN Vulnerability Allowing Remote Administrative Access LinkedIn",
     "summarySource": "extractive",
     "clusterId": "07326b367316c04e",
     "lang": "en",
