@@ -48,7 +48,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Groundcover raises $100M as observability pivots from monitoring to AI infrastructure Network World",
+    "summary": "Groundcover raises $100M as observability pivots from monitoring to AI infrastructure - Network World",
     "summarySource": "extractive",
     "clusterId": "710e00c2f52ffc01",
     "lang": "en",
@@ -221,7 +221,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP topics from IETF 126",
+    "summary": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
     "summarySource": "extractive",
     "clusterId": "4d8858991c7a7ea2",
     "lang": "en",
@@ -1920,6 +1920,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "1f9fa7a192d39a63",
+    "title": "Life on the Internet adoption curve",
+    "url": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-07-12T22:53:59+00:00",
+    "fetchedAt": "2026-08-03T09:29:25+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summarySource": "extractive",
+    "clusterId": "1f9fa7a192d39a63",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "af265c92f67a8d00",
     "title": "Inside the Packet: How Kubernetes Networking Actually Works at L3/L4 - Cloud Native Now",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3dKTDBTM0FraENpSmpfOHlqenpqRW9mdXo5OXVzcUJoXy1EM1FIX0pzTGlZR2pmU0FtRmlSdUkzLTF3aWExbndiWVJIbWdma1VjbWVPcHllOUlSTmRYNzRSUnJOSGd5eEZrM2xrbGplMEpoNWRGdEVmNGFqcTkwT0JkTnNpSUpDMV9US2kwLUQ3dzExOHZpVFBUdU1Pc193bzNRa0l0NFJhVDRlNFk3bW5kZ1V2QQ?oc=5",
@@ -1974,6 +2002,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "02388e08138ad979",
+    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
+    "url": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tony Smith",
+    "publishedAt": "2026-07-10T09:20:25+00:00",
+    "fetchedAt": "2026-08-03T09:29:25+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summarySource": "extractive",
+    "clusterId": "02388e08138ad979",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "b416ca765322f0b5",
@@ -2090,38 +2147,6 @@
     "attribution": "via Zeek Blog"
   },
   {
-    "id": "3d49e2beaf4f3f4b",
-    "title": "Infoblox to acquire Kentik in DNS and network observability deal - crnasia.com",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
-    "source": {
-      "id": "gnews-network-observability",
-      "name": "crnasia.com",
-      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
-    },
-    "author": null,
-    "publishedAt": "2026-07-09T07:00:00+00:00",
-    "fetchedAt": "2026-07-09T09:25:49+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "kentik"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Infoblox to acquire Kentik in DNS and network observability deal crnasia.com",
-    "summarySource": "extractive",
-    "clusterId": "3d49e2beaf4f3f4b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via crnasia.com (Google News)"
-  },
-  {
     "id": "f9e171e427792cdf",
     "title": "ASPA at APNIC: Strengthening BGP path validation",
     "url": "https://blog.apnic.net/2026/07/09/aspa-at-apnic-strengthening-bgp-path-validation/",
@@ -2137,17 +2162,50 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "product-release",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "ASPA at APNIC: Strengthening BGP path validation",
+    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
+  },
+  {
+    "id": "3d49e2beaf4f3f4b",
+    "title": "Infoblox to acquire Kentik in DNS and network observability deal - CRN Asia",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
+    "source": {
+      "id": "gnews-network-observability",
+      "name": "CRN Asia",
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+    },
+    "author": null,
+    "publishedAt": "2026-07-09T02:59:04+00:00",
+    "fetchedAt": "2026-07-09T09:25:49+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "kentik"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Infoblox to acquire Kentik in DNS and network observability deal CRN Asia",
+    "summarySource": "extractive",
+    "clusterId": "3d49e2beaf4f3f4b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via CRN Asia (Google News)"
   },
   {
     "id": "e627a295d2271e8f",
@@ -2170,7 +2228,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
+    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -2264,6 +2322,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via AOL.com (Google News)"
+  },
+  {
+    "id": "7e1194185e5261ed",
+    "title": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
+    "url": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/08/roa-adoption-barriers-to-practical-planning-tools-reflections-from-arin-57",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Steven Wallace",
+    "publishedAt": "2026-07-08T01:09:23+00:00",
+    "fetchedAt": "2026-08-03T09:29:25+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summarySource": "extractive",
+    "clusterId": "7e1194185e5261ed",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "870fe662e93ffac1",
@@ -2866,6 +2952,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via infoq.com (Google News)"
+  },
+  {
+    "id": "ba567b547efd1264",
+    "title": "SSH key exchange failures when managing legacy network devices",
+    "url": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/03/ssh-key-exchange-failures-when-managing-legacy-network-devices",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tuwan Azgar Jaleel",
+    "publishedAt": "2026-07-02T22:37:20+00:00",
+    "fetchedAt": "2026-08-03T09:29:25+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summarySource": "extractive",
+    "clusterId": "ba567b547efd1264",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "1d16f334ab9080b9",
@@ -5202,12 +5316,12 @@
   },
   {
     "id": "14b7c67b92bd0f11",
-    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution - LinkedIn",
+    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution - linkedin.com",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2RrZVRYdF9QTHhnT3dmajRDVm5VWmRIcDItU2J1WjNxVjRRLW5jSkZiMkFvN2dzWUQ2Q19WZDFKMHFlM21qaU5VUUV4REZ1RWJ5eWpYYlpCNnNYX09qdlZhbjhvbTFKQnhaNG9uRG44bGhEMUxwUTZ3WnRsX2dvWklnUVc3STdLWkRNLUxn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2RrZVRYdF9QTHhnT3dmajRDVm5VWmRIcDItU2J1WjNxVjRRLW5jSkZiMkFvN2dzWUQ2Q19WZDFKMHFlM21qaU5VUUV4REZ1RWJ5eWpYYlpCNnNYX09qdlZhbjhvbTFKQnhaNG9uRG44bGhEMUxwUTZ3WnRsX2dvWklnUVc3STdLWkRNLUxn?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "LinkedIn",
+      "name": "linkedin.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -5225,12 +5339,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution LinkedIn",
+    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution linkedin.com",
     "summarySource": "extractive",
     "clusterId": "0ec40649df09c49a",
     "lang": "en",
     "license": null,
-    "attribution": "via LinkedIn (Google News)"
+    "attribution": "via linkedin.com (Google News)"
   },
   {
     "id": "01553c52c86d9f94",
@@ -5352,12 +5466,12 @@
   },
   {
     "id": "9bf7607b1a8c1bf3",
-    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - thehackernews.com",
+    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - The Hacker News",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "thehackernews.com",
+      "name": "The Hacker News",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -5374,12 +5488,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication thehackernews.com",
+    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication The Hacker News",
     "summarySource": "extractive",
     "clusterId": "9bf7607b1a8c1bf3",
     "lang": "en",
     "license": null,
-    "attribution": "via thehackernews.com (Google News)"
+    "attribution": "via The Hacker News (Google News)"
   },
   {
     "id": "498a1de1360800c5",
@@ -7439,7 +7553,7 @@
       "security",
       "tutorial"
     ],
-    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution - AIMultiple",
+    "summary": "Top 10+ SIEM Systems & How to Choose the Best Solution AIMultiple",
     "summarySource": "extractive",
     "clusterId": "05b862d01629502b",
     "lang": "en",
@@ -7932,12 +8046,12 @@
   },
   {
     "id": "c45b9050f872cf9e",
-    "title": "How to Trace GPT-4o Apps With MLflow 3 and OpenTelemetry - HackerNoon",
+    "title": "How to Trace GPT-4o Apps With MLflow 3 and OpenTelemetry - hackernoon.com",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcmhZbVB6R19KMmkzenF6d2pRSC1ZQ2tqRE13ZWQ1Y1RydGYxclg2OWRKeHBNSjBOUHNwQnVwRkpNWVVyRnhKUnc0bmlqOXN3VThBcmhUeXhLRHhxTDRZUnpWRFd2RmFmNDZfaUJ2MnFZUE9kdHZCMXFIaXF2NW91TE1hMTE5dw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcmhZbVB6R19KMmkzenF6d2pRSC1ZQ2tqRE13ZWQ1Y1RydGYxclg2OWRKeHBNSjBOUHNwQnVwRkpNWVVyRnhKUnc0bmlqOXN3VThBcmhUeXhLRHhxTDRZUnpWRFd2RmFmNDZfaUJ2MnFZUE9kdHZCMXFIaXF2NW91TE1hMTE5dw?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "HackerNoon",
+      "name": "hackernoon.com",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -7955,12 +8069,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "How to Trace GPT-4o Apps With MLflow 3 and OpenTelemetry HackerNoon",
+    "summary": "How to Trace GPT-4o Apps With MLflow 3 and OpenTelemetry hackernoon.com",
     "summarySource": "extractive",
     "clusterId": "c45b9050f872cf9e",
     "lang": "en",
     "license": null,
-    "attribution": "via HackerNoon (Google News)"
+    "attribution": "via hackernoon.com (Google News)"
   },
   {
     "id": "bd4d1ec09d95de7d",
