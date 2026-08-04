@@ -1,5 +1,36 @@
 [
   {
+    "id": "919a4403ba5e5ac5",
+    "title": "Beyond the Protocol: Applying API Engineering Practices to MCP Servers",
+    "url": "https://blogs.cisco.com/developer/beyond-the-protocol-applying-api-engineering-practices-to-mcp-servers/",
+    "canonicalUrl": "https://blogs.cisco.com/developer/beyond-the-protocol-applying-api-engineering-practices-to-mcp-servers",
+    "source": {
+      "id": "cisco-developer-blog",
+      "name": "Cisco Developer Blog",
+      "homepage": "https://blogs.cisco.com/developer"
+    },
+    "author": "Adrienne Moherek",
+    "publishedAt": "2026-08-04T14:32:02+00:00",
+    "fetchedAt": "2026-08-04T19:21:42+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco DevNet applies API engineering practices, such as versioning, linting, changelogs, documentation, to MCP servers with a new format: MCP Description.",
+    "summarySource": "extractive",
+    "clusterId": "919a4403ba5e5ac5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Developer Blog"
+  },
+  {
     "id": "f42f294704296f15",
     "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
     "url": "https://blog.cloudflare.com/ci-workflows/",
@@ -52,7 +83,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it.",
+    "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it",
     "summarySource": "extractive",
     "clusterId": "8a79c2d122452f29",
     "lang": "en",
@@ -903,6 +934,39 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "22a7904e8127440c",
+    "title": "Top 5 Use Cases for Splunk Enterprise Security - techtarget.com",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84VUVUa1I1dlBfd201TkNLcmxxSGQ1eWxFSWxWZWdnNUNfbUlfMmJrOF84Rl9kREl4T1hJLXk4WDBQN3FZN3F6SGhSQXJ2LWVCVV9PSWdNM3hmN1ktdjg4Zg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84VUVUa1I1dlBfd201TkNLcmxxSGQ1eWxFSWxWZWdnNUNfbUlfMmJrOF84Rl9kREl4T1hJLXk4WDBQN3FZN3F6SGhSQXJ2LWVCVV9PSWdNM3hmN1ktdjg4Zg?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "techtarget.com",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-07-27T07:00:00+00:00",
+    "fetchedAt": "2026-08-04T19:21:42+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Top 5 Use Cases for Splunk Enterprise Security techtarget.com",
+    "summarySource": "extractive",
+    "clusterId": "22a7904e8127440c",
+    "lang": "en",
+    "license": null,
+    "attribution": "via techtarget.com (Google News)"
+  },
+  {
     "id": "74e245585d15658c",
     "title": "CVE-2026-20251: RCE in Splunk Secure Gateway (CVSS 8.8) – what to do now - SecNews.gr",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Kb1JOVk9oX2w1d2R0S2NtU1p2NFNUa3dBc0djY0YxVDlJLU9GV3lodEJzQzlpdjgzMGdGcU9xRkw3dnFTWE1yN0oxYXlLbV9IRjhTQ0tEc2h6UDc4cFFyRlNFRnA4SjlSOEtkeVVaSXlIWjNDQ0MtQ1JLUkZ0Rm8?oc=5",
@@ -1250,7 +1314,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:38+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1258,7 +1324,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 3)",
+    "summary": "This is Part 3 of a three-part series. Read Part 1 and Part 2. Introduction Back in Part 1 and Part 2, we presented our motivational package, ip-distance, how you can easily write unit tests in BTest, and how you can generate events—either by hand or through Zeek’s event tracing utility—to test your Zeek content. […]",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -1278,7 +1344,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:24+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1286,7 +1354,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 2)",
+    "summary": "This is Part 2 of a three-part series. Read Part 1 and Part 3. Introduction In the previous part of this blog series, we presented our motivational package, ip-distance, and how you can easily write unit tests in BTest.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -1306,7 +1374,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:10+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1314,7 +1384,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 1)",
+    "summary": "This is Part 1 of a three-part series. Read Part 2 and Part 3. Introduction As someone who ships a lot of Zeek packages to production, I’m always looking for ways to improve package testing.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -1447,12 +1517,12 @@
   },
   {
     "id": "a8173d29b4623184",
-    "title": "Zero-code Kubernetes observability with eBPF demo - TechTarget",
+    "title": "Zero-code Kubernetes observability with eBPF demo - techtarget.com",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRDRDb2J1VHdzTlN3MkNHX29GWVplbVVyZDJQLUV4LV8yUk9mbHVtbml5WDNFRmxfa0E3akRBOE9kaWZpcWM4aVNMLTNVVEV5Z1dpc2hKbEpOaURMRGJMaWFnajEtNU1tR1p4WHNHVlpYdlpIRDlGVnNualJGOHFUaGVFS1FPZXFBQUdBM0NwQ3U4ZnBZX1hCc1BBNXZPS01VeG5qcA?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRDRDb2J1VHdzTlN3MkNHX29GWVplbVVyZDJQLUV4LV8yUk9mbHVtbml5WDNFRmxfa0E3akRBOE9kaWZpcWM4aVNMLTNVVEV5Z1dpc2hKbEpOaURMRGJMaWFnajEtNU1tR1p4WHNHVlpYdlpIRDlGVnNualJGOHFUaGVFS1FPZXFBQUdBM0NwQ3U4ZnBZX1hCc1BBNXZPS01VeG5qcA?oc=5",
     "source": {
       "id": "gnews-ebpf-cilium",
-      "name": "TechTarget",
+      "name": "techtarget.com",
       "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
     },
     "author": null,
@@ -1466,12 +1536,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zero-code Kubernetes observability with eBPF demo TechTarget",
+    "summary": "Zero-code Kubernetes observability with eBPF demo techtarget.com",
     "summarySource": "extractive",
     "clusterId": "a8173d29b4623184",
     "lang": "en",
     "license": null,
-    "attribution": "via TechTarget (Google News)"
+    "attribution": "via techtarget.com (Google News)"
   },
   {
     "id": "87b9be2f1613d7e1",
@@ -1506,12 +1576,12 @@
   },
   {
     "id": "c64e3478a20b4fcb",
-    "title": "Release notes for the Splunk Common Information Model Add-on - Splunk",
+    "title": "Release notes for the Splunk Common Information Model Add-on - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMDJUUkd5UWJFYzc2THlZQmhjYVloWlhQajAtZkhMbFI3c2R6NS03MlctMXhJOHBxZkJYRG9peF9sazJuSThFcm9CTmhCQTh5ZE55dzk3clhFV291Y1FDdkRZcDZ3Qk5mOXFCelN2ZDNnTVZQbHN5eTBUdXl4VHhvOXF3T1A3S2xnLVNfX2hFRnkwX2N1SWNkX3FQV1A1eEdYY1BkVElBNllUVWtWM2hZQkpuUGpGV1NkV2trVFRhVEVDV3JEUkRFVTlUV3p3ZjZDUGxzb0hPeFMwLTNKTXc?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMDJUUkd5UWJFYzc2THlZQmhjYVloWlhQajAtZkhMbFI3c2R6NS03MlctMXhJOHBxZkJYRG9peF9sazJuSThFcm9CTmhCQTh5ZE55dzk3clhFV291Y1FDdkRZcDZ3Qk5mOXFCelN2ZDNnTVZQbHN5eTBUdXl4VHhvOXF3T1A3S2xnLVNfX2hFRnkwX2N1SWNkX3FQV1A1eEdYY1BkVElBNllUVWtWM2hZQkpuUGpGV1NkV2trVFRhVEVDV3JEUkRFVTlUV3p3ZjZDUGxzb0hPeFMwLTNKTXc?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -1527,12 +1597,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes for the Splunk Common Information Model Add-on Splunk",
+    "summary": "Release notes for the Splunk Common Information Model Add-on help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "c64e3478a20b4fcb",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "ba909b840b08367e",
@@ -1626,12 +1696,12 @@
   },
   {
     "id": "767d1b1ed3da7931",
-    "title": "Bypass queue restrictions with the super user capability for Splunk SOAR integration users - Splunk",
+    "title": "Bypass queue restrictions with the super user capability for Splunk SOAR integration users - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNeEJCX0loZUJPSmpEekIxVlRaVS1qb2s3VFA4M1VUR3JoMkhpQXVGb1pNV21RRVVDalljMG5USEZ1bDdzYXpaOUxQNVFiVnFKUjU3SW9oRHY2NkI4bDhubWRDWVN2T0JCdEQ0SFdMWEtPX1VzaWtJQVVtODRZR2I5cHBtVXdQT25uU3Y3NG5iUjUzYlZURVBxZlBfdnRJVXlIbDZwYWFNcnpNby1OYXJWeXJSa09wR2I3ZHB2a0hJc2ZqZUFneEVDM3hPMkh4TjI5MVJWakhodXdtWmF2YTN1TmpBYUp3VnhxNG5QNGxhcWhKb2V6alVPU3BaWTMtcDNoVEhHR0VsTTZ3cThGQVJ5c1VOR2ljRmU1Y3hxSVZ0ZnhiZUJjNllsT1JWWHFzc2tKTDFsSjMtS0NlNGdQTmUzUUZHM01fc1NRbnU4TVYxTzZUMldRYng1Wg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNeEJCX0loZUJPSmpEekIxVlRaVS1qb2s3VFA4M1VUR3JoMkhpQXVGb1pNV21RRVVDalljMG5USEZ1bDdzYXpaOUxQNVFiVnFKUjU3SW9oRHY2NkI4bDhubWRDWVN2T0JCdEQ0SFdMWEtPX1VzaWtJQVVtODRZR2I5cHBtVXdQT25uU3Y3NG5iUjUzYlZURVBxZlBfdnRJVXlIbDZwYWFNcnpNby1OYXJWeXJSa09wR2I3ZHB2a0hJc2ZqZUFneEVDM3hPMkh4TjI5MVJWakhodXdtWmF2YTN1TmpBYUp3VnhxNG5QNGxhcWhKb2V6alVPU3BaWTMtcDNoVEhHR0VsTTZ3cThGQVJ5c1VOR2ljRmU1Y3hxSVZ0ZnhiZUJjNllsT1JWWHFzc2tKTDFsSjMtS0NlNGdQTmUzUUZHM01fc1NRbnU4TVYxTzZUMldRYng1Wg?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -1649,12 +1719,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Bypass queue restrictions with the super user capability for Splunk SOAR integration users Splunk",
+    "summary": "Bypass queue restrictions with the super user capability for Splunk SOAR integration users help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "767d1b1ed3da7931",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "929c711c87ce72dc",
@@ -2218,7 +2288,9 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T08:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2226,7 +2298,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Spicy vs. Binpac Performance, One Year Later",
+    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -2446,12 +2518,12 @@
   },
   {
     "id": "b416ca765322f0b5",
-    "title": "Splunk Enterprise 10.4.2 fixed issues - Splunk",
+    "title": "Splunk Enterprise 10.4.2 fixed issues - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMmRXUDhuMWpOSzU2VVRkWi0tblYzOGZxbnNIVW81Q1ZEYXlWMEM4d1VlQnNUc2RRMXZ6VmM2bDIxVFl2MEYyNlQxb1hEcnVMdlNCUmo1anljVWRzNGlyMjluV2Y1VXM3RjJaVEdyRVpRQ2phQkNhUkZsb28yNGt3VHFNWDU1MmRja19CRzMxSXVmZVBSNmJSUWQ3c2hpWmpsZVNpSEpJT2wxb1J4TDc5SmxzSUl6c29XREQtVmhsSTdzOTltLUNyZEE2ZHF6RVAzZWVkbGVJeEFmLXcwWk80RXFaV0ppb1NV?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMmRXUDhuMWpOSzU2VVRkWi0tblYzOGZxbnNIVW81Q1ZEYXlWMEM4d1VlQnNUc2RRMXZ6VmM2bDIxVFl2MEYyNlQxb1hEcnVMdlNCUmo1anljVWRzNGlyMjluV2Y1VXM3RjJaVEdyRVpRQ2phQkNhUkZsb28yNGt3VHFNWDU1MmRja19CRzMxSXVmZVBSNmJSUWQ3c2hpWmpsZVNpSEpJT2wxb1J4TDc5SmxzSUl6c29XREQtVmhsSTdzOTltLUNyZEE2ZHF6RVAzZWVkbGVJeEFmLXcwWk80RXFaV0ppb1NV?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -2467,12 +2539,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise 10.4.2 fixed issues Splunk",
+    "summary": "Splunk Enterprise 10.4.2 fixed issues help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "2a379325bf7abe83",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "466abebfc0b752c0",
@@ -2545,7 +2617,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-09T11:33:40+00:00",
     "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2553,7 +2627,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’ve Updated the Zeek Contribution Guide",
+    "summary": "A lot of people who use Zeek have never contributed to it. Not because they don’t have anything to offer, but because they don’t know where to start or assume contributing means writing code they’re not confident in. That gap showed up directly in the feedback from last year’s community survey.",
     "summarySource": "extractive",
     "clusterId": "2b7ecce91bb0ed51",
     "lang": "en",
@@ -2741,12 +2815,12 @@
   },
   {
     "id": "870fe662e93ffac1",
-    "title": "New Cloud-Enabled Features for Splunk Enterprise Customers via Cloud Connect - Splunk",
+    "title": "New Cloud-Enabled Features for Splunk Enterprise Customers via Cloud Connect - splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdnVJbGZLMGtUV3ZoU0loRmNEZVJVT0lEbHh3U0RfR1FPME50SWdibkZtYUROS3QtZWpWM2l3Y0xjSUt6VWFnZjVDbk5pcFdWcGNGYU1xcjhkWFdWajR3YWZURWVwaW9HeFlVbUxFMjVvTzJBdi1kVmdZbmoxQXBtRG5zb1ZqU1I5bm92Q3cxSlJialdXLWhOS0hQeWx1VDJTTGhYNmhubFlQdW5KX0gzOFpvUmJENm96TzBTUkgzY1ZzZw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdnVJbGZLMGtUV3ZoU0loRmNEZVJVT0lEbHh3U0RfR1FPME50SWdibkZtYUROS3QtZWpWM2l3Y0xjSUt6VWFnZjVDbk5pcFdWcGNGYU1xcjhkWFdWajR3YWZURWVwaW9HeFlVbUxFMjVvTzJBdi1kVmdZbmoxQXBtRG5zb1ZqU1I5bm92Q3cxSlJialdXLWhOS0hQeWx1VDJTTGhYNmhubFlQdW5KX0gzOFpvUmJENm96TzBTUkgzY1ZzZw?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -2762,12 +2836,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "New Cloud-Enabled Features for Splunk Enterprise Customers via Cloud Connect Splunk",
+    "summary": "New Cloud-Enabled Features for Splunk Enterprise Customers via Cloud Connect splunk.com",
     "summarySource": "extractive",
     "clusterId": "870fe662e93ffac1",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via splunk.com (Google News)"
   },
   {
     "id": "348782493055ff54",
@@ -3395,7 +3469,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-07-02T19:20:01+00:00",
     "fetchedAt": "2026-07-03T02:12:13+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3403,7 +3479,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What Actually Catches Threats in a Zeek Deployment?",
+    "summary": "Every month we pitch a topic to the Zeek community and see what comes back. June’s focus was related to detection techniques: how is everyone actually finding bad things with Zeek, and what tradeoffs come with it? Throughout the month we learned quite a bit about the processes, constraints, and tradeoffs around detection, and we […]",
     "summarySource": "extractive",
     "clusterId": "1d16f334ab9080b9",
     "lang": "en",
@@ -4076,12 +4152,12 @@
   },
   {
     "id": "3a045f7b2ab6c528",
-    "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - securityboulevard.com",
+    "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "securityboulevard.com",
+      "name": "Security Boulevard",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -4099,21 +4175,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) securityboulevard.com",
+    "summary": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) Security Boulevard",
     "summarySource": "extractive",
     "clusterId": "3a045f7b2ab6c528",
     "lang": "en",
     "license": null,
-    "attribution": "via securityboulevard.com (Google News)"
+    "attribution": "via Security Boulevard (Google News)"
   },
   {
     "id": "2c68808f33945c5f",
-    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk",
+    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -4126,12 +4202,12 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)",
+    "attribution": "via help.splunk.com (Google News)",
     "audiences": [
       "global"
     ]
@@ -4181,7 +4257,9 @@
     "author": "johannazeek",
     "publishedAt": "2026-06-25T19:03:23+00:00",
     "fetchedAt": "2026-06-25T19:48:58+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4189,7 +4267,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There are humans here – how the Zeek project thinks about AI usage",
+    "summary": "If you have been following our newsletter, you might be aware that we recently added an AI Usage Policy to our project. This follows a lot of other projects doing likewise and took several months of discussion by the Zeek Leadership team and the development team. In this post I want to take a bit […]",
     "summarySource": "extractive",
     "clusterId": "62622fb585459d38",
     "lang": "en",
@@ -4501,7 +4579,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-23T17:01:12+00:00",
     "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4509,7 +4589,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey Is Now Open",
+    "summary": "Our annual community survey is live, and we want to hear from you! It takes less than ten minutes to complete, responses are anonymous, and your answers will directly shape what the team behind the Zeek Project prioritizes for the rest of the year. Click here to take the survey.",
     "summarySource": "extractive",
     "clusterId": "9c3d962f8edefd10",
     "lang": "en",
@@ -5201,12 +5281,12 @@
   },
   {
     "id": "1b10424d982019f4",
-    "title": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
+    "title": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - thousandeyes.com",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Zei1FbDUyUmRKbE42RnZNZENKM2tHN0dEdjhmaVY3cHFnTWdaaE1ncWw1S3JxUVU4dnRjNEF2d2pJaU42NEV2YWVDNElMVnNJNk5BeFlUTW5Ec28xbE5STXY2SjFKdEdkRWNRZDdMR2dnUQ?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
+      "name": "thousandeyes.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -5225,12 +5305,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP thousandeyes.com",
     "summarySource": "extractive",
     "clusterId": "1b10424d982019f4",
     "lang": "en",
     "license": null,
-    "attribution": "via ThousandEyes (Google News)"
+    "attribution": "via thousandeyes.com (Google News)"
   },
   {
     "id": "82f189f472e5a543",
@@ -5290,12 +5370,12 @@
   },
   {
     "id": "eb6955f4707182b6",
-    "title": "Install SPL2-based apps | Splunk Enterprise (last updated 2026-06-16T02:13:33.109Z) - Splunk",
+    "title": "Install SPL2-based apps | Splunk Enterprise (last updated 2026-06-16T02:13:33.109Z) - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVk9OU29saDV0RkdKTWZwOUZDNWdmWTBlZnlhSW9MNDNtbnVuRzcyTi1jN2Q3ckc0bi13bFF1ZUhMQWJ5VmpTTEZYaTBUQkY3WEhPZlBLSlowbldPak14a0d2MW0tY21zeEh1SUZxSS1NYWRkcDNIdUJSZGpBdmR5T2Fyazl4ZzdfSWMxcjZJOS1kQmxwV3RYU3dsczF0aWlKRFMxMGN0eXFZOVlsSUxFaGwtc3NrT1AwVW8w?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVk9OU29saDV0RkdKTWZwOUZDNWdmWTBlZnlhSW9MNDNtbnVuRzcyTi1jN2Q3ckc0bi13bFF1ZUhMQWJ5VmpTTEZYaTBUQkY3WEhPZlBLSlowbldPak14a0d2MW0tY21zeEh1SUZxSS1NYWRkcDNIdUJSZGpBdmR5T2Fyazl4ZzdfSWMxcjZJOS1kQmxwV3RYU3dsczF0aWlKRFMxMGN0eXFZOVlsSUxFaGwtc3NrT1AwVW8w?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -5311,12 +5391,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install SPL2-based apps | Splunk Enterprise (last updated 2026-06-16T02:13:33.109Z) Splunk",
+    "summary": "Install SPL2-based apps | Splunk Enterprise (last updated 2026-06-16T02:13:33.109Z) help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "eb6955f4707182b6",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "c98cafcbabe02e92",
@@ -5542,12 +5622,12 @@
   },
   {
     "id": "b7d8408dcb170f8d",
-    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - thefastmode.com",
+    "title": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment - The Fast Mode",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblUwb2l3M1JuQXlNbVNlYWg1WGVwZlBPeHVqZDJ6Yy12YS1MOHg3b0JJYVZqX0Y5UHlSMElWQTBqVXpxOWE1cmEzWGdHb1F2dEZ4QnFsUUVhYkxlZUZVdm5PSVNhTGsxSjBwY0NxbWJsMG1xRWdtQlYtVlR4bXo2a0NoYkRVZi1YbzE4T1M3VmlVSG4ydjlodVhFamh0SFRWRnBwQk5Ka1ZoU29JTkgwQzBqdUxCRnVzNEthR0lUSXl1bGpWQ1BHRXJ2Qy1Bdw?oc=5",
     "source": {
       "id": "gnews-splunk-es-soar",
-      "name": "thefastmode.com",
+      "name": "The Fast Mode",
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
@@ -5565,12 +5645,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment thefastmode.com",
+    "summary": "Cisco, NetApp Introduce Splunk SOAR Playbook to Automate Ransomware Containment The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "b7d8408dcb170f8d",
     "lang": "en",
     "license": null,
-    "attribution": "via thefastmode.com (Google News)"
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "82d27cb7f1257826",
@@ -6056,12 +6136,12 @@
   },
   {
     "id": "0f1ed0d92da6af5f",
-    "title": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate - Splunk",
+    "title": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate - splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXduek5STFctWEFBVXl3eHVzX1pwSC15TzJGbnZnVkFfX0FfTUlMSHdpVzc1TDFEM21zb1BuSGF4T1g2S1phcUNPNW1DbmxkcnJHRXVSRS1GQnc4QVBpbzNnSjd4TEZwdzdsZXV4VnRvVWpSWDVWZlRUQl9CR2VFTHJ4UjVZRUVaLUVWVk1pc2lHTVdhQWo4dV9YQ0dTRGptRGRiRks4YTVhdjZMbVhRZkgwelF4ZFVxS3c?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXduek5STFctWEFBVXl3eHVzX1pwSC15TzJGbnZnVkFfX0FfTUlMSHdpVzc1TDFEM21zb1BuSGF4T1g2S1phcUNPNW1DbmxkcnJHRXVSRS1GQnc4QVBpbzNnSjd4TEZwdzdsZXV4VnRvVWpSWDVWZlRUQl9CR2VFTHJ4UjVZRUVaLUVWVk1pc2lHTVdhQWo4dV9YQ0dTRGptRGRiRks4YTVhdjZMbVhRZkgwelF4ZFVxS3c?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -6077,12 +6157,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate Splunk",
+    "summary": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate splunk.com",
     "summarySource": "extractive",
     "clusterId": "0f1ed0d92da6af5f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via splunk.com (Google News)"
   },
   {
     "id": "f88a957372c1fbca",
@@ -6233,12 +6313,12 @@
   },
   {
     "id": "55fa88e77c8df400",
-    "title": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities - thefastmode.com",
+    "title": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities - The Fast Mode",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUm52RHpQamVya0xrS0h6Q3NQVXZYTW1LV3ZvVWZXSVNoQUFISW5uM1JBREJ3ZHlaRlg2THF1NUpTa003dDZZaWlmZ2pYNWlQQWxGdFpzNmFwcEVSeFdFdWNNTlhGemZ3djRrV21GY1FKUEdDNmNlN1pHZjdiMm9OX0ZpMkwzV2U4c2FKUDFyalJNbzhHby1vM2pvS0JzamdKTFEyS0tjVFJXUjVzZXpUOWxGUF94RmowMi1XQXc1a1BmY2FIdEpCWGtfQWxXUQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUm52RHpQamVya0xrS0h6Q3NQVXZYTW1LV3ZvVWZXSVNoQUFISW5uM1JBREJ3ZHlaRlg2THF1NUpTa003dDZZaWlmZ2pYNWlQQWxGdFpzNmFwcEVSeFdFdWNNTlhGemZ3djRrV21GY1FKUEdDNmNlN1pHZjdiMm9OX0ZpMkwzV2U4c2FKUDFyalJNbzhHby1vM2pvS0JzamdKTFEyS0tjVFJXUjVzZXpUOWxGUF94RmowMi1XQXc1a1BmY2FIdEpCWGtfQWxXUQ?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "thefastmode.com",
+      "name": "The Fast Mode",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -6254,12 +6334,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities thefastmode.com",
+    "summary": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "55fa88e77c8df400",
     "lang": "en",
     "license": null,
-    "attribution": "via thefastmode.com (Google News)"
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "7d32fd72cb1e0adc",
@@ -6274,7 +6354,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-10T15:00:05+00:00",
     "fetchedAt": "2026-06-10T20:18:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6282,7 +6364,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 Zeek Project Survey: Coming June 23",
+    "summary": "The Zeek Project has run surveys before, but we don’t often share what happens after the feedback comes in. Last year, over 90 people responded and that data has been driving decisions ever since. Before we share what’s next (hint: it’s in the title!), here’s what changed about The Zeek Project as a result of […]",
     "summarySource": "extractive",
     "clusterId": "7d32fd72cb1e0adc",
     "lang": "en",
@@ -6738,12 +6820,12 @@
   },
   {
     "id": "1777c882c6807c66",
-    "title": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer - thefastmode.com",
+    "title": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer - The Fast Mode",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa29XUEFMN05vb2VfQTBEbExCdzIzX2FMT2g5NEx6RHNxU1FJS0JoRVNkcFo4dlY5RWVUSDBmakVoMWNyclhTV3F6Z29BeGZwUEtSZGcwcXJDYVpybGVieVJseDUyYXhJcWZEV3BtMEYwWllKYk9wV014UHdHVFJtdnJxY0lsNmtmMTR1ZUNucUl5QXlfTVRyaDQweHJoc0paR2p0R0ZuTUg1NUZGLXQ2YXJIcEJYeEUxc19BS3B1SFRfTzBvb1ljR2hYaERGVndIMmo0bGJCUkdsZk03Q0Rn?oc=5",
     "source": {
       "id": "gnews-splunk-es-soar",
-      "name": "thefastmode.com",
+      "name": "The Fast Mode",
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
@@ -6761,12 +6843,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer thefastmode.com",
+    "summary": "NetApp, Cisco Intro Splunk SOAR Integration to Automate Ransomware Response at Storage Layer The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "1777c882c6807c66",
     "lang": "en",
     "license": null,
-    "attribution": "via thefastmode.com (Google News)"
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "be4a1e8479c936ad",
@@ -6954,12 +7036,12 @@
   },
   {
     "id": "1b56b811f575dd4a",
-    "title": "Gigamon & Splunk join forces on federated telemetry - ChannelLife Australia",
+    "title": "Gigamon & Splunk join forces on federated telemetry - channellife.com.au",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFN2NjB3RlMzUHphS1ZmaGV4MERGa0xNT2JhN21NOXQ4ZmY1NGFDUHpLVnFyeDNiaDVRNElZN1VaSEg4eEFPRkZFNmtaVk80Q2dGOFI1bVFwRFNXbFRYdW0zU1dBYVNKUHVjMklMRElDanV1LVg4dGZTamtmdldQaGVMUV9wRXh2Q2c?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFN2NjB3RlMzUHphS1ZmaGV4MERGa0xNT2JhN21NOXQ4ZmY1NGFDUHpLVnFyeDNiaDVRNElZN1VaSEg4eEFPRkZFNmtaVk80Q2dGOFI1bVFwRFNXbFRYdW0zU1dBYVNKUHVjMklMRElDanV1LVg4dGZTamtmdldQaGVMUV9wRXh2Q2c?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "ChannelLife Australia",
+      "name": "channellife.com.au",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -6975,12 +7057,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Gigamon & Splunk join forces on federated telemetry ChannelLife Australia",
+    "summary": "Gigamon & Splunk join forces on federated telemetry channellife.com.au",
     "summarySource": "extractive",
     "clusterId": "013188778612268e",
     "lang": "en",
     "license": null,
-    "attribution": "via ChannelLife Australia (Google News)"
+    "attribution": "via channellife.com.au (Google News)"
   },
   {
     "id": "013188778612268e",
@@ -7146,7 +7228,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-06-02T23:28:02+00:00",
     "fetchedAt": "2026-06-03T03:27:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7154,7 +7238,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Sensor Placement in Practice: Tapping What You Actually Understand",
+    "summary": "Most conversations about sensor placement focus on where to tap. Perimeter, core network, east-west segments. Pick your spot and start capturing.",
     "summarySource": "extractive",
     "clusterId": "3bb52e471d81498a",
     "lang": "en",
@@ -7305,12 +7389,12 @@
   },
   {
     "id": "965013d806dfdf27",
-    "title": "Cisco Cloud Control unites AgenticOps for IT infrastructure - TechTarget",
+    "title": "Cisco Cloud Control unites AgenticOps for IT infrastructure - techtarget.com",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNam5acGEwdFBNTkdLbzV4YmZOQlJseVdrMVBWUTh2ZGowbTRLUF9yLXVWamVZaU50ZktTN3hCSVUyUU5oM1VFZ3RreFJPNDN1X093bmRNYy11V2pBQmFhMURNdDU1M184WlNnZ0JFU2ZYbkp6T1VMZlRyYjFwanN1NmZSZDVwNGxVcm93VWloXzd2bjhYQ0Y5VC1pWWNHNmk1S2w4QmtkU0tMQzZrVUFQSkZNa1hUVlpPUUhzSg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNam5acGEwdFBNTkdLbzV4YmZOQlJseVdrMVBWUTh2ZGowbTRLUF9yLXVWamVZaU50ZktTN3hCSVUyUU5oM1VFZ3RreFJPNDN1X093bmRNYy11V2pBQmFhMURNdDU1M184WlNnZ0JFU2ZYbkp6T1VMZlRyYjFwanN1NmZSZDVwNGxVcm93VWloXzd2bjhYQ0Y5VC1pWWNHNmk1S2w4QmtkU0tMQzZrVUFQSkZNa1hUVlpPUUhzSg?oc=5",
     "source": {
       "id": "gnews-cisco-agenticops",
-      "name": "TechTarget",
+      "name": "techtarget.com",
       "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
@@ -7324,12 +7408,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure TechTarget",
+    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure techtarget.com",
     "summarySource": "extractive",
     "clusterId": "965013d806dfdf27",
     "lang": "en",
     "license": null,
-    "attribution": "via TechTarget (Google News)"
+    "attribution": "via techtarget.com (Google News)"
   },
   {
     "id": "945da4c859998397",
@@ -7653,12 +7737,9 @@
     "author": "Story DeWeese",
     "publishedAt": "2026-05-28T14:00:45+00:00",
     "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
-    "summary": "Explore top networking automation sessions, labs, and workshops at Cisco Live US 2026. From IOS XE and AI-ready infra to ACR and telemetry, this guide helps you master the tools driving the future of network management. Plan your schedule now!",
+    "summary": "Explore Enterprise Networking Automation at Cisco Live US 2026",
     "summarySource": "extractive",
     "clusterId": "29eec24aad7c4a8e",
     "lang": "en",
@@ -7808,6 +7889,36 @@
     "license": null,
     "attribution": "via Splunk Nordics (curated)",
     "agentNote": "Primary Nordic community event for partner briefings — co-hosted by Oslo and Denmark user groups; use for customer invitations and local enablement talking points."
+  },
+  {
+    "id": "638fd8d9cac25f95",
+    "title": "ManageEngine OpManager Nexus Introduces Real-Time Network Observability With OpenConfig and gNMI - businesswire.com",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObnpPUGd6TFNETW1OODJWVFRIVmFVVmotbWluWmxiNlUzYjN3VnpVREQ4aTdLckk1cllTT25Ec1IzNFFpcGlfdzgzZkM5WHFfTWxYQUs1aDdCZDI0Ql8xRzA5N3VxNDZsZVRzVmFiekpEdzNHc3RVbHNSMGpnbWR5Tl91dGw5MHc3QnAxTlFySmFpLS0yclU1WUFZSklEOURMR2l1OEdET2NDRWNXR05nbFN2OFJDUG1YTHBJb29RQW5Ic25lcm90V2NXZ0F3T0k0ZkhrT1NKaE9udnBpMFFOcUxzbFBxWXdC?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObnpPUGd6TFNETW1OODJWVFRIVmFVVmotbWluWmxiNlUzYjN3VnpVREQ4aTdLckk1cllTT25Ec1IzNFFpcGlfdzgzZkM5WHFfTWxYQUs1aDdCZDI0Ql8xRzA5N3VxNDZsZVRzVmFiekpEdzNHc3RVbHNSMGpnbWR5Tl91dGw5MHc3QnAxTlFySmFpLS0yclU1WUFZSklEOURMR2l1OEdET2NDRWNXR05nbFN2OFJDUG1YTHBJb29RQW5Ic25lcm90V2NXZ0F3T0k0ZkhrT1NKaE9udnBpMFFOcUxzbFBxWXdC?oc=5",
+    "source": {
+      "id": "gnews-network-observability",
+      "name": "businesswire.com",
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+    },
+    "author": null,
+    "publishedAt": "2026-05-28T07:00:00+00:00",
+    "fetchedAt": "2026-08-04T19:21:42+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ManageEngine OpManager Nexus Introduces Real-Time Network Observability With OpenConfig and gNMI businesswire.com",
+    "summarySource": "extractive",
+    "clusterId": "1713ab3e4083d332",
+    "lang": "en",
+    "license": null,
+    "attribution": "via businesswire.com (Google News)"
   },
   {
     "id": "b29626d40b78ad58",
@@ -8617,12 +8728,12 @@
   },
   {
     "id": "7fa4ae36d1befa44",
-    "title": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership - Splunk",
+    "title": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership - splunk.com",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSldWQ3NEbjk4MWlrWHpKSGt1QnY2R0ZOQkZ3aTJ6ZnBUVnFYcTkxN2hUR1kyeVpUS0hFb1UyZkRpR01ubUUzODh1TUo3NGxxRy1sb01kT2VCdWppMGtNanR4dS1ZVUdKUnpqSVN3emExYi1TNkRKQm1zclB2eTJjdThMMXUtRWtWa0p6UU4yWWNRajU2MHpwUQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSldWQ3NEbjk4MWlrWHpKSGt1QnY2R0ZOQkZ3aTJ6ZnBUVnFYcTkxN2hUR1kyeVpUS0hFb1UyZkRpR01ubUUzODh1TUo3NGxxRy1sb01kT2VCdWppMGtNanR4dS1ZVUdKUnpqSVN3emExYi1TNkRKQm1zclB2eTJjdThMMXUtRWtWa0p6UU4yWWNRajU2MHpwUQ?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -8635,12 +8746,12 @@
     "categories": [
       "news"
     ],
-    "summary": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership Splunk",
+    "summary": "Advancing AI, Automation, and Sovereign Cloud: What’s New in the Splunk + Microsoft Partnership splunk.com",
     "summarySource": "extractive",
     "clusterId": "7fa4ae36d1befa44",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)",
+    "attribution": "via splunk.com (Google News)",
     "audiences": [
       "global"
     ]
@@ -8856,12 +8967,12 @@
   },
   {
     "id": "003a3d6381bd3d0f",
-    "title": "What's new - Splunk",
+    "title": "What's new - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalFfeW82SnJmd3Z2QkJ4cXo2dmlDd3BlZnp0V3JjMTNVNWU5OFhjbGE0RlNmcDE3akxDY19pWnE0Q2c5ZjM2NGRabzdZQnU2MGtRcGJoWG1KLXdiNnByelMzXzd2U25XZjFWeG1ValJhZUxERWswZ2hLOWVPZnJacG1iTnlGZ3hwSmF2TXdPS3NFbHZMT3c?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalFfeW82SnJmd3Z2QkJ4cXo2dmlDd3BlZnp0V3JjMTNVNWU5OFhjbGE0RlNmcDE3akxDY19pWnE0Q2c5ZjM2NGRabzdZQnU2MGtRcGJoWG1KLXdiNnByelMzXzd2U25XZjFWeG1ValJhZUxERWswZ2hLOWVPZnJacG1iTnlGZ3hwSmF2TXdPS3NFbHZMT3c?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -8874,12 +8985,12 @@
     "categories": [
       "product-release"
     ],
-    "summary": "What's new Splunk",
+    "summary": "What's new help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "003a3d6381bd3d0f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)",
+    "attribution": "via help.splunk.com (Google News)",
     "audiences": [
       "global"
     ]
@@ -9651,7 +9762,7 @@
   },
   {
     "id": "95ea54e9ebadba18",
-    "title": "Welcome to Splunk Enterprise 10.4 - Splunk",
+    "title": "Welcome to Splunk Enterprise 10.4 - help.splunk.com",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "source": {
@@ -10097,7 +10208,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk OT Intelligence release notes Splunk",
+    "summary": "Splunk OT Intelligence release notes - Splunk",
     "summarySource": "extractive",
     "clusterId": "a67d3b78d5183b33",
     "lang": "en",
@@ -11358,90 +11469,6 @@
     ]
   },
   {
-    "id": "76fcce421cbf27cc",
-    "title": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
-    "url": "https://zeek.org/2026/05/how-do-you-know-zeek-is-working-what-practitioners-actually-monitor/",
-    "canonicalUrl": "https://zeek.org/2026/05/how-do-you-know-zeek-is-working-what-practitioners-actually-monitor",
-    "source": {
-      "id": "zeek-blog",
-      "name": "Zeek Blog",
-      "homepage": "https://zeek.org"
-    },
-    "author": "Michelle Pathe",
-    "publishedAt": "2026-05-06T18:22:17+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "How Do You Know Zeek Is Working? What Practitioners Actually Monitor",
-    "summarySource": "extractive",
-    "clusterId": "76fcce421cbf27cc",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Zeek Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "e7b039e0a6a49b3b",
-    "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
-    "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
-    "canonicalUrl": "https://blog.cloudflare.com/de-tld-outage-dnssec",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Max Worsley",
-    "publishedAt": "2026-05-06T17:00:00+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
-    "summarySource": "extractive",
-    "clusterId": "e7b039e0a6a49b3b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "7afd87663be612c3",
-    "title": "Lean IT, future-ready: How to save time and simplify wireless management with AI",
-    "url": "https://blogs.cisco.com/networking/lean-it-future-ready-how-to-save-time-and-simplify-wireless-management-with-ai/",
-    "canonicalUrl": "https://blogs.cisco.com/networking/lean-it-future-ready-how-to-save-time-and-simplify-wireless-management-with-ai",
-    "source": {
-      "id": "cisco-networking-blog",
-      "name": "Cisco Networking Blog",
-      "homepage": "https://blogs.cisco.com/networking"
-    },
-    "author": "Stefani Johnson",
-    "publishedAt": "2026-05-06T15:00:00+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Lean IT, future-ready: How to save time and simplify wireless management with AI",
-    "summarySource": "extractive",
-    "clusterId": "7afd87663be612c3",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Networking Blog",
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "b8d959c346a1a7a1",
     "title": "What's new in Dashboard Studio - Splunk",
     "url": "https://docs.splunk.com/Documentation/DashboardStudio/1.12.0/WhatsNew/Features",
@@ -11545,7 +11572,7 @@
   },
   {
     "id": "25caa8d3495a4776",
-    "title": "What’s New With Splunk Enterprise 8.1 - Splunk",
+    "title": "What’s New With Splunk Enterprise 8.1 - splunk.com",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "source": {
