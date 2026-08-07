@@ -1,5 +1,125 @@
 [
   {
+    "id": "5ef0123a42450268",
+    "title": "Unveiling good and bad behaviors on the Agentic Internet",
+    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+    "canonicalUrl": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Marina Elmore",
+    "publishedAt": "2026-08-07T13:01:00+00:00",
+    "fetchedAt": "2026-08-07T18:43:32+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be assessed as human or bot.",
+    "summarySource": "extractive",
+    "clusterId": "5ef0123a42450268",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "e350443ab0fbdbda",
+    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+    "url": "https://blog.cloudflare.com/community-program-refresh/",
+    "canonicalUrl": "https://blog.cloudflare.com/community-program-refresh",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Marissa Phul",
+    "publishedAt": "2026-08-07T13:00:00+00:00",
+    "fetchedAt": "2026-08-07T18:43:32+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
+    "summarySource": "extractive",
+    "clusterId": "e350443ab0fbdbda",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "4a053871bbc23c33",
+    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+    "canonicalUrl": "https://blog.cloudflare.com/introducing-radar-researcher",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "André Jesus",
+    "publishedAt": "2026-08-07T13:00:00+00:00",
+    "fetchedAt": "2026-08-07T18:43:32+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
+    "summarySource": "extractive",
+    "clusterId": "4a053871bbc23c33",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "04aba5b526727ee5",
+    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+    "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+    "canonicalUrl": "https://blog.cloudflare.com/workers-ai-gateway-unification",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Ming Lu",
+    "publishedAt": "2026-08-07T13:00:00+00:00",
+    "fetchedAt": "2026-08-07T18:43:32+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
+    "summarySource": "extractive",
+    "clusterId": "04aba5b526727ee5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "31d4cf12f08c6e4a",
     "title": "Scaling the future: Why Ethernet is the backbone of AI Supercomputing",
     "url": "https://blogs.cisco.com/datacenter/scaling-the-future-why-ethernet-is-the-backbone-of-ai-supercomputing/",
@@ -643,9 +763,7 @@
     "author": "Matthew Phillips",
     "publishedAt": "2026-08-04T13:00:00+00:00",
     "fetchedAt": "2026-08-04T13:53:10+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -653,7 +771,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
+    "summary": "How we built a software factory to drive Astro’s GitHub issue count to zero",
     "summarySource": "extractive",
     "clusterId": "690c055d243e46f7",
     "lang": "en",
@@ -733,9 +851,7 @@
     "author": "Fred Schott",
     "publishedAt": "2026-08-04T13:00:00+00:00",
     "fetchedAt": "2026-08-04T13:53:10+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -743,7 +859,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale.",
+    "summary": "Introducing: Cloudflare Agents",
     "summarySource": "extractive",
     "clusterId": "3bcda061e8010df8",
     "lang": "en",
@@ -763,9 +879,7 @@
     "author": "Nevi Shah",
     "publishedAt": "2026-08-04T13:00:00+00:00",
     "fetchedAt": "2026-08-04T13:53:10+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -773,7 +887,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
+    "summary": "Your agent can now debug Workers with local tracing",
     "summarySource": "extractive",
     "clusterId": "077ee2d9734697a8",
     "lang": "en",
@@ -782,12 +896,12 @@
   },
   {
     "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - networkworld.com",
+    "title": "2026 network outage report and internet health check - Network World",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "networkworld.com",
+      "name": "Network World",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -795,12 +909,12 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check networkworld.com",
+    "summary": "2026 network outage report and internet health check Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
     "license": null,
-    "attribution": "via networkworld.com (Google News)",
+    "attribution": "via Network World (Google News)",
     "categories": [
       "outage"
     ],
@@ -849,9 +963,7 @@
     "author": "Aron Carroll",
     "publishedAt": "2026-08-03T13:15:24+00:00",
     "fetchedAt": "2026-08-03T14:22:23+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -859,7 +971,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a computer of its own.",
+    "summary": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
     "summarySource": "extractive",
     "clusterId": "6522dfbb2ee3fad4",
     "lang": "en",
@@ -1208,34 +1320,6 @@
     "attribution": "via APNIC Blog"
   },
   {
-    "id": "f0a704ec833cf12f",
-    "title": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M - Tech Times",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2twaTlhTWFOQW80TEItbjU2bkIzYWpRcnp6c1FzbEJVSk54V3YyV2RJTy1wcXZ5enhJUXFkUXFpM1AxVlBzaGdKSm01ZVJoSmx6U0FCX2ZzV0xxeXZhTUFJWm0wZjBBcDIwWnRGcUNlM3JGWWt0OXdQaWJsR2IxaVo3Z2tHRFJ3Z3dFTUNxcEg0MzVybkduQ3c2eS1qem54UnBvaFlFZ2dNWGpLVEdKQ2xNMEczemFSNUJNNU0zcGJTSnVxNXF5LVRNVQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2twaTlhTWFOQW80TEItbjU2bkIzYWpRcnp6c1FzbEJVSk54V3YyV2RJTy1wcXZ5enhJUXFkUXFpM1AxVlBzaGdKSm01ZVJoSmx6U0FCX2ZzV0xxeXZhTUFJWm0wZjBBcDIwWnRGcUNlM3JGWWt0OXdQaWJsR2IxaVo3Z2tHRFJ3Z3dFTUNxcEg0MzVybkduQ3c2eS1qem54UnBvaFlFZ2dNWGpLVEdKQ2xNMEczemFSNUJNNU0zcGJTSnVxNXF5LVRNVQ?oc=5",
-    "source": {
-      "id": "gnews-opentelemetry-network",
-      "name": "Tech Times",
-      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-07-30T01:15:53+00:00",
-    "fetchedAt": "2026-07-30T01:47:43+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M Tech Times",
-    "summarySource": "extractive",
-    "clusterId": "f0a704ec833cf12f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Tech Times (Google News)"
-  },
-  {
     "id": "dc650289861112ed",
     "title": "Post-quantum authentication to origins is now supported",
     "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
@@ -1262,6 +1346,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "f0a704ec833cf12f",
+    "title": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M - Tech Times",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2twaTlhTWFOQW80TEItbjU2bkIzYWpRcnp6c1FzbEJVSk54V3YyV2RJTy1wcXZ5enhJUXFkUXFpM1AxVlBzaGdKSm01ZVJoSmx6U0FCX2ZzV0xxeXZhTUFJWm0wZjBBcDIwWnRGcUNlM3JGWWt0OXdQaWJsR2IxaVo3Z2tHRFJ3Z3dFTUNxcEg0MzVybkduQ3c2eS1qem54UnBvaFlFZ2dNWGpLVEdKQ2xNMEczemFSNUJNNU0zcGJTSnVxNXF5LVRNVQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2twaTlhTWFOQW80TEItbjU2bkIzYWpRcnp6c1FzbEJVSk54V3YyV2RJTy1wcXZ5enhJUXFkUXFpM1AxVlBzaGdKSm01ZVJoSmx6U0FCX2ZzV0xxeXZhTUFJWm0wZjBBcDIwWnRGcUNlM3JGWWt0OXdQaWJsR2IxaVo3Z2tHRFJ3Z3dFTUNxcEg0MzVybkduQ3c2eS1qem54UnBvaFlFZ2dNWGpLVEdKQ2xNMEczemFSNUJNNU0zcGJTSnVxNXF5LVRNVQ?oc=5",
+    "source": {
+      "id": "gnews-opentelemetry-network",
+      "name": "Tech Times",
+      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-07-29T07:00:00+00:00",
+    "fetchedAt": "2026-07-30T01:47:43+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M Tech Times",
+    "summarySource": "extractive",
+    "clusterId": "f0a704ec833cf12f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Tech Times (Google News)"
   },
   {
     "id": "b7be6ebcd9c9661f",
@@ -1952,6 +2064,37 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "68e7fbb9db5c7fd5",
+    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
+    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-07-22T15:54:49+00:00",
+    "fetchedAt": "2026-08-07T18:43:32+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
+    "summarySource": "extractive",
+    "clusterId": "68e7fbb9db5c7fd5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "c06f5e3bc6364366",
     "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "url": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there/",
@@ -2516,12 +2659,12 @@
   },
   {
     "id": "cb9d541a7b55e8f5",
-    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - CyberSecurityNews",
+    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - cybersecuritynews.com",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
+      "name": "cybersecuritynews.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -2538,12 +2681,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks CyberSecurityNews",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks cybersecuritynews.com",
     "summarySource": "extractive",
     "clusterId": "cb9d541a7b55e8f5",
     "lang": "en",
     "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
+    "attribution": "via cybersecuritynews.com (Google News)"
   },
   {
     "id": "96bff952071d094a",
@@ -4327,12 +4470,12 @@
   },
   {
     "id": "34a033f43010e298",
-    "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
+    "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - cybersecuritynews.com",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
+      "name": "cybersecuritynews.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -4350,12 +4493,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway CyberSecurityNews",
+    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway cybersecuritynews.com",
     "summarySource": "extractive",
     "clusterId": "34a033f43010e298",
     "lang": "en",
     "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
+    "attribution": "via cybersecuritynews.com (Google News)"
   },
   {
     "id": "7dd50a7de11e2fe2",
@@ -4720,12 +4863,12 @@
   },
   {
     "id": "d900f36b310c92da",
-    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - SecurityBrief Australia",
+    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - securitybrief.com.au",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "source": {
       "id": "gnews-cisco-sdwan",
-      "name": "SecurityBrief Australia",
+      "name": "securitybrief.com.au",
       "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
     },
     "author": null,
@@ -4739,12 +4882,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach SecurityBrief Australia",
+    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach securitybrief.com.au",
     "summarySource": "extractive",
     "clusterId": "d900f36b310c92da",
     "lang": "en",
     "license": null,
-    "attribution": "via SecurityBrief Australia (Google News)"
+    "attribution": "via securitybrief.com.au (Google News)"
   },
   {
     "id": "619f2e9413b86ed9",
@@ -5632,7 +5775,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security Cisco Blogs",
+    "summary": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "f509b02cae180bf8",
     "lang": "en",
@@ -6155,6 +6298,34 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-08-07T18:43:32+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -6212,12 +6383,12 @@
   },
   {
     "id": "add5538c3aeb7157",
-    "title": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed - thecyberexpress.com",
+    "title": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed - The Cyber Express",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYVJBb1hBNEpfZXlfZGw4R2loOVZMOVh0Tk04ZUxlMXloaWlBMG5fQVJZSUVuU1l2Q3FlTU1XS2NOMUhHMG9nSXkyODZ5UHRjazJja2g4SVhnaEFKQmo5T0VkS2c3WWRSR2ZGdkdBbG5wejBTMGJLNG930gF6QVVfeXFMTXFhUkFvWEE0Sl9leV9kbDhHaWg5Vkw5WHROTThlTGUxeWhpaUEwbl9BUllJRW5TWXZDcWVNTVdLY04xSEcwb2dJeTI4NnlQdGNrMmNraDhJWGdoQUpCajlPRWRLZzdZZFJHZkZ2R0FsbnB6MFMwYks0b3c?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYVJBb1hBNEpfZXlfZGw4R2loOVZMOVh0Tk04ZUxlMXloaWlBMG5fQVJZSUVuU1l2Q3FlTU1XS2NOMUhHMG9nSXkyODZ5UHRjazJja2g4SVhnaEFKQmo5T0VkS2c3WWRSR2ZGdkdBbG5wejBTMGJLNG930gF6QVVfeXFMTXFhUkFvWEE0Sl9leV9kbDhHaWg5Vkw5WHROTThlTGUxeWhpaUEwbl9BUllJRW5TWXZDcWVNTVdLY04xSEcwb2dJeTI4NnlQdGNrMmNraDhJWGdoQUpCajlPRWRLZzdZZFJHZkZ2R0FsbnB6MFMwYks0b3c?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "thecyberexpress.com",
+      "name": "The Cyber Express",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -6235,12 +6406,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed thecyberexpress.com",
+    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed The Cyber Express",
     "summarySource": "extractive",
     "clusterId": "add5538c3aeb7157",
     "lang": "en",
     "license": null,
-    "attribution": "via thecyberexpress.com (Google News)"
+    "attribution": "via The Cyber Express (Google News)"
   },
   {
     "id": "b7ca815dc1021ab8",
@@ -6328,7 +6499,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations - Business Insider",
+    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations Business Insider",
     "summarySource": "extractive",
     "clusterId": "01553c52c86d9f94",
     "lang": "en",
@@ -6427,12 +6598,12 @@
   },
   {
     "id": "9bf7607b1a8c1bf3",
-    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - The Hacker News",
+    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - thehackernews.com",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "The Hacker News",
+      "name": "thehackernews.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -6449,12 +6620,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication The Hacker News",
+    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication thehackernews.com",
     "summarySource": "extractive",
     "clusterId": "9bf7607b1a8c1bf3",
     "lang": "en",
     "license": null,
-    "attribution": "via The Hacker News (Google News)"
+    "attribution": "via thehackernews.com (Google News)"
   },
   {
     "id": "498a1de1360800c5",
@@ -6638,12 +6809,12 @@
   },
   {
     "id": "eea0755d6b0320ce",
-    "title": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script - CyberSecurityNews",
+    "title": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script - cybersecuritynews.com",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XWGc0NE9PM09hZ3o2QlVfWDFucTIzY3Bya1hZZFpuQ2pRNE1tMnM4UkptRkpNMV9ucGNuMkVjYjNmTHJYcWsyTzM2Rm9kR29iRXp2VXM4UEV4aWp1R3M1NTlwQ01jcVBCczdWcFYzN0dGVlNUQzRnV0o4UDdkUdIBgwFBVV95cUxNeVU4SjRVX0psMTcwcU1tNVRHZ3N4ZnNBQXFXbWs2NlpMYnNYSUNkU1gwdGo3MnhnbVlNM1pRTGt3SUt6bUIzd01XSHIxMFNDLWlMajhhY21aQzV4eE4xZ3RVWFFFRVVzQTZGQkJTRmROLURJVnB0MUNBQ1BQOVNTUkRLZw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XWGc0NE9PM09hZ3o2QlVfWDFucTIzY3Bya1hZZFpuQ2pRNE1tMnM4UkptRkpNMV9ucGNuMkVjYjNmTHJYcWsyTzM2Rm9kR29iRXp2VXM4UEV4aWp1R3M1NTlwQ01jcVBCczdWcFYzN0dGVlNUQzRnV0o4UDdkUdIBgwFBVV95cUxNeVU4SjRVX0psMTcwcU1tNVRHZ3N4ZnNBQXFXbWs2NlpMYnNYSUNkU1gwdGo3MnhnbVlNM1pRTGt3SUt6bUIzd01XSHIxMFNDLWlMajhhY21aQzV4eE4xZ3RVWFFFRVVzQTZGQkJTRmROLURJVnB0MUNBQ1BQOVNTUkRLZw?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
+      "name": "cybersecuritynews.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -6660,12 +6831,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script CyberSecurityNews",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script cybersecuritynews.com",
     "summarySource": "extractive",
     "clusterId": "eea0755d6b0320ce",
     "lang": "en",
     "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
+    "attribution": "via cybersecuritynews.com (Google News)"
   },
   {
     "id": "079277307d3da9e6",
@@ -7168,6 +7339,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
+  },
+  {
+    "id": "618b90329c9790cd",
+    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
+    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
+    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-06-05T18:29:57+00:00",
+    "fetchedAt": "2026-08-07T18:43:32+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summarySource": "extractive",
+    "clusterId": "618b90329c9790cd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "923a55dacc21d28b",
@@ -8584,12 +8786,12 @@
   },
   {
     "id": "1869619191ee7e59",
-    "title": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager - Microsoft Azure",
+    "title": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager - azure.microsoft.com",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMmpUX3RQSjRuSTUxSmlCUTJCbjRVWnIzZUltc19QblpNSUIwcWxPMUMtQjU3bzI3d1RhZTduTERxU1lkMW9NMjN2ZDNON0JpRG9MMnQzazl0YmZGS1pRUUdhUC1vdnZHeGphdVVUNFF2eXVRbmpDTDZrQk0wUmRiTDZOM0JWalZkdFdlZ0ZzUDJJaHBQdE9Ia1AtcS1fRzU3ei1VV3hBNzhnU1d6QTZVanBDSXVVSEFhcElNN1ZwNFU0Rjdsd2dOY1J0ZmtoLWwxbTYwUS1VUVY5LTdlMmdj?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMmpUX3RQSjRuSTUxSmlCUTJCbjRVWnIzZUltc19QblpNSUIwcWxPMUMtQjU3bzI3d1RhZTduTERxU1lkMW9NMjN2ZDNON0JpRG9MMnQzazl0YmZGS1pRUUdhUC1vdnZHeGphdVVUNFF2eXVRbmpDTDZrQk0wUmRiTDZOM0JWalZkdFdlZ0ZzUDJJaHBQdE9Ia1AtcS1fRzU3ei1VV3hBNzhnU1d6QTZVanBDSXVVSEFhcElNN1ZwNFU0Rjdsd2dOY1J0ZmtoLWwxbTYwUS1VUVY5LTdlMmdj?oc=5",
     "source": {
       "id": "gnews-ebpf-cilium",
-      "name": "Microsoft Azure",
+      "name": "azure.microsoft.com",
       "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
     },
     "author": null,
@@ -8597,12 +8799,12 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager Microsoft Azure",
+    "summary": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager azure.microsoft.com",
     "summarySource": "extractive",
     "clusterId": "1869619191ee7e59",
     "lang": "en",
     "license": null,
-    "attribution": "via Microsoft Azure (Google News)",
+    "attribution": "via azure.microsoft.com (Google News)",
     "categories": [
       "news"
     ],
