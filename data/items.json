@@ -155,7 +155,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -243,7 +243,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1160,7 +1160,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
+    "summary": "BGP topics from IETF 126",
     "summarySource": "extractive",
     "clusterId": "4d8858991c7a7ea2",
     "lang": "en",
@@ -1271,7 +1271,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1910,37 +1910,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "68e7fbb9db5c7fd5",
-    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
-    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-07-22T15:54:49+00:00",
-    "fetchedAt": "2026-08-07T02:15:36+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
-    "summarySource": "extractive",
-    "clusterId": "68e7fbb9db5c7fd5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "c06f5e3bc6364366",
@@ -2914,7 +2883,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summary": "Life on the Internet adoption curve",
     "summarySource": "extractive",
     "clusterId": "1f9fa7a192d39a63",
     "lang": "en",
@@ -2999,7 +2968,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summary": "APNIC Publishes Submission to Malaysia Public Consultation",
     "summarySource": "extractive",
     "clusterId": "02388e08138ad979",
     "lang": "en",
@@ -3142,7 +3111,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
+    "summary": "ASPA at APNIC: Strengthening BGP path validation",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -3202,7 +3171,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
+    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -3318,7 +3287,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Even operators with strong BGP knowledge tend to create ROAs infrequently and may lack deep familiarity with their behaviour. ROOTBEER helps operators understand what to consider when creating ROAs.",
+    "summary": "ROA adoption barriers to practical planning tools: Reflections from ARIN 57",
     "summarySource": "extractive",
     "clusterId": "7e1194185e5261ed",
     "lang": "en",
@@ -3495,7 +3464,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3586,8 +3555,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3794,8 +3762,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "outage"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -3950,7 +3917,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: How to restore access to legacy network devices when modern SSH clients reject outdated cryptography.",
+    "summary": "SSH key exchange failures when managing legacy network devices",
     "summarySource": "extractive",
     "clusterId": "ba567b547efd1264",
     "lang": "en",
@@ -4233,7 +4200,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4795,12 +4762,12 @@
   },
   {
     "id": "d900f36b310c92da",
-    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - SecurityBrief Australia",
+    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - securitybrief.com.au",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "source": {
       "id": "gnews-cisco-sdwan",
-      "name": "SecurityBrief Australia",
+      "name": "securitybrief.com.au",
       "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
     },
     "author": null,
@@ -4814,12 +4781,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach SecurityBrief Australia",
+    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach securitybrief.com.au",
     "summarySource": "extractive",
     "clusterId": "d900f36b310c92da",
     "lang": "en",
     "license": null,
-    "attribution": "via SecurityBrief Australia (Google News)"
+    "attribution": "via securitybrief.com.au (Google News)"
   },
   {
     "id": "619f2e9413b86ed9",
@@ -5655,6 +5622,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "f509b02cae180bf8",
+    "title": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security - Cisco Blogs",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHlZWWt3OFFBdVVURHo0RHJteTJ5RHdQUUhXNU5yeVpwVkpYUmpLZ3pPQXdkWHFrU1ROMDg4ZFRIamtmWEgwLVVSQ3I0WG42b1VKcjYteWE0SF9QMW1XYmxTMHFlbUNRUnRrWTVhSXZiQUxFWEJTS0Zzb0ZpRFJUcTVzTzVpdFFn?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHlZWWt3OFFBdVVURHo0RHJteTJ5RHdQUUhXNU5yeVpwVkpYUmpLZ3pPQXdkWHFrU1ROMDg4ZFRIamtmWEgwLVVSQ3I0WG42b1VKcjYteWE0SF9QMW1XYmxTMHFlbUNRUnRrWTVhSXZiQUxFWEJTS0Zzb0ZpRFJUcTVzTzVpdFFn?oc=5",
+    "source": {
+      "id": "gnews-cisco-agenticops",
+      "name": "Cisco Blogs",
+      "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
+    },
+    "author": null,
+    "publishedAt": "2026-06-18T07:00:00+00:00",
+    "fetchedAt": "2026-08-07T07:03:16+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security Cisco Blogs",
+    "summarySource": "extractive",
+    "clusterId": "f509b02cae180bf8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs (Google News)"
+  },
+  {
     "id": "82c755021c845235",
     "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
     "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
@@ -6190,7 +6185,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -6470,12 +6465,12 @@
   },
   {
     "id": "9bf7607b1a8c1bf3",
-    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - The Hacker News",
+    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - thehackernews.com",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "The Hacker News",
+      "name": "thehackernews.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -6492,12 +6487,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication The Hacker News",
+    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication thehackernews.com",
     "summarySource": "extractive",
     "clusterId": "9bf7607b1a8c1bf3",
     "lang": "en",
     "license": null,
-    "attribution": "via The Hacker News (Google News)"
+    "attribution": "via thehackernews.com (Google News)"
   },
   {
     "id": "498a1de1360800c5",
@@ -7225,10 +7220,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-08-07T02:15:36+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -7236,7 +7228,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
@@ -7521,12 +7513,12 @@
   },
   {
     "id": "1b56b811f575dd4a",
-    "title": "Gigamon & Splunk join forces on federated telemetry - ChannelLife Australia",
+    "title": "Gigamon & Splunk join forces on federated telemetry - channellife.com.au",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFN2NjB3RlMzUHphS1ZmaGV4MERGa0xNT2JhN21NOXQ4ZmY1NGFDUHpLVnFyeDNiaDVRNElZN1VaSEg4eEFPRkZFNmtaVk80Q2dGOFI1bVFwRFNXbFRYdW0zU1dBYVNKUHVjMklMRElDanV1LVg4dGZTamtmdldQaGVMUV9wRXh2Q2c?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFN2NjB3RlMzUHphS1ZmaGV4MERGa0xNT2JhN21NOXQ4ZmY1NGFDUHpLVnFyeDNiaDVRNElZN1VaSEg4eEFPRkZFNmtaVk80Q2dGOFI1bVFwRFNXbFRYdW0zU1dBYVNKUHVjMklMRElDanV1LVg4dGZTamtmdldQaGVMUV9wRXh2Q2c?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "ChannelLife Australia",
+      "name": "channellife.com.au",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -7542,12 +7534,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Gigamon & Splunk join forces on federated telemetry ChannelLife Australia",
+    "summary": "Gigamon & Splunk join forces on federated telemetry channellife.com.au",
     "summarySource": "extractive",
     "clusterId": "013188778612268e",
     "lang": "en",
     "license": null,
-    "attribution": "via ChannelLife Australia (Google News)"
+    "attribution": "via channellife.com.au (Google News)"
   },
   {
     "id": "013188778612268e",
@@ -7651,7 +7643,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -8364,6 +8356,36 @@
     "license": null,
     "attribution": "via Splunk Nordics (curated)",
     "agentNote": "Primary Nordic community event for partner briefings — co-hosted by Oslo and Denmark user groups; use for customer invitations and local enablement talking points."
+  },
+  {
+    "id": "638fd8d9cac25f95",
+    "title": "ManageEngine OpManager Nexus Introduces Real-Time Network Observability With OpenConfig and gNMI - businesswire.com",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObnpPUGd6TFNETW1OODJWVFRIVmFVVmotbWluWmxiNlUzYjN3VnpVREQ4aTdLckk1cllTT25Ec1IzNFFpcGlfdzgzZkM5WHFfTWxYQUs1aDdCZDI0Ql8xRzA5N3VxNDZsZVRzVmFiekpEdzNHc3RVbHNSMGpnbWR5Tl91dGw5MHc3QnAxTlFySmFpLS0yclU1WUFZSklEOURMR2l1OEdET2NDRWNXR05nbFN2OFJDUG1YTHBJb29RQW5Ic25lcm90V2NXZ0F3T0k0ZkhrT1NKaE9udnBpMFFOcUxzbFBxWXdC?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObnpPUGd6TFNETW1OODJWVFRIVmFVVmotbWluWmxiNlUzYjN3VnpVREQ4aTdLckk1cllTT25Ec1IzNFFpcGlfdzgzZkM5WHFfTWxYQUs1aDdCZDI0Ql8xRzA5N3VxNDZsZVRzVmFiekpEdzNHc3RVbHNSMGpnbWR5Tl91dGw5MHc3QnAxTlFySmFpLS0yclU1WUFZSklEOURMR2l1OEdET2NDRWNXR05nbFN2OFJDUG1YTHBJb29RQW5Ic25lcm90V2NXZ0F3T0k0ZkhrT1NKaE9udnBpMFFOcUxzbFBxWXdC?oc=5",
+    "source": {
+      "id": "gnews-network-observability",
+      "name": "businesswire.com",
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+    },
+    "author": null,
+    "publishedAt": "2026-05-28T07:00:00+00:00",
+    "fetchedAt": "2026-08-07T07:03:16+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ManageEngine OpManager Nexus Introduces Real-Time Network Observability With OpenConfig and gNMI businesswire.com",
+    "summarySource": "extractive",
+    "clusterId": "1713ab3e4083d332",
+    "lang": "en",
+    "license": null,
+    "attribution": "via businesswire.com (Google News)"
   },
   {
     "id": "b29626d40b78ad58",
@@ -11217,7 +11239,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 5 Use Cases for Splunk Enterprise Security - Express Computer",
+    "summary": "Top 5 Use Cases for Splunk Enterprise Security Express Computer",
     "summarySource": "extractive",
     "clusterId": "23d73347e7c4a62d",
     "lang": "en",
@@ -11583,66 +11605,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "e07de733ca1381a8",
-    "title": "Configure alert trigger conditions - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZGI0TTBNaXBvWG1INmIzTDNldDhDdXJ3ZUlKeUxCRlpiN1k2MWZvOHNQVTF5U09yLWlLZnFERXlDcElWSlpoY01pa1hDdENGb2gxR1dOeExULWh1VS1LcGlRdmJQa2lFZlkzaldmNUZvUk5mNXJtbXRFR1FpZmZESHBnaDNSb3NaT3M1aFZicDBSbEhyeVo4cHpiWVZYaEw1ZERtUGNZSVMtVEM0VU1Mc25WRWFLbE9FWHdTRlBNWjY3WkFITmIxV293?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZGI0TTBNaXBvWG1INmIzTDNldDhDdXJ3ZUlKeUxCRlpiN1k2MWZvOHNQVTF5U09yLWlLZnFERXlDcElWSlpoY01pa1hDdENGb2gxR1dOeExULWh1VS1LcGlRdmJQa2lFZlkzaldmNUZvUk5mNXJtbXRFR1FpZmZESHBnaDNSb3NaT3M1aFZicDBSbEhyeVo4cHpiWVZYaEw1ZERtUGNZSVMtVEM0VU1Mc25WRWFLbE9FWHdTRlBNWjY3WkFITmIxV293?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-05-09T07:00:00+00:00",
-    "fetchedAt": "2026-06-07T02:50:39+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Configure alert trigger conditions - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "e07de733ca1381a8",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "940edc9e05b35e7a",
-    "title": "Creating searches using the REST API - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLW1Fb1NpUEotLVpqMEhJZlpvV3Y2azViQWNFZ0JwcFZOSGEyeVhleWV1ZHpqRkxtN0dDcjdhRDV4WE91am5xNkF3SkZzMDVPaDhFTUZGendGYVBLZ1pHMXpTcEdIcUtIc3BIR0RobTNOY0RfZGVXSk94eWthelJ5N3NkVU1WcWhZUFdjM0xObERwT243UUF1R251ams2UXdMaThsZGdQNjhsMnpnRTBiU0U4UEdBSWxDMXpVNTViWkppeTR4UmFNZzlIS0JTNjRXVEV1a29mdHloMTQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLW1Fb1NpUEotLVpqMEhJZlpvV3Y2azViQWNFZ0JwcFZOSGEyeVhleWV1ZHpqRkxtN0dDcjdhRDV4WE91am5xNkF3SkZzMDVPaDhFTUZGendGYVBLZ1pHMXpTcEdIcUtIc3BIR0RobTNOY0RfZGVXSk94eWthelJ5N3NkVU1WcWhZUFdjM0xObERwT243UUF1R251ams2UXdMaThsZGdQNjhsMnpnRTBiU0U4UEdBSWxDMXpVNTViWkppeTR4UmFNZzlIS0JTNjRXVEV1a29mdHloMTQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-05-09T07:00:00+00:00",
-    "fetchedAt": "2026-06-03T16:23:40+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Creating searches using the REST API - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "940edc9e05b35e7a",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "b8d959c346a1a7a1",
