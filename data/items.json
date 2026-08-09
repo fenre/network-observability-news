@@ -585,13 +585,14 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "enterprise-security",
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release",
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
@@ -2621,12 +2622,12 @@
   },
   {
     "id": "cb9d541a7b55e8f5",
-    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - cybersecuritynews.com",
+    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "cybersecuritynews.com",
+      "name": "CyberSecurityNews",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -2643,12 +2644,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks cybersecuritynews.com",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "cb9d541a7b55e8f5",
     "lang": "en",
     "license": null,
-    "attribution": "via cybersecuritynews.com (Google News)"
+    "attribution": "via CyberSecurityNews (Google News)"
   },
   {
     "id": "96bff952071d094a",
@@ -3799,7 +3800,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN Vulnerability: 7 Zero-Days in 2026 tech-insider.org",
+    "summary": "Cisco SD-WAN Vulnerability: 7 Zero-Days in 2026 - tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "88a8d0573fdb3591",
     "lang": "en",
@@ -5206,12 +5207,12 @@
   },
   {
     "id": "82c16fa2829f3035",
-    "title": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
+    "title": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - rescana.com",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "Rescana",
+      "name": "rescana.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -5229,12 +5230,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service rescana.com",
     "summarySource": "extractive",
     "clusterId": "82c16fa2829f3035",
     "lang": "en",
     "license": null,
-    "attribution": "via Rescana (Google News)"
+    "attribution": "via rescana.com (Google News)"
   },
   {
     "id": "d717a96130082765",
@@ -5358,12 +5359,12 @@
   },
   {
     "id": "b4170dc53662234f",
-    "title": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure - SecurityWeek",
+    "title": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure - securityweek.com",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMlQxU1FpYVBManQ4TVlhM3QwQVJrRW1MVnhfVGxFaGp0ME4xTkZuMkxXMHdCdm9tY3Z3ODlhYks2LVo2SjdCZFJXZkliY2lLVkstelM4RmtnWTNRRG9TUXJmM1pDNHlhdlo1blFKamx6MUtFVzF6bTZxMkphVkVUcWJHbUM0WVZrcE01VHZ5U3NKYlJndUFIZk9ZUnhDb1ZHMnI1RXUwMNIBrAFBVV95cUxQS3hXOVBBRDVPemFzOVNod2tQRzJWNmFQNzhxVG5EQV9XVG9MNHRSYVRYTHdWMkg5Rk82TG1kc2VvbmZZbHlzeTVOR25mTlkzMlZNQXJUeF9PNHcxbXNHaGN0ZE5HVi1pLUJKeVN3N1RYZ2FJOUw3bWJJVG9WbFZFRXYxaDJoUV9nMjdnUWtOTEY5NUlBLWNIcU1BUlJUdnE1MXBfbmlHbEM3cHZY?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMlQxU1FpYVBManQ4TVlhM3QwQVJrRW1MVnhfVGxFaGp0ME4xTkZuMkxXMHdCdm9tY3Z3ODlhYks2LVo2SjdCZFJXZkliY2lLVkstelM4RmtnWTNRRG9TUXJmM1pDNHlhdlo1blFKamx6MUtFVzF6bTZxMkphVkVUcWJHbUM0WVZrcE01VHZ5U3NKYlJndUFIZk9ZUnhDb1ZHMnI1RXUwMNIBrAFBVV95cUxQS3hXOVBBRDVPemFzOVNod2tQRzJWNmFQNzhxVG5EQV9XVG9MNHRSYVRYTHdWMkg5Rk82TG1kc2VvbmZZbHlzeTVOR25mTlkzMlZNQXJUeF9PNHcxbXNHaGN0ZE5HVi1pLUJKeVN3N1RYZ2FJOUw3bWJJVG9WbFZFRXYxaDJoUV9nMjdnUWtOTEY5NUlBLWNIcU1BUlJUdnE1MXBfbmlHbEM3cHZY?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "SecurityWeek",
+      "name": "securityweek.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -5381,12 +5382,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure SecurityWeek",
+    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure securityweek.com",
     "summarySource": "extractive",
     "clusterId": "b4170dc53662234f",
     "lang": "en",
     "license": null,
-    "attribution": "via SecurityWeek (Google News)"
+    "attribution": "via securityweek.com (Google News)"
   },
   {
     "id": "977648c99482a509",
@@ -6742,12 +6743,12 @@
   },
   {
     "id": "eea0755d6b0320ce",
-    "title": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script - cybersecuritynews.com",
+    "title": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XWGc0NE9PM09hZ3o2QlVfWDFucTIzY3Bya1hZZFpuQ2pRNE1tMnM4UkptRkpNMV9ucGNuMkVjYjNmTHJYcWsyTzM2Rm9kR29iRXp2VXM4UEV4aWp1R3M1NTlwQ01jcVBCczdWcFYzN0dGVlNUQzRnV0o4UDdkUdIBgwFBVV95cUxNeVU4SjRVX0psMTcwcU1tNVRHZ3N4ZnNBQXFXbWs2NlpMYnNYSUNkU1gwdGo3MnhnbVlNM1pRTGt3SUt6bUIzd01XSHIxMFNDLWlMajhhY21aQzV4eE4xZ3RVWFFFRVVzQTZGQkJTRmROLURJVnB0MUNBQ1BQOVNTUkRLZw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XWGc0NE9PM09hZ3o2QlVfWDFucTIzY3Bya1hZZFpuQ2pRNE1tMnM4UkptRkpNMV9ucGNuMkVjYjNmTHJYcWsyTzM2Rm9kR29iRXp2VXM4UEV4aWp1R3M1NTlwQ01jcVBCczdWcFYzN0dGVlNUQzRnV0o4UDdkUdIBgwFBVV95cUxNeVU4SjRVX0psMTcwcU1tNVRHZ3N4ZnNBQXFXbWs2NlpMYnNYSUNkU1gwdGo3MnhnbVlNM1pRTGt3SUt6bUIzd01XSHIxMFNDLWlMajhhY21aQzV4eE4xZ3RVWFFFRVVzQTZGQkJTRmROLURJVnB0MUNBQ1BQOVNTUkRLZw?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "cybersecuritynews.com",
+      "name": "CyberSecurityNews",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -6764,12 +6765,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script cybersecuritynews.com",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "eea0755d6b0320ce",
     "lang": "en",
     "license": null,
-    "attribution": "via cybersecuritynews.com (Google News)"
+    "attribution": "via CyberSecurityNews (Google News)"
   },
   {
     "id": "079277307d3da9e6",
@@ -9460,7 +9461,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "What's new - Splunk",
+    "summary": "What's new Splunk",
     "summarySource": "extractive",
     "clusterId": "003a3d6381bd3d0f",
     "lang": "en",
