@@ -50,7 +50,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Citrix launches Experience Insights Flex observability service powered by Splunk Cloud Platform - Bitget",
+    "summary": "Citrix launches Experience Insights Flex observability service powered by Splunk Cloud Platform Bitget",
     "summarySource": "extractive",
     "clusterId": "cc4081d1eda1b927",
     "lang": "en",
@@ -1517,6 +1517,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "cc452a2859e103d0",
+    "title": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
+    "url": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
+    "canonicalUrl": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Artem Berezin",
+    "publishedAt": "2026-07-30T11:49:26+00:00",
+    "fetchedAt": "2026-08-12T12:52:03+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
+    "summarySource": "extractive",
+    "clusterId": "cc452a2859e103d0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "4d8858991c7a7ea2",
     "title": "BGP topics from IETF 126",
     "url": "https://blog.apnic.net/2026/07/30/bgp-topics-from-ietf-126/",
@@ -2309,7 +2337,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
+    "summary": "When Bangladesh vanished from the global routing table in July 2024, public routing data captured the event as it unfolded. Drawing on first-hand observations from inside one affected network, this article explores what that data can and cannot tell us.",
     "summarySource": "extractive",
     "clusterId": "c06f5e3bc6364366",
     "lang": "en",
@@ -2339,7 +2367,35 @@
     ],
     "summary": "Zero-code Kubernetes observability with eBPF demo - TechTarget",
     "summarySource": "extractive",
-    "clusterId": "a8173d29b4623184",
+    "clusterId": "71f1602a4eceb264",
+    "lang": "en",
+    "license": null,
+    "attribution": "via TechTarget (Google News)"
+  },
+  {
+    "id": "71f1602a4eceb264",
+    "title": "Zero-code Kubernetes observability with eBPF demo - TechTarget",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXBQUEt4ZUluNVF5bWE1aVN4TEE1V0RtN1VGanRNdWtISWwwOXRZeDNwZ0ZaSnNSNUdnSi0yNHBrNG1DNUhaS0I1NXRBZmxCSmgxNTlTckRmdmdoZ3dSclFrTTBKVEgtS0NrZmdfZlpvWTVWWmhkSF9qZkozWmJ3WjZ1TTVYTEJPTE9IUzBvQmVpaEtLRkNVbHMxczlfOUl1S3VyOWt3?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXBQUEt4ZUluNVF5bWE1aVN4TEE1V0RtN1VGanRNdWtISWwwOXRZeDNwZ0ZaSnNSNUdnSi0yNHBrNG1DNUhaS0I1NXRBZmxCSmgxNTlTckRmdmdoZ3dSclFrTTBKVEgtS0NrZmdfZlpvWTVWWmhkSF9qZkozWmJ3WjZ1TTVYTEJPTE9IUzBvQmVpaEtLRkNVbHMxczlfOUl1S3VyOWt3?oc=5",
+    "source": {
+      "id": "gnews-ebpf-cilium",
+      "name": "TechTarget",
+      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-07-22T07:00:00+00:00",
+    "fetchedAt": "2026-08-12T12:52:03+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zero-code Kubernetes observability with eBPF demo TechTarget",
+    "summarySource": "extractive",
+    "clusterId": "71f1602a4eceb264",
     "lang": "en",
     "license": null,
     "attribution": "via TechTarget (Google News)"
@@ -2485,6 +2541,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "17d8060b1d412bde",
+    "title": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
+    "url": "https://labs.ripe.net/author/antonio-prado/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
+    "canonicalUrl": "https://labs.ripe.net/author/antonio-prado/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Antonio Prado",
+    "publishedAt": "2026-07-21T12:33:47+00:00",
+    "fetchedAt": "2026-08-12T12:52:03+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
+    "summarySource": "extractive",
+    "clusterId": "17d8060b1d412bde",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "7e4a3a46646c71e1",
@@ -2704,6 +2788,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Developer Blog"
+  },
+  {
+    "id": "ba3a1ff39c67adc0",
+    "title": "Who's Running All Those Tiny RPKI Servers?",
+    "url": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers/",
+    "canonicalUrl": "https://labs.ripe.net/author/ties-dirksen/whos-running-all-those-tiny-rpki-servers",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ties Dirksen",
+    "publishedAt": "2026-07-20T07:57:23+00:00",
+    "fetchedAt": "2026-08-12T12:52:03+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "summarySource": "extractive",
+    "clusterId": "ba3a1ff39c67adc0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "94e757d0087eed24",
@@ -4726,6 +4838,34 @@
     "attribution": "via cybersecuritynews.com (Google News)"
   },
   {
+    "id": "8c5f46f1fcce10ba",
+    "title": "ASPA Is Live. Can You See It Working?",
+    "url": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working/",
+    "canonicalUrl": "https://labs.ripe.net/author/ritesh-mukherjee/aspa-is-live-can-you-see-it-working",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Ritesh Mukherjee",
+    "publishedAt": "2026-06-29T06:40:15+00:00",
+    "fetchedAt": "2026-08-12T12:52:03+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ASPA objects can be registered today with ARIN and RIPE NCC. Validators support RTR v2. But if you're an operator, can you actually see what ASPA is doing - or would do - on your network?",
+    "summarySource": "extractive",
+    "clusterId": "8c5f46f1fcce10ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "7dd50a7de11e2fe2",
     "title": "What's new - Splunk",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUDd1bnlnWDZQbmdvblhLcHUzQVJxZG5nYkUwOEowUU05RmRYX0JGQURpZXJmQUE5NGd4RXd5WDVPU21yMXpSYzR4Z0l3dkZnTE4xSnJKZHJCSFVBZmRHd0ZqMzZIUnlFMnJiejgxSno2bnFoYWFYcEJzeWdGa3lCZnhNMWVTRG1QNEVLNWxOaVdacGJKYmlnenJHZkRGc2RUbUc4cGpoa3l6WXZvbkpxLWJqNzFUNXBrSFNfd1BUMS04SXhoMnNOMXJsbFhwLXZ2Snl5NFNaNmxySHo1ejdN?oc=5",
@@ -5470,12 +5610,12 @@
   },
   {
     "id": "82c16fa2829f3035",
-    "title": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
+    "title": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - rescana.com",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "Rescana",
+      "name": "rescana.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -5493,12 +5633,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service rescana.com",
     "summarySource": "extractive",
     "clusterId": "82c16fa2829f3035",
     "lang": "en",
     "license": null,
-    "attribution": "via Rescana (Google News)"
+    "attribution": "via rescana.com (Google News)"
   },
   {
     "id": "d717a96130082765",
@@ -5745,12 +5885,12 @@
   },
   {
     "id": "15d6411c7945d6b0",
-    "title": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) - helpnetsecurity.com",
+    "title": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) - Help Net Security",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1dsU0llU2h2cDByaFNOYjRiLUd3RjZ0UkVIb19Lcnc5UWd1YjM5NEJhRDlJbmg5elBOWUl3aWZKUWRyWHI4QTJ2UUhsMDZxU0RtUUFxeFVjR3l4eWZJSzJuUVlmQzdGWDlEaDRBbHhJa2JHSTYxRXVGQTdEVGI2emlrMlFJazdQb2JHeVRWa0ZfMkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1dsU0llU2h2cDByaFNOYjRiLUd3RjZ0UkVIb19Lcnc5UWd1YjM5NEJhRDlJbmg5elBOWUl3aWZKUWRyWHI4QTJ2UUhsMDZxU0RtUUFxeFVjR3l4eWZJSzJuUVlmQzdGWDlEaDRBbHhJa2JHSTYxRXVGQTdEVGI2emlrMlFJazdQb2JHeVRWa0ZfMkk?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "helpnetsecurity.com",
+      "name": "Help Net Security",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -5768,12 +5908,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) helpnetsecurity.com",
+    "summary": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253) Help Net Security",
     "summarySource": "extractive",
     "clusterId": "15d6411c7945d6b0",
     "lang": "en",
     "license": null,
-    "attribution": "via helpnetsecurity.com (Google News)"
+    "attribution": "via Help Net Security (Google News)"
   },
   {
     "id": "bbe7ae9c59516afa",
@@ -5981,12 +6121,12 @@
   },
   {
     "id": "f509b02cae180bf8",
-    "title": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security - Cisco Blogs",
+    "title": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security - blogs.cisco.com",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHlZWWt3OFFBdVVURHo0RHJteTJ5RHdQUUhXNU5yeVpwVkpYUmpLZ3pPQXdkWHFrU1ROMDg4ZFRIamtmWEgwLVVSQ3I0WG42b1VKcjYteWE0SF9QMW1XYmxTMHFlbUNRUnRrWTVhSXZiQUxFWEJTS0Zzb0ZpRFJUcTVzTzVpdFFn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHlZWWt3OFFBdVVURHo0RHJteTJ5RHdQUUhXNU5yeVpwVkpYUmpLZ3pPQXdkWHFrU1ROMDg4ZFRIamtmWEgwLVVSQ3I0WG42b1VKcjYteWE0SF9QMW1XYmxTMHFlbUNRUnRrWTVhSXZiQUxFWEJTS0Zzb0ZpRFJUcTVzTzVpdFFn?oc=5",
     "source": {
       "id": "gnews-cisco-agenticops",
-      "name": "Cisco Blogs",
+      "name": "blogs.cisco.com",
       "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
@@ -6000,12 +6140,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security Cisco Blogs",
+    "summary": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security blogs.cisco.com",
     "summarySource": "extractive",
     "clusterId": "f509b02cae180bf8",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via blogs.cisco.com (Google News)"
   },
   {
     "id": "82c755021c845235",
@@ -6272,12 +6412,12 @@
   },
   {
     "id": "bab7e64f296bdb11",
-    "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - resecurity.com",
+    "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "resecurity.com",
+      "name": "Resecurity",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -6295,12 +6435,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution resecurity.com",
+    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution Resecurity",
     "summarySource": "extractive",
     "clusterId": "bab7e64f296bdb11",
     "lang": "en",
     "license": null,
-    "attribution": "via resecurity.com (Google News)"
+    "attribution": "via Resecurity (Google News)"
   },
   {
     "id": "046166508da9f81b",
@@ -9404,34 +9544,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via HackerNoon (Google News)"
-  },
-  {
-    "id": "bd4d1ec09d95de7d",
-    "title": "AI network performance with Cisco Intelligent Packet Flow - Cisco Blogs",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkxmbVRoODBJWXVwN0dlSHlrM0ZsVVRUMDhySXl2OWtsMWQ2NE43cjRQdHEzQnNGb0tXMU5YcDdSX2hBY091YlB6TFpWR0I3enJoRHYyM2l2ZWFKZTVENE44NzIyNmxKeU9McEF1bHBRbldyN0h4VWNhSWNReHY2bVNLVVYyaGQzaWZuRGNHbGUxLTZ2b3I0?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkxmbVRoODBJWXVwN0dlSHlrM0ZsVVRUMDhySXl2OWtsMWQ2NE43cjRQdHEzQnNGb0tXMU5YcDdSX2hBY091YlB6TFpWR0I3enJoRHYyM2l2ZWFKZTVENE44NzIyNmxKeU9McEF1bHBRbldyN0h4VWNhSWNReHY2bVNLVVYyaGQzaWZuRGNHbGUxLTZ2b3I0?oc=5",
-    "source": {
-      "id": "gnews-cisco-nexus-aci",
-      "name": "Cisco Blogs",
-      "homepage": "https://news.google.com/search?q=Cisco%20Nexus%20Dashboard"
-    },
-    "author": null,
-    "publishedAt": "2026-05-20T07:00:00+00:00",
-    "fetchedAt": "2026-08-11T06:53:58+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AI network performance with Cisco Intelligent Packet Flow Cisco Blogs",
-    "summarySource": "extractive",
-    "clusterId": "bd4d1ec09d95de7d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "9a0c4489522bc332",
