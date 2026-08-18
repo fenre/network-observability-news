@@ -316,7 +316,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -377,7 +377,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
+    "summary": "APNIC 62 will explore two essential foundations of a resilient Internet: Intelligent network automation and trusted cybersecurity collaboration. Keynotes from Amajit Gupta and Yukako Uchida offer complementary perspectives on how technology and human relationships will shape the Internet's future.",
     "summarySource": "extractive",
     "clusterId": "d3eb6bc3b1f882e6",
     "lang": "en",
@@ -1356,7 +1356,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1444,7 +1444,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2428,7 +2428,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP topics from IETF 126",
+    "summary": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
     "summarySource": "extractive",
     "clusterId": "4d8858991c7a7ea2",
     "lang": "en",
@@ -2539,7 +2539,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3818,8 +3818,7 @@
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-31T13:47:02+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -3828,7 +3827,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse cyberpress.org",
+    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse - cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "96bff952071d094a",
     "lang": "en",
@@ -4109,12 +4108,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "SDxCentral",
+      "name": "sdxcentral.com",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -4130,12 +4129,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess sdxcentral.com",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via SDxCentral (Google News)"
+    "attribution": "via sdxcentral.com (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -4226,6 +4225,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "1f9fa7a192d39a63",
+    "title": "Life on the Internet adoption curve",
+    "url": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/13/life-on-the-internet-adoption-curve",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-07-12T22:53:59+00:00",
+    "fetchedAt": "2026-08-18T06:29:37+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summarySource": "extractive",
+    "clusterId": "1f9fa7a192d39a63",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "af265c92f67a8d00",
     "title": "Inside the Packet: How Kubernetes Networking Actually Works at L3/L4 - Cloud Native Now",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3dKTDBTM0FraENpSmpfOHlqenpqRW9mdXo5OXVzcUJoXy1EM1FIX0pzTGlZR2pmU0FtRmlSdUkzLTF3aWExbndiWVJIbWdma1VjbWVPcHllOUlSTmRYNzRSUnJOSGd5eEZrM2xrbGplMEpoNWRGdEVmNGFqcTkwT0JkTnNpSUpDMV9US2kwLUQ3dzExOHZpVFBUdU1Pc193bzNRa0l0NFJhVDRlNFk3bW5kZ1V2QQ?oc=5",
@@ -4280,6 +4307,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "02388e08138ad979",
+    "title": "APNIC Publishes Submission to Malaysia Public Consultation",
+    "url": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/07/10/apnic-publishes-submission-to-malaysia-public-consultation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tony Smith",
+    "publishedAt": "2026-07-10T09:20:25+00:00",
+    "fetchedAt": "2026-08-18T06:29:37+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "APNIC's submission to the Malaysia Communications and Multimedia Commission (MCMC) is now available.",
+    "summarySource": "extractive",
+    "clusterId": "02388e08138ad979",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "b416ca765322f0b5",
@@ -4397,12 +4453,12 @@
   },
   {
     "id": "3d49e2beaf4f3f4b",
-    "title": "Infoblox to acquire Kentik in DNS and network observability deal - crnasia.com",
+    "title": "Infoblox to acquire Kentik in DNS and network observability deal - CRN Asia",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "crnasia.com",
+      "name": "CRN Asia",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -4420,12 +4476,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Infoblox to acquire Kentik in DNS and network observability deal crnasia.com",
+    "summary": "Infoblox to acquire Kentik in DNS and network observability deal CRN Asia",
     "summarySource": "extractive",
     "clusterId": "3d49e2beaf4f3f4b",
     "lang": "en",
     "license": null,
-    "attribution": "via crnasia.com (Google News)"
+    "attribution": "via CRN Asia (Google News)"
   },
   {
     "id": "f9e171e427792cdf",
@@ -4443,12 +4499,13 @@
     "topics": [],
     "tags": [],
     "categories": [
+      "product-release",
       "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "ASPA at APNIC: Strengthening BGP path validation",
+    "summary": "With support now available in MyAPNIC and the Registry API, APNIC Members can publish ASPAs to help detect route leaks and strengthen the integrity of Internet routing.",
     "summarySource": "extractive",
     "clusterId": "f9e171e427792cdf",
     "lang": "en",
@@ -4476,7 +4533,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Testing RSSAC 028 DNS root server name choices",
+    "summary": "A measurement study of how the DNS bootstrap priming query behaves when the root servers are renamed and DNSSEC signatures are added.",
     "summarySource": "extractive",
     "clusterId": "e627a295d2271e8f",
     "lang": "en",
@@ -4741,7 +4798,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4832,8 +4889,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5040,8 +5096,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "outage"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -5451,7 +5506,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6578,12 +6633,12 @@
   },
   {
     "id": "b4170dc53662234f",
-    "title": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure - SecurityWeek",
+    "title": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure - securityweek.com",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMlQxU1FpYVBManQ4TVlhM3QwQVJrRW1MVnhfVGxFaGp0ME4xTkZuMkxXMHdCdm9tY3Z3ODlhYks2LVo2SjdCZFJXZkliY2lLVkstelM4RmtnWTNRRG9TUXJmM1pDNHlhdlo1blFKamx6MUtFVzF6bTZxMkphVkVUcWJHbUM0WVZrcE01VHZ5U3NKYlJndUFIZk9ZUnhDb1ZHMnI1RXUwMNIBrAFBVV95cUxQS3hXOVBBRDVPemFzOVNod2tQRzJWNmFQNzhxVG5EQV9XVG9MNHRSYVRYTHdWMkg5Rk82TG1kc2VvbmZZbHlzeTVOR25mTlkzMlZNQXJUeF9PNHcxbXNHaGN0ZE5HVi1pLUJKeVN3N1RYZ2FJOUw3bWJJVG9WbFZFRXYxaDJoUV9nMjdnUWtOTEY5NUlBLWNIcU1BUlJUdnE1MXBfbmlHbEM3cHZY?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMlQxU1FpYVBManQ4TVlhM3QwQVJrRW1MVnhfVGxFaGp0ME4xTkZuMkxXMHdCdm9tY3Z3ODlhYks2LVo2SjdCZFJXZkliY2lLVkstelM4RmtnWTNRRG9TUXJmM1pDNHlhdlo1blFKamx6MUtFVzF6bTZxMkphVkVUcWJHbUM0WVZrcE01VHZ5U3NKYlJndUFIZk9ZUnhDb1ZHMnI1RXUwMNIBrAFBVV95cUxQS3hXOVBBRDVPemFzOVNod2tQRzJWNmFQNzhxVG5EQV9XVG9MNHRSYVRYTHdWMkg5Rk82TG1kc2VvbmZZbHlzeTVOR25mTlkzMlZNQXJUeF9PNHcxbXNHaGN0ZE5HVi1pLUJKeVN3N1RYZ2FJOUw3bWJJVG9WbFZFRXYxaDJoUV9nMjdnUWtOTEY5NUlBLWNIcU1BUlJUdnE1MXBfbmlHbEM3cHZY?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "SecurityWeek",
+      "name": "securityweek.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -6601,12 +6656,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure SecurityWeek",
+    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure securityweek.com",
     "summarySource": "extractive",
     "clusterId": "b4170dc53662234f",
     "lang": "en",
     "license": null,
-    "attribution": "via SecurityWeek (Google News)"
+    "attribution": "via securityweek.com (Google News)"
   },
   {
     "id": "977648c99482a509",
@@ -7479,34 +7534,6 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
-    "id": "5c2505b4acedac6d",
-    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
-    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-06-15T13:02:36+00:00",
-    "fetchedAt": "2026-08-17T18:27:21+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "summarySource": "extractive",
-    "clusterId": "5c2505b4acedac6d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -7661,12 +7688,12 @@
   },
   {
     "id": "01553c52c86d9f94",
-    "title": "How embracing a data fabric architecture can help the SOC and NOC unify operations - Business Insider",
+    "title": "How embracing a data fabric architecture can help the SOC and NOC unify operations - businessinsider.com",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdRRjItcVRHZTBnZHRJXzNmWGdoTEx2SXZnMVU5YnA1S1E0TEVDZ05fblVUbl92aTdaalVQN2xzUUVqbEcwVzJPaFppUE1lbGJoSDA4TGJCTjJmSlZsNXdqNVhEb0ltRHZ3X2RCX3lYWGNaaHpwRTRTNC02aTFhdlctTHlucF9lQWZROHBhc3B0WW9UcnlzdEJ3WmxfNVU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdRRjItcVRHZTBnZHRJXzNmWGdoTEx2SXZnMVU5YnA1S1E0TEVDZ05fblVUbl92aTdaalVQN2xzUUVqbEcwVzJPaFppUE1lbGJoSDA4TGJCTjJmSlZsNXdqNVhEb0ltRHZ3X2RCX3lYWGNaaHpwRTRTNC02aTFhdlctTHlucF9lQWZROHBhc3B0WW9UcnlzdEJ3WmxfNVU?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "Business Insider",
+      "name": "businessinsider.com",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -7680,12 +7707,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations Business Insider",
+    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations businessinsider.com",
     "summarySource": "extractive",
     "clusterId": "01553c52c86d9f94",
     "lang": "en",
     "license": null,
-    "attribution": "via Business Insider (Google News)"
+    "attribution": "via businessinsider.com (Google News)"
   },
   {
     "id": "0ec40649df09c49a",
@@ -8522,34 +8549,6 @@
     "attribution": "via Sahm (Google News)"
   },
   {
-    "id": "618b90329c9790cd",
-    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
-    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-06-05T18:29:57+00:00",
-    "fetchedAt": "2026-08-17T18:27:21+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "summarySource": "extractive",
-    "clusterId": "618b90329c9790cd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "923a55dacc21d28b",
     "title": "Your AI bill is out of control. Cloudflare can fix it now.",
     "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
@@ -9273,6 +9272,7 @@
     "publishedAt": "2026-06-02T07:00:00+00:00",
     "fetchedAt": "2026-06-02T20:38:19+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -9284,7 +9284,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes - ThousandEyes",
+    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "863aec017166a31b",
     "lang": "en",
@@ -9992,12 +9992,12 @@
   },
   {
     "id": "1869619191ee7e59",
-    "title": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager - azure.microsoft.com",
+    "title": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager - Microsoft Azure",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMmpUX3RQSjRuSTUxSmlCUTJCbjRVWnIzZUltc19QblpNSUIwcWxPMUMtQjU3bzI3d1RhZTduTERxU1lkMW9NMjN2ZDNON0JpRG9MMnQzazl0YmZGS1pRUUdhUC1vdnZHeGphdVVUNFF2eXVRbmpDTDZrQk0wUmRiTDZOM0JWalZkdFdlZ0ZzUDJJaHBQdE9Ia1AtcS1fRzU3ei1VV3hBNzhnU1d6QTZVanBDSXVVSEFhcElNN1ZwNFU0Rjdsd2dOY1J0ZmtoLWwxbTYwUS1VUVY5LTdlMmdj?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMmpUX3RQSjRuSTUxSmlCUTJCbjRVWnIzZUltc19QblpNSUIwcWxPMUMtQjU3bzI3d1RhZTduTERxU1lkMW9NMjN2ZDNON0JpRG9MMnQzazl0YmZGS1pRUUdhUC1vdnZHeGphdVVUNFF2eXVRbmpDTDZrQk0wUmRiTDZOM0JWalZkdFdlZ0ZzUDJJaHBQdE9Ia1AtcS1fRzU3ei1VV3hBNzhnU1d6QTZVanBDSXVVSEFhcElNN1ZwNFU0Rjdsd2dOY1J0ZmtoLWwxbTYwUS1VUVY5LTdlMmdj?oc=5",
     "source": {
       "id": "gnews-ebpf-cilium",
-      "name": "azure.microsoft.com",
+      "name": "Microsoft Azure",
       "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
     },
     "author": null,
@@ -10005,12 +10005,12 @@
     "fetchedAt": "2026-05-31T16:41:46+00:00",
     "topics": [],
     "tags": [],
-    "summary": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager azure.microsoft.com",
+    "summary": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager Microsoft Azure",
     "summarySource": "extractive",
     "clusterId": "1869619191ee7e59",
     "lang": "en",
     "license": null,
-    "attribution": "via azure.microsoft.com (Google News)",
+    "attribution": "via Microsoft Azure (Google News)",
     "categories": [
       "news"
     ],
@@ -10564,34 +10564,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "b3b7d8547d6d0d64",
-    "title": "Authoritative DNS over encrypted transport at OARC 45",
-    "url": "https://blog.apnic.net/2026/05/20/authoritative-dns-over-encrypted-transport-at-oarc-45/",
-    "canonicalUrl": "https://blog.apnic.net/2026/05/20/authoritative-dns-over-encrypted-transport-at-oarc-45",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Geoff Huston",
-    "publishedAt": "2026-05-20T06:17:12+00:00",
-    "fetchedAt": "2026-05-31T16:41:46+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "Authoritative DNS over encrypted transport at OARC 45",
-    "summarySource": "extractive",
-    "clusterId": "b3b7d8547d6d0d64",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog",
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "98d4c0ba438c99e3",
