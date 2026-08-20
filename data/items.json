@@ -1,5 +1,66 @@
 [
   {
+    "id": "719c194df3c61579",
+    "title": "From all-or-nothing to task-based OAuth consent",
+    "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
+    "canonicalUrl": "https://blog.cloudflare.com/task-based-oauth-consent",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "José Enrique Rodríguez",
+    "publishedAt": "2026-08-20T17:03:03+00:00",
+    "fetchedAt": "2026-08-20T18:27:29+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
+    "summarySource": "extractive",
+    "clusterId": "719c194df3c61579",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "d9b68bc0281c3401",
+    "title": "Miercom validates Cisco 8000 Series Secure Routers for direct internet access",
+    "url": "https://blogs.cisco.com/networking/miercom-validates-cisco-8000-series-secure-routers-for-direct-internet-access/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/miercom-validates-cisco-8000-series-secure-routers-for-direct-internet-access",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Devin Creer",
+    "publishedAt": "2026-08-20T15:00:04+00:00",
+    "fetchedAt": "2026-08-20T18:27:29+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Miercom validation confirms Cisco 8000 Series Secure Routers deliver high-performance direct internet access (DIA) with integrated security built in.",
+    "summarySource": "extractive",
+    "clusterId": "d9b68bc0281c3401",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
     "id": "62b89316f1c5908d",
     "title": "Security Hardening Release for Splunk Enterprise Security - August 2026 - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WM3lBQnFIOTdiQVg4Z1BwQlZIMTh2aTZHN1pwb2R2U1hrQm1hc0ZqNGVsb3pqWnNpdG9YV1NocS1OUHoyZ0xPTWp6VGwzT2ZGdEE0M2tOODdsT2FvdmhVUkNR?oc=5",
@@ -105,7 +166,9 @@
     "author": "Albert Pedersen",
     "publishedAt": "2026-08-19T16:00:28+00:00",
     "fetchedAt": "2026-08-19T18:22:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -113,7 +176,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
     "summarySource": "extractive",
     "clusterId": "67c34c025b396665",
     "lang": "en",
@@ -133,7 +196,9 @@
     "author": "Mingwei Zhang",
     "publishedAt": "2026-08-18T15:21:32+00:00",
     "fetchedAt": "2026-08-18T18:26:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "standards"
@@ -141,7 +206,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP Role model: tracking the adoption of RFC 9234",
+    "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
     "summarySource": "extractive",
     "clusterId": "4d6a95e88ad53392",
     "lang": "en",
@@ -377,7 +442,9 @@
     "author": "Kenny Johnson",
     "publishedAt": "2026-08-14T13:12:12+00:00",
     "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -385,7 +452,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Cloudflare detects MCP traffic and helps secure it",
+    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
     "summarySource": "extractive",
     "clusterId": "40ab38cda73a3486",
     "lang": "en",
@@ -405,7 +472,9 @@
     "author": "Matt Provost",
     "publishedAt": "2026-08-14T13:00:00+00:00",
     "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -413,7 +482,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Secure all your internal vibe-coded applications — in one click",
+    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
     "summarySource": "extractive",
     "clusterId": "eb461e7901300404",
     "lang": "en",
@@ -498,7 +567,9 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-08-13T19:58:01+00:00",
     "fetchedAt": "2026-08-14T01:17:38+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -506,7 +577,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+    "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
     "summarySource": "extractive",
     "clusterId": "f6cbc8a9779a4835",
     "lang": "en",
@@ -557,7 +628,9 @@
     "author": "Pravallika Nakarikanti",
     "publishedAt": "2026-08-13T13:00:00+00:00",
     "fetchedAt": "2026-08-13T18:53:21+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -565,7 +638,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Certificate Transparency Monitoring is now generally available",
+    "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
     "summarySource": "extractive",
     "clusterId": "a2a6ecc30bd59124",
     "lang": "en",
@@ -1145,7 +1218,9 @@
     "author": "Cloudforce One",
     "publishedAt": "2026-08-11T13:00:00+00:00",
     "fetchedAt": "2026-08-11T18:52:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1153,44 +1228,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+    "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
     "summarySource": "extractive",
     "clusterId": "6900f112a68bbf6d",
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "54dd2789b0b636a0",
-    "title": "Multi-Cloud Observability with Amazon CloudWatch Using Bearer Token Auth and OpenTelemetry - Amazon Web Services (AWS)",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc0R6TU4wQjJ5OHZsTE5jcGp1a1dlTzZXdXlGUjR3TXl0TWN6d3lsai1xZ0NyZmtOcEEtRHpoY0NrblREM0k5aUdyaUJlejJnaU9uRVM4a3NYQURHa3Vsd2gzU2FENEpCZkpMM25jS1dlc0l4bVZVdnhORy05bE8tU2lFNVFhZXA2YVBRaFEzOEd6RFZOLWVIUEZNaDYteG9zZ0JLNWdtRzgzMG5PS3ltb0lMaXdXbTlvUXZMNE8xUlg2ak94eUltQTN0bw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc0R6TU4wQjJ5OHZsTE5jcGp1a1dlTzZXdXlGUjR3TXl0TWN6d3lsai1xZ0NyZmtOcEEtRHpoY0NrblREM0k5aUdyaUJlejJnaU9uRVM4a3NYQURHa3Vsd2gzU2FENEpCZkpMM25jS1dlc0l4bVZVdnhORy05bE8tU2lFNVFhZXA2YVBRaFEzOEd6RFZOLWVIUEZNaDYteG9zZ0JLNWdtRzgzMG5PS3ltb0lMaXdXbTlvUXZMNE8xUlg2ak94eUltQTN0bw?oc=5",
-    "source": {
-      "id": "gnews-opentelemetry-network",
-      "name": "Amazon Web Services (AWS)",
-      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-08-10T19:34:04+00:00",
-    "fetchedAt": "2026-08-15T06:24:17+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Multi-Cloud Observability with Amazon CloudWatch Using Bearer Token Auth and OpenTelemetry Amazon Web Services (AWS)",
-    "summarySource": "extractive",
-    "clusterId": "54dd2789b0b636a0",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Amazon Web Services (AWS) (Google News)"
   },
   {
     "id": "1c3be43751ef9441",
@@ -1205,7 +1248,9 @@
     "author": "Kathy Liao",
     "publishedAt": "2026-08-10T18:34:10+00:00",
     "fetchedAt": "2026-08-10T18:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1213,7 +1258,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Everything we launched during Agents Week",
+    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
     "summarySource": "extractive",
     "clusterId": "1c3be43751ef9441",
     "lang": "en",
@@ -1295,7 +1340,9 @@
     "author": "Jake Schaeufele",
     "publishedAt": "2026-08-10T13:00:00+00:00",
     "fetchedAt": "2026-08-10T18:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1303,12 +1350,44 @@
     "audiences": [
       "global"
     ],
-    "summary": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
+    "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
     "summarySource": "extractive",
     "clusterId": "eeac610da22ab6ba",
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "54dd2789b0b636a0",
+    "title": "Multi-Cloud Observability with Amazon CloudWatch Using Bearer Token Auth and OpenTelemetry - Amazon Web Services (AWS)",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc0R6TU4wQjJ5OHZsTE5jcGp1a1dlTzZXdXlGUjR3TXl0TWN6d3lsai1xZ0NyZmtOcEEtRHpoY0NrblREM0k5aUdyaUJlejJnaU9uRVM4a3NYQURHa3Vsd2gzU2FENEpCZkpMM25jS1dlc0l4bVZVdnhORy05bE8tU2lFNVFhZXA2YVBRaFEzOEd6RFZOLWVIUEZNaDYteG9zZ0JLNWdtRzgzMG5PS3ltb0lMaXdXbTlvUXZMNE8xUlg2ak94eUltQTN0bw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc0R6TU4wQjJ5OHZsTE5jcGp1a1dlTzZXdXlGUjR3TXl0TWN6d3lsai1xZ0NyZmtOcEEtRHpoY0NrblREM0k5aUdyaUJlejJnaU9uRVM4a3NYQURHa3Vsd2gzU2FENEpCZkpMM25jS1dlc0l4bVZVdnhORy05bE8tU2lFNVFhZXA2YVBRaFEzOEd6RFZOLWVIUEZNaDYteG9zZ0JLNWdtRzgzMG5PS3ltb0lMaXdXbTlvUXZMNE8xUlg2ak94eUltQTN0bw?oc=5",
+    "source": {
+      "id": "gnews-opentelemetry-network",
+      "name": "Amazon Web Services (AWS)",
+      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-08-10T07:00:00+00:00",
+    "fetchedAt": "2026-08-15T06:24:17+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Multi-Cloud Observability with Amazon CloudWatch Using Bearer Token Auth and OpenTelemetry Amazon Web Services (AWS)",
+    "summarySource": "extractive",
+    "clusterId": "54dd2789b0b636a0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Amazon Web Services (AWS) (Google News)"
   },
   {
     "id": "5ef0123a42450268",
@@ -1323,7 +1402,9 @@
     "author": "Marina Elmore",
     "publishedAt": "2026-08-07T13:01:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1331,7 +1412,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling good and bad behaviors on the Agentic Internet",
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be assessed as human or bot.",
     "summarySource": "extractive",
     "clusterId": "5ef0123a42450268",
     "lang": "en",
@@ -1351,7 +1432,9 @@
     "author": "Marissa Phul",
     "publishedAt": "2026-08-07T13:00:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -1359,7 +1442,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
     "summarySource": "extractive",
     "clusterId": "e350443ab0fbdbda",
     "lang": "en",
@@ -1379,7 +1462,9 @@
     "author": "André Jesus",
     "publishedAt": "2026-08-07T13:00:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1387,7 +1472,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
     "summarySource": "extractive",
     "clusterId": "4a053871bbc23c33",
     "lang": "en",
@@ -1407,7 +1492,9 @@
     "author": "Ming Lu",
     "publishedAt": "2026-08-07T13:00:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1415,7 +1502,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unifying Workers AI and AI Gateway into a single AI control plane",
+    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
     "summarySource": "extractive",
     "clusterId": "04aba5b526727ee5",
     "lang": "en",
@@ -1465,7 +1552,9 @@
     "author": "Andrew Galloni",
     "publishedAt": "2026-08-06T13:00:00+00:00",
     "fetchedAt": "2026-08-06T13:46:54+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1473,7 +1562,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer.",
     "summarySource": "extractive",
     "clusterId": "c299e755ed5203a6",
     "lang": "en",
@@ -1493,7 +1582,9 @@
     "author": "Will Rowe",
     "publishedAt": "2026-08-06T13:00:00+00:00",
     "fetchedAt": "2026-08-06T13:46:54+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1501,7 +1592,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Give any website a WebMCP interface",
+    "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their traffic.",
     "summarySource": "extractive",
     "clusterId": "8d2229d14bde48c8",
     "lang": "en",
@@ -1521,7 +1612,9 @@
     "author": "Luís Duarte",
     "publishedAt": "2026-08-06T13:00:00+00:00",
     "fetchedAt": "2026-08-06T13:46:54+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1529,7 +1622,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+    "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was designed specifically for the Agentic Cloud.",
     "summarySource": "extractive",
     "clusterId": "6f79108c376f8eeb",
     "lang": "en",
@@ -1549,7 +1642,9 @@
     "author": "Jack Galilee",
     "publishedAt": "2026-08-06T13:00:00+00:00",
     "fetchedAt": "2026-08-06T13:46:54+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1557,7 +1652,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+    "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
     "summarySource": "extractive",
     "clusterId": "5f611388205428de",
     "lang": "en",
@@ -1577,15 +1672,17 @@
     "author": "Matt Carey",
     "publishedAt": "2026-08-06T13:00:00+00:00",
     "fetchedAt": "2026-08-06T13:46:54+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "The next generation of MCP",
+    "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
     "summarySource": "extractive",
     "clusterId": "55a77f43e4db53ba",
     "lang": "en",
@@ -1605,7 +1702,9 @@
     "author": "Anni Wang",
     "publishedAt": "2026-08-06T13:00:00+00:00",
     "fetchedAt": "2026-08-06T13:46:54+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1613,7 +1712,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare AI Search: give your agents a search engine for your data",
+    "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
     "summarySource": "extractive",
     "clusterId": "0865417cc2366a94",
     "lang": "en",
@@ -5247,9 +5346,7 @@
     "publishedAt": "2026-07-07T15:00:32+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric",
-      "network-observability"
+      "splunk"
     ],
     "tags": [
       "thousandeyes"
@@ -5260,7 +5357,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The latest edition of Splunk’s The Hidden Costs of Downtime report—developed in collaboration with Cisco ThousandEyes—shines a light on the critical role of the network in maintaining digital resilience.",
+    "summary": "The Hidden Costs of Downtime: Q&A with Splunk’s Greg Leffler",
     "summarySource": "extractive",
     "clusterId": "c92ecc7aecfde6d7",
     "lang": "en",
@@ -6920,8 +7017,7 @@
     "publishedAt": "2026-06-19T07:00:00+00:00",
     "fetchedAt": "2026-08-07T12:45:05+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -6931,7 +7027,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure SecurityWeek",
+    "summary": "Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure - SecurityWeek",
     "summarySource": "extractive",
     "clusterId": "b4170dc53662234f",
     "lang": "en",
@@ -7419,7 +7515,6 @@
     "publishedAt": "2026-06-17T07:00:00+00:00",
     "fetchedAt": "2026-06-23T02:36:16+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -7431,7 +7526,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "1b10424d982019f4",
     "lang": "en",
@@ -7982,7 +8077,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations Business Insider",
+    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations - Business Insider",
     "summarySource": "extractive",
     "clusterId": "01553c52c86d9f94",
     "lang": "en",
