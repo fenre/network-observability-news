@@ -111,7 +111,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Hardening Release for Splunk Enterprise - August 2026 Splunk",
+    "summary": "Security Hardening Release for Splunk Enterprise - August 2026 - Splunk",
     "summarySource": "extractive",
     "clusterId": "62b89316f1c5908d",
     "lang": "en",
@@ -187,9 +187,7 @@
     "author": "Tuwan Azgar Jaleel",
     "publishedAt": "2026-08-19T05:10:00+00:00",
     "fetchedAt": "2026-08-21T06:33:34+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "news"
@@ -197,40 +195,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Privacy compliance starts with knowing your data. Many NREN services, including federated identity, eduroam, CSIRT operations, and network telemetry, process personal data and may already fall under emerging privacy laws.",
+    "summary": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
     "summarySource": "extractive",
     "clusterId": "4e3052eefe0346fe",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-08-21T00:54:05+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -633,7 +603,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -694,7 +664,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 will explore two essential foundations of a resilient Internet: Intelligent network automation and trusted cybersecurity collaboration. Keynotes from Amajit Gupta and Yukako Uchida offer complementary perspectives on how technology and human relationships will shape the Internet's future.",
+    "summary": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
     "summarySource": "extractive",
     "clusterId": "d3eb6bc3b1f882e6",
     "lang": "en",
@@ -2745,7 +2715,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
+    "summary": "BGP topics from IETF 126",
     "summarySource": "extractive",
     "clusterId": "4d8858991c7a7ea2",
     "lang": "en",
@@ -2856,7 +2826,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4593,7 +4563,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The technology adoption curve has not changed, our position on it has. As the Internet and BGP move into later stages of adoption, rapid growth is giving way to saturation, changing how we plan, invest, and operate.",
+    "summary": "Life on the Internet adoption curve",
     "summarySource": "extractive",
     "clusterId": "1f9fa7a192d39a63",
     "lang": "en",
@@ -5116,7 +5086,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5207,8 +5177,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -7851,34 +7820,6 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
-    "id": "5c2505b4acedac6d",
-    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
-    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-06-15T13:02:36+00:00",
-    "fetchedAt": "2026-08-21T00:54:05+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "summarySource": "extractive",
-    "clusterId": "5c2505b4acedac6d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -8894,34 +8835,6 @@
     "attribution": "via Sahm (Google News)"
   },
   {
-    "id": "618b90329c9790cd",
-    "title": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "url": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview/",
-    "canonicalUrl": "https://packetpushers.net/blog/netbrain-builds-out-agentic-ai-operations-capabilities-autocon-5-preview",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-06-05T18:29:57+00:00",
-    "fetchedAt": "2026-08-21T00:54:05+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
-    "summarySource": "extractive",
-    "clusterId": "618b90329c9790cd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "923a55dacc21d28b",
     "title": "Your AI bill is out of control. Cloudflare can fix it now.",
     "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
@@ -9624,7 +9537,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption infoq.com",
+    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption - infoq.com",
     "summarySource": "extractive",
     "clusterId": "945da4c859998397",
     "lang": "en",
