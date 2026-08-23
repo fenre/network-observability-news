@@ -167,7 +167,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Hardening Release for Splunk Enterprise - August 2026 - Splunk",
+    "summary": "Security Hardening Release for Splunk Enterprise - August 2026 Splunk",
     "summarySource": "extractive",
     "clusterId": "62b89316f1c5908d",
     "lang": "en",
@@ -251,7 +251,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
     "summarySource": "extractive",
     "clusterId": "ce0f99a9709db24e",
     "lang": "en",
@@ -3107,6 +3107,34 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "e509dc7d3ef80fe8",
+    "title": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
+    "source": {
+      "id": "gnews-ebpf-cilium",
+      "name": "The Fast Mode",
+      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-07-24T20:08:23+00:00",
+    "fetchedAt": "2026-07-24T02:00:26+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking The Fast Mode",
+    "summarySource": "extractive",
+    "clusterId": "e509dc7d3ef80fe8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Fast Mode (Google News)"
+  },
+  {
     "id": "438a7ff3adc2a75c",
     "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
     "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
@@ -3164,34 +3192,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via tech-insider.org (Google News)"
-  },
-  {
-    "id": "e509dc7d3ef80fe8",
-    "title": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
-    "source": {
-      "id": "gnews-ebpf-cilium",
-      "name": "The Fast Mode",
-      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-07-23T23:39:52+00:00",
-    "fetchedAt": "2026-07-24T02:00:26+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
-    "summarySource": "extractive",
-    "clusterId": "e509dc7d3ef80fe8",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "f0d23dd320ac6d0c",
@@ -3521,37 +3521,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "68e7fbb9db5c7fd5",
-    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
-    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-07-22T15:54:49+00:00",
-    "fetchedAt": "2026-08-23T00:53:18+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
-    "summarySource": "extractive",
-    "clusterId": "68e7fbb9db5c7fd5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "c06f5e3bc6364366",
@@ -4284,8 +4253,7 @@
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-16T13:27:04+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -4294,7 +4262,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Expose Stored Credentials and Allow Arbitrary SPL Searches gbhackers.com",
+    "summary": "Splunk Enterprise Flaws Expose Stored Credentials and Allow Arbitrary SPL Searches - gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "08639e1a36433080",
     "lang": "en",
@@ -7898,7 +7866,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
     "summarySource": "extractive",
     "clusterId": "5c2505b4acedac6d",
     "lang": "en",
@@ -8933,10 +8901,7 @@
     "author": "Drew Conry-Murray",
     "publishedAt": "2026-06-05T18:29:57+00:00",
     "fetchedAt": "2026-08-23T00:53:18+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -8944,7 +8909,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBrain has been building agent-driven network operations capabilities on top of its network discovery and network visibility platform. In early 2026, the company debuted two AI agents: Deep Diagnosis and Runbook Companion. This May, NetBrain introduced new capabilities including a feature called AI Path Doctor, bi-directional MCP capabilities, and an integration with Dynatrace.",
+    "summary": "NetBrain Builds Out Agentic AI Operations Capabilities: AutoCon 5 Preview",
     "summarySource": "extractive",
     "clusterId": "618b90329c9790cd",
     "lang": "en",
