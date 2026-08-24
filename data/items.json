@@ -1,5 +1,33 @@
 [
   {
+    "id": "173968d50e1e04ac",
+    "title": "Do IXPs make the Internet faster? It’s complicated",
+    "url": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dan Fidler",
+    "publishedAt": "2026-08-23T23:05:33+00:00",
+    "fetchedAt": "2026-08-24T00:51:40+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "IXPs shape latency, cost, resilience, and the spread of new technologies, not just Internet speed. As the Internet evolves, the role of IXPs continues to expand, as highlighted in this BPF 2026 panel discussion.",
+    "summarySource": "extractive",
+    "clusterId": "173968d50e1e04ac",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "d5dded18ffcc6caa",
     "title": "Announcing nDPI Dual License Change",
     "url": "https://www.ntop.org/announcing-ndpi-dual-license-change/",
@@ -259,6 +287,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "4e3052eefe0346fe",
+    "title": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
+    "url": "https://blog.apnic.net/2026/08/19/asia-pacific-privacy-laws-are-arriving/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/19/asia-pacific-privacy-laws-are-arriving",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Tuwan Azgar Jaleel",
+    "publishedAt": "2026-08-19T05:10:00+00:00",
+    "fetchedAt": "2026-08-24T00:51:40+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Privacy compliance starts with knowing your data. Many NREN services, including federated identity, eduroam, CSIRT operations, and network telemetry, process personal data and may already fall under emerging privacy laws.",
+    "summarySource": "extractive",
+    "clusterId": "4e3052eefe0346fe",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -722,7 +780,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
+    "summary": "APNIC 62 will explore two essential foundations of a resilient Internet: Intelligent network automation and trusted cybersecurity collaboration. Keynotes from Amajit Gupta and Yukako Uchida offer complementary perspectives on how technology and human relationships will shape the Internet's future.",
     "summarySource": "extractive",
     "clusterId": "d3eb6bc3b1f882e6",
     "lang": "en",
@@ -2348,7 +2406,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Discovery to Actionable Intelligence: Deeper Exposure Analytics in Splunk Enterprise Security 8.6 Splunk",
+    "summary": "From Discovery to Actionable Intelligence: Deeper Exposure Analytics in Splunk Enterprise Security 8.6 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b93fe84344563b3d",
     "lang": "en",
@@ -2773,7 +2831,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP topics from IETF 126",
+    "summary": "BGP ORIGIN, ASPAs, PAVA, and ASRAs at IETF 126.",
     "summarySource": "extractive",
     "clusterId": "4d8858991c7a7ea2",
     "lang": "en",
