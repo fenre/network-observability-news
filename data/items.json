@@ -202,6 +202,34 @@
     "attribution": "via HackerNoon (Google News)"
   },
   {
+    "id": "0a97296544acf856",
+    "title": "Using eBPF in Kubernetes: A Security Overview - wiz.io",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aaU53TTA3VENOcE93MDRyZk1VWG1wN0VqblE4YWd0c3dvNWVkNGxkWTdKNmt2N3htSTl0MmVEMHVrblk0SDZ4Q1kxcFVBektmdHVDcTdQSWxCOVotM0JQT1pBemxfZ2JJUV9JQjRvUXBWQQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aaU53TTA3VENOcE93MDRyZk1VWG1wN0VqblE4YWd0c3dvNWVkNGxkWTdKNmt2N3htSTl0MmVEMHVrblk0SDZ4Q1kxcFVBektmdHVDcTdQSWxCOVotM0JQT1pBemxfZ2JJUV9JQjRvUXBWQQ?oc=5",
+    "source": {
+      "id": "gnews-ebpf-cilium",
+      "name": "wiz.io",
+      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-08-25T19:15:49+00:00",
+    "fetchedAt": "2026-08-30T10:59:53+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Using eBPF in Kubernetes: A Security Overview wiz.io",
+    "summarySource": "extractive",
+    "clusterId": "0a97296544acf856",
+    "lang": "en",
+    "license": null,
+    "attribution": "via wiz.io (Google News)"
+  },
+  {
     "id": "c8e6f3784856922b",
     "title": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3Vkd3daWEZWQnp6MV9hRWY5WkNnOF9wZlBnSXVEZnpRLWllenpvUDczZkdvZkRxQWZaV095ZTMxWURfTC02V0FTV09BSURwOGpsRDZvT0lMRGFoWEl2UFVvVjYybHlqX0R0X2NwTGoxZkszZm16bk5Kd0tDelRQZkIwX3pXWUFVM0ZSMnFDb1kyYzh3VV9fNU5WT1FSSU12T3gtS3M2a3Q2Yzdpdk8w?oc=5",
@@ -1054,7 +1082,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3312,7 +3340,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3704,7 +3732,7 @@
     ],
     "summary": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network - StreetInsider",
     "summarySource": "extractive",
-    "clusterId": "458d6021a4bf03c8",
+    "clusterId": "07a925ae7b44b0d3",
     "lang": "en",
     "license": null,
     "attribution": "via StreetInsider (Google News)"
@@ -3796,10 +3824,38 @@
     ],
     "summary": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network - PA Media",
     "summarySource": "extractive",
-    "clusterId": "458d6021a4bf03c8",
+    "clusterId": "07a925ae7b44b0d3",
     "lang": "en",
     "license": null,
     "attribution": "via PA Media (Google News)"
+  },
+  {
+    "id": "07a925ae7b44b0d3",
+    "title": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network - Eastern Progress",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSkV1UkpETDZWOTNjRE9UVWtRWERqdUQ3SGVGTk03T2Y1OXJVR0duTDM0UlY1Q1VPRXkyWGg2d21pMFpER2NSWE5QWDFsLWZSdGRZdHZOTnhRaEJVem42bVF1ZUdmSmxGYjdtUkNsa2tSMkpCaXRMRGpEdGhkNHVHLW1FZW9YdjhUN1BLaTdTWFczSlFFRGNJUEg1d3VheVJxZ2c1bkNSMFhPYWM4QlYxbm84Z1pSQkx6YUZraDZYWkRkR19jbk00U2xZN0s1SlpRQXdIZ2xidDlQa3hzeGhBV1dMdGY1akZ2TFEyZ3J5bkVnV0tMM3pRd2EtSUttTmlFZGhBeEdWalV0WXlUb0JIRQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSkV1UkpETDZWOTNjRE9UVWtRWERqdUQ3SGVGTk03T2Y1OXJVR0duTDM0UlY1Q1VPRXkyWGg2d21pMFpER2NSWE5QWDFsLWZSdGRZdHZOTnhRaEJVem42bVF1ZUdmSmxGYjdtUkNsa2tSMkpCaXRMRGpEdGhkNHVHLW1FZW9YdjhUN1BLaTdTWFczSlFFRGNJUEg1d3VheVJxZ2c1bkNSMFhPYWM4QlYxbm84Z1pSQkx6YUZraDZYWkRkR19jbk00U2xZN0s1SlpRQXdIZ2xidDlQa3hzeGhBV1dMdGY1akZ2TFEyZ3J5bkVnV0tMM3pRd2EtSUttTmlFZGhBeEdWalV0WXlUb0JIRQ?oc=5",
+    "source": {
+      "id": "gnews-ebpf-cilium",
+      "name": "Eastern Progress",
+      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-07-23T07:00:00+00:00",
+    "fetchedAt": "2026-08-30T10:59:53+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network Eastern Progress",
+    "summarySource": "extractive",
+    "clusterId": "07a925ae7b44b0d3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Eastern Progress (Google News)"
   },
   {
     "id": "96a707c0cb42f950",
@@ -5603,7 +5659,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5694,8 +5750,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
