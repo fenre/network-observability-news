@@ -1,5 +1,37 @@
 [
   {
+    "id": "41f5de1fc90b73af",
+    "title": "Secure ZMQ Flow Collection Now Enabled by Default",
+    "url": "https://www.ntop.org/secure-zmq-flow-collection-now-enabled-by-default/",
+    "canonicalUrl": "https://www.ntop.org/secure-zmq-flow-collection-now-enabled-by-default",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "Alfredo Cardigliano",
+    "publishedAt": "2026-08-31T09:15:32+00:00",
+    "fetchedAt": "2026-08-31T12:20:18+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Starting September 1st, 2026 (ntopng 6.7.280831 and later), cleartext flow data over ZMQ is no longer accepted by default. CURVE encryption is now enabled by default on ZMQ collection interfaces in ntopng. The same change applies to nProbe and Cento, which now also send ZMQ data encrypted by default.",
+    "summarySource": "extractive",
+    "clusterId": "41f5de1fc90b73af",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "bef6356d184ab434",
     "title": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
     "url": "https://zeek.org/2026/08/2026-zeek-project-survey-results-what-we-heard-and-whats-next/",
@@ -7100,7 +7132,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain - Tech Times",
+    "summary": "Cisco SD-WAN Root Access: Mandiant Exposes Eight-Month Stealth Attack Chain Tech Times",
     "summarySource": "extractive",
     "clusterId": "619f2e9413b86ed9",
     "lang": "en",
@@ -9739,7 +9771,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modern observability platforms are expected to answer questions that traditional monitoring systems were never designed to handle: Conventional network timeseries are excellent for long-term capacity planning and trend analysis, but they often smooth away the short-lived events that matter most during troubleshooting and incident analysis. With the introduction of High-Resolution Timeseries, ntopng closes this visibility gap […]",
+    "summary": "Observability: Enabling High-Resolution Timeseries in ntopng",
     "summarySource": "extractive",
     "clusterId": "34150e4e06c24c1b",
     "lang": "en",
@@ -10093,189 +10125,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
-  },
-  {
-    "id": "1713ab3e4083d332",
-    "title": "ManageEngine OpManager Nexus introduces real-time network observability with OpenConfig and gNMI - ZAWYA",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRzZid2drUkt3aWtYQzZHSXBOSlhya2x0MzFrd2pNQzJ3Q1pBNTRnX3RoaHJ3MzdFaEVyLThPQ0NXeVRsUUdVbTBrd09rZ1VyYnJUcHJSekZ1dks1TC1ZWXJPTm5sSHg0eTk2c0F6OEJBQ0N0Ti1QVnpjaXctdjNfWnRENXJDQnpQNFJUQTdtTFBKdlFJRHFlNU9vdW1jcEx4ZC02WE9oRDQ1RFhJaHBZTWx1S1l6MzBvbTBaWkViTndTbmJiU2F5YzZ6S0ljSE1qVzFJOVA0eTdOYzFidVA0OFQ1RXJ4UDRwQzRoY0FLQnc?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRzZid2drUkt3aWtYQzZHSXBOSlhya2x0MzFrd2pNQzJ3Q1pBNTRnX3RoaHJ3MzdFaEVyLThPQ0NXeVRsUUdVbTBrd09rZ1VyYnJUcHJSekZ1dks1TC1ZWXJPTm5sSHg0eTk2c0F6OEJBQ0N0Ti1QVnpjaXctdjNfWnRENXJDQnpQNFJUQTdtTFBKdlFJRHFlNU9vdW1jcEx4ZC02WE9oRDQ1RFhJaHBZTWx1S1l6MzBvbTBaWkViTndTbmJiU2F5YzZ6S0ljSE1qVzFJOVA0eTdOYzFidVA0OFQ1RXJ4UDRwQzRoY0FLQnc?oc=5",
-    "source": {
-      "id": "gnews-network-observability",
-      "name": "ZAWYA",
-      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
-    },
-    "author": null,
-    "publishedAt": "2026-06-02T08:06:07+00:00",
-    "fetchedAt": "2026-06-02T10:11:02+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "ManageEngine OpManager Nexus introduces real-time network observability with OpenConfig and gNMI - ZAWYA",
-    "summarySource": "extractive",
-    "clusterId": "1713ab3e4083d332",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ZAWYA (Google News)"
-  },
-  {
-    "id": "bd8c922cd49ca274",
-    "title": "Cisco Cloud Control unites AgenticOps for IT infrastructure - TechTarget",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQkV2Q2llS0hqMlhxQW5xWVZwNmo1ZFpWRUJ5dENWRkdvX1NBX1pPZXlYM1VWRXhEUzNkZzB6SXFtRGt5a19FQ2ZHWUlpZ1FtUldjQUVjSnFiQ1pQSUE1QzkxQ0lmSlh5TUFObTdRbTlTalU5Nkk5bTc2bXI5aTBnQ09vR1ljTHRjcW1rTXBnT2hDUG1yWEVNZjFQdVlwd193SWtMTjJrWDBGTnkwal83WTJYSHFnRTRUY2Uw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQkV2Q2llS0hqMlhxQW5xWVZwNmo1ZFpWRUJ5dENWRkdvX1NBX1pPZXlYM1VWRXhEUzNkZzB6SXFtRGt5a19FQ2ZHWUlpZ1FtUldjQUVjSnFiQ1pQSUE1QzkxQ0lmSlh5TUFObTdRbTlTalU5Nkk5bTc2bXI5aTBnQ09vR1ljTHRjcW1rTXBnT2hDUG1yWEVNZjFQdVlwd193SWtMTjJrWDBGTnkwal83WTJYSHFnRTRUY2Uw?oc=5",
-    "source": {
-      "id": "gnews-cisco-agenticops",
-      "name": "TechTarget",
-      "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
-    },
-    "author": null,
-    "publishedAt": "2026-06-02T07:00:00+00:00",
-    "fetchedAt": "2026-08-16T12:23:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure TechTarget",
-    "summarySource": "extractive",
-    "clusterId": "965013d806dfdf27",
-    "lang": "en",
-    "license": null,
-    "attribution": "via TechTarget (Google News)"
-  },
-  {
-    "id": "965013d806dfdf27",
-    "title": "Cisco Cloud Control unites AgenticOps for IT infrastructure - TechTarget",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNam5acGEwdFBNTkdLbzV4YmZOQlJseVdrMVBWUTh2ZGowbTRLUF9yLXVWamVZaU50ZktTN3hCSVUyUU5oM1VFZ3RreFJPNDN1X093bmRNYy11V2pBQmFhMURNdDU1M184WlNnZ0JFU2ZYbkp6T1VMZlRyYjFwanN1NmZSZDVwNGxVcm93VWloXzd2bjhYQ0Y5VC1pWWNHNmk1S2w4QmtkU0tMQzZrVUFQSkZNa1hUVlpPUUhzSg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNam5acGEwdFBNTkdLbzV4YmZOQlJseVdrMVBWUTh2ZGowbTRLUF9yLXVWamVZaU50ZktTN3hCSVUyUU5oM1VFZ3RreFJPNDN1X093bmRNYy11V2pBQmFhMURNdDU1M184WlNnZ0JFU2ZYbkp6T1VMZlRyYjFwanN1NmZSZDVwNGxVcm93VWloXzd2bjhYQ0Y5VC1pWWNHNmk1S2w4QmtkU0tMQzZrVUFQSkZNa1hUVlpPUUhzSg?oc=5",
-    "source": {
-      "id": "gnews-cisco-agenticops",
-      "name": "TechTarget",
-      "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
-    },
-    "author": null,
-    "publishedAt": "2026-06-02T07:00:00+00:00",
-    "fetchedAt": "2026-06-02T16:08:27+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco Cloud Control unites AgenticOps for IT infrastructure - TechTarget",
-    "summarySource": "extractive",
-    "clusterId": "965013d806dfdf27",
-    "lang": "en",
-    "license": null,
-    "attribution": "via TechTarget (Google News)"
-  },
-  {
-    "id": "945da4c859998397",
-    "title": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption - infoq.com",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xLWo5TXhIZ0FEcDFfekZ6bFJxVmtlaThhRW8tTGdwb1NQT0gyUnFlZGlGZDJqckI5RG5Zc29oTnByYXltaWhxQWdlb1BRRFhMV1FwOGxRc00zM3VTTC1WZ2RsVk05SE9zcW5ybmtzRDk1VjBOTkE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xLWo5TXhIZ0FEcDFfekZ6bFJxVmtlaThhRW8tTGdwb1NQT0gyUnFlZGlGZDJqckI5RG5Zc29oTnByYXltaWhxQWdlb1BRRFhMV1FwOGxRc00zM3VTTC1WZ2RsVk05SE9zcW5ybmtzRDk1VjBOTkE?oc=5",
-    "source": {
-      "id": "gnews-opentelemetry-network",
-      "name": "infoq.com",
-      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-06-02T07:00:00+00:00",
-    "fetchedAt": "2026-07-12T02:02:09+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption - infoq.com",
-    "summarySource": "extractive",
-    "clusterId": "945da4c859998397",
-    "lang": "en",
-    "license": null,
-    "attribution": "via infoq.com (Google News)"
-  },
-  {
-    "id": "863aec017166a31b",
-    "title": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes - ThousandEyes",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93UzhoRVN6ZGc5VlBEOGlxbDdTamd0eTJyYUZTZ2lrbE5FeWVxdlpKcEhiOXNoWW1ieUoxY1lXVHVMMGp1SGV5OVNhUHMtMThxTlU0dGV4RDNoVzNvZkE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93UzhoRVN6ZGc5VlBEOGlxbDdTamd0eTJyYUZTZ2lrbE5FeWVxdlpKcEhiOXNoWW1ieUoxY1lXVHVMMGp1SGV5OVNhUHMtMThxTlU0dGV4RDNoVzNvZkE?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-02T07:00:00+00:00",
-    "fetchedAt": "2026-06-02T20:38:19+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco Live 2026: How Cisco Assurance is Turning AgenticOps into Trusted Outcomes ThousandEyes",
-    "summarySource": "extractive",
-    "clusterId": "863aec017166a31b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ThousandEyes (Google News)"
-  },
-  {
-    "id": "4d2e20fafc6ba0b7",
-    "title": "Announcement: NetApp Splunk Soar Playbook strengthens ransomware defense - NetApp",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcE1ReXd2T3hsdlFuS2xxcTIyQzA3bHRJYjBJVFB2eHFhbGFRNTFQSVdFenMxRmUzcVpnZlQ2NzRUNWZaa0loMDNrUF9aQ1dWUDRXYTZHUG95RUdMTnJwODFlX2RtaUk5bzdEdldrVHpCWkRuU2JiSThJUkhEM2w2ZEZR?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcE1ReXd2T3hsdlFuS2xxcTIyQzA3bHRJYjBJVFB2eHFhbGFRNTFQSVdFenMxRmUzcVpnZlQ2NzRUNWZaa0loMDNrUF9aQ1dWUDRXYTZHUG95RUdMTnJwODFlX2RtaUk5bzdEdldrVHpCWkRuU2JiSThJUkhEM2w2ZEZR?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "NetApp",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-02T07:00:00+00:00",
-    "fetchedAt": "2026-06-18T02:52:28+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Announcement: NetApp Splunk Soar Playbook strengthens ransomware defense NetApp",
-    "summarySource": "extractive",
-    "clusterId": "4d2e20fafc6ba0b7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via NetApp (Google News)"
   },
   {
     "id": "cd5a855fcef5ca31",
