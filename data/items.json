@@ -43,7 +43,9 @@
     "author": "Aashi Patel",
     "publishedAt": "2026-09-01T12:59:00+00:00",
     "fetchedAt": "2026-09-01T15:51:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -51,7 +53,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
     "summarySource": "extractive",
     "clusterId": "001302cbb2628f64",
     "lang": "en",
@@ -79,40 +81,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BGP filter generation.",
+    "summary": "The IRR Landscape: What RPKI Can Replace",
     "summarySource": "extractive",
     "clusterId": "831f42f8ca18045d",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
-  },
-  {
-    "id": "d807a797ef2eda8b",
-    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
-    "url": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Hervé Clément",
-    "publishedAt": "2026-09-01T06:03:50+00:00",
-    "fetchedAt": "2026-09-02T02:16:33+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
-    "summarySource": "extractive",
-    "clusterId": "d807a797ef2eda8b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "686c315836109e08",
@@ -191,15 +165,17 @@
     "author": "Chris Pope",
     "publishedAt": "2026-08-31T12:59:00+00:00",
     "fetchedAt": "2026-08-31T22:15:14+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated attacks too expensive to sustain.",
     "summarySource": "extractive",
     "clusterId": "dc52628c784f5e36",
     "lang": "en",
@@ -309,7 +285,9 @@
     "author": "Julian Laxman",
     "publishedAt": "2026-08-28T12:59:44+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -317,40 +295,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
     "summarySource": "extractive",
     "clusterId": "d9b5afeac7b4fe86",
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "0c09e288ae377b54",
-    "title": "The lingering legacy of ‘reserved’ ports",
-    "url": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-08-27T23:29:48+00:00",
-    "fetchedAt": "2026-09-02T02:16:33+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The lingering legacy of ‘reserved’ ports",
-    "summarySource": "extractive",
-    "clusterId": "0c09e288ae377b54",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "0534e91d190c6463",
@@ -395,7 +345,9 @@
     "author": "Sebastiaan Neuteboom",
     "publishedAt": "2026-08-27T17:02:35+00:00",
     "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -403,7 +355,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
     "summarySource": "extractive",
     "clusterId": "01d416ecd1b86319",
     "lang": "en",
@@ -469,34 +421,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via HackerNoon (Google News)"
-  },
-  {
-    "id": "5f10b97a8afece46",
-    "title": "Beyond origin validation: Four classes of routing attack nobody Is validating",
-    "url": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Flavio Luciani",
-    "publishedAt": "2026-08-25T22:24:59+00:00",
-    "fetchedAt": "2026-09-02T02:16:33+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Beyond origin validation: Four classes of routing attack nobody Is validating",
-    "summarySource": "extractive",
-    "clusterId": "5f10b97a8afece46",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "0a97296544acf856",
@@ -575,7 +499,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - Cisco Blogs",
+    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "4fa38b76345430f7",
     "lang": "en",
@@ -685,7 +609,9 @@
     "author": "Amy Dutton",
     "publishedAt": "2026-08-24T19:00:00+00:00",
     "fetchedAt": "2026-08-25T00:51:23+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -693,7 +619,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cloudflare Blog — brought to you by EmDash",
+    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
     "summarySource": "extractive",
     "clusterId": "2e3baeb9cf418fba",
     "lang": "en",
@@ -752,40 +678,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
+    "summary": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
     "summarySource": "extractive",
     "clusterId": "602fb396100a42b4",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
-  },
-  {
-    "id": "173968d50e1e04ac",
-    "title": "Do IXPs make the Internet faster? It’s complicated",
-    "url": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dan Fidler",
-    "publishedAt": "2026-08-23T23:05:33+00:00",
-    "fetchedAt": "2026-09-02T02:16:33+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Do IXPs make the Internet faster? It’s complicated",
-    "summarySource": "extractive",
-    "clusterId": "173968d50e1e04ac",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "d5dded18ffcc6caa",
@@ -858,7 +756,9 @@
     "author": "Jin-Hee Lee",
     "publishedAt": "2026-08-21T23:19:57+00:00",
     "fetchedAt": "2026-08-22T00:48:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -866,7 +766,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Say it once: Introducing Bot Preference Sync",
+    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
     "summarySource": "extractive",
     "clusterId": "c93c4733340a9048",
     "lang": "en",
@@ -886,7 +786,9 @@
     "author": "José Enrique Rodríguez",
     "publishedAt": "2026-08-20T17:03:03+00:00",
     "fetchedAt": "2026-08-20T18:27:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -894,7 +796,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From all-or-nothing to task-based OAuth consent",
+    "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
     "summarySource": "extractive",
     "clusterId": "719c194df3c61579",
     "lang": "en",
@@ -1008,7 +910,9 @@
     "author": "Albert Pedersen",
     "publishedAt": "2026-08-19T16:00:28+00:00",
     "fetchedAt": "2026-08-19T18:22:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1016,7 +920,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
     "summarySource": "extractive",
     "clusterId": "67c34c025b396665",
     "lang": "en",
@@ -1086,34 +990,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "4e3052eefe0346fe",
-    "title": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
-    "url": "https://blog.apnic.net/2026/08/19/asia-pacific-privacy-laws-are-arriving/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/19/asia-pacific-privacy-laws-are-arriving",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Tuwan Azgar Jaleel",
-    "publishedAt": "2026-08-19T05:10:00+00:00",
-    "fetchedAt": "2026-09-02T02:16:33+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
-    "summarySource": "extractive",
-    "clusterId": "4e3052eefe0346fe",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "4d6a95e88ad53392",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
@@ -1126,7 +1002,9 @@
     "author": "Mingwei Zhang",
     "publishedAt": "2026-08-18T15:21:32+00:00",
     "fetchedAt": "2026-08-18T18:26:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "standards"
@@ -1134,7 +1012,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP Role model: tracking the adoption of RFC 9234",
+    "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
     "summarySource": "extractive",
     "clusterId": "4d6a95e88ad53392",
     "lang": "en",
@@ -1370,7 +1248,9 @@
     "author": "Kenny Johnson",
     "publishedAt": "2026-08-14T13:12:12+00:00",
     "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1378,7 +1258,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Cloudflare detects MCP traffic and helps secure it",
+    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
     "summarySource": "extractive",
     "clusterId": "40ab38cda73a3486",
     "lang": "en",
@@ -1398,7 +1278,9 @@
     "author": "Matt Provost",
     "publishedAt": "2026-08-14T13:00:00+00:00",
     "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1406,7 +1288,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Secure all your internal vibe-coded applications — in one click",
+    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
     "summarySource": "extractive",
     "clusterId": "eb461e7901300404",
     "lang": "en",
@@ -1434,7 +1316,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
+    "summary": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
     "summarySource": "extractive",
     "clusterId": "6e37c1de81a32100",
     "lang": "en",
@@ -1486,7 +1368,9 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-08-13T19:58:01+00:00",
     "fetchedAt": "2026-08-14T01:17:38+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1494,7 +1378,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+    "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
     "summarySource": "extractive",
     "clusterId": "f6cbc8a9779a4835",
     "lang": "en",
@@ -1545,7 +1429,9 @@
     "author": "Pravallika Nakarikanti",
     "publishedAt": "2026-08-13T13:00:00+00:00",
     "fetchedAt": "2026-08-13T18:53:21+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -1553,7 +1439,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Certificate Transparency Monitoring is now generally available",
+    "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
     "summarySource": "extractive",
     "clusterId": "a2a6ecc30bd59124",
     "lang": "en",
@@ -2166,7 +2052,9 @@
     "author": "Cloudforce One",
     "publishedAt": "2026-08-11T13:00:00+00:00",
     "fetchedAt": "2026-08-11T18:52:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2174,7 +2062,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+    "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
     "summarySource": "extractive",
     "clusterId": "6900f112a68bbf6d",
     "lang": "en",
@@ -2194,7 +2082,9 @@
     "author": "Kathy Liao",
     "publishedAt": "2026-08-10T18:34:10+00:00",
     "fetchedAt": "2026-08-10T18:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2202,7 +2092,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Everything we launched during Agents Week",
+    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
     "summarySource": "extractive",
     "clusterId": "1c3be43751ef9441",
     "lang": "en",
@@ -2284,7 +2174,9 @@
     "author": "Jake Schaeufele",
     "publishedAt": "2026-08-10T13:00:00+00:00",
     "fetchedAt": "2026-08-10T18:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2292,7 +2184,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
+    "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
     "summarySource": "extractive",
     "clusterId": "eeac610da22ab6ba",
     "lang": "en",
@@ -2344,7 +2236,9 @@
     "author": "Marina Elmore",
     "publishedAt": "2026-08-07T13:01:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2352,7 +2246,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unveiling good and bad behaviors on the Agentic Internet",
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be assessed as human or bot.",
     "summarySource": "extractive",
     "clusterId": "5ef0123a42450268",
     "lang": "en",
@@ -2372,7 +2266,9 @@
     "author": "Marissa Phul",
     "publishedAt": "2026-08-07T13:00:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -2380,7 +2276,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
     "summarySource": "extractive",
     "clusterId": "e350443ab0fbdbda",
     "lang": "en",
@@ -2400,7 +2296,9 @@
     "author": "André Jesus",
     "publishedAt": "2026-08-07T13:00:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2408,7 +2306,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
     "summarySource": "extractive",
     "clusterId": "4a053871bbc23c33",
     "lang": "en",
@@ -2428,7 +2326,9 @@
     "author": "Ming Lu",
     "publishedAt": "2026-08-07T13:00:00+00:00",
     "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2436,7 +2336,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unifying Workers AI and AI Gateway into a single AI control plane",
+    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
     "summarySource": "extractive",
     "clusterId": "04aba5b526727ee5",
     "lang": "en",
@@ -3657,7 +3557,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
+    "summary": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
     "summarySource": "extractive",
     "clusterId": "cc452a2859e103d0",
     "lang": "en",
@@ -4550,7 +4450,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When Bangladesh vanished from the global routing table in July 2024, public routing data captured the event as it unfolded. Drawing on first-hand observations from inside one affected network, this article explores what that data can and cannot tell us.",
+    "summary": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "summarySource": "extractive",
     "clusterId": "c06f5e3bc6364366",
     "lang": "en",
@@ -4785,7 +4685,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
+    "summary": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
     "summarySource": "extractive",
     "clusterId": "17d8060b1d412bde",
     "lang": "en",
@@ -5128,7 +5028,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "summary": "Who's Running All Those Tiny RPKI Servers?",
     "summarySource": "extractive",
     "clusterId": "ba3a1ff39c67adc0",
     "lang": "en",
@@ -5328,8 +5228,7 @@
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-31T13:47:02+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -5338,7 +5237,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse cyberpress.org",
+    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse - cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "96bff952071d094a",
     "lang": "en",
@@ -5390,7 +5289,8 @@
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-16T13:27:04+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -5399,7 +5299,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Expose Stored Credentials and Allow Arbitrary SPL Searches - gbhackers.com",
+    "summary": "Splunk Enterprise Flaws Expose Stored Credentials and Allow Arbitrary SPL Searches gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "08639e1a36433080",
     "lang": "en",
@@ -5468,34 +5368,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
-  },
-  {
-    "id": "2451e33c1e06a4d7",
-    "title": "Many Sovereignties, One Internet",
-    "url": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet/",
-    "canonicalUrl": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Hisham Ibrahim",
-    "publishedAt": "2026-07-15T07:09:49+00:00",
-    "fetchedAt": "2026-09-02T10:19:37+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Digital sovereignty is not simply good or bad. The commons test offers a practical framework for assessing whether different strategies expand choice, preserve interoperability, strengthen resilience and support meaningful participation, or create new dependencies and chokepoints.",
-    "summarySource": "extractive",
-    "clusterId": "2451e33c1e06a4d7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "776f5ce51945a1b4",
@@ -5649,12 +5521,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "sdxcentral.com",
+      "name": "SDxCentral",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -5670,12 +5542,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via sdxcentral.com (Google News)"
+    "attribution": "via SDxCentral (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -5939,12 +5811,12 @@
   },
   {
     "id": "3d49e2beaf4f3f4b",
-    "title": "Infoblox to acquire Kentik in DNS and network observability deal - CRN Asia",
+    "title": "Infoblox to acquire Kentik in DNS and network observability deal - crnasia.com",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "CRN Asia",
+      "name": "crnasia.com",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -5962,12 +5834,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Infoblox to acquire Kentik in DNS and network observability deal CRN Asia",
+    "summary": "Infoblox to acquire Kentik in DNS and network observability deal crnasia.com",
     "summarySource": "extractive",
     "clusterId": "3d49e2beaf4f3f4b",
     "lang": "en",
     "license": null,
-    "attribution": "via CRN Asia (Google News)"
+    "attribution": "via crnasia.com (Google News)"
   },
   {
     "id": "f9e171e427792cdf",
@@ -8054,12 +7926,12 @@
   },
   {
     "id": "82c16fa2829f3035",
-    "title": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
+    "title": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - rescana.com",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUjlWOEYxTUN4WDI5V0VEeTNIelpkejE1aHp3Y1lEeHR0N1Y2TGlXWllpS1Y2VnJTZUhnSXEzdDIwSW0wMEhyTFZYV3NVcko3cWpXUGlUWjJTTnZqN19zNXF4U1BWaHVqb1NMOE8tYTlZc3RtSE45R3NZWk5xSTA5NFF6dTdvb0VMNjNUVEU1OW5jQ3k2VnJKc19ibDZZa1pibHlxN052VzBVS1ZBSXdvcTJrTkk3b0F3bE9SS1FZOFhrSzFFaGFsTGZvb3pJS2lVMVRtbXc0aWNfMENmR1doNA?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "Rescana",
+      "name": "rescana.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -8077,12 +7949,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service rescana.com",
     "summarySource": "extractive",
     "clusterId": "82c16fa2829f3035",
     "lang": "en",
     "license": null,
-    "attribution": "via Rescana (Google News)"
+    "attribution": "via rescana.com (Google News)"
   },
   {
     "id": "d717a96130082765",
@@ -9261,12 +9133,12 @@
   },
   {
     "id": "01553c52c86d9f94",
-    "title": "How embracing a data fabric architecture can help the SOC and NOC unify operations - Business Insider",
+    "title": "How embracing a data fabric architecture can help the SOC and NOC unify operations - businessinsider.com",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdRRjItcVRHZTBnZHRJXzNmWGdoTEx2SXZnMVU5YnA1S1E0TEVDZ05fblVUbl92aTdaalVQN2xzUUVqbEcwVzJPaFppUE1lbGJoSDA4TGJCTjJmSlZsNXdqNVhEb0ltRHZ3X2RCX3lYWGNaaHpwRTRTNC02aTFhdlctTHlucF9lQWZROHBhc3B0WW9UcnlzdEJ3WmxfNVU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdRRjItcVRHZTBnZHRJXzNmWGdoTEx2SXZnMVU5YnA1S1E0TEVDZ05fblVUbl92aTdaalVQN2xzUUVqbEcwVzJPaFppUE1lbGJoSDA4TGJCTjJmSlZsNXdqNVhEb0ltRHZ3X2RCX3lYWGNaaHpwRTRTNC02aTFhdlctTHlucF9lQWZROHBhc3B0WW9UcnlzdEJ3WmxfNVU?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "Business Insider",
+      "name": "businessinsider.com",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -9280,12 +9152,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations Business Insider",
+    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations businessinsider.com",
     "summarySource": "extractive",
     "clusterId": "01553c52c86d9f94",
     "lang": "en",
     "license": null,
-    "attribution": "via Business Insider (Google News)"
+    "attribution": "via businessinsider.com (Google News)"
   },
   {
     "id": "0ec40649df09c49a",
@@ -9391,8 +9263,7 @@
     "publishedAt": "2026-06-13T07:00:00+00:00",
     "fetchedAt": "2026-06-13T13:44:38+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -9401,7 +9272,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication thehackernews.com",
+    "summary": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication - thehackernews.com",
     "summarySource": "extractive",
     "clusterId": "9bf7607b1a8c1bf3",
     "lang": "en",
@@ -9532,12 +9403,12 @@
   },
   {
     "id": "0f1ed0d92da6af5f",
-    "title": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate - Splunk",
+    "title": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate - splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXduek5STFctWEFBVXl3eHVzX1pwSC15TzJGbnZnVkFfX0FfTUlMSHdpVzc1TDFEM21zb1BuSGF4T1g2S1phcUNPNW1DbmxkcnJHRXVSRS1GQnc4QVBpbzNnSjd4TEZwdzdsZXV4VnRvVWpSWDVWZlRUQl9CR2VFTHJ4UjVZRUVaLUVWVk1pc2lHTVdhQWo4dV9YQ0dTRGptRGRiRks4YTVhdjZMbVhRZkgwelF4ZFVxS3c?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXduek5STFctWEFBVXl3eHVzX1pwSC15TzJGbnZnVkFfX0FfTUlMSHdpVzc1TDFEM21zb1BuSGF4T1g2S1phcUNPNW1DbmxkcnJHRXVSRS1GQnc4QVBpbzNnSjd4TEZwdzdsZXV4VnRvVWpSWDVWZlRUQl9CR2VFTHJ4UjVZRUVaLUVWVk1pc2lHTVdhQWo4dV9YQ0dTRGptRGRiRks4YTVhdjZMbVhRZkgwelF4ZFVxS3c?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -9553,12 +9424,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate Splunk",
+    "summary": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate splunk.com",
     "summarySource": "extractive",
     "clusterId": "0f1ed0d92da6af5f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via splunk.com (Google News)"
   },
   {
     "id": "f88a957372c1fbca",
@@ -9602,8 +9473,7 @@
     "publishedAt": "2026-06-11T07:00:00+00:00",
     "fetchedAt": "2026-06-11T15:43:52+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -9612,7 +9482,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script CyberSecurityNews",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "eea0755d6b0320ce",
     "lang": "en",
@@ -10116,7 +9986,7 @@
     ],
     "summary": "NetApp Cisco Splunk SOAR Link Puts Ransomware Resilience In Focus - Sahm",
     "summarySource": "extractive",
-    "clusterId": "2d48412f8297cd6e",
+    "clusterId": "ad0af5312a1ff000",
     "lang": "en",
     "license": null,
     "attribution": "via Sahm (Google News)"
@@ -10240,98 +10110,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "8ffdafbeb251d535",
-    "title": "From tenant-aware to job-aware: scaling shared AI clusters with Cisco Nexus One",
-    "url": "https://blogs.cisco.com/datacenter/from-tenant-aware-to-job-aware-scaling-shared-ai-clusters-with-cisco-nexus-one/",
-    "canonicalUrl": "https://blogs.cisco.com/datacenter/from-tenant-aware-to-job-aware-scaling-shared-ai-clusters-with-cisco-nexus-one",
-    "source": {
-      "id": "cisco-datacenter-blog",
-      "name": "Cisco Data Center Blog",
-      "homepage": "https://blogs.cisco.com/datacenter"
-    },
-    "author": "Meghan Kachhi",
-    "publishedAt": "2026-06-04T15:00:01+00:00",
-    "fetchedAt": "2026-06-04T19:56:57+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
-    "tags": [
-      "nexus-dashboard"
-    ],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "From tenant-aware to job-aware: scaling shared AI clusters with Cisco Nexus One",
-    "summarySource": "extractive",
-    "clusterId": "8ffdafbeb251d535",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Data Center Blog"
-  },
-  {
-    "id": "e88c407de030c37f",
-    "title": "VoidZero is joining Cloudflare",
-    "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-    "canonicalUrl": "https://blog.cloudflare.com/voidzero-joins-cloudflare",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Steve Faulkner",
-    "publishedAt": "2026-06-04T12:59:00+00:00",
-    "fetchedAt": "2026-06-04T14:43:11+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "VoidZero is joining Cloudflare",
-    "summarySource": "extractive",
-    "clusterId": "e88c407de030c37f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "d6cc432007d6bf1c",
-    "title": "NetApp Cisco Splunk SOAR Link Puts Ransomware Resilience In Focus - simplywall.st",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNm9pU09kbG5vNFoxeUxoODRWLXZXbFByM2xfcWJSM1d6X1l2YnpXRHRIWWtnZUlzQy1UcUtRVUwxWlNkeE9RTzRDQUQ3NEtCZHU2UXN1T1ZaSElYVlRkQ1g1N09PN0I4NnIwbGp3Y3BFM1NuNnhEaU4zZHN4TVB1N1dhYVNJTW52T3BIdDdPRTdjUVFRVVV2Wmczc2gwSkhqWnhnYmdRdzZUY1c4VjdiZzc0M085aDQ4NkF4REYyN2dCUdIBwgFBVV95cUxQNm9pU09kbG5vNFoxeUxoODRWLXZXbFByM2xfcWJSM1d6X1l2YnpXRHRIWWtnZUlzQy1UcUtRVUwxWlNkeE9RTzRDQUQ3NEtCZHU2UXN1T1ZaSElYVlRkQ1g1N09PN0I4NnIwbGp3Y3BFM1NuNnhEaU4zZHN4TVB1N1dhYVNJTW52T3BIdDdPRTdjUVFRVVV2Wmczc2gwSkhqWnhnYmdRdzZUY1c4VjdiZzc0M085aDQ4NkF4REYyN2dCUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNm9pU09kbG5vNFoxeUxoODRWLXZXbFByM2xfcWJSM1d6X1l2YnpXRHRIWWtnZUlzQy1UcUtRVUwxWlNkeE9RTzRDQUQ3NEtCZHU2UXN1T1ZaSElYVlRkQ1g1N09PN0I4NnIwbGp3Y3BFM1NuNnhEaU4zZHN4TVB1N1dhYVNJTW52T3BIdDdPRTdjUVFRVVV2Wmczc2gwSkhqWnhnYmdRdzZUY1c4VjdiZzc0M085aDQ4NkF4REYyN2dCUdIBwgFBVV95cUxQNm9pU09kbG5vNFoxeUxoODRWLXZXbFByM2xfcWJSM1d6X1l2YnpXRHRIWWtnZUlzQy1UcUtRVUwxWlNkeE9RTzRDQUQ3NEtCZHU2UXN1T1ZaSElYVlRkQ1g1N09PN0I4NnIwbGp3Y3BFM1NuNnhEaU4zZHN4TVB1N1dhYVNJTW52T3BIdDdPRTdjUVFRVVV2Wmczc2gwSkhqWnhnYmdRdzZUY1c4VjdiZzc0M085aDQ4NkF4REYyN2dCUQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "simplywall.st",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-04T12:49:07+00:00",
-    "fetchedAt": "2026-06-06T13:16:18+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetApp Cisco Splunk SOAR Link Puts Ransomware Resilience In Focus - simplywall.st",
-    "summarySource": "extractive",
-    "clusterId": "2d48412f8297cd6e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via simplywall.st (Google News)"
   },
   {
     "id": "cd5a855fcef5ca31",
@@ -10793,7 +10571,7 @@
   },
   {
     "id": "25caa8d3495a4776",
-    "title": "What’s New With Splunk Enterprise 8.1 - Splunk",
+    "title": "What’s New With Splunk Enterprise 8.1 - splunk.com",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "source": {
