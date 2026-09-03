@@ -1,5 +1,35 @@
 [
   {
+    "id": "c1dabc08c5d54383",
+    "title": "Why There’s No Single Right Zeek Deployment Architecture",
+    "url": "https://zeek.org/2026/09/why-theres-no-single-right-zeek-deployment-architecture/",
+    "canonicalUrl": "https://zeek.org/2026/09/why-theres-no-single-right-zeek-deployment-architecture",
+    "source": {
+      "id": "zeek-blog",
+      "name": "Zeek Blog",
+      "homepage": "https://zeek.org"
+    },
+    "author": "Michelle Pathe",
+    "publishedAt": "2026-09-03T18:26:50+00:00",
+    "fetchedAt": "2026-09-03T20:21:28+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
+    "summarySource": "extractive",
+    "clusterId": "c1dabc08c5d54383",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Zeek Blog"
+  },
+  {
     "id": "48d329f7c34cde74",
     "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
     "url": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
@@ -20,7 +50,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "summary": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
     "summarySource": "extractive",
     "clusterId": "48d329f7c34cde74",
     "lang": "en",
@@ -70,15 +100,17 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "How Attackers Learn Your Network Before They Attack It",
+    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -195,7 +227,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BGP filter generation.",
+    "summary": "The IRR Landscape: What RPKI Can Replace",
     "summarySource": "extractive",
     "clusterId": "831f42f8ca18045d",
     "lang": "en",
@@ -217,7 +249,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check - Network World",
+    "summary": "2026 network outage report and internet health check Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -255,7 +287,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 10 Best Splunk SOAR Alternatives in 2026: Compared Before the Python Playbook Migration - Security Boulevard",
+    "summary": "The 10 Best Splunk SOAR Alternatives in 2026: Compared Before the Python Playbook Migration Security Boulevard",
     "summarySource": "extractive",
     "clusterId": "686c315836109e08",
     "lang": "en",
@@ -367,7 +399,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -375,7 +409,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
+    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -530,12 +564,12 @@
   },
   {
     "id": "3c360aa197f97dec",
-    "title": "How Streaming Telemetry Improves Modern Network Monitoring - hackernoon.com",
+    "title": "How Streaming Telemetry Improves Modern Network Monitoring - HackerNoon",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEJ1aWNROGtSTGFHbHZYU3lCckladGE0cndNb2ZpanUwdjZzUVlqM3BzSGJrVUxWblo0TFR4ck9VbWtKeUtXS0hyY09uZUlrT2ppMzJheWJTM050UVA4TUI2UzkxMm51TjY2LWRBdG9ZcEpCUUxxajRVLXhyaWJaczVvcV9ZSk5F?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEJ1aWNROGtSTGFHbHZYU3lCckladGE0cndNb2ZpanUwdjZzUVlqM3BzSGJrVUxWblo0TFR4ck9VbWtKeUtXS0hyY09uZUlrT2ppMzJheWJTM050UVA4TUI2UzkxMm51TjY2LWRBdG9ZcEpCUUxxajRVLXhyaWJaczVvcV9ZSk5F?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "hackernoon.com",
+      "name": "HackerNoon",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -551,12 +585,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Streaming Telemetry Improves Modern Network Monitoring - hackernoon.com",
+    "summary": "How Streaming Telemetry Improves Modern Network Monitoring HackerNoon",
     "summarySource": "extractive",
     "clusterId": "3c360aa197f97dec",
     "lang": "en",
     "license": null,
-    "attribution": "via hackernoon.com (Google News)"
+    "attribution": "via HackerNoon (Google News)"
   },
   {
     "id": "0a97296544acf856",
@@ -674,6 +708,34 @@
     "attribution": "via Cisco Developer Blog"
   },
   {
+    "id": "58226cbb66a52c6e",
+    "title": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
+    "source": {
+      "id": "gnews-cisco-agenticops",
+      "name": "Cisco Blogs",
+      "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
+    },
+    "author": null,
+    "publishedAt": "2026-08-25T07:00:00+00:00",
+    "fetchedAt": "2026-09-03T20:21:28+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
+    "summarySource": "extractive",
+    "clusterId": "58226cbb66a52c6e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs (Google News)"
+  },
+  {
     "id": "bfe7552513d871d9",
     "title": "Mutual Post-Quantum Auth over IKEv2 – IPsec Series, Part 8",
     "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8/",
@@ -784,7 +846,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
+    "summary": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
     "summarySource": "extractive",
     "clusterId": "602fb396100a42b4",
     "lang": "en",
@@ -1052,7 +1114,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What It Really Takes to Run OpenTelemetry - DevOps.com",
+    "summary": "What It Really Takes to Run OpenTelemetry DevOps.com",
     "summarySource": "extractive",
     "clusterId": "cae8c2f6b511c4b2",
     "lang": "en",
@@ -1061,12 +1123,12 @@
   },
   {
     "id": "c4ba23c20f58ebb6",
-    "title": "Security Hardening Release for Splunk Enterprise - August 2026 - advisory.splunk.com",
+    "title": "Security Hardening Release for Splunk Enterprise - August 2026 - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xQWFrNEZPcngzTjlOM3F0OWw0c3dBUm90Z25wMnNESDFKX21NcGZCSng0bG5DYjZnZlRvTDViUHRySzVISEJSYjF2SU9wdHZuWXFHQnFTbDZVeG5ITnVLLWNR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xQWFrNEZPcngzTjlOM3F0OWw0c3dBUm90Z25wMnNESDFKX21NcGZCSng0bG5DYjZnZlRvTDViUHRySzVISEJSYjF2SU9wdHZuWXFHQnFTbDZVeG5ITnVLLWNR?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "advisory.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -1082,12 +1144,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Hardening Release for Splunk Enterprise - August 2026 - advisory.splunk.com",
+    "summary": "Security Hardening Release for Splunk Enterprise - August 2026 Splunk",
     "summarySource": "extractive",
     "clusterId": "62b89316f1c5908d",
     "lang": "en",
     "license": null,
-    "attribution": "via advisory.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "ce0f99a9709db24e",
+    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-08-18T15:48:26+00:00",
+    "fetchedAt": "2026-09-03T20:21:28+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summarySource": "extractive",
+    "clusterId": "ce0f99a9709db24e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -1410,7 +1500,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
+    "summary": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
     "summarySource": "extractive",
     "clusterId": "6e37c1de81a32100",
     "lang": "en",
@@ -1610,7 +1700,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-08-12T20:20:49+00:00",
     "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1618,7 +1710,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek 9.0 Development Update",
+    "summary": "Zeek 9.0, our next long-term support (LTS) release, is just around the corner! Here’s a quick look at what’s been keeping us busy in the lead-up to the release, and what you can expect over the next few weeks. As always, our priority for our next LTS release is stability and maturity of features.",
     "summarySource": "extractive",
     "clusterId": "8294678e461b7a19",
     "lang": "en",
@@ -2084,7 +2176,9 @@
     "author": "Arne Welzel",
     "publishedAt": "2026-08-11T17:05:31+00:00",
     "fetchedAt": "2026-08-11T18:52:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2092,7 +2186,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Beyond ZeekControl",
+    "summary": "This post provides an overview of the direction the Zeek project is taking around ZeekControl and its intended successor, the Management Framework. The primary and suggested way to run a Zeek deployment for live traffic monitoring today is ZeekControl. For multi-host deployments, it’s been the tool of choice because it conveniently bundles all the required […]",
     "summarySource": "extractive",
     "clusterId": "de86ec08333fbb52",
     "lang": "en",
@@ -2959,7 +3053,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-04T20:59:21+00:00",
     "fetchedAt": "2026-08-05T01:51:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2967,7 +3063,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Logs Were Right: Debugging Your Mental Model in Zeek",
+    "summary": "When an expected log fails to populate, an alert queue explodes, or a custom script behaves strangely, it’s natural to pause and investigate. Running a high-throughput network monitoring engine like Zeek comes with a learning curve, and practitioners frequently encounter outputs that require deeper troubleshooting. Is a parser failing?",
     "summarySource": "extractive",
     "clusterId": "e99bed2d737b6780",
     "lang": "en",
@@ -3633,7 +3729,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
+    "summary": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
     "summarySource": "extractive",
     "clusterId": "cc452a2859e103d0",
     "lang": "en",
@@ -3717,7 +3813,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M - Tech Times",
+    "summary": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M Tech Times",
     "summarySource": "extractive",
     "clusterId": "f0a704ec833cf12f",
     "lang": "en",
@@ -4141,7 +4237,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking The Fast Mode",
+    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "e509dc7d3ef80fe8",
     "lang": "en",
@@ -4401,7 +4497,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:38+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4409,7 +4507,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 3)",
+    "summary": "This is Part 3 of a three-part series. Read Part 1 and Part 2. Introduction Back in Part 1 and Part 2, we presented our motivational package, ip-distance, how you can easily write unit tests in BTest, and how you can generate events—either by hand or through Zeek’s event tracing utility—to test your Zeek content. […]",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -4429,7 +4527,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:24+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4437,7 +4537,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 2)",
+    "summary": "This is Part 2 of a three-part series. Read Part 1 and Part 3. Introduction In the previous part of this blog series, we presented our motivational package, ip-distance, and how you can easily write unit tests in BTest.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -4457,7 +4557,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:10+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4465,7 +4567,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 1)",
+    "summary": "This is Part 1 of a three-part series. Read Part 2 and Part 3. Introduction As someone who ships a lot of Zeek packages to production, I’m always looking for ways to improve package testing.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -4538,6 +4640,37 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "68e7fbb9db5c7fd5",
+    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
+    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-07-22T15:54:49+00:00",
+    "fetchedAt": "2026-09-03T20:21:28+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
+    "summarySource": "extractive",
+    "clusterId": "68e7fbb9db5c7fd5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "c06f5e3bc6364366",
     "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "url": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there/",
@@ -4558,7 +4691,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When Bangladesh vanished from the global routing table in July 2024, public routing data captured the event as it unfolded. Drawing on first-hand observations from inside one affected network, this article explores what that data can and cannot tell us.",
+    "summary": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "summarySource": "extractive",
     "clusterId": "c06f5e3bc6364366",
     "lang": "en",
@@ -4793,7 +4926,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
+    "summary": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
     "summarySource": "extractive",
     "clusterId": "17d8060b1d412bde",
     "lang": "en",
@@ -4826,7 +4959,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security - Splunk Help",
+    "summary": "Users and roles for Splunk Enterprise Security Splunk Help",
     "summarySource": "extractive",
     "clusterId": "34cd7640f5c91748",
     "lang": "en",
@@ -4859,7 +4992,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security - Splunk Help",
+    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk Help",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
@@ -5136,7 +5269,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "summary": "Who's Running All Those Tiny RPKI Servers?",
     "summarySource": "extractive",
     "clusterId": "ba3a1ff39c67adc0",
     "lang": "en",
@@ -5476,34 +5609,6 @@
     "attribution": "via Cisco Networking Blog"
   },
   {
-    "id": "2451e33c1e06a4d7",
-    "title": "Many Sovereignties, One Internet",
-    "url": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet/",
-    "canonicalUrl": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Hisham Ibrahim",
-    "publishedAt": "2026-07-15T07:09:49+00:00",
-    "fetchedAt": "2026-09-03T10:29:15+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Digital sovereignty is not simply good or bad. The commons test offers a practical framework for assessing whether different strategies expand choice, preserve interoperability, strengthen resilience and support meaningful participation, or create new dependencies and chokepoints.",
-    "summarySource": "extractive",
-    "clusterId": "2451e33c1e06a4d7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "776f5ce51945a1b4",
     "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
@@ -5574,7 +5679,9 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T08:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5582,7 +5689,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Spicy vs. Binpac Performance, One Year Later",
+    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -5968,7 +6075,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Infoblox to acquire Kentik in DNS and network observability deal - CRN Asia",
+    "summary": "Infoblox to acquire Kentik in DNS and network observability deal CRN Asia",
     "summarySource": "extractive",
     "clusterId": "3d49e2beaf4f3f4b",
     "lang": "en",
@@ -6560,7 +6667,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] tech-insider.org",
+    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] - tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "88a8d0573fdb3591",
     "lang": "en",
@@ -6830,7 +6937,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Introduces Lynx, a Unified Control Plane for Kubernetes‑Native AI Agents Cloud Native Now",
+    "summary": "Tigera Introduces Lynx, a Unified Control Plane for Kubernetes‑Native AI Agents - Cloud Native Now",
     "summarySource": "extractive",
     "clusterId": "87007fc42014c909",
     "lang": "en",
@@ -6839,18 +6946,19 @@
   },
   {
     "id": "a5ab58604cc3c2a7",
-    "title": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - thousandeyes.com",
+    "title": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - ThousandEyes",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "thousandeyes.com",
+      "name": "ThousandEyes",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
     "publishedAt": "2026-07-02T07:00:00+00:00",
     "fetchedAt": "2026-07-03T19:07:27+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -6862,12 +6970,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - thousandeyes.com",
+    "summary": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "a5ab58604cc3c2a7",
     "lang": "en",
     "license": null,
-    "attribution": "via thousandeyes.com (Google News)"
+    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "db74f17976fe252b",
@@ -7149,7 +7257,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "New features in Splunk IT Service Intelligence - Splunk Help",
+    "summary": "New features in Splunk IT Service Intelligence Splunk Help",
     "summarySource": "extractive",
     "clusterId": "a7ce5a0b5e878322",
     "lang": "en",
@@ -7250,12 +7358,12 @@
   },
   {
     "id": "c4ce630deefa075b",
-    "title": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification - executivebiz.com",
+    "title": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification - ExecutiveBiz",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "source": {
       "id": "gnews-splunk-es-soar",
-      "name": "executivebiz.com",
+      "name": "ExecutiveBiz",
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
@@ -7274,12 +7382,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification executivebiz.com",
+    "summary": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification ExecutiveBiz",
     "summarySource": "extractive",
     "clusterId": "c4ce630deefa075b",
     "lang": "en",
     "license": null,
-    "attribution": "via executivebiz.com (Google News)"
+    "attribution": "via ExecutiveBiz (Google News)"
   },
   {
     "id": "34a033f43010e298",
@@ -7605,7 +7713,7 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk Help",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk Help",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
@@ -7818,6 +7926,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via gbhackers.com (Google News)"
+  },
+  {
+    "id": "e23c1f609823e067",
+    "title": "Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure - Dark Reading",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ0J4bkFfbEJxc09uamNsd19vMmFraG5CWFNEWm5SalVvQ0VxZnZqX3RJckpzYkNKc0ZfSm5ILXVZM2hhUmVNYlA1M1dqVXF0a09CNUJRUml2ODhZa2s2Umhzcm5icmNnTWUyQzVuQjMzTEJqSURnT2lGNy01S2RsaVJVcUpmWXYycENJS282M1l3MXVDVmtDX09mSTJzZGp5NlpaTGFNVkE2MUpIc1RnTkZWZw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ0J4bkFfbEJxc09uamNsd19vMmFraG5CWFNEWm5SalVvQ0VxZnZqX3RJckpzYkNKc0ZfSm5ILXVZM2hhUmVNYlA1M1dqVXF0a09CNUJRUml2ODhZa2s2Umhzcm5icmNnTWUyQzVuQjMzTEJqSURnT2lGNy01S2RsaVJVcUpmWXYycENJS282M1l3MXVDVmtDX09mSTJzZGp5NlpaTGFNVkE2MUpIc1RnTkZWZw?oc=5",
+    "source": {
+      "id": "gnews-cisco-sdwan",
+      "name": "Dark Reading",
+      "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
+    },
+    "author": null,
+    "publishedAt": "2026-06-24T07:00:00+00:00",
+    "fetchedAt": "2026-09-03T20:21:28+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure Dark Reading",
+    "summarySource": "extractive",
+    "clusterId": "e23c1f609823e067",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Dark Reading (Google News)"
   },
   {
     "id": "92cd4af0ebfba0a3",
@@ -8099,7 +8235,8 @@
     "publishedAt": "2026-06-21T07:00:00+00:00",
     "fetchedAt": "2026-06-21T09:40:19+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -8109,7 +8246,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
     "summarySource": "extractive",
     "clusterId": "82c16fa2829f3035",
     "lang": "en",
@@ -8897,7 +9034,8 @@
     "publishedAt": "2026-06-16T07:00:00+00:00",
     "fetchedAt": "2026-06-17T02:57:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -8907,7 +9045,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
+    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution Resecurity",
     "summarySource": "extractive",
     "clusterId": "bab7e64f296bdb11",
     "lang": "en",
@@ -9135,6 +9273,34 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-09-03T20:21:28+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -9204,7 +9370,8 @@
     "publishedAt": "2026-06-15T07:49:45+00:00",
     "fetchedAt": "2026-06-15T11:51:20+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -9214,7 +9381,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed - The Cyber Express",
+    "summary": "CVE-2026-20253: Critical Splunk Enterprise RCE Flaw Fixed The Cyber Express",
     "summarySource": "extractive",
     "clusterId": "add5538c3aeb7157",
     "lang": "en",
@@ -9306,7 +9473,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations - Business Insider",
+    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations Business Insider",
     "summarySource": "extractive",
     "clusterId": "01553c52c86d9f94",
     "lang": "en",
@@ -9627,7 +9794,8 @@
     "publishedAt": "2026-06-11T07:00:00+00:00",
     "fetchedAt": "2026-06-11T15:43:52+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -9636,7 +9804,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script - CyberSecurityNews",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Allow Attackers to Execute Malicious Script CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "eea0755d6b0320ce",
     "lang": "en",
@@ -9754,7 +9922,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities - The Fast Mode",
+    "summary": "Zoho's ManageEngine Enhances Network Observability and Native SOAR Capabilities The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "55fa88e77c8df400",
     "lang": "en",
@@ -10112,38 +10280,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via csoonline.com (Google News)"
-  },
-  {
-    "id": "ad0af5312a1ff000",
-    "title": "NetApp Cisco Splunk SOAR Link Puts Ransomware Resilience In Focus - Sahm",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSmRGTjdZZWpMTG03QWlHZjc0QzFiY2VjQ19RVzA2TzVlYzJ3OFZJeWgwSnVpVWplQVNzSURuYkZBeWFFRl90d0U3RzFNamc3VDkyZUZPaUotNzFSeFVhQUhISTlxLVAydkVYY3dLNkxLNGdXVjYzSm5PMHdpVEw2WlNWTFBPLURWOVBFSVVvYVJIWXp1eEUyTkpuS2lmN2tkcVpDeXU2bjlfb0RkajF6c0t2ekhYSWNx?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSmRGTjdZZWpMTG03QWlHZjc0QzFiY2VjQ19RVzA2TzVlYzJ3OFZJeWgwSnVpVWplQVNzSURuYkZBeWFFRl90d0U3RzFNamc3VDkyZUZPaUotNzFSeFVhQUhISTlxLVAydkVYY3dLNkxLNGdXVjYzSm5PMHdpVEw2WlNWTFBPLURWOVBFSVVvYVJIWXp1eEUyTkpuS2lmN2tkcVpDeXU2bjlfb0RkajF6c0t2ekhYSWNx?oc=5",
-    "source": {
-      "id": "gnews-splunk-es-soar",
-      "name": "Sahm",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
-    },
-    "author": null,
-    "publishedAt": "2026-06-05T19:05:55+00:00",
-    "fetchedAt": "2026-06-09T19:59:36+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "NetApp Cisco Splunk SOAR Link Puts Ransomware Resilience In Focus - Sahm",
-    "summarySource": "extractive",
-    "clusterId": "ad0af5312a1ff000",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Sahm (Google News)"
   },
   {
     "id": "cd5a855fcef5ca31",
