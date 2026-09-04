@@ -20,7 +20,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summary": "Closing the IPv6 First-Packet Gap with GRAND",
     "summarySource": "extractive",
     "clusterId": "20f7ad9eb66a41ca",
     "lang": "en",
@@ -43,7 +43,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "standards"
+      "news"
     ],
     "audiences": [
       "global"
@@ -78,7 +78,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's New Splunk",
+    "summary": "What's New - Splunk",
     "summarySource": "extractive",
     "clusterId": "6abb00b4c123e867",
     "lang": "en",
@@ -162,7 +162,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "summary": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
     "summarySource": "extractive",
     "clusterId": "48d329f7c34cde74",
     "lang": "en",
@@ -171,12 +171,12 @@
   },
   {
     "id": "8682113ea3a0e8da",
-    "title": "Join Google Cloud at .conf26: What's New for Splunk Customers - Splunk",
+    "title": "Join Google Cloud at .conf26: What's New for Splunk Customers - splunk.com",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkVJMXhVd29rLWwxbjc2UFN2dHlXRVJmYzVqdG81MHZfaEtXYS1FYzFONE5RTElJYzhxYUNZTlJ5R1FEQUl6Q0k4eFJ0bmwtbDg1VlpZdnBLd2NTUW4wQVhPeDFZVVBMX3VOTlFvZG1GRXZYVG1TalY4dmVXTFlsUQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkVJMXhVd29rLWwxbjc2UFN2dHlXRVJmYzVqdG81MHZfaEtXYS1FYzFONE5RTElJYzhxYUNZTlJ5R1FEQUl6Q0k4eFJ0bmwtbDg1VlpZdnBLd2NTUW4wQVhPeDFZVVBMX3VOTlFvZG1GRXZYVG1TalY4dmVXTFlsUQ?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -192,12 +192,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Join Google Cloud at .conf26: What's New for Splunk Customers Splunk",
+    "summary": "Join Google Cloud at .conf26: What's New for Splunk Customers splunk.com",
     "summarySource": "extractive",
     "clusterId": "8682113ea3a0e8da",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via splunk.com (Google News)"
   },
   {
     "id": "f597bd8f7d2ecb3c",
@@ -259,12 +259,12 @@
   },
   {
     "id": "80022bd33cc33556",
-    "title": "Users and roles for Splunk Enterprise Security - Splunk Help",
+    "title": "Users and roles for Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -283,12 +283,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security Splunk Help",
+    "summary": "Users and roles for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk Help (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "79c2bec584c8a692",
@@ -370,7 +370,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BGP filter generation.",
+    "summary": "The IRR Landscape: What RPKI Can Replace",
     "summarySource": "extractive",
     "clusterId": "831f42f8ca18045d",
     "lang": "en",
@@ -404,34 +404,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "d807a797ef2eda8b",
-    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
-    "url": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Hervé Clément",
-    "publishedAt": "2026-09-01T06:03:50+00:00",
-    "fetchedAt": "2026-09-04T02:18:39+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
-    "summarySource": "extractive",
-    "clusterId": "d807a797ef2eda8b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "686c315836109e08",
@@ -644,34 +616,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "0c09e288ae377b54",
-    "title": "The lingering legacy of ‘reserved’ ports",
-    "url": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-08-27T23:29:48+00:00",
-    "fetchedAt": "2026-09-04T02:18:39+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The lingering legacy of ‘reserved’ ports",
-    "summarySource": "extractive",
-    "clusterId": "0c09e288ae377b54",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "0534e91d190c6463",
     "title": "Introducing PF_RING 9.4: Expanding Capabilities Across Capture, Flow Processing and Hardware Support",
     "url": "https://www.ntop.org/introducing-pf_ring-9-4-expanding-capabilities-across-capture-flow-processing-and-hardware-support/",
@@ -788,34 +732,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via HackerNoon (Google News)"
-  },
-  {
-    "id": "5f10b97a8afece46",
-    "title": "Beyond origin validation: Four classes of routing attack nobody Is validating",
-    "url": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Flavio Luciani",
-    "publishedAt": "2026-08-25T22:24:59+00:00",
-    "fetchedAt": "2026-09-04T02:18:39+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Beyond origin validation: Four classes of routing attack nobody Is validating",
-    "summarySource": "extractive",
-    "clusterId": "5f10b97a8afece46",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "0a97296544acf856",
@@ -1071,40 +987,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
+    "summary": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
     "summarySource": "extractive",
     "clusterId": "602fb396100a42b4",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
-  },
-  {
-    "id": "173968d50e1e04ac",
-    "title": "Do IXPs make the Internet faster? It’s complicated",
-    "url": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dan Fidler",
-    "publishedAt": "2026-08-23T23:05:33+00:00",
-    "fetchedAt": "2026-09-04T02:18:39+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Do IXPs make the Internet faster? It’s complicated",
-    "summarySource": "extractive",
-    "clusterId": "173968d50e1e04ac",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "d5dded18ffcc6caa",
@@ -1433,32 +1321,32 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "4e3052eefe0346fe",
-    "title": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
-    "url": "https://blog.apnic.net/2026/08/19/asia-pacific-privacy-laws-are-arriving/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/19/asia-pacific-privacy-laws-are-arriving",
+    "id": "ce0f99a9709db24e",
+    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
     "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
     },
-    "author": "Tuwan Azgar Jaleel",
-    "publishedAt": "2026-08-19T05:10:00+00:00",
-    "fetchedAt": "2026-09-04T02:18:39+00:00",
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-08-18T15:48:26+00:00",
+    "fetchedAt": "2026-09-04T20:07:05+00:00",
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Asia Pacific privacy laws are arriving. Your NREN holds more personal data than you think.",
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
     "summarySource": "extractive",
-    "clusterId": "4e3052eefe0346fe",
+    "clusterId": "ce0f99a9709db24e",
     "lang": "en",
     "license": null,
-    "attribution": "via APNIC Blog"
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -1781,7 +1669,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
+    "summary": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
     "summarySource": "extractive",
     "clusterId": "6e37c1de81a32100",
     "lang": "en",
@@ -4004,7 +3892,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
+    "summary": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
     "summarySource": "extractive",
     "clusterId": "cc452a2859e103d0",
     "lang": "en",
@@ -4338,12 +4226,12 @@
   },
   {
     "id": "22a7904e8127440c",
-    "title": "Top 5 Use Cases for Splunk Enterprise Security - TechTarget",
+    "title": "Top 5 Use Cases for Splunk Enterprise Security - techtarget.com",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84VUVUa1I1dlBfd201TkNLcmxxSGQ1eWxFSWxWZWdnNUNfbUlfMmJrOF84Rl9kREl4T1hJLXk4WDBQN3FZN3F6SGhSQXJ2LWVCVV9PSWdNM3hmN1ktdjg4Zg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84VUVUa1I1dlBfd201TkNLcmxxSGQ1eWxFSWxWZWdnNUNfbUlfMmJrOF84Rl9kREl4T1hJLXk4WDBQN3FZN3F6SGhSQXJ2LWVCVV9PSWdNM3hmN1ktdjg4Zg?oc=5",
     "source": {
       "id": "gnews-splunk-es-soar",
-      "name": "TechTarget",
+      "name": "techtarget.com",
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
@@ -4362,12 +4250,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 5 Use Cases for Splunk Enterprise Security TechTarget",
+    "summary": "Top 5 Use Cases for Splunk Enterprise Security techtarget.com",
     "summarySource": "extractive",
     "clusterId": "22a7904e8127440c",
     "lang": "en",
     "license": null,
-    "attribution": "via TechTarget (Google News)"
+    "attribution": "via techtarget.com (Google News)"
   },
   {
     "id": "74e245585d15658c",
@@ -4909,6 +4797,37 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "68e7fbb9db5c7fd5",
+    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
+    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-07-22T15:54:49+00:00",
+    "fetchedAt": "2026-09-04T20:07:05+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
+    "summarySource": "extractive",
+    "clusterId": "68e7fbb9db5c7fd5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "c06f5e3bc6364366",
     "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "url": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there/",
@@ -4929,7 +4848,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When Bangladesh vanished from the global routing table in July 2024, public routing data captured the event as it unfolded. Drawing on first-hand observations from inside one affected network, this article explores what that data can and cannot tell us.",
+    "summary": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "summarySource": "extractive",
     "clusterId": "c06f5e3bc6364366",
     "lang": "en",
@@ -5164,7 +5083,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation: handled with local filters, static thresholds and reactive response.",
+    "summary": "Beyond Origin Validation: Four Classes of Routing Attack Nobody Is Validating",
     "summarySource": "extractive",
     "clusterId": "17d8060b1d412bde",
     "lang": "en",
@@ -5173,12 +5092,12 @@
   },
   {
     "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk Help",
+    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -5197,12 +5116,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk Help",
+    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk Help (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "72a8d6864f14bb21",
@@ -5474,7 +5393,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Who runs the hidden infrastructure behind secure Internet routing? An internship report from SIDN Labs looks beyond the RIRs at the independently operated RPKI publication servers helping to secure BGP.",
+    "summary": "Who's Running All Those Tiny RPKI Servers?",
     "summarySource": "extractive",
     "clusterId": "ba3a1ff39c67adc0",
     "lang": "en",
@@ -5673,7 +5592,8 @@
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-31T13:47:02+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -5682,7 +5602,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse - cyberpress.org",
+    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "96bff952071d094a",
     "lang": "en",
@@ -5814,64 +5734,6 @@
     "attribution": "via Cisco Networking Blog"
   },
   {
-    "id": "2451e33c1e06a4d7",
-    "title": "Many Sovereignties, One Internet",
-    "url": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet/",
-    "canonicalUrl": "https://labs.ripe.net/author/hisham_ibrahim/many-sovereignties-one-internet",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Hisham Ibrahim",
-    "publishedAt": "2026-07-15T07:09:49+00:00",
-    "fetchedAt": "2026-09-04T15:32:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Digital sovereignty is not simply good or bad. The commons test offers a practical framework for assessing whether different strategies expand choice, preserve interoperability, strengthen resilience and support meaningful participation, or create new dependencies and chokepoints.",
-    "summarySource": "extractive",
-    "clusterId": "2451e33c1e06a4d7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
-    "id": "776f5ce51945a1b4",
-    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
-    "source": {
-      "id": "gnews-splunk-features",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-07-14T22:38:02+00:00",
-    "fetchedAt": "2026-07-17T18:57:19+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "776f5ce51945a1b4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
     "id": "d581d2da960fb300",
     "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
     "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
@@ -5961,12 +5823,12 @@
   },
   {
     "id": "feb4cb34b4f289b4",
-    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - aws.amazon.com",
+    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - Amazon Web Services (AWS)",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "aws.amazon.com",
+      "name": "Amazon Web Services (AWS)",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -5984,12 +5846,42 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline aws.amazon.com",
+    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline Amazon Web Services (AWS)",
     "summarySource": "extractive",
     "clusterId": "feb4cb34b4f289b4",
     "lang": "en",
     "license": null,
-    "attribution": "via aws.amazon.com (Google News)"
+    "attribution": "via Amazon Web Services (AWS) (Google News)"
+  },
+  {
+    "id": "776f5ce51945a1b4",
+    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-07-14T07:00:00+00:00",
+    "fetchedAt": "2026-07-17T18:57:19+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "776f5ce51945a1b4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "60fa720f6e0fa931",
@@ -6014,7 +5906,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
@@ -7467,12 +7359,12 @@
   },
   {
     "id": "a7ce5a0b5e878322",
-    "title": "New features in Splunk IT Service Intelligence - Splunk Help",
+    "title": "New features in Splunk IT Service Intelligence - Splunk",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQU94MlNESWYtRF9DREdCWEE1WnZVQXZ4dGozNmFwTTdNNUNzWDJmcGkybmlBb1RNMlZUOGNlSFM0VHdXWWVvMkg2SlRJNG12MzlQbzFGRmJaMFZpNnJuZVhNYzRqNFZLdE54bHgyN1dJbnM?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQU94MlNESWYtRF9DREdCWEE1WnZVQXZ4dGozNmFwTTdNNUNzWDJmcGkybmlBb1RNMlZUOGNlSFM0VHdXWWVvMkg2SlRJNG12MzlQbzFGRmJaMFZpNnJuZVhNYzRqNFZLdE54bHgyN1dJbnM?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -7488,12 +7380,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "New features in Splunk IT Service Intelligence Splunk Help",
+    "summary": "New features in Splunk IT Service Intelligence Splunk",
     "summarySource": "extractive",
     "clusterId": "a7ce5a0b5e878322",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk Help (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "1532f4ea5e7c7ffd",
@@ -7926,12 +7818,12 @@
   },
   {
     "id": "2c68808f33945c5f",
-    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk Help",
+    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -7944,12 +7836,12 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk Help",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk Help (Google News)",
+    "attribution": "via Splunk (Google News)",
     "audiences": [
       "global"
     ]
@@ -8044,12 +7936,12 @@
   },
   {
     "id": "d900f36b310c92da",
-    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - SecurityBrief Australia",
+    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - securitybrief.com.au",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "source": {
       "id": "gnews-cisco-sdwan",
-      "name": "SecurityBrief Australia",
+      "name": "securitybrief.com.au",
       "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
     },
     "author": null,
@@ -8063,12 +7955,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach SecurityBrief Australia",
+    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach securitybrief.com.au",
     "summarySource": "extractive",
     "clusterId": "d900f36b310c92da",
     "lang": "en",
     "license": null,
-    "attribution": "via SecurityBrief Australia (Google News)"
+    "attribution": "via securitybrief.com.au (Google News)"
   },
   {
     "id": "619f2e9413b86ed9",
@@ -8207,7 +8099,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access CyberSecurityNews",
+    "summary": "Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "92cd4af0ebfba0a3",
     "lang": "en",
@@ -8466,7 +8358,8 @@
     "publishedAt": "2026-06-21T07:00:00+00:00",
     "fetchedAt": "2026-06-21T09:40:19+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -8476,7 +8369,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service - Rescana",
+    "summary": "Active Exploitation of Critical CVE-2026-20253 in Splunk Enterprise: Unauthenticated RCE via PostgreSQL Sidecar Service Rescana",
     "summarySource": "extractive",
     "clusterId": "82c16fa2829f3035",
     "lang": "en",
@@ -8971,8 +8864,7 @@
     "publishedAt": "2026-06-18T07:00:00+00:00",
     "fetchedAt": "2026-06-19T03:38:21+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -8982,7 +8874,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise vulnerability being exploited thestack.technology",
+    "summary": "Critical Splunk Enterprise vulnerability being exploited - thestack.technology",
     "summarySource": "extractive",
     "clusterId": "d99dcf410419b476",
     "lang": "en",
@@ -9265,7 +9157,8 @@
     "publishedAt": "2026-06-16T07:00:00+00:00",
     "fetchedAt": "2026-06-17T02:57:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -9275,7 +9168,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
+    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution Resecurity",
     "summarySource": "extractive",
     "clusterId": "bab7e64f296bdb11",
     "lang": "en",
@@ -9503,6 +9396,34 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
+    "id": "5c2505b4acedac6d",
+    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
+    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
+    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Summerset Banks",
+    "publishedAt": "2026-06-15T13:02:36+00:00",
+    "fetchedAt": "2026-09-04T20:07:05+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Network Automation Forum’s AutoCon 5 took place in Munich, Germany on June 6-10, 2026. Ethan Banks and Drew Conry-Murray, along with Nathan Jackson and Summerset Banks of the production team were in attendance. We produced multiple videos and LinkedIn posts from the conference including summaries of the talks from the AutoCon 5 stage.",
+    "summarySource": "extractive",
+    "clusterId": "5c2505b4acedac6d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -9624,12 +9545,12 @@
   },
   {
     "id": "14b7c67b92bd0f11",
-    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution - LinkedIn",
+    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution - linkedin.com",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2RrZVRYdF9QTHhnT3dmajRDVm5VWmRIcDItU2J1WjNxVjRRLW5jSkZiMkFvN2dzWUQ2Q19WZDFKMHFlM21qaU5VUUV4REZ1RWJ5eWpYYlpCNnNYX09qdlZhbjhvbTFKQnhaNG9uRG44bGhEMUxwUTZ3WnRsX2dvWklnUVc3STdLWkRNLUxn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2RrZVRYdF9QTHhnT3dmajRDVm5VWmRIcDItU2J1WjNxVjRRLW5jSkZiMkFvN2dzWUQ2Q19WZDFKMHFlM21qaU5VUUV4REZ1RWJ5eWpYYlpCNnNYX09qdlZhbjhvbTFKQnhaNG9uRG44bGhEMUxwUTZ3WnRsX2dvWklnUVc3STdLWkRNLUxn?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "LinkedIn",
+      "name": "linkedin.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -9647,21 +9568,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution LinkedIn",
+    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution linkedin.com",
     "summarySource": "extractive",
     "clusterId": "0ec40649df09c49a",
     "lang": "en",
     "license": null,
-    "attribution": "via LinkedIn (Google News)"
+    "attribution": "via linkedin.com (Google News)"
   },
   {
     "id": "01553c52c86d9f94",
-    "title": "How embracing a data fabric architecture can help the SOC and NOC unify operations - Business Insider",
+    "title": "How embracing a data fabric architecture can help the SOC and NOC unify operations - businessinsider.com",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdRRjItcVRHZTBnZHRJXzNmWGdoTEx2SXZnMVU5YnA1S1E0TEVDZ05fblVUbl92aTdaalVQN2xzUUVqbEcwVzJPaFppUE1lbGJoSDA4TGJCTjJmSlZsNXdqNVhEb0ltRHZ3X2RCX3lYWGNaaHpwRTRTNC02aTFhdlctTHlucF9lQWZROHBhc3B0WW9UcnlzdEJ3WmxfNVU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUEdRRjItcVRHZTBnZHRJXzNmWGdoTEx2SXZnMVU5YnA1S1E0TEVDZ05fblVUbl92aTdaalVQN2xzUUVqbEcwVzJPaFppUE1lbGJoSDA4TGJCTjJmSlZsNXdqNVhEb0ltRHZ3X2RCX3lYWGNaaHpwRTRTNC02aTFhdlctTHlucF9lQWZROHBhc3B0WW9UcnlzdEJ3WmxfNVU?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "Business Insider",
+      "name": "businessinsider.com",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -9675,12 +9596,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations Business Insider",
+    "summary": "How embracing a data fabric architecture can help the SOC and NOC unify operations businessinsider.com",
     "summarySource": "extractive",
     "clusterId": "01553c52c86d9f94",
     "lang": "en",
     "license": null,
-    "attribution": "via Business Insider (Google News)"
+    "attribution": "via businessinsider.com (Google News)"
   },
   {
     "id": "0ec40649df09c49a",
@@ -9927,12 +9848,12 @@
   },
   {
     "id": "0f1ed0d92da6af5f",
-    "title": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate - Splunk",
+    "title": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate - splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXduek5STFctWEFBVXl3eHVzX1pwSC15TzJGbnZnVkFfX0FfTUlMSHdpVzc1TDFEM21zb1BuSGF4T1g2S1phcUNPNW1DbmxkcnJHRXVSRS1GQnc4QVBpbzNnSjd4TEZwdzdsZXV4VnRvVWpSWDVWZlRUQl9CR2VFTHJ4UjVZRUVaLUVWVk1pc2lHTVdhQWo4dV9YQ0dTRGptRGRiRks4YTVhdjZMbVhRZkgwelF4ZFVxS3c?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXduek5STFctWEFBVXl3eHVzX1pwSC15TzJGbnZnVkFfX0FfTUlMSHdpVzc1TDFEM21zb1BuSGF4T1g2S1phcUNPNW1DbmxkcnJHRXVSRS1GQnc4QVBpbzNnSjd4TEZwdzdsZXV4VnRvVWpSWDVWZlRUQl9CR2VFTHJ4UjVZRUVaLUVWVk1pc2lHTVdhQWo4dV9YQ0dTRGptRGRiRks4YTVhdjZMbVhRZkgwelF4ZFVxS3c?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -9948,12 +9869,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate Splunk",
+    "summary": "Modernizing Public Sector Data Operations: Introducing Edge and Ingest Processors with SPL2 at FedRAMP Moderate splunk.com",
     "summarySource": "extractive",
     "clusterId": "0f1ed0d92da6af5f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via splunk.com (Google News)"
   },
   {
     "id": "f88a957372c1fbca",
@@ -10944,7 +10865,7 @@
   },
   {
     "id": "25caa8d3495a4776",
-    "title": "What’s New With Splunk Enterprise 8.1 - Splunk",
+    "title": "What’s New With Splunk Enterprise 8.1 - splunk.com",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "source": {
