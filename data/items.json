@@ -423,9 +423,7 @@
     "author": "Alfredo Cardigliano",
     "publishedAt": "2026-08-31T09:15:32+00:00",
     "fetchedAt": "2026-08-31T12:20:18+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -435,7 +433,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Starting September 1st, 2026 (ntopng 6.7.280831 and later), cleartext flow data over ZMQ is no longer accepted by default. CURVE encryption is now enabled by default on ZMQ collection interfaces in ntopng. The same change applies to nProbe and Cento, which now also send ZMQ data encrypted by default.",
+    "summary": "Secure ZMQ Flow Collection Now Enabled by Default",
     "summarySource": "extractive",
     "clusterId": "41f5de1fc90b73af",
     "lang": "en",
@@ -483,9 +481,7 @@
     "author": "admin",
     "publishedAt": "2026-08-28T14:31:45+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -493,7 +489,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are proud to announce the release of nDPI 6.0, the latest major update to our open-source Deep Packet Inspection (DPI) toolkit. This release brings an important licensing update, a brand-new detection logic for Slow DoS attacks, more flexible and reliable traffic fingerprints, and zero-overhead runtime observability via USDT tracepoints — on top of new […]",
+    "summary": "Introducing nDPI 6.0: Licensing Update, Slow DoS Detection and Smarter Fingerprints",
     "summarySource": "extractive",
     "clusterId": "52fbb0e3a8ade61b",
     "lang": "en",
@@ -541,9 +537,7 @@
     "author": "Alfredo Cardigliano",
     "publishedAt": "2026-08-27T17:29:00+00:00",
     "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -551,7 +545,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are pleased to announce the release of PF_RING 9.4, bringing new capabilities for packet capture and flow processing, along with important improvements across the PF_RING kernel module, capture drivers, flow tracking, and system integration. Multi-Timeline Extraction with nPCAP PF_RING 9.4 adds support for multi-timeline extraction from n2disk dump sets, with timestamp-based data aggregation through nPCAP. This […]",
+    "summary": "Introducing PF_RING 9.4: Expanding Capabilities Across Capture, Flow Processing and Hardware Support",
     "summarySource": "extractive",
     "clusterId": "0534e91d190c6463",
     "lang": "en",
@@ -909,9 +903,7 @@
     "author": "admin",
     "publishedAt": "2026-08-23T07:55:12+00:00",
     "fetchedAt": "2026-08-23T12:24:00+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -919,7 +911,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A License Change for nDPI: Protecting the Project We Started in 2012 When we began nDPI back in 2012, the idea was simple: build an open source, high-performance Deep Packet Inspection engine that anyone could use as a foundation layer for network applications. No gatekeeping or strings attached, but just a solid piece of infrastructure […]",
+    "summary": "Announcing nDPI Dual License Change",
     "summarySource": "extractive",
     "clusterId": "d5dded18ffcc6caa",
     "lang": "en",
@@ -2110,9 +2102,7 @@
     "author": "admin",
     "publishedAt": "2026-08-12T15:21:28+00:00",
     "fetchedAt": "2026-08-12T18:52:40+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "netflow",
       "ntopng"
@@ -2123,7 +2113,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Network devices export flow data in many flavors. Some vendors stick closely to the NetFlow/IPFIX standard, so collecting their flows is essentially plug-and-play. Others extend the standard with proprietary Information Elements (IEs) to expose vendor-specific details (e.g. application names, user identities, security verdicts, etc) which requires a bit of extra configuration on the collector side. […]",
+    "summary": "HowTo Collect Flows: the Case of Palo Alto and Fortinet",
     "summarySource": "extractive",
     "clusterId": "e4b0f1cd74352488",
     "lang": "en",
@@ -3020,7 +3010,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The hierarchical cluster architecture was originally introduced to allow multiple ntopng instances to be organized in a parent/child topology. Child instances collected and analyzed local traffic, while parent instances aggregated information from multiple children to provide a centralized view of the network. At the time, this approach addressed a common requirement: monitoring geographically distributed sites […]",
+    "summary": "Saying Goodbye to Hierarchical Clusters in ntopng",
     "summarySource": "extractive",
     "clusterId": "2c99b7369efb0a33",
     "lang": "en",
@@ -3739,12 +3729,12 @@
   },
   {
     "id": "f0a704ec833cf12f",
-    "title": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M - techtimes.com",
+    "title": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M - Tech Times",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2twaTlhTWFOQW80TEItbjU2bkIzYWpRcnp6c1FzbEJVSk54V3YyV2RJTy1wcXZ5enhJUXFkUXFpM1AxVlBzaGdKSm01ZVJoSmx6U0FCX2ZzV0xxeXZhTUFJWm0wZjBBcDIwWnRGcUNlM3JGWWt0OXdQaWJsR2IxaVo3Z2tHRFJ3Z3dFTUNxcEg0MzVybkduQ3c2eS1qem54UnBvaFlFZ2dNWGpLVEdKQ2xNMEczemFSNUJNNU0zcGJTSnVxNXF5LVRNVQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2twaTlhTWFOQW80TEItbjU2bkIzYWpRcnp6c1FzbEJVSk54V3YyV2RJTy1wcXZ5enhJUXFkUXFpM1AxVlBzaGdKSm01ZVJoSmx6U0FCX2ZzV0xxeXZhTUFJWm0wZjBBcDIwWnRGcUNlM3JGWWt0OXdQaWJsR2IxaVo3Z2tHRFJ3Z3dFTUNxcEg0MzVybkduQ3c2eS1qem54UnBvaFlFZ2dNWGpLVEdKQ2xNMEczemFSNUJNNU0zcGJTSnVxNXF5LVRNVQ?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "techtimes.com",
+      "name": "Tech Times",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -3758,12 +3748,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M techtimes.com",
+    "summary": "Datadog Copied Its Challenger’s Architecture: That Challenger Just Raised $100M Tech Times",
     "summarySource": "extractive",
     "clusterId": "f0a704ec833cf12f",
     "lang": "en",
     "license": null,
-    "attribution": "via techtimes.com (Google News)"
+    "attribution": "via Tech Times (Google News)"
   },
   {
     "id": "850f57f1d46801d5",
@@ -3820,7 +3810,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you’ve opened ntopng recently, you may have noticed something feels a little different — a little faster. That’s not your imagination. We’ve rebuilt the main menu, footer and top header, interfaces selector and the preferences pages using Vue.js, the first step in a broader effort to modernize ntopng’s entire interface.",
+    "summary": "Supercharging ntopng: Engineering a Fast, Modern Network GUI",
     "summarySource": "extractive",
     "clusterId": "b7be6ebcd9c9661f",
     "lang": "en",
@@ -4027,7 +4017,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 5 Use Cases for Splunk Enterprise Security TechTarget",
+    "summary": "Top 5 Use Cases for Splunk Enterprise Security - TechTarget",
     "summarySource": "extractive",
     "clusterId": "22a7904e8127440c",
     "lang": "en",
@@ -4078,9 +4068,7 @@
     "author": "admin",
     "publishedAt": "2026-07-26T17:31:00+00:00",
     "fetchedAt": "2026-07-26T19:00:33+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -4090,7 +4078,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every network administrator has, at some point, asked the same question: who is eating my bandwidth? On a typical corporate LAN connected via flat-rate fiber, the answer is mostly a curiosity — useful for capacity planning, less so for the monthly bill. But the moment your network relies on a metered link — a 4G/5G […]",
+    "summary": "Who Is Eating My Bandwidth ?",
     "summarySource": "extractive",
     "clusterId": "ff13c1a5013baae9",
     "lang": "en",
@@ -6575,9 +6563,7 @@
     "author": "admin",
     "publishedAt": "2026-07-03T14:56:59+00:00",
     "fetchedAt": "2026-07-03T19:07:27+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -6587,7 +6573,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Earlier this week ntop attended the GRNOG 20, the annual meeting of Greek Network Operators. This has been a great place to discuss about network visibility in large networks, understand what are the problems network operators face with, and see what ntop can do in terms of visibility. ntop has been traditionally a company based […]",
+    "summary": "Discussing of LLM and Intelligent Monitoring at GRNOG 20",
     "summarySource": "extractive",
     "clusterId": "3b5e31584e1e04dd",
     "lang": "en",
@@ -7424,7 +7410,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why network automation is creating an observability paradox - Computer Weekly",
+    "summary": "Why network automation is creating an observability paradox Computer Weekly",
     "summarySource": "extractive",
     "clusterId": "47ad838a11759be6",
     "lang": "en",
@@ -7517,7 +7503,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A Software Bill of Materials (SBOM) is a formal, machine-readable inventory that lists every component, library, and dependency included within a software application. Think of it as a digital “ingredient label” that tells you exactly what went into building the software, which versions are running, and where each piece originated. Typically, it documents: SBOMs are […]",
+    "summary": "Introducing ntop SBOM (Software BOM)",
     "summarySource": "extractive",
     "clusterId": "89266d93cad33249",
     "lang": "en",
@@ -7860,12 +7846,12 @@
     ],
     "tags": [],
     "categories": [
-      "outage"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "We just returned from an incredible week in Japan! Interop Tokyo 2026 is the region’s premier computing and networking event. This year’s experience exceeded all our expectations.",
+    "summary": "Interop Tokyo 2026: Showcasing the Future of Network Visibility and AI",
     "summarySource": "extractive",
     "clusterId": "bc0935acbca10b54",
     "lang": "en",
@@ -8655,6 +8641,7 @@
     "publishedAt": "2026-06-17T07:00:00+00:00",
     "fetchedAt": "2026-06-23T02:36:16+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -8666,7 +8653,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP - ThousandEyes",
+    "summary": "Vibe Crunching Alerts With Cisco ThousandEyes MCP ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "1b10424d982019f4",
     "lang": "en",
@@ -8793,12 +8780,12 @@
   },
   {
     "id": "bab7e64f296bdb11",
-    "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - resecurity.com",
+    "title": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution - Resecurity",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXlrSmpVLXQ4eXlVUDN6bUJTUDgwYjhqUnJUY2tKMU1xRVJwZ1ZkRnJ4OE9IWlJ0eFFQWi04ZGVMY1lVZndYWmk1X1FhSEdNc0hMbmdXaEVJSWRUV2hnaGcyaEhBaFVwQl82TUZudGV5VVZpUkZJR3dkaVNIYmViOVZxVWVUZDNwaDE5SVplZXhvQkZJUGF1Qk5jNHdVcS1kaTNWRjREM3pzd1pwTUQ5N1VzWQ?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "resecurity.com",
+      "name": "Resecurity",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -8816,12 +8803,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution resecurity.com",
+    "summary": "CVE-2026-20253: Splunk Enterprise Pre-Authentication Remote Code Execution Resecurity",
     "summarySource": "extractive",
     "clusterId": "bab7e64f296bdb11",
     "lang": "en",
     "license": null,
-    "attribution": "via resecurity.com (Google News)"
+    "attribution": "via Resecurity (Google News)"
   },
   {
     "id": "046166508da9f81b",
@@ -9831,9 +9818,7 @@
     "author": "admin",
     "publishedAt": "2026-06-09T20:40:31+00:00",
     "fetchedAt": "2026-06-10T02:44:40+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -9843,7 +9828,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Today we have previewed out first AI-based tool named nAnalyst during out webinar taht we have run with support of the Alibaba Qwen team. This tool is designed to (finally) explain what happens in your network, and we’ll introduce it in September with bet starting on June 22nd. For those who missed the webinar can […]",
+    "summary": "Previewing nAnalyst, the layer that finally explains your network",
     "summarySource": "extractive",
     "clusterId": "9d499b94b441fe2b",
     "lang": "en",
