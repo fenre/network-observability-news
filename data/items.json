@@ -1,5 +1,37 @@
 [
   {
+    "id": "6750a45f3c3ffa90",
+    "title": "ntop and the EU Cyber Resilience Act",
+    "url": "https://www.ntop.org/ntop-and-the-eu-cyber-resilience-act/",
+    "canonicalUrl": "https://www.ntop.org/ntop-and-the-eu-cyber-resilience-act",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-12T07:31:03+00:00",
+    "fetchedAt": "2026-09-12T09:52:55+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Under the EU Cyber Resilience Act (CRA), it has become compulsory for manufacturers of products sold on the EU market to report exploited vulnerabilities and severe incidents. As a result, ntop is fully committed to compliance with these new requirements. Since September 11, 2026, Article 14 of the CRA requires ntop to report security issues directly to […]",
+    "summarySource": "extractive",
+    "clusterId": "6750a45f3c3ffa90",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "c2396277023d0480",
     "title": "Introducing automatic remediation policies with Cloudflare CASB",
     "url": "https://blog.cloudflare.com/casb-policies/",
@@ -1172,7 +1204,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
+    "summary": "IETF 126 post-meeting survey: what we heard",
     "summarySource": "extractive",
     "clusterId": "94bfbc6b397505f8",
     "lang": "en",
@@ -1209,12 +1241,12 @@
   },
   {
     "id": "3c360aa197f97dec",
-    "title": "How Streaming Telemetry Improves Modern Network Monitoring - HackerNoon",
+    "title": "How Streaming Telemetry Improves Modern Network Monitoring - hackernoon.com",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEJ1aWNROGtSTGFHbHZYU3lCckladGE0cndNb2ZpanUwdjZzUVlqM3BzSGJrVUxWblo0TFR4ck9VbWtKeUtXS0hyY09uZUlrT2ppMzJheWJTM050UVA4TUI2UzkxMm51TjY2LWRBdG9ZcEpCUUxxajRVLXhyaWJaczVvcV9ZSk5F?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEJ1aWNROGtSTGFHbHZYU3lCckladGE0cndNb2ZpanUwdjZzUVlqM3BzSGJrVUxWblo0TFR4ck9VbWtKeUtXS0hyY09uZUlrT2ppMzJheWJTM050UVA4TUI2UzkxMm51TjY2LWRBdG9ZcEpCUUxxajRVLXhyaWJaczVvcV9ZSk5F?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "HackerNoon",
+      "name": "hackernoon.com",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -1230,12 +1262,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Streaming Telemetry Improves Modern Network Monitoring HackerNoon",
+    "summary": "How Streaming Telemetry Improves Modern Network Monitoring hackernoon.com",
     "summarySource": "extractive",
     "clusterId": "3c360aa197f97dec",
     "lang": "en",
     "license": null,
-    "attribution": "via HackerNoon (Google News)"
+    "attribution": "via hackernoon.com (Google News)"
   },
   {
     "id": "c8e6f3784856922b",
@@ -1750,12 +1782,12 @@
   },
   {
     "id": "cae8c2f6b511c4b2",
-    "title": "What It Really Takes to Run OpenTelemetry - devops.com",
+    "title": "What It Really Takes to Run OpenTelemetry - DevOps.com",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02UUl4REY2SkU5SWJ3YVZhTWl3WjE3ZmhpTFZjSDZ1OGo0dERQeFFqY3VVbk9DRTVyZjVJczl3R1Z5SHFaX1pXZ3A5RnBNZXFBVUtKYzBFbTg3MmRWV3ZZU0JRN3E1Qnlwam9KMHhB?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02UUl4REY2SkU5SWJ3YVZhTWl3WjE3ZmhpTFZjSDZ1OGo0dERQeFFqY3VVbk9DRTVyZjVJczl3R1Z5SHFaX1pXZ3A5RnBNZXFBVUtKYzBFbTg3MmRWV3ZZU0JRN3E1Qnlwam9KMHhB?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "devops.com",
+      "name": "DevOps.com",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -1773,12 +1805,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "What It Really Takes to Run OpenTelemetry devops.com",
+    "summary": "What It Really Takes to Run OpenTelemetry DevOps.com",
     "summarySource": "extractive",
     "clusterId": "cae8c2f6b511c4b2",
     "lang": "en",
     "license": null,
-    "attribution": "via devops.com (Google News)"
+    "attribution": "via DevOps.com (Google News)"
   },
   {
     "id": "c4ba23c20f58ebb6",
@@ -1809,34 +1841,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-09-11T20:17:16+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -8202,7 +8206,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A Software Bill of Materials (SBOM) is a formal, machine-readable inventory that lists every component, library, and dependency included within a software application. Think of it as a digital “ingredient label” that tells you exactly what went into building the software, which versions are running, and where each piece originated. Typically, it documents: SBOMs are […]",
+    "summary": "Introducing ntop SBOM (Software BOM)",
     "summarySource": "extractive",
     "clusterId": "89266d93cad33249",
     "lang": "en",
@@ -9759,34 +9763,6 @@
     "attribution": "via AD HOC NEWS (Google News)"
   },
   {
-    "id": "5c2505b4acedac6d",
-    "title": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "url": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany/",
-    "canonicalUrl": "https://packetpushers.net/blog/autocon-5-june-6-10-2026-munich-germany",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Summerset Banks",
-    "publishedAt": "2026-06-15T13:02:36+00:00",
-    "fetchedAt": "2026-09-11T20:17:16+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "event"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AutoCon 5 June 6-10, 2026 Munich, Germany",
-    "summarySource": "extractive",
-    "clusterId": "5c2505b4acedac6d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "6d5c47fbd8de35f2",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -9909,12 +9885,12 @@
   },
   {
     "id": "14b7c67b92bd0f11",
-    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution - LinkedIn",
+    "title": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution - linkedin.com",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2RrZVRYdF9QTHhnT3dmajRDVm5VWmRIcDItU2J1WjNxVjRRLW5jSkZiMkFvN2dzWUQ2Q19WZDFKMHFlM21qaU5VUUV4REZ1RWJ5eWpYYlpCNnNYX09qdlZhbjhvbTFKQnhaNG9uRG44bGhEMUxwUTZ3WnRsX2dvWklnUVc3STdLWkRNLUxn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2RrZVRYdF9QTHhnT3dmajRDVm5VWmRIcDItU2J1WjNxVjRRLW5jSkZiMkFvN2dzWUQ2Q19WZDFKMHFlM21qaU5VUUV4REZ1RWJ5eWpYYlpCNnNYX09qdlZhbjhvbTFKQnhaNG9uRG44bGhEMUxwUTZ3WnRsX2dvWklnUVc3STdLWkRNLUxn?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "LinkedIn",
+      "name": "linkedin.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -9932,12 +9908,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution LinkedIn",
+    "summary": "Critical Splunk Enterprise Vulnerability Enables Unauthenticated Remote Code Execution linkedin.com",
     "summarySource": "extractive",
     "clusterId": "14b7c67b92bd0f11",
     "lang": "en",
     "license": null,
-    "attribution": "via LinkedIn (Google News)"
+    "attribution": "via linkedin.com (Google News)"
   },
   {
     "id": "01553c52c86d9f94",
