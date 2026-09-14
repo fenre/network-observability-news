@@ -1,5 +1,69 @@
 [
   {
+    "id": "356cbaf4601fdcfd",
+    "title": "Closing the Resilience Gap with Native Splunk in Cisco Nexus One",
+    "url": "https://blogs.cisco.com/datacenter/closing-the-resilience-gap-with-native-splunk-in-cisco-nexus-one/",
+    "canonicalUrl": "https://blogs.cisco.com/datacenter/closing-the-resilience-gap-with-native-splunk-in-cisco-nexus-one",
+    "source": {
+      "id": "cisco-datacenter-blog",
+      "name": "Cisco Data Center Blog",
+      "homepage": "https://blogs.cisco.com/datacenter"
+    },
+    "author": "Murali Gandluru",
+    "publishedAt": "2026-09-14T19:55:29+00:00",
+    "fetchedAt": "2026-09-14T21:15:08+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [
+      "nexus-dashboard"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "See how Native Splunk and Cisco Nexus One bring analytics closer to network data, strengthen resilience, and connect teams across operational domains.",
+    "summarySource": "extractive",
+    "clusterId": "356cbaf4601fdcfd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Data Center Blog"
+  },
+  {
+    "id": "820ad99be137e547",
+    "title": "The Honest Migration Playbook – IPsec Series, Part 11",
+    "url": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11/",
+    "canonicalUrl": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11",
+    "source": {
+      "id": "cisco-developer-blog",
+      "name": "Cisco Developer Blog",
+      "homepage": "https://blogs.cisco.com/developer"
+    },
+    "author": "Julio Gomez",
+    "publishedAt": "2026-09-14T19:41:59+00:00",
+    "fetchedAt": "2026-09-14T21:15:08+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The final post in the IPsec series: a fully quantum-safe tunnel on Cisco 8000 routers, both pillars live on real hardware. Part 11 closes the arc with the migration playbook and what a healthy post-quantum tunnel actually looks like.",
+    "summarySource": "extractive",
+    "clusterId": "820ad99be137e547",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Developer Blog"
+  },
+  {
     "id": "6174aa94bfc6454c",
     "title": "Inside the LLM Call: GenAI Observability with OpenTelemetry",
     "url": "https://opentelemetry.io/blog/2026/genai-observability/",
@@ -118,7 +182,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Benchmarks for Multi-Agent AI Systems Splunk",
+    "summary": "Benchmarks for Multi-Agent AI Systems - Splunk",
     "summarySource": "extractive",
     "clusterId": "2fb2caba7d15dbef",
     "lang": "en",
@@ -642,12 +706,12 @@
   },
   {
     "id": "7d388f203538355a",
-    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - blogs.cisco.com",
+    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -666,21 +730,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes blogs.cisco.com",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "6c00764fa4070407",
-    "title": "Distributed Latency Monitoring at Black Hat - blogs.cisco.com",
+    "title": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HUmwtbThpUXExdFNmdVZqQkpEZWhZdGNKRG5TazM3WjJnMzg0bURpNlhNYXB3TE4wR2gzdUlNbUlCYW01Q1U0QjY3VnFFRUl1YXpsUFpldXhUdVRJTDVpSVl0dnk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HUmwtbThpUXExdFNmdVZqQkpEZWhZdGNKRG5TazM3WjJnMzg0bURpNlhNYXB3TE4wR2gzdUlNbUlCYW01Q1U0QjY3VnFFRUl1YXpsUFpldXhUdVRJTDVpSVl0dnk?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -694,12 +758,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat blogs.cisco.com",
+    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "862238d979ee4744",
@@ -731,12 +795,12 @@
   },
   {
     "id": "940ebe6fb4b4b8d9",
-    "title": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - thousandeyes.com",
+    "title": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZVZNcUVuUXMwWnczQWk3WlozVEViaUM5d3dSRjFkZ1Rud2ZjZ0F5ZV93M29JNkZ4MFZkSm1UOVEyS0RBcTFkYzhFc1ZUbjNOZlhDNWhjYjlrM0xlMWVFYVVEbzl0OHhlbUtvQzFzZXRoaGNCUTYxenZHQ013SUVpX25zZ0xmeWtnOWNrSDB5Q1NSQlk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZVZNcUVuUXMwWnczQWk3WlozVEViaUM5d3dSRjFkZ1Rud2ZjZ0F5ZV93M29JNkZ4MFZkSm1UOVEyS0RBcTFkYzhFc1ZUbjNOZlhDNWhjYjlrM0xlMWVFYVVEbzl0OHhlbUtvQzFzZXRoaGNCUTYxenZHQ013SUVpX25zZ0xmeWtnOWNrSDB5Q1NSQlk?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "thousandeyes.com",
+      "name": "ThousandEyes",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -755,12 +819,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP thousandeyes.com",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
     "license": null,
-    "attribution": "via thousandeyes.com (Google News)"
+    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "f402a7756aee63d7",
@@ -805,7 +869,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -813,42 +879,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
+    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
-  },
-  {
-    "id": "8682113ea3a0e8da",
-    "title": "Join Google Cloud at .conf26: What's New for Splunk Customers - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkVJMXhVd29rLWwxbjc2UFN2dHlXRVJmYzVqdG81MHZfaEtXYS1FYzFONE5RTElJYzhxYUNZTlJ5R1FEQUl6Q0k4eFJ0bmwtbDg1VlpZdnBLd2NTUW4wQVhPeDFZVVBMX3VOTlFvZG1GRXZYVG1TalY4dmVXTFlsUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkVJMXhVd29rLWwxbjc2UFN2dHlXRVJmYzVqdG81MHZfaEtXYS1FYzFONE5RTElJYzhxYUNZTlJ5R1FEQUl6Q0k4eFJ0bmwtbDg1VlpZdnBLd2NTUW4wQVhPeDFZVVBMX3VOTlFvZG1GRXZYVG1TalY4dmVXTFlsUQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-features",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-09-03T01:40:52+00:00",
-    "fetchedAt": "2026-09-03T10:29:15+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Join Google Cloud at .conf26: What's New for Splunk Customers Splunk",
-    "summarySource": "extractive",
-    "clusterId": "8682113ea3a0e8da",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "76e12f23035ee5f3",
@@ -893,15 +929,17 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "How Attackers Learn Your Network Before They Attack It",
+    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -937,6 +975,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Data Center Blog"
+  },
+  {
+    "id": "8682113ea3a0e8da",
+    "title": "Join Google Cloud at .conf26: What's New for Splunk Customers - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkVJMXhVd29rLWwxbjc2UFN2dHlXRVJmYzVqdG81MHZfaEtXYS1FYzFONE5RTElJYzhxYUNZTlJ5R1FEQUl6Q0k4eFJ0bmwtbDg1VlpZdnBLd2NTUW4wQVhPeDFZVVBMX3VOTlFvZG1GRXZYVG1TalY4dmVXTFlsUQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkVJMXhVd29rLWwxbjc2UFN2dHlXRVJmYzVqdG81MHZfaEtXYS1FYzFONE5RTElJYzhxYUNZTlJ5R1FEQUl6Q0k4eFJ0bmwtbDg1VlpZdnBLd2NTUW4wQVhPeDFZVVBMX3VOTlFvZG1GRXZYVG1TalY4dmVXTFlsUQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-09-02T07:00:00+00:00",
+    "fetchedAt": "2026-09-03T10:29:15+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Join Google Cloud at .conf26: What's New for Splunk Customers Splunk",
+    "summarySource": "extractive",
+    "clusterId": "8682113ea3a0e8da",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "80022bd33cc33556",
@@ -1201,7 +1269,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1209,7 +1279,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
+    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -1457,12 +1527,12 @@
   },
   {
     "id": "58226cbb66a52c6e",
-    "title": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - blogs.cisco.com",
+    "title": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
     "source": {
       "id": "gnews-cisco-agenticops",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
@@ -1476,21 +1546,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers blogs.cisco.com",
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "58226cbb66a52c6e",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "4fa38b76345430f7",
-    "title": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - blogs.cisco.com",
+    "title": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JZGNNTUM1a2xLdnZSXzhmTFd1UjUxczNnWjNhdXhVVEEteW1wWVZObTVRdzk2Y0RiRTZJZnNJOWV4RTEtV1p5Tw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JZGNNTUM1a2xLdnZSXzhmTFd1UjUxczNnWjNhdXhVVEEteW1wWVZObTVRdzk2Y0RiRTZJZnNJOWV4RTEtV1p5Tw?oc=5",
     "source": {
       "id": "gnews-cisco-catalyst-center",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=Catalyst%20Center%20assurance"
     },
     "author": null,
@@ -1504,12 +1574,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection blogs.cisco.com",
+    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "4fa38b76345430f7",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "0a97296544acf856",
@@ -2012,7 +2082,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
     "summarySource": "extractive",
     "clusterId": "ce0f99a9709db24e",
     "lang": "en",
@@ -2522,7 +2592,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-08-12T20:20:49+00:00",
     "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2530,7 +2602,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek 9.0 Development Update",
+    "summary": "Zeek 9.0, our next long-term support (LTS) release, is just around the corner! Here’s a quick look at what’s been keeping us busy in the lead-up to the release, and what you can expect over the next few weeks. As always, our priority for our next LTS release is stability and maturity of features.",
     "summarySource": "extractive",
     "clusterId": "8294678e461b7a19",
     "lang": "en",
@@ -2996,7 +3068,9 @@
     "author": "Arne Welzel",
     "publishedAt": "2026-08-11T17:05:31+00:00",
     "fetchedAt": "2026-08-11T18:52:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3004,7 +3078,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Beyond ZeekControl",
+    "summary": "This post provides an overview of the direction the Zeek project is taking around ZeekControl and its intended successor, the Management Framework. The primary and suggested way to run a Zeek deployment for live traffic monitoring today is ZeekControl. For multi-host deployments, it’s been the tool of choice because it conveniently bundles all the required […]",
     "summarySource": "extractive",
     "clusterId": "de86ec08333fbb52",
     "lang": "en",
@@ -3875,7 +3949,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-04T20:59:21+00:00",
     "fetchedAt": "2026-08-05T01:51:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3883,7 +3959,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Logs Were Right: Debugging Your Mental Model in Zeek",
+    "summary": "When an expected log fails to populate, an alert queue explodes, or a custom script behaves strangely, it’s natural to pause and investigate. Running a high-throughput network monitoring engine like Zeek comes with a learning curve, and practitioners frequently encounter outputs that require deeper troubleshooting. Is a parser failing?",
     "summarySource": "extractive",
     "clusterId": "e99bed2d737b6780",
     "lang": "en",
@@ -4163,10 +4239,7 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-08-03T15:44:13+00:00",
     "fetchedAt": "2026-08-03T19:22:15+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4174,7 +4247,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A second road to quantum safety: a Postquantum Preshared Key mixes an out-of-band secret into the IKE key schedule that never travels the wire, so even a classical handshake resists \"harvest now, decrypt later,\" on gear not supporting ML-KEM.",
+    "summary": "A Different Road to Quantum Safety: The PPK – IPsec Series, Part 5",
     "summarySource": "extractive",
     "clusterId": "f8ab5be06a732ec4",
     "lang": "en",
@@ -5316,7 +5389,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:38+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5324,7 +5399,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 3)",
+    "summary": "This is Part 3 of a three-part series. Read Part 1 and Part 2. Introduction Back in Part 1 and Part 2, we presented our motivational package, ip-distance, how you can easily write unit tests in BTest, and how you can generate events—either by hand or through Zeek’s event tracing utility—to test your Zeek content. […]",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -5344,7 +5419,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:24+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5352,7 +5429,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 2)",
+    "summary": "This is Part 2 of a three-part series. Read Part 1 and Part 3. Introduction In the previous part of this blog series, we presented our motivational package, ip-distance, and how you can easily write unit tests in BTest.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -5372,7 +5449,9 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:10+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5380,7 +5459,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cure for Exceptional Zeek Package Testing (Part 1)",
+    "summary": "This is Part 1 of a three-part series. Read Part 2 and Part 3. Introduction As someone who ships a lot of Zeek packages to production, I’m always looking for ways to improve package testing.",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -5451,37 +5530,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "68e7fbb9db5c7fd5",
-    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
-    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-07-22T15:54:49+00:00",
-    "fetchedAt": "2026-09-14T17:21:22+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
-    "summarySource": "extractive",
-    "clusterId": "68e7fbb9db5c7fd5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "c06f5e3bc6364366",
@@ -6068,9 +6116,7 @@
     "author": "Ganesh Kumar",
     "publishedAt": "2026-07-16T15:00:30+00:00",
     "fetchedAt": "2026-07-16T19:00:21+00:00",
-    "topics": [
-      "cisco-data-fabric"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6078,7 +6124,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The edge has evolved into a strategic platform for AI and real-time operations. Nutanix Cloud Platform with Cisco Unified Edge delivers the compute, simplicity, and lifecycle management the modern edge demands.",
+    "summary": "The AI-ready edge from Cisco and Nutanix",
     "summarySource": "extractive",
     "clusterId": "341d4293379fe731",
     "lang": "en",
@@ -6369,7 +6415,9 @@
     "author": "Evan Typanski",
     "publishedAt": "2026-07-14T08:00:16+00:00",
     "fetchedAt": "2026-07-14T19:07:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6377,7 +6425,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Spicy vs. Binpac Performance, One Year Later",
+    "summary": "One year has passed since I last wrote about Spicy’s performance (you can read about that here). In that post, I compared it to Binpac. This will be a simple followup: how much progress have we made?",
     "summarySource": "extractive",
     "clusterId": "768508c36920eab9",
     "lang": "en",
@@ -7660,12 +7708,12 @@
   },
   {
     "id": "a5ab58604cc3c2a7",
-    "title": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - thousandeyes.com",
+    "title": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - ThousandEyes",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "thousandeyes.com",
+      "name": "ThousandEyes",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -7684,12 +7732,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations thousandeyes.com",
+    "summary": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "a5ab58604cc3c2a7",
     "lang": "en",
     "license": null,
-    "attribution": "via thousandeyes.com (Google News)"
+    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "db74f17976fe252b",
@@ -7980,12 +8028,12 @@
   },
   {
     "id": "3d3becbeced49ac5",
-    "title": "Assurance and Observability Together - thousandeyes.com",
+    "title": "Assurance and Observability Together - ThousandEyes",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WTUtHZUNka3ltYktKMUZqMFBra3lUcF92eVNxd3hsdjFQZjY5SjVVLU5SR1d4SFh3U3pORjRGYk5TWE1CQjlEN2dZcVNBR3A1S2V4TnFHeWZlalE5c1o3VlhlUVdYM3hqaEhXcW9hc3c4TlEta1B1MXd3?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WTUtHZUNka3ltYktKMUZqMFBra3lUcF92eVNxd3hsdjFQZjY5SjVVLU5SR1d4SFh3U3pORjRGYk5TWE1CQjlEN2dZcVNBR3A1S2V4TnFHeWZlalE5c1o3VlhlUVdYM3hqaEhXcW9hc3c4TlEta1B1MXd3?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "thousandeyes.com",
+      "name": "ThousandEyes",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -8004,12 +8052,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Assurance and Observability Together thousandeyes.com",
+    "summary": "Assurance and Observability Together ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "3d3becbeced49ac5",
     "lang": "en",
     "license": null,
-    "attribution": "via thousandeyes.com (Google News)"
+    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "1532f4ea5e7c7ffd",
@@ -8560,12 +8608,12 @@
   },
   {
     "id": "d900f36b310c92da",
-    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - SecurityBrief Australia",
+    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - securitybrief.com.au",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "source": {
       "id": "gnews-cisco-sdwan",
-      "name": "SecurityBrief Australia",
+      "name": "securitybrief.com.au",
       "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
     },
     "author": null,
@@ -8579,12 +8627,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach SecurityBrief Australia",
+    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach securitybrief.com.au",
     "summarySource": "extractive",
     "clusterId": "d900f36b310c92da",
     "lang": "en",
     "license": null,
-    "attribution": "via SecurityBrief Australia (Google News)"
+    "attribution": "via securitybrief.com.au (Google News)"
   },
   {
     "id": "619f2e9413b86ed9",
@@ -9449,12 +9497,12 @@
   },
   {
     "id": "f509b02cae180bf8",
-    "title": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security - blogs.cisco.com",
+    "title": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHlZWWt3OFFBdVVURHo0RHJteTJ5RHdQUUhXNU5yeVpwVkpYUmpLZ3pPQXdkWHFrU1ROMDg4ZFRIamtmWEgwLVVSQ3I0WG42b1VKcjYteWE0SF9QMW1XYmxTMHFlbUNRUnRrWTVhSXZiQUxFWEJTS0Zzb0ZpRFJUcTVzTzVpdFFn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHlZWWt3OFFBdVVURHo0RHJteTJ5RHdQUUhXNU5yeVpwVkpYUmpLZ3pPQXdkWHFrU1ROMDg4ZFRIamtmWEgwLVVSQ3I0WG42b1VKcjYteWE0SF9QMW1XYmxTMHFlbUNRUnRrWTVhSXZiQUxFWEJTS0Zzb0ZpRFJUcTVzTzVpdFFn?oc=5",
     "source": {
       "id": "gnews-cisco-agenticops",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
@@ -9468,12 +9516,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security blogs.cisco.com",
+    "summary": "AI Agents Need New Security: Cisco Announces Intent to Acquire WideField Security Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "f509b02cae180bf8",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "d99dcf410419b476",
