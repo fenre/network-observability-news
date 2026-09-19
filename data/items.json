@@ -42,9 +42,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -52,7 +50,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
+    "summary": "Zeek Workshop Berkeley 2026 Recap",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -80,7 +78,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
+    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -132,9 +130,7 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -142,7 +138,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
+    "summary": "Introducing Zeek 9",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -1282,6 +1278,39 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "7d388f203538355a",
+    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Cisco Blogs",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-09-07T15:06:12+00:00",
+    "fetchedAt": "2026-09-07T16:58:50+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
+    "summarySource": "extractive",
+    "clusterId": "7d388f203538355a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Blogs (Google News)"
+  },
+  {
     "id": "6c00764fa4070407",
     "title": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HUmwtbThpUXExdFNmdVZqQkpEZWhZdGNKRG5TazM3WjJnMzg0bURpNlhNYXB3TE4wR2gzdUlNbUlCYW01Q1U0QjY3VnFFRUl1YXpsUFpldXhUdVRJTDVpSVl0dnk?oc=5",
@@ -1305,39 +1334,6 @@
     "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
-  },
-  {
-    "id": "7d388f203538355a",
-    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Cisco Blogs",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-09-07T07:00:00+00:00",
-    "fetchedAt": "2026-09-07T16:58:50+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
-    "summarySource": "extractive",
-    "clusterId": "7d388f203538355a",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Blogs (Google News)"
@@ -1446,9 +1442,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1456,7 +1450,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
+    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
@@ -1506,17 +1500,15 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
+    "summary": "How Attackers Learn Your Network Before They Attack It",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -1846,9 +1838,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1856,7 +1846,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
+    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -2659,7 +2649,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
     "summarySource": "extractive",
     "clusterId": "ce0f99a9709db24e",
     "lang": "en",
@@ -3165,9 +3155,7 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-08-12T20:20:49+00:00",
     "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3175,7 +3163,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek 9.0, our next long-term support (LTS) release, is just around the corner! Here’s a quick look at what’s been keeping us busy in the lead-up to the release, and what you can expect over the next few weeks. As always, our priority for our next LTS release is stability and maturity of features.",
+    "summary": "Zeek 9.0 Development Update",
     "summarySource": "extractive",
     "clusterId": "8294678e461b7a19",
     "lang": "en",
@@ -3641,9 +3629,7 @@
     "author": "Arne Welzel",
     "publishedAt": "2026-08-11T17:05:31+00:00",
     "fetchedAt": "2026-08-11T18:52:05+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3651,7 +3637,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "This post provides an overview of the direction the Zeek project is taking around ZeekControl and its intended successor, the Management Framework. The primary and suggested way to run a Zeek deployment for live traffic monitoring today is ZeekControl. For multi-host deployments, it’s been the tool of choice because it conveniently bundles all the required […]",
+    "summary": "Beyond ZeekControl",
     "summarySource": "extractive",
     "clusterId": "de86ec08333fbb52",
     "lang": "en",
@@ -4518,9 +4504,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-04T20:59:21+00:00",
     "fetchedAt": "2026-08-05T01:51:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4528,7 +4512,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When an expected log fails to populate, an alert queue explodes, or a custom script behaves strangely, it’s natural to pause and investigate. Running a high-throughput network monitoring engine like Zeek comes with a learning curve, and practitioners frequently encounter outputs that require deeper troubleshooting. Is a parser failing?",
+    "summary": "The Logs Were Right: Debugging Your Mental Model in Zeek",
     "summarySource": "extractive",
     "clusterId": "e99bed2d737b6780",
     "lang": "en",
@@ -5955,9 +5939,7 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:38+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5965,7 +5947,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "This is Part 3 of a three-part series. Read Part 1 and Part 2. Introduction Back in Part 1 and Part 2, we presented our motivational package, ip-distance, how you can easily write unit tests in BTest, and how you can generate events—either by hand or through Zeek’s event tracing utility—to test your Zeek content. […]",
+    "summary": "The Cure for Exceptional Zeek Package Testing (Part 3)",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -5985,9 +5967,7 @@
     "author": "Yacin Nadji",
     "publishedAt": "2026-07-22T22:10:24+00:00",
     "fetchedAt": "2026-07-23T02:07:29+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5995,7 +5975,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "This is Part 2 of a three-part series. Read Part 1 and Part 3. Introduction In the previous part of this blog series, we presented our motivational package, ip-distance, and how you can easily write unit tests in BTest.",
+    "summary": "The Cure for Exceptional Zeek Package Testing (Part 2)",
     "summarySource": "extractive",
     "clusterId": "1d9012e0dd330e1f",
     "lang": "en",
@@ -6094,37 +6074,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "68e7fbb9db5c7fd5",
-    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
-    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-07-22T15:54:49+00:00",
-    "fetchedAt": "2026-09-18T15:34:21+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
-    "summarySource": "extractive",
-    "clusterId": "68e7fbb9db5c7fd5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "c06f5e3bc6364366",
@@ -8619,15 +8568,15 @@
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WTUtHZUNka3ltYktKMUZqMFBra3lUcF92eVNxd3hsdjFQZjY5SjVVLU5SR1d4SFh3U3pORjRGYk5TWE1CQjlEN2dZcVNBR3A1S2V4TnFHeWZlalE5c1o3VlhlUVdYM3hqaEhXcW9hc3c4TlEta1B1MXd3?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WTUtHZUNka3ltYktKMUZqMFBra3lUcF92eVNxd3hsdjFQZjY5SjVVLU5SR1d4SFh3U3pORjRGYk5TWE1CQjlEN2dZcVNBR3A1S2V4TnFHeWZlalE5c1o3VlhlUVdYM3hqaEhXcW9hc3c4TlEta1B1MXd3?oc=5",
     "source": {
-      "id": "gnews-thousandeyes",
+      "id": "gnews-splunk",
       "name": "ThousandEyes",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
+      "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
     "publishedAt": "2026-06-30T07:00:00+00:00",
     "fetchedAt": "2026-09-06T14:43:35+00:00",
     "topics": [
-      "cisco-data-fabric",
+      "splunk",
       "network-observability"
     ],
     "tags": [
@@ -9196,12 +9145,12 @@
   },
   {
     "id": "d900f36b310c92da",
-    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - SecurityBrief Australia",
+    "title": "Mandiant reveals Cisco SD-WAN zero-day root breach - securitybrief.com.au",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1gtdUtfM2l3eTlyaG1ybzBvemQyREpHRndtRVAxRHlFTkNyUDBRWmF5Y0JBdmF4eUtpTElGUm1oVWNBMDJtZkt0V3Zyb2xpbW5nT1M4ekF4WDNrcXM1aXlBUzY3ZFZ6UmxEbnVPOXBVVURiVEFBZ01qSzh3SWxGZEtqR05LUGwtbng5NE1B?oc=5",
     "source": {
       "id": "gnews-cisco-sdwan",
-      "name": "SecurityBrief Australia",
+      "name": "securitybrief.com.au",
       "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
     },
     "author": null,
@@ -9215,12 +9164,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach SecurityBrief Australia",
+    "summary": "Mandiant reveals Cisco SD-WAN zero-day root breach securitybrief.com.au",
     "summarySource": "extractive",
     "clusterId": "d900f36b310c92da",
     "lang": "en",
     "license": null,
-    "attribution": "via SecurityBrief Australia (Google News)"
+    "attribution": "via securitybrief.com.au (Google News)"
   },
   {
     "id": "619f2e9413b86ed9",
