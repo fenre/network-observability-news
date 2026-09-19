@@ -12,7 +12,9 @@
     "author": "Ivan Babrou",
     "publishedAt": "2026-09-18T17:23:58+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -20,7 +22,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Saving another 100TB of RAM with math (and Rust)",
+    "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
     "summarySource": "extractive",
     "clusterId": "8b3759fdb1e4e5d8",
     "lang": "en",
@@ -184,7 +186,9 @@
     "author": "Denzil Correa",
     "publishedAt": "2026-09-16T20:06:17+00:00",
     "fetchedAt": "2026-09-16T20:43:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -192,7 +196,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+    "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
     "summarySource": "extractive",
     "clusterId": "2b5c7cbde6e9b0e6",
     "lang": "en",
@@ -430,7 +434,9 @@
     "author": "Visal In",
     "publishedAt": "2026-09-15T13:00:00+00:00",
     "fetchedAt": "2026-09-15T15:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -438,7 +444,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Give every teammate and agent the right level of access to your Workers",
+    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
     "summarySource": "extractive",
     "clusterId": "e5095a15614628e9",
     "lang": "en",
@@ -458,7 +464,9 @@
     "author": "Bryan Becker",
     "publishedAt": "2026-09-15T13:00:00+00:00",
     "fetchedAt": "2026-09-15T15:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -466,7 +474,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Have it both ways: stay discoverable in search while disallowing AI training",
+    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
     "summarySource": "extractive",
     "clusterId": "4096ef147ccaddc7",
     "lang": "en",
@@ -475,12 +483,12 @@
   },
   {
     "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
+    "title": "2026 network outage report and internet health check - networkworld.com",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "Network World",
+      "name": "networkworld.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -488,12 +496,12 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check networkworld.com",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
     "license": null,
-    "attribution": "via Network World (Google News)",
+    "attribution": "via networkworld.com (Google News)",
     "categories": [
       "outage"
     ],
@@ -817,7 +825,9 @@
     "author": "Abe Carryl",
     "publishedAt": "2026-09-11T13:00:00+00:00",
     "fetchedAt": "2026-09-11T15:38:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -825,7 +835,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing automatic remediation policies with Cloudflare CASB",
+    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
     "summarySource": "extractive",
     "clusterId": "c2396277023d0480",
     "lang": "en",
@@ -875,7 +885,9 @@
     "author": "Bas Westerbaan",
     "publishedAt": "2026-09-10T13:00:00+00:00",
     "fetchedAt": "2026-09-10T15:37:14+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -883,7 +895,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+    "summary": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
     "summarySource": "extractive",
     "clusterId": "0a5779282d853cd0",
     "lang": "en",
@@ -1049,7 +1061,9 @@
     "author": "James Snell",
     "publishedAt": "2026-09-09T13:00:00+00:00",
     "fetchedAt": "2026-09-09T15:42:06+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1057,7 +1071,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+    "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
     "summarySource": "extractive",
     "clusterId": "ce419bf53cc7fea3",
     "lang": "en",
@@ -1133,7 +1147,9 @@
     "author": "Alex Krivit",
     "publishedAt": "2026-09-08T13:10:00+00:00",
     "fetchedAt": "2026-09-08T15:46:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1141,7 +1157,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+    "summary": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
     "summarySource": "extractive",
     "clusterId": "1dd44cb259b6e11b",
     "lang": "en",
@@ -1378,7 +1394,9 @@
     "author": "Blake Darché",
     "publishedAt": "2026-09-03T21:03:02+00:00",
     "fetchedAt": "2026-09-04T02:18:39+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security"
@@ -1386,7 +1404,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+    "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
     "summarySource": "extractive",
     "clusterId": "f402a7756aee63d7",
     "lang": "en",
@@ -1613,7 +1631,9 @@
     "author": "Aashi Patel",
     "publishedAt": "2026-09-01T12:59:00+00:00",
     "fetchedAt": "2026-09-01T15:51:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1621,7 +1641,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
     "summarySource": "extractive",
     "clusterId": "001302cbb2628f64",
     "lang": "en",
@@ -1735,15 +1755,17 @@
     "author": "Chris Pope",
     "publishedAt": "2026-08-31T12:59:00+00:00",
     "fetchedAt": "2026-08-31T22:15:14+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated attacks too expensive to sustain.",
     "summarySource": "extractive",
     "clusterId": "dc52628c784f5e36",
     "lang": "en",
@@ -1853,7 +1875,9 @@
     "author": "Julian Laxman",
     "publishedAt": "2026-08-28T12:59:44+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1861,7 +1885,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
     "summarySource": "extractive",
     "clusterId": "d9b5afeac7b4fe86",
     "lang": "en",
@@ -1911,7 +1935,9 @@
     "author": "Sebastiaan Neuteboom",
     "publishedAt": "2026-08-27T17:02:35+00:00",
     "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1919,7 +1945,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
     "summarySource": "extractive",
     "clusterId": "01d416ecd1b86319",
     "lang": "en",
@@ -2165,7 +2191,9 @@
     "author": "Amy Dutton",
     "publishedAt": "2026-08-24T19:00:00+00:00",
     "fetchedAt": "2026-08-25T00:51:23+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2173,7 +2201,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cloudflare Blog — brought to you by EmDash",
+    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
     "summarySource": "extractive",
     "clusterId": "2e3baeb9cf418fba",
     "lang": "en",
@@ -2335,7 +2363,9 @@
     "author": "Jin-Hee Lee",
     "publishedAt": "2026-08-21T23:19:57+00:00",
     "fetchedAt": "2026-08-22T00:48:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2343,7 +2373,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Say it once: introducing Bot Preference Sync",
+    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
     "summarySource": "extractive",
     "clusterId": "c93c4733340a9048",
     "lang": "en",
@@ -2363,7 +2393,9 @@
     "author": "José Enrique Rodríguez",
     "publishedAt": "2026-08-20T17:03:03+00:00",
     "fetchedAt": "2026-08-20T18:27:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2371,7 +2403,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From all-or-nothing to task-based OAuth consent",
+    "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
     "summarySource": "extractive",
     "clusterId": "719c194df3c61579",
     "lang": "en",
@@ -2480,7 +2512,9 @@
     "author": "Albert Pedersen",
     "publishedAt": "2026-08-19T16:00:28+00:00",
     "fetchedAt": "2026-08-19T18:22:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2488,7 +2522,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
     "summarySource": "extractive",
     "clusterId": "67c34c025b396665",
     "lang": "en",
@@ -2570,7 +2604,9 @@
     "author": "Mingwei Zhang",
     "publishedAt": "2026-08-18T15:21:32+00:00",
     "fetchedAt": "2026-08-18T18:26:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "standards"
@@ -2578,7 +2614,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP Role model: tracking the adoption of RFC 9234",
+    "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
     "summarySource": "extractive",
     "clusterId": "4d6a95e88ad53392",
     "lang": "en",
@@ -2806,7 +2842,9 @@
     "author": "Kenny Johnson",
     "publishedAt": "2026-08-14T13:12:12+00:00",
     "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2814,7 +2852,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Cloudflare detects MCP traffic and helps secure it",
+    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
     "summarySource": "extractive",
     "clusterId": "40ab38cda73a3486",
     "lang": "en",
@@ -2834,7 +2872,9 @@
     "author": "Matt Provost",
     "publishedAt": "2026-08-14T13:00:00+00:00",
     "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2842,7 +2882,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Secure all your internal vibe-coded applications — in one click",
+    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
     "summarySource": "extractive",
     "clusterId": "eb461e7901300404",
     "lang": "en",
@@ -5527,12 +5567,12 @@
   },
   {
     "id": "e509dc7d3ef80fe8",
-    "title": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - thefastmode.com",
+    "title": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
     "source": {
       "id": "gnews-ebpf-cilium",
-      "name": "thefastmode.com",
+      "name": "The Fast Mode",
       "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
     },
     "author": null,
@@ -5546,12 +5586,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking thefastmode.com",
+    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "e509dc7d3ef80fe8",
     "lang": "en",
     "license": null,
-    "attribution": "via thefastmode.com (Google News)"
+    "attribution": "via The Fast Mode (Google News)"
   },
   {
     "id": "f0d23dd320ac6d0c",
@@ -6953,7 +6993,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
@@ -7807,7 +7847,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] tech-insider.org",
+    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] - tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "88a8d0573fdb3591",
     "lang": "en",
@@ -8497,6 +8537,38 @@
     "attribution": "via Prometheus Blog"
   },
   {
+    "id": "34a033f43010e298",
+    "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "CyberSecurityNews",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-06-29T16:23:11+00:00",
+    "fetchedAt": "2026-06-30T14:03:17+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway CyberSecurityNews",
+    "summarySource": "extractive",
+    "clusterId": "34a033f43010e298",
+    "lang": "en",
+    "license": null,
+    "attribution": "via CyberSecurityNews (Google News)"
+  },
+  {
     "id": "f817b69e09d552a2",
     "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqbw?oc=5",
@@ -8529,12 +8601,12 @@
   },
   {
     "id": "c4ce630deefa075b",
-    "title": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification - executivebiz.com",
+    "title": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification - ExecutiveBiz",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEdyUTd5cVZBYjItXzY3djlDc2EyT1ZoTG5nMlFUNkZZbFVFamo0a3JlQnUxRllYUEhlUHp5aDZyb2lZaTBrdkN4MDFjdjVRWDFBUm8zVWVnUXVfc0xXRS04Rjh5LU1tX3JIdmxucDEtT1k1R1VQdGl1UkxaTnpwZHN5dzgyRGFKWjAwRjJHWXZKN0YxTGViSlVvbzlCSGM1LUE?oc=5",
     "source": {
       "id": "gnews-splunk-es-soar",
-      "name": "executivebiz.com",
+      "name": "ExecutiveBiz",
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
@@ -8553,44 +8625,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification - executivebiz.com",
+    "summary": "Splunk Enterprise Security Premier Achieves FedRAMP Moderate Certification ExecutiveBiz",
     "summarySource": "extractive",
     "clusterId": "c4ce630deefa075b",
     "lang": "en",
     "license": null,
-    "attribution": "via executivebiz.com (Google News)"
-  },
-  {
-    "id": "34a033f43010e298",
-    "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-06-29T07:00:00+00:00",
-    "fetchedAt": "2026-06-30T14:03:17+00:00",
-    "topics": [
-      "splunk",
-      "cisco-data-fabric"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway CyberSecurityNews",
-    "summarySource": "extractive",
-    "clusterId": "34a033f43010e298",
-    "lang": "en",
-    "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
+    "attribution": "via ExecutiveBiz (Google News)"
   },
   {
     "id": "7dd50a7de11e2fe2",
