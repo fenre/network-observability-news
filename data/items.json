@@ -1,5 +1,37 @@
 [
   {
+    "id": "eef506bb0dcf6940",
+    "title": "ntopng User Interface: Introducing the New Navigation Bar",
+    "url": "https://www.ntop.org/ntopng-user-interface-introducing-the-new-navigation-bar/",
+    "canonicalUrl": "https://www.ntop.org/ntopng-user-interface-introducing-the-new-navigation-bar",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "Matteo Biscosi",
+    "publishedAt": "2026-09-21T09:17:05+00:00",
+    "fetchedAt": "2026-09-21T11:38:04+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In our continuous effort to improve user experience and make network monitoring more intuitive, we have completely redesigned the ntopng Navigation Bar. As our feature set expands—with crucial additions like the nAnalyst automated pipeline, specialized AI Dashboards, and high-resolution Observability analytics—the legacy menu structure needed a logical evolution to reduce deep nesting and facilitate daily […]",
+    "summarySource": "extractive",
+    "clusterId": "eef506bb0dcf6940",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "e292202e70538dc1",
     "title": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
     "url": "https://blog.apnic.net/2026/09/21/apnic-62-updates-in-dns-dhcp-certificate-security-and-bgp-routing-resilience/",
@@ -20,7 +52,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
+    "summary": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
     "summarySource": "extractive",
     "clusterId": "e292202e70538dc1",
     "lang": "en",
@@ -164,7 +196,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
+    "summary": "Presto: A match-action TCP stack for the terabit era",
     "summarySource": "extractive",
     "clusterId": "2f561a6aeb7910a8",
     "lang": "en",
@@ -248,7 +280,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
+    "summary": "[Podcast] ‘Just say no’ isn’t as simple as you think",
     "summarySource": "extractive",
     "clusterId": "239997d31623ddb4",
     "lang": "en",
@@ -430,7 +462,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+    "summary": "The case for open-weight models and why we can’t trust frontier labs",
     "summarySource": "extractive",
     "clusterId": "5bd0ee4a5b0f9566",
     "lang": "en",
@@ -845,7 +877,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
+    "summary": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
     "summarySource": "extractive",
     "clusterId": "dbf1caeff20fe4fd",
     "lang": "en",
@@ -937,7 +969,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Platform Blogs - 9 Splunk",
+    "summary": "Platform Blogs - 9 - Splunk",
     "summarySource": "extractive",
     "clusterId": "da10bb7fb611e36a",
     "lang": "en",
@@ -1084,7 +1116,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 APNIC Survey report is now available, providing valuable feedback from Members and the wider Internet community on APNIC’s performance, priorities, and future direction.",
+    "summary": "2026 APNIC Survey report released",
     "summarySource": "extractive",
     "clusterId": "24cf9492d00785ba",
     "lang": "en",
@@ -1494,7 +1526,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At APNIC Labs we've been experimenting with understanding how the DNS handles requests to resolve nonexistent names to make the DNS more resilient to random name attacks.",
+    "summary": "What part of ‘No!’ is so hard for the DNS to understand?",
     "summarySource": "extractive",
     "clusterId": "862238d979ee4744",
     "lang": "en",
@@ -1710,12 +1742,12 @@
   },
   {
     "id": "80022bd33cc33556",
-    "title": "Users and roles for Splunk Enterprise Security - Splunk",
+    "title": "Users and roles for Splunk Enterprise Security - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -1734,12 +1766,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security Splunk",
+    "summary": "Users and roles for Splunk Enterprise Security help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "79c2bec584c8a692",
@@ -1799,12 +1831,12 @@
   },
   {
     "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
+    "title": "Deploy and upgrade Splunk Enterprise Security - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -1823,12 +1855,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
+    "summary": "Deploy and upgrade Splunk Enterprise Security help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "6abb00b4c123e867",
@@ -1881,7 +1913,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The NRO NC has published the Recommended Draft RIR Governance Document, including a redline version and rationale document.",
+    "summary": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
     "summarySource": "extractive",
     "clusterId": "d807a797ef2eda8b",
     "lang": "en",
@@ -2119,7 +2151,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modern service discovery mechanisms increasingly allow services to run on arbitrary ports, yet DNS may remain the one protocol that cannot fully escape its dependency on the long-established convention of port 53.",
+    "summary": "The lingering legacy of ‘reserved’ ports",
     "summarySource": "extractive",
     "clusterId": "0c09e288ae377b54",
     "lang": "en",
@@ -2263,7 +2295,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation — handled with local filters, static thresholds and reactive response.",
+    "summary": "Beyond origin validation: Four classes of routing attack nobody Is validating",
     "summarySource": "extractive",
     "clusterId": "5f10b97a8afece46",
     "lang": "en",
@@ -2543,7 +2575,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "IXPs shape latency, cost, resilience, and the spread of new technologies, not just Internet speed. As the Internet evolves, the role of IXPs continues to expand, as highlighted in this BPF 2026 panel discussion.",
+    "summary": "Do IXPs make the Internet faster? It’s complicated",
     "summarySource": "extractive",
     "clusterId": "173968d50e1e04ac",
     "lang": "en",
@@ -5474,7 +5506,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you’ve opened ntopng recently, you may have noticed something feels a little different — a little faster. That’s not your imagination. We’ve rebuilt the main menu, footer and top header, interfaces selector and the preferences pages using Vue.js, the first step in a broader effort to modernize ntopng’s entire interface.",
+    "summary": "Supercharging ntopng: Engineering a Fast, Modern Network GUI",
     "summarySource": "extractive",
     "clusterId": "b7be6ebcd9c9661f",
     "lang": "en",
@@ -5690,12 +5722,12 @@
   },
   {
     "id": "1d6a1d64c68b3486",
-    "title": "Create a dashboard using an SPL2 search - Splunk",
+    "title": "Create a dashboard using an SPL2 search - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc1ctVW1vZEJNVjAwM0VLNndycWFQV0d3OVVlNjUzS1luRmk3bWFwTnZMQ1ZldnViMFMzZDhUVFBrbVF4SUFVRE5XaWU5VTNuTG9ET3NmSTNUVldmQUM1OUdHVzJRWFFKUkdEVGFDdlJQaGp2TC14bDkzR1Exemp0S0YzWE9sanM4SUhNS1l6UkpGUmp6VloydnFyTk1US3RET1cxZDVDX0F5T0UtMUdCV0FRU2hhSzN2R211eEhmT2dvVEpDRFRHSFNUSWJ4RU1iU09ZaThFMzV6eEJFTnJHS1Rjaw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc1ctVW1vZEJNVjAwM0VLNndycWFQV0d3OVVlNjUzS1luRmk3bWFwTnZMQ1ZldnViMFMzZDhUVFBrbVF4SUFVRE5XaWU5VTNuTG9ET3NmSTNUVldmQUM1OUdHVzJRWFFKUkdEVGFDdlJQaGp2TC14bDkzR1Exemp0S0YzWE9sanM4SUhNS1l6UkpGUmp6VloydnFyTk1US3RET1cxZDVDX0F5T0UtMUdCV0FRU2hhSzN2R211eEhmT2dvVEpDRFRHSFNUSWJ4RU1iU09ZaThFMzV6eEJFTnJHS1Rjaw?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -5711,12 +5743,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Create a dashboard using an SPL2 search Splunk",
+    "summary": "Create a dashboard using an SPL2 search help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "1d6a1d64c68b3486",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "74e245585d15658c",
@@ -7183,12 +7215,12 @@
   },
   {
     "id": "776f5ce51945a1b4",
-    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
+    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -7204,12 +7236,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "60fa720f6e0fa931",
@@ -8655,12 +8687,12 @@
   },
   {
     "id": "a7ce5a0b5e878322",
-    "title": "New features in Splunk IT Service Intelligence - Splunk",
+    "title": "New features in Splunk IT Service Intelligence - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQU94MlNESWYtRF9DREdCWEE1WnZVQXZ4dGozNmFwTTdNNUNzWDJmcGkybmlBb1RNMlZUOGNlSFM0VHdXWWVvMkg2SlRJNG12MzlQbzFGRmJaMFZpNnJuZVhNYzRqNFZLdE54bHgyN1dJbnM?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQU94MlNESWYtRF9DREdCWEE1WnZVQXZ4dGozNmFwTTdNNUNzWDJmcGkybmlBb1RNMlZUOGNlSFM0VHdXWWVvMkg2SlRJNG12MzlQbzFGRmJaMFZpNnJuZVhNYzRqNFZLdE54bHgyN1dJbnM?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -8676,12 +8708,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "New features in Splunk IT Service Intelligence Splunk",
+    "summary": "New features in Splunk IT Service Intelligence help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "a7ce5a0b5e878322",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "3d3becbeced49ac5",
@@ -8905,12 +8937,12 @@
   },
   {
     "id": "7bdb1864c6a53c27",
-    "title": "Splunk Cloud Platform (last updated 2026-06-28T22:45:41.159Z) - Splunk",
+    "title": "Splunk Cloud Platform (last updated 2026-06-28T22:45:41.159Z) - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVBKbW04akV4TEQxOGVLOGdoaDRYNTYzS3R1aFpqbFduSlpDcVAwVGNITjVTZGppM01qR1FHTGJhTDVCeGFLNGhZVmNsb3Vyb3hlVFFGR2J2ZDZmMTZseFNxNGxaenhNT3hIbjlpQTZVODlUX19XbkxjZ25XUnRPdTdfTXdkNlZOcWRHWjl5OVZsQk5ocENBZ0lhcGoxb0xWVkl3MV80ZmpWQ0lFb0luSk9iOA?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVBKbW04akV4TEQxOGVLOGdoaDRYNTYzS3R1aFpqbFduSlpDcVAwVGNITjVTZGppM01qR1FHTGJhTDVCeGFLNGhZVmNsb3Vyb3hlVFFGR2J2ZDZmMTZseFNxNGxaenhNT3hIbjlpQTZVODlUX19XbkxjZ25XUnRPdTdfTXdkNlZOcWRHWjl5OVZsQk5ocENBZ0lhcGoxb0xWVkl3MV80ZmpWQ0lFb0luSk9iOA?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -8926,12 +8958,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Cloud Platform (last updated 2026-06-28T22:45:41.159Z) Splunk",
+    "summary": "Splunk Cloud Platform (last updated 2026-06-28T22:45:41.159Z) help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "1014578bdc0dee71",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "1014578bdc0dee71",
@@ -9089,12 +9121,12 @@
   },
   {
     "id": "47ad838a11759be6",
-    "title": "Why network automation is creating an observability paradox - Computer Weekly",
+    "title": "Why network automation is creating an observability paradox - computerweekly.com",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzQ5LWlEczR2ZU1GNVVVc3k5SkJEekNQRXdJSkVCRmhJeGRvX2VrMk9vaUhFVFNvWXZ5S1VqTTNmRnpxRXlrWGpoVF9Cdy1QYllhODZkYUwyd3FrcS1pRXNxelhhV013OXFCNmFkam9kaVF5cUJURzNWV3VuYzVhczhhTEhkc24tUDhCNkh4OEZUVjlma1RMSG5YYm1XTEE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzQ5LWlEczR2ZU1GNVVVc3k5SkJEekNQRXdJSkVCRmhJeGRvX2VrMk9vaUhFVFNvWXZ5S1VqTTNmRnpxRXlrWGpoVF9Cdy1QYllhODZkYUwyd3FrcS1pRXNxelhhV013OXFCNmFkam9kaVF5cUJURzNWV3VuYzVhczhhTEhkc24tUDhCNkh4OEZUVjlma1RMSG5YYm1XTEE?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "Computer Weekly",
+      "name": "computerweekly.com",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -9108,12 +9140,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why network automation is creating an observability paradox Computer Weekly",
+    "summary": "Why network automation is creating an observability paradox computerweekly.com",
     "summarySource": "extractive",
     "clusterId": "47ad838a11759be6",
     "lang": "en",
     "license": null,
-    "attribution": "via Computer Weekly (Google News)"
+    "attribution": "via computerweekly.com (Google News)"
   },
   {
     "id": "3a045f7b2ab6c528",
@@ -9148,12 +9180,12 @@
   },
   {
     "id": "2c68808f33945c5f",
-    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk",
+    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -9166,12 +9198,12 @@
     "categories": [
       "product-release"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)",
+    "attribution": "via help.splunk.com (Google News)",
     "audiences": [
       "global"
     ]
@@ -9583,68 +9615,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
-  },
-  {
-    "id": "bab006ace6c6a5f6",
-    "title": "Install Splunk AI Assistant for Splunk Enterprise customers with Cloud Connected - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQRUZDeFVCWmtYY0MtRURYRmJWYmJHbnpfQ0dnb3FUTUxWRTFlYkgtejZ0dmVBMVVtbkx4bUExeXplMWhsT3lfRC1FSVlLUXBmSDVzeUdqdGUya1Q5TFZmclQ2bW5odHhteXVkT3o4eTBMTTNCc3FXUTI5VFpKZlNub2FQdjNwRUhrZDh6cllqdzhSbnNhS3paMTdINzY3eUhfUXJTZEJJb2RrVXZtOW1NWk5HaHhPTVpLNFk4SDM1SDcybFV3bEtZRlpMbHlLZ2NQMld3QUExVVAwNzdaT0Z4NVFDeUUwQVpJQ29QZG8zX1VvdmJrX2o2UElvWlFnSDhjamdpSzFDejI5Qk1abEZ4TXpoN3hxM0I0c3hld0VHNUNhWXpqdk9Md3dzWEw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQRUZDeFVCWmtYY0MtRURYRmJWYmJHbnpfQ0dnb3FUTUxWRTFlYkgtejZ0dmVBMVVtbkx4bUExeXplMWhsT3lfRC1FSVlLUXBmSDVzeUdqdGUya1Q5TFZmclQ2bW5odHhteXVkT3o4eTBMTTNCc3FXUTI5VFpKZlNub2FQdjNwRUhrZDh6cllqdzhSbnNhS3paMTdINzY3eUhfUXJTZEJJb2RrVXZtOW1NWk5HaHhPTVpLNFk4SDM1SDcybFV3bEtZRlpMbHlLZ2NQMld3QUExVVAwNzdaT0Z4NVFDeUUwQVpJQ29QZG8zX1VvdmJrX2o2UElvWlFnSDhjamdpSzFDejI5Qk1abEZ4TXpoN3hxM0I0c3hld0VHNUNhWXpqdk9Md3dzWEw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-06-23T07:00:00+00:00",
-    "fetchedAt": "2026-07-21T19:07:52+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Install Splunk AI Assistant for Splunk Enterprise customers with Cloud Connected - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "bab006ace6c6a5f6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "5acfbc461c4fae9a",
-    "title": "Claude Outage Analysis: June 23, 2026 - ThousandEyes",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FVlNfNUFfQVNLcjNLcHpvbXhTLTVuSGdFQWRiVjBwalFBQWJnT1V6MlI1VXFTbUctSXhNU0p6bFY5b1c0bGs0M05qM0E0WmRzQ3E1alREY3JzVlJBcTduTXVKdFNhYUFGREZvREpRSVNNbXpXVHJzUA?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FVlNfNUFfQVNLcjNLcHpvbXhTLTVuSGdFQWRiVjBwalFBQWJnT1V6MlI1VXFTbUctSXhNU0p6bFY5b1c0bGs0M05qM0E0WmRzQ3E1alREY3JzVlJBcTduTXVKdFNhYUFGREZvREpRSVNNbXpXVHJzUA?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-06-23T07:00:00+00:00",
-    "fetchedAt": "2026-06-27T02:33:18+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Claude Outage Analysis: June 23, 2026 - ThousandEyes",
-    "summarySource": "extractive",
-    "clusterId": "5acfbc461c4fae9a",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "cd5a855fcef5ca31",
