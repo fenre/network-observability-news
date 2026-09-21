@@ -1,5 +1,37 @@
 [
   {
+    "id": "f01a4d994d676c3f",
+    "title": "Introducing JA5: A Stable, Collision-Resistant Successor to JA4",
+    "url": "https://www.ntop.org/introducing-ja5-a-stable-collision-resistant-successor-to-ja4/",
+    "canonicalUrl": "https://www.ntop.org/introducing-ja5-a-stable-collision-resistant-successor-to-ja4",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-21T21:16:13+00:00",
+    "fetchedAt": "2026-09-21T21:31:08+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "TLS client fingerprinting has become one of the workhorse techniques in network security, and JA4 (FoxIO) has been the de facto standard for identifying TLS clients from their ClientHello messages. But recent production experience at ntop surfaced two real limitations, and today we’re announcing JA5, an open, patent-free extension of JA4 that addresses both. Ephemeral […]",
+    "summarySource": "extractive",
+    "clusterId": "f01a4d994d676c3f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "64b504ac152097ac",
     "title": "Announcing the 2026 OpenTelemetry Governance Committee Election",
     "url": "https://opentelemetry.io/blog/2026/gc-elections/",
@@ -443,7 +475,7 @@
     ],
     "summary": "Discover how native Splunk embedded in Cisco Nexus Dashboard delivers real-time analytics, faster troubleshooting, and on-premises data sovereignty for modern data center and AI workloads.",
     "summarySource": "extractive",
-    "clusterId": "9aecf3fbc07269c2",
+    "clusterId": "1da38095436c66e8",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Data Center Blog"
@@ -1365,12 +1397,12 @@
   },
   {
     "id": "414b571ab01b9985",
-    "title": "ThousandEyes Assurance and MCP in the Post-Mythos Era - ThousandEyes",
+    "title": "ThousandEyes Assurance and MCP in the Post-Mythos Era - thousandeyes.com",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WbzB3Vk9XeUVYWXF0LXQ2SUF5aEhhM1JlQUtVZUh4WDBFa05CV1BwYVdNSDVRUXJGVnFZSmlOSHI0MXpvd2ZtNFNPY2R6cTYyRDJTR0FnUzY1bkUyQllUeFd4SWpaTEo4ZTJGSndDVlRuelhHS0VzTWtBUUtOX0k?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WbzB3Vk9XeUVYWXF0LXQ2SUF5aEhhM1JlQUtVZUh4WDBFa05CV1BwYVdNSDVRUXJGVnFZSmlOSHI0MXpvd2ZtNFNPY2R6cTYyRDJTR0FnUzY1bkUyQllUeFd4SWpaTEo4ZTJGSndDVlRuelhHS0VzTWtBUUtOX0k?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
+      "name": "thousandeyes.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -1389,12 +1421,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "ThousandEyes Assurance and MCP in the Post-Mythos Era ThousandEyes",
+    "summary": "ThousandEyes Assurance and MCP in the Post-Mythos Era thousandeyes.com",
     "summarySource": "extractive",
     "clusterId": "414b571ab01b9985",
     "lang": "en",
     "license": null,
-    "attribution": "via ThousandEyes (Google News)"
+    "attribution": "via thousandeyes.com (Google News)"
   },
   {
     "id": "1dacb8228bc2531e",
@@ -1549,12 +1581,12 @@
   },
   {
     "id": "940ebe6fb4b4b8d9",
-    "title": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
+    "title": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - thousandeyes.com",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZVZNcUVuUXMwWnczQWk3WlozVEViaUM5d3dSRjFkZ1Rud2ZjZ0F5ZV93M29JNkZ4MFZkSm1UOVEyS0RBcTFkYzhFc1ZUbjNOZlhDNWhjYjlrM0xlMWVFYVVEbzl0OHhlbUtvQzFzZXRoaGNCUTYxenZHQ013SUVpX25zZ0xmeWtnOWNrSDB5Q1NSQlk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZVZNcUVuUXMwWnczQWk3WlozVEViaUM5d3dSRjFkZ1Rud2ZjZ0F5ZV93M29JNkZ4MFZkSm1UOVEyS0RBcTFkYzhFc1ZUbjNOZlhDNWhjYjlrM0xlMWVFYVVEbzl0OHhlbUtvQzFzZXRoaGNCUTYxenZHQ013SUVpX25zZ0xmeWtnOWNrSDB5Q1NSQlk?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
+      "name": "thousandeyes.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -1573,12 +1605,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP thousandeyes.com",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
     "license": null,
-    "attribution": "via ThousandEyes (Google News)"
+    "attribution": "via thousandeyes.com (Google News)"
   },
   {
     "id": "f402a7756aee63d7",
@@ -4694,7 +4726,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The hierarchical cluster architecture was originally introduced to allow multiple ntopng instances to be organized in a parent/child topology. Child instances collected and analyzed local traffic, while parent instances aggregated information from multiple children to provide a centralized view of the network. At the time, this approach addressed a common requirement: monitoring geographically distributed sites […]",
+    "summary": "Saying Goodbye to Hierarchical Clusters in ntopng",
     "summarySource": "extractive",
     "clusterId": "2c99b7369efb0a33",
     "lang": "en",
@@ -7267,7 +7299,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -8452,12 +8484,12 @@
   },
   {
     "id": "a5ab58604cc3c2a7",
-    "title": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - ThousandEyes",
+    "title": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations - thousandeyes.com",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LbjlNRDdGRjJ2bkhWMFJEelRvcXJmYktITkZsQjVqYl9FNlJENjk4UG16VG1ha1lJRS1keXV1dzNKTzFpWXlVc2pIZVlUaGNrNUZDUnZGanduUUhMNHFENklQUjF0S0J2MXhKbUZ6M21jbjQ5MUxR?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
+      "name": "thousandeyes.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -8476,12 +8508,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations ThousandEyes",
+    "summary": "BGP Monitors Within Cisco ThousandEyes Cloud Agent Locations thousandeyes.com",
     "summarySource": "extractive",
     "clusterId": "a5ab58604cc3c2a7",
     "lang": "en",
     "license": null,
-    "attribution": "via ThousandEyes (Google News)"
+    "attribution": "via thousandeyes.com (Google News)"
   },
   {
     "id": "db74f17976fe252b",
@@ -8772,12 +8804,12 @@
   },
   {
     "id": "3d3becbeced49ac5",
-    "title": "Assurance and Observability Together - ThousandEyes",
+    "title": "Assurance and Observability Together - thousandeyes.com",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WTUtHZUNka3ltYktKMUZqMFBra3lUcF92eVNxd3hsdjFQZjY5SjVVLU5SR1d4SFh3U3pORjRGYk5TWE1CQjlEN2dZcVNBR3A1S2V4TnFHeWZlalE5c1o3VlhlUVdYM3hqaEhXcW9hc3c4TlEta1B1MXd3?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WTUtHZUNka3ltYktKMUZqMFBra3lUcF92eVNxd3hsdjFQZjY5SjVVLU5SR1d4SFh3U3pORjRGYk5TWE1CQjlEN2dZcVNBR3A1S2V4TnFHeWZlalE5c1o3VlhlUVdYM3hqaEhXcW9hc3c4TlEta1B1MXd3?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
+      "name": "thousandeyes.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -8796,12 +8828,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Assurance and Observability Together ThousandEyes",
+    "summary": "Assurance and Observability Together thousandeyes.com",
     "summarySource": "extractive",
     "clusterId": "3d3becbeced49ac5",
     "lang": "en",
     "license": null,
-    "attribution": "via ThousandEyes (Google News)"
+    "attribution": "via thousandeyes.com (Google News)"
   },
   {
     "id": "1532f4ea5e7c7ffd",
@@ -9612,36 +9644,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via ThousandEyes (Google News)"
-  },
-  {
-    "id": "bc0935acbca10b54",
-    "title": "Interop Tokyo 2026: Showcasing the Future of Network Visibility and AI",
-    "url": "https://www.ntop.org/interop-tokyo-2026-showcasing-the-future-of-network-visibility-and-ai/",
-    "canonicalUrl": "https://www.ntop.org/interop-tokyo-2026-showcasing-the-future-of-network-visibility-and-ai",
-    "source": {
-      "id": "ntop-blog",
-      "name": "ntop Blog",
-      "homepage": "https://www.ntop.org/blog"
-    },
-    "author": "admin",
-    "publishedAt": "2026-06-23T17:48:49+00:00",
-    "fetchedAt": "2026-06-23T19:52:32+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Interop Tokyo 2026: Showcasing the Future of Network Visibility and AI",
-    "summarySource": "extractive",
-    "clusterId": "bc0935acbca10b54",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ntop Blog"
   },
   {
     "id": "cd5a855fcef5ca31",
