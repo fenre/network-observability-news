@@ -1,5 +1,33 @@
 [
   {
+    "id": "e292202e70538dc1",
+    "title": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
+    "url": "https://blog.apnic.net/2026/09/21/apnic-62-updates-in-dns-dhcp-certificate-security-and-bgp-routing-resilience/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/21/apnic-62-updates-in-dns-dhcp-certificate-security-and-bgp-routing-resilience",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-20T22:52:43+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
+    "summarySource": "extractive",
+    "clusterId": "e292202e70538dc1",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8b3759fdb1e4e5d8",
     "title": "Saving another 100TB of RAM with math (and Rust)",
     "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
@@ -116,6 +144,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "2f561a6aeb7910a8",
+    "title": "Presto: A match-action TCP stack for the terabit era",
+    "url": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Rajath Shashidhara",
+    "publishedAt": "2026-09-18T03:34:15+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
+    "summarySource": "extractive",
+    "clusterId": "2f561a6aeb7910a8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8f5289f4236e4aa3",
     "title": "Introducing Zeek 9",
     "url": "https://zeek.org/2026/09/introducing-zeek-9/",
@@ -170,6 +226,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via shattered.io (Google News)"
+  },
+  {
+    "id": "239997d31623ddb4",
+    "title": "[Podcast] ‘Just say no’ isn’t as simple as you think",
+    "url": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-16T23:23:11+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
+    "summarySource": "extractive",
+    "clusterId": "239997d31623ddb4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b5c7cbde6e9b0e6",
@@ -324,6 +408,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via MSSP Alert (Google News)"
+  },
+  {
+    "id": "5bd0ee4a5b0f9566",
+    "title": "The case for open-weight models and why we can’t trust frontier labs",
+    "url": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Niels Provos",
+    "publishedAt": "2026-09-16T05:42:22+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+    "summarySource": "extractive",
+    "clusterId": "5bd0ee4a5b0f9566",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "a2e152b4f8b70632",
@@ -713,6 +825,34 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "dbf1caeff20fe4fd",
+    "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
+    "url": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dan Fidler",
+    "publishedAt": "2026-09-13T22:22:29+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
+    "summarySource": "extractive",
+    "clusterId": "dbf1caeff20fe4fd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "6750a45f3c3ffa90",
     "title": "ntop and the EU Cyber Resilience Act",
     "url": "https://www.ntop.org/ntop-and-the-eu-cyber-resilience-act/",
@@ -921,6 +1061,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Unite.AI (Google News)"
+  },
+  {
+    "id": "24cf9492d00785ba",
+    "title": "2026 APNIC Survey report released",
+    "url": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dale Roberts",
+    "publishedAt": "2026-09-10T03:21:38+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The 2026 APNIC Survey report is now available, providing valuable feedback from Members and the wider Internet community on APNIC’s performance, priorities, and future direction.",
+    "summarySource": "extractive",
+    "clusterId": "24cf9492d00785ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "704d0900605ac15f",
@@ -1320,12 +1489,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "What part of ‘No!’ is so hard for the DNS to understand?",
+    "summary": "At APNIC Labs we've been experimenting with understanding how the DNS handles requests to resolve nonexistent names to make the DNS more resilient to random name attacks.",
     "summarySource": "extractive",
     "clusterId": "862238d979ee4744",
     "lang": "en",
@@ -1629,6 +1798,39 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "7e4a3a46646c71e1",
+    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-09-01T07:00:00+00:00",
+    "fetchedAt": "2026-08-07T12:45:05+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
+    "summarySource": "extractive",
+    "clusterId": "7e4a3a46646c71e1",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "6abb00b4c123e867",
     "title": "What's New - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSamNIaU9kUnd0c1g0ZTZCbVAxUloxYVVEVy04dTNWRFlfdjEzMDRadnVtTVgwczFYMkZrTzJUSWdGUDhVTXczb1FOSFIwczJnQnVlTGFn?oc=5",
@@ -1657,6 +1859,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "d807a797ef2eda8b",
+    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
+    "url": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Hervé Clément",
+    "publishedAt": "2026-09-01T06:03:50+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The NRO NC has published the Recommended Draft RIR Governance Document, including a redline version and rationale document.",
+    "summarySource": "extractive",
+    "clusterId": "d807a797ef2eda8b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "686c315836109e08",
@@ -1869,6 +2099,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "0c09e288ae377b54",
+    "title": "The lingering legacy of ‘reserved’ ports",
+    "url": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-08-27T23:29:48+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Modern service discovery mechanisms increasingly allow services to run on arbitrary ports, yet DNS may remain the one protocol that cannot fully escape its dependency on the long-established convention of port 53.",
+    "summarySource": "extractive",
+    "clusterId": "0c09e288ae377b54",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "0534e91d190c6463",
     "title": "Introducing PF_RING 9.4: Expanding Capabilities Across Capture, Flow Processing and Hardware Support",
     "url": "https://www.ntop.org/introducing-pf_ring-9-4-expanding-capabilities-across-capture-flow-processing-and-hardware-support/",
@@ -1983,6 +2241,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via HackerNoon (Google News)"
+  },
+  {
+    "id": "5f10b97a8afece46",
+    "title": "Beyond origin validation: Four classes of routing attack nobody Is validating",
+    "url": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Flavio Luciani",
+    "publishedAt": "2026-08-25T22:24:59+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation — handled with local filters, static thresholds and reactive response.",
+    "summarySource": "extractive",
+    "clusterId": "5f10b97a8afece46",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "c8e6f3784856922b",
@@ -2235,6 +2521,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "173968d50e1e04ac",
+    "title": "Do IXPs make the Internet faster? It’s complicated",
+    "url": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/24/do-ixps-make-the-internet-faster-its-complicated",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dan Fidler",
+    "publishedAt": "2026-08-23T23:05:33+00:00",
+    "fetchedAt": "2026-09-21T02:41:09+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "IXPs shape latency, cost, resilience, and the spread of new technologies, not just Internet speed. As the Internet evolves, the role of IXPs continues to expand, as highlighted in this BPF 2026 panel discussion.",
+    "summarySource": "extractive",
+    "clusterId": "173968d50e1e04ac",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "d5dded18ffcc6caa",
@@ -6169,39 +6483,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-07-21T07:00:00+00:00",
-    "fetchedAt": "2026-08-07T12:45:05+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
-    "summarySource": "extractive",
-    "clusterId": "7e4a3a46646c71e1",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
     "id": "72a8d6864f14bb21",
     "title": "Release notes for the Splunk Common Information Model Add-on - Splunk Help",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWWdWenR1WG1QbVBVSzFtWkRvdEhjSkVyc3VQRDhxUXZSZlNiVnNBYmRka2N2bWVSU0dGSld1SVhYM2Zmdmdfc2g2OVFpVHpsT2YzWk9wMVM0Z21MaWNiWnBKLVFNekpSTWJOaXBrTXZRVjJYcVBZdDQ4LXFsenRUZmltM05ZMndSWFdJUUs0dnZNMU4tVGw3YWZDalNOUW1BcHBZQXpjeXpCRWtwVjBiVVdnTkczam52UUlFZDhqZ1lqcjlvelhLNDZ6MjJvSkRZMC0yT0RiUnZXdVdCcUozMVZTZUh0dw?oc=5",
@@ -6953,7 +7234,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
@@ -8498,19 +8779,20 @@
   },
   {
     "id": "34a033f43010e298",
-    "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - cybersecuritynews.com",
+    "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "cybersecuritynews.com",
+      "name": "CyberSecurityNews",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
     "publishedAt": "2026-06-29T16:23:11+00:00",
     "fetchedAt": "2026-06-30T14:03:17+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -8520,12 +8802,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - cybersecuritynews.com",
+    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "34a033f43010e298",
     "lang": "en",
     "license": null,
-    "attribution": "via cybersecuritynews.com (Google News)"
+    "attribution": "via CyberSecurityNews (Google News)"
   },
   {
     "id": "f817b69e09d552a2",
