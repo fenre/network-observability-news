@@ -1,5 +1,33 @@
 [
   {
+    "id": "52bca3cd2fb2d005",
+    "title": "Understanding ASPA: The next step in routing security",
+    "url": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dale Roberts",
+    "publishedAt": "2026-09-23T04:55:18+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Join this APNIC Academy webinar to understand how ASPAs work, how they complement ROAs, and how you can begin monitoring and deploying them in your network.",
+    "summarySource": "extractive",
+    "clusterId": "52bca3cd2fb2d005",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "9403c3137b65a504",
     "title": "PQC for Dummies—Cisco Special Edition: Why we wrote it",
     "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it/",
@@ -100,15 +128,17 @@
     "author": "Zaidoon Abd Al Hadi",
     "publishedAt": "2026-09-22T14:04:31+00:00",
     "fetchedAt": "2026-09-22T16:02:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "We just shipped support for the ugliest part of HTTP: Vary",
+    "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
     "summarySource": "extractive",
     "clusterId": "0c9c25568aa0fd4e",
     "lang": "en",
@@ -128,7 +158,9 @@
     "author": "Nanda Syahrasyad",
     "publishedAt": "2026-09-22T13:00:00+00:00",
     "fetchedAt": "2026-09-22T16:02:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -136,7 +168,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+    "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
     "summarySource": "extractive",
     "clusterId": "66e8a8962096b3f1",
     "lang": "en",
@@ -164,7 +196,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Latest BGP hijack targets hosting software vendor",
+    "summary": "Guest Post: An analysis of the BGP hijack against Softaculous that enabled an attacker to obtain a fraudulent TLS certificate and distribute a malicious Virtualizor update.",
     "summarySource": "extractive",
     "clusterId": "a1fbaea10ac5df2a",
     "lang": "en",
@@ -276,7 +308,9 @@
     "author": "Hood Chatham",
     "publishedAt": "2026-09-21T13:00:00+00:00",
     "fetchedAt": "2026-09-21T17:35:10+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -284,7 +318,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Python Workers are now generally available",
+    "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
     "summarySource": "extractive",
     "clusterId": "bf2ea8abc504ecbb",
     "lang": "en",
@@ -377,7 +411,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
+    "summary": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
     "summarySource": "extractive",
     "clusterId": "e292202e70538dc1",
     "lang": "en",
@@ -397,7 +431,9 @@
     "author": "Ivan Babrou",
     "publishedAt": "2026-09-18T17:23:58+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -405,7 +441,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Saving another 100TB of RAM with math (and Rust)",
+    "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
     "summarySource": "extractive",
     "clusterId": "8b3759fdb1e4e5d8",
     "lang": "en",
@@ -501,6 +537,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "2f561a6aeb7910a8",
+    "title": "Presto: A match-action TCP stack for the terabit era",
+    "url": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Rajath Shashidhara",
+    "publishedAt": "2026-09-18T03:34:15+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
+    "summarySource": "extractive",
+    "clusterId": "2f561a6aeb7910a8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8f5289f4236e4aa3",
     "title": "Introducing Zeek 9",
     "url": "https://zeek.org/2026/09/introducing-zeek-9/",
@@ -587,6 +651,34 @@
     "attribution": "via crn.com (Google News)"
   },
   {
+    "id": "239997d31623ddb4",
+    "title": "[Podcast] ‘Just say no’ isn’t as simple as you think",
+    "url": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-16T23:23:11+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
+    "summarySource": "extractive",
+    "clusterId": "239997d31623ddb4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "2b5c7cbde6e9b0e6",
     "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
     "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
@@ -599,7 +691,9 @@
     "author": "Denzil Correa",
     "publishedAt": "2026-09-16T20:06:17+00:00",
     "fetchedAt": "2026-09-16T20:43:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -607,7 +701,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+    "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
     "summarySource": "extractive",
     "clusterId": "2b5c7cbde6e9b0e6",
     "lang": "en",
@@ -667,7 +761,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -740,6 +834,34 @@
     "attribution": "via MSSP Alert (Google News)"
   },
   {
+    "id": "5bd0ee4a5b0f9566",
+    "title": "The case for open-weight models and why we can’t trust frontier labs",
+    "url": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Niels Provos",
+    "publishedAt": "2026-09-16T05:42:22+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+    "summarySource": "extractive",
+    "clusterId": "5bd0ee4a5b0f9566",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "a2e152b4f8b70632",
     "title": "Kubernetes attributes processor reaches v1.0.0 milestone",
     "url": "https://opentelemetry.io/blog/2026/k8s-attributes-processor-v1/",
@@ -787,7 +909,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -844,7 +966,9 @@
     "author": "Visal In",
     "publishedAt": "2026-09-15T13:00:00+00:00",
     "fetchedAt": "2026-09-15T15:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -852,7 +976,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Give every teammate and agent the right level of access to your Workers",
+    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
     "summarySource": "extractive",
     "clusterId": "e5095a15614628e9",
     "lang": "en",
@@ -872,7 +996,9 @@
     "author": "Bryan Becker",
     "publishedAt": "2026-09-15T13:00:00+00:00",
     "fetchedAt": "2026-09-15T15:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -880,7 +1006,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Have it both ways: stay discoverable in search while disallowing AI training",
+    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
     "summarySource": "extractive",
     "clusterId": "4096ef147ccaddc7",
     "lang": "en",
@@ -1127,6 +1253,34 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "dbf1caeff20fe4fd",
+    "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
+    "url": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dan Fidler",
+    "publishedAt": "2026-09-13T22:22:29+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
+    "summarySource": "extractive",
+    "clusterId": "dbf1caeff20fe4fd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "6750a45f3c3ffa90",
     "title": "ntop and the EU Cyber Resilience Act",
     "url": "https://www.ntop.org/ntop-and-the-eu-cyber-resilience-act/",
@@ -1231,7 +1385,9 @@
     "author": "Abe Carryl",
     "publishedAt": "2026-09-11T13:00:00+00:00",
     "fetchedAt": "2026-09-11T15:38:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1239,7 +1395,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing automatic remediation policies with Cloudflare CASB",
+    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
     "summarySource": "extractive",
     "clusterId": "c2396277023d0480",
     "lang": "en",
@@ -1289,7 +1445,9 @@
     "author": "Bas Westerbaan",
     "publishedAt": "2026-09-10T13:00:00+00:00",
     "fetchedAt": "2026-09-10T15:37:14+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1297,7 +1455,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+    "summary": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
     "summarySource": "extractive",
     "clusterId": "0a5779282d853cd0",
     "lang": "en",
@@ -1335,6 +1493,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Unite.AI (Google News)"
+  },
+  {
+    "id": "24cf9492d00785ba",
+    "title": "2026 APNIC Survey report released",
+    "url": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dale Roberts",
+    "publishedAt": "2026-09-10T03:21:38+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The 2026 APNIC Survey report is now available, providing valuable feedback from Members and the wider Internet community on APNIC’s performance, priorities, and future direction.",
+    "summarySource": "extractive",
+    "clusterId": "24cf9492d00785ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "704d0900605ac15f",
@@ -1463,7 +1650,9 @@
     "author": "James Snell",
     "publishedAt": "2026-09-09T13:00:00+00:00",
     "fetchedAt": "2026-09-09T15:42:06+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1471,7 +1660,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+    "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
     "summarySource": "extractive",
     "clusterId": "ce419bf53cc7fea3",
     "lang": "en",
@@ -1547,7 +1736,9 @@
     "author": "Alex Krivit",
     "publishedAt": "2026-09-08T13:10:00+00:00",
     "fetchedAt": "2026-09-08T15:46:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1555,7 +1746,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+    "summary": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
     "summarySource": "extractive",
     "clusterId": "1dd44cb259b6e11b",
     "lang": "en",
@@ -1734,12 +1925,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "What part of ‘No!’ is so hard for the DNS to understand?",
+    "summary": "At APNIC Labs we've been experimenting with understanding how the DNS handles requests to resolve nonexistent names to make the DNS more resilient to random name attacks.",
     "summarySource": "extractive",
     "clusterId": "862238d979ee4744",
     "lang": "en",
@@ -1792,7 +1983,9 @@
     "author": "Blake Darché",
     "publishedAt": "2026-09-03T21:03:02+00:00",
     "fetchedAt": "2026-09-04T02:18:39+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security"
@@ -1800,7 +1993,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+    "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
     "summarySource": "extractive",
     "clusterId": "f402a7756aee63d7",
     "lang": "en",
@@ -2027,7 +2220,9 @@
     "author": "Aashi Patel",
     "publishedAt": "2026-09-01T12:59:00+00:00",
     "fetchedAt": "2026-09-01T15:51:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2035,7 +2230,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
     "summarySource": "extractive",
     "clusterId": "001302cbb2628f64",
     "lang": "en",
@@ -2104,6 +2299,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "d807a797ef2eda8b",
+    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
+    "url": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Hervé Clément",
+    "publishedAt": "2026-09-01T06:03:50+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The NRO NC has published the Recommended Draft RIR Governance Document, including a redline version and rationale document.",
+    "summarySource": "extractive",
+    "clusterId": "d807a797ef2eda8b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "686c315836109e08",
@@ -2182,15 +2405,17 @@
     "author": "Chris Pope",
     "publishedAt": "2026-08-31T12:59:00+00:00",
     "fetchedAt": "2026-08-31T22:15:14+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated attacks too expensive to sustain.",
     "summarySource": "extractive",
     "clusterId": "dc52628c784f5e36",
     "lang": "en",
@@ -2300,7 +2525,9 @@
     "author": "Julian Laxman",
     "publishedAt": "2026-08-28T12:59:44+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2308,12 +2535,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
     "summarySource": "extractive",
     "clusterId": "d9b5afeac7b4fe86",
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "0c09e288ae377b54",
+    "title": "The lingering legacy of ‘reserved’ ports",
+    "url": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-08-27T23:29:48+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Modern service discovery mechanisms increasingly allow services to run on arbitrary ports, yet DNS may remain the one protocol that cannot fully escape its dependency on the long-established convention of port 53.",
+    "summarySource": "extractive",
+    "clusterId": "0c09e288ae377b54",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "0534e91d190c6463",
@@ -2358,7 +2613,9 @@
     "author": "Sebastiaan Neuteboom",
     "publishedAt": "2026-08-27T17:02:35+00:00",
     "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2366,7 +2623,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
     "summarySource": "extractive",
     "clusterId": "01d416ecd1b86319",
     "lang": "en",
@@ -2430,6 +2687,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via HackerNoon (Google News)"
+  },
+  {
+    "id": "5f10b97a8afece46",
+    "title": "Beyond origin validation: Four classes of routing attack nobody Is validating",
+    "url": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/26/beyond-origin-validation-four-classes-of-routing-attack-nobody-is-validating",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Flavio Luciani",
+    "publishedAt": "2026-08-25T22:24:59+00:00",
+    "fetchedAt": "2026-09-24T10:52:36+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: RPKI has made real progress against prefix hijacking. But when you map every known class of BGP attack against the defences that exist, four of them turn out to sit entirely outside cryptographic validation — handled with local filters, static thresholds and reactive response.",
+    "summarySource": "extractive",
+    "clusterId": "5f10b97a8afece46",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "c8e6f3784856922b",
@@ -2612,7 +2897,9 @@
     "author": "Amy Dutton",
     "publishedAt": "2026-08-24T19:00:00+00:00",
     "fetchedAt": "2026-08-25T00:51:23+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2620,7 +2907,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cloudflare Blog — brought to you by EmDash",
+    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
     "summarySource": "extractive",
     "clusterId": "2e3baeb9cf418fba",
     "lang": "en",
@@ -2782,7 +3069,9 @@
     "author": "Jin-Hee Lee",
     "publishedAt": "2026-08-21T23:19:57+00:00",
     "fetchedAt": "2026-08-22T00:48:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2790,7 +3079,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Say it once: introducing Bot Preference Sync",
+    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
     "summarySource": "extractive",
     "clusterId": "c93c4733340a9048",
     "lang": "en",
@@ -2810,7 +3099,9 @@
     "author": "José Enrique Rodríguez",
     "publishedAt": "2026-08-20T17:03:03+00:00",
     "fetchedAt": "2026-08-20T18:27:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2818,7 +3109,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From all-or-nothing to task-based OAuth consent",
+    "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
     "summarySource": "extractive",
     "clusterId": "719c194df3c61579",
     "lang": "en",
@@ -2927,7 +3218,9 @@
     "author": "Albert Pedersen",
     "publishedAt": "2026-08-19T16:00:28+00:00",
     "fetchedAt": "2026-08-19T18:22:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2935,7 +3228,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
     "summarySource": "extractive",
     "clusterId": "67c34c025b396665",
     "lang": "en",
@@ -3372,7 +3665,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6154,12 +6447,12 @@
   },
   {
     "id": "cc57981981b2cd19",
-    "title": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network - PA Media",
+    "title": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network - pressreleasehub.pa.media",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZ0hlM3hqQ1Z5aEtrSWV1blkwSlpESE5NNlZfVnV4LVhvT3J2QllCcGZ4WjYyRmREM0FNYjc4bU5CaVNPRW8tN2NUOHhkMmVnMTM4R2JDSEJzZFlkX1VjTnB5ZmNNQTVDVTJZV1hnMUkwclBXRVhpVzcwUk5PMHRBRnRqR3UxRl9JbHhHY1o5UzRmQk50aUVhUE1HWDV4SVNQSUxYbXNDb1BzTWxpOUU4MXdGdTdlVkFJamZzQTQwZ1liRVltRlNac2dQQXRXYXNvVzhpUHhqVFpWVmgwV1I5MGJ5Z0FMR0dhMWxfeGdyVnRGMER3X2hrTw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZ0hlM3hqQ1Z5aEtrSWV1blkwSlpESE5NNlZfVnV4LVhvT3J2QllCcGZ4WjYyRmREM0FNYjc4bU5CaVNPRW8tN2NUOHhkMmVnMTM4R2JDSEJzZFlkX1VjTnB5ZmNNQTVDVTJZV1hnMUkwclBXRVhpVzcwUk5PMHRBRnRqR3UxRl9JbHhHY1o5UzRmQk50aUVhUE1HWDV4SVNQSUxYbXNDb1BzTWxpOUU4MXdGdTdlVkFJamZzQTQwZ1liRVltRlNac2dQQXRXYXNvVzhpUHhqVFpWVmgwV1I5MGJ5Z0FMR0dhMWxfeGdyVnRGMER3X2hrTw?oc=5",
     "source": {
       "id": "gnews-ebpf-cilium",
-      "name": "PA Media",
+      "name": "pressreleasehub.pa.media",
       "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
     },
     "author": null,
@@ -6173,12 +6466,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network PA Media",
+    "summary": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network pressreleasehub.pa.media",
     "summarySource": "extractive",
     "clusterId": "07a925ae7b44b0d3",
     "lang": "en",
     "license": null,
-    "attribution": "via PA Media (Google News)"
+    "attribution": "via pressreleasehub.pa.media (Google News)"
   },
   {
     "id": "07a925ae7b44b0d3",
@@ -7346,12 +7639,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "SDxCentral",
+      "name": "sdxcentral.com",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -7367,12 +7660,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess sdxcentral.com",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via SDxCentral (Google News)"
+    "attribution": "via sdxcentral.com (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -7978,7 +8271,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -9218,127 +9511,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (canonical)"
-  },
-  {
-    "id": "47ad838a11759be6",
-    "title": "Why network automation is creating an observability paradox - Computer Weekly",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzQ5LWlEczR2ZU1GNVVVc3k5SkJEekNQRXdJSkVCRmhJeGRvX2VrMk9vaUhFVFNvWXZ5S1VqTTNmRnpxRXlrWGpoVF9Cdy1QYllhODZkYUwyd3FrcS1pRXNxelhhV013OXFCNmFkam9kaVF5cUJURzNWV3VuYzVhczhhTEhkc24tUDhCNkh4OEZUVjlma1RMSG5YYm1XTEE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzQ5LWlEczR2ZU1GNVVVc3k5SkJEekNQRXdJSkVCRmhJeGRvX2VrMk9vaUhFVFNvWXZ5S1VqTTNmRnpxRXlrWGpoVF9Cdy1QYllhODZkYUwyd3FrcS1pRXNxelhhV013OXFCNmFkam9kaVF5cUJURzNWV3VuYzVhczhhTEhkc24tUDhCNkh4OEZUVjlma1RMSG5YYm1XTEE?oc=5",
-    "source": {
-      "id": "gnews-network-observability",
-      "name": "Computer Weekly",
-      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
-    },
-    "author": null,
-    "publishedAt": "2026-06-26T07:00:00+00:00",
-    "fetchedAt": "2026-06-26T19:39:03+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Why network automation is creating an observability paradox Computer Weekly",
-    "summarySource": "extractive",
-    "clusterId": "47ad838a11759be6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Computer Weekly (Google News)"
-  },
-  {
-    "id": "3a045f7b2ab6c528",
-    "title": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdDRvYmVpT29iN0RkTHp2dmZqRWVrRmU0c214NjJoT1JNdDRzSGVYWEs1UXhaQnlpa1hrZ3dJQW5aeHNrcTJpaEExSmtmNlE4MmZyZlZ5MXZXSjZueDNfN29zZld1enk3ZzNXeXVtWXRhbXJwc0lPczJsd1RraDl4X1JVZ0JSbEsySjN6VTFkTjk4aVhVbTJiTmNXdGhKS1Q1MjJLR2gyTDNXb3BuS0d2N0FaRUM5UklUUHpHUVN3?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "Security Boulevard",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-06-26T07:00:00+00:00",
-    "fetchedAt": "2026-06-26T19:39:03+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Critical Unauthenticated Remote Code Execution in Splunk Enterprise (CVE-2026-20253) - Security Boulevard",
-    "summarySource": "extractive",
-    "clusterId": "3a045f7b2ab6c528",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Security Boulevard (Google News)"
-  },
-  {
-    "id": "2c68808f33945c5f",
-    "title": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhdTAxOG5hYkdqSWs4UGFMUngxWmdKWFd1VFVOeVVGZ0hhY1NqdDJKTHB1elFkNG8yVUdZN1U5cU1RUE13M2dNMUFkX1loMERaS1NkTVNvZVpZOWJ5WnFwRW05R2FTcERjejFBTS1DT2lGZw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-06-26T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T17:21:22+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-06-26T17:04:34.621Z) Splunk",
-    "summarySource": "extractive",
-    "clusterId": "2c68808f33945c5f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)",
-    "audiences": [
-      "global"
-    ]
-  },
-  {
-    "id": "89266d93cad33249",
-    "title": "Introducing ntop SBOM (Software BOM)",
-    "url": "https://www.ntop.org/introducing-ntop-sbom-software-bom/",
-    "canonicalUrl": "https://www.ntop.org/introducing-ntop-sbom-software-bom",
-    "source": {
-      "id": "ntop-blog",
-      "name": "ntop Blog",
-      "homepage": "https://www.ntop.org/blog"
-    },
-    "author": "admin",
-    "publishedAt": "2026-06-26T05:31:53+00:00",
-    "fetchedAt": "2026-06-26T08:54:17+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "ntopng"
-    ],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Introducing ntop SBOM (Software BOM)",
-    "summarySource": "extractive",
-    "clusterId": "89266d93cad33249",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ntop Blog"
   },
   {
     "id": "cd5a855fcef5ca31",
