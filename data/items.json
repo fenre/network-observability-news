@@ -1,5 +1,35 @@
 [
   {
+    "id": "ffad4bbe1705668d",
+    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+    "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+    "canonicalUrl": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Michelle Zatlyn",
+    "publishedAt": "2026-09-27T17:00:00+00:00",
+    "fetchedAt": "2026-09-27T20:40:19+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+    "summarySource": "extractive",
+    "clusterId": "ffad4bbe1705668d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "9663ae093c630567",
     "title": "New webinar series now on demand: Secure Networking Ecosystem Insights",
     "url": "https://blogs.cisco.com/networking/new-webinar-series-now-on-demand-secure-networking-ecosystem-insights/",
@@ -40,7 +70,9 @@
     "author": "Jules Lemee",
     "publishedAt": "2026-09-25T13:00:00+00:00",
     "fetchedAt": "2026-09-25T16:16:12+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -48,7 +80,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Agents can now set up your website’s security with Turnstile Spin",
+    "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
     "summarySource": "extractive",
     "clusterId": "b3c4883870e49b83",
     "lang": "en",
@@ -158,7 +190,9 @@
     "author": "Hrushikesh Deshpande",
     "publishedAt": "2026-09-24T15:00:00+00:00",
     "fetchedAt": "2026-09-24T16:15:34+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security"
@@ -166,7 +200,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+    "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
     "summarySource": "extractive",
     "clusterId": "1876e727c122ac0a",
     "lang": "en",
@@ -274,15 +308,17 @@
     "author": "Zaidoon Abd Al Hadi",
     "publishedAt": "2026-09-22T14:04:31+00:00",
     "fetchedAt": "2026-09-22T16:02:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "We just shipped support for the ugliest part of HTTP: Vary",
+    "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
     "summarySource": "extractive",
     "clusterId": "0c9c25568aa0fd4e",
     "lang": "en",
@@ -302,7 +338,9 @@
     "author": "Nanda Syahrasyad",
     "publishedAt": "2026-09-22T13:00:00+00:00",
     "fetchedAt": "2026-09-22T16:02:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -310,7 +348,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+    "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
     "summarySource": "extractive",
     "clusterId": "66e8a8962096b3f1",
     "lang": "en",
@@ -478,7 +516,9 @@
     "author": "Hood Chatham",
     "publishedAt": "2026-09-21T13:00:00+00:00",
     "fetchedAt": "2026-09-21T17:35:10+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -486,7 +526,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Python Workers are now generally available",
+    "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
     "summarySource": "extractive",
     "clusterId": "bf2ea8abc504ecbb",
     "lang": "en",
@@ -599,7 +639,9 @@
     "author": "Ivan Babrou",
     "publishedAt": "2026-09-18T17:23:58+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -607,7 +649,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Saving another 100TB of RAM with math (and Rust)",
+    "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
     "summarySource": "extractive",
     "clusterId": "8b3759fdb1e4e5d8",
     "lang": "en",
@@ -801,7 +843,9 @@
     "author": "Denzil Correa",
     "publishedAt": "2026-09-16T20:06:17+00:00",
     "fetchedAt": "2026-09-16T20:43:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -809,7 +853,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+    "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
     "summarySource": "extractive",
     "clusterId": "2b5c7cbde6e9b0e6",
     "lang": "en",
@@ -1046,7 +1090,9 @@
     "author": "Visal In",
     "publishedAt": "2026-09-15T13:00:00+00:00",
     "fetchedAt": "2026-09-15T15:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1054,7 +1100,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Give every teammate and agent the right level of access to your Workers",
+    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
     "summarySource": "extractive",
     "clusterId": "e5095a15614628e9",
     "lang": "en",
@@ -1074,7 +1120,9 @@
     "author": "Bryan Becker",
     "publishedAt": "2026-09-15T13:00:00+00:00",
     "fetchedAt": "2026-09-15T15:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1082,7 +1130,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Have it both ways: stay discoverable in search while disallowing AI training",
+    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
     "summarySource": "extractive",
     "clusterId": "4096ef147ccaddc7",
     "lang": "en",
@@ -1436,7 +1484,9 @@
     "author": "Abe Carryl",
     "publishedAt": "2026-09-11T13:00:00+00:00",
     "fetchedAt": "2026-09-11T15:38:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1444,7 +1494,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing automatic remediation policies with Cloudflare CASB",
+    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
     "summarySource": "extractive",
     "clusterId": "c2396277023d0480",
     "lang": "en",
@@ -1494,7 +1544,9 @@
     "author": "Bas Westerbaan",
     "publishedAt": "2026-09-10T13:00:00+00:00",
     "fetchedAt": "2026-09-10T15:37:14+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1502,7 +1554,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+    "summary": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
     "summarySource": "extractive",
     "clusterId": "0a5779282d853cd0",
     "lang": "en",
@@ -1668,7 +1720,9 @@
     "author": "James Snell",
     "publishedAt": "2026-09-09T13:00:00+00:00",
     "fetchedAt": "2026-09-09T15:42:06+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1676,7 +1730,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+    "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
     "summarySource": "extractive",
     "clusterId": "ce419bf53cc7fea3",
     "lang": "en",
@@ -1752,7 +1806,9 @@
     "author": "Alex Krivit",
     "publishedAt": "2026-09-08T13:10:00+00:00",
     "fetchedAt": "2026-09-08T15:46:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1760,7 +1816,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+    "summary": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
     "summarySource": "extractive",
     "clusterId": "1dd44cb259b6e11b",
     "lang": "en",
@@ -1996,7 +2052,9 @@
     "author": "Blake Darché",
     "publishedAt": "2026-09-03T21:03:02+00:00",
     "fetchedAt": "2026-09-04T02:18:39+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security"
@@ -2004,7 +2062,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+    "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
     "summarySource": "extractive",
     "clusterId": "f402a7756aee63d7",
     "lang": "en",
@@ -2198,7 +2256,9 @@
     "author": "Aashi Patel",
     "publishedAt": "2026-09-01T12:59:00+00:00",
     "fetchedAt": "2026-09-01T15:51:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2206,7 +2266,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
     "summarySource": "extractive",
     "clusterId": "001302cbb2628f64",
     "lang": "en",
@@ -2215,12 +2275,12 @@
   },
   {
     "id": "80022bd33cc33556",
-    "title": "Users and roles for Splunk Enterprise Security - help.splunk.com",
+    "title": "Users and roles for Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -2239,21 +2299,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security help.splunk.com",
+    "summary": "Users and roles for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - help.splunk.com",
+    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -2272,12 +2332,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security help.splunk.com",
+    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "6abb00b4c123e867",
@@ -2386,15 +2446,17 @@
     "author": "Chris Pope",
     "publishedAt": "2026-08-31T12:59:00+00:00",
     "fetchedAt": "2026-08-31T22:15:14+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated attacks too expensive to sustain.",
     "summarySource": "extractive",
     "clusterId": "dc52628c784f5e36",
     "lang": "en",
@@ -2504,7 +2566,9 @@
     "author": "Julian Laxman",
     "publishedAt": "2026-08-28T12:59:44+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2512,7 +2576,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
     "summarySource": "extractive",
     "clusterId": "d9b5afeac7b4fe86",
     "lang": "en",
@@ -2562,7 +2626,9 @@
     "author": "Sebastiaan Neuteboom",
     "publishedAt": "2026-08-27T17:02:35+00:00",
     "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2570,7 +2636,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
     "summarySource": "extractive",
     "clusterId": "01d416ecd1b86319",
     "lang": "en",
@@ -2816,7 +2882,9 @@
     "author": "Amy Dutton",
     "publishedAt": "2026-08-24T19:00:00+00:00",
     "fetchedAt": "2026-08-25T00:51:23+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2824,7 +2892,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Cloudflare Blog — brought to you by EmDash",
+    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
     "summarySource": "extractive",
     "clusterId": "2e3baeb9cf418fba",
     "lang": "en",
@@ -5962,12 +6030,12 @@
   },
   {
     "id": "b877db3d3eddd7b9",
-    "title": "Convert a search from SPL to SPL2 - help.splunk.com",
+    "title": "Convert a search from SPL to SPL2 - Splunk",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sR29Tb3RkdXBHREx4em00TUlxaHVIam9QNlZKZHRQTzN0c2hjYjQydHBtVXVkREN3X1lKd2VTbjJoWWF5YnpEM1VpZUZTc2xBX1ZraDlRa09LZFFxcGRjUmhCVk1Fa0NjZFdVeVYzVnJJU2N3emV4UDgzTk16QQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sR29Tb3RkdXBHREx4em00TUlxaHVIam9QNlZKZHRQTzN0c2hjYjQydHBtVXVkREN3X1lKd2VTbjJoWWF5YnpEM1VpZUZTc2xBX1ZraDlRa09LZFFxcGRjUmhCVk1Fa0NjZFdVeVYzVnJJU2N3emV4UDgzTk16QQ?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -5983,12 +6051,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Convert a search from SPL to SPL2 help.splunk.com",
+    "summary": "Convert a search from SPL to SPL2 Splunk",
     "summarySource": "extractive",
     "clusterId": "b877db3d3eddd7b9",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "22a7904e8127440c",
@@ -8990,12 +9058,12 @@
   },
   {
     "id": "a7ce5a0b5e878322",
-    "title": "New features in Splunk IT Service Intelligence - help.splunk.com",
+    "title": "New features in Splunk IT Service Intelligence - Splunk",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQU94MlNESWYtRF9DREdCWEE1WnZVQXZ4dGozNmFwTTdNNUNzWDJmcGkybmlBb1RNMlZUOGNlSFM0VHdXWWVvMkg2SlRJNG12MzlQbzFGRmJaMFZpNnJuZVhNYzRqNFZLdE54bHgyN1dJbnM?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQU94MlNESWYtRF9DREdCWEE1WnZVQXZ4dGozNmFwTTdNNUNzWDJmcGkybmlBb1RNMlZUOGNlSFM0VHdXWWVvMkg2SlRJNG12MzlQbzFGRmJaMFZpNnJuZVhNYzRqNFZLdE54bHgyN1dJbnM?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -9011,12 +9079,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "New features in Splunk IT Service Intelligence help.splunk.com",
+    "summary": "New features in Splunk IT Service Intelligence Splunk",
     "summarySource": "extractive",
     "clusterId": "a7ce5a0b5e878322",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "3d3becbeced49ac5",
@@ -9111,37 +9179,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Prometheus Blog"
-  },
-  {
-    "id": "34a033f43010e298",
-    "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQazR0MXpPWDhxbl84UDNKZm4zVHFTMFJzTzJMV2lNb2RYRTRFbmlDLUxkYVhCWkJYNjBOY0ppZVZYcC0xU3RPbFhjQWlhN0JRa1pNQlFpb0Z5T0d4UlU1TFBRSVlTX0ZHaFJta2VrVnF6djhvbUhrYmRmRzkwNHNzSFdTeXRGTjluZzgzS3pqb9IBlAFBVV95cUxOUXFMZU93RXllWWk0N2JUdURSZUcxY2tQSkhGU2ZhVGFKX0ZLWkMyWU5fMEppdEhmNU0wQlJQNTlKakEyYkRSbkpMTUdwU3VhNDFoR2ROYUg5QWd0M1l5NnZZY05yWjhhSkhZMGpZcVpxcXNLeGJ3MDIxWjJzNGo3dGFUaUJrbFJfU0NPWU5LWDdUbkVi?oc=5",
-    "source": {
-      "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-06-29T16:23:11+00:00",
-    "fetchedAt": "2026-06-30T14:03:17+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway - CyberSecurityNews",
-    "summarySource": "extractive",
-    "clusterId": "34a033f43010e298",
-    "lang": "en",
-    "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
   },
   {
     "id": "e4abe5db260cbed6",
