@@ -12,9 +12,7 @@
     "author": "Tiago Silva",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -22,7 +20,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far.",
+    "summary": "Using AI to chart a course for our post-quantum migration",
     "summarySource": "extractive",
     "clusterId": "fdeae7bb039f782b",
     "lang": "en",
@@ -42,9 +40,7 @@
     "author": "Zhiyuan Zheng",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -52,7 +48,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
+    "summary": "Enforce positive security with Cloudflare Application Profiles",
     "summarySource": "extractive",
     "clusterId": "f1ff1c95f2bad8ea",
     "lang": "en",
@@ -72,9 +68,7 @@
     "author": "Lina Baquero",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "standards"
@@ -82,7 +76,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks.",
+    "summary": "Preventing quantum downgrade attacks against IPsec",
     "summarySource": "extractive",
     "clusterId": "e8a54d503ecec13f",
     "lang": "en",
@@ -102,9 +96,7 @@
     "author": "Steve Goldsmith",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -112,7 +104,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web.",
+    "summary": "Building a certificate authority for the whole Internet",
     "summarySource": "extractive",
     "clusterId": "d385a22532007727",
     "lang": "en",
@@ -132,9 +124,7 @@
     "author": "Mari Galicer",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -142,7 +132,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
+    "summary": "Building a post-quantum certificate authority with Merkle Tree Certificates",
     "summarySource": "extractive",
     "clusterId": "ab881b15a8c6e839",
     "lang": "en",
@@ -162,9 +152,7 @@
     "author": "Kuber Nandwani",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -172,7 +160,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing.",
+    "summary": "We tested our own WAF with frontier AI models. Here’s what we found",
     "summarySource": "extractive",
     "clusterId": "724cedcf62f5f5ac",
     "lang": "en",
@@ -192,9 +180,7 @@
     "author": "Christian Reilly",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -202,7 +188,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+    "summary": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
     "summarySource": "extractive",
     "clusterId": "4f6b0652e0ee1176",
     "lang": "en",
@@ -222,9 +208,7 @@
     "author": "Jacob Crisp",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -232,7 +216,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
+    "summary": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
     "summarySource": "extractive",
     "clusterId": "2ae657c3256a1a13",
     "lang": "en",
@@ -252,9 +236,7 @@
     "author": "Sharon Goldberg",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -262,7 +244,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption.",
+    "summary": "Is your domain using post-quantum encryption? Now you can see for yourself",
     "summarySource": "extractive",
     "clusterId": "0999f45f4e9f500e",
     "lang": "en",
@@ -490,9 +472,7 @@
     "author": "Samuel Macleod",
     "publishedAt": "2026-09-28T15:50:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -500,7 +480,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+    "summary": "Introducing cf: the agentic CLI for the entire Cloudflare API",
     "summarySource": "extractive",
     "clusterId": "ff1c78cd980c5796",
     "lang": "en",
@@ -520,9 +500,7 @@
     "author": "Matt “TK” Taylor",
     "publishedAt": "2026-09-28T14:51:57+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -530,7 +508,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
+    "summary": "Next.js applications, powered by Vite: introducing Vinext 1.0",
     "summarySource": "extractive",
     "clusterId": "33610af002449f2f",
     "lang": "en",
@@ -550,9 +528,7 @@
     "author": "Nic Jansma",
     "publishedAt": "2026-09-28T14:43:05+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -560,7 +536,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
+    "summary": "How fast is the web? Explore billions of real-user measurements with BEACON",
     "summarySource": "extractive",
     "clusterId": "aa02690151aaa615",
     "lang": "en",
@@ -580,9 +556,7 @@
     "author": "Mitch Foley",
     "publishedAt": "2026-09-28T13:00:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -590,7 +564,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
+    "summary": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
     "summarySource": "extractive",
     "clusterId": "fed1a098a46ff743",
     "lang": "en",
@@ -610,9 +584,7 @@
     "author": "Samuel Macleod",
     "publishedAt": "2026-09-28T13:00:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -620,7 +592,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer tools continuously in sync.",
+    "summary": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
     "summarySource": "extractive",
     "clusterId": "fa867433a231d6c9",
     "lang": "en",
@@ -640,9 +612,7 @@
     "author": "Sunil Pai",
     "publishedAt": "2026-09-28T13:00:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -650,7 +620,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and an invitation to our VIP speakers dinner.",
+    "summary": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
     "summarySource": "extractive",
     "clusterId": "c6455aebbffeffab",
     "lang": "en",
@@ -670,9 +640,7 @@
     "author": "Evan You",
     "publishedAt": "2026-09-28T13:00:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -680,7 +648,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
+    "summary": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
     "summarySource": "extractive",
     "clusterId": "ad509518aaefd79b",
     "lang": "en",
@@ -700,9 +668,7 @@
     "author": "Noah Pham",
     "publishedAt": "2026-09-28T13:00:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -710,7 +676,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.",
+    "summary": "EmDash 1.0: the stable CMS with a secure plugin registry",
     "summarySource": "extractive",
     "clusterId": "2fd8f946519a4e92",
     "lang": "en",
@@ -730,9 +696,7 @@
     "author": "Celso Martinho",
     "publishedAt": "2026-09-28T13:00:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -740,7 +704,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
+    "summary": "The road to the agentic browser: A Kitesurf update",
     "summarySource": "extractive",
     "clusterId": "019d3657d23b8a22",
     "lang": "en",
@@ -760,9 +724,7 @@
     "author": "Michelle Zatlyn",
     "publishedAt": "2026-09-27T17:00:00+00:00",
     "fetchedAt": "2026-09-27T20:40:19+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -770,7 +732,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+    "summary": "Cloudflare’s 2026 Annual Founders’ Letter",
     "summarySource": "extractive",
     "clusterId": "ffad4bbe1705668d",
     "lang": "en",
@@ -818,9 +780,7 @@
     "author": "Jules Lemee",
     "publishedAt": "2026-09-25T13:00:00+00:00",
     "fetchedAt": "2026-09-25T16:16:12+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -828,7 +788,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
+    "summary": "Agents can now set up your website’s security with Turnstile Spin",
     "summarySource": "extractive",
     "clusterId": "b3c4883870e49b83",
     "lang": "en",
@@ -974,7 +934,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summary": "PeeringDB Update April - September 2026",
     "summarySource": "extractive",
     "clusterId": "372d8f3b55a94bd4",
     "lang": "en",
@@ -2004,7 +1964,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 10 Best Kubernetes Security Tools in 2026 - CyberSecurityNews",
+    "summary": "Top 10 Best Kubernetes Security Tools in 2026 CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "3a02f800a8aa60bf",
     "lang": "en",
@@ -2809,7 +2769,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summary": "Closing the IPv6 First-Packet Gap with GRAND",
     "summarySource": "extractive",
     "clusterId": "20f7ad9eb66a41ca",
     "lang": "en",
@@ -2953,7 +2913,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "summary": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
     "summarySource": "extractive",
     "clusterId": "48d329f7c34cde74",
     "lang": "en",
@@ -3155,7 +3115,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BGP filter generation.",
+    "summary": "The IRR Landscape: What RPKI Can Replace",
     "summarySource": "extractive",
     "clusterId": "831f42f8ca18045d",
     "lang": "en",
@@ -3164,12 +3124,12 @@
   },
   {
     "id": "80022bd33cc33556",
-    "title": "Users and roles for Splunk Enterprise Security - help.splunk.com",
+    "title": "Users and roles for Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -3188,21 +3148,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security help.splunk.com",
+    "summary": "Users and roles for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - help.splunk.com",
+    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -3221,21 +3181,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security help.splunk.com",
+    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "6abb00b4c123e867",
-    "title": "What's New - splunk.com",
+    "title": "What's New - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSamNIaU9kUnd0c1g0ZTZCbVAxUloxYVVEVy04dTNWRFlfdjEzMDRadnVtTVgwczFYMkZrTzJUSWdGUDhVTXczb1FOSFIwczJnQnVlTGFn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSamNIaU9kUnd0c1g0ZTZCbVAxUloxYVVEVy04dTNWRFlfdjEzMDRadnVtTVgwczFYMkZrTzJUSWdGUDhVTXczb1FOSFIwczJnQnVlTGFn?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -3251,12 +3211,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's New splunk.com",
+    "summary": "What's New Splunk",
     "summarySource": "extractive",
     "clusterId": "6abb00b4c123e867",
     "lang": "en",
     "license": null,
-    "attribution": "via splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "686c315836109e08",
@@ -3829,7 +3789,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
+    "summary": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
     "summarySource": "extractive",
     "clusterId": "602fb396100a42b4",
     "lang": "en",
@@ -4496,7 +4456,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
+    "summary": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
     "summarySource": "extractive",
     "clusterId": "6e37c1de81a32100",
     "lang": "en",
@@ -6694,7 +6654,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
+    "summary": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
     "summarySource": "extractive",
     "clusterId": "cc452a2859e103d0",
     "lang": "en",
@@ -6993,12 +6953,12 @@
   },
   {
     "id": "b877db3d3eddd7b9",
-    "title": "Convert a search from SPL to SPL2 - help.splunk.com",
+    "title": "Convert a search from SPL to SPL2 - Splunk",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sR29Tb3RkdXBHREx4em00TUlxaHVIam9QNlZKZHRQTzN0c2hjYjQydHBtVXVkREN3X1lKd2VTbjJoWWF5YnpEM1VpZUZTc2xBX1ZraDlRa09LZFFxcGRjUmhCVk1Fa0NjZFdVeVYzVnJJU2N3emV4UDgzTk16QQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sR29Tb3RkdXBHREx4em00TUlxaHVIam9QNlZKZHRQTzN0c2hjYjQydHBtVXVkREN3X1lKd2VTbjJoWWF5YnpEM1VpZUZTc2xBX1ZraDlRa09LZFFxcGRjUmhCVk1Fa0NjZFdVeVYzVnJJU2N3emV4UDgzTk16QQ?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -7014,12 +6974,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Convert a search from SPL to SPL2 help.splunk.com",
+    "summary": "Convert a search from SPL to SPL2 Splunk",
     "summarySource": "extractive",
     "clusterId": "b877db3d3eddd7b9",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "22a7904e8127440c",
@@ -8548,12 +8508,12 @@
   },
   {
     "id": "776f5ce51945a1b4",
-    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - help.splunk.com",
+    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "help.splunk.com",
+      "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -8569,12 +8529,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) help.splunk.com",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
     "license": null,
-    "attribution": "via help.splunk.com (Google News)"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "60fa720f6e0fa931",
@@ -8866,12 +8826,12 @@
   },
   {
     "id": "3d49e2beaf4f3f4b",
-    "title": "Infoblox to acquire Kentik in DNS and network observability deal - crnasia.com",
+    "title": "Infoblox to acquire Kentik in DNS and network observability deal - CRN Asia",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "crnasia.com",
+      "name": "CRN Asia",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -8889,12 +8849,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Infoblox to acquire Kentik in DNS and network observability deal crnasia.com",
+    "summary": "Infoblox to acquire Kentik in DNS and network observability deal CRN Asia",
     "summarySource": "extractive",
     "clusterId": "3d49e2beaf4f3f4b",
     "lang": "en",
     "license": null,
-    "attribution": "via crnasia.com (Google News)"
+    "attribution": "via CRN Asia (Google News)"
   },
   {
     "id": "f9e171e427792cdf",
@@ -10255,7 +10215,7 @@
   },
   {
     "id": "25caa8d3495a4776",
-    "title": "What’s New With Splunk Enterprise 8.1 - splunk.com",
+    "title": "What’s New With Splunk Enterprise 8.1 - Splunk",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "source": {
