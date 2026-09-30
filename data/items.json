@@ -1,5 +1,33 @@
 [
   {
+    "id": "335b28c6dccccc1b",
+    "title": "AI-driven networking and infrastructure design at APNIC 62",
+    "url": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-30T03:02:50+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Presenters at APNIC 62 explored how AI is reshaping network design and operations, from next-generation optical architectures to autonomous management systems, highlighting scale challenges and improved reliability, efficiency, and operational decision-making.",
+    "summarySource": "extractive",
+    "clusterId": "335b28c6dccccc1b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "fdeae7bb039f782b",
     "title": "Using AI to chart a course for our post-quantum migration",
     "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
@@ -71,7 +99,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "standards"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -302,7 +330,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Thou shall not pass: Gatekeeping outbound TLS connections",
+    "summary": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
     "summarySource": "extractive",
     "clusterId": "6306bd1579277925",
     "lang": "en",
@@ -914,32 +942,32 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "372d8f3b55a94bd4",
-    "title": "PeeringDB Update April - September 2026",
-    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
-    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "id": "52bca3cd2fb2d005",
+    "title": "Understanding ASPA: The next step in routing security",
+    "url": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security",
     "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
     },
-    "author": "Leo Vegoda",
-    "publishedAt": "2026-09-23T13:13:32+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
+    "author": "Dale Roberts",
+    "publishedAt": "2026-09-23T04:55:18+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "PeeringDB Update April - September 2026",
+    "summary": "Join this APNIC Academy webinar to understand how ASPAs work, how they complement ROAs, and how you can begin monitoring and deploying them in your network.",
     "summarySource": "extractive",
-    "clusterId": "372d8f3b55a94bd4",
+    "clusterId": "52bca3cd2fb2d005",
     "lang": "en",
     "license": null,
-    "attribution": "via RIPE Labs"
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "9403c3137b65a504",
@@ -1134,7 +1162,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Latest BGP hijack targets hosting software vendor",
+    "summary": "Guest Post: An analysis of the BGP hijack against Softaculous that enabled an attacker to obtain a fraudulent TLS certificate and distribute a malicious Virtualizor update.",
     "summarySource": "extractive",
     "clusterId": "a1fbaea10ac5df2a",
     "lang": "en",
@@ -1264,34 +1292,6 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
-    "id": "fa984377e78b0ed6",
-    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
-    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Ethan Banks",
-    "publishedAt": "2026-09-21T13:00:34+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
-    "summarySource": "extractive",
-    "clusterId": "fa984377e78b0ed6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -1405,7 +1405,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
+    "summary": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
     "summarySource": "extractive",
     "clusterId": "e292202e70538dc1",
     "lang": "en",
@@ -1489,7 +1489,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
+    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -1527,6 +1527,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "2f561a6aeb7910a8",
+    "title": "Presto: A match-action TCP stack for the terabit era",
+    "url": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Rajath Shashidhara",
+    "publishedAt": "2026-09-18T03:34:15+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
+    "summarySource": "extractive",
+    "clusterId": "2f561a6aeb7910a8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "8f5289f4236e4aa3",
@@ -1613,6 +1641,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via crn.com (Google News)"
+  },
+  {
+    "id": "239997d31623ddb4",
+    "title": "[Podcast] ‘Just say no’ isn’t as simple as you think",
+    "url": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-16T23:23:11+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
+    "summarySource": "extractive",
+    "clusterId": "239997d31623ddb4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b5c7cbde6e9b0e6",
@@ -1766,6 +1822,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via MSSP Alert (Google News)"
+  },
+  {
+    "id": "5bd0ee4a5b0f9566",
+    "title": "The case for open-weight models and why we can’t trust frontier labs",
+    "url": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Niels Provos",
+    "publishedAt": "2026-09-16T05:42:22+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+    "summarySource": "extractive",
+    "clusterId": "5bd0ee4a5b0f9566",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "a2e152b4f8b70632",
@@ -1964,7 +2048,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 10 Best Kubernetes Security Tools in 2026 CyberSecurityNews",
+    "summary": "Top 10 Best Kubernetes Security Tools in 2026 - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "3a02f800a8aa60bf",
     "lang": "en",
@@ -2156,6 +2240,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "dbf1caeff20fe4fd",
+    "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
+    "url": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dan Fidler",
+    "publishedAt": "2026-09-13T22:22:29+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
+    "summarySource": "extractive",
+    "clusterId": "dbf1caeff20fe4fd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "6750a45f3c3ffa90",
@@ -2366,6 +2478,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Unite.AI (Google News)"
+  },
+  {
+    "id": "24cf9492d00785ba",
+    "title": "2026 APNIC Survey report released",
+    "url": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dale Roberts",
+    "publishedAt": "2026-09-10T03:21:38+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The 2026 APNIC Survey report is now available, providing valuable feedback from Members and the wider Internet community on APNIC’s performance, priorities, and future direction.",
+    "summarySource": "extractive",
+    "clusterId": "24cf9492d00785ba",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "704d0900605ac15f",
@@ -2749,34 +2890,6 @@
     "attribution": "via Cisco Blogs (Google News)"
   },
   {
-    "id": "20f7ad9eb66a41ca",
-    "title": "Closing the IPv6 First-Packet Gap with GRAND",
-    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
-    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Seyed Pouria Mousavizadeh Tehrani",
-    "publishedAt": "2026-09-04T13:32:29+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Closing the IPv6 First-Packet Gap with GRAND",
-    "summarySource": "extractive",
-    "clusterId": "20f7ad9eb66a41ca",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "862238d979ee4744",
     "title": "What part of ‘No!’ is so hard for the DNS to understand?",
     "url": "https://blog.apnic.net/2026/09/04/what-part-of-no-is-so-hard-for-the-dns-understand/",
@@ -2792,12 +2905,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "What part of ‘No!’ is so hard for the DNS to understand?",
+    "summary": "At APNIC Labs we've been experimenting with understanding how the DNS handles requests to resolve nonexistent names to make the DNS more resilient to random name attacks.",
     "summarySource": "extractive",
     "clusterId": "862238d979ee4744",
     "lang": "en",
@@ -2891,34 +3004,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
-  },
-  {
-    "id": "48d329f7c34cde74",
-    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
-    "url": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
-    "canonicalUrl": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Sebastian Kappes",
-    "publishedAt": "2026-09-03T12:03:26+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
-    "summarySource": "extractive",
-    "clusterId": "48d329f7c34cde74",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "76e12f23035ee5f3",
@@ -3095,34 +3180,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "831f42f8ca18045d",
-    "title": "The IRR Landscape: What RPKI Can Replace",
-    "url": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace/",
-    "canonicalUrl": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Matthias Wichtlhuber",
-    "publishedAt": "2026-09-01T12:20:33+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The IRR Landscape: What RPKI Can Replace",
-    "summarySource": "extractive",
-    "clusterId": "831f42f8ca18045d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "80022bd33cc33556",
     "title": "Users and roles for Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
@@ -3190,12 +3247,12 @@
   },
   {
     "id": "6abb00b4c123e867",
-    "title": "What's New - Splunk",
+    "title": "What's New - splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSamNIaU9kUnd0c1g0ZTZCbVAxUloxYVVEVy04dTNWRFlfdjEzMDRadnVtTVgwczFYMkZrTzJUSWdGUDhVTXczb1FOSFIwczJnQnVlTGFn?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSamNIaU9kUnd0c1g0ZTZCbVAxUloxYVVEVy04dTNWRFlfdjEzMDRadnVtTVgwczFYMkZrTzJUSWdGUDhVTXczb1FOSFIwczJnQnVlTGFn?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -3211,12 +3268,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's New Splunk",
+    "summary": "What's New splunk.com",
     "summarySource": "extractive",
     "clusterId": "6abb00b4c123e867",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via splunk.com (Google News)"
+  },
+  {
+    "id": "d807a797ef2eda8b",
+    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
+    "url": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Hervé Clément",
+    "publishedAt": "2026-09-01T06:03:50+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The NRO NC has published the Recommended Draft RIR Governance Document, including a redline version and rationale document.",
+    "summarySource": "extractive",
+    "clusterId": "d807a797ef2eda8b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "686c315836109e08",
@@ -3427,6 +3512,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "0c09e288ae377b54",
+    "title": "The lingering legacy of ‘reserved’ ports",
+    "url": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports/",
+    "canonicalUrl": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-08-27T23:29:48+00:00",
+    "fetchedAt": "2026-09-30T03:20:49+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Modern service discovery mechanisms increasingly allow services to run on arbitrary ports, yet DNS may remain the one protocol that cannot fully escape its dependency on the long-established convention of port 53.",
+    "summarySource": "extractive",
+    "clusterId": "0c09e288ae377b54",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "0534e91d190c6463",
@@ -4136,7 +4249,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
     "summarySource": "extractive",
     "clusterId": "ce0f99a9709db24e",
     "lang": "en",
@@ -4434,34 +4547,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "6e37c1de81a32100",
-    "title": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
-    "url": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves/",
-    "canonicalUrl": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Spiro Stathakis",
-    "publishedAt": "2026-08-14T08:57:28+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
-    "summarySource": "extractive",
-    "clusterId": "6e37c1de81a32100",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "9abba2edd640dac4",
@@ -6634,34 +6719,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "cc452a2859e103d0",
-    "title": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
-    "url": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
-    "canonicalUrl": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Artem Berezin",
-    "publishedAt": "2026-07-30T11:49:26+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
-    "summarySource": "extractive",
-    "clusterId": "cc452a2859e103d0",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "4d8858991c7a7ea2",
     "title": "BGP topics from IETF 126",
     "url": "https://blog.apnic.net/2026/07/30/bgp-topics-from-ietf-126/",
@@ -7549,37 +7606,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "68e7fbb9db5c7fd5",
-    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
-    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-07-22T15:54:49+00:00",
-    "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
-    "summarySource": "extractive",
-    "clusterId": "68e7fbb9db5c7fd5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "c06f5e3bc6364366",
@@ -10215,7 +10241,7 @@
   },
   {
     "id": "25caa8d3495a4776",
-    "title": "What’s New With Splunk Enterprise 8.1 - Splunk",
+    "title": "What’s New With Splunk Enterprise 8.1 - splunk.com",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "source": {
