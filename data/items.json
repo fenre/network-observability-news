@@ -1,5 +1,275 @@
 [
   {
+    "id": "317971da35b148b9",
+    "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "canonicalUrl": "https://blog.cloudflare.com/clef-decision-models",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Kevin Flansburg",
+    "publishedAt": "2026-10-01T15:34:02+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
+    "summarySource": "extractive",
+    "clusterId": "317971da35b148b9",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "cff0cfdac8b96768",
+    "title": "One year later: Sovereign AI and the fight for choice",
+    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+    "canonicalUrl": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Petra Arts",
+    "publishedAt": "2026-10-01T13:04:19+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
+    "summarySource": "extractive",
+    "clusterId": "cff0cfdac8b96768",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "d3d13d9734feda49",
+    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+    "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+    "canonicalUrl": "https://blog.cloudflare.com/managed-cloudflare-os",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Phillip Jones",
+    "publishedAt": "2026-10-01T13:00:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
+    "summarySource": "extractive",
+    "clusterId": "d3d13d9734feda49",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "c6c3c49e0ac1396f",
+    "title": "AI Search is now generally available",
+    "url": "https://blog.cloudflare.com/ai-search-ga/",
+    "canonicalUrl": "https://blog.cloudflare.com/ai-search-ga",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Ashish Vinodkumar",
+    "publishedAt": "2026-10-01T13:00:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new and how pricing works.",
+    "summarySource": "extractive",
+    "clusterId": "c6c3c49e0ac1396f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "8581f2589f95f862",
+    "title": "Support for modern cryptographic algorithms in Workers",
+    "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+    "canonicalUrl": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Thibault Meunier",
+    "publishedAt": "2026-10-01T13:00:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
+    "summarySource": "extractive",
+    "clusterId": "8581f2589f95f862",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "55a839bbc3fdfddb",
+    "title": "We want you to build the next Git platform on Cloudflare",
+    "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+    "canonicalUrl": "https://blog.cloudflare.com/next-git-platform-on-cloudflare",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Zebulon Piasecki",
+    "publishedAt": "2026-10-01T13:00:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
+    "summarySource": "extractive",
+    "clusterId": "55a839bbc3fdfddb",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "4f45a66ba9a41bdd",
+    "title": "Announcing Cloudflare K2: serverless event streams",
+    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+    "canonicalUrl": "https://blog.cloudflare.com/cloudflare-k2-streams",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Marc Selwan",
+    "publishedAt": "2026-10-01T13:00:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
+    "summarySource": "extractive",
+    "clusterId": "4f45a66ba9a41bdd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "319e51413ab6b76c",
+    "title": "Introducing Workers KV Instant — powered by Quicksilver",
+    "url": "https://blog.cloudflare.com/workers-kv-instant/",
+    "canonicalUrl": "https://blog.cloudflare.com/workers-kv-instant",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Rob Sutter",
+    "publishedAt": "2026-10-01T13:00:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
+    "summarySource": "extractive",
+    "clusterId": "319e51413ab6b76c",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "432829626cbfff9a",
+    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+    "url": "https://blog.cloudflare.com/cloudflare-basin/",
+    "canonicalUrl": "https://blog.cloudflare.com/cloudflare-basin",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Micah Wylde",
+    "publishedAt": "2026-10-01T12:58:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees.",
+    "summarySource": "extractive",
+    "clusterId": "432829626cbfff9a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "b21d61a3fef38ba1",
     "title": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC - Splunk",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbW5yb1g4R09mbFFGNkhvUmhnNHFBWVR6Yk51N1RCSXVnaUVZTjg5SENiZXpMbWxWeHNRQ2hISmZ2VDFXcFFNQVBXdDNTSmZmc3lieFlhdnhqZ2lSZEJFM2ZhbHUxN2NBbW5zWmlSMTJmNFlYcVAzYnIxS3pQbDJzY01ySEVBbzdndWJ6TkRWdXRiMW80c1BSRg?oc=5",
@@ -69,34 +339,6 @@
     "attribution": "via Splunk (canonical)"
   },
   {
-    "id": "7f17eb9683fcf2c2",
-    "title": "[Podcast] The October 2026 root KSK roll",
-    "url": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-09-30T22:44:12+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "[Podcast] The October 2026 root KSK roll",
-    "summarySource": "extractive",
-    "clusterId": "7f17eb9683fcf2c2",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "6f18b5af74c74b5a",
     "title": "New features for RFC-Editor.org",
     "url": "http://www.ietf.org/blog/rfc-editororg-update-202609/",
@@ -112,8 +354,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "standards"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -155,6 +396,41 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
+  },
+  {
+    "id": "d321d987244a9da4",
+    "title": "Welcome to Splunk Enterprise 10.6 - Splunk",
+    "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-09-30T17:11:53+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-enterprise",
+      "10.4",
+      "release-notes"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
+    "summarySource": "curated",
+    "clusterId": "25caa8d3495a4776",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
   },
   {
     "id": "90bacc6bfa20d1f0",
@@ -460,34 +736,6 @@
     "attribution": "via ntop Blog"
   },
   {
-    "id": "335b28c6dccccc1b",
-    "title": "AI-driven networking and infrastructure design at APNIC 62",
-    "url": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-09-30T03:02:50+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AI-driven networking and infrastructure design at APNIC 62",
-    "summarySource": "extractive",
-    "clusterId": "335b28c6dccccc1b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "fdeae7bb039f782b",
     "title": "Using AI to chart a course for our post-quantum migration",
     "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
@@ -530,9 +778,7 @@
     "author": "Zhiyuan Zheng",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -540,7 +786,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
+    "summary": "Enforce positive security with Cloudflare Application Profiles",
     "summarySource": "extractive",
     "clusterId": "f1ff1c95f2bad8ea",
     "lang": "en",
@@ -560,9 +806,7 @@
     "author": "Lina Baquero",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "standards"
@@ -570,7 +814,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks.",
+    "summary": "Preventing quantum downgrade attacks against IPsec",
     "summarySource": "extractive",
     "clusterId": "e8a54d503ecec13f",
     "lang": "en",
@@ -620,9 +864,7 @@
     "author": "Mari Galicer",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -630,7 +872,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
+    "summary": "Building a post-quantum certificate authority with Merkle Tree Certificates",
     "summarySource": "extractive",
     "clusterId": "ab881b15a8c6e839",
     "lang": "en",
@@ -650,9 +892,7 @@
     "author": "Kuber Nandwani",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -660,7 +900,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing.",
+    "summary": "We tested our own WAF with frontier AI models. Here’s what we found",
     "summarySource": "extractive",
     "clusterId": "724cedcf62f5f5ac",
     "lang": "en",
@@ -680,9 +920,7 @@
     "author": "Christian Reilly",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -690,7 +928,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+    "summary": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
     "summarySource": "extractive",
     "clusterId": "4f6b0652e0ee1176",
     "lang": "en",
@@ -710,9 +948,7 @@
     "author": "Jacob Crisp",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -720,7 +956,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
+    "summary": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
     "summarySource": "extractive",
     "clusterId": "2ae657c3256a1a13",
     "lang": "en",
@@ -740,9 +976,7 @@
     "author": "Sharon Goldberg",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -750,7 +984,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption.",
+    "summary": "Is your domain using post-quantum encryption? Now you can see for yourself",
     "summarySource": "extractive",
     "clusterId": "0999f45f4e9f500e",
     "lang": "en",
@@ -981,9 +1215,7 @@
     "author": "Samuel Macleod",
     "publishedAt": "2026-09-28T15:50:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -991,7 +1223,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+    "summary": "Introducing cf: the agentic CLI for the entire Cloudflare API",
     "summarySource": "extractive",
     "clusterId": "ff1c78cd980c5796",
     "lang": "en",
@@ -1011,9 +1243,7 @@
     "author": "Matt “TK” Taylor",
     "publishedAt": "2026-09-28T14:51:57+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1021,7 +1251,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
+    "summary": "Next.js applications, powered by Vite: introducing Vinext 1.0",
     "summarySource": "extractive",
     "clusterId": "33610af002449f2f",
     "lang": "en",
@@ -1432,34 +1662,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "52bca3cd2fb2d005",
-    "title": "Understanding ASPA: The next step in routing security",
-    "url": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dale Roberts",
-    "publishedAt": "2026-09-23T04:55:18+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Understanding ASPA: The next step in routing security",
-    "summarySource": "extractive",
-    "clusterId": "52bca3cd2fb2d005",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "9403c3137b65a504",
     "title": "PQC for Dummies—Cisco Special Edition: Why we wrote it",
     "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it/",
@@ -1790,6 +1992,34 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
+    "id": "fa984377e78b0ed6",
+    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
+    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Ethan Banks",
+    "publishedAt": "2026-09-21T13:00:34+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
+    "summarySource": "extractive",
+    "clusterId": "fa984377e78b0ed6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -1987,7 +2217,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
+    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -2025,34 +2255,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "2f561a6aeb7910a8",
-    "title": "Presto: A match-action TCP stack for the terabit era",
-    "url": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Rajath Shashidhara",
-    "publishedAt": "2026-09-18T03:34:15+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Presto: A match-action TCP stack for the terabit era",
-    "summarySource": "extractive",
-    "clusterId": "2f561a6aeb7910a8",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "8f5289f4236e4aa3",
@@ -2139,34 +2341,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via crn.com (Google News)"
-  },
-  {
-    "id": "239997d31623ddb4",
-    "title": "[Podcast] ‘Just say no’ isn’t as simple as you think",
-    "url": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-09-16T23:23:11+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "[Podcast] ‘Just say no’ isn’t as simple as you think",
-    "summarySource": "extractive",
-    "clusterId": "239997d31623ddb4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b5c7cbde6e9b0e6",
@@ -2323,34 +2497,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via MSSP Alert (Google News)"
-  },
-  {
-    "id": "5bd0ee4a5b0f9566",
-    "title": "The case for open-weight models and why we can’t trust frontier labs",
-    "url": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Niels Provos",
-    "publishedAt": "2026-09-16T05:42:22+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The case for open-weight models and why we can’t trust frontier labs",
-    "summarySource": "extractive",
-    "clusterId": "5bd0ee4a5b0f9566",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "a2e152b4f8b70632",
@@ -2748,34 +2894,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "dbf1caeff20fe4fd",
-    "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
-    "url": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dan Fidler",
-    "publishedAt": "2026-09-13T22:22:29+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
-    "summarySource": "extractive",
-    "clusterId": "dbf1caeff20fe4fd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "6750a45f3c3ffa90",
     "title": "ntop and the EU Cyber Resilience Act",
     "url": "https://www.ntop.org/ntop-and-the-eu-cyber-resilience-act/",
@@ -2984,35 +3102,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Unite.AI (Google News)"
-  },
-  {
-    "id": "24cf9492d00785ba",
-    "title": "2026 APNIC Survey report released",
-    "url": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dale Roberts",
-    "publishedAt": "2026-09-10T03:21:38+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "2026 APNIC Survey report released",
-    "summarySource": "extractive",
-    "clusterId": "24cf9492d00785ba",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "704d0900605ac15f",
@@ -3347,12 +3436,12 @@
   },
   {
     "id": "7d388f203538355a",
-    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - blogs.cisco.com",
+    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -3371,21 +3460,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes blogs.cisco.com",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "6c00764fa4070407",
-    "title": "Distributed Latency Monitoring at Black Hat - blogs.cisco.com",
+    "title": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HUmwtbThpUXExdFNmdVZqQkpEZWhZdGNKRG5TazM3WjJnMzg0bURpNlhNYXB3TE4wR2gzdUlNbUlCYW01Q1U0QjY3VnFFRUl1YXpsUFpldXhUdVRJTDVpSVl0dnk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HUmwtbThpUXExdFNmdVZqQkpEZWhZdGNKRG5TazM3WjJnMzg0bURpNlhNYXB3TE4wR2gzdUlNbUlCYW01Q1U0QjY3VnFFRUl1YXpsUFpldXhUdVRJTDVpSVl0dnk?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -3399,12 +3488,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat blogs.cisco.com",
+    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "862238d979ee4744",
@@ -3422,7 +3511,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "standards"
+      "news"
     ],
     "audiences": [
       "global"
@@ -3796,34 +3885,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "d807a797ef2eda8b",
-    "title": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
-    "url": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/01/recommended-draft-rir-governance-document-rationale-report-and-next-steps",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Hervé Clément",
-    "publishedAt": "2026-09-01T06:03:50+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
-    "summarySource": "extractive",
-    "clusterId": "d807a797ef2eda8b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "686c315836109e08",
     "title": "The 10 Best Splunk SOAR Alternatives in 2026: Compared Before the Python Playbook Migration - securityboulevard.com",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUjFPeVZ1b1pVUFhaYVNZLUJ3VUk2Smc3NzZBVmJVV1l0eWtQd0tXZVVGQVRQTTdtcUFQZExVVEItOW9ScjgxamJNTmdpM2paTGdyaktDa1EwRWFWRjloSWo4blV2R09EQk1HeGlzSEprMzJtUzJXV0VBaUNPX3drNmlSekhlYkpZN3F5RF9rSm9vRHFFYXJNNzhXWjIwX19XVjRZeHZLbG1oclQ5UkdKZW53SmhacThqa2pXYmhiUkd2ZTNOMW8weg?oc=5",
@@ -4034,34 +4095,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "0c09e288ae377b54",
-    "title": "The lingering legacy of ‘reserved’ ports",
-    "url": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/28/the-lingering-legacy-of-reserved-ports",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-08-27T23:29:48+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The lingering legacy of ‘reserved’ ports",
-    "summarySource": "extractive",
-    "clusterId": "0c09e288ae377b54",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "0534e91d190c6463",
     "title": "Introducing PF_RING 9.4: Expanding Capabilities Across Capture, Flow Processing and Hardware Support",
     "url": "https://www.ntop.org/introducing-pf_ring-9-4-expanding-capabilities-across-capture-flow-processing-and-hardware-support/",
@@ -4116,35 +4149,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "94bfbc6b397505f8",
-    "title": "IETF 126 post-meeting survey: what we heard",
-    "url": "http://www.ietf.org/blog/ietf126-survey/",
-    "canonicalUrl": "https://www.ietf.org/blog/ietf126-survey",
-    "source": {
-      "id": "ietf-blog",
-      "name": "IETF Blog",
-      "homepage": "https://www.ietf.org/blog"
-    },
-    "author": "Paige Mustafa, Akanksha Gohil",
-    "publishedAt": "2026-08-27T16:00:00+00:00",
-    "fetchedAt": "2026-10-01T03:27:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "IETF 126 post-meeting survey: what we heard",
-    "summarySource": "extractive",
-    "clusterId": "94bfbc6b397505f8",
-    "lang": "en",
-    "license": null,
-    "attribution": "via IETF Blog"
   },
   {
     "id": "0574ed581c8f68b9",
@@ -4267,12 +4271,12 @@
   },
   {
     "id": "58226cbb66a52c6e",
-    "title": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - blogs.cisco.com",
+    "title": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
     "source": {
       "id": "gnews-cisco-agenticops",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
@@ -4286,21 +4290,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers blogs.cisco.com",
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "58226cbb66a52c6e",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "4fa38b76345430f7",
-    "title": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - blogs.cisco.com",
+    "title": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - Cisco Blogs",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JZGNNTUM1a2xLdnZSXzhmTFd1UjUxczNnWjNhdXhVVEEteW1wWVZObTVRdzk2Y0RiRTZJZnNJOWV4RTEtV1p5Tw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JZGNNTUM1a2xLdnZSXzhmTFd1UjUxczNnWjNhdXhVVEEteW1wWVZObTVRdzk2Y0RiRTZJZnNJOWV4RTEtV1p5Tw?oc=5",
     "source": {
       "id": "gnews-cisco-catalyst-center",
-      "name": "blogs.cisco.com",
+      "name": "Cisco Blogs",
       "homepage": "https://news.google.com/search?q=Catalyst%20Center%20assurance"
     },
     "author": null,
@@ -4314,12 +4318,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection blogs.cisco.com",
+    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "4fa38b76345430f7",
     "lang": "en",
     "license": null,
-    "attribution": "via blogs.cisco.com (Google News)"
+    "attribution": "via Cisco Blogs (Google News)"
   },
   {
     "id": "0a97296544acf856",
@@ -4696,7 +4700,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What It Really Takes to Run OpenTelemetry - DevOps.com",
+    "summary": "What It Really Takes to Run OpenTelemetry DevOps.com",
     "summarySource": "extractive",
     "clusterId": "cae8c2f6b511c4b2",
     "lang": "en",
@@ -4788,6 +4792,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "ce0f99a9709db24e",
+    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-08-18T15:48:26+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summarySource": "extractive",
+    "clusterId": "ce0f99a9709db24e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -8150,6 +8182,37 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "68e7fbb9db5c7fd5",
+    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
+    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-07-22T15:54:49+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
+    "summarySource": "extractive",
+    "clusterId": "68e7fbb9db5c7fd5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "c06f5e3bc6364366",
     "title": "Inside a Shutdown: BGP Evidence from an Operator Who Was There",
     "url": "https://labs.ripe.net/author/mdkamruzzaman-khan-2/inside-a-shutdown-bgp-evidence-from-an-operator-who-was-there/",
@@ -8772,12 +8835,12 @@
   },
   {
     "id": "cb9d541a7b55e8f5",
-    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - CyberSecurityNews",
+    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - cybersecuritynews.com",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
+      "name": "cybersecuritynews.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
@@ -8794,12 +8857,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks CyberSecurityNews",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks cybersecuritynews.com",
     "summarySource": "extractive",
     "clusterId": "cb9d541a7b55e8f5",
     "lang": "en",
     "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
+    "attribution": "via cybersecuritynews.com (Google News)"
   },
   {
     "id": "96bff952071d094a",
@@ -9106,12 +9169,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "sdxcentral.com",
+      "name": "SDxCentral",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -9127,12 +9190,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess sdxcentral.com",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via sdxcentral.com (Google News)"
+    "attribution": "via SDxCentral (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -10005,7 +10068,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] - tech-insider.org",
+    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "88a8d0573fdb3591",
     "lang": "en",
@@ -10129,36 +10192,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Market Growth Reports (Google News)"
-  },
-  {
-    "id": "3b5e31584e1e04dd",
-    "title": "Discussing of LLM and Intelligent Monitoring at GRNOG 20",
-    "url": "https://www.ntop.org/discussing-of-llm-and-intelligent-monitoring-at-grnog-20/",
-    "canonicalUrl": "https://www.ntop.org/discussing-of-llm-and-intelligent-monitoring-at-grnog-20",
-    "source": {
-      "id": "ntop-blog",
-      "name": "ntop Blog",
-      "homepage": "https://www.ntop.org/blog"
-    },
-    "author": "admin",
-    "publishedAt": "2026-07-03T14:56:59+00:00",
-    "fetchedAt": "2026-07-03T19:07:27+00:00",
-    "topics": [],
-    "tags": [
-      "ntopng"
-    ],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Discussing of LLM and Intelligent Monitoring at GRNOG 20",
-    "summarySource": "extractive",
-    "clusterId": "3b5e31584e1e04dd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ntop Blog"
   },
   {
     "id": "e4abe5db260cbed6",
