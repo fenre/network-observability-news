@@ -25,7 +25,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC Splunk",
+    "summary": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC - Splunk",
     "summarySource": "extractive",
     "clusterId": "b21d61a3fef38ba1",
     "lang": "en",
@@ -89,7 +89,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this episode of PING, Verisign's Duane Wessels discusses the transition to the third DNS root KSK key pair, which is scheduled to begin signing the root zone on 11 October 2026.",
+    "summary": "[Podcast] The October 2026 root KSK roll",
     "summarySource": "extractive",
     "clusterId": "7f17eb9683fcf2c2",
     "lang": "en",
@@ -118,7 +118,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "New features implemented on RFC-Editor.org aim to make the site more useful and engaging for RFC consumers.",
+    "summary": "New features for RFC-Editor.org",
     "summarySource": "extractive",
     "clusterId": "6f18b5af74c74b5a",
     "lang": "en",
@@ -138,7 +138,10 @@
     "author": "Jay Mada",
     "publishedAt": "2026-09-30T17:56:10+00:00",
     "fetchedAt": "2026-09-30T21:44:03+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -146,7 +149,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When security moves at machine speed, campus networks can’t afford to stop",
+    "summary": "Learn how Live Protect and xFSU help campus teams reduce exposure, maintain connectivity, and deploy software updates with fewer disruptions as AI-assisted threats accelerate the need for faster security response.",
     "summarySource": "extractive",
     "clusterId": "b14bf45e93c321e2",
     "lang": "en",
@@ -166,7 +169,10 @@
     "author": "Poncho Sandoval",
     "publishedAt": "2026-09-30T14:00:22+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -174,7 +180,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "DevNet Latin & Hispanic Heritage Month recap",
+    "summary": "Celebrate Latin and Hispanic Heritage Month with Cisco DevNet! Explore our Spanish-language video series featuring four engineers shaping the future of network automation, and learn why multilingual tech education matters.",
     "summarySource": "extractive",
     "clusterId": "90bacc6bfa20d1f0",
     "lang": "en",
@@ -194,7 +200,9 @@
     "author": "Harrison Harnisch",
     "publishedAt": "2026-09-30T13:00:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -202,7 +210,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cut your AI spend with AI Gateway's Auto Router",
+    "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut AI spend while maintaining performance.",
     "summarySource": "extractive",
     "clusterId": "ee440c0d1eba59d3",
     "lang": "en",
@@ -222,7 +230,9 @@
     "author": "Frank Meszaros",
     "publishedAt": "2026-09-30T13:00:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -230,7 +240,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Identify AI model overuse with User Insights",
+    "summary": "AI Gateway User Insights now adds task, model, turn, and user categories to help teams understand AI adoption and make better model decisions. This is available free to AI Gateway users.",
     "summarySource": "extractive",
     "clusterId": "71261214eac6fb78",
     "lang": "en",
@@ -250,7 +260,9 @@
     "author": "Sam Else",
     "publishedAt": "2026-09-30T13:00:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -258,7 +270,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Pay Per Use: when AI uses your work, you should get paid",
+    "summary": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use.",
     "summarySource": "extractive",
     "clusterId": "703031683ee45806",
     "lang": "en",
@@ -278,7 +290,9 @@
     "author": "Isaac Bremseth",
     "publishedAt": "2026-09-30T13:00:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -286,7 +300,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+    "summary": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the closed beta.",
     "summarySource": "extractive",
     "clusterId": "6c753ea8ff22be29",
     "lang": "en",
@@ -306,7 +320,9 @@
     "author": "Carlos Armada",
     "publishedAt": "2026-09-30T13:00:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -314,7 +330,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Simplifying domains for people and agents",
+    "summary": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domains.",
     "summarySource": "extractive",
     "clusterId": "230a3430f52bfd2c",
     "lang": "en",
@@ -334,7 +350,9 @@
     "author": "Nevi Shah",
     "publishedAt": "2026-09-30T13:00:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -342,7 +360,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Detect and send production issues straight to your agent",
+    "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
     "summarySource": "extractive",
     "clusterId": "20c98f8389b1b023",
     "lang": "en",
@@ -362,7 +380,9 @@
     "author": "Matthew Conroy",
     "publishedAt": "2026-09-30T12:58:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -370,7 +390,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Internet has a second audience",
+    "summary": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for access.",
     "summarySource": "extractive",
     "clusterId": "657be6a647e0f360",
     "lang": "en",
@@ -390,15 +410,17 @@
     "author": "Thomas Lefebvre",
     "publishedAt": "2026-09-30T12:58:00+00:00",
     "fetchedAt": "2026-09-30T17:22:11+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+    "summary": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object.",
     "summarySource": "extractive",
     "clusterId": "1c1c21a082d3f25b",
     "lang": "en",
@@ -458,7 +480,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Presenters at APNIC 62 explored how AI is reshaping network design and operations, from next-generation optical architectures to autonomous management systems, highlighting scale challenges and improved reliability, efficiency, and operational decision-making.",
+    "summary": "AI-driven networking and infrastructure design at APNIC 62",
     "summarySource": "extractive",
     "clusterId": "335b28c6dccccc1b",
     "lang": "en",
@@ -478,7 +500,9 @@
     "author": "Tiago Silva",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -486,7 +510,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Using AI to chart a course for our post-quantum migration",
+    "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far.",
     "summarySource": "extractive",
     "clusterId": "fdeae7bb039f782b",
     "lang": "en",
@@ -506,7 +530,9 @@
     "author": "Zhiyuan Zheng",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -514,7 +540,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Enforce positive security with Cloudflare Application Profiles",
+    "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
     "summarySource": "extractive",
     "clusterId": "f1ff1c95f2bad8ea",
     "lang": "en",
@@ -534,15 +560,17 @@
     "author": "Lina Baquero",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Preventing quantum downgrade attacks against IPsec",
+    "summary": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks.",
     "summarySource": "extractive",
     "clusterId": "e8a54d503ecec13f",
     "lang": "en",
@@ -562,7 +590,9 @@
     "author": "Steve Goldsmith",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -570,7 +600,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building a certificate authority for the whole Internet",
+    "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web.",
     "summarySource": "extractive",
     "clusterId": "d385a22532007727",
     "lang": "en",
@@ -590,7 +620,9 @@
     "author": "Mari Galicer",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -598,7 +630,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+    "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
     "summarySource": "extractive",
     "clusterId": "ab881b15a8c6e839",
     "lang": "en",
@@ -618,7 +650,9 @@
     "author": "Kuber Nandwani",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -626,7 +660,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We tested our own WAF with frontier AI models. Here’s what we found",
+    "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing.",
     "summarySource": "extractive",
     "clusterId": "724cedcf62f5f5ac",
     "lang": "en",
@@ -646,7 +680,9 @@
     "author": "Christian Reilly",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -654,7 +690,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+    "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
     "summarySource": "extractive",
     "clusterId": "4f6b0652e0ee1176",
     "lang": "en",
@@ -674,7 +710,9 @@
     "author": "Jacob Crisp",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -682,7 +720,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+    "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
     "summarySource": "extractive",
     "clusterId": "2ae657c3256a1a13",
     "lang": "en",
@@ -702,7 +740,9 @@
     "author": "Sharon Goldberg",
     "publishedAt": "2026-09-29T13:00:00+00:00",
     "fetchedAt": "2026-09-29T17:24:37+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -710,7 +750,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Is your domain using post-quantum encryption? Now you can see for yourself",
+    "summary": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption.",
     "summarySource": "extractive",
     "clusterId": "0999f45f4e9f500e",
     "lang": "en",
@@ -768,7 +808,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
+    "summary": "Thou shall not pass: Gatekeeping outbound TLS connections",
     "summarySource": "extractive",
     "clusterId": "6306bd1579277925",
     "lang": "en",
@@ -852,7 +892,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-09-28T17:47:07+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -860,7 +903,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Automating Post-Quantum IPsec on Cisco Routers – IPsec Series, Part 12",
+    "summary": "No more CLI typing. This is where years of DevNet programmability skills land on a real world scenario: Ansible over NETCONF, one file for the posture, and proof the IPsec tunnels actually negotiated ML-KEM and ML-DSA.",
     "summarySource": "extractive",
     "clusterId": "9f90f7085d59fbb6",
     "lang": "en",
@@ -918,7 +961,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Nexus One and Cisco Secure Firewall integrations with Rafay enable fully self-service AI cloud",
+    "summary": "Cisco and Rafay portfolio integrations help neocloud and sovereign cloud operators onboard customers faster, improve GPU utilization, and deliver secure, multi-tenant infrastructure at scale.",
     "summarySource": "extractive",
     "clusterId": "adf98b4c9b531ab7",
     "lang": "en",
@@ -938,7 +981,9 @@
     "author": "Samuel Macleod",
     "publishedAt": "2026-09-28T15:50:00+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -946,7 +991,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
     "summarySource": "extractive",
     "clusterId": "ff1c78cd980c5796",
     "lang": "en",
@@ -966,7 +1011,9 @@
     "author": "Matt “TK” Taylor",
     "publishedAt": "2026-09-28T14:51:57+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -974,7 +1021,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+    "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
     "summarySource": "extractive",
     "clusterId": "33610af002449f2f",
     "lang": "en",
@@ -1218,7 +1265,10 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-09-25T15:00:54+00:00",
     "fetchedAt": "2026-09-25T16:16:12+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1226,7 +1276,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "New webinar series now on demand: Secure Networking Ecosystem Insights",
+    "summary": "Explore Cisco's on-demand webinar series on building a secure, ecosystem-driven network architecture across infrastructure, identity, and access.",
     "summarySource": "extractive",
     "clusterId": "9663ae093c630567",
     "lang": "en",
@@ -1336,7 +1386,9 @@
     "author": "Jawwad Memon",
     "publishedAt": "2026-09-24T20:07:52+00:00",
     "fetchedAt": "2026-09-24T20:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1344,7 +1396,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building a trusted foundation for confidential AI",
+    "summary": "Cisco and VAST help organizations bring advanced AI models to their most sensitive data, protecting data and models while in use, without giving up control.",
     "summarySource": "extractive",
     "clusterId": "005571fbfbc650ac",
     "lang": "en",
@@ -1400,7 +1452,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Join this APNIC Academy webinar to understand how ASPAs work, how they complement ROAs, and how you can begin monitoring and deploying them in your network.",
+    "summary": "Understanding ASPA: The next step in routing security",
     "summarySource": "extractive",
     "clusterId": "52bca3cd2fb2d005",
     "lang": "en",
@@ -1420,7 +1472,10 @@
     "author": "Albert Chiang",
     "publishedAt": "2026-09-22T22:41:59+00:00",
     "fetchedAt": "2026-09-23T02:43:11+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1428,7 +1483,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "PQC for Dummies—Cisco Special Edition: Why we wrote it",
+    "summary": "Get the thinking behind Post-Quantum Cryptography (PQC) for Dummies—Cisco Special Edition and how to use this resource as a starting point for IT teams to address the complexities of quantum computing.",
     "summarySource": "extractive",
     "clusterId": "9403c3137b65a504",
     "lang": "en",
@@ -1448,7 +1503,10 @@
     "author": "Bassam Khan",
     "publishedAt": "2026-09-22T20:41:57+00:00",
     "fetchedAt": "2026-09-22T20:43:36+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1456,7 +1514,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your network is a security layer. It’s time to treat it like one.",
+    "summary": "Explore the shift from passive to active security, key outcomes to prioritize, and three design pillars—unifying infrastructure, flow protection, and operational assurance—to defend against modern AI-driven threats.",
     "summarySource": "extractive",
     "clusterId": "a159a212ed37e76a",
     "lang": "en",
@@ -1600,7 +1658,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: An analysis of the BGP hijack against Softaculous that enabled an attacker to obtain a fraudulent TLS certificate and distribute a malicious Virtualizor update.",
+    "summary": "Latest BGP hijack targets hosting software vendor",
     "summarySource": "extractive",
     "clusterId": "a1fbaea10ac5df2a",
     "lang": "en",
@@ -1714,7 +1772,9 @@
     "author": "Noah Nisbet",
     "publishedAt": "2026-09-21T15:00:06+00:00",
     "fetchedAt": "2026-09-21T17:35:10+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "research"
@@ -1722,7 +1782,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Industry’s first MLPerf™ Inference benchmarking across multi-vendor accelerators",
+    "summary": "Orchestrate workloads across mixed-vendor GPU pools without penalties. Cisco’s first heterogeneous GPU MLPerf™ Inference submission optimizes your data center unit economics.",
     "summarySource": "extractive",
     "clusterId": "aff04b6e2abd02a6",
     "lang": "en",
@@ -1843,7 +1903,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
+    "summary": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
     "summarySource": "extractive",
     "clusterId": "e292202e70538dc1",
     "lang": "en",
@@ -1987,7 +2047,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
+    "summary": "Presto: A match-action TCP stack for the terabit era",
     "summarySource": "extractive",
     "clusterId": "2f561a6aeb7910a8",
     "lang": "en",
@@ -2101,7 +2161,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
+    "summary": "[Podcast] ‘Just say no’ isn’t as simple as you think",
     "summarySource": "extractive",
     "clusterId": "239997d31623ddb4",
     "lang": "en",
@@ -2194,7 +2254,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Native Splunk brings real-time insights to Cisco Nexus One",
+    "summary": "Discover how native Splunk embedded in Cisco Nexus Dashboard delivers real-time analytics, faster troubleshooting, and on-premises data sovereignty for modern data center and AI workloads.",
     "summarySource": "extractive",
     "clusterId": "1da38095436c66e8",
     "lang": "en",
@@ -2214,7 +2274,10 @@
     "author": "Jonathan Cohn",
     "publishedAt": "2026-09-16T15:00:57+00:00",
     "fetchedAt": "2026-09-16T15:53:04+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2222,7 +2285,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco integrates Axis devices, bringing unified management across IT environments",
+    "summary": "Cisco and Axis Communications are committed to bridging the gap between IT and physical security infrastructure, as we believe that close collaboration between these teams leads to a stronger, more comprehensive security strategy.",
     "summarySource": "extractive",
     "clusterId": "0899df4b800307a1",
     "lang": "en",
@@ -2282,7 +2345,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+    "summary": "The case for open-weight models and why we can’t trust frontier labs",
     "summarySource": "extractive",
     "clusterId": "5bd0ee4a5b0f9566",
     "lang": "en",
@@ -2334,7 +2397,9 @@
     "author": "Jacob Van Ewyk",
     "publishedAt": "2026-09-15T21:00:37+00:00",
     "fetchedAt": "2026-09-16T02:42:43+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -2342,7 +2407,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco UCS Manager: Celebrating the legacy, shaping the future with Cisco Intersight",
+    "summary": "Cisco UCS Manager shaped 17 years of infrastructure management. Now, with its end-of-life announced, Cisco Intersight carries that foundation forward with centralized visibility, automation, and scale. Learn the key dates for the UCS Manager EOL.",
     "summarySource": "extractive",
     "clusterId": "8ad73abee257f0f0",
     "lang": "en",
@@ -2549,7 +2614,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Closing the Resilience Gap with Native Splunk in Cisco Nexus One",
+    "summary": "See how Native Splunk and Cisco Nexus One bring analytics closer to network data, strengthen resilience, and connect teams across operational domains.",
     "summarySource": "extractive",
     "clusterId": "356cbaf4601fdcfd",
     "lang": "en",
@@ -2569,7 +2634,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-09-14T19:41:59+00:00",
     "fetchedAt": "2026-09-14T21:15:08+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2577,7 +2645,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Honest Migration Playbook – IPsec Series, Part 11",
+    "summary": "The final post in the IPsec series: a fully quantum-safe tunnel on Cisco 8000 routers, both pillars live on real hardware. Part 11 closes the arc with the migration playbook and what a healthy post-quantum tunnel actually looks like.",
     "summarySource": "extractive",
     "clusterId": "820ad99be137e547",
     "lang": "en",
@@ -2700,7 +2768,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Research and education network leaders across the Asia Pacific have signed the Auckland Declaration of Intent on Cyber Resilience, committing to stronger regional cooperation on cyber preparedness, information sharing, and incident coordination.",
+    "summary": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
     "summarySource": "extractive",
     "clusterId": "dbf1caeff20fe4fd",
     "lang": "en",
@@ -2939,7 +3007,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2026 APNIC Survey report is now available, providing valuable feedback from Members and the wider Internet community on APNIC’s performance, priorities, and future direction.",
+    "summary": "2026 APNIC Survey report released",
     "summarySource": "extractive",
     "clusterId": "24cf9492d00785ba",
     "lang": "en",
@@ -2987,7 +3055,10 @@
     "author": "Jonathan Cohn",
     "publishedAt": "2026-09-09T15:00:31+00:00",
     "fetchedAt": "2026-09-09T20:15:35+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2995,7 +3066,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco and Axis Communications: Greater visibility, scalability, and incident management",
+    "summary": "Cisco and Axis Communications now allow managing Axis devices directly via the Meraki dashboard. This integration unifies IT and physical security, providing centralized visibility and simplified operations on a single, scalable platform.",
     "summarySource": "extractive",
     "clusterId": "29948b79a54ffaf0",
     "lang": "en",
@@ -3015,7 +3086,9 @@
     "author": "Carlos Campos Torres",
     "publishedAt": "2026-09-09T15:00:14+00:00",
     "fetchedAt": "2026-09-09T15:42:06+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -3023,7 +3096,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Now generally available: See how Stack Automation by Quali cuts deployment time",
+    "summary": "Still burning weeks on manual infrastructure deployment? Stack Automation by Quali, co-developed with Cisco, is now available—turning that grind into an automated, cloud-like experience that takes minutes.",
     "summarySource": "extractive",
     "clusterId": "ebee230cb10ac52c",
     "lang": "en",
@@ -3101,7 +3174,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-09-08T17:48:10+00:00",
     "fetchedAt": "2026-09-08T20:33:00+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3109,7 +3185,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ML-DSA Certificates on Cisco Routers – IPsec Series, Part 10",
+    "summary": "An ML-DSA-65 certificate is 6x larger than RSA-2048. Part 10 builds the PKI externally, imports it into Cisco routers via PKCS#12, swaps PSK for ML-DSA signatures, and measures exactly what post-quantum authentication costs on the wire.",
     "summarySource": "extractive",
     "clusterId": "82e0f7e651724a41",
     "lang": "en",
@@ -3129,7 +3205,10 @@
     "author": "Vivek Bhargava",
     "publishedAt": "2026-09-08T15:00:43+00:00",
     "fetchedAt": "2026-09-08T15:46:22+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3137,7 +3216,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Manage Cisco rugged switches right from Cisco Cloud Control",
+    "summary": "Outdoor and uncarpeted spaces don’t have to be blind spots. Cisco now extends full Meraki dashboard management to the IE3500 Rugged Series, bringing your entire network under one trusted view.",
     "summarySource": "extractive",
     "clusterId": "9b394794bbc43807",
     "lang": "en",
@@ -3268,12 +3347,12 @@
   },
   {
     "id": "7d388f203538355a",
-    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
+    "title": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - blogs.cisco.com",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qa0p2SENYR2E0dEFZWnVTS2RvYnJwVWJXLWJrVF9hOC1Sa3hZVnplcTZyVWJ4T1dDZWdTeUxaVGVWSFJTZVJkTmRqQU8wR04xcnZYSk52QzdUU2QzeHhJRGpwMmhtVVlWdjRscg?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "Cisco Blogs",
+      "name": "blogs.cisco.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -3292,21 +3371,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes blogs.cisco.com",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via blogs.cisco.com (Google News)"
   },
   {
     "id": "6c00764fa4070407",
-    "title": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
+    "title": "Distributed Latency Monitoring at Black Hat - blogs.cisco.com",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HUmwtbThpUXExdFNmdVZqQkpEZWhZdGNKRG5TazM3WjJnMzg0bURpNlhNYXB3TE4wR2gzdUlNbUlCYW01Q1U0QjY3VnFFRUl1YXpsUFpldXhUdVRJTDVpSVl0dnk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HUmwtbThpUXExdFNmdVZqQkpEZWhZdGNKRG5TazM3WjJnMzg0bURpNlhNYXB3TE4wR2gzdUlNbUlCYW01Q1U0QjY3VnFFRUl1YXpsUFpldXhUdVRJTDVpSVl0dnk?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "Cisco Blogs",
+      "name": "blogs.cisco.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -3320,12 +3399,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat blogs.cisco.com",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via blogs.cisco.com (Google News)"
   },
   {
     "id": "862238d979ee4744",
@@ -3348,7 +3427,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At APNIC Labs we've been experimenting with understanding how the DNS handles requests to resolve nonexistent names to make the DNS more resilient to random name attacks.",
+    "summary": "What part of ‘No!’ is so hard for the DNS to understand?",
     "summarySource": "extractive",
     "clusterId": "862238d979ee4744",
     "lang": "en",
@@ -3524,7 +3603,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From fabric to cloud native: Cisco Nexus One for the modern private cloud",
+    "summary": "Cisco Nexus One now interoperates with VMware Cloud Foundation, using open EVPN-VXLAN standards to unify VCF, bare metal, and AI infrastructure under one consistent network operating model.",
     "summarySource": "extractive",
     "clusterId": "6905c08a500c7079",
     "lang": "en",
@@ -3574,7 +3653,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-09-01T20:49:30+00:00",
     "fetchedAt": "2026-09-02T02:16:33+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3582,7 +3664,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Post-Quantum Key Exchange on Cisco Routers – IPsec Series, Part 9",
+    "summary": "Three Cisco 8000 routers on IOS XE 26.2. We walk the key exchange from classical to PPK to native ML-KEM-768 hybrid, then prove a phased rollout across hub and spokes works with zero outage.",
     "summarySource": "extractive",
     "clusterId": "79c2bec584c8a692",
     "lang": "en",
@@ -3734,7 +3816,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The NRO NC has published the Recommended Draft RIR Governance Document, including a redline version and rationale document.",
+    "summary": "Recommended Draft RIR Governance Document, Rationale report, and next steps",
     "summarySource": "extractive",
     "clusterId": "d807a797ef2eda8b",
     "lang": "en",
@@ -3972,7 +4054,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modern service discovery mechanisms increasingly allow services to run on arbitrary ports, yet DNS may remain the one protocol that cannot fully escape its dependency on the long-established convention of port 53.",
+    "summary": "The lingering legacy of ‘reserved’ ports",
     "summarySource": "extractive",
     "clusterId": "0c09e288ae377b54",
     "lang": "en",
@@ -4057,7 +4139,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
+    "summary": "IETF 126 post-meeting survey: what we heard",
     "summarySource": "extractive",
     "clusterId": "94bfbc6b397505f8",
     "lang": "en",
@@ -4077,7 +4159,9 @@
     "author": "Varun Mehta",
     "publishedAt": "2026-08-27T15:00:21+00:00",
     "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4085,7 +4169,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "vPC and ESI-based multi-homing: The dynamic duo powering scalable, resilient data centers",
+    "summary": "Stop choosing between simplicity and scale. Learn how the dynamic duo of vPC and enhanced ESI builds a resilient, fabric-native network that accelerates your data center for the AI era with the sub-second convergence your business demands.",
     "summarySource": "extractive",
     "clusterId": "0574ed581c8f68b9",
     "lang": "en",
@@ -4163,7 +4247,10 @@
     "author": "Shweta Palande",
     "publishedAt": "2026-08-25T14:00:32+00:00",
     "fetchedAt": "2026-08-25T18:28:40+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4171,7 +4258,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection",
+    "summary": "Explore how Cisco Catalyst Center and Red Hat Ansible Automation Platform help NetOps teams automate provisioning, SD-Access, software image management, assurance, and compliance at scale.",
     "summarySource": "extractive",
     "clusterId": "4fa38b76345430f7",
     "lang": "en",
@@ -4180,12 +4267,12 @@
   },
   {
     "id": "58226cbb66a52c6e",
-    "title": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
+    "title": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - blogs.cisco.com",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DWVh0TmFQTHpOcGdyV0NlREI0OXdiNXp3MnB5UFJQOFlZSTNrUmhtTldsZDhiUU8wWmdLNzZtRUVPY2xtQ3NpdE83ZFBQR0NscTlHOE05TVpHMDc2V2p0XzJNVW44SlpMc0ppNVdHSUhsYkJsbklhTlpR?oc=5",
     "source": {
       "id": "gnews-cisco-agenticops",
-      "name": "Cisco Blogs",
+      "name": "blogs.cisco.com",
       "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
@@ -4199,21 +4286,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers blogs.cisco.com",
     "summarySource": "extractive",
     "clusterId": "58226cbb66a52c6e",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via blogs.cisco.com (Google News)"
   },
   {
     "id": "4fa38b76345430f7",
-    "title": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - Cisco Blogs",
+    "title": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - blogs.cisco.com",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JZGNNTUM1a2xLdnZSXzhmTFd1UjUxczNnWjNhdXhVVEEteW1wWVZObTVRdzk2Y0RiRTZJZnNJOWV4RTEtV1p5Tw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JZGNNTUM1a2xLdnZSXzhmTFd1UjUxczNnWjNhdXhVVEEteW1wWVZObTVRdzk2Y0RiRTZJZnNJOWV4RTEtV1p5Tw?oc=5",
     "source": {
       "id": "gnews-cisco-catalyst-center",
-      "name": "Cisco Blogs",
+      "name": "blogs.cisco.com",
       "homepage": "https://news.google.com/search?q=Catalyst%20Center%20assurance"
     },
     "author": null,
@@ -4227,12 +4314,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection Cisco Blogs",
+    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection blogs.cisco.com",
     "summarySource": "extractive",
     "clusterId": "4fa38b76345430f7",
     "lang": "en",
     "license": null,
-    "attribution": "via Cisco Blogs (Google News)"
+    "attribution": "via blogs.cisco.com (Google News)"
   },
   {
     "id": "0a97296544acf856",
@@ -4275,7 +4362,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-08-24T19:43:10+00:00",
     "fetchedAt": "2026-08-25T00:51:23+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4283,7 +4373,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Mutual Post-Quantum Auth over IKEv2 – IPsec Series, Part 8",
+    "summary": "We mutually authenticate an IKEv2 tunnel: classical ECDSA first, then ML-DSA over an ML-KEM key exchange, and watch the ML-DSA certs balloon the authentication message into six fragments on the wire.",
     "summarySource": "extractive",
     "clusterId": "bfe7552513d871d9",
     "lang": "en",
@@ -4331,7 +4421,10 @@
     "author": "Quinn Snyder",
     "publishedAt": "2026-08-24T15:00:41+00:00",
     "fetchedAt": "2026-08-24T18:28:56+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4339,7 +4432,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Rev Up to Recert: Stack Your AI Infrastructure and Ops Knowledge",
+    "summary": "Rev Up to Recert: Stack answers a hard truth about AI in networking: understanding it isn't enough. You also need to build the infrastructure behind it, operationalize it so it performs as intended, and use it as a diagnostic assistant.",
     "summarySource": "extractive",
     "clusterId": "328468f3e8b0aabd",
     "lang": "en",
@@ -4527,7 +4620,10 @@
     "author": "Devin Creer",
     "publishedAt": "2026-08-20T15:00:04+00:00",
     "fetchedAt": "2026-08-20T18:27:29+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4535,7 +4631,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Miercom validates Cisco 8000 Series Secure Routers for direct internet access",
+    "summary": "Miercom validation confirms Cisco 8000 Series Secure Routers deliver high-performance direct internet access (DIA) with integrated security built in.",
     "summarySource": "extractive",
     "clusterId": "d9b68bc0281c3401",
     "lang": "en",
@@ -4694,34 +4790,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-09-30T21:44:03+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "4d6a95e88ad53392",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
@@ -4790,7 +4858,10 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-08-18T15:00:15+00:00",
     "fetchedAt": "2026-08-18T18:26:16+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4798,7 +4869,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Cisco and Auvik simplify network modernization for AI",
+    "summary": "AI-ready operations start with knowing your network. See how Cisco and Auvik help IT teams map, monitor, and prioritize infrastructure updates across Cisco, Meraki, and multi-vendor environments.",
     "summarySource": "extractive",
     "clusterId": "61b3bb43e77b167d",
     "lang": "en",
@@ -4818,7 +4889,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-08-17T14:00:19+00:00",
     "fetchedAt": "2026-08-17T18:27:21+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4826,7 +4900,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Great Certificate Size Explosion – IPsec Series, Part 7",
+    "summary": "Hands-on with OpenSSL 3.5: we generate classical and post-quantum certificates and weigh them side by side. Then we sign, verify, and tamper.",
     "summarySource": "extractive",
     "clusterId": "c5e41a831296f634",
     "lang": "en",
@@ -5789,7 +5863,10 @@
     "author": "Alex Kim",
     "publishedAt": "2026-08-10T16:00:40+00:00",
     "fetchedAt": "2026-08-10T18:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5797,7 +5874,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Build agentic networking experiences with Meraki and Catalyst Center MCP servers",
+    "summary": "Use Cisco's beta Meraki and Catalyst Center MCP servers to bring supported, read-only network data into the AI agents and applications you build.",
     "summarySource": "extractive",
     "clusterId": "78ed9222ac516f14",
     "lang": "en",
@@ -7505,12 +7582,12 @@
   },
   {
     "id": "22a7904e8127440c",
-    "title": "Top 5 Use Cases for Splunk Enterprise Security - TechTarget",
+    "title": "Top 5 Use Cases for Splunk Enterprise Security - techtarget.com",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84VUVUa1I1dlBfd201TkNLcmxxSGQ1eWxFSWxWZWdnNUNfbUlfMmJrOF84Rl9kREl4T1hJLXk4WDBQN3FZN3F6SGhSQXJ2LWVCVV9PSWdNM3hmN1ktdjg4Zg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84VUVUa1I1dlBfd201TkNLcmxxSGQ1eWxFSWxWZWdnNUNfbUlfMmJrOF84Rl9kREl4T1hJLXk4WDBQN3FZN3F6SGhSQXJ2LWVCVV9PSWdNM3hmN1ktdjg4Zg?oc=5",
     "source": {
       "id": "gnews-splunk-es-soar",
-      "name": "TechTarget",
+      "name": "techtarget.com",
       "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
@@ -7529,12 +7606,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 5 Use Cases for Splunk Enterprise Security TechTarget",
+    "summary": "Top 5 Use Cases for Splunk Enterprise Security techtarget.com",
     "summarySource": "extractive",
     "clusterId": "22a7904e8127440c",
     "lang": "en",
     "license": null,
-    "attribution": "via TechTarget (Google News)"
+    "attribution": "via techtarget.com (Google News)"
   },
   {
     "id": "1d6a1d64c68b3486",
@@ -8130,12 +8207,12 @@
   },
   {
     "id": "71f1602a4eceb264",
-    "title": "Zero-code Kubernetes observability with eBPF demo - TechTarget",
+    "title": "Zero-code Kubernetes observability with eBPF demo - techtarget.com",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXBQUEt4ZUluNVF5bWE1aVN4TEE1V0RtN1VGanRNdWtISWwwOXRZeDNwZ0ZaSnNSNUdnSi0yNHBrNG1DNUhaS0I1NXRBZmxCSmgxNTlTckRmdmdoZ3dSclFrTTBKVEgtS0NrZmdfZlpvWTVWWmhkSF9qZkozWmJ3WjZ1TTVYTEJPTE9IUzBvQmVpaEtLRkNVbHMxczlfOUl1S3VyOWt3?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXBQUEt4ZUluNVF5bWE1aVN4TEE1V0RtN1VGanRNdWtISWwwOXRZeDNwZ0ZaSnNSNUdnSi0yNHBrNG1DNUhaS0I1NXRBZmxCSmgxNTlTckRmdmdoZ3dSclFrTTBKVEgtS0NrZmdfZlpvWTVWWmhkSF9qZkozWmJ3WjZ1TTVYTEJPTE9IUzBvQmVpaEtLRkNVbHMxczlfOUl1S3VyOWt3?oc=5",
     "source": {
       "id": "gnews-ebpf-cilium",
-      "name": "TechTarget",
+      "name": "techtarget.com",
       "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
     },
     "author": null,
@@ -8149,12 +8226,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zero-code Kubernetes observability with eBPF demo TechTarget",
+    "summary": "Zero-code Kubernetes observability with eBPF demo techtarget.com",
     "summarySource": "extractive",
     "clusterId": "71f1602a4eceb264",
     "lang": "en",
     "license": null,
-    "attribution": "via TechTarget (Google News)"
+    "attribution": "via techtarget.com (Google News)"
   },
   {
     "id": "87b9be2f1613d7e1",
@@ -9029,12 +9106,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "SDxCentral",
+      "name": "sdxcentral.com",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -9050,12 +9127,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess sdxcentral.com",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via SDxCentral (Google News)"
+    "attribution": "via sdxcentral.com (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -9534,7 +9611,11 @@
     "author": "Manoj Sudhakara",
     "publishedAt": "2026-07-07T17:59:20+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [
       "enterprise-security",
       "thousandeyes"
@@ -9545,7 +9626,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SharpHound Recon Attack – How AI enhanced the threat hunt",
+    "summary": "During the Cisco Live Americas 2026 Agentic SOC, we discovered and investigated suspicious LDAP activity both manually and with the assistance of AI. This helped us understand how the Agentic SOC can improve the threat-hunting process.",
     "summarySource": "extractive",
     "clusterId": "348782493055ff54",
     "lang": "en",
@@ -9565,7 +9646,10 @@
     "author": "Todd Dow",
     "publishedAt": "2026-07-07T17:59:16+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [
       "enterprise-security"
     ],
@@ -9575,7 +9659,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Machine Speed, Human Judgement: How AI Changed the SOC in 2026",
+    "summary": "A firsthand look inside the Cisco Live 2026 SOC and how AI, automation, and agentic workflows are transforming modern security operations.",
     "summarySource": "extractive",
     "clusterId": "3b9b455e5b1af53e",
     "lang": "en",
@@ -9595,7 +9679,10 @@
     "author": "Erik Dove",
     "publishedAt": "2026-07-07T17:59:03+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [
       "enterprise-security"
     ],
@@ -9605,7 +9692,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevating Expertise in the SOC",
+    "summary": "At Cisco Live AMER 2026, Tier One SOC Analysts elevate their expertise by investigating further with Splunk Security and Endace.",
     "summarySource": "extractive",
     "clusterId": "8e305f2089bebaa5",
     "lang": "en",
@@ -9625,7 +9712,10 @@
     "author": "Bilal Qamar",
     "publishedAt": "2026-07-07T17:58:48+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [
       "enterprise-security"
     ],
@@ -9635,7 +9725,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Educate at Event Speed: Cisco Live Security Operations Center",
+    "summary": "At Cisco Live AMER 2026, the Cisco Event SOC turned live operations into education through SOC tours, speaker sessions, and World of Solutions conversations.",
     "summarySource": "extractive",
     "clusterId": "680029d37632b51a",
     "lang": "en",
@@ -9655,7 +9745,11 @@
     "author": "Logan Buntrock",
     "publishedAt": "2026-07-07T17:58:43+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [
       "enterprise-security",
       "thousandeyes"
@@ -9666,7 +9760,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What Working the Cisco Live SOC Taught Me About AI, Detection, and Response",
+    "summary": "A product manager’s view from the Cisco Live SOC on using AI, Splunk ES, and XDR to investigate faster and build better detection and response products.",
     "summarySource": "extractive",
     "clusterId": "88027454121af708",
     "lang": "en",
@@ -9686,7 +9780,10 @@
     "author": "Manoj Sudhakara",
     "publishedAt": "2026-07-07T17:58:37+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [
       "enterprise-security"
     ],
@@ -9696,7 +9793,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cable to Cloud – A Product Engineer’s Journey Through the Cisco Live AMER 2026 SOC",
+    "summary": "A Cisco product engineer's first-time journey through the Cisco Live AMER 2026 Security Operations Center — from cabling the \"SOC in a Box\" on day one to teardown.",
     "summarySource": "extractive",
     "clusterId": "933cfd26697dd7dc",
     "lang": "en",
@@ -9716,7 +9813,11 @@
     "author": "Chris Perkins",
     "publishedAt": "2026-07-07T17:54:54+00:00",
     "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [
       "enterprise-security",
       "thousandeyes"
@@ -9727,7 +9828,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Experience Dividend: How Better Digital Experience Protects Revenue, Trust, and Growth",
+    "summary": "Inside the Cisco Live Americas 2026 Agentic SOC, Cisco Security and Splunk Security used evidence-backed AI workflows, human validation, and integrated telemetry to protect, educate, and innovate.",
     "summarySource": "extractive",
     "clusterId": "d672671599901175",
     "lang": "en",
@@ -10058,38 +10159,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
-  },
-  {
-    "id": "f0c0dbec8346f446",
-    "title": "OpenTelemetry Graduates to CNCF's Highest Maturity Level - infoq.com",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4QnpHNUk3bTIwSEJUdWxDZnNMUUozVlpXVDR1c0tyamNKX0FzRG5SNVpJNzYzRnpYNlZFM2dCcmRlQnpxRWpDNWQzR2F1Q0JJWUQ4MjQ1WkhoVmpoZEJmQmViRmx6MGNSSk51MnhTOWE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4QnpHNUk3bTIwSEJUdWxDZnNMUUozVlpXVDR1c0tyamNKX0FzRG5SNVpJNzYzRnpYNlZFM2dCcmRlQnpxRWpDNWQzR2F1Q0JJWUQ4MjQ1WkhoVmpoZEJmQmViRmx6MGNSSk51MnhTOWE?oc=5",
-    "source": {
-      "id": "gnews-opentelemetry-network",
-      "name": "infoq.com",
-      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-07-03T12:00:33+00:00",
-    "fetchedAt": "2026-07-03T13:47:48+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "OpenTelemetry Graduates to CNCF's Highest Maturity Level - infoq.com",
-    "summarySource": "extractive",
-    "clusterId": "f0c0dbec8346f446",
-    "lang": "en",
-    "license": null,
-    "attribution": "via infoq.com (Google News)"
   },
   {
     "id": "e4abe5db260cbed6",
