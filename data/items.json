@@ -609,11 +609,11 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
-      "dashboard-studio",
-      "federated-search",
+      "splunk-enterprise",
       "splunk-cloud",
-      "splunk-enterprise"
+      "10.4",
+      "federated-search",
+      "dashboard-studio"
     ],
     "categories": [
       "product-release"
@@ -701,12 +701,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1038,12 +1039,12 @@
   },
   {
     "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
+    "title": "2026 network outage report and internet health check - networkworld.com",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
     "source": {
       "id": "gnews-thousandeyes",
-      "name": "Network World",
+      "name": "networkworld.com",
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
@@ -1051,12 +1052,12 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check - Network World",
+    "summary": "2026 network outage report and internet health check networkworld.com",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
     "license": null,
-    "attribution": "via Network World (Google News)",
+    "attribution": "via networkworld.com (Google News)",
     "categories": [
       "outage"
     ],
@@ -2530,7 +2531,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Kubernetes Network Policy: 12 Steps to Zero Trust [2026] - shattered.io",
+    "summary": "Kubernetes Network Policy: 12 Steps to Zero Trust [2026] shattered.io",
     "summarySource": "extractive",
     "clusterId": "cfdad6a70f3514f6",
     "lang": "en",
@@ -2676,14 +2677,14 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
     "summary": "Native Splunk brings real-time insights to Cisco Nexus One",
     "summarySource": "extractive",
-    "clusterId": "b4f4082b2991895f",
+    "clusterId": "1da38095436c66e8",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Data Center Blog"
@@ -2796,7 +2797,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3131,7 +3132,7 @@
       "global",
       "nordics"
     ],
-    "summary": "Cisco's New Splunk AI Package Targets Computing Inside the Customer's Walls - Yahoo Finance",
+    "summary": "Cisco's New Splunk AI Package Targets Computing Inside the Customer's Walls Yahoo Finance",
     "summarySource": "extractive",
     "clusterId": "c039533fe1f321cf",
     "lang": "en",
@@ -3660,7 +3661,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk MCP Server 2.0: Moving at Agentic Speed, Without Giving Up Control - Splunk",
+    "summary": "Splunk MCP Server 2.0: Moving at Agentic Speed, Without Giving Up Control Splunk",
     "summarySource": "extractive",
     "clusterId": "1dacb8228bc2531e",
     "lang": "en",
@@ -3713,6 +3714,7 @@
     "publishedAt": "2026-09-07T07:00:00+00:00",
     "fetchedAt": "2026-09-07T16:58:50+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -3724,7 +3726,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
@@ -3752,7 +3754,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
@@ -4075,7 +4077,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security - Splunk",
+    "summary": "Users and roles for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
@@ -4108,7 +4110,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security - Splunk",
+    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
@@ -4138,7 +4140,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's New - Splunk",
+    "summary": "What's New Splunk",
     "summarySource": "extractive",
     "clusterId": "6abb00b4c123e867",
     "lang": "en",
@@ -4462,7 +4464,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Streaming Telemetry Improves Modern Network Monitoring - hackernoon.com",
+    "summary": "How Streaming Telemetry Improves Modern Network Monitoring hackernoon.com",
     "summarySource": "extractive",
     "clusterId": "3c360aa197f97dec",
     "lang": "en",
@@ -4546,7 +4548,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "58226cbb66a52c6e",
     "lang": "en",
@@ -4574,7 +4576,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - Cisco Blogs",
+    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "4fa38b76345430f7",
     "lang": "en",
@@ -4602,7 +4604,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Using eBPF in Kubernetes: A Security Overview - wiz.io",
+    "summary": "Using eBPF in Kubernetes: A Security Overview wiz.io",
     "summarySource": "extractive",
     "clusterId": "0a97296544acf856",
     "lang": "en",
@@ -4947,7 +4949,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What It Really Takes to Run OpenTelemetry - DevOps.com",
+    "summary": "What It Really Takes to Run OpenTelemetry DevOps.com",
     "summarySource": "extractive",
     "clusterId": "cae8c2f6b511c4b2",
     "lang": "en",
@@ -7815,7 +7817,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Convert a search from SPL to SPL2 - Splunk",
+    "summary": "Convert a search from SPL to SPL2 Splunk",
     "summarySource": "extractive",
     "clusterId": "b877db3d3eddd7b9",
     "lang": "en",
@@ -7848,7 +7850,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 5 Use Cases for Splunk Enterprise Security - TechTarget",
+    "summary": "Top 5 Use Cases for Splunk Enterprise Security TechTarget",
     "summarySource": "extractive",
     "clusterId": "22a7904e8127440c",
     "lang": "en",
@@ -7988,7 +7990,8 @@
     "publishedAt": "2026-07-24T07:00:00+00:00",
     "fetchedAt": "2026-07-24T13:22:17+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -7998,7 +8001,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Zero-Day CVE-2026-20253: CVSS 9.8, CISA KEV [2026] - tech-insider.org",
+    "summary": "Splunk Zero-Day CVE-2026-20253: CVSS 9.8, CISA KEV [2026] tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "6cf5286b02afc09d",
     "lang": "en",
@@ -8026,7 +8029,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
+    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking The Fast Mode",
     "summarySource": "extractive",
     "clusterId": "e509dc7d3ef80fe8",
     "lang": "en",
@@ -8206,7 +8209,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network - PA Media",
+    "summary": "Tigera Launches eBPF-powered Calico for VMs on Kubernetes: VM Migration That Doesn't Require Rebuilding the Network PA Media",
     "summarySource": "extractive",
     "clusterId": "07a925ae7b44b0d3",
     "lang": "en",
@@ -9013,19 +9016,20 @@
   },
   {
     "id": "cb9d541a7b55e8f5",
-    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - CyberSecurityNews",
+    "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - cybersecuritynews.com",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlhtYzR4bEhhZnFGVG5BVEFUVldoRU0zS1hLdkhzZEsyU094aW1GN2VwdnlOTDg4dy1ZMFM0bkNVQ05jQUtvMDA3YzJCWmZaMUxhbXpDR3JjY2pUbno2RXUxVFN2UGx4dEx1dmhqV2lPM1JpLTd6VGxhbUVkMzBwb25XaEp4Ulg50gGOAUFVX3lxTE9jR0RxNGhyeHFSbHZBRTAyOXZBY0RNRGZZQ19ySlVzb0VxZXlZazNya2QtaWtYSUw5Z2thRFFNdms4Ti1pYTI2RHg4NklVLTEzcEd2V1huN0FwTVhFT2VXVzBGZUxUWEhfWHo2SzRWb0FKQkdRb0VNRVZKY01ZcUFuQTdCZG5Bc0tRR3Y0LUE?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
-      "name": "CyberSecurityNews",
+      "name": "cybersecuritynews.com",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-16T13:27:04+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -9034,12 +9038,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks - CyberSecurityNews",
+    "summary": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks cybersecuritynews.com",
     "summarySource": "extractive",
     "clusterId": "cb9d541a7b55e8f5",
     "lang": "en",
     "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
+    "attribution": "via cybersecuritynews.com (Google News)"
   },
   {
     "id": "96bff952071d094a",
@@ -9055,7 +9059,8 @@
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-31T13:47:02+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -9064,7 +9069,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse - cyberpress.org",
+    "summary": "Splunk Enterprise Flaws Enable Credential Theft, Path Traversal, and SPL Abuse cyberpress.org",
     "summarySource": "extractive",
     "clusterId": "96bff952071d094a",
     "lang": "en",
@@ -9116,7 +9121,8 @@
     "publishedAt": "2026-07-16T07:00:00+00:00",
     "fetchedAt": "2026-07-16T13:27:04+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -9125,7 +9131,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Flaws Expose Stored Credentials and Allow Arbitrary SPL Searches - gbhackers.com",
+    "summary": "Splunk Enterprise Flaws Expose Stored Credentials and Allow Arbitrary SPL Searches gbhackers.com",
     "summarySource": "extractive",
     "clusterId": "08639e1a36433080",
     "lang": "en",
@@ -9282,12 +9288,12 @@
   },
   {
     "id": "feb4cb34b4f289b4",
-    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - aws.amazon.com",
+    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - Amazon Web Services (AWS)",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "aws.amazon.com",
+      "name": "Amazon Web Services (AWS)",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -9305,12 +9311,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - aws.amazon.com",
+    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline Amazon Web Services (AWS)",
     "summarySource": "extractive",
     "clusterId": "feb4cb34b4f289b4",
     "lang": "en",
     "license": null,
-    "attribution": "via aws.amazon.com (Google News)"
+    "attribution": "via Amazon Web Services (AWS) (Google News)"
   },
   {
     "id": "776f5ce51945a1b4",
@@ -9335,7 +9341,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -9344,12 +9350,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "sdxcentral.com",
+      "name": "SDxCentral",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -9365,12 +9371,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via sdxcentral.com (Google News)"
+    "attribution": "via SDxCentral (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -9632,12 +9638,12 @@
   },
   {
     "id": "3d49e2beaf4f3f4b",
-    "title": "Infoblox to acquire Kentik in DNS and network observability deal - crnasia.com",
+    "title": "Infoblox to acquire Kentik in DNS and network observability deal - CRN Asia",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVycU9LVDk2bDkxNDVPQmlWZU5hZFRzNGFJaUZCd29obHZHLXZzVGRBdnRGckdrM0JCVWxueHJMc3dpUl9yQ0QySi1mYzkxM3B5b1l4TlpFN252TFFZSlo0N0dLeW5xMVdFM09aS3ZkcFZYVFg3M2hLdTlDZFpTXzhOM3VmSVAzTHlOSFRURVFtRXpXNUVTcWpiMk55cHFaX1ZPc0hQaDVSTHM?oc=5",
     "source": {
       "id": "gnews-network-observability",
-      "name": "crnasia.com",
+      "name": "CRN Asia",
       "homepage": "https://news.google.com/search?q=%22network%20observability%22"
     },
     "author": null,
@@ -9655,12 +9661,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Infoblox to acquire Kentik in DNS and network observability deal - crnasia.com",
+    "summary": "Infoblox to acquire Kentik in DNS and network observability deal CRN Asia",
     "summarySource": "extractive",
     "clusterId": "3d49e2beaf4f3f4b",
     "lang": "en",
     "license": null,
-    "attribution": "via crnasia.com (Google News)"
+    "attribution": "via CRN Asia (Google News)"
   },
   {
     "id": "f9e171e427792cdf",
@@ -9976,7 +9982,7 @@
       "thousandeyes"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -10219,7 +10225,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] - tech-insider.org",
+    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] tech-insider.org",
     "summarySource": "extractive",
     "clusterId": "88a8d0573fdb3591",
     "lang": "en",
@@ -10853,12 +10859,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
