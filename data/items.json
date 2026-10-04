@@ -1,5 +1,35 @@
 [
   {
+    "id": "afad8aacc3400c35",
+    "title": "8 major updates to Cloudflare Observability",
+    "url": "https://blog.cloudflare.com/one-observability-platform/",
+    "canonicalUrl": "https://blog.cloudflare.com/one-observability-platform",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Sahidya Devadoss",
+    "publishedAt": "2026-10-02T18:00:00+00:00",
+    "fetchedAt": "2026-10-02T17:11:08+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "summarySource": "extractive",
+    "clusterId": "afad8aacc3400c35",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "429215ba772b9078",
     "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
     "url": "https://blog.cloudflare.com/streamline/",
@@ -12,7 +42,9 @@
     "author": "Taylor Smith",
     "publishedAt": "2026-10-02T16:13:45+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -20,7 +52,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
     "summarySource": "extractive",
     "clusterId": "429215ba772b9078",
     "lang": "en",
@@ -40,7 +72,9 @@
     "author": "Gabriel Massadas",
     "publishedAt": "2026-10-02T13:28:10+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -48,7 +82,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Web Search API via AI Gateway",
+    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
     "summarySource": "extractive",
     "clusterId": "5282f8714e4cbe00",
     "lang": "en",
@@ -68,7 +102,9 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -76,7 +112,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Birthday week: network performance update",
+    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
     "summarySource": "extractive",
     "clusterId": "c5769abc90da248d",
     "lang": "en",
@@ -96,7 +132,9 @@
     "author": "Daniel Walsh",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -104,37 +142,9 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Cloudflare Traces: follow requests through our entire platform",
+    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
     "summarySource": "extractive",
     "clusterId": "bc7eda42cb3f75f7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "afad8aacc3400c35",
-    "title": "8 major updates to Cloudflare Observability",
-    "url": "https://blog.cloudflare.com/one-observability-platform/",
-    "canonicalUrl": "https://blog.cloudflare.com/one-observability-platform",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Sahidya Devadoss",
-    "publishedAt": "2026-10-02T13:00:00+00:00",
-    "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "8 major updates to Cloudflare Observability",
-    "summarySource": "extractive",
-    "clusterId": "afad8aacc3400c35",
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
@@ -152,7 +162,9 @@
     "author": "Chase Catelli",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -160,7 +172,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
     "summarySource": "extractive",
     "clusterId": "72f49031912f98c0",
     "lang": "en",
@@ -180,7 +192,9 @@
     "author": "Akshat Mahajan",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -188,7 +202,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
     "summarySource": "extractive",
     "clusterId": "5e1d1c7f45993a25",
     "lang": "en",
@@ -208,7 +222,9 @@
     "author": "Nicole Justus",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -216,7 +232,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Follow the thread: a new dashboard to investigate account abuse",
+    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
     "summarySource": "extractive",
     "clusterId": "3836babc9c5a1ca6",
     "lang": "en",
@@ -236,7 +252,9 @@
     "author": "Alessandro Frigerio",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -244,7 +262,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
     "summarySource": "extractive",
     "clusterId": "34c5734222cd3ed3",
     "lang": "en",
@@ -264,7 +282,9 @@
     "author": "Jocelyn Woolbright",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -272,7 +292,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building for good: How civil society organizations are automating on Cloudflare",
+    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
     "summarySource": "extractive",
     "clusterId": "19ec3340e630282c",
     "lang": "en",
@@ -320,7 +340,9 @@
     "author": "Kevin Flansburg",
     "publishedAt": "2026-10-01T15:34:02+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -328,7 +350,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
     "summarySource": "extractive",
     "clusterId": "317971da35b148b9",
     "lang": "en",
@@ -348,7 +370,9 @@
     "author": "Petra Arts",
     "publishedAt": "2026-10-01T13:04:19+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -356,7 +380,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One year later: Sovereign AI and the fight for choice",
+    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
     "summarySource": "extractive",
     "clusterId": "cff0cfdac8b96768",
     "lang": "en",
@@ -376,7 +400,9 @@
     "author": "Phillip Jones",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -384,7 +410,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare OS: your company’s agent workspace, managed for you",
+    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
     "summarySource": "extractive",
     "clusterId": "d3d13d9734feda49",
     "lang": "en",
@@ -404,7 +430,9 @@
     "author": "Ashish Vinodkumar",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -412,7 +440,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI Search is now generally available",
+    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new and how pricing works.",
     "summarySource": "extractive",
     "clusterId": "c6c3c49e0ac1396f",
     "lang": "en",
@@ -432,7 +460,9 @@
     "author": "Thibault Meunier",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -440,7 +470,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Support for modern cryptographic algorithms in Workers",
+    "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
     "summarySource": "extractive",
     "clusterId": "8581f2589f95f862",
     "lang": "en",
@@ -460,7 +490,9 @@
     "author": "Zebulon Piasecki",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -468,7 +500,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We want you to build the next Git platform on Cloudflare",
+    "summary": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
     "summarySource": "extractive",
     "clusterId": "55a839bbc3fdfddb",
     "lang": "en",
@@ -488,7 +520,9 @@
     "author": "Marc Selwan",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -496,7 +530,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare K2: serverless event streams",
+    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
     "summarySource": "extractive",
     "clusterId": "4f45a66ba9a41bdd",
     "lang": "en",
@@ -516,7 +550,9 @@
     "author": "Rob Sutter",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -524,7 +560,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Workers KV Instant — powered by Quicksilver",
+    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
     "summarySource": "extractive",
     "clusterId": "319e51413ab6b76c",
     "lang": "en",
@@ -544,7 +580,9 @@
     "author": "Micah Wylde",
     "publishedAt": "2026-10-01T12:58:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -552,7 +590,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees.",
     "summarySource": "extractive",
     "clusterId": "432829626cbfff9a",
     "lang": "en",
@@ -4464,7 +4502,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Streaming Telemetry Improves Modern Network Monitoring HackerNoon",
+    "summary": "How Streaming Telemetry Improves Modern Network Monitoring - HackerNoon",
     "summarySource": "extractive",
     "clusterId": "3c360aa197f97dec",
     "lang": "en",
@@ -9349,12 +9387,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "SDxCentral",
+      "name": "sdxcentral.com",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -9370,12 +9408,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess sdxcentral.com",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via SDxCentral (Google News)"
+    "attribution": "via sdxcentral.com (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -10262,34 +10300,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via The New Stack (Google News)"
-  },
-  {
-    "id": "0cc2166ff1b8c791",
-    "title": "Accelerating Wi-Fi troubleshooting with AgenticOps",
-    "url": "https://blogs.cisco.com/networking/accelerating-wi-fi-troubleshooting-with-agenticops/",
-    "canonicalUrl": "https://blogs.cisco.com/networking/accelerating-wi-fi-troubleshooting-with-agenticops",
-    "source": {
-      "id": "cisco-networking-blog",
-      "name": "Cisco Networking Blog",
-      "homepage": "https://blogs.cisco.com/networking"
-    },
-    "author": "Helen Ewing",
-    "publishedAt": "2026-07-06T18:30:54+00:00",
-    "fetchedAt": "2026-07-06T19:46:11+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Accelerating Wi-Fi troubleshooting with AgenticOps",
-    "summarySource": "extractive",
-    "clusterId": "0cc2166ff1b8c791",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Networking Blog"
   },
   {
     "id": "e4abe5db260cbed6",
