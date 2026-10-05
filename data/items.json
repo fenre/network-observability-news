@@ -1,5 +1,65 @@
 [
   {
+    "id": "d1602119935ad054",
+    "title": "Everything we launched during Birthday Week 2026",
+    "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+    "canonicalUrl": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Meagan Gamache",
+    "publishedAt": "2026-10-05T13:00:00+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+    "summarySource": "extractive",
+    "clusterId": "d1602119935ad054",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "917bc7059d97798c",
+    "title": "One year later: the power of 1.1.1.1 interns",
+    "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+    "canonicalUrl": "https://blog.cloudflare.com/one-year-later-1111-interns",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Judy Cheong",
+    "publishedAt": "2026-10-05T13:00:00+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+    "summarySource": "extractive",
+    "clusterId": "917bc7059d97798c",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "afad8aacc3400c35",
     "title": "8 major updates to Cloudflare Observability",
     "url": "https://blog.cloudflare.com/one-observability-platform/",
@@ -12,7 +72,9 @@
     "author": "Sahidya Devadoss",
     "publishedAt": "2026-10-02T18:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -20,7 +82,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "8 major updates to Cloudflare Observability",
+    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
     "summarySource": "extractive",
     "clusterId": "afad8aacc3400c35",
     "lang": "en",
@@ -40,7 +102,9 @@
     "author": "Taylor Smith",
     "publishedAt": "2026-10-02T16:13:45+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -48,7 +112,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
     "summarySource": "extractive",
     "clusterId": "429215ba772b9078",
     "lang": "en",
@@ -68,7 +132,9 @@
     "author": "Gabriel Massadas",
     "publishedAt": "2026-10-02T13:28:10+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -76,7 +142,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Web Search API via AI Gateway",
+    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
     "summarySource": "extractive",
     "clusterId": "5282f8714e4cbe00",
     "lang": "en",
@@ -96,7 +162,9 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -104,7 +172,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Birthday week: network performance update",
+    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
     "summarySource": "extractive",
     "clusterId": "c5769abc90da248d",
     "lang": "en",
@@ -124,7 +192,9 @@
     "author": "Daniel Walsh",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -132,7 +202,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Cloudflare Traces: follow requests through our entire platform",
+    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
     "summarySource": "extractive",
     "clusterId": "bc7eda42cb3f75f7",
     "lang": "en",
@@ -152,7 +222,9 @@
     "author": "Chase Catelli",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -160,7 +232,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
     "summarySource": "extractive",
     "clusterId": "72f49031912f98c0",
     "lang": "en",
@@ -180,7 +252,9 @@
     "author": "Akshat Mahajan",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -188,7 +262,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
     "summarySource": "extractive",
     "clusterId": "5e1d1c7f45993a25",
     "lang": "en",
@@ -208,7 +282,9 @@
     "author": "Nicole Justus",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -216,7 +292,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Follow the thread: a new dashboard to investigate account abuse",
+    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
     "summarySource": "extractive",
     "clusterId": "3836babc9c5a1ca6",
     "lang": "en",
@@ -236,7 +312,9 @@
     "author": "Alessandro Frigerio",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -244,7 +322,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
     "summarySource": "extractive",
     "clusterId": "34c5734222cd3ed3",
     "lang": "en",
@@ -264,7 +342,9 @@
     "author": "Jocelyn Woolbright",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -272,7 +352,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building for good: How civil society organizations are automating on Cloudflare",
+    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
     "summarySource": "extractive",
     "clusterId": "19ec3340e630282c",
     "lang": "en",
@@ -320,7 +400,9 @@
     "author": "Kevin Flansburg",
     "publishedAt": "2026-10-01T15:34:02+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -328,7 +410,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
     "summarySource": "extractive",
     "clusterId": "317971da35b148b9",
     "lang": "en",
@@ -348,7 +430,9 @@
     "author": "Petra Arts",
     "publishedAt": "2026-10-01T13:04:19+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -356,7 +440,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One year later: Sovereign AI and the fight for choice",
+    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
     "summarySource": "extractive",
     "clusterId": "cff0cfdac8b96768",
     "lang": "en",
@@ -376,7 +460,9 @@
     "author": "Phillip Jones",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -384,7 +470,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare OS: your company’s agent workspace, managed for you",
+    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
     "summarySource": "extractive",
     "clusterId": "d3d13d9734feda49",
     "lang": "en",
@@ -404,7 +490,9 @@
     "author": "Ashish Vinodkumar",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -412,7 +500,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI Search is now generally available",
+    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new and how pricing works.",
     "summarySource": "extractive",
     "clusterId": "c6c3c49e0ac1396f",
     "lang": "en",
@@ -432,7 +520,9 @@
     "author": "Thibault Meunier",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -440,7 +530,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Support for modern cryptographic algorithms in Workers",
+    "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
     "summarySource": "extractive",
     "clusterId": "8581f2589f95f862",
     "lang": "en",
@@ -460,7 +550,9 @@
     "author": "Zebulon Piasecki",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -468,7 +560,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We want you to build the next Git platform on Cloudflare",
+    "summary": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
     "summarySource": "extractive",
     "clusterId": "55a839bbc3fdfddb",
     "lang": "en",
@@ -488,7 +580,9 @@
     "author": "Marc Selwan",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -496,7 +590,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare K2: serverless event streams",
+    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
     "summarySource": "extractive",
     "clusterId": "4f45a66ba9a41bdd",
     "lang": "en",
@@ -516,7 +610,9 @@
     "author": "Rob Sutter",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -524,7 +620,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Workers KV Instant — powered by Quicksilver",
+    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
     "summarySource": "extractive",
     "clusterId": "319e51413ab6b76c",
     "lang": "en",
@@ -609,11 +705,11 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
-      "splunk-cloud",
       "10.4",
+      "dashboard-studio",
       "federated-search",
-      "dashboard-studio"
+      "splunk-cloud",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release"
@@ -1348,6 +1444,39 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "983fcafd693ba67d",
+    "title": "ThousandEyes Kubernetes Agent - ThousandEyes",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IS3Jzck91Y2l2VG54UUtQNWZmNlF1czZTeU5CVjBsVWgwcmYzNWQyRy1wSi15emd0OHlUTnJuZFVJLUxBU0x2YzhBQWxNeXBCVUFZS2ZtTnVTanI0MDBwWFZjeHAzT2s5cHU0am4wbldUUjg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IS3Jzck91Y2l2VG54UUtQNWZmNlF1czZTeU5CVjBsVWgwcmYzNWQyRy1wSi15emd0OHlUTnJuZFVJLUxBU0x2YzhBQWxNeXBCVUFZS2ZtTnVTanI0MDBwWFZjeHAzT2s5cHU0am4wbldUUjg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "ThousandEyes",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-09-29T02:48:29+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ThousandEyes Kubernetes Agent ThousandEyes",
+    "summarySource": "extractive",
+    "clusterId": "983fcafd693ba67d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ThousandEyes (Google News)"
+  },
+  {
     "id": "6306bd1579277925",
     "title": "Thou shall not pass: Gatekeeping outbound TLS connections",
     "url": "https://blog.apnic.net/2026/09/29/thou-shall-not-pass-gatekeeping-outbound-tls-connections/",
@@ -1978,6 +2107,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "372d8f3b55a94bd4",
+    "title": "PeeringDB Update April - September 2026",
+    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-09-23T13:13:32+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summarySource": "extractive",
+    "clusterId": "372d8f3b55a94bd4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "9403c3137b65a504",
@@ -3607,6 +3764,38 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "6f1c318456355365",
+    "title": "Seeing Where Your Traffic Goes: Flow and Alert Geomaps",
+    "url": "https://www.ntop.org/seeing-where-your-traffic-goes-flow-and-alert-geomaps/",
+    "canonicalUrl": "https://www.ntop.org/seeing-where-your-traffic-goes-flow-and-alert-geomaps",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-08T10:37:56+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A flow table tells you which hosts are talking. A map tells you where. ntopng has two geomap views built on the same idea: one for live flows, one for flow alerts and together they answer “who are we communicating with around the world” and “where are the alerts coming from”. Here’s how to use […]",
+    "summarySource": "extractive",
+    "clusterId": "6f1c318456355365",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "414b571ab01b9985",
     "title": "ThousandEyes Assurance and MCP in the Post-Mythos Era - ThousandEyes",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WbzB3Vk9XeUVYWXF0LXQ2SUF5aEhhM1JlQUtVZUh4WDBFa05CV1BwYVdNSDVRUXJGVnFZSmlOSHI0MXpvd2ZtNFNPY2R6cTYyRDJTR0FnUzY1bkUyQllUeFd4SWpaTEo4ZTJGSndDVlRuelhHS0VzTWtBUUtOX0k?oc=5",
@@ -3762,6 +3951,34 @@
     "attribution": "via Cisco Blogs (Google News)"
   },
   {
+    "id": "20f7ad9eb66a41ca",
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Seyed Pouria Mousavizadeh Tehrani",
+    "publishedAt": "2026-09-04T13:32:29+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summarySource": "extractive",
+    "clusterId": "20f7ad9eb66a41ca",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "862238d979ee4744",
     "title": "What part of ‘No!’ is so hard for the DNS to understand?",
     "url": "https://blog.apnic.net/2026/09/04/what-part-of-no-is-so-hard-for-the-dns-understand/",
@@ -3876,6 +4093,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
+  },
+  {
+    "id": "48d329f7c34cde74",
+    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
+    "url": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
+    "canonicalUrl": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Sebastian Kappes",
+    "publishedAt": "2026-09-03T12:03:26+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "summarySource": "extractive",
+    "clusterId": "48d329f7c34cde74",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "76e12f23035ee5f3",
@@ -4050,6 +4295,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "831f42f8ca18045d",
+    "title": "The IRR Landscape: What RPKI Can Replace",
+    "url": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace/",
+    "canonicalUrl": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Matthias Wichtlhuber",
+    "publishedAt": "2026-09-01T12:20:33+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BGP filter generation.",
+    "summarySource": "extractive",
+    "clusterId": "831f42f8ca18045d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "80022bd33cc33556",
@@ -4312,9 +4585,7 @@
     "author": "admin",
     "publishedAt": "2026-08-28T14:31:45+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4322,7 +4593,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are proud to announce the release of nDPI 6.0, the latest major update to our open-source Deep Packet Inspection (DPI) toolkit. This release brings an important licensing update, a brand-new detection logic for Slow DoS attacks, more flexible and reliable traffic fingerprints, and zero-overhead runtime observability via USDT tracepoints — on top of new […]",
+    "summary": "Introducing nDPI 6.0: Licensing Update, Slow DoS Detection and Smarter Fingerprints",
     "summarySource": "extractive",
     "clusterId": "52fbb0e3a8ade61b",
     "lang": "en",
@@ -4716,7 +4987,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
+    "summary": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
     "summarySource": "extractive",
     "clusterId": "602fb396100a42b4",
     "lang": "en",
@@ -5333,6 +5604,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "6e37c1de81a32100",
+    "title": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
+    "url": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves/",
+    "canonicalUrl": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Spiro Stathakis",
+    "publishedAt": "2026-08-14T08:57:28+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
+    "summarySource": "extractive",
+    "clusterId": "6e37c1de81a32100",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "9abba2edd640dac4",
@@ -7505,6 +7804,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "cc452a2859e103d0",
+    "title": "Two Providers, a Stubborn Plateau and a Very Long Tail: Email in the Tranco Top-1M",
+    "url": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
+    "canonicalUrl": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Artem Berezin",
+    "publishedAt": "2026-07-30T11:49:26+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Ten years of DNS measurements reveal three trends across the Internet's most popular domains: email continues to consolidate around two providers, DMARC enforcement has hit a plateau, and a surprisingly large long tail of infrastructure defies easy classification.",
+    "summarySource": "extractive",
+    "clusterId": "cc452a2859e103d0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "4d8858991c7a7ea2",
     "title": "BGP topics from IETF 126",
     "url": "https://blog.apnic.net/2026/07/30/bgp-topics-from-ietf-126/",
@@ -8009,12 +8336,12 @@
   },
   {
     "id": "e509dc7d3ef80fe8",
-    "title": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - The Fast Mode",
+    "title": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking - thefastmode.com",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3ViN1NndWFDY3RTdl9vTDZwak1INVgyNXVOQjBsWDFVQTh5RlZYS1FKRkxsdG5PdXcwNWg5RlJhRW9zMS1BZnFkcWhLZ2JKV01DUE1vLWh0WkxnSFJuQzA0RGdrdzltX0ViclhuUDdIRGZNTW13ZTlDZkR4aG1ucFVHQzI0c0F0VXd6T1hRUE95ZTNpdlVZT2lSaURCT0lUNDlGem9aMDFoYkxKWUNCS1Btajk3SkN1TUoxaDUyRDQ5djdjX0pXc3pVZlRLSzY2eE1r?oc=5",
     "source": {
       "id": "gnews-ebpf-cilium",
-      "name": "The Fast Mode",
+      "name": "thefastmode.com",
       "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
     },
     "author": null,
@@ -8028,12 +8355,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking The Fast Mode",
+    "summary": "Tigera Launches Calico for Kubernetes Virtual Machines With Native eBPF Networking thefastmode.com",
     "summarySource": "extractive",
     "clusterId": "e509dc7d3ef80fe8",
     "lang": "en",
     "license": null,
-    "attribution": "via The Fast Mode (Google News)"
+    "attribution": "via thefastmode.com (Google News)"
   },
   {
     "id": "f0d23dd320ac6d0c",
@@ -8469,7 +8796,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zero-code Kubernetes observability with eBPF demo - TechTarget",
+    "summary": "Zero-code Kubernetes observability with eBPF demo TechTarget",
     "summarySource": "extractive",
     "clusterId": "71f1602a4eceb264",
     "lang": "en",
@@ -9287,12 +9614,12 @@
   },
   {
     "id": "feb4cb34b4f289b4",
-    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - Amazon Web Services (AWS)",
+    "title": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline - aws.amazon.com",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1JNSS1CcVFlMmlUenJjX001RnpHTkxEWUdXaGV5RXFKcGE5eFRtN08xQU5hd29ISXlIUUI3eXBBTHRxY1AtZFhEQmNkcno4OUlnWGt2U25tUGtJZVkxWk1iVGJXVXpiMUM1NE0tSGhWS3JCNjZYVzAtX3ByVkpKUnV2a1RiUzRvMFc4bGJMUE5IUkJMYUpKb2xpMElZa3ppbVNNU1AyZzhnT3M?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "Amazon Web Services (AWS)",
+      "name": "aws.amazon.com",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -9310,12 +9637,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline Amazon Web Services (AWS)",
+    "summary": "Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline aws.amazon.com",
     "summarySource": "extractive",
     "clusterId": "feb4cb34b4f289b4",
     "lang": "en",
     "license": null,
-    "attribution": "via Amazon Web Services (AWS) (Google News)"
+    "attribution": "via aws.amazon.com (Google News)"
   },
   {
     "id": "776f5ce51945a1b4",
@@ -9349,12 +9676,12 @@
   },
   {
     "id": "60fa720f6e0fa931",
-    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - SDxCentral",
+    "title": "Apple scoops up observability player SigScalr for Splunk beating prowess - sdxcentral.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUh6cVp2UUlncnd2SjZtS2pWdUhkS0xueGVudkx5dklnX0dVUDZSSlZ3NFJld3JjTGpDaTRXbmRSU0k3R1F4eWJIZ1lHT3FpWUp4TDBabUhySmhGa3J1Z2xmcmR5cVo4a3BjRnJVM19tLWVtbl9ZYWxRamRueVdMTWUtXzZkZmdkZThkWWRGbVlhUC1PdEtUTEN3U1BvMmc1ZXRiWFFmbkk?oc=5",
     "source": {
       "id": "gnews-splunk",
-      "name": "SDxCentral",
+      "name": "sdxcentral.com",
       "homepage": "https://news.google.com/search?q=Splunk%20observability"
     },
     "author": null,
@@ -9370,12 +9697,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess SDxCentral",
+    "summary": "Apple scoops up observability player SigScalr for Splunk beating prowess sdxcentral.com",
     "summarySource": "extractive",
     "clusterId": "60fa720f6e0fa931",
     "lang": "en",
     "license": null,
-    "attribution": "via SDxCentral (Google News)"
+    "attribution": "via sdxcentral.com (Google News)"
   },
   {
     "id": "b21a61abd039c2c0",
@@ -10174,94 +10501,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
-  },
-  {
-    "id": "6f4bf3e98fe8397a",
-    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
-    "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
-    "canonicalUrl": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Ling Wu",
-    "publishedAt": "2026-07-07T12:00:00+00:00",
-    "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
-    "summarySource": "extractive",
-    "clusterId": "6f4bf3e98fe8397a",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "88a8d0573fdb3591",
-    "title": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] - tech-insider.org",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xY2x2YV8zZ1JRRkY5TDFmdmhhMGhZTEk5WDNBeDAwQ1ZJc0hwWVY0NEkySWxKb1ZXMXpvXzB0WER0SlhSRHp4ZjVITjdwZW9jVGEtS0V4QWg2VDdKdnhUM1lJQWNROEM4?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xY2x2YV8zZ1JRRkY5TDFmdmhhMGhZTEk5WDNBeDAwQ1ZJc0hwWVY0NEkySWxKb1ZXMXpvXzB0WER0SlhSRHp4ZjVITjdwZW9jVGEtS0V4QWg2VDdKdnhUM1lJQWNROEM4?oc=5",
-    "source": {
-      "id": "gnews-cisco-sdwan",
-      "name": "tech-insider.org",
-      "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
-    },
-    "author": null,
-    "publishedAt": "2026-07-07T07:00:00+00:00",
-    "fetchedAt": "2026-07-07T19:45:22+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco SD-WAN: 7 Zero-Days, 2 at CVSS 10 [2026] tech-insider.org",
-    "summarySource": "extractive",
-    "clusterId": "88a8d0573fdb3591",
-    "lang": "en",
-    "license": null,
-    "attribution": "via tech-insider.org (Google News)"
-  },
-  {
-    "id": "8572d742be42f267",
-    "title": "Watch AWS engineers troubleshoot agentic AI with OpenTelemetry and OpenSearch - The New Stack",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13VzRrdjM1WnYtT3F3eG1ycDZFV3pCUDhfQ2Q0Wk1QemVIRTg1V3BaMnF2ZUtMcW5USUVCVGU5ekNkM2o4NVJfQUJVLTROMHpORWZzeTdzVlZhUUprTTJuaWZ5QzFWLWh3aDRBckRPalVtUVBGbGdz?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13VzRrdjM1WnYtT3F3eG1ycDZFV3pCUDhfQ2Q0Wk1QemVIRTg1V3BaMnF2ZUtMcW5USUVCVGU5ekNkM2o4NVJfQUJVLTROMHpORWZzeTdzVlZhUUprTTJuaWZ5QzFWLWh3aDRBckRPalVtUVBGbGdz?oc=5",
-    "source": {
-      "id": "gnews-opentelemetry-network",
-      "name": "The New Stack",
-      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-07-07T07:00:00+00:00",
-    "fetchedAt": "2026-07-11T18:50:44+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Watch AWS engineers troubleshoot agentic AI with OpenTelemetry and OpenSearch - The New Stack",
-    "summarySource": "extractive",
-    "clusterId": "8572d742be42f267",
-    "lang": "en",
-    "license": null,
-    "attribution": "via The New Stack (Google News)"
   },
   {
     "id": "e4abe5db260cbed6",
