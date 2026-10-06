@@ -1,5 +1,37 @@
 [
   {
+    "id": "75cdb46cf121c71e",
+    "title": "Zero-code trace-log correlation with OBI",
+    "url": "https://opentelemetry.io/blog/2026/obi-trace-log-correlation/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/obi-trace-log-correlation",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-06T10:19:48+00:00",
+    "fetchedAt": "2026-10-06T12:32:27+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "You get paged. A trace shows a request failing in one of your services, and you know the answer is in the logs — but which log lines belong to that request? If the service never adopted structured logging with trace context, the honest answer is: you grep by timestamp and hope.",
+    "summarySource": "extractive",
+    "clusterId": "75cdb46cf121c71e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
     "id": "9204a71a032e97f4",
     "title": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
     "url": "https://zeek.org/2026/10/which-zeek-alerts-do-you-trust/",
@@ -12,7 +44,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-10-05T21:53:58+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security",
@@ -21,7 +55,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
+    "summary": "One team won’t start building an alert until someone has written down what it is, why it matters to the organization, what to do when it fires and how to confirm it’s resolved. Another curates and tests its Zeek alerts first, decides whether each one goes to the SIEM or triggers an automated block, and […]",
     "summarySource": "extractive",
     "clusterId": "9204a71a032e97f4",
     "lang": "en",
@@ -100,7 +134,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -833,7 +867,7 @@
   },
   {
     "id": "980d240c70746962",
-    "title": "Welcome to Splunk Enterprise 10.6 - Splunk",
+    "title": "Welcome to Splunk Enterprise 10.6 - help.splunk.com",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
     "source": {
@@ -1600,9 +1634,7 @@
     "author": null,
     "publishedAt": "2026-09-28T18:23:24+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "opentelemetry"
     ],
@@ -1612,7 +1644,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "On June 12, 2026, the OpenTelemetry Specification project merged PR #5138 , deprecating OpenCensus compatibility requirements in the specification. This change updates the specification to match where the ecosystem already is: OpenCensus has been archived since July 31, 2023 , and the OpenTelemetry shims for OpenCensus have provided a stable migration bridge for more than three years. This is a deprecation of specification requirements, not an immediate removal of compatibility material and not a requirement to remove existing shim artifacts right away.",
+    "summary": "Deprecating OpenCensus compatibility requirements",
     "summarySource": "extractive",
     "clusterId": "471ba887e0990e55",
     "lang": "en",
@@ -1660,7 +1692,9 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-09-28T17:29:59+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "security"
@@ -1668,7 +1702,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Reducing Zeek JSON Log Size: Field Name Mapping and Log Filtering Hooks",
+    "summary": "Zeek’s JSON logs can get large quickly, especially if you’re ingesting them into a SIEM that charges by data volume. There are two ways to address this: filtering out uninteresting log lines, and renaming fields to reduce per-event size. Both take only a few lines of code.",
     "summarySource": "extractive",
     "clusterId": "86c494a4337d6326",
     "lang": "en",
@@ -2615,7 +2649,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2623,7 +2659,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Workshop Berkeley 2026 Recap",
+    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -2731,7 +2767,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -2739,7 +2777,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Zeek 9",
+    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -2857,7 +2895,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3007,7 +3045,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4104,7 +4142,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4112,7 +4152,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
+    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
@@ -4162,15 +4202,17 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "How Attackers Learn Your Network Before They Attack It",
+    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -4295,12 +4337,12 @@
   },
   {
     "id": "80022bd33cc33556",
-    "title": "Users and roles for Splunk Enterprise Security - Splunk",
+    "title": "Users and roles for Splunk Enterprise Security - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UTFiMDV3d2hDbjJhR0IxSGVTMG05aWI1cktGdUdaeWt6Z29Bb3JMOWM0bUFhUTRLbGdHY3ZKUjdSb2d1TkdMUWNXZGJTUmpMUkJpSjVjUW1zVEpKc19mRVE4emwwODZ5LV9ld1FFWXFBeW5m?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -4319,21 +4361,21 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security Splunk",
+    "summary": "Users and roles for Splunk Enterprise Security help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
+    "title": "Deploy and upgrade Splunk Enterprise Security - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
     "source": {
       "id": "gnews-splunk-blog",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -4352,12 +4394,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
+    "summary": "Deploy and upgrade Splunk Enterprise Security help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "6abb00b4c123e867",
@@ -4524,7 +4566,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4532,7 +4576,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
+    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -5164,12 +5208,12 @@
   },
   {
     "id": "cae8c2f6b511c4b2",
-    "title": "What It Really Takes to Run OpenTelemetry - devops.com",
+    "title": "What It Really Takes to Run OpenTelemetry - DevOps.com",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02UUl4REY2SkU5SWJ3YVZhTWl3WjE3ZmhpTFZjSDZ1OGo0dERQeFFqY3VVbk9DRTVyZjVJczl3R1Z5SHFaX1pXZ3A5RnBNZXFBVUtKYzBFbTg3MmRWV3ZZU0JRN3E1Qnlwam9KMHhB?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02UUl4REY2SkU5SWJ3YVZhTWl3WjE3ZmhpTFZjSDZ1OGo0dERQeFFqY3VVbk9DRTVyZjVJczl3R1Z5SHFaX1pXZ3A5RnBNZXFBVUtKYzBFbTg3MmRWV3ZZU0JRN3E1Qnlwam9KMHhB?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "devops.com",
+      "name": "DevOps.com",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -5187,12 +5231,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "What It Really Takes to Run OpenTelemetry devops.com",
+    "summary": "What It Really Takes to Run OpenTelemetry DevOps.com",
     "summarySource": "extractive",
     "clusterId": "cae8c2f6b511c4b2",
     "lang": "en",
     "license": null,
-    "attribution": "via devops.com (Google News)"
+    "attribution": "via DevOps.com (Google News)"
   },
   {
     "id": "c7500d8fa2ae3a58",
@@ -5279,34 +5323,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -5790,7 +5806,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-08-12T20:20:49+00:00",
     "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5798,7 +5816,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek 9.0 Development Update",
+    "summary": "Zeek 9.0, our next long-term support (LTS) release, is just around the corner! Here’s a quick look at what’s been keeping us busy in the lead-up to the release, and what you can expect over the next few weeks. As always, our priority for our next LTS release is stability and maturity of features.",
     "summarySource": "extractive",
     "clusterId": "8294678e461b7a19",
     "lang": "en",
@@ -6262,7 +6280,9 @@
     "author": "Arne Welzel",
     "publishedAt": "2026-08-11T17:05:31+00:00",
     "fetchedAt": "2026-08-11T18:52:05+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6270,7 +6290,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Beyond ZeekControl",
+    "summary": "This post provides an overview of the direction the Zeek project is taking around ZeekControl and its intended successor, the Management Framework. The primary and suggested way to run a Zeek deployment for live traffic monitoring today is ZeekControl. For multi-host deployments, it’s been the tool of choice because it conveniently bundles all the required […]",
     "summarySource": "extractive",
     "clusterId": "de86ec08333fbb52",
     "lang": "en",
@@ -7129,7 +7149,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-04T20:59:21+00:00",
     "fetchedAt": "2026-08-05T01:51:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7137,7 +7159,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Logs Were Right: Debugging Your Mental Model in Zeek",
+    "summary": "When an expected log fails to populate, an alert queue explodes, or a custom script behaves strangely, it’s natural to pause and investigate. Running a high-throughput network monitoring engine like Zeek comes with a learning curve, and practitioners frequently encounter outputs that require deeper troubleshooting. Is a parser failing?",
     "summarySource": "extractive",
     "clusterId": "e99bed2d737b6780",
     "lang": "en",
@@ -8062,12 +8084,12 @@
   },
   {
     "id": "b877db3d3eddd7b9",
-    "title": "Convert a search from SPL to SPL2 - Splunk",
+    "title": "Convert a search from SPL to SPL2 - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sR29Tb3RkdXBHREx4em00TUlxaHVIam9QNlZKZHRQTzN0c2hjYjQydHBtVXVkREN3X1lKd2VTbjJoWWF5YnpEM1VpZUZTc2xBX1ZraDlRa09LZFFxcGRjUmhCVk1Fa0NjZFdVeVYzVnJJU2N3emV4UDgzTk16QQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sR29Tb3RkdXBHREx4em00TUlxaHVIam9QNlZKZHRQTzN0c2hjYjQydHBtVXVkREN3X1lKd2VTbjJoWWF5YnpEM1VpZUZTc2xBX1ZraDlRa09LZFFxcGRjUmhCVk1Fa0NjZFdVeVYzVnJJU2N3emV4UDgzTk16QQ?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -8083,12 +8105,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Convert a search from SPL to SPL2 Splunk",
+    "summary": "Convert a search from SPL to SPL2 help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "b877db3d3eddd7b9",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "22a7904e8127440c",
@@ -9584,12 +9606,12 @@
   },
   {
     "id": "776f5ce51945a1b4",
-    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - Splunk",
+    "title": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) - help.splunk.com",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlN1QWVsWUw2SnlDc3hGS0k0ZUZKbHl6Tkt6MnR0WFFzRnlPckExeko0TGRjQVNIVm1uSmxwcE8xT2RmQ09VM0VnVjd4OUNUV21PSXd5MG5PQlIwMThRNlpvYmJRWFlieWpSX0ZJUXlZSHB2b3hpUTN5dlZVVGttSkNyd0U0bXBtRnJVaUNKZTFEUFhMUWRMQ3A5aEtaMmdPNVIw?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "help.splunk.com",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -9605,12 +9627,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-07-14T22:38:02.365Z) help.splunk.com",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via help.splunk.com (Google News)"
   },
   {
     "id": "60fa720f6e0fa931",
@@ -10015,34 +10037,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Developer Blog"
-  },
-  {
-    "id": "995cba7d0f0e8392",
-    "title": "Introducing Meerkat: an experiment in global consensus",
-    "url": "https://blog.cloudflare.com/meerkat-introduction/",
-    "canonicalUrl": "https://blog.cloudflare.com/meerkat-introduction",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "João Pedro Leite",
-    "publishedAt": "2026-07-08T12:00:00+00:00",
-    "fetchedAt": "2026-07-08T13:47:15+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Introducing Meerkat: an experiment in global consensus",
-    "summarySource": "extractive",
-    "clusterId": "995cba7d0f0e8392",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
   },
   {
     "id": "e4abe5db260cbed6",
