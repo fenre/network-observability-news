@@ -1,5 +1,67 @@
 [
   {
+    "id": "59ba7555bc4acbdd",
+    "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+    "url": "https://blog.cloudflare.com/agentic-security-operations/",
+    "canonicalUrl": "https://blog.cloudflare.com/agentic-security-operations",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Blake Darché",
+    "publishedAt": "2026-10-07T16:30:36+00:00",
+    "fetchedAt": "2026-10-07T22:29:55+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
+    "summarySource": "extractive",
+    "clusterId": "59ba7555bc4acbdd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "ebbba6f657d1f0a8",
+    "title": "OpenTelemetry Community Awards 2026",
+    "url": "https://opentelemetry.io/blog/2026/community-awards/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/community-awards",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-07T14:01:16+00:00",
+    "fetchedAt": "2026-10-07T22:29:55+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "We are delighted to announce the 3rd annual OpenTelemetry Community Awards this year! This project and its newly minted status as a graduated CNCF project would not be possible without many, many awesome humans who contribute their time, knowledge, and skills to further develop and improve the field of observability. Whether it’s through code, documentation, project management, outreach, content creation, adoption, or simply helping others answer technical questions on our CNCF Slack , we want to recognize these contributions and the people behind them.",
+    "summarySource": "extractive",
+    "clusterId": "ebbba6f657d1f0a8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
     "id": "e55e1cf2a42aed66",
     "title": "PeeringDB product update: April to September 2026",
     "url": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026/",
@@ -60,6 +122,39 @@
     "attribution": "via HackerNoon (Google News)"
   },
   {
+    "id": "6cdda96033eda329",
+    "title": "Introducing the PromQL Receiver for the Splunk OpenTelemetry Collector - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSGJPMlQ0STNFYUdpUnpIdHBhQUd5NW05eG5ZNmlSbzhTRlVMdDY4Ti1CdTNLNG5EUW1jZHZsYWFIV1prMlhMYl95VXlXakV6X0ExcFhXakJQdWZhUWlQeHV2NmpQQ1E5WWVlbmN0eGkxbXB0ZDhnY1R3OWFqZ0dQQl9RLUxXV1NHVVJRZm9nNTJpTTRjaFo2NHczR3gzX2VEUFZET0JmRlhjSkE?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSGJPMlQ0STNFYUdpUnpIdHBhQUd5NW05eG5ZNmlSbzhTRlVMdDY4Ti1CdTNLNG5EUW1jZHZsYWFIV1prMlhMYl95VXlXakV6X0ExcFhXakJQdWZhUWlQeHV2NmpQQ1E5WWVlbmN0eGkxbXB0ZDhnY1R3OWFqZ0dQQl9RLUxXV1NHVVJRZm9nNTJpTTRjaFo2NHczR3gzX2VEUFZET0JmRlhjSkE?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-06T18:53:00+00:00",
+    "fetchedAt": "2026-10-07T22:29:55+00:00",
+    "topics": [
+      "splunk",
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Introducing the PromQL Receiver for the Splunk OpenTelemetry Collector Splunk",
+    "summarySource": "extractive",
+    "clusterId": "6cdda96033eda329",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "ddec0ece98fa0c45",
     "title": "The keys to the Internet change on October 11. Are you ready?",
     "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
@@ -72,15 +167,17 @@
     "author": "James Godlewski",
     "publishedAt": "2026-10-06T17:50:11+00:00",
     "fetchedAt": "2026-10-06T22:05:46+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "The keys to the Internet change on October 11. Are you ready?",
+    "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
     "summarySource": "extractive",
     "clusterId": "ddec0ece98fa0c45",
     "lang": "en",
@@ -282,7 +379,9 @@
     "author": "Meagan Gamache",
     "publishedAt": "2026-10-05T13:00:00+00:00",
     "fetchedAt": "2026-10-05T13:13:07+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -290,7 +389,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Everything we launched during Birthday Week 2026",
+    "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
     "summarySource": "extractive",
     "clusterId": "d1602119935ad054",
     "lang": "en",
@@ -310,15 +409,17 @@
     "author": "Judy Cheong",
     "publishedAt": "2026-10-05T13:00:00+00:00",
     "fetchedAt": "2026-10-05T13:13:07+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "One year later: the power of 1.1.1.1 interns",
+    "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
     "summarySource": "extractive",
     "clusterId": "917bc7059d97798c",
     "lang": "en",
@@ -338,7 +439,9 @@
     "author": "Sahidya Devadoss",
     "publishedAt": "2026-10-02T18:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -346,7 +449,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "8 major updates to Cloudflare Observability",
+    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
     "summarySource": "extractive",
     "clusterId": "afad8aacc3400c35",
     "lang": "en",
@@ -366,7 +469,9 @@
     "author": "Taylor Smith",
     "publishedAt": "2026-10-02T16:13:45+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -374,7 +479,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
     "summarySource": "extractive",
     "clusterId": "429215ba772b9078",
     "lang": "en",
@@ -394,7 +499,9 @@
     "author": "Gabriel Massadas",
     "publishedAt": "2026-10-02T13:28:10+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -402,7 +509,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Web Search API via AI Gateway",
+    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
     "summarySource": "extractive",
     "clusterId": "5282f8714e4cbe00",
     "lang": "en",
@@ -422,7 +529,9 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -430,7 +539,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Birthday week: network performance update",
+    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
     "summarySource": "extractive",
     "clusterId": "c5769abc90da248d",
     "lang": "en",
@@ -450,7 +559,9 @@
     "author": "Daniel Walsh",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -458,7 +569,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Cloudflare Traces: follow requests through our entire platform",
+    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
     "summarySource": "extractive",
     "clusterId": "bc7eda42cb3f75f7",
     "lang": "en",
@@ -478,7 +589,9 @@
     "author": "Chase Catelli",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -486,7 +599,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
     "summarySource": "extractive",
     "clusterId": "72f49031912f98c0",
     "lang": "en",
@@ -506,7 +619,9 @@
     "author": "Akshat Mahajan",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -514,7 +629,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
     "summarySource": "extractive",
     "clusterId": "5e1d1c7f45993a25",
     "lang": "en",
@@ -534,7 +649,9 @@
     "author": "Nicole Justus",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -542,7 +659,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Follow the thread: a new dashboard to investigate account abuse",
+    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
     "summarySource": "extractive",
     "clusterId": "3836babc9c5a1ca6",
     "lang": "en",
@@ -562,7 +679,9 @@
     "author": "Alessandro Frigerio",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -570,7 +689,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
     "summarySource": "extractive",
     "clusterId": "34c5734222cd3ed3",
     "lang": "en",
@@ -590,7 +709,9 @@
     "author": "Jocelyn Woolbright",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -598,7 +719,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building for good: How civil society organizations are automating on Cloudflare",
+    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
     "summarySource": "extractive",
     "clusterId": "19ec3340e630282c",
     "lang": "en",
@@ -646,7 +767,9 @@
     "author": "Kevin Flansburg",
     "publishedAt": "2026-10-01T15:34:02+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -654,7 +777,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
     "summarySource": "extractive",
     "clusterId": "317971da35b148b9",
     "lang": "en",
@@ -674,7 +797,9 @@
     "author": "Petra Arts",
     "publishedAt": "2026-10-01T13:04:19+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -682,7 +807,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One year later: Sovereign AI and the fight for choice",
+    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
     "summarySource": "extractive",
     "clusterId": "cff0cfdac8b96768",
     "lang": "en",
@@ -702,7 +827,9 @@
     "author": "Phillip Jones",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -710,7 +837,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare OS: your company’s agent workspace, managed for you",
+    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
     "summarySource": "extractive",
     "clusterId": "d3d13d9734feda49",
     "lang": "en",
@@ -786,7 +913,9 @@
     "author": "Zebulon Piasecki",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -794,7 +923,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We want you to build the next Git platform on Cloudflare",
+    "summary": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
     "summarySource": "extractive",
     "clusterId": "55a839bbc3fdfddb",
     "lang": "en",
@@ -814,7 +943,9 @@
     "author": "Marc Selwan",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -822,7 +953,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing Cloudflare K2: serverless event streams",
+    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
     "summarySource": "extractive",
     "clusterId": "4f45a66ba9a41bdd",
     "lang": "en",
@@ -842,7 +973,9 @@
     "author": "Rob Sutter",
     "publishedAt": "2026-10-01T13:00:00+00:00",
     "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -850,7 +983,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Workers KV Instant — powered by Quicksilver",
+    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
     "summarySource": "extractive",
     "clusterId": "319e51413ab6b76c",
     "lang": "en",
@@ -884,6 +1017,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "985f99546eddbf08",
+    "title": "Atlassian moves 100,000-host metrics platform to OpenTelemetry - Developer Tech News",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NbFR4cVFENWY5VmNNQ2FsRUZVOW4za2pVR2M3QlZSTGYxM29odGM5QTFyT0RfeEE4TEszbG5aX1M5bkRDV2FRQzU2OEVSZXd0WUE0SjU0SEZRS01tbG9HSWJNeERaN2RGRHRrOEtwYUQ1bjdhdENSUmtR?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NbFR4cVFENWY5VmNNQ2FsRUZVOW4za2pVR2M3QlZSTGYxM29odGM5QTFyT0RfeEE4TEszbG5aX1M5bkRDV2FRQzU2OEVSZXd0WUE0SjU0SEZRS01tbG9HSWJNeERaN2RGRHRrOEtwYUQ1bjdhdENSUmtR?oc=5",
+    "source": {
+      "id": "gnews-opentelemetry-network",
+      "name": "Developer Tech News",
+      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-10-01T09:04:54+00:00",
+    "fetchedAt": "2026-10-07T22:29:55+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Atlassian moves 100,000-host metrics platform to OpenTelemetry Developer Tech News",
+    "summarySource": "extractive",
+    "clusterId": "985f99546eddbf08",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Developer Tech News (Google News)"
   },
   {
     "id": "b21d61a3fef38ba1",
@@ -2770,6 +2935,34 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
+    "id": "fa984377e78b0ed6",
+    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
+    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Ethan Banks",
+    "publishedAt": "2026-09-21T13:00:34+00:00",
+    "fetchedAt": "2026-10-07T22:29:55+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
+    "summarySource": "extractive",
+    "clusterId": "fa984377e78b0ed6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -2967,7 +3160,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
+    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -3327,7 +3520,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing the 2026 Splunk Regional Partner Award Winners Splunk",
+    "summary": "Announcing the 2026 Splunk Regional Partner Award Winners - Splunk",
     "summarySource": "extractive",
     "clusterId": "29acf463d610e0a4",
     "lang": "en",
@@ -3513,6 +3706,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "3a02f800a8aa60bf",
+    "title": "Top 10 Best Kubernetes Security Tools in 2026 - CyberSecurityNews",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yMS1pMXduSkFlNk1URV9WcnczWGl0Mjh4TnZLa1ZEeUY3dzEtVW1YZEJUY3lSeEFPclRZWXJEUmFXMUlENGZkWXIwLTRxZDBfb0h4VUtTUlJwdEVENTh5eGEtdEZCSU5PRzNxRkZ30gFzQVVfeXFMUHZDcUtfSkdNS3RYR3dRYWJQbGd6VWlfNVh2Nk1OelRTQlAwdWNGLW5Cdzlwb2k2LTdVcEg0Y2dMYkZCbHB6QndxUXlGYUQyNGhraTFOSVRSVm9GdXIzRlZGNVQtNGlYSUtBSFVRdDVkanRQcw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yMS1pMXduSkFlNk1URV9WcnczWGl0Mjh4TnZLa1ZEeUY3dzEtVW1YZEJUY3lSeEFPclRZWXJEUmFXMUlENGZkWXIwLTRxZDBfb0h4VUtTUlJwdEVENTh5eGEtdEZCSU5PRzNxRkZ30gFzQVVfeXFMUHZDcUtfSkdNS3RYR3dRYWJQbGd6VWlfNVh2Nk1OelRTQlAwdWNGLW5Cdzlwb2k2LTdVcEg0Y2dMYkZCbHB6QndxUXlGYUQyNGhraTFOSVRSVm9GdXIzRlZGNVQtNGlYSUtBSFVRdDVkanRQcw?oc=5",
+    "source": {
+      "id": "gnews-ebpf-cilium",
+      "name": "CyberSecurityNews",
+      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-09-15T07:00:00+00:00",
+    "fetchedAt": "2026-09-15T10:47:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Top 10 Best Kubernetes Security Tools in 2026 CyberSecurityNews",
+    "summarySource": "extractive",
+    "clusterId": "3a02f800a8aa60bf",
+    "lang": "en",
+    "license": null,
+    "attribution": "via CyberSecurityNews (Google News)"
+  },
+  {
     "id": "fd0990690c668c4a",
     "title": "Top 10 Best Kubernetes Security Tools in 2026 - cybersecuritynews.com",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yMS1pMXduSkFlNk1URV9WcnczWGl0Mjh4TnZLa1ZEeUY3dzEtVW1YZEJUY3lSeEFPclRZWXJEUmFXMUlENGZkWXIwLTRxZDBfb0h4VUtTUlJwdEVENTh5eGEtdEZCSU5PRzNxRkZ30gHCAkFVX3lxTE5yOHVXMTZGY0RfRVVPVWQxNEdTaTM5ckI4YXFXVERXU1JqZTlETUVPbHR2UHdHRURxMTRqVE1lU3JUd1Utbl91Zm80ejVvU2QtWUFoM3VXcTNKVzRVNnBDYm0xN0RRWmtGV0NqVF9YcXlwWFFVUUJFSUpER3NYNVNiZXU3dk5hYWEtU1BCampQWWZkZHhQWVI5WTFOUmQ2cXNaRGFXUHpmMGJxM1N6R1otOHZLQzJzNzBtenI5OTNvXzB0bmVKVl9EYWgwV0hkNjl0SzgxbWhRbl9BR2FwdFVmb1NBalg2NDhXM3laNnBEak1ub2VYVnlYU3l6TER2cXV6c0l3bWtab19Na0NyeHNibG03OVVfdS0xWC0wdzdUT3JMajU5aUV2bXkxLWlOdzN3cEczX3d5bmVjV1JkekN4ZHc?oc=5",
@@ -3539,34 +3760,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via cybersecuritynews.com (Google News)"
-  },
-  {
-    "id": "3a02f800a8aa60bf",
-    "title": "Top 10 Best Kubernetes Security Tools in 2026 - CyberSecurityNews",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yMS1pMXduSkFlNk1URV9WcnczWGl0Mjh4TnZLa1ZEeUY3dzEtVW1YZEJUY3lSeEFPclRZWXJEUmFXMUlENGZkWXIwLTRxZDBfb0h4VUtTUlJwdEVENTh5eGEtdEZCSU5PRzNxRkZ30gFzQVVfeXFMUHZDcUtfSkdNS3RYR3dRYWJQbGd6VWlfNVh2Nk1OelRTQlAwdWNGLW5Cdzlwb2k2LTdVcEg0Y2dMYkZCbHB6QndxUXlGYUQyNGhraTFOSVRSVm9GdXIzRlZGNVQtNGlYSUtBSFVRdDVkanRQcw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yMS1pMXduSkFlNk1URV9WcnczWGl0Mjh4TnZLa1ZEeUY3dzEtVW1YZEJUY3lSeEFPclRZWXJEUmFXMUlENGZkWXIwLTRxZDBfb0h4VUtTUlJwdEVENTh5eGEtdEZCSU5PRzNxRkZ30gFzQVVfeXFMUHZDcUtfSkdNS3RYR3dRYWJQbGd6VWlfNVh2Nk1OelRTQlAwdWNGLW5Cdzlwb2k2LTdVcEg0Y2dMYkZCbHB6QndxUXlGYUQyNGhraTFOSVRSVm9GdXIzRlZGNVQtNGlYSUtBSFVRdDVkanRQcw?oc=5",
-    "source": {
-      "id": "gnews-ebpf-cilium",
-      "name": "CyberSecurityNews",
-      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-09-15T06:41:07+00:00",
-    "fetchedAt": "2026-09-15T10:47:21+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Top 10 Best Kubernetes Security Tools in 2026 - CyberSecurityNews",
-    "summarySource": "extractive",
-    "clusterId": "3a02f800a8aa60bf",
-    "lang": "en",
-    "license": null,
-    "attribution": "via CyberSecurityNews (Google News)"
   },
   {
     "id": "189503f88c9e86f4",
@@ -5828,6 +6021,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "ce0f99a9709db24e",
+    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-08-18T15:48:26+00:00",
+    "fetchedAt": "2026-10-07T22:29:55+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summarySource": "extractive",
+    "clusterId": "ce0f99a9709db24e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -8613,7 +8834,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Convert a search from SPL to SPL2 Splunk",
+    "summary": "Convert a search from SPL to SPL2 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b877db3d3eddd7b9",
     "lang": "en",
@@ -9187,6 +9408,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "68e7fbb9db5c7fd5",
+    "title": "Startup Radar: IPAManager Offers Integrated Tools for SMB Network Management",
+    "url": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-ipamanager-offers-integrated-tools-for-smb-network-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-07-22T15:54:49+00:00",
+    "fetchedAt": "2026-10-07T22:29:55+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The startup IPAManager sells an integrated suite of network management tools for small and medium businesses. It aims to provide a cost-effective bundle of core tools that work together. The startup isn’t breaking new ground in network management, but that’s not its intent.",
+    "summarySource": "extractive",
+    "clusterId": "68e7fbb9db5c7fd5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "c06f5e3bc6364366",
@@ -10253,7 +10505,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why OpenTelemetry for Dart and Flutter? Dart is a full-stack language and the language of Flutter , one of the most popular frameworks for building cross-platform applications. Data shows over 20% of current app store submissions are Flutter apps.",
+    "summary": "Call for Contributors: OpenTelemetry for Dart and Flutter",
     "summarySource": "extractive",
     "clusterId": "a0da964cae2994a5",
     "lang": "en",
@@ -10345,62 +10597,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "466abebfc0b752c0",
-    "title": "Unifying operations with Cisco Cloud Control",
-    "url": "https://blogs.cisco.com/datacenter/unifying-operations-with-cisco-cloud-control/",
-    "canonicalUrl": "https://blogs.cisco.com/datacenter/unifying-operations-with-cisco-cloud-control",
-    "source": {
-      "id": "cisco-datacenter-blog",
-      "name": "Cisco Data Center Blog",
-      "homepage": "https://blogs.cisco.com/datacenter"
-    },
-    "author": "Mia Yu",
-    "publishedAt": "2026-07-09T15:00:06+00:00",
-    "fetchedAt": "2026-07-09T19:27:01+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Unifying operations with Cisco Cloud Control",
-    "summarySource": "extractive",
-    "clusterId": "466abebfc0b752c0",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Data Center Blog"
-  },
-  {
-    "id": "fe867475c1adacab",
-    "title": "Why we cannot wait for better post-quantum signature algorithms",
-    "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-    "canonicalUrl": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Christopher Patton",
-    "publishedAt": "2026-07-09T14:00:00+00:00",
-    "fetchedAt": "2026-07-09T14:39:15+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Why we cannot wait for better post-quantum signature algorithms",
-    "summarySource": "extractive",
-    "clusterId": "fe867475c1adacab",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
   },
   {
     "id": "e4abe5db260cbed6",
