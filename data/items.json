@@ -559,8 +559,7 @@
     "publishedAt": "2026-10-08T09:14:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -570,7 +569,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands GBHackers News",
+    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands - GBHackers News",
     "summarySource": "extractive",
     "clusterId": "4b59429c4548e3e9",
     "lang": "en",
@@ -2231,11 +2230,11 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
-      "dashboard-studio",
-      "federated-search",
+      "splunk-enterprise",
       "splunk-cloud",
-      "splunk-enterprise"
+      "10.4",
+      "federated-search",
+      "dashboard-studio"
     ],
     "categories": [
       "product-release"
@@ -4499,7 +4498,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Announcing the Network Intelligence App and New Network Visibility in Splunk Synthetic Monitoring Splunk",
+    "summary": "Announcing the Network Intelligence App and New Network Visibility in Splunk Synthetic Monitoring - Splunk",
     "summarySource": "extractive",
     "clusterId": "39251aaddc1df4bb",
     "lang": "en",
@@ -10855,38 +10854,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "a0da964cae2994a5",
-    "title": "Call for Contributors: OpenTelemetry for Dart and Flutter",
-    "url": "https://opentelemetry.io/blog/2026/dart-flutter-opentelemetry/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/dart-flutter-opentelemetry",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-07-13T08:20:00+00:00",
-    "fetchedAt": "2026-06-29T15:34:51+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Call for Contributors: OpenTelemetry for Dart and Flutter",
-    "summarySource": "extractive",
-    "clusterId": "a0da964cae2994a5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog"
   },
   {
     "id": "e4abe5db260cbed6",
