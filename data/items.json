@@ -1,5 +1,37 @@
 [
   {
+    "id": "b9b4539c6e6552c5",
+    "title": "Versioned metrics: Shipping the first Release Candidate metrics in hostmetrics",
+    "url": "https://opentelemetry.io/blog/2026/hostmetrics-process-scraper-rc/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/hostmetrics-process-scraper-rc",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-13T23:35:21+00:00",
+    "fetchedAt": "2026-10-14T02:59:01+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "OpenTelemetry Collector Contrib v0.160.0 adds the ability to emit release candidate (RC) process semantic conventions metrics to the hostmetrics receiver’s process scraper, the last stage before a stable v1. The System SIG has worked on this for the better part of a year, and we think that the process metrics are in a good shape – but RC exists so the community can prove that. If you collect process metrics, we’d like you to try the new versioned output and tell us what breaks.",
+    "summarySource": "extractive",
+    "clusterId": "b9b4539c6e6552c5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
     "id": "be4755144ad0b608",
     "title": "Building a Biological Incubator Environmental Monitoring System with Zeek",
     "url": "https://zeek.org/2026/10/building-a-biological-incubator-environmental-monitoring-system/",
@@ -12,9 +44,7 @@
     "author": "Sujala Vasanthasena",
     "publishedAt": "2026-10-13T18:43:11+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -22,7 +52,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When I first started learning Zeek, I mainly thought of it as a network security monitoring framework: inspect traffic, extract useful information, generate logs, and detect suspicious activity. But while experimenting with Zeek scripting, I became interested in a different question: Can Zeek’s scripting and logging capabilities be used to monitor IoT-style telemetry, even when […]",
+    "summary": "Building a Biological Incubator Environmental Monitoring System with Zeek",
     "summarySource": "extractive",
     "clusterId": "be4755144ad0b608",
     "lang": "en",
@@ -42,9 +72,7 @@
     "author": "Lambros Petrou",
     "publishedAt": "2026-10-13T16:20:18+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -52,7 +80,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+    "summary": "Under the hood, off the hot path: How D1 scales to millions of databases",
     "summarySource": "extractive",
     "clusterId": "209aa195cf460790",
     "lang": "en",
@@ -72,9 +100,7 @@
     "author": "Christian Endres",
     "publishedAt": "2026-10-13T15:51:41+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -82,7 +108,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
+    "summary": "Rewinding the exponential: How we keep hardware usage down",
     "summarySource": "extractive",
     "clusterId": "cd5f53816e83c2a6",
     "lang": "en",
@@ -164,9 +190,7 @@
     "author": "Sahidya Devadoss",
     "publishedAt": "2026-10-12T14:44:59+00:00",
     "fetchedAt": "2026-10-13T00:00:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -174,7 +198,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+    "summary": "Filter, reshape, and redact logs before export with Transformers",
     "summarySource": "extractive",
     "clusterId": "5b99838803838018",
     "lang": "en",
@@ -242,34 +266,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via DevOps.com (Google News)"
-  },
-  {
-    "id": "f88561aaacf59e73",
-    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
-    "url": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Kijush Maharjan",
-    "publishedAt": "2026-10-11T23:07:31+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
-    "summarySource": "extractive",
-    "clusterId": "f88561aaacf59e73",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "2641d461cd550b48",
@@ -345,9 +341,7 @@
     "author": "Kevin Jain",
     "publishedAt": "2026-10-09T18:27:34+00:00",
     "fetchedAt": "2026-10-09T22:05:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -355,7 +349,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+    "summary": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
     "summarySource": "extractive",
     "clusterId": "0f232d59a4cfa71d",
     "lang": "en",
@@ -407,9 +401,7 @@
     "author": "Dominik Picheta",
     "publishedAt": "2026-10-09T13:00:00+00:00",
     "fetchedAt": "2026-10-09T22:05:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -417,7 +409,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+    "summary": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
     "summarySource": "extractive",
     "clusterId": "12cb3b7055434c97",
     "lang": "en",
@@ -437,9 +429,7 @@
     "author": "Ryan Dahl",
     "publishedAt": "2026-10-09T12:50:00+00:00",
     "fetchedAt": "2026-10-09T22:05:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -447,7 +437,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+    "summary": "Deno is joining Cloudflare",
     "summarySource": "extractive",
     "clusterId": "3d92c6e4141d64ba",
     "lang": "en",
@@ -730,9 +720,7 @@
     "author": "Lai Yi Ohlsen",
     "publishedAt": "2026-10-08T13:00:00+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -740,7 +728,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
+    "summary": "Bridging technical depth and usability: The story behind Radar’s redesign",
     "summarySource": "extractive",
     "clusterId": "3a1030c053138c84",
     "lang": "en",
@@ -881,7 +869,7 @@
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
-    "publishedAt": "2026-10-08T07:19:58+00:00",
+    "publishedAt": "2026-10-08T07:04:19+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
       "splunk",
@@ -916,7 +904,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check - Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -1035,9 +1023,7 @@
     "author": "Blake Darché",
     "publishedAt": "2026-10-07T16:30:36+00:00",
     "fetchedAt": "2026-10-07T22:29:55+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1045,7 +1031,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
+    "summary": "Building an evidence-grounded agentic security operations harness on Cloudflare",
     "summarySource": "extractive",
     "clusterId": "59ba7555bc4acbdd",
     "lang": "en",
@@ -1083,34 +1069,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "e55e1cf2a42aed66",
-    "title": "PeeringDB product update: April to September 2026",
-    "url": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Leo Vegoda",
-    "publishedAt": "2026-10-07T03:32:38+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "PeeringDB product update: April to September 2026",
-    "summarySource": "extractive",
-    "clusterId": "e55e1cf2a42aed66",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "8cc790e32cb9d7e2",
@@ -1190,9 +1148,7 @@
     "author": "James Godlewski",
     "publishedAt": "2026-10-06T17:50:11+00:00",
     "fetchedAt": "2026-10-06T22:05:46+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "standards"
@@ -1200,7 +1156,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
+    "summary": "The keys to the Internet change on October 11. Are you ready?",
     "summarySource": "extractive",
     "clusterId": "ddec0ece98fa0c45",
     "lang": "en",
@@ -1346,9 +1302,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-10-05T21:53:58+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "security",
@@ -1357,7 +1311,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One team won’t start building an alert until someone has written down what it is, why it matters to the organization, what to do when it fires and how to confirm it’s resolved. Another curates and tests its Zeek alerts first, decides whether each one goes to the SIEM or triggers an automated block, and […]",
+    "summary": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
     "summarySource": "extractive",
     "clusterId": "9204a71a032e97f4",
     "lang": "en",
@@ -1407,9 +1361,7 @@
     "author": "Meagan Gamache",
     "publishedAt": "2026-10-05T13:00:00+00:00",
     "fetchedAt": "2026-10-05T13:13:07+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1417,7 +1369,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+    "summary": "Everything we launched during Birthday Week 2026",
     "summarySource": "extractive",
     "clusterId": "d1602119935ad054",
     "lang": "en",
@@ -1437,9 +1389,7 @@
     "author": "Judy Cheong",
     "publishedAt": "2026-10-05T13:00:00+00:00",
     "fetchedAt": "2026-10-05T13:13:07+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -1447,7 +1397,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+    "summary": "One year later: the power of 1.1.1.1 interns",
     "summarySource": "extractive",
     "clusterId": "917bc7059d97798c",
     "lang": "en",
@@ -1467,9 +1417,7 @@
     "author": "Sahidya Devadoss",
     "publishedAt": "2026-10-02T18:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1477,7 +1425,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "summary": "8 major updates to Cloudflare Observability",
     "summarySource": "extractive",
     "clusterId": "afad8aacc3400c35",
     "lang": "en",
@@ -1497,9 +1445,7 @@
     "author": "Taylor Smith",
     "publishedAt": "2026-10-02T16:13:45+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1507,7 +1453,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
+    "summary": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
     "summarySource": "extractive",
     "clusterId": "429215ba772b9078",
     "lang": "en",
@@ -1527,9 +1473,7 @@
     "author": "Gabriel Massadas",
     "publishedAt": "2026-10-02T13:28:10+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1537,7 +1481,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+    "summary": "Introducing Web Search API via AI Gateway",
     "summarySource": "extractive",
     "clusterId": "5282f8714e4cbe00",
     "lang": "en",
@@ -1585,9 +1529,7 @@
     "author": "Daniel Walsh",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1595,7 +1537,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+    "summary": "Introducing Cloudflare Traces: follow requests through our entire platform",
     "summarySource": "extractive",
     "clusterId": "bc7eda42cb3f75f7",
     "lang": "en",
@@ -1615,9 +1557,7 @@
     "author": "Chase Catelli",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1625,7 +1565,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
+    "summary": "Updates on our pledge to make Cloudflare features accessible to everyone",
     "summarySource": "extractive",
     "clusterId": "72f49031912f98c0",
     "lang": "en",
@@ -1645,9 +1585,7 @@
     "author": "Akshat Mahajan",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -1655,7 +1593,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
+    "summary": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
     "summarySource": "extractive",
     "clusterId": "5e1d1c7f45993a25",
     "lang": "en",
@@ -1675,9 +1613,7 @@
     "author": "Nicole Justus",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1685,7 +1621,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+    "summary": "Follow the thread: a new dashboard to investigate account abuse",
     "summarySource": "extractive",
     "clusterId": "3836babc9c5a1ca6",
     "lang": "en",
@@ -1705,9 +1641,7 @@
     "author": "Alessandro Frigerio",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1715,7 +1649,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+    "summary": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
     "summarySource": "extractive",
     "clusterId": "34c5734222cd3ed3",
     "lang": "en",
@@ -1735,9 +1669,7 @@
     "author": "Jocelyn Woolbright",
     "publishedAt": "2026-10-02T13:00:00+00:00",
     "fetchedAt": "2026-10-02T17:11:08+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1745,7 +1677,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
+    "summary": "Building for good: How civil society organizations are automating on Cloudflare",
     "summarySource": "extractive",
     "clusterId": "19ec3340e630282c",
     "lang": "en",
@@ -2093,34 +2025,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "7f17eb9683fcf2c2",
-    "title": "[Podcast] The October 2026 root KSK roll",
-    "url": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-09-30T22:44:12+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "[Podcast] The October 2026 root KSK roll",
-    "summarySource": "extractive",
-    "clusterId": "7f17eb9683fcf2c2",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "6f18b5af74c74b5a",
@@ -2671,34 +2575,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "335b28c6dccccc1b",
-    "title": "AI-driven networking and infrastructure design at APNIC 62",
-    "url": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-09-30T03:02:50+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "AI-driven networking and infrastructure design at APNIC 62",
-    "summarySource": "extractive",
-    "clusterId": "335b28c6dccccc1b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "fdeae7bb039f782b",
     "title": "Using AI to chart a course for our post-quantum migration",
     "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
@@ -3146,9 +3022,7 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-09-28T17:29:59+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "security"
@@ -3156,7 +3030,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek’s JSON logs can get large quickly, especially if you’re ingesting them into a SIEM that charges by data volume. There are two ways to address this: filtering out uninteresting log lines, and renaming fields to reduce per-event size. Both take only a few lines of code.",
+    "summary": "Reducing Zeek JSON Log Size: Field Name Mapping and Log Filtering Hooks",
     "summarySource": "extractive",
     "clusterId": "86c494a4337d6326",
     "lang": "en",
@@ -3653,34 +3527,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "52bca3cd2fb2d005",
-    "title": "Understanding ASPA: The next step in routing security",
-    "url": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dale Roberts",
-    "publishedAt": "2026-09-23T04:55:18+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Understanding ASPA: The next step in routing security",
-    "summarySource": "extractive",
-    "clusterId": "52bca3cd2fb2d005",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "9403c3137b65a504",
     "title": "PQC for Dummies—Cisco Special Edition: Why we wrote it",
     "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it/",
@@ -4170,9 +4016,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4180,7 +4024,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
+    "summary": "Zeek Workshop Berkeley 2026 Recap",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -4276,34 +4120,6 @@
     "attribution": "via shattered.io (Google News)"
   },
   {
-    "id": "2f561a6aeb7910a8",
-    "title": "Presto: A match-action TCP stack for the terabit era",
-    "url": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/18/presto-a-match-action-tcp-stack-for-the-terabit-era",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Rajath Shashidhara",
-    "publishedAt": "2026-09-18T03:34:15+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Presto: A match-action TCP stack for the terabit era",
-    "summarySource": "extractive",
-    "clusterId": "2f561a6aeb7910a8",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "8f5289f4236e4aa3",
     "title": "Introducing Zeek 9",
     "url": "https://zeek.org/2026/09/introducing-zeek-9/",
@@ -4316,9 +4132,7 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -4326,7 +4140,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
+    "summary": "Introducing Zeek 9",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -4392,34 +4206,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "239997d31623ddb4",
-    "title": "[Podcast] ‘Just say no’ isn’t as simple as you think",
-    "url": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/17/podcast-just-say-no-isnt-as-simple-as-you-think",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-09-16T23:23:11+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "[Podcast] ‘Just say no’ isn’t as simple as you think",
-    "summarySource": "extractive",
-    "clusterId": "239997d31623ddb4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "2b5c7cbde6e9b0e6",
@@ -4606,34 +4392,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "5bd0ee4a5b0f9566",
-    "title": "The case for open-weight models and why we can’t trust frontier labs",
-    "url": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Niels Provos",
-    "publishedAt": "2026-09-16T05:42:22+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The case for open-weight models and why we can’t trust frontier labs",
-    "summarySource": "extractive",
-    "clusterId": "5bd0ee4a5b0f9566",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "a2e152b4f8b70632",
@@ -5092,34 +4850,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "dbf1caeff20fe4fd",
-    "title": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
-    "url": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/14/asia-pacific-research-networks-commit-to-stronger-cyber-resilience-cooperation",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dan Fidler",
-    "publishedAt": "2026-09-13T22:22:29+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Asia Pacific research networks commit to stronger cyber resilience cooperation",
-    "summarySource": "extractive",
-    "clusterId": "dbf1caeff20fe4fd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "6750a45f3c3ffa90",
     "title": "ntop and the EU Cyber Resilience Act",
     "url": "https://www.ntop.org/ntop-and-the-eu-cyber-resilience-act/",
@@ -5328,35 +5058,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Unite.AI (Google News)"
-  },
-  {
-    "id": "24cf9492d00785ba",
-    "title": "2026 APNIC Survey report released",
-    "url": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released/",
-    "canonicalUrl": "https://blog.apnic.net/2026/09/10/2026-apnic-survey-report-released",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dale Roberts",
-    "publishedAt": "2026-09-10T03:21:38+00:00",
-    "fetchedAt": "2026-10-13T06:24:54+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "2026 APNIC Survey report released",
-    "summarySource": "extractive",
-    "clusterId": "24cf9492d00785ba",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "704d0900605ac15f",
@@ -5826,7 +5527,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "standards"
+      "news"
     ],
     "audiences": [
       "global"
@@ -5879,9 +5580,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5889,7 +5588,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
+    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
@@ -5972,17 +5671,15 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
+    "summary": "How Attackers Learn Your Network Before They Attack It",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -6372,9 +6069,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6382,7 +6077,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
+    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -7685,9 +7380,7 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-08-12T20:20:49+00:00",
     "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7695,7 +7388,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek 9.0, our next long-term support (LTS) release, is just around the corner! Here’s a quick look at what’s been keeping us busy in the lead-up to the release, and what you can expect over the next few weeks. As always, our priority for our next LTS release is stability and maturity of features.",
+    "summary": "Zeek 9.0 Development Update",
     "summarySource": "extractive",
     "clusterId": "8294678e461b7a19",
     "lang": "en",
@@ -8159,9 +7852,7 @@
     "author": "Arne Welzel",
     "publishedAt": "2026-08-11T17:05:31+00:00",
     "fetchedAt": "2026-08-11T18:52:05+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -8169,7 +7860,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "This post provides an overview of the direction the Zeek project is taking around ZeekControl and its intended successor, the Management Framework. The primary and suggested way to run a Zeek deployment for live traffic monitoring today is ZeekControl. For multi-host deployments, it’s been the tool of choice because it conveniently bundles all the required […]",
+    "summary": "Beyond ZeekControl",
     "summarySource": "extractive",
     "clusterId": "de86ec08333fbb52",
     "lang": "en",
@@ -11336,38 +11027,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via GBHackers News (Google News)"
-  },
-  {
-    "id": "2b0883379119c4bd",
-    "title": "OpenTelemetry Has Graduated… Now what?",
-    "url": "https://opentelemetry.io/blog/2026/otel-grad-now-what/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/otel-grad-now-what",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-07-15T18:59:02+00:00",
-    "fetchedAt": "2026-07-16T01:56:20+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "In case you missed it: OpenTelemetry (OTel) has officially achieved CNCF graduated status ! It now stands proudly alongside amazing open source projects such as Kubernetes and Prometheus , to name just a few. It’s been a long journey, and we’re very excited… But, now what?",
-    "summarySource": "extractive",
-    "clusterId": "2b0883379119c4bd",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog"
   },
   {
     "id": "e4abe5db260cbed6",
