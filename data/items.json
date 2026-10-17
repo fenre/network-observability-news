@@ -847,7 +847,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How we Redesigned Search in ntopng",
+    "summary": "ntopng has had a search box for a while, but it we made it better to allow search for menu entries too! This to speed up and improve the user experience and navigation in ntopng. We added a short guided tour so you know what it can do.",
     "summarySource": "extractive",
     "clusterId": "ac2d35e437555bf3",
     "lang": "en",
@@ -935,7 +935,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -996,8 +996,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1519,7 +1518,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1609,7 +1608,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security",
       "tutorial"
     ],
     "audiences": [
@@ -2729,7 +2727,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI Dashboards in ntopng: Build Charts by Asking",
+    "summary": "If you’ve opened ntopng recently you may have noticed a new entry under the dashboards menu: AI Dashboards. Instead of picking a metric, a chart type and a time range from a form, you describe what you want to see in plain language and nAnalyst writes the query, picks the visualization and drops the widget […]",
     "summarySource": "extractive",
     "clusterId": "a0581be4cb0f9a71",
     "lang": "en",
@@ -2762,7 +2760,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC Splunk",
+    "summary": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC - Splunk",
     "summarySource": "extractive",
     "clusterId": "b21d61a3fef38ba1",
     "lang": "en",
@@ -3135,7 +3133,9 @@
     "author": "admin",
     "publishedAt": "2026-09-29T09:19:01+00:00",
     "fetchedAt": "2026-09-29T11:54:29+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3143,7 +3143,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing the nDPI TCP Fingerprint: A Stable, Patent-Free Way to Fingerprint TCP Stacks",
+    "summary": "Every TCP connection starts with a SYN, and that first packet says a lot about the machine that sent it. The Linux, Windows, macOS and Android stacks each set different flags, choose different initial TTLs, advertise different receive windows, and, above all, lay out their TCP options in different orders. Passive TCP fingerprinting turns those […]",
     "summarySource": "extractive",
     "clusterId": "344edd6dd9fdf8ae",
     "lang": "en",
@@ -3316,7 +3316,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3707,7 +3707,9 @@
     "author": "admin",
     "publishedAt": "2026-09-25T12:53:44+00:00",
     "fetchedAt": "2026-09-25T16:16:12+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3715,7 +3717,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AS/IXP Traffic Observability: From Flows to AI-Assisted Root-Cause Analysis",
+    "summary": "For most network operators, traffic visibility is not mandated by regulation, so it tends to be reactive rather than continuous: a “manual” investigation happens only after something breaks. Combined with limited time to review telemetry and the cost/data-sovereignty concerns of cloud-based visibility platforms, this leaves a real gap for AS operators and IXP participants […]",
     "summarySource": "extractive",
     "clusterId": "797fb8839f4af38d",
     "lang": "en",
@@ -4023,7 +4025,9 @@
     "author": "admin",
     "publishedAt": "2026-09-21T21:16:13+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "ntopng"
     ],
@@ -4033,7 +4037,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing nDPI TLS Fingerprint: A Stable, Collision-Resistant Successor to JA4",
+    "summary": "TLS client fingerprinting has become one of the workhorse techniques in network security, and JA4 (FoxIO) has been the de facto standard for identifying TLS clients from their ClientHello messages. But recent production experience at ntop surfaced two real limitations, and today we’re announcing nDPI TLS Fingerprint (TLSFP in short), an open, patent-free extension of […]",
     "summarySource": "extractive",
     "clusterId": "c665ae79c820fdd0",
     "lang": "en",
@@ -4183,7 +4187,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ntopng User Interface: Introducing the New Navigation Bar",
+    "summary": "In our continuous effort to improve user experience and make network monitoring more intuitive, we have completely redesigned the ntopng Navigation Bar. As our feature set expands—with crucial additions like the nAnalyst automated pipeline, specialized AI Dashboards, and high-resolution Observability analytics—the legacy menu structure needed a logical evolution to reduce deep nesting and facilitate daily […]",
     "summarySource": "extractive",
     "clusterId": "eef506bb0dcf6940",
     "lang": "en",
@@ -4388,7 +4392,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Kubernetes Network Policy: 12 Steps to Zero Trust [2026] shattered.io",
+    "summary": "Kubernetes Network Policy: 12 Steps to Zero Trust [2026] - shattered.io",
     "summarySource": "extractive",
     "clusterId": "cfdad6a70f3514f6",
     "lang": "en",
@@ -4411,7 +4415,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4476,7 +4480,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk AI Assistant for Splunk Enterprise customers with Cloud Connected Splunk",
+    "summary": "Install Splunk AI Assistant for Splunk Enterprise customers with Cloud Connected - Splunk",
     "summarySource": "extractive",
     "clusterId": "a81f18643ec0c457",
     "lang": "en",
@@ -4536,7 +4540,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevate Your Network Visibility with ntop Professional Training November 2026",
+    "summary": "As network architectures evolve, staying ahead of performance issues and modern cybersecurity threats requires deep visibility and mastery of your tools. Here at ntop, our product range spans from high-speed packet capture to advanced traffic analysis. With our continuous updates and feature additions, keeping up with the ecosystem can be a challenge.",
     "summarySource": "extractive",
     "clusterId": "472f4054e94f99b5",
     "lang": "en",
@@ -4564,7 +4568,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4615,10 +4619,11 @@
       "homepage": "https://news.google.com/search?q=Cisco%20AgenticOps"
     },
     "author": null,
-    "publishedAt": "2026-09-16T14:31:13+00:00",
+    "publishedAt": "2026-09-16T07:00:00+00:00",
     "fetchedAt": "2026-09-16T15:53:04+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [
       "splunk-observability"
@@ -4629,7 +4634,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco enhances Splunk observability for AI token usage tracking - MSSP Alert",
+    "summary": "Cisco enhances Splunk observability for AI token usage tracking MSSP Alert",
     "summarySource": "extractive",
     "clusterId": "fc4bf02aa4249afb",
     "lang": "en",
@@ -4714,7 +4719,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5036,7 +5041,9 @@
     "author": "admin",
     "publishedAt": "2026-09-14T16:41:05+00:00",
     "fetchedAt": "2026-09-14T17:21:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "ntopng"
     ],
@@ -5046,7 +5053,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cento 2.6: ClickHouse Support, Enhanced Tunnel Visibility, PQC, and more",
+    "summary": "We are pleased to announce the release of cento 2.6, bringing a broad set of new capabilities and improvements to high-performance traffic processing and flow export. This release expands cento’s integration with the ntop ecosystem, adds new visibility into tunneled traffic, introduces Post-Quantum Cryptography (PQC) support, and delivers important improvements across protocol dissection, security, and performance. […]",
     "summarySource": "extractive",
     "clusterId": "48647b4d1a85533a",
     "lang": "en",
@@ -5140,7 +5147,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ntop and the EU Cyber Resilience Act",
+    "summary": "Under the EU Cyber Resilience Act (CRA), it has become compulsory for manufacturers of products sold on the EU market to report exploited vulnerabilities and severe incidents. As a result, ntop is fully committed to compliance with these new requirements. Since September 11, 2026, Article 14 of the CRA requires ntop to report security issues directly to […]",
     "summarySource": "extractive",
     "clusterId": "6750a45f3c3ffa90",
     "lang": "en",
@@ -5422,7 +5429,9 @@
     "author": "admin",
     "publishedAt": "2026-09-09T13:08:48+00:00",
     "fetchedAt": "2026-09-09T15:42:06+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -5430,7 +5439,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "nProbe 11.2: BGP/BMP Support, OT Protocols, Faster Flow Collection",
+    "summary": "We are pleased to announce the release of nProbe 11.2, bringing major new capabilities for network visibility, routing intelligence, flow analysis, and OT monitoring. This release significantly expands nProbe beyond traditional flow collection and export, adding BGP/BMP route enrichment, OT protocols support, collection deduplication, enhanced IPv6 handling. Flow collection has also been optimized to deliver higher performance […]",
     "summarySource": "extractive",
     "clusterId": "f75aa2ddc283c527",
     "lang": "en",
@@ -5592,7 +5601,9 @@
     "author": "admin",
     "publishedAt": "2026-09-08T10:37:56+00:00",
     "fetchedAt": "2026-10-05T13:13:07+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "ntopng"
     ],
@@ -5602,7 +5613,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Seeing Where Your Traffic Goes: Flow and Alert Geomaps",
+    "summary": "A flow table tells you which hosts are talking. A map tells you where. ntopng has two geomap views built on the same idea: one for live flows, one for flow alerts and together they answer “who are we communicating with around the world” and “where are the alerts coming from”. Here’s how to use […]",
     "summarySource": "extractive",
     "clusterId": "6f1c318456355365",
     "lang": "en",
@@ -7012,7 +7023,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What It Really Takes to Run OpenTelemetry DevOps.com",
+    "summary": "What It Really Takes to Run OpenTelemetry - DevOps.com",
     "summarySource": "extractive",
     "clusterId": "cae8c2f6b511c4b2",
     "lang": "en",
@@ -7106,6 +7117,38 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "f7117caf1a2e3b2f",
+    "title": "What It Really Takes to Run OpenTelemetry - DevOps.com",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wY1YwRXo0Wk1VZXJVOVk4S1NaeXRaQ2YzMHlfT3BORURMOXI0TTRFYXhzVDBVU1loa1RtSEtVNWxINHFNLVNCNUM1N19BeWQ0eFdGLUZmd24zaFFEWGdpMFpkTU1KNVg0T1RXTw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wY1YwRXo0Wk1VZXJVOVk4S1NaeXRaQ2YzMHlfT3BORURMOXI0TTRFYXhzVDBVU1loa1RtSEtVNWxINHFNLVNCNUM1N19BeWQ0eFdGLUZmd24zaFFEWGdpMFpkTU1KNVg0T1RXTw?oc=5",
+    "source": {
+      "id": "gnews-opentelemetry-network",
+      "name": "DevOps.com",
+      "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-08-19T07:00:00+00:00",
+    "fetchedAt": "2026-10-17T09:57:20+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "What It Really Takes to Run OpenTelemetry DevOps.com",
+    "summarySource": "extractive",
+    "clusterId": "cae8c2f6b511c4b2",
+    "lang": "en",
+    "license": null,
+    "attribution": "via DevOps.com (Google News)"
+  },
+  {
     "id": "c4ba23c20f58ebb6",
     "title": "Security Hardening Release for Splunk Enterprise - August 2026 - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xQWFrNEZPcngzTjlOM3F0OWw0c3dBUm90Z25wMnNESDFKX21NcGZCSng0bG5DYjZnZlRvTDViUHRySzVISEJSYjF2SU9wdHZuWXFHQnFTbDZVeG5ITnVLLWNR?oc=5",
@@ -7134,34 +7177,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-10-16T20:21:12+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
