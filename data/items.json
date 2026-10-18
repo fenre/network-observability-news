@@ -3194,6 +3194,7 @@
     "publishedAt": "2026-09-29T02:48:29+00:00",
     "fetchedAt": "2026-10-05T13:13:07+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -3205,7 +3206,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ThousandEyes Kubernetes Agent - ThousandEyes",
+    "summary": "ThousandEyes Kubernetes Agent ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "983fcafd693ba67d",
     "lang": "en",
@@ -4005,7 +4006,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Administration Advisor Splunkbase",
+    "summary": "Splunk Enterprise Administration Advisor - Splunkbase",
     "summarySource": "extractive",
     "clusterId": "bb358b4885dfe5df",
     "lang": "en",
@@ -7059,7 +7060,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes TechGig",
+    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes - TechGig",
     "summarySource": "extractive",
     "clusterId": "5eca68f633552458",
     "lang": "en",
@@ -10758,7 +10759,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zero-code Kubernetes observability with eBPF demo - TechTarget",
+    "summary": "Zero-code Kubernetes observability with eBPF demo TechTarget",
     "summarySource": "extractive",
     "clusterId": "71f1602a4eceb264",
     "lang": "en",
@@ -11095,66 +11096,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "06f8621675c8bb1f",
-    "title": "CocoaPods Deprecation Notice for OpenTelemetry Swift",
-    "url": "https://opentelemetry.io/blog/2026/otel-swift-cocoapods-deprecation/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/otel-swift-cocoapods-deprecation",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-07-20T14:05:37+00:00",
-    "fetchedAt": "2026-07-20T19:29:15+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "As it was announced via CocoaPods Support Plan and via CocoaPods Spec Repository , CocoaPods is transitioning their project to maintenance mode, and cocoapods trunk is going to be read-only in a few months. The OpenTelemetry Swift maintainers are planning to deprecate CocoaPods support for all the pods published under opentelemetry-swift and opentelemetry-swift-core . Swift Package Manager (SPM) is now the recommended and preferred installation method for all new integrations.",
-    "summarySource": "extractive",
-    "clusterId": "06f8621675c8bb1f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "37eb39dc9e31c52a",
-    "title": "ML-KEM vs Diffie-Hellman: The Showdown – IPsec Series, Part 3",
-    "url": "https://blogs.cisco.com/developer/ml-kem-vs-diffie-hellman-the-showdown-ipsec-series-part-3/",
-    "canonicalUrl": "https://blogs.cisco.com/developer/ml-kem-vs-diffie-hellman-the-showdown-ipsec-series-part-3",
-    "source": {
-      "id": "cisco-developer-blog",
-      "name": "Cisco Developer Blog",
-      "homepage": "https://blogs.cisco.com/developer"
-    },
-    "author": "Julio Gomez",
-    "publishedAt": "2026-07-20T14:00:09+00:00",
-    "fetchedAt": "2026-07-20T19:29:15+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "ML-KEM vs Diffie-Hellman: The Showdown – IPsec Series, Part 3",
-    "summarySource": "extractive",
-    "clusterId": "37eb39dc9e31c52a",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Developer Blog"
   },
   {
     "id": "e4abe5db260cbed6",
