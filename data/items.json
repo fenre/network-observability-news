@@ -1,5 +1,93 @@
 [
   {
+    "id": "530fcfe1b667de93",
+    "title": "Announcing the 2026 OpenTelemetry Governance Committee Election Candidates",
+    "url": "https://opentelemetry.io/blog/2026/gc-candidates/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/gc-candidates",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-19T10:59:07+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The OpenTelemetry Election Committee is excited to announce the final list of candidates for the 2026 OpenTelemetry Governance Committee election ! Eligible voters can help fill four Governance Committee seats through Helios Voting . Voting opens: 26 October 2026 at 12:00 UTC.",
+    "summarySource": "extractive",
+    "clusterId": "530fcfe1b667de93",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "b528f78deb87a51d",
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "André Grüneberg",
+    "publishedAt": "2026-10-19T08:53:35+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
+    "summarySource": "extractive",
+    "clusterId": "b528f78deb87a51d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "b9977a3309f8b9b5",
+    "title": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
+    "url": "https://blog.apnic.net/2026/10/19/apnic-62-automation-trust-and-the-future-of-internet-infrastructure/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/19/apnic-62-automation-trust-and-the-future-of-internet-infrastructure",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Dan Fidler",
+    "publishedAt": "2026-10-19T04:44:56+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
+    "summarySource": "extractive",
+    "clusterId": "b9977a3309f8b9b5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "dbfb9a2e3c4bc43b",
     "title": "Continuous accountability for Verified bots",
     "url": "https://blog.cloudflare.com/verified-bots-accountability/",
@@ -3984,6 +4072,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "372d8f3b55a94bd4",
+    "title": "PeeringDB Update April - September 2026",
+    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-09-23T13:13:32+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summarySource": "extractive",
+    "clusterId": "372d8f3b55a94bd4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "52bca3cd2fb2d005",
     "title": "Understanding ASPA: The next step in routing security",
     "url": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security/",
@@ -6146,6 +6262,34 @@
     "attribution": "via Cisco Blogs (Google News)"
   },
   {
+    "id": "20f7ad9eb66a41ca",
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Seyed Pouria Mousavizadeh Tehrani",
+    "publishedAt": "2026-09-04T13:32:29+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summarySource": "extractive",
+    "clusterId": "20f7ad9eb66a41ca",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "862238d979ee4744",
     "title": "What part of ‘No!’ is so hard for the DNS to understand?",
     "url": "https://blog.apnic.net/2026/09/04/what-part-of-no-is-so-hard-for-the-dns-understand/",
@@ -6228,6 +6372,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
+  },
+  {
+    "id": "48d329f7c34cde74",
+    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
+    "url": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
+    "canonicalUrl": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Sebastian Kappes",
+    "publishedAt": "2026-09-03T12:03:26+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "summarySource": "extractive",
+    "clusterId": "48d329f7c34cde74",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "a72bd4a7853e2e3f",
@@ -6498,6 +6670,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "831f42f8ca18045d",
+    "title": "The IRR Landscape: What RPKI Can Replace",
+    "url": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace/",
+    "canonicalUrl": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Matthias Wichtlhuber",
+    "publishedAt": "2026-09-01T12:20:33+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In the third part of our IRR landscape series, we use traffic measurements from AMS-IX and DE-CIX to assess which parts of the IRR landscape can safely be replaced with RPKI. Third-party ROUTE(6) objects can largely be phased out, while third-party AS-SETs remain essential for BGP filter generation.",
+    "summarySource": "extractive",
+    "clusterId": "831f42f8ca18045d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "fc1ec818cde57e15",
@@ -7255,7 +7455,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "DNS Abuse and Criminal Infrastructure: Beyond Definitions and Blocklists",
+    "summary": "Evidence suggests that criminals may control a substantial share of new gTLD registrations. Although the precise scale remains contested, the article asks whether current DNS Abuse measures adequately address wider misuse of domain names.",
     "summarySource": "extractive",
     "clusterId": "602fb396100a42b4",
     "lang": "en",
@@ -7964,6 +8164,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "6e37c1de81a32100",
+    "title": "Deploying IPv6-first EKS on AWS: What Still Doesn't Work, and What It Saves",
+    "url": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves/",
+    "canonicalUrl": "https://labs.ripe.net/author/spidee/deploying-ipv6-first-eks-on-aws-what-still-doesnt-work-and-what-it-saves",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Spiro Stathakis",
+    "publishedAt": "2026-08-14T08:57:28+00:00",
+    "fetchedAt": "2026-10-19T11:44:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In this field report on IPv6-first Amazon Elastic Kubernetes Service (EKS), the isp6 team shares which dependencies still drag IPv4 back in, what they learnt from /28s, and why the saving is large but not automatic.",
+    "summarySource": "extractive",
+    "clusterId": "6e37c1de81a32100",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "9abba2edd640dac4",
@@ -11216,69 +11444,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "72a8d6864f14bb21",
-    "title": "Release notes for the Splunk Common Information Model Add-on - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWWdWenR1WG1QbVBVSzFtWkRvdEhjSkVyc3VQRDhxUXZSZlNiVnNBYmRka2N2bWVSU0dGSld1SVhYM2Zmdmdfc2g2OVFpVHpsT2YzWk9wMVM0Z21MaWNiWnBKLVFNekpSTWJOaXBrTXZRVjJYcVBZdDQ4LXFsenRUZmltM05ZMndSWFdJUUs0dnZNMU4tVGw3YWZDalNOUW1BcHBZQXpjeXpCRWtwVjBiVVdnTkczam52UUlFZDhqZ1lqcjlvelhLNDZ6MjJvSkRZMC0yT0RiUnZXdVdCcUozMVZTZUh0dw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWWdWenR1WG1QbVBVSzFtWkRvdEhjSkVyc3VQRDhxUXZSZlNiVnNBYmRka2N2bWVSU0dGSld1SVhYM2Zmdmdfc2g2OVFpVHpsT2YzWk9wMVM0Z21MaWNiWnBKLVFNekpSTWJOaXBrTXZRVjJYcVBZdDQ4LXFsenRUZmltM05ZMndSWFdJUUs0dnZNMU4tVGw3YWZDalNOUW1BcHBZQXpjeXpCRWtwVjBiVVdnTkczam52UUlFZDhqZ1lqcjlvelhLNDZ6MjJvSkRZMC0yT0RiUnZXdVdCcUozMVZTZUh0dw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-07-21T07:00:00+00:00",
-    "fetchedAt": "2026-08-19T18:22:47+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Release notes for the Splunk Common Information Model Add-on - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "72a8d6864f14bb21",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "34cd7640f5c91748",
-    "title": "Users and roles for Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeUs0V2Ztb21PR1QzMTNfTXJzYjFULWdpZHlmc1hnVFBNS3c5RmVHTUtRUE13cVdURjlDbWZqQi01ZlVqZ1llV3dCRkI2dGNSYTdnSUhVY0swVDh0U21hYWFrWUhNQTRWemg3SHBTWjI1amg2d2J2bkEzQmpndmdpTUdpN2dtRGUxWDk3OWJ3VUlJWmdOOUdOQW54MS11cV80elZZWWt3NFpmZXplQTgzY0VBcWdpeThqamwzaEdDTkxBbWZQRFE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeUs0V2Ztb21PR1QzMTNfTXJzYjFULWdpZHlmc1hnVFBNS3c5RmVHTUtRUE13cVdURjlDbWZqQi01ZlVqZ1llV3dCRkI2dGNSYTdnSUhVY0swVDh0U21hYWFrWUhNQTRWemg3SHBTWjI1amg2d2J2bkEzQmpndmdpTUdpN2dtRGUxWDk3OWJ3VUlJWmdOOUdOQW54MS11cV80elZZWWt3NFpmZXplQTgzY0VBcWdpeThqamwzaEdDTkxBbWZQRFE?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-07-21T07:00:00+00:00",
-    "fetchedAt": "2026-08-14T01:17:38+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Users and roles for Splunk Enterprise Security - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "34cd7640f5c91748",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "e4abe5db260cbed6",
