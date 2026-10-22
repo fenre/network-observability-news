@@ -1,5 +1,66 @@
 [
   {
+    "id": "d55280cd8e1ce1bd",
+    "title": "Updates to the Zeek Security Patch Process",
+    "url": "https://zeek.org/2026/10/updates-to-the-zeek-security-patch-process/",
+    "canonicalUrl": "https://zeek.org/2026/10/updates-to-the-zeek-security-patch-process",
+    "source": {
+      "id": "zeek-blog",
+      "name": "Zeek Blog",
+      "homepage": "https://zeek.org"
+    },
+    "author": "Tim Wojtulewicz",
+    "publishedAt": "2026-10-22T19:09:22+00:00",
+    "fetchedAt": "2026-10-22T21:03:04+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In the brave new world of LLMs, open-source projects are facing a much larger in-flux of security findings. Zeek is no different, and while we have always prided ourselves on the amount of automated scanning we already do to find issues, we have had a large amount of new findings. We have been fortunate enough […]",
+    "summarySource": "extractive",
+    "clusterId": "d55280cd8e1ce1bd",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Zeek Blog"
+  },
+  {
+    "id": "d3a425215ce83e43",
+    "title": "Using AI to re-architect the Cisco DevNet sandbox environment – Part 1",
+    "url": "https://blogs.cisco.com/cisco-devnet/ai-network-design-devnet-sandbox-part-1/",
+    "canonicalUrl": "https://blogs.cisco.com/cisco-devnet/ai-network-design-devnet-sandbox-part-1",
+    "source": {
+      "id": "cisco-developer-blog",
+      "name": "Cisco Developer Blog",
+      "homepage": "https://blogs.cisco.com/developer"
+    },
+    "author": "Adrian Iliesiu",
+    "publishedAt": "2026-10-22T19:00:34+00:00",
+    "fetchedAt": "2026-10-22T21:03:04+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "An AI agent reviewed our sandbox network design, caught routers hanging off the spines, and asked one question that turned a Clos fabric into a two-tier vPC design.",
+    "summarySource": "extractive",
+    "clusterId": "d3a425215ce83e43",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Developer Blog"
+  },
+  {
     "id": "1ee962de7f51fab3",
     "title": "Strengthening OpenTelemetry security while preserving API stability",
     "url": "https://opentelemetry.io/blog/2026/security-versioning-policy/",
@@ -93,18 +154,18 @@
     "attribution": "via Cisco Developer Blog"
   },
   {
-    "id": "c30f8d093f365d00",
+    "id": "392866ce5b85ef8b",
     "title": "Splunk, SolarWinds Release Fresh Security Updates - SecurityWeek",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT3h3TUVpRWJyQk9Ydk1YS1laYXV6NDh5d2IzSGtLZE1kdnN3bmdCUDAxaXVtd2txOVFScWtDTXYyZEd2R2VIOG1wTGU2b0ZXTFotLUI4eEdFV3k2cnlLbEZaM2U3V3owNnYxanZVbWdCcWdaRmdkYncwbkNJVjlYZUNCeEHSAYoBQVVfeXFMUDF3LUJJQTdRQWZDT25sQ0lyY1NkVlFFSnVVX3k4OExvRFRSdVJrbWdUS2hNY2REcmVxVzBIbm8yUTUtblNzdU1PM3NTaXZuUUtBa1VJcnFUUFBMQ0h6Vi1XMmtmbDY0RnRtR2JMX1ZWYXQ0eHhWTnJBSXBjV3g1M2J1OXFyenAxUXJB?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT3h3TUVpRWJyQk9Ydk1YS1laYXV6NDh5d2IzSGtLZE1kdnN3bmdCUDAxaXVtd2txOVFScWtDTXYyZEd2R2VIOG1wTGU2b0ZXTFotLUI4eEdFV3k2cnlLbEZaM2U3V3owNnYxanZVbWdCcWdaRmdkYncwbkNJVjlYZUNCeEHSAYoBQVVfeXFMUDF3LUJJQTdRQWZDT25sQ0lyY1NkVlFFSnVVX3k4OExvRFRSdVJrbWdUS2hNY2REcmVxVzBIbm8yUTUtblNzdU1PM3NTaXZuUUtBa1VJcnFUUFBMQ0h6Vi1XMmtmbDY0RnRtR2JMX1ZWYXQ0eHhWTnJBSXBjV3g1M2J1OXFyenAxUXJB?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMXctQklBN1FBZkNPbmxDSXJjU2RWUUVKdVVfeTg4TG9EVFJ1UmttZ1RLaE1jZERyZXFXMEhubzJRNS1uU3N1TU8zc1Npdm5RS0FrVUlycVRQUExDSHpWLVcya2ZsNjRGdG1HYkxfVlZhdDR4eFZOckFJcGNXeDUzYnU5cXJ6cDFRckHSAYoBQVVfeXFMUDF3LUJJQTdRQWZDT25sQ0lyY1NkVlFFSnVVX3k4OExvRFRSdVJrbWdUS2hNY2REcmVxVzBIbm8yUTUtblNzdU1PM3NTaXZuUUtBa1VJcnFUUFBMQ0h6Vi1XMmtmbDY0RnRtR2JMX1ZWYXQ0eHhWTnJBSXBjV3g1M2J1OXFyenAxUXJB?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMXctQklBN1FBZkNPbmxDSXJjU2RWUUVKdVVfeTg4TG9EVFJ1UmttZ1RLaE1jZERyZXFXMEhubzJRNS1uU3N1TU8zc1Npdm5RS0FrVUlycVRQUExDSHpWLVcya2ZsNjRGdG1HYkxfVlZhdDR4eFZOckFJcGNXeDUzYnU5cXJ6cDFRckHSAYoBQVVfeXFMUDF3LUJJQTdRQWZDT25sQ0lyY1NkVlFFSnVVX3k4OExvRFRSdVJrbWdUS2hNY2REcmVxVzBIbm8yUTUtblNzdU1PM3NTaXZuUUtBa1VJcnFUUFBMQ0h6Vi1XMmtmbDY0RnRtR2JMX1ZWYXQ0eHhWTnJBSXBjV3g1M2J1OXFyenAxUXJB?oc=5",
     "source": {
       "id": "gnews-splunk-platform",
       "name": "SecurityWeek",
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
-    "publishedAt": "2026-10-22T10:45:24+00:00",
-    "fetchedAt": "2026-10-22T16:24:10+00:00",
+    "publishedAt": "2026-10-22T10:58:16+00:00",
+    "fetchedAt": "2026-10-22T21:03:04+00:00",
     "topics": [
       "splunk",
       "cisco-data-fabric"
@@ -118,7 +179,37 @@
     ],
     "summary": "Splunk, SolarWinds Release Fresh Security Updates SecurityWeek",
     "summarySource": "extractive",
-    "clusterId": "c30f8d093f365d00",
+    "clusterId": "392866ce5b85ef8b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via SecurityWeek (Google News)"
+  },
+  {
+    "id": "c30f8d093f365d00",
+    "title": "Splunk, SolarWinds Release Fresh Security Updates - SecurityWeek",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT3h3TUVpRWJyQk9Ydk1YS1laYXV6NDh5d2IzSGtLZE1kdnN3bmdCUDAxaXVtd2txOVFScWtDTXYyZEd2R2VIOG1wTGU2b0ZXTFotLUI4eEdFV3k2cnlLbEZaM2U3V3owNnYxanZVbWdCcWdaRmdkYncwbkNJVjlYZUNCeEHSAYoBQVVfeXFMUDF3LUJJQTdRQWZDT25sQ0lyY1NkVlFFSnVVX3k4OExvRFRSdVJrbWdUS2hNY2REcmVxVzBIbm8yUTUtblNzdU1PM3NTaXZuUUtBa1VJcnFUUFBMQ0h6Vi1XMmtmbDY0RnRtR2JMX1ZWYXQ0eHhWTnJBSXBjV3g1M2J1OXFyenAxUXJB?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT3h3TUVpRWJyQk9Ydk1YS1laYXV6NDh5d2IzSGtLZE1kdnN3bmdCUDAxaXVtd2txOVFScWtDTXYyZEd2R2VIOG1wTGU2b0ZXTFotLUI4eEdFV3k2cnlLbEZaM2U3V3owNnYxanZVbWdCcWdaRmdkYncwbkNJVjlYZUNCeEHSAYoBQVVfeXFMUDF3LUJJQTdRQWZDT25sQ0lyY1NkVlFFSnVVX3k4OExvRFRSdVJrbWdUS2hNY2REcmVxVzBIbm8yUTUtblNzdU1PM3NTaXZuUUtBa1VJcnFUUFBMQ0h6Vi1XMmtmbDY0RnRtR2JMX1ZWYXQ0eHhWTnJBSXBjV3g1M2J1OXFyenAxUXJB?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "SecurityWeek",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-10-22T10:45:24+00:00",
+    "fetchedAt": "2026-10-22T16:24:10+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk, SolarWinds Release Fresh Security Updates - SecurityWeek",
+    "summarySource": "extractive",
+    "clusterId": "392866ce5b85ef8b",
     "lang": "en",
     "license": null,
     "attribution": "via SecurityWeek (Google News)"
@@ -146,7 +237,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 - Splunk",
+    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 Splunk",
     "summarySource": "extractive",
     "clusterId": "0fa6c2c4ec0fd71e",
     "lang": "en",
@@ -178,7 +269,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 - Splunk",
+    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 Splunk",
     "summarySource": "extractive",
     "clusterId": "0fa6c2c4ec0fd71e",
     "lang": "en",
@@ -202,9 +293,9 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
       "product-release",
@@ -850,7 +941,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics Oracle Blogs",
+    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics - Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "33d9d9319238afe7",
     "lang": "en",
@@ -880,7 +971,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High - Splunk",
+    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High Splunk",
     "summarySource": "extractive",
     "clusterId": "71936385c4a8ce8b",
     "lang": "en",
@@ -1151,7 +1242,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking Developer Tech News",
+    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking - Developer Tech News",
     "summarySource": "extractive",
     "clusterId": "ac190289f561f7c5",
     "lang": "en",
@@ -1303,7 +1394,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your K8s metric names are a cardinality leak. Here's how to plug it at the OpenTelemetry Collector VMblog",
+    "summary": "Your K8s metric names are a cardinality leak. Here's how to plug it at the OpenTelemetry Collector - VMblog",
     "summarySource": "extractive",
     "clusterId": "a2c326094a72f9aa",
     "lang": "en",
@@ -1415,7 +1506,9 @@
     "author": "Sujala Vasanthasena",
     "publishedAt": "2026-10-13T18:43:11+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1423,7 +1516,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building a Biological Incubator Environmental Monitoring System with Zeek",
+    "summary": "When I first started learning Zeek, I mainly thought of it as a network security monitoring framework: inspect traffic, extract useful information, generate logs, and detect suspicious activity. But while experimenting with Zeek scripting, I became interested in a different question: Can Zeek’s scripting and logging capabilities be used to monitor IoT-style telemetry, even when […]",
     "summarySource": "extractive",
     "clusterId": "be4755144ad0b608",
     "lang": "en",
@@ -1614,6 +1707,36 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "c505789546c14188",
+    "title": "Release notes overview | Observability Cloud (last updated 2026-10-12T17:16:57.751Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wWWZCU0c5a1ZQYkpFUkthWHEzSXlzOHUzbDQ4S1hnQ0dWWWlnVmFTN0NNWGh6eGhrN0dKaWNWN183bWxZZ2duMlJ3MEZDNjltTm5TcFlkVzcwYkJEY0owOHVVT2h6bmk3U0dTamdNanV5MjFDUUE?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wWWZCU0c5a1ZQYkpFUkthWHEzSXlzOHUzbDQ4S1hnQ0dWWWlnVmFTN0NNWGh6eGhrN0dKaWNWN183bWxZZ2duMlJ3MEZDNjltTm5TcFlkVzcwYkJEY0owOHVVT2h6bmk3U0dTamdNanV5MjFDUUE?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-12T07:00:00+00:00",
+    "fetchedAt": "2026-10-17T14:45:35+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Release notes overview | Observability Cloud (last updated 2026-10-12T17:16:57.751Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "c505789546c14188",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "9f4e954020b92b37",
     "title": "Prometheus and OpenTelemetry interoperability in 2026: Survey results",
     "url": "https://opentelemetry.io/blog/2026/otel-prometheus-interoperability/",
@@ -1668,7 +1791,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas Splunk Lantern",
+    "summary": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas - Splunk Lantern",
     "summarySource": "extractive",
     "clusterId": "8782101300123bfd",
     "lang": "en",
@@ -1704,36 +1827,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "c505789546c14188",
-    "title": "Release notes overview | Observability Cloud (last updated 2026-10-09T17:10:12.479Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wWWZCU0c5a1ZQYkpFUkthWHEzSXlzOHUzbDQ4S1hnQ0dWWWlnVmFTN0NNWGh6eGhrN0dKaWNWN183bWxZZ2duMlJ3MEZDNjltTm5TcFlkVzcwYkJEY0owOHVVT2h6bmk3U0dTamdNanV5MjFDUUE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wWWZCU0c5a1ZQYkpFUkthWHEzSXlzOHUzbDQ4S1hnQ0dWWWlnVmFTN0NNWGh6eGhrN0dKaWNWN183bWxZZ2duMlJ3MEZDNjltTm5TcFlkVzcwYkJEY0owOHVVT2h6bmk3U0dTamdNanV5MjFDUUE?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-10-09T17:10:12+00:00",
-    "fetchedAt": "2026-10-17T14:45:35+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Release notes overview | Observability Cloud (last updated 2026-10-09T17:10:12.479Z) - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "c505789546c14188",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "b88103398beffb41",
@@ -2448,7 +2541,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Kubernetes Attributes Processor reaches v1.0.0 stability TechGig",
+    "summary": "OpenTelemetry Kubernetes Attributes Processor reaches v1.0.0 stability - TechGig",
     "summarySource": "extractive",
     "clusterId": "7c902627d543ccb5",
     "lang": "en",
@@ -2478,7 +2571,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise - September/October 2026 Splunk",
+    "summary": "Security Vulnerabilities in Splunk Enterprise - September/October 2026 - Splunk",
     "summarySource": "extractive",
     "clusterId": "0fa6c2c4ec0fd71e",
     "lang": "en",
@@ -2717,15 +2810,18 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-10-05T21:53:58+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
+    "summary": "One team won’t start building an alert until someone has written down what it is, why it matters to the organization, what to do when it fires and how to confirm it’s resolved. Another curates and tests its Zeek alerts first, decides whether each one goes to the SIEM or triggers an automated block, and […]",
     "summarySource": "extractive",
     "clusterId": "9204a71a032e97f4",
     "lang": "en",
@@ -4009,7 +4105,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -4039,7 +4135,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SPL2 release notes Splunk",
+    "summary": "SPL2 release notes - Splunk",
     "summarySource": "extractive",
     "clusterId": "31c1af491332501a",
     "lang": "en",
@@ -4553,15 +4649,17 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-09-28T17:29:59+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Reducing Zeek JSON Log Size: Field Name Mapping and Log Filtering Hooks",
+    "summary": "Zeek’s JSON logs can get large quickly, especially if you’re ingesting them into a SIEM that charges by data volume. There are two ways to address this: filtering out uninteresting log lines, and renaming fields to reduce per-event size. Both take only a few lines of code.",
     "summarySource": "extractive",
     "clusterId": "86c494a4337d6326",
     "lang": "en",
@@ -5080,7 +5178,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Upcoming changes for Splunk Enterprise version 10.6 and Splunk Cloud Platform version 10.6 Splunk Lantern",
+    "summary": "Upcoming changes for Splunk Enterprise version 10.6 and Splunk Cloud Platform version 10.6 - Splunk Lantern",
     "summarySource": "extractive",
     "clusterId": "61b57d50c7603ac0",
     "lang": "en",
@@ -5119,34 +5217,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "372d8f3b55a94bd4",
-    "title": "PeeringDB Update April - September 2026",
-    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
-    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Leo Vegoda",
-    "publishedAt": "2026-09-23T13:13:32+00:00",
-    "fetchedAt": "2026-10-22T10:56:18+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "PeeringDB Update April - September 2026",
-    "summarySource": "extractive",
-    "clusterId": "372d8f3b55a94bd4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "9403c3137b65a504",
@@ -5205,7 +5275,7 @@
     ],
     "summary": "Explore the shift from passive to active security, key outcomes to prioritize, and three design pillars—unifying infrastructure, flow protection, and operational assurance—to defend against modern AI-driven threats.",
     "summarySource": "extractive",
-    "clusterId": "a159a212ed37e76a",
+    "clusterId": "39fc69a043dbf6e5",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
@@ -5479,6 +5549,34 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
+    "id": "fa984377e78b0ed6",
+    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
+    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Ethan Banks",
+    "publishedAt": "2026-09-21T13:00:34+00:00",
+    "fetchedAt": "2026-10-22T21:03:04+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
+    "summarySource": "extractive",
+    "clusterId": "fa984377e78b0ed6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -5640,7 +5738,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5648,7 +5748,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Workshop Berkeley 2026 Recap",
+    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -5676,7 +5776,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
+    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -5756,15 +5856,17 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Zeek 9",
+    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -6971,7 +7073,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) - Splunk",
+    "summary": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "bfa1ab62af8bb403",
     "lang": "en",
@@ -7001,7 +7103,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "System requirements for use of Splunk Enterprise on-premises - Splunk",
+    "summary": "System requirements for use of Splunk Enterprise on-premises Splunk",
     "summarySource": "extractive",
     "clusterId": "5311cc3039660a63",
     "lang": "en",
@@ -7312,34 +7414,6 @@
     "attribution": "via Cisco Blogs (Google News)"
   },
   {
-    "id": "20f7ad9eb66a41ca",
-    "title": "Closing the IPv6 First-Packet Gap with GRAND",
-    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
-    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Seyed Pouria Mousavizadeh Tehrani",
-    "publishedAt": "2026-09-04T13:32:29+00:00",
-    "fetchedAt": "2026-10-22T10:56:18+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Closing the IPv6 First-Packet Gap with GRAND",
-    "summarySource": "extractive",
-    "clusterId": "20f7ad9eb66a41ca",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "862238d979ee4744",
     "title": "What part of ‘No!’ is so hard for the DNS to understand?",
     "url": "https://blog.apnic.net/2026/09/04/what-part-of-no-is-so-hard-for-the-dns-understand/",
@@ -7408,7 +7482,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7416,40 +7492,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
+    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
-  },
-  {
-    "id": "48d329f7c34cde74",
-    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
-    "url": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
-    "canonicalUrl": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Sebastian Kappes",
-    "publishedAt": "2026-09-03T12:03:26+00:00",
-    "fetchedAt": "2026-10-22T10:56:18+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
-    "summarySource": "extractive",
-    "clusterId": "48d329f7c34cde74",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "a72bd4a7853e2e3f",
@@ -7477,7 +7525,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes for Splunk Enterprise Security - Splunk",
+    "summary": "Release notes for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
@@ -7560,15 +7608,17 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "How Attackers Learn Your Network Before They Attack It",
+    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -7706,10 +7756,7 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-09-01T20:49:30+00:00",
     "fetchedAt": "2026-10-20T21:05:16+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7717,7 +7764,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Three Cisco 8000 routers on IOS XE 26.2. We walk the key exchange from classical to PPK to native ML-KEM-768 hybrid, then prove a phased rollout across hub and spokes works with zero outage.",
+    "summary": "Post-Quantum Key Exchange on Cisco Routers – IPsec Series, Part 9",
     "summarySource": "extractive",
     "clusterId": "78d4cfff290bbcb1",
     "lang": "en",
@@ -7751,34 +7798,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "831f42f8ca18045d",
-    "title": "The IRR Landscape: What RPKI Can Replace",
-    "url": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace/",
-    "canonicalUrl": "https://labs.ripe.net/author/mw/the-irr-landscape-what-rpki-can-replace",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Matthias Wichtlhuber",
-    "publishedAt": "2026-09-01T12:20:33+00:00",
-    "fetchedAt": "2026-10-22T10:56:18+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The IRR Landscape: What RPKI Can Replace",
-    "summarySource": "extractive",
-    "clusterId": "831f42f8ca18045d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "fc1ec818cde57e15",
@@ -7871,7 +7890,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security Splunk",
+    "summary": "Users and roles for Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
@@ -7904,7 +7923,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk",
+    "summary": "Deploy and upgrade Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "5d790681636e45f3",
     "lang": "en",
@@ -7967,7 +7986,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Planning an upgrade of Splunk Enterprise Security Splunk",
+    "summary": "Planning an upgrade of Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "5d790681636e45f3",
     "lang": "en",
@@ -8000,7 +8019,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Overview of threat intelligence in Splunk Enterprise Security Splunk",
+    "summary": "Overview of threat intelligence in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "09f22d91dcb2e4d7",
     "lang": "en",
@@ -8142,7 +8161,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -8150,7 +8171,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
+    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -8721,7 +8742,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloud Flex Capability and Product Coverage - Splunk",
+    "summary": "Cloud Flex Capability and Product Coverage Splunk",
     "summarySource": "extractive",
     "clusterId": "fb4666efd67d4511",
     "lang": "en",
@@ -9078,6 +9099,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via DevOps.com (Google News)"
+  },
+  {
+    "id": "ce0f99a9709db24e",
+    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-08-18T15:48:26+00:00",
+    "fetchedAt": "2026-10-22T21:03:04+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summarySource": "extractive",
+    "clusterId": "ce0f99a9709db24e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -9561,7 +9610,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-08-12T20:20:49+00:00",
     "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -9569,7 +9620,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek 9.0 Development Update",
+    "summary": "Zeek 9.0, our next long-term support (LTS) release, is just around the corner! Here’s a quick look at what’s been keeping us busy in the lead-up to the release, and what you can expect over the next few weeks. As always, our priority for our next LTS release is stability and maturity of features.",
     "summarySource": "extractive",
     "clusterId": "8294678e461b7a19",
     "lang": "en",
@@ -10613,7 +10664,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Write and run federated searches over federated datasets with SPL2 Splunk",
+    "summary": "Write and run federated searches over federated datasets with SPL2 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b27a70e76586d9f8",
     "lang": "en",
@@ -11851,7 +11902,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Convert a search from SPL to SPL2 Splunk",
+    "summary": "Convert a search from SPL to SPL2 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b877db3d3eddd7b9",
     "lang": "en",
@@ -11981,34 +12032,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
-  },
-  {
-    "id": "438a7ff3adc2a75c",
-    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-    "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
-    "canonicalUrl": "https://blog.cloudflare.com/bgp-origin-attribute",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Bryton Herdes",
-    "publishedAt": "2026-07-24T17:25:28+00:00",
-    "fetchedAt": "2026-07-24T19:15:41+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-    "summarySource": "extractive",
-    "clusterId": "438a7ff3adc2a75c",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
   },
   {
     "id": "e4abe5db260cbed6",
@@ -12435,6 +12458,41 @@
     "attribution": "via Splunk (canonical)"
   },
   {
+    "id": "74b6429a7317c72e",
+    "title": "Welcome to Splunk Enterprise 10.2 - Splunk",
+    "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-01-15T08:00:00+00:00",
+    "fetchedAt": "2026-10-22T21:03:04+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-enterprise",
+      "10.4",
+      "release-notes"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
+    "summarySource": "curated",
+    "clusterId": "0841e312914e95e4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
+  },
+  {
     "id": "7bd4e706fffd1a0d",
     "title": "Dashboard Studio: What's New in Splunk Enterprise 10.0 and 9.4 - Splunk",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
@@ -12485,12 +12543,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
