@@ -233,7 +233,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 Splunk",
+    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 - Splunk",
     "summarySource": "extractive",
     "clusterId": "0fa6c2c4ec0fd71e",
     "lang": "en",
@@ -265,7 +265,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 Splunk",
+    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 - Splunk",
     "summarySource": "extractive",
     "clusterId": "0fa6c2c4ec0fd71e",
     "lang": "en",
@@ -289,9 +289,9 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release",
@@ -664,6 +664,36 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "10d0169b3318c542",
+    "title": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR - CyberSecurityNews",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43NHpUS3ZTZVFOX09pZ3c1SVRSLUh2eUFEVnBNVG13OXU1bDB0dEtmckd1TjE2eTdKOTNZUHVZVGt3UWRqZk10UnlnUHZGNDc3Q0pBNUdnZS1rdDU5Tm5Md2x6azdCRGJFazVYZHh0N0dxSFnSAXNBVV95cUxONzR6VEt2U2VRTl9PaWd3NUlUUi1IdnlBRFZwTVRtdzl1NWwwdHRLZnJHdU4xNnk3SjkzWVB1WVRrd1FkamZNdFJ5Z1B2RjQ3N0NKQTVHZ2Uta3Q1OU5uTHdsems3QkRiRWs1WGR4dDdHcUhZ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43NHpUS3ZTZVFOX09pZ3c1SVRSLUh2eUFEVnBNVG13OXU1bDB0dEtmckd1TjE2eTdKOTNZUHVZVGt3UWRqZk10UnlnUHZGNDc3Q0pBNUdnZS1rdDU5Tm5Md2x6azdCRGJFazVYZHh0N0dxSFnSAXNBVV95cUxONzR6VEt2U2VRTl9PaWd3NUlUUi1IdnlBRFZwTVRtdzl1NWwwdHRLZnJHdU4xNnk3SjkzWVB1WVRrd1FkamZNdFJ5Z1B2RjQ3N0NKQTVHZ2Uta3Q1OU5uTHdsems3QkRiRWs1WGR4dDdHcUhZ?oc=5",
+    "source": {
+      "id": "gnews-splunk-es-soar",
+      "name": "CyberSecurityNews",
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+    },
+    "author": null,
+    "publishedAt": "2026-10-21T07:00:00+00:00",
+    "fetchedAt": "2026-10-23T10:48:32+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR CyberSecurityNews",
+    "summarySource": "extractive",
+    "clusterId": "10d0169b3318c542",
+    "lang": "en",
+    "license": null,
+    "attribution": "via CyberSecurityNews (Google News)"
+  },
+  {
     "id": "018e492dbb3d1e9f",
     "title": "8 eMudhra certificates are compromised. Here's what you need to know",
     "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
@@ -903,6 +933,36 @@
     ]
   },
   {
+    "id": "5e3fcf83747e3fd7",
+    "title": "Dataminr CTTI for Splunk Enterprise and Splunk Cloud - Splunkbase",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BYTNIRDV2YV8yU2NyVFIxSndXZGNGUDh3UFRPcEZlcXBCSnRZUTFrRDZyRGhGU2hmazFSVC11SXVRdmZ1WkptWVUyY0V4dUVm?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BYTNIRDV2YV8yU2NyVFIxSndXZGNGUDh3UFRPcEZlcXBCSnRZUTFrRDZyRGhGU2hmazFSVC11SXVRdmZ1WkptWVUyY0V4dUVm?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunkbase",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-20T07:00:00+00:00",
+    "fetchedAt": "2026-10-23T10:48:32+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Dataminr CTTI for Splunk Enterprise and Splunk Cloud Splunkbase",
+    "summarySource": "extractive",
+    "clusterId": "5e3fcf83747e3fd7",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunkbase (Google News)"
+  },
+  {
     "id": "33d9d9319238afe7",
     "title": "Troubleshooting MySQL with OpenTelemetry Metrics - Oracle Blogs",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUl9Eak1adU1PYWZIN1RPV2t0OUdUX2NBbmlNcW9WUWdGcmlhandZcHF6aHpXQlU3TkdOUnJ3bGJuN2Nlblp5cFl2MHdjanhSYTBNTnY4cnJJWS1NWUJHdEotMW9BWE9GbEFMUGtpa3Bnd1FuYWN0TFU4bUpJUGNGelROSVpFQQ?oc=5",
@@ -927,7 +987,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics - Oracle Blogs",
+    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "33d9d9319238afe7",
     "lang": "en",
@@ -957,7 +1017,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High Splunk",
+    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High - Splunk",
     "summarySource": "extractive",
     "clusterId": "71936385c4a8ce8b",
     "lang": "en",
@@ -1067,7 +1127,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1138,6 +1198,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via YouTube (Google News)"
+  },
+  {
+    "id": "b528f78deb87a51d",
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "André Grüneberg",
+    "publishedAt": "2026-10-19T08:53:35+00:00",
+    "fetchedAt": "2026-10-23T10:48:32+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
+    "summarySource": "extractive",
+    "clusterId": "b528f78deb87a51d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "b9977a3309f8b9b5",
@@ -1220,7 +1308,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking - Developer Tech News",
+    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking Developer Tech News",
     "summarySource": "extractive",
     "clusterId": "ac190289f561f7c5",
     "lang": "en",
@@ -1366,7 +1454,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your K8s metric names are a cardinality leak. Here's how to plug it at the OpenTelemetry Collector - VMblog",
+    "summary": "Your K8s metric names are a cardinality leak. Here's how to plug it at the OpenTelemetry Collector VMblog",
     "summarySource": "extractive",
     "clusterId": "a2c326094a72f9aa",
     "lang": "en",
@@ -1417,7 +1505,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1689,7 +1777,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes overview | Observability Cloud (last updated 2026-10-12T17:16:57.751Z) Splunk",
+    "summary": "Release notes overview | Observability Cloud (last updated 2026-10-12T17:16:57.751Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "c505789546c14188",
     "lang": "en",
@@ -1751,7 +1839,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas - Splunk Lantern",
+    "summary": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas Splunk Lantern",
     "summarySource": "extractive",
     "clusterId": "8782101300123bfd",
     "lang": "en",
@@ -1834,7 +1922,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2497,7 +2585,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Kubernetes Attributes Processor reaches v1.0.0 stability - TechGig",
+    "summary": "OpenTelemetry Kubernetes Attributes Processor reaches v1.0.0 stability TechGig",
     "summarySource": "extractive",
     "clusterId": "7c902627d543ccb5",
     "lang": "en",
@@ -2769,7 +2857,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security",
       "tutorial"
     ],
     "audiences": [
@@ -4089,7 +4176,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SPL2 release notes - Splunk",
+    "summary": "SPL2 release notes Splunk",
     "summarySource": "extractive",
     "clusterId": "31c1af491332501a",
     "lang": "en",
@@ -4606,7 +4693,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5130,7 +5217,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Upcoming changes for Splunk Enterprise version 10.6 and Splunk Cloud Platform version 10.6 - Splunk Lantern",
+    "summary": "Upcoming changes for Splunk Enterprise version 10.6 and Splunk Cloud Platform version 10.6 Splunk Lantern",
     "summarySource": "extractive",
     "clusterId": "61b57d50c7603ac0",
     "lang": "en",
@@ -5169,6 +5256,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "372d8f3b55a94bd4",
+    "title": "PeeringDB Update April - September 2026",
+    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-09-23T13:13:32+00:00",
+    "fetchedAt": "2026-10-23T10:48:32+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summarySource": "extractive",
+    "clusterId": "372d8f3b55a94bd4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "9403c3137b65a504",
@@ -5227,7 +5342,7 @@
     ],
     "summary": "Explore the shift from passive to active security, key outcomes to prioritize, and three design pillars—unifying infrastructure, flow protection, and operational assurance—to defend against modern AI-driven threats.",
     "summarySource": "extractive",
-    "clusterId": "a159a212ed37e76a",
+    "clusterId": "39fc69a043dbf6e5",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
@@ -5781,7 +5896,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6993,7 +7108,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) Splunk",
+    "summary": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "bfa1ab62af8bb403",
     "lang": "en",
@@ -7023,7 +7138,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "System requirements for use of Splunk Enterprise on-premises Splunk",
+    "summary": "System requirements for use of Splunk Enterprise on-premises - Splunk",
     "summarySource": "extractive",
     "clusterId": "5311cc3039660a63",
     "lang": "en",
@@ -7334,6 +7449,34 @@
     "attribution": "via Cisco Blogs (Google News)"
   },
   {
+    "id": "20f7ad9eb66a41ca",
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Seyed Pouria Mousavizadeh Tehrani",
+    "publishedAt": "2026-09-04T13:32:29+00:00",
+    "fetchedAt": "2026-10-23T10:48:32+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summarySource": "extractive",
+    "clusterId": "20f7ad9eb66a41ca",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "862238d979ee4744",
     "title": "What part of ‘No!’ is so hard for the DNS to understand?",
     "url": "https://blog.apnic.net/2026/09/04/what-part-of-no-is-so-hard-for-the-dns-understand/",
@@ -7418,6 +7561,34 @@
     "attribution": "via Zeek Blog"
   },
   {
+    "id": "48d329f7c34cde74",
+    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
+    "url": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
+    "canonicalUrl": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Sebastian Kappes",
+    "publishedAt": "2026-09-03T12:03:26+00:00",
+    "fetchedAt": "2026-10-23T10:48:32+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "summarySource": "extractive",
+    "clusterId": "48d329f7c34cde74",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "a72bd4a7853e2e3f",
     "title": "Release notes for Splunk Enterprise Security - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVW9KNHlXSDh1X0ZsTWRueVlMZ1oxXzJnUEVwVEhLeVZaYTZHUU1hTTNrdEZMcFBWM05GaUJaOFVMUmdoUl8xODRfbVhqbVplenQ5OUx4RWRGX2diUUtqSjEzZ3A2RjBiampPbjJfQnpOR1ZpMmJ6UkRWdkNsMHRDeTF1LXhMLXlVODdV?oc=5",
@@ -7443,7 +7614,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes for Splunk Enterprise Security Splunk",
+    "summary": "Release notes for Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
@@ -7806,42 +7977,9 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security - Splunk",
+    "summary": "Users and roles for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "7e4a3a46646c71e1",
-    "title": "Deploy and upgrade Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRDExaVgxeG5pN1lqeVQ1YTk2NjBMd2ZfbnhaeXl3Vk9sV1BRQ3V6V19qNW8tanBFeW9VeVc0VVdQT2F3WkFGa3NOUEs5N0FnT0NCRW05cEQ0azlpaU95eFZHNTNKWVB3NTlBVFd6YnU?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-09-01T07:00:00+00:00",
-    "fetchedAt": "2026-08-07T12:45:05+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "5d790681636e45f3",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
@@ -7902,7 +8040,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Planning an upgrade of Splunk Enterprise Security - Splunk",
+    "summary": "Planning an upgrade of Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "5d790681636e45f3",
     "lang": "en",
@@ -7935,7 +8073,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Overview of threat intelligence in Splunk Enterprise Security - Splunk",
+    "summary": "Overview of threat intelligence in Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "09f22d91dcb2e4d7",
     "lang": "en",
@@ -8656,7 +8794,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloud Flex Capability and Product Coverage Splunk",
+    "summary": "Cloud Flex Capability and Product Coverage - Splunk",
     "summarySource": "extractive",
     "clusterId": "fb4666efd67d4511",
     "lang": "en",
@@ -9013,34 +9151,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via DevOps.com (Google News)"
-  },
-  {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-10-22T21:03:04+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
@@ -10576,7 +10686,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Write and run federated searches over federated datasets with SPL2 - Splunk",
+    "summary": "Write and run federated searches over federated datasets with SPL2 Splunk",
     "summarySource": "extractive",
     "clusterId": "b27a70e76586d9f8",
     "lang": "en",
@@ -11814,7 +11924,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Convert a search from SPL to SPL2 - Splunk",
+    "summary": "Convert a search from SPL to SPL2 Splunk",
     "summarySource": "extractive",
     "clusterId": "b877db3d3eddd7b9",
     "lang": "en",
@@ -11853,6 +11963,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via TechTarget (Google News)"
+  },
+  {
+    "id": "2238c744f95c6502",
+    "title": "Create an alert using an SPL2 search | Platform (last updated 2026-07-27T18:10:45.693Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMUl2bzZrdzBVWGRoWURQMUxCVVEtTEJNZFY0cm5TT0hDSWZUMkxKRUlPWDNqWGEwbVZ5ZVRZZFprVWZsR09UVDZRTVBub05vUFd0ZnBfNUNLQnBmVlZlc183RUtIMmNzS01BWlFCT29BZGdSV0xUMGVoNFpnTWdINExFaGtpOU43WFlXYlIyd3V0cUdmVXE0aGNWZnBSVXl3N2JxSW03bW9nbmo0X1Q3Y3c5aGdDRTl6STNqdm5QbHl4V0d1Um9jWld1TjRXVjRYbGNpTUtoWTFUWXVSNVdJSzFsVQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMUl2bzZrdzBVWGRoWURQMUxCVVEtTEJNZFY0cm5TT0hDSWZUMkxKRUlPWDNqWGEwbVZ5ZVRZZFprVWZsR09UVDZRTVBub05vUFd0ZnBfNUNLQnBmVlZlc183RUtIMmNzS01BWlFCT29BZGdSV0xUMGVoNFpnTWdINExFaGtpOU43WFlXYlIyd3V0cUdmVXE0aGNWZnBSVXl3N2JxSW03bW9nbmo0X1Q3Y3c5aGdDRTl6STNqdm5QbHl4V0d1Um9jWld1TjRXVjRYbGNpTUtoWTFUWXVSNVdJSzFsVQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-07-27T07:00:00+00:00",
+    "fetchedAt": "2026-10-23T10:48:32+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Create an alert using an SPL2 search | Platform (last updated 2026-07-27T18:10:45.693Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "2238c744f95c6502",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "1d6a1d64c68b3486",
@@ -12454,13 +12594,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
