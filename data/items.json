@@ -333,7 +333,8 @@
     "publishedAt": "2026-10-22T10:58:16+00:00",
     "fetchedAt": "2026-10-22T21:03:04+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -342,7 +343,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk, SolarWinds Release Fresh Security Updates - SecurityWeek",
+    "summary": "Splunk, SolarWinds Release Fresh Security Updates SecurityWeek",
     "summarySource": "extractive",
     "clusterId": "392866ce5b85ef8b",
     "lang": "en",
@@ -527,7 +528,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Computer Networking Masterclass: From Physical Wire to Kubernetes eBPF YouTube",
+    "summary": "Computer Networking Masterclass: From Physical Wire to Kubernetes eBPF - YouTube",
     "summarySource": "extractive",
     "clusterId": "f549198a5aec9f48",
     "lang": "en",
@@ -871,7 +872,8 @@
     "publishedAt": "2026-10-21T07:00:00+00:00",
     "fetchedAt": "2026-10-23T10:48:32+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -880,7 +882,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR - CyberSecurityNews",
+    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "10d0169b3318c542",
     "lang": "en",
@@ -1104,7 +1106,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check - Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -1834,7 +1836,8 @@
     "publishedAt": "2026-10-13T15:01:02+00:00",
     "fetchedAt": "2026-10-14T10:57:42+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1843,7 +1846,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! - CCB Belgium",
+    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! CCB Belgium",
     "summarySource": "extractive",
     "clusterId": "b82b48ea6c29de92",
     "lang": "en",
@@ -2186,7 +2189,8 @@
     "publishedAt": "2026-10-09T07:00:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -2195,7 +2199,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication - Forkast News",
+    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication Forkast News",
     "summarySource": "extractive",
     "clusterId": "2641d461cd550b48",
     "lang": "en",
@@ -2533,7 +2537,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -7495,7 +7499,6 @@
     "publishedAt": "2026-09-07T07:00:00+00:00",
     "fetchedAt": "2026-09-07T16:58:50+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -7507,7 +7510,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
@@ -7535,7 +7538,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
@@ -7673,7 +7676,6 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -7685,7 +7687,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
@@ -11907,62 +11909,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "859e59dd4df10aeb",
-    "title": "Watch a Hybrid Post-Quantum Handshake on the Wire – IPsec Series, Part 4",
-    "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4/",
-    "canonicalUrl": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
-    "source": {
-      "id": "cisco-developer-blog",
-      "name": "Cisco Developer Blog",
-      "homepage": "https://blogs.cisco.com/developer"
-    },
-    "author": "Julio Gomez",
-    "publishedAt": "2026-07-27T14:00:23+00:00",
-    "fetchedAt": "2026-07-27T14:15:23+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Watch a Hybrid Post-Quantum Handshake on the Wire – IPsec Series, Part 4",
-    "summarySource": "extractive",
-    "clusterId": "859e59dd4df10aeb",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Developer Blog"
-  },
-  {
-    "id": "7c2ba6f8ee876851",
-    "title": "We’re open-sourcing our privacy proxy CLI",
-    "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
-    "canonicalUrl": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Fisher Darling",
-    "publishedAt": "2026-07-27T13:00:00+00:00",
-    "fetchedAt": "2026-07-27T14:15:23+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "We’re open-sourcing our privacy proxy CLI",
-    "summarySource": "extractive",
-    "clusterId": "7c2ba6f8ee876851",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
   },
   {
     "id": "e4abe5db260cbed6",
