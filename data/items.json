@@ -403,7 +403,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 Splunk",
+    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b99871444a6f0453",
     "lang": "en",
@@ -435,7 +435,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 Splunk",
+    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b99871444a6f0453",
     "lang": "en",
@@ -459,9 +459,9 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release",
@@ -851,7 +851,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR CyberSecurityNews",
+    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "10d0169b3318c542",
     "lang": "en",
@@ -864,16 +864,15 @@
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43NHpUS3ZTZVFOX09pZ3c1SVRSLUh2eUFEVnBNVG13OXU1bDB0dEtmckd1TjE2eTdKOTNZUHVZVGt3UWRqZk10UnlnUHZGNDc3Q0pBNUdnZS1rdDU5Tm5Md2x6azdCRGJFazVYZHh0N0dxSFnSAXNBVV95cUxONzR6VEt2U2VRTl9PaWd3NUlUUi1IdnlBRFZwTVRtdzl1NWwwdHRLZnJHdU4xNnk3SjkzWVB1WVRrd1FkamZNdFJ5Z1B2RjQ3N0NKQTVHZ2Uta3Q1OU5uTHdsems3QkRiRWs1WGR4dDdHcUhZ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43NHpUS3ZTZVFOX09pZ3c1SVRSLUh2eUFEVnBNVG13OXU1bDB0dEtmckd1TjE2eTdKOTNZUHVZVGt3UWRqZk10UnlnUHZGNDc3Q0pBNUdnZS1rdDU5Tm5Md2x6azdCRGJFazVYZHh0N0dxSFnSAXNBVV95cUxONzR6VEt2U2VRTl9PaWd3NUlUUi1IdnlBRFZwTVRtdzl1NWwwdHRLZnJHdU4xNnk3SjkzWVB1WVRrd1FkamZNdFJ5Z1B2RjQ3N0NKQTVHZ2Uta3Q1OU5uTHdsems3QkRiRWs1WGR4dDdHcUhZ?oc=5",
     "source": {
-      "id": "gnews-splunk-platform",
+      "id": "gnews-splunk-es-soar",
       "name": "CyberSecurityNews",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
     "publishedAt": "2026-10-21T07:00:00+00:00",
     "fetchedAt": "2026-10-23T10:48:32+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -1237,7 +1236,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High Splunk",
+    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High - Splunk",
     "summarySource": "extractive",
     "clusterId": "71936385c4a8ce8b",
     "lang": "en",
@@ -7212,7 +7211,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) Splunk",
+    "summary": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "bfa1ab62af8bb403",
     "lang": "en",
@@ -8082,7 +8081,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Planning an upgrade of Splunk Enterprise Security Splunk",
+    "summary": "Planning an upgrade of Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "5d790681636e45f3",
     "lang": "en",
@@ -8861,7 +8860,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloud Flex Capability and Product Coverage Splunk",
+    "summary": "Cloud Flex Capability and Product Coverage - Splunk",
     "summarySource": "extractive",
     "clusterId": "fb4666efd67d4511",
     "lang": "en",
@@ -10753,7 +10752,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Write and run federated searches over federated datasets with SPL2 - Splunk",
+    "summary": "Write and run federated searches over federated datasets with SPL2 Splunk",
     "summarySource": "extractive",
     "clusterId": "b27a70e76586d9f8",
     "lang": "en",
