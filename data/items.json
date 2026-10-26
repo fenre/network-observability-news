@@ -1,5 +1,66 @@
 [
   {
+    "id": "95d5916fd6281c36",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "canonicalUrl": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Michelle Chen",
+    "publishedAt": "2026-10-26T22:01:23+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+    "summarySource": "extractive",
+    "clusterId": "95d5916fd6281c36",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "f0474dd365f8b860",
+    "title": "Turning network requests into business-ready connectivity",
+    "url": "https://blogs.cisco.com/networking/turning-network-requests-into-business-ready-connectivity/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/turning-network-requests-into-business-ready-connectivity",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Lee Peterson",
+    "publishedAt": "2026-10-26T19:30:56+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "How Cisco 8000 Series Secure Routers and SRv6 support Bell On-Demand Network",
+    "summarySource": "extractive",
+    "clusterId": "f0474dd365f8b860",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
     "id": "b72b6d23933cc78f",
     "title": "Wireless is the next security frontier, and Cisco is leading the way",
     "url": "https://blogs.cisco.com/networking/wireless-is-the-next-security-frontier-and-cisco-is-leading-the-way/",
@@ -10,7 +71,7 @@
       "homepage": "https://blogs.cisco.com/networking"
     },
     "author": "Peter Lane",
-    "publishedAt": "2026-10-26T08:00:56+00:00",
+    "publishedAt": "2026-10-26T19:30:56+00:00",
     "fetchedAt": "2026-10-26T12:00:48+00:00",
     "topics": [
       "cisco-data-fabric",
@@ -29,6 +90,70 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
+  },
+  {
+    "id": "d9ddcce3d9340bcc",
+    "title": "The case for OpenTelemetry maintainership",
+    "url": "https://opentelemetry.io/blog/2026/case-for-opentelemetry-maintainership/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/case-for-opentelemetry-maintainership",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-26T17:00:03+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "grafana",
+      "opentelemetry"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "I believe OpenTelemetry’s primary constraint isn’t ideas, code contributions, or adoption, but maintainers. About me I’ve been working on OpenTelemetry since early 2021. I’m a maintainer of opentelemetry-java, opentelemetry-configuration, and opentelemetry-injector, and a member of the Technical Committee.",
+    "summarySource": "extractive",
+    "clusterId": "d9ddcce3d9340bcc",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "9abb8c0c94cc0364",
+    "title": "Policy as Code for the Network: Guardrails with Open Policy Agent",
+    "url": "https://blogs.cisco.com/cisco-devnet/network-guardrails-as-code-opa/",
+    "canonicalUrl": "https://blogs.cisco.com/cisco-devnet/network-guardrails-as-code-opa",
+    "source": {
+      "id": "cisco-developer-blog",
+      "name": "Cisco Developer Blog",
+      "homepage": "https://blogs.cisco.com/developer"
+    },
+    "author": "Lori Jakab",
+    "publishedAt": "2026-10-26T14:00:03+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Learn how to use Open Policy Agent (OPA) to enforce network guardrails as code. Catch insecure configurations before deployment and maintain a unified security posture across your entire enterprise network.",
+    "summarySource": "extractive",
+    "clusterId": "9abb8c0c94cc0364",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Developer Blog"
   },
   {
     "id": "20d42f4887085c51",
@@ -229,7 +354,9 @@
     "author": "Tim Wojtulewicz",
     "publishedAt": "2026-10-22T19:09:22+00:00",
     "fetchedAt": "2026-10-22T21:03:04+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -237,7 +364,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Updates to the Zeek Security Patch Process",
+    "summary": "In the brave new world of LLMs, open-source projects are facing a much larger in-flux of security findings. Zeek is no different, and while we have always prided ourselves on the amount of automated scanning we already do to find issues, we have had a large amount of new findings. We have been fortunate enough […]",
     "summarySource": "extractive",
     "clusterId": "d55280cd8e1ce1bd",
     "lang": "en",
@@ -382,8 +509,7 @@
     "publishedAt": "2026-10-22T10:58:16+00:00",
     "fetchedAt": "2026-10-22T21:03:04+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -392,7 +518,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk, SolarWinds Release Fresh Security Updates SecurityWeek",
+    "summary": "Splunk, SolarWinds Release Fresh Security Updates - SecurityWeek",
     "summarySource": "extractive",
     "clusterId": "392866ce5b85ef8b",
     "lang": "en",
@@ -1275,7 +1401,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
     "summarySource": "extractive",
     "clusterId": "9f12c45c6d4b7331",
     "lang": "en",
@@ -1526,6 +1652,34 @@
     "attribution": "via YouTube (Google News)"
   },
   {
+    "id": "b528f78deb87a51d",
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "André Grüneberg",
+    "publishedAt": "2026-10-19T08:53:35+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
+    "summarySource": "extractive",
+    "clusterId": "b528f78deb87a51d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "b9977a3309f8b9b5",
     "title": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
     "url": "https://blog.apnic.net/2026/10/19/apnic-62-automation-trust-and-the-future-of-internet-infrastructure/",
@@ -1546,7 +1700,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
+    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -1636,7 +1790,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
     "summarySource": "extractive",
     "clusterId": "92a92a8860035523",
     "lang": "en",
@@ -1900,7 +2054,9 @@
     "author": "Sujala Vasanthasena",
     "publishedAt": "2026-10-13T18:43:11+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1908,7 +2064,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building a Biological Incubator Environmental Monitoring System with Zeek",
+    "summary": "When I first started learning Zeek, I mainly thought of it as a network security monitoring framework: inspect traffic, extract useful information, generate logs, and detect suspicious activity. But while experimenting with Zeek scripting, I became interested in a different question: Can Zeek’s scripting and logging capabilities be used to monitor IoT-style telemetry, even when […]",
     "summarySource": "extractive",
     "clusterId": "be4755144ad0b608",
     "lang": "en",
@@ -2081,9 +2237,7 @@
     "author": "Sahidya Devadoss",
     "publishedAt": "2026-10-12T14:44:59+00:00",
     "fetchedAt": "2026-10-13T00:00:25+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2091,7 +2245,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+    "summary": "Filter, reshape, and redact logs before export with Transformers",
     "summarySource": "extractive",
     "clusterId": "5b99838803838018",
     "lang": "en",
@@ -2181,7 +2335,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
     "summarySource": "extractive",
     "clusterId": "f88561aaacf59e73",
     "lang": "en",
@@ -2740,7 +2894,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -2958,7 +3112,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry Kubernetes Attributes Processor reaches v1.0.0 stability TechGig",
+    "summary": "OpenTelemetry Kubernetes Attributes Processor reaches v1.0.0 stability - TechGig",
     "summarySource": "extractive",
     "clusterId": "7c902627d543ccb5",
     "lang": "en",
@@ -2986,7 +3140,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new API architecture designed to support more efficient queries.",
+    "summary": "PeeringDB product update: April to September 2026",
     "summarySource": "extractive",
     "clusterId": "e55e1cf2a42aed66",
     "lang": "en",
@@ -3225,15 +3379,18 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-10-05T21:53:58+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
+    "summary": "One team won’t start building an alert until someone has written down what it is, why it matters to the organization, what to do when it fires and how to confirm it’s resolved. Another curates and tests its Zeek alerts first, decides whether each one goes to the SIEM or triggers an automated block, and […]",
     "summarySource": "extractive",
     "clusterId": "9204a71a032e97f4",
     "lang": "en",
@@ -3627,7 +3784,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
+    "summary": "Is RPKI becoming harmful to BGP stability?",
     "summarySource": "extractive",
     "clusterId": "2a2ce9ef61dc6411",
     "lang": "en",
@@ -3969,7 +4126,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this episode of PING, Verisign's Duane Wessels discusses the transition to the third DNS root KSK key pair, which is scheduled to begin signing the root zone on 11 October 2026.",
+    "summary": "[Podcast] The October 2026 root KSK roll",
     "summarySource": "extractive",
     "clusterId": "7f17eb9683fcf2c2",
     "lang": "en",
@@ -4632,7 +4789,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Presenters at APNIC 62 explored how AI is reshaping network design and operations, from next-generation optical architectures to autonomous management systems, highlighting scale challenges and improved reliability, efficiency, and operational decision-making.",
+    "summary": "AI-driven networking and infrastructure design at APNIC 62",
     "summarySource": "extractive",
     "clusterId": "335b28c6dccccc1b",
     "lang": "en",
@@ -4975,7 +5132,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
+    "summary": "Thou shall not pass: Gatekeeping outbound TLS connections",
     "summarySource": "extractive",
     "clusterId": "6306bd1579277925",
     "lang": "en",
@@ -5085,10 +5242,7 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-09-28T17:47:07+00:00",
     "fetchedAt": "2026-10-20T21:05:16+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5096,7 +5250,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "No more CLI typing. This is where years of DevNet programmability skills land on a real world scenario: Ansible over NETCONF, one file for the posture, and proof the IPsec tunnels actually negotiated ML-KEM and ML-DSA.",
+    "summary": "Automating Post-Quantum IPsec on Cisco Routers – IPsec Series, Part 12",
     "summarySource": "extractive",
     "clusterId": "600c913f679d2515",
     "lang": "en",
@@ -5116,15 +5270,17 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-09-28T17:29:59+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Reducing Zeek JSON Log Size: Field Name Mapping and Log Filtering Hooks",
+    "summary": "Zeek’s JSON logs can get large quickly, especially if you’re ingesting them into a SIEM that charges by data volume. There are two ways to address this: filtering out uninteresting log lines, and renaming fields to reduce per-event size. Both take only a few lines of code.",
     "summarySource": "extractive",
     "clusterId": "86c494a4337d6326",
     "lang": "en",
@@ -5684,6 +5840,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "372d8f3b55a94bd4",
+    "title": "PeeringDB Update April - September 2026",
+    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-09-23T13:13:32+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summarySource": "extractive",
+    "clusterId": "372d8f3b55a94bd4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "52bca3cd2fb2d005",
     "title": "Understanding ASPA: The next step in routing security",
     "url": "https://blog.apnic.net/2026/09/23/understanding-aspa-the-next-step-in-routing-security/",
@@ -5704,7 +5888,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Join this APNIC Academy webinar to understand how ASPAs work, how they complement ROAs, and how you can begin monitoring and deploying them in your network.",
+    "summary": "Understanding ASPA: The next step in routing security",
     "summarySource": "extractive",
     "clusterId": "52bca3cd2fb2d005",
     "lang": "en",
@@ -5850,7 +6034,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: An analysis of the BGP hijack against Softaculous that enabled an attacker to obtain a fraudulent TLS certificate and distribute a malicious Virtualizor update.",
+    "summary": "Latest BGP hijack targets hosting software vendor",
     "summarySource": "extractive",
     "clusterId": "a1fbaea10ac5df2a",
     "lang": "en",
@@ -6042,6 +6226,34 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
+    "id": "fa984377e78b0ed6",
+    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
+    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Ethan Banks",
+    "publishedAt": "2026-09-21T13:00:34+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
+    "summarySource": "extractive",
+    "clusterId": "fa984377e78b0ed6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -6155,7 +6367,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 Technical Session 1 — Internet Operations highlighted major developments across Internet infrastructure, including new management capabilities for Kea DHCP and BIND DNS, preparations for the DNSSEC root KSK rollover, and ongoing challenges in certificate revocation.",
+    "summary": "APNIC 62: Updates in DNS, DHCP, certificate security, and BGP routing resilience",
     "summarySource": "extractive",
     "clusterId": "e292202e70538dc1",
     "lang": "en",
@@ -6203,7 +6415,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6211,7 +6425,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Workshop Berkeley 2026 Recap",
+    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -6239,7 +6453,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
+    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -6327,7 +6541,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Presto is built on the RMT architecture that underlies programmable switches, and addresses RMT's main constraints.",
+    "summary": "Presto: A match-action TCP stack for the terabit era",
     "summarySource": "extractive",
     "clusterId": "2f561a6aeb7910a8",
     "lang": "en",
@@ -6347,15 +6561,17 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Zeek 9",
+    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -6443,7 +6659,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A continuation of the discussion on surplus DNS queries seen at APNIC Labs, the implications of how you say 'no', and the transport used for the DNS.",
+    "summary": "[Podcast] ‘Just say no’ isn’t as simple as you think",
     "summarySource": "extractive",
     "clusterId": "239997d31623ddb4",
     "lang": "en",
@@ -6718,7 +6934,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+    "summary": "The case for open-weight models and why we can’t trust frontier labs",
     "summarySource": "extractive",
     "clusterId": "5bd0ee4a5b0f9566",
     "lang": "en",
@@ -7518,10 +7734,7 @@
     "author": "Jonathan Cohn",
     "publishedAt": "2026-09-09T15:00:31+00:00",
     "fetchedAt": "2026-09-09T20:15:35+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7529,7 +7742,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco and Axis Communications now allow managing Axis devices directly via the Meraki dashboard. This integration unifies IT and physical security, providing centralized visibility and simplified operations on a single, scalable platform.",
+    "summary": "Cisco and Axis Communications: Greater visibility, scalability, and incident management",
     "summarySource": "extractive",
     "clusterId": "29948b79a54ffaf0",
     "lang": "en",
@@ -7980,6 +8193,34 @@
     "attribution": "via Cisco Blogs (Google News)"
   },
   {
+    "id": "20f7ad9eb66a41ca",
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Seyed Pouria Mousavizadeh Tehrani",
+    "publishedAt": "2026-09-04T13:32:29+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summarySource": "extractive",
+    "clusterId": "20f7ad9eb66a41ca",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "862238d979ee4744",
     "title": "What part of ‘No!’ is so hard for the DNS to understand?",
     "url": "https://blog.apnic.net/2026/09/04/what-part-of-no-is-so-hard-for-the-dns-understand/",
@@ -8048,7 +8289,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -8056,12 +8299,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
+    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
+  },
+  {
+    "id": "48d329f7c34cde74",
+    "title": "When Traceroutes Lie: How TTL Jumps Can Give Us a False Impression of the Internet’s Topology",
+    "url": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology/",
+    "canonicalUrl": "https://labs.ripe.net/author/shk/when-traceroutes-lie-how-ttl-jumps-can-give-us-a-false-impression-of-the-internets-topology",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Sebastian Kappes",
+    "publishedAt": "2026-09-03T12:03:26+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Traceroute is a powerful tool for uncovering how packets travel across the Internet. However, as we recently discovered, some routers tamper with the TTL values in traceroute's probing packets, giving you a false view of how networks are actually interconnected.",
+    "summarySource": "extractive",
+    "clusterId": "48d329f7c34cde74",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "a72bd4a7853e2e3f",
@@ -8172,15 +8443,17 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "How Attackers Learn Your Network Before They Attack It",
+    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -8690,7 +8963,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -8698,7 +8973,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
+    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -9656,6 +9931,34 @@
     "attribution": "via DevOps.com (Google News)"
   },
   {
+    "id": "ce0f99a9709db24e",
+    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
+    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-08-18T15:48:26+00:00",
+    "fetchedAt": "2026-10-26T22:08:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summarySource": "extractive",
+    "clusterId": "ce0f99a9709db24e",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "4d6a95e88ad53392",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
@@ -10137,7 +10440,9 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-08-12T20:20:49+00:00",
     "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -10145,7 +10450,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek 9.0 Development Update",
+    "summary": "Zeek 9.0, our next long-term support (LTS) release, is just around the corner! Here’s a quick look at what’s been keeping us busy in the lead-up to the release, and what you can expect over the next few weeks. As always, our priority for our next LTS release is stability and maturity of features.",
     "summarySource": "extractive",
     "clusterId": "8294678e461b7a19",
     "lang": "en",
@@ -12259,62 +12564,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
-  },
-  {
-    "id": "dc4ea2b9c9d7df36",
-    "title": "Scale-across: Why the future of distributed AI isn’t in one data center",
-    "url": "https://blogs.cisco.com/datacenter/scale-across-why-the-future-of-distributed-ai-isnt-in-one-data-center/",
-    "canonicalUrl": "https://blogs.cisco.com/datacenter/scale-across-why-the-future-of-distributed-ai-isnt-in-one-data-center",
-    "source": {
-      "id": "cisco-datacenter-blog",
-      "name": "Cisco Data Center Blog",
-      "homepage": "https://blogs.cisco.com/datacenter"
-    },
-    "author": "Rakesh Kumar",
-    "publishedAt": "2026-07-28T15:00:18+00:00",
-    "fetchedAt": "2026-07-28T19:12:39+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Scale-across: Why the future of distributed AI isn’t in one data center",
-    "summarySource": "extractive",
-    "clusterId": "dc4ea2b9c9d7df36",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Data Center Blog"
-  },
-  {
-    "id": "4fc13a075def04de",
-    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
-    "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
-    "canonicalUrl": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Lai Yi Ohlsen",
-    "publishedAt": "2026-07-28T13:00:00+00:00",
-    "fetchedAt": "2026-07-28T13:47:12+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
-    "summarySource": "extractive",
-    "clusterId": "4fc13a075def04de",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
   },
   {
     "id": "e4abe5db260cbed6",
