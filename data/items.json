@@ -1,5 +1,33 @@
 [
   {
+    "id": "ab31e938a36f1077",
+    "title": "[Podcast] Quad 9 — Measurement in the privacy-preserving public DNS service",
+    "url": "https://blog.apnic.net/2026/10/29/podcast-quad-9-measurement-in-the-privacy-preserving-public-dns-service/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/29/podcast-quad-9-measurement-in-the-privacy-preserving-public-dns-service",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-10-28T23:44:09+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Darren Kara discusses how the Quad 9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "summarySource": "extractive",
+    "clusterId": "ab31e938a36f1077",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "98489b2d7f8d27b5",
     "title": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
     "url": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator/",
@@ -105,7 +133,6 @@
     "publishedAt": "2026-10-28T17:54:23+00:00",
     "fetchedAt": "2026-10-28T22:04:01+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -117,7 +144,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Enterprise Routing Assurance ThousandEyes",
+    "summary": "Introducing Enterprise Routing Assurance - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "21e59bb4ae0223da",
     "lang": "en",
@@ -265,7 +292,8 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric"
+      "cisco-data-fabric",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -274,7 +302,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
+    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -418,7 +446,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
+    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -1003,12 +1031,12 @@
   },
   {
     "id": "be20089fae71b843",
-    "title": "Security Vulnerabilities in Splunk Enterprise - October 2026 - Splunk",
+    "title": "Security Vulnerabilities in Splunk Enterprise - October 2026 - Splunk Vulnerability Disclosure",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nMm9EM0F2aG81S2dGUEt5MjdWTUU0OXZfV2VHZHlUQk42bmFuanZkTlJCQ0szS1VESThDYzR0eUdYR3A3SGxKdnY1V0hTajVkMFdHUktjcHloMDRpLTNVV0J3?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nMm9EM0F2aG81S2dGUEt5MjdWTUU0OXZfV2VHZHlUQk42bmFuanZkTlJCQ0szS1VESThDYzR0eUdYR3A3SGxKdnY1V0hTajVkMFdHUktjcHloMDRpLTNVV0J3?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "Splunk Vulnerability Disclosure",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -1019,26 +1047,27 @@
     ],
     "tags": [],
     "categories": [
-      "product-release"
+      "product-release",
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 - Splunk",
+    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 Splunk Vulnerability Disclosure",
     "summarySource": "extractive",
     "clusterId": "b99871444a6f0453",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk Vulnerability Disclosure (Google News)"
   },
   {
     "id": "b99871444a6f0453",
-    "title": "Security Vulnerabilities in Splunk SOAR - October 2026 - Splunk",
+    "title": "Security Vulnerabilities in Splunk SOAR - October 2026 - Splunk Vulnerability Disclosure",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZVFhXRGljX09HNmN5ZHpIVk5EZE5FOEtva1lLWk1oZ1BPV1ZsVHYzSW1YNTAtWUhUcWtDSE5ocVNRZWptMnRPcmpYS3o3M2tuNnQ4M2JFRS04dkl0WFd4T1dR?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZVFhXRGljX09HNmN5ZHpIVk5EZE5FOEtva1lLWk1oZ1BPV1ZsVHYzSW1YNTAtWUhUcWtDSE5ocVNRZWptMnRPcmpYS3o3M2tuNnQ4M2JFRS04dkl0WFd4T1dR?oc=5",
     "source": {
       "id": "gnews-splunk-features",
-      "name": "Splunk",
+      "name": "Splunk Vulnerability Disclosure",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
     "author": null,
@@ -1056,12 +1085,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 - Splunk",
+    "summary": "Security Vulnerabilities in Splunk SOAR - October 2026 Splunk Vulnerability Disclosure",
     "summarySource": "extractive",
     "clusterId": "b99871444a6f0453",
     "lang": "en",
     "license": null,
-    "attribution": "via Splunk (Google News)"
+    "attribution": "via Splunk Vulnerability Disclosure (Google News)"
   },
   {
     "id": "271707460f33cc59",
@@ -1080,9 +1109,9 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
       "product-release",
@@ -1151,7 +1180,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Upgrade Splunk Enterprise to 10.6.1.1 - KVStore migration failed Splunk Community",
+    "summary": "Upgrade Splunk Enterprise to 10.6.1.1 - KVStore migration failed - Splunk Community",
     "summarySource": "extractive",
     "clusterId": "b6a645337b3ca3d0",
     "lang": "en",
@@ -1573,7 +1602,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes for Splunk Enterprise Security - Splunk",
+    "summary": "Release notes for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "a72bd4a7853e2e3f",
     "lang": "en",
@@ -1810,7 +1839,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Dataminr CTTI for Splunk Enterprise and Splunk Cloud Splunkbase",
+    "summary": "Dataminr CTTI for Splunk Enterprise and Splunk Cloud - Splunkbase",
     "summarySource": "extractive",
     "clusterId": "5e3fcf83747e3fd7",
     "lang": "en",
@@ -1851,6 +1880,34 @@
     "attribution": "via ThousandEyes (Google News)"
   },
   {
+    "id": "9f12c45c6d4b7331",
+    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
+    "url": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Wilson Ramirez",
+    "publishedAt": "2026-10-20T04:36:37+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summarySource": "extractive",
+    "clusterId": "9f12c45c6d4b7331",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "33d9d9319238afe7",
     "title": "Troubleshooting MySQL with OpenTelemetry Metrics - Oracle Blogs",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUl9Eak1adU1PYWZIN1RPV2t0OUdUX2NBbmlNcW9WUWdGcmlhandZcHF6aHpXQlU3TkdOUnJ3bGJuN2Nlblp5cFl2MHdjanhSYTBNTnY4cnJJWS1NWUJHdEotMW9BWE9GbEFMUGtpa3Bnd1FuYWN0TFU4bUpJUGNGelROSVpFQQ?oc=5",
@@ -1875,7 +1932,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics - Oracle Blogs",
+    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "33d9d9319238afe7",
     "lang": "en",
@@ -1905,7 +1962,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High - Splunk",
+    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High Splunk",
     "summarySource": "extractive",
     "clusterId": "71936385c4a8ce8b",
     "lang": "en",
@@ -2108,7 +2165,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
+    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -2138,7 +2195,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-10-17T14:24:37.265Z) Splunk",
+    "summary": "Introduction to Getting Data In | Splunk Cloud Platform (last updated 2026-10-17T14:24:37.265Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "2c68808f33945c5f",
     "lang": "en",
@@ -2198,12 +2255,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking - Developer Tech News",
+    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking Developer Tech News",
     "summarySource": "extractive",
     "clusterId": "ac190289f561f7c5",
     "lang": "en",
     "license": null,
     "attribution": "via Developer Tech News (Google News)"
+  },
+  {
+    "id": "92a92a8860035523",
+    "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
+    "url": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Samantha Douglas",
+    "publishedAt": "2026-10-15T23:20:00+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summarySource": "extractive",
+    "clusterId": "92a92a8860035523",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "4c419dd8c4a4ebd3",
@@ -2554,6 +2639,36 @@
     "attribution": "via CCB Belgium (Google News)"
   },
   {
+    "id": "019d9fdaa8da9288",
+    "title": "What's new in 10.6 - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVm51Z1FzMHdqZWlQemZieHJtWHpYLXVCQ3MzWUpFZ1hIUmpjQ3lWZndsWDNuVXpYSkMtajhKZy1Lb1hNUkt1ZkZKVl9GNDBpYXZ5NFRHSC1mV2tCQzAxdGJ0Z1p6X0tWR3pkNXJ6ZmtHd3VhSTdpU3JheXp4UkFXNG4zYlNWWGhJR0VoYW1mbEd5RnRRSU80Q0ZpdDJHTHR5SHcyTzVrUFBCZXkzYnlHTlctM0VzaTIx?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVm51Z1FzMHdqZWlQemZieHJtWHpYLXVCQ3MzWUpFZ1hIUmpjQ3lWZndsWDNuVXpYSkMtajhKZy1Lb1hNUkt1ZkZKVl9GNDBpYXZ5NFRHSC1mV2tCQzAxdGJ0Z1p6X0tWR3pkNXJ6ZmtHd3VhSTdpU3JheXp4UkFXNG4zYlNWWGhJR0VoYW1mbEd5RnRRSU80Q0ZpdDJHTHR5SHcyTzVrUFBCZXkzYnlHTlctM0VzaTIx?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-13T07:00:00+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "What's new in 10.6 Splunk",
+    "summarySource": "extractive",
+    "clusterId": "019d9fdaa8da9288",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "6b5c0ecf8d16aaed",
     "title": "Modern retail networks are secure, simple, and ready for what’s next",
     "url": "https://blogs.cisco.com/networking/modern-retail-networks-are-secure-simple-and-ready-for-whats-next/",
@@ -2706,6 +2821,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "f88561aaacf59e73",
+    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
+    "url": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Kijush Maharjan",
+    "publishedAt": "2026-10-11T23:07:31+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summarySource": "extractive",
+    "clusterId": "f88561aaacf59e73",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8782101300123bfd",
     "title": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas - Splunk Lantern",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeldUVFVPS3l5N1F0WnRmcXhoWERPYUYzRDg0N2YyMEtOZU5zLUZiTHNuWDcyLXF0WGJLUWpBWmV4S2pzVDRadFUwN1dlcllRMm9jVDNZVzFxNDZ3LUc5M0dWS29CZnE0YlhYaHNZUElGdVFGa0pvZlEzYkRhZDUtS0RHajBCMjQ4U3lqYjliblk2TS03UUl2WlpqTUhDcXhiR1JZX1N4SkhYXzhFbUZjZ0QwYUhfeUdWckFRTE80Y0h4ZG1N?oc=5",
@@ -2728,7 +2871,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas Splunk Lantern",
+    "summary": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas - Splunk Lantern",
     "summarySource": "extractive",
     "clusterId": "8782101300123bfd",
     "lang": "en",
@@ -3257,7 +3400,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -3278,8 +3421,7 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -3288,7 +3430,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution CyberSecurityNews",
+    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "a0a53e15519d15f8",
     "lang": "en",
@@ -3499,12 +3641,13 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
       "dashboard-studio",
+      "10.4",
       "visualizations"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3515,6 +3658,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (canonical)"
+  },
+  {
+    "id": "e55e1cf2a42aed66",
+    "title": "PeeringDB product update: April to September 2026",
+    "url": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-10-07T03:32:38+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new API architecture designed to support more efficient queries.",
+    "summarySource": "extractive",
+    "clusterId": "e55e1cf2a42aed66",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "8cc790e32cb9d7e2",
@@ -4150,7 +4321,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Is RPKI becoming harmful to BGP stability?",
+    "summary": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
     "summarySource": "extractive",
     "clusterId": "2a2ce9ef61dc6411",
     "lang": "en",
@@ -4472,6 +4643,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "7f17eb9683fcf2c2",
+    "title": "[Podcast] The October 2026 root KSK roll",
+    "url": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-30T22:44:12+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In this episode of PING, Verisign's Duane Wessels discusses the transition to the third DNS root KSK key pair, which is scheduled to begin signing the root zone on 11 October 2026.",
+    "summarySource": "extractive",
+    "clusterId": "7f17eb9683fcf2c2",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "6f18b5af74c74b5a",
     "title": "New features for RFC-Editor.org",
     "url": "http://www.ietf.org/blog/rfc-editororg-update-202609/",
@@ -4529,40 +4728,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
-  },
-  {
-    "id": "d321d987244a9da4",
-    "title": "Welcome to Splunk Enterprise 10.6 - help.splunk.com",
-    "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
-    "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
-    "source": {
-      "id": "curated-splunk-platform",
-      "name": "Splunk (canonical)",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
-    },
-    "author": null,
-    "publishedAt": "2026-09-30T17:11:53+00:00",
-    "fetchedAt": "2026-10-01T22:12:26+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "10.4",
-      "release-notes",
-      "splunk-enterprise"
-    ],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
-    "summarySource": "curated",
-    "clusterId": "0841e312914e95e4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (canonical)"
   },
   {
     "id": "80a7e0a41d4aea46",
@@ -4911,6 +5076,41 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "d321d987244a9da4",
+    "title": "Welcome to Splunk Enterprise 10.6 - Splunk",
+    "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-09-30T07:00:00+00:00",
+    "fetchedAt": "2026-10-01T22:12:26+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-enterprise",
+      "10.4",
+      "release-notes"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
+    "summarySource": "curated",
+    "clusterId": "0841e312914e95e4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
+  },
+  {
     "id": "b21d61a3fef38ba1",
     "title": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC - Splunk",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbW5yb1g4R09mbFFGNkhvUmhnNHFBWVR6Yk51N1RCSXVnaUVZTjg5SENiZXpMbWxWeHNRQ2hISmZ2VDFXcFFNQVBXdDNTSmZmc3lieFlhdnhqZ2lSZEJFM2ZhbHUxN2NBbW5zWmlSMTJmNFlYcVAzYnIxS3pQbDJzY01ySEVBbzdndWJ6TkRWdXRiMW80c1BSRg?oc=5",
@@ -4936,7 +5136,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC Splunk",
+    "summary": "Splunk Enterprise Security 8.7: Bringing Trusted Autonomy to the SOC - Splunk",
     "summarySource": "extractive",
     "clusterId": "b21d61a3fef38ba1",
     "lang": "en",
@@ -4960,11 +5160,11 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
-      "splunk-cloud",
       "10.4",
+      "dashboard-studio",
       "federated-search",
-      "dashboard-studio"
+      "splunk-cloud",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release"
@@ -5068,6 +5268,64 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "335b28c6dccccc1b",
+    "title": "AI-driven networking and infrastructure design at APNIC 62",
+    "url": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-30T03:02:50+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Presenters at APNIC 62 explored how AI is reshaping network design and operations, from next-generation optical architectures to autonomous management systems, highlighting scale challenges and improved reliability, efficiency, and operational decision-making.",
+    "summarySource": "extractive",
+    "clusterId": "335b28c6dccccc1b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
+    "id": "2e314bdf91b7de1f",
+    "title": "Expanding AWS log ingestion capabilities with custom logs in Splunk Data Inputs - Splunk Lantern",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVBqamtXNm9iVWZvWm5ibG1mb3BuOGhVcThXYm92TDVNZnVMcUd0S0J5ZDl3djRzWVpXWElzcWdRcW1STFhuWVZZYUtPN3VEQ2RLczdEY2tYd1p5MG9TLTFGb0NoMURRckhxZXZiMEpyckltc3YxcXNFYnVibTFRd1FPMW1fMzdfekg5ekRhMGVMeThiT0pXVFRKaGZkOGx5NkdwcUpPYmR6SkV0VHVZSndQOFhKd3BPY29WdXRVaW1yNmtiVDQzeA?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVBqamtXNm9iVWZvWm5ibG1mb3BuOGhVcThXYm92TDVNZnVMcUd0S0J5ZDl3djRzWVpXWElzcWdRcW1STFhuWVZZYUtPN3VEQ2RLczdEY2tYd1p5MG9TLTFGb0NoMURRckhxZXZiMEpyckltc3YxcXNFYnVibTFRd1FPMW1fMzdfekg5ekRhMGVMeThiT0pXVFRKaGZkOGx5NkdwcUpPYmR6SkV0VHVZSndQOFhKd3BPY29WdXRVaW1yNmtiVDQzeA?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk Lantern",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-09-30T00:34:22+00:00",
+    "fetchedAt": "2026-10-29T03:46:44+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Expanding AWS log ingestion capabilities with custom logs in Splunk Data Inputs Splunk Lantern",
+    "summarySource": "extractive",
+    "clusterId": "2e314bdf91b7de1f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk Lantern (Google News)"
   },
   {
     "id": "fdeae7bb039f782b",
@@ -5405,7 +5663,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Thou shall not pass: Gatekeeping outbound TLS connections",
+    "summary": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
     "summarySource": "extractive",
     "clusterId": "6306bd1579277925",
     "lang": "en",
@@ -6109,34 +6367,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "372d8f3b55a94bd4",
-    "title": "PeeringDB Update April - September 2026",
-    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
-    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Leo Vegoda",
-    "publishedAt": "2026-09-23T13:13:32+00:00",
-    "fetchedAt": "2026-10-28T11:55:20+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "PeeringDB Update April - September 2026",
-    "summarySource": "extractive",
-    "clusterId": "372d8f3b55a94bd4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "9403c3137b65a504",
@@ -7026,7 +7256,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's new | Splunk Cloud Platform (last updated 2026-09-16T19:51:13.914Z) - Splunk",
+    "summary": "What's new | Splunk Cloud Platform (last updated 2026-09-16T19:51:13.914Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "c46f361650e66ff8",
     "lang": "en",
@@ -8019,7 +8249,7 @@
   },
   {
     "id": "bfa1ab62af8bb403",
-    "title": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) - Splunk",
+    "title": "Define roles on the Splunk platform with capabilities - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQakw0SHppWnFGdmN3ZndsbDJpQWkzSVRHM3N3RGl4SVppVXlBcHNybFBZSUtObWxtcVd4Xy01eEw2M2tBT2xkWWZtVFpGcFAzY1VqZElJUG5rNVlfLXAybWRpeWkxN3k3cE1aR082LWpmb1RnREVhWmMtZDVSZ19kbHl6Y2xtOGRNYUdUbHBDUlZ1aS01WHJzczZ4TFYycXVTa3U4MmhuZ2xkMk1tNmhyZkNwUmFjbEQ5ME9jRFRSaXhuZ3Z6cFpwdU45UFNva2JyRGw2T1V3UzcySmZ4UktYTGpPRmVHVlU5Mlh5VGZyV0I1N0xGUnFjSl9IQUhlV0k4ZVE5UkJYVHQxVjQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQakw0SHppWnFGdmN3ZndsbDJpQWkzSVRHM3N3RGl4SVppVXlBcHNybFBZSUtObWxtcVd4Xy01eEw2M2tBT2xkWWZtVFpGcFAzY1VqZElJUG5rNVlfLXAybWRpeWkxN3k3cE1aR082LWpmb1RnREVhWmMtZDVSZ19kbHl6Y2xtOGRNYUdUbHBDUlZ1aS01WHJzczZ4TFYycXVTa3U4MmhuZ2xkMk1tNmhyZkNwUmFjbEQ5ME9jRFRSaXhuZ3Z6cFpwdU45UFNva2JyRGw2T1V3UzcySmZ4UktYTGpPRmVHVlU5Mlh5VGZyV0I1N0xGUnFjSl9IQUhlV0k4ZVE5UkJYVHQxVjQ?oc=5",
     "source": {
@@ -8040,7 +8270,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Define roles on the Splunk platform with capabilities | Splunk Enterprise (last updated 2026-09-09T14:42:17.873Z) - Splunk",
+    "summary": "Define roles on the Splunk platform with capabilities Splunk",
     "summarySource": "extractive",
     "clusterId": "bfa1ab62af8bb403",
     "lang": "en",
@@ -8327,7 +8557,6 @@
     "publishedAt": "2026-09-07T07:00:00+00:00",
     "fetchedAt": "2026-09-07T16:58:50+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -8339,7 +8568,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
@@ -8367,40 +8596,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Blogs (Google News)"
-  },
-  {
-    "id": "20f7ad9eb66a41ca",
-    "title": "Closing the IPv6 First-Packet Gap with GRAND",
-    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
-    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Seyed Pouria Mousavizadeh Tehrani",
-    "publishedAt": "2026-09-04T13:32:29+00:00",
-    "fetchedAt": "2026-10-28T11:55:20+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Closing the IPv6 First-Packet Gap with GRAND",
-    "summarySource": "extractive",
-    "clusterId": "20f7ad9eb66a41ca",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "862238d979ee4744",
@@ -8500,7 +8701,6 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -8512,7 +8712,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
@@ -8839,7 +9039,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "MCP Server release notes - Splunk",
+    "summary": "MCP Server release notes Splunk",
     "summarySource": "extractive",
     "clusterId": "937c1d0932b9e2a0",
     "lang": "en",
@@ -9458,7 +9658,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "58226cbb66a52c6e",
     "lang": "en",
@@ -9717,7 +9917,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloud Flex Capability and Product Coverage - Splunk",
+    "summary": "Cloud Flex Capability and Product Coverage Splunk",
     "summarySource": "extractive",
     "clusterId": "fb4666efd67d4511",
     "lang": "en",
@@ -11637,7 +11837,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Write and run federated searches over federated datasets with SPL2 Splunk",
+    "summary": "Write and run federated searches over federated datasets with SPL2 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b27a70e76586d9f8",
     "lang": "en",
@@ -12818,12 +13018,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -13056,12 +13257,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
