@@ -10,7 +10,7 @@
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
-    "publishedAt": "2026-10-29T16:39:34+00:00",
+    "publishedAt": "2026-10-29T16:38:33+00:00",
     "fetchedAt": "2026-10-29T22:15:38+00:00",
     "topics": [
       "cisco-data-fabric",
@@ -128,7 +128,7 @@
   },
   {
     "id": "ab31e938a36f1077",
-    "title": "[Podcast] Quad 9 — Measurement in the privacy-preserving public DNS service",
+    "title": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "url": "https://blog.apnic.net/2026/10/29/podcast-quad-9-measurement-in-the-privacy-preserving-public-dns-service/",
     "canonicalUrl": "https://blog.apnic.net/2026/10/29/podcast-quad-9-measurement-in-the-privacy-preserving-public-dns-service",
     "source": {
@@ -147,40 +147,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Quad 9 — Measurement in the privacy-preserving public DNS service",
+    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "98489b2d7f8d27b5",
-    "title": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "url": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator/",
-    "canonicalUrl": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-10-28T21:25:29+00:00",
-    "fetchedAt": "2026-10-28T22:04:01+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "summarySource": "extractive",
-    "clusterId": "98489b2d7f8d27b5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "ace478dd944f3d31",
@@ -412,7 +384,8 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric"
+      "cisco-data-fabric",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -421,7 +394,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
+    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -541,12 +514,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
+    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "b371ae0584668e9d",
+    "title": "2026 network outage report and internet health check - Network World",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-10-27T07:00:00+00:00",
+    "fetchedAt": "2026-05-31T10:48:25+00:00",
+    "topics": [],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check Network World",
+    "summarySource": "extractive",
+    "clusterId": "b371ae0584668e9d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)",
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ]
   },
   {
     "id": "77143a2dfd7cc2a1",
@@ -569,7 +570,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
+    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -1067,7 +1068,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -1617,7 +1618,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 Splunk Vulnerability Disclosure",
+    "summary": "Security Vulnerabilities in Splunk Enterprise - October 2026 - Splunk Vulnerability Disclosure",
     "summarySource": "extractive",
     "clusterId": "b99871444a6f0453",
     "lang": "en",
@@ -1895,34 +1896,6 @@
     "attribution": "via Cisco Blogs — Splunk"
   },
   {
-    "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Network World",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-10-20T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "2026 network outage report and internet health check - Network World",
-    "summarySource": "extractive",
-    "clusterId": "b371ae0584668e9d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Network World (Google News)",
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ]
-  },
-  {
     "id": "5e3fcf83747e3fd7",
     "title": "Dataminr CTTI for Splunk Enterprise and Splunk Cloud - Splunkbase",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BYTNIRDV2YV8yU2NyVFIxSndXZGNGUDh3UFRPcEZlcXBCSnRZUTFrRDZyRGhGU2hmazFSVC11SXVRdmZ1WkptWVUyY0V4dUVm?oc=5",
@@ -1984,6 +1957,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via ThousandEyes (Google News)"
+  },
+  {
+    "id": "9f12c45c6d4b7331",
+    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
+    "url": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Wilson Ramirez",
+    "publishedAt": "2026-10-20T04:36:37+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summarySource": "extractive",
+    "clusterId": "9f12c45c6d4b7331",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "71936385c4a8ce8b",
@@ -2166,6 +2167,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "b528f78deb87a51d",
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "André Grüneberg",
+    "publishedAt": "2026-10-19T08:53:35+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
+    "summarySource": "extractive",
+    "clusterId": "b528f78deb87a51d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -2186,7 +2215,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive YouTube",
+    "summary": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "summarySource": "extractive",
     "clusterId": "71e3376cd31713b6",
     "lang": "en",
@@ -2246,7 +2275,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
+    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -2374,6 +2403,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Developer Tech News (Google News)"
+  },
+  {
+    "id": "92a92a8860035523",
+    "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
+    "url": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Samantha Douglas",
+    "publishedAt": "2026-10-15T23:20:00+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summarySource": "extractive",
+    "clusterId": "92a92a8860035523",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "4c419dd8c4a4ebd3",
@@ -2715,8 +2772,7 @@
     "publishedAt": "2026-10-13T15:01:02+00:00",
     "fetchedAt": "2026-10-14T10:57:42+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -2725,7 +2781,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! CCB Belgium",
+    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! - CCB Belgium",
     "summarySource": "extractive",
     "clusterId": "b82b48ea6c29de92",
     "lang": "en",
@@ -2909,6 +2965,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "f88561aaacf59e73",
+    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
+    "url": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Kijush Maharjan",
+    "publishedAt": "2026-10-11T23:07:31+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summarySource": "extractive",
+    "clusterId": "f88561aaacf59e73",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8782101300123bfd",
     "title": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas - Splunk Lantern",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeldUVFVPS3l5N1F0WnRmcXhoWERPYUYzRDg0N2YyMEtOZU5zLUZiTHNuWDcyLXF0WGJLUWpBWmV4S2pzVDRadFUwN1dlcllRMm9jVDNZVzFxNDZ3LUc5M0dWS29CZnE0YlhYaHNZUElGdVFGa0pvZlEzYkRhZDUtS0RHajBCMjQ4U3lqYjliblk2TS03UUl2WlpqTUhDcXhiR1JZX1N4SkhYXzhFbUZjZ0QwYUhfeUdWckFRTE80Y0h4ZG1N?oc=5",
@@ -3068,8 +3152,7 @@
     "publishedAt": "2026-10-09T07:00:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -3078,7 +3161,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication Forkast News",
+    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication - Forkast News",
     "summarySource": "extractive",
     "clusterId": "2641d461cd550b48",
     "lang": "en",
@@ -3229,7 +3312,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3290,8 +3373,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3469,8 +3551,7 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -3479,7 +3560,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution CyberSecurityNews",
+    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "a0a53e15519d15f8",
     "lang": "en",
@@ -3500,8 +3581,7 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -3511,7 +3591,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands GBHackers News",
+    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands - GBHackers News",
     "summarySource": "extractive",
     "clusterId": "4b59429c4548e3e9",
     "lang": "en",
@@ -3709,6 +3789,34 @@
     "attribution": "via Splunk (canonical)"
   },
   {
+    "id": "e55e1cf2a42aed66",
+    "title": "PeeringDB product update: April to September 2026",
+    "url": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-10-07T03:32:38+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new API architecture designed to support more efficient queries.",
+    "summarySource": "extractive",
+    "clusterId": "e55e1cf2a42aed66",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8cc790e32cb9d7e2",
     "title": "I Built an OpenTelemetry Logs Bridge. Encoding Was the Easy Part - HackerNoon",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOVBwZzhld1hJU2ZBNGp0QXI0RUZVZ3otTjVsRjUza2VsclhSUmZ0THhtcFRNQmJaUUE4Q1V6Nm9BcHlrYlotNVdBODBQVnNWMGFOR2lhREo2eExRQlNwVnliMXhzMTA0cVhialp0bmVjaDVvTHhUTFNRc1VtYnNGdWR2bXhUZThMWGQyblBHMA?oc=5",
@@ -3851,7 +3959,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3886,7 +3994,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Nevion Announces Providius NVRT Integration with eMerge Switches for Expanded Broadcast Network Observability Sony UK",
+    "summary": "Nevion Announces Providius NVRT Integration with eMerge Switches for Expanded Broadcast Network Observability - Sony UK",
     "summarySource": "extractive",
     "clusterId": "429a9b46a61841a3",
     "lang": "en",
@@ -4338,7 +4446,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Is RPKI becoming harmful to BGP stability?",
+    "summary": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
     "summarySource": "extractive",
     "clusterId": "2a2ce9ef61dc6411",
     "lang": "en",
@@ -4660,6 +4768,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "7f17eb9683fcf2c2",
+    "title": "[Podcast] The October 2026 root KSK roll",
+    "url": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-30T22:44:12+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In this episode of PING, Verisign's Duane Wessels discusses the transition to the third DNS root KSK key pair, which is scheduled to begin signing the root zone on 11 October 2026.",
+    "summarySource": "extractive",
+    "clusterId": "7f17eb9683fcf2c2",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "6f18b5af74c74b5a",
     "title": "New features for RFC-Editor.org",
     "url": "http://www.ietf.org/blog/rfc-editororg-update-202609/",
@@ -4675,12 +4811,13 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "product-release",
+      "standards"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "New features for RFC-Editor.org",
+    "summary": "New features implemented on RFC-Editor.org aim to make the site more useful and engaging for RFC consumers.",
     "summarySource": "extractive",
     "clusterId": "6f18b5af74c74b5a",
     "lang": "en",
@@ -5256,6 +5393,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "335b28c6dccccc1b",
+    "title": "AI-driven networking and infrastructure design at APNIC 62",
+    "url": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62/",
+    "canonicalUrl": "https://blog.apnic.net/2026/09/30/ai-driven-networking-and-infrastructure-design-at-apnic-62",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-30T03:02:50+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Presenters at APNIC 62 explored how AI is reshaping network design and operations, from next-generation optical architectures to autonomous management systems, highlighting scale challenges and improved reliability, efficiency, and operational decision-making.",
+    "summarySource": "extractive",
+    "clusterId": "335b28c6dccccc1b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "2e314bdf91b7de1f",
     "title": "Expanding AWS log ingestion capabilities with custom logs in Splunk Data Inputs - Splunk Lantern",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVBqamtXNm9iVWZvWm5ibG1mb3BuOGhVcThXYm92TDVNZnVMcUd0S0J5ZDl3djRzWVpXWElzcWdRcW1STFhuWVZZYUtPN3VEQ2RLczdEY2tYd1p5MG9TLTFGb0NoMURRckhxZXZiMEpyckltc3YxcXNFYnVibTFRd1FPMW1fMzdfekg5ekRhMGVMeThiT0pXVFRKaGZkOGx5NkdwcUpPYmR6SkV0VHVZSndQOFhKd3BPY29WdXRVaW1yNmtiVDQzeA?oc=5",
@@ -5621,7 +5786,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Thou shall not pass: Gatekeeping outbound TLS connections",
+    "summary": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
     "summarySource": "extractive",
     "clusterId": "6306bd1579277925",
     "lang": "en",
@@ -6320,6 +6485,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "372d8f3b55a94bd4",
+    "title": "PeeringDB Update April - September 2026",
+    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-09-23T13:13:32+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summarySource": "extractive",
+    "clusterId": "372d8f3b55a94bd4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "9403c3137b65a504",
@@ -7077,7 +7270,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -7287,7 +7480,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -8439,6 +8632,7 @@
     "publishedAt": "2026-09-07T07:00:00+00:00",
     "fetchedAt": "2026-09-07T16:58:50+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -8450,7 +8644,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
@@ -8478,12 +8672,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Blogs (Google News)"
+  },
+  {
+    "id": "20f7ad9eb66a41ca",
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Seyed Pouria Mousavizadeh Tehrani",
+    "publishedAt": "2026-09-04T13:32:29+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summarySource": "extractive",
+    "clusterId": "20f7ad9eb66a41ca",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "862238d979ee4744",
@@ -8583,6 +8805,7 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -8594,7 +8817,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
@@ -9352,6 +9575,35 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "94bfbc6b397505f8",
+    "title": "IETF 126 post-meeting survey: what we heard",
+    "url": "http://www.ietf.org/blog/ietf126-survey/",
+    "canonicalUrl": "https://www.ietf.org/blog/ietf126-survey",
+    "source": {
+      "id": "ietf-blog",
+      "name": "IETF Blog",
+      "homepage": "https://www.ietf.org/blog"
+    },
+    "author": "Paige Mustafa, Akanksha Gohil",
+    "publishedAt": "2026-08-27T16:00:00+00:00",
+    "fetchedAt": "2026-10-30T11:56:29+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
+    "summarySource": "extractive",
+    "clusterId": "94bfbc6b397505f8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via IETF Blog"
   },
   {
     "id": "0574ed581c8f68b9",
@@ -10187,34 +10439,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via DevOps.com (Google News)"
-  },
-  {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-10-28T17:44:29+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "4d6a95e88ad53392",
