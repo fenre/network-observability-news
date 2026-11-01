@@ -1,5 +1,33 @@
 [
   {
+    "id": "4ab420ebc8841b26",
+    "title": "Cisco SD-WAN zero-day: defenses against Volt Typhoon - NeoTeo",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbXplQ2FIMlVBNGNKcmsyeXpUczN6eVNMR2V0cmd1NW9obzNWTXRZcE1HWDBPMk9oREd1eUJLRXFSeU1mNTFyN3ppNjdtR0w5LU9iZEc4NkdKTmVCRERfNjJoNXluaFJkOGdsZjgxS2t3TlRoNWtKeVR0YjdmcDlXb1VaX1pYQQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbXplQ2FIMlVBNGNKcmsyeXpUczN6eVNMR2V0cmd1NW9obzNWTXRZcE1HWDBPMk9oREd1eUJLRXFSeU1mNTFyN3ppNjdtR0w5LU9iZEc4NkdKTmVCRERfNjJoNXluaFJkOGdsZjgxS2t3TlRoNWtKeVR0YjdmcDlXb1VaX1pYQQ?oc=5",
+    "source": {
+      "id": "gnews-cisco-sdwan",
+      "name": "NeoTeo",
+      "homepage": "https://news.google.com/search?q=Cisco%20SD-WAN"
+    },
+    "author": null,
+    "publishedAt": "2026-10-31T19:43:28+00:00",
+    "fetchedAt": "2026-11-01T03:39:35+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon NeoTeo",
+    "summarySource": "extractive",
+    "clusterId": "4ab420ebc8841b26",
+    "lang": "en",
+    "license": null,
+    "attribution": "via NeoTeo (Google News)"
+  },
+  {
     "id": "16ec2c40ac77b51d",
     "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
     "url": "https://blog.cloudflare.com/emudhra-patching/",
@@ -239,7 +267,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 10 Best SOAR Tools in 2026 [Ranked & Scored] CyberSecurityNews",
+    "summary": "Top 10 Best SOAR Tools in 2026 [Ranked & Scored] - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "da670bc62ca9889c",
     "lang": "en",
@@ -667,7 +695,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Upcoming changes for Splunk Cloud Platform version 10.7 Splunk Lantern",
+    "summary": "Upcoming changes for Splunk Cloud Platform version 10.7 - Splunk Lantern",
     "summarySource": "extractive",
     "clusterId": "a7f1aaed4c075e47",
     "lang": "en",
@@ -1302,10 +1330,11 @@
       "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
-    "publishedAt": "2026-10-22T10:45:24+00:00",
+    "publishedAt": "2026-10-22T07:00:00+00:00",
     "fetchedAt": "2026-10-22T16:24:10+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1314,12 +1343,47 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk, SolarWinds Release Fresh Security Updates - SecurityWeek",
+    "summary": "Splunk, SolarWinds Release Fresh Security Updates SecurityWeek",
     "summarySource": "extractive",
     "clusterId": "392866ce5b85ef8b",
     "lang": "en",
     "license": null,
     "attribution": "via SecurityWeek (Google News)"
+  },
+  {
+    "id": "09c29287ab202466",
+    "title": "How to Enable SPL2 in Splunk Enterprise 10.2 - Splunk Community",
+    "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-10-22T03:44:12+00:00",
+    "fetchedAt": "2026-11-01T03:39:35+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-enterprise",
+      "10.4",
+      "release-notes"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
+    "summarySource": "curated",
+    "clusterId": "0841e312914e95e4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
   },
   {
     "id": "b99871444a6f0453",
@@ -1502,7 +1566,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Computer Networking Masterclass: From Physical Wire to Kubernetes eBPF - YouTube",
+    "summary": "Computer Networking Masterclass: From Physical Wire to Kubernetes eBPF YouTube",
     "summarySource": "extractive",
     "clusterId": "f549198a5aec9f48",
     "lang": "en",
@@ -1716,34 +1780,6 @@
     "attribution": "via news.lavx.hu (Google News)"
   },
   {
-    "id": "dfa5e209577f4176",
-    "title": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes - infoq.com",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MY3RpWUhpblZoX2FuTXV0QS1kaVhYMGZRaTVkXzUzeHlhM2lNNVpuaXJzMlppQndhTWZTNTBQM2JBMUFSZ0RHdkw4dFpBLTZMbVhUMDQ3RzBoTTNrSmRTckRpWWNLWjcwNlczYVpfRkJhME9SdWFF?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MY3RpWUhpblZoX2FuTXV0QS1kaVhYMGZRaTVkXzUzeHlhM2lNNVpuaXJzMlppQndhTWZTNTBQM2JBMUFSZ0RHdkw4dFpBLTZMbVhUMDQ3RzBoTTNrSmRTckRpWWNLWjcwNlczYVpfRkJhME9SdWFF?oc=5",
-    "source": {
-      "id": "gnews-ebpf-cilium",
-      "name": "infoq.com",
-      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
-    },
-    "author": null,
-    "publishedAt": "2026-10-21T09:01:27+00:00",
-    "fetchedAt": "2026-10-21T10:56:53+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes infoq.com",
-    "summarySource": "extractive",
-    "clusterId": "627fdae9bca0196f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via infoq.com (Google News)"
-  },
-  {
     "id": "705586a93f4029fe",
     "title": "ntpng 7.0 Webinar",
     "url": "https://www.ntop.org/ntpng-7-0-webinar/",
@@ -1774,6 +1810,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
+  },
+  {
+    "id": "dfa5e209577f4176",
+    "title": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes - infoq.com",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MY3RpWUhpblZoX2FuTXV0QS1kaVhYMGZRaTVkXzUzeHlhM2lNNVpuaXJzMlppQndhTWZTNTBQM2JBMUFSZ0RHdkw4dFpBLTZMbVhUMDQ3RzBoTTNrSmRTckRpWWNLWjcwNlczYVpfRkJhME9SdWFF?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MY3RpWUhpblZoX2FuTXV0QS1kaVhYMGZRaTVkXzUzeHlhM2lNNVpuaXJzMlppQndhTWZTNTBQM2JBMUFSZ0RHdkw4dFpBLTZMbVhUMDQ3RzBoTTNrSmRTckRpWWNLWjcwNlczYVpfRkJhME9SdWFF?oc=5",
+    "source": {
+      "id": "gnews-ebpf-cilium",
+      "name": "infoq.com",
+      "homepage": "https://news.google.com/search?q=Cilium%20Hubble%20network"
+    },
+    "author": null,
+    "publishedAt": "2026-10-21T07:00:00+00:00",
+    "fetchedAt": "2026-10-21T10:56:53+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes infoq.com",
+    "summarySource": "extractive",
+    "clusterId": "627fdae9bca0196f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via infoq.com (Google News)"
   },
   {
     "id": "be20089fae71b843",
@@ -2120,6 +2184,7 @@
     "publishedAt": "2026-10-20T07:00:00+00:00",
     "fetchedAt": "2026-10-21T21:05:15+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -2131,7 +2196,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Google Cloud Outage Analysis: October 20, 2026 - ThousandEyes",
+    "summary": "Google Cloud Outage Analysis: October 20, 2026 ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "1d095e2a1b55c366",
     "lang": "en",
@@ -2309,7 +2374,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
+    "summary": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive YouTube",
     "summarySource": "extractive",
     "clusterId": "71e3376cd31713b6",
     "lang": "en",
@@ -2864,7 +2929,8 @@
     "publishedAt": "2026-10-13T15:01:02+00:00",
     "fetchedAt": "2026-10-14T10:57:42+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -2873,7 +2939,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! - CCB Belgium",
+    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! CCB Belgium",
     "summarySource": "extractive",
     "clusterId": "b82b48ea6c29de92",
     "lang": "en",
@@ -3216,7 +3282,8 @@
     "publishedAt": "2026-10-09T07:00:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -3225,7 +3292,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication - Forkast News",
+    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication Forkast News",
     "summarySource": "extractive",
     "clusterId": "2641d461cd550b48",
     "lang": "en",
@@ -3246,7 +3313,8 @@
     "publishedAt": "2026-10-09T07:00:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -3255,7 +3323,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "22 Splunk Enterprise Flaws Now Fixed with Updates - The Cyber Express",
+    "summary": "22 Splunk Enterprise Flaws Now Fixed with Updates The Cyber Express",
     "summarySource": "extractive",
     "clusterId": "1a80c1b67f5c3ce6",
     "lang": "en",
@@ -3593,7 +3661,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -3645,7 +3713,8 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -3655,7 +3724,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands - GBHackers News",
+    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands GBHackers News",
     "summarySource": "extractive",
     "clusterId": "4b59429c4548e3e9",
     "lang": "en",
@@ -4029,7 +4098,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Nevion Announces Providius NVRT Integration with eMerge Switches for Expanded Broadcast Network Observability - Sony UK",
+    "summary": "Nevion Announces Providius NVRT Integration with eMerge Switches for Expanded Broadcast Network Observability Sony UK",
     "summarySource": "extractive",
     "clusterId": "429a9b46a61841a3",
     "lang": "en",
@@ -7273,8 +7342,7 @@
     "publishedAt": "2026-09-16T07:00:00+00:00",
     "fetchedAt": "2026-09-16T15:53:04+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [
       "splunk-observability"
@@ -7285,7 +7353,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco enhances Splunk observability for AI token usage tracking MSSP Alert",
+    "summary": "Cisco enhances Splunk observability for AI token usage tracking - MSSP Alert",
     "summarySource": "extractive",
     "clusterId": "fc4bf02aa4249afb",
     "lang": "en",
@@ -9715,7 +9783,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "58226cbb66a52c6e",
     "lang": "en",
@@ -11863,7 +11931,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Write and run federated searches over federated datasets with SPL2 Splunk",
+    "summary": "Write and run federated searches over federated datasets with SPL2 - Splunk",
     "summarySource": "extractive",
     "clusterId": "b27a70e76586d9f8",
     "lang": "en",
