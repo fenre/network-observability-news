@@ -1,5 +1,99 @@
 [
   {
+    "id": "9bd4519f01dfcbcf",
+    "title": "How To Control ClickHouse Disk Space in ntopng",
+    "url": "https://ntop.org/how-to-control-clickhouse-disk-space-in-ntopng/",
+    "canonicalUrl": "https://ntop.org/how-to-control-clickhouse-disk-space-in-ntopng",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-11-03T20:33:39+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Managing disk space is an important part of operating ntopng, especially in environments that collect large volumes of network traffic data. ntopng always allowed you to configure data retention in days, which provides a convenient way to control how long historical data is kept. However the actual disk space consumed by that data can vary […] The post How To Control ClickHouse Disk Space in ntopng appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "9bd4519f01dfcbcf",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
+    "id": "f6c743fc4d2d4c80",
+    "title": "ntopng 7.0 Webinar",
+    "url": "https://ntop.org/ntopng-7-0-webinar/",
+    "canonicalUrl": "https://ntop.org/ntopng-7-0-webinar",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-11-03T20:03:40+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "We recently hosted an exclusive announcement webinar showcasing ntopng 7.0, our most powerful, responsive, and feature-rich network traffic monitoring release yet. Want to see these new features in action? The full webinar recording is now available on youtube.",
+    "summarySource": "extractive",
+    "clusterId": "705586a93f4029fe",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
+    "id": "5101d1a486d69739",
+    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+    "url": "https://blog.cloudflare.com/zero-wire/",
+    "canonicalUrl": "https://blog.cloudflare.com/zero-wire",
+    "source": {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "homepage": "https://blog.cloudflare.com"
+    },
+    "author": "Celso Martinho",
+    "publishedAt": "2026-11-03T14:00:00+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+    "summarySource": "extractive",
+    "clusterId": "5101d1a486d69739",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cloudflare Blog"
+  },
+  {
     "id": "3a7b5e90d08a0204",
     "title": "Zeek Data Beyond Threat Detection",
     "url": "https://zeek.org/2026/11/zeek-data-beyond-threat-detection/",
@@ -40,7 +134,10 @@
     "author": "Rick Miles",
     "publishedAt": "2026-11-02T18:24:13+00:00",
     "fetchedAt": "2026-11-03T00:15:36+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -48,7 +145,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "PHP2Shell: How Cisco Helps Customers Respond to AI-Accelerated Threats",
+    "summary": "The following resources address the coverage available for PHP2Shell today, as well as ways Cisco customers can begin to increase resilience for whatever AI-driven threat comes next.",
     "summarySource": "extractive",
     "clusterId": "278f5d3fb1b61460",
     "lang": "en",
@@ -68,7 +165,10 @@
     "author": "Alejandro Marrufo",
     "publishedAt": "2026-11-02T17:23:42+00:00",
     "fetchedAt": "2026-11-03T00:15:36+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -76,7 +176,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Design-to-Code: Reimagine Handoff Workflow with AI – Rebuilding PubHub Part 3",
+    "summary": "How the PubHub team replaced the Figma handoff with an AI-built, designer-refined HTML prototype, and what worked and didn't along the way, so other teams can adapt it.",
     "summarySource": "extractive",
     "clusterId": "a7e568a187b37742",
     "lang": "en",
@@ -96,7 +196,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-11-02T16:30:13+00:00",
     "fetchedAt": "2026-11-03T00:15:36+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -104,7 +207,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Foundry in the real world: Turning LLM hunches into verified findings – Security Loop Series, Part 2",
+    "summary": "An LLM's \"look here\" is not \"this is real\". Foundry adds an evidence gate that turns hunches into verified findings, tested on Langflow, MLflow, and PyGoat.",
     "summarySource": "extractive",
     "clusterId": "49ada0630f26473d",
     "lang": "en",
@@ -307,7 +410,6 @@
     "publishedAt": "2026-10-29T16:38:33+00:00",
     "fetchedAt": "2026-10-29T22:15:38+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -319,7 +421,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks SDxCentral",
+    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "8f3630ba95cbf174",
     "lang": "en",
@@ -469,7 +571,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
@@ -497,7 +599,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
+    "summary": "Extreme Networks has announced a new AI agent to manage Extreme switches and APs. Called Agent One Operator, this AI agent that can take autonomous action such as running checks for new vulnerabilities, finding APs that drop clients, running firmware compliance audits, and other jobs. Nabil Bukhari, President AI Platforms and EVP, CTO, announced Agent ONE ...",
     "summarySource": "extractive",
     "clusterId": "98489b2d7f8d27b5",
     "lang": "en",
@@ -646,7 +748,8 @@
     "publishedAt": "2026-10-28T16:59:15+00:00",
     "fetchedAt": "2026-10-28T17:44:29+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [
       "splunk-observability"
@@ -657,7 +760,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco IT’s Endpoint Observability Strategy: Right-Sized Telemetry for Splunk Observability Cloud",
+    "summary": "Learn how Cisco IT reduced endpoint telemetry volume by 75% using Splunk Observability Cloud. Discover a right-sized strategy to improve digital resilience and troubleshooting efficiency while keeping data footprints sustainable at scale.",
     "summarySource": "extractive",
     "clusterId": "15cff88ad412b7b1",
     "lang": "en",
@@ -677,7 +780,10 @@
     "author": "Amrit Nijjer",
     "publishedAt": "2026-10-28T15:00:41+00:00",
     "fetchedAt": "2026-10-28T17:44:29+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -685,7 +791,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Expect more from your wireless network: A playbook for growing businesses",
+    "summary": "Your business is growing. Can your network infrastructure evolve with you? With wireless operations becoming more complex, IT leaders should ensure the network can handle more locations, devices, and security threats.",
     "summarySource": "extractive",
     "clusterId": "9d6d72d3d0733b4e",
     "lang": "en",
@@ -705,7 +811,10 @@
     "author": "Neelesh Pateriya",
     "publishedAt": "2026-10-28T12:00:44+00:00",
     "fetchedAt": "2026-10-28T17:44:29+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -713,7 +822,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Rebuilding PubHub: AI-first SDLC, one bottleneck at a time – Part 2",
+    "summary": "We didn't follow an AI-first playbook, so we built one by trying, failing and iterating. Here's what each step of the PubHub rewrite taught us, and the seven practices that stuck.",
     "summarySource": "extractive",
     "clusterId": "fa96a6692a0706fa",
     "lang": "en",
@@ -766,8 +875,7 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric",
-      "network-observability"
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -776,7 +884,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
+    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -926,7 +1034,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
+    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -982,7 +1090,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
+    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -1032,7 +1140,10 @@
     "author": "Lee Peterson",
     "publishedAt": "2026-10-26T19:30:56+00:00",
     "fetchedAt": "2026-10-26T22:08:51+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1040,7 +1151,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Turning network requests into business-ready connectivity",
+    "summary": "How Cisco 8000 Series Secure Routers and SRv6 support Bell On-Demand Network",
     "summarySource": "extractive",
     "clusterId": "f0474dd365f8b860",
     "lang": "en",
@@ -1060,7 +1171,10 @@
     "author": "Peter Lane",
     "publishedAt": "2026-10-26T19:30:56+00:00",
     "fetchedAt": "2026-10-26T12:00:48+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1068,7 +1182,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Wireless is the next security frontier, and Cisco is leading the way",
+    "summary": "With wireless serving as a key security perimeter, Cisco enhances network trust through quantum-safe secure boot and robust encryption (MACsec). We're securing the entire wireless path—from client to switch—to protect your evolving environment.",
     "summarySource": "extractive",
     "clusterId": "b72b6d23933cc78f",
     "lang": "en",
@@ -1121,7 +1235,10 @@
     "author": "Lori Jakab",
     "publishedAt": "2026-10-26T14:00:03+00:00",
     "fetchedAt": "2026-10-26T22:08:51+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1129,7 +1246,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Policy as Code for the Network: Guardrails with Open Policy Agent",
+    "summary": "Learn how to use Open Policy Agent (OPA) to enforce network guardrails as code. Catch insecure configurations before deployment and maintain a unified security posture across your entire enterprise network.",
     "summarySource": "extractive",
     "clusterId": "9abb8c0c94cc0364",
     "lang": "en",
@@ -1209,7 +1326,10 @@
     "author": "William Nellis",
     "publishedAt": "2026-10-23T17:28:32+00:00",
     "fetchedAt": "2026-10-23T20:51:12+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1217,7 +1337,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Cisco IQ Powers Continuous Compliance for PCI DSS 4.0 and Quantum Readiness",
+    "summary": "How can financial institutions harvest the capabilities of Cisco IQ to navigate compliance with regulatory frameworks and ensuring quantum readiness by 2030? Cisco IQ, with professional grade analysis and AI powered insights, simplifies this.",
     "summarySource": "extractive",
     "clusterId": "2cf420a2936e144a",
     "lang": "en",
@@ -1237,7 +1357,10 @@
     "author": "Neelesh Pateriya",
     "publishedAt": "2026-10-23T16:10:17+00:00",
     "fetchedAt": "2026-10-23T16:13:01+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1245,7 +1368,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Scan Code for Vulnerabilities with Cisco Antares in DevNet Learning Labs",
+    "summary": "Two GPU-backed Antares Learning Labs are live. Use a small open-weight model to narrow a repo to the files that may hold a CWE, then see how DevNet shares one GPU across learners.",
     "summarySource": "extractive",
     "clusterId": "28b40be08229b112",
     "lang": "en",
@@ -1387,7 +1510,10 @@
     "author": "Adrian Iliesiu",
     "publishedAt": "2026-10-22T19:00:34+00:00",
     "fetchedAt": "2026-10-22T21:03:04+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1395,7 +1521,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Using AI to re-architect the Cisco DevNet sandbox environment – Part 1",
+    "summary": "An AI agent reviewed our sandbox network design, caught routers hanging off the spines, and asked one question that turned a Clos fabric into a two-tier vPC design.",
     "summarySource": "extractive",
     "clusterId": "d3a425215ce83e43",
     "lang": "en",
@@ -1477,7 +1603,10 @@
     "author": "Julio Gomez",
     "publishedAt": "2026-10-22T12:00:38+00:00",
     "fetchedAt": "2026-10-22T16:24:10+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "research"
@@ -1485,7 +1614,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Antares: a Security Analyst That Never Leaves Your Laptop – Security Loop Series, Part 1",
+    "summary": "A CWE advisory names your dependency, but not where the bug lives. See how Cisco's Antares-1B localizes it offline on a laptop, with auditable traces and honest benchmark numbers.",
     "summarySource": "extractive",
     "clusterId": "35ac9f667405ed2e",
     "lang": "en",
@@ -1758,7 +1887,10 @@
     "author": "Eddie Corban",
     "publishedAt": "2026-10-21T15:44:38+00:00",
     "fetchedAt": "2026-10-21T16:23:42+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1766,7 +1898,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Three languages, one binary: Building a VMware Nutanix inventory with Claude",
+    "summary": "Two UIs, two CSV shapes, and a spreadsheet I kept rebuilding. Claude helped turn throwaway scripts into one Go binary that inventories VMware and Nutanix in a single run.",
     "summarySource": "extractive",
     "clusterId": "0ba11f4676d5f4bc",
     "lang": "en",
@@ -1786,7 +1918,9 @@
     "author": "Ramya Korada",
     "publishedAt": "2026-10-21T14:26:54+00:00",
     "fetchedAt": "2026-10-21T16:23:42+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -1794,7 +1928,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco and Fortanix help make confidential AI verifiable from data to Kubernetes",
+    "summary": "Fortanix Confidential AI now supports CNCF Confidential Containers. Discover how Cisco, Fortanix, and VAST Data help enterprises run secure frontier AI, ensuring sensitive models and data remain protected and verifiable while in use.",
     "summarySource": "extractive",
     "clusterId": "ba499ec52bea249c",
     "lang": "en",
@@ -1948,7 +2082,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Today we held the webinar about ntopng 7.0 and it has been a great success with many attendees. Those who missed the event can find below the event recording as well the presentation slides. Enjoy !",
+    "summary": "ntopng 7.0 Webinar",
     "summarySource": "extractive",
     "clusterId": "705586a93f4029fe",
     "lang": "en",
@@ -2199,6 +2333,36 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "15f51fc924544b35",
+    "title": "Release notes for the Splunk Common Information Model Add-on - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSWtoczhqYXdZNE93ajNQNER0cVlXTWx6NnpvazhtaGJNX0NubU5QOGlHUVI4QXozT1h6bldBNGk0Y2V4NTdiQmxReVJHRzc3bFlFdlMtc3Bkb1Q5ZlNXNkhGU1NRbmNBTzJRMHZwa3NJSW5sbzd0bWljeEtFWVFaVS1jbXp2TFZ4VTV1WUhFU3IzcWtTVHFyNlBveXIwY1YwRDVKbm1DMUs3X185Zk1KWjIxam8tUS15VFFMck1vb2pERUdMaTF5LWo4RW5EMHRrcVQwOG1hb0NNcEJETXc2Tzc5TkdwQQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSWtoczhqYXdZNE93ajNQNER0cVlXTWx6NnpvazhtaGJNX0NubU5QOGlHUVI4QXozT1h6bldBNGk0Y2V4NTdiQmxReVJHRzc3bFlFdlMtc3Bkb1Q5ZlNXNkhGU1NRbmNBTzJRMHZwa3NJSW5sbzd0bWljeEtFWVFaVS1jbXp2TFZ4VTV1WUhFU3IzcWtTVHFyNlBveXIwY1YwRDVKbm1DMUs3X185Zk1KWjIxam8tUS15VFFMck1vb2pERUdMaTF5LWo4RW5EMHRrcVQwOG1hb0NNcEJETXc2Tzc5TkdwQQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-20T20:23:15+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Release notes for the Splunk Common Information Model Add-on Splunk",
+    "summarySource": "extractive",
+    "clusterId": "15f51fc924544b35",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "c0e79a5f6b58bd43",
     "title": "The receipt, not the demo: Four questions that earn AI agent trust",
     "url": "https://blogs.cisco.com/cisco-devnet/cadreai-ai-agent-trust-production/",
@@ -2239,7 +2403,10 @@
     "author": "Anand Gurumurthy",
     "publishedAt": "2026-10-20T15:00:25+00:00",
     "fetchedAt": "2026-10-20T21:05:16+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2247,7 +2414,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Wi-Fi 8: The next evolution in enterprise connectivity",
+    "summary": "Gain a strategic edge in your network planning by mastering the shift from raw speed to intelligent connectivity. Arm yourself with the insights to proactively guide your organization's future wireless roadmap.",
     "summarySource": "extractive",
     "clusterId": "278f944e9a250b2f",
     "lang": "en",
@@ -2297,7 +2464,10 @@
     "author": "Kamal Hathi",
     "publishedAt": "2026-10-20T12:00:37+00:00",
     "fetchedAt": "2026-10-20T16:07:55+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2305,7 +2475,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "State of Observability 2026 Reveals How Leaders Are Restoring Predictability to the Agentic Era",
+    "summary": "Agentic AI has made modern systems unpredictable by design, but Splunk's latest research reveals how leaders use observability to restore control and drive measurable business value.",
     "summarySource": "extractive",
     "clusterId": "f1b7d6e458e59da6",
     "lang": "en",
@@ -2426,7 +2596,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
     "summarySource": "extractive",
     "clusterId": "9f12c45c6d4b7331",
     "lang": "en",
@@ -2584,6 +2754,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "b528f78deb87a51d",
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "André Grüneberg",
+    "publishedAt": "2026-10-19T08:53:35+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
+    "summarySource": "extractive",
+    "clusterId": "b528f78deb87a51d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -2634,7 +2832,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High Splunk",
+    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High - Splunk",
     "summarySource": "extractive",
     "clusterId": "71936385c4a8ce8b",
     "lang": "en",
@@ -2694,7 +2892,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
+    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -2727,6 +2925,36 @@
     "summary": "What's new | Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "c46f361650e66ff8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "6dcefb4adc4fa862",
+    "title": "Set up and use HTTP Event Collector in Splunk Web | Splunk Enterprise (last updated 2026-10-17T14:24:37.265Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeUdLYkQxanFDR3ZvalFfT0VaYUUwYnZoUzd2d3NDSjRyYjdfZFd6QkZxY3RBZTlWSjdBWXNjdzVrN245UWpMOWFmVDhjSEI2LUk1OVVsRmxJZnRpTEt2UlF5UHFHWnF1aDFheHpFckg1d0xxVTNWOFk5ZElob1Y1aG5tOA?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeUdLYkQxanFDR3ZvalFfT0VaYUUwYnZoUzd2d3NDSjRyYjdfZFd6QkZxY3RBZTlWSjdBWXNjdzVrN245UWpMOWFmVDhjSEI2LUk1OVVsRmxJZnRpTEt2UlF5UHFHWnF1aDFheHpFckg1d0xxVTNWOFk5ZElob1Y1aG5tOA?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-17T07:00:00+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Set up and use HTTP Event Collector in Splunk Web | Splunk Enterprise (last updated 2026-10-17T14:24:37.265Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "6dcefb4adc4fa862",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
@@ -2844,7 +3072,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
     "summarySource": "extractive",
     "clusterId": "92a92a8860035523",
     "lang": "en",
@@ -2864,9 +3092,7 @@
     "author": "Abe Carryl",
     "publishedAt": "2026-10-15T17:11:12+00:00",
     "fetchedAt": "2026-10-15T20:48:15+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2874,7 +3100,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
+    "summary": "A fully programmable secure web gateway",
     "summarySource": "extractive",
     "clusterId": "4c419dd8c4a4ebd3",
     "lang": "en",
@@ -3244,7 +3470,10 @@
     "author": "Miriam Kung",
     "publishedAt": "2026-10-12T15:00:54+00:00",
     "fetchedAt": "2026-10-13T00:00:25+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3252,7 +3481,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modern retail networks are secure, simple, and ready for what’s next",
+    "summary": "Modern retail networks must stay secure; simplify operations; and scale for seasonal traffic, distributed stores, and new in-store technology.",
     "summarySource": "extractive",
     "clusterId": "6b5c0ecf8d16aaed",
     "lang": "en",
@@ -3272,7 +3501,10 @@
     "author": "Will Eatherton",
     "publishedAt": "2026-10-12T15:00:38+00:00",
     "fetchedAt": "2026-10-13T00:00:25+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3280,7 +3512,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SONiC’s next chapter with Cisco: Open choice, production confidence",
+    "summary": "Cisco brings operational confidence to enterprise SONiC. Learn about our deployment paths, open interfaces in AI fabrics, and the essential security and day-2 operations needed to scale from hardware trust to production.",
     "summarySource": "extractive",
     "clusterId": "7afe432997e03925",
     "lang": "en",
@@ -3398,7 +3630,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
     "summarySource": "extractive",
     "clusterId": "f88561aaacf59e73",
     "lang": "en",
@@ -3637,9 +3869,41 @@
     "audiences": [
       "global"
     ],
-    "summary": "ntopng has had a search box for a while, but it we made it better to allow search for menu entries too! This to speed up and improve the user experience and navigation in ntopng. We added a short guided tour so you know what it can do.",
+    "summary": "How we Redesigned Search in ntopng",
     "summarySource": "extractive",
-    "clusterId": "ac2d35e437555bf3",
+    "clusterId": "20bf9246a89ef653",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
+    "id": "20bf9246a89ef653",
+    "title": "How we Redesigned Search in ntopng",
+    "url": "https://ntop.org/how-we-redesigned-search-in-ntopng/",
+    "canonicalUrl": "https://ntop.org/how-we-redesigned-search-in-ntopng",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "Gabriele Deri",
+    "publishedAt": "2026-10-08T16:37:08+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ntopng has had a search box for a while, but it we made it better to allow search for menu entries too! This to speed up and improve the user experience and… The post How we Redesigned Search in ntopng appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "20bf9246a89ef653",
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
@@ -3688,7 +3952,9 @@
     "publishedAt": "2026-10-08T15:00:59+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
     ],
     "tags": [
       "enterprise-security",
@@ -3700,7 +3966,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Chasing AMMYY at Splunk .conf",
+    "summary": "Discover how Cisco's Encrypted Visibility Engine (EVE) and Endace PCAP uncovered Flawed AMMYY RAT traffic at Splunk .conf without breaking TLS encryption.",
     "summarySource": "extractive",
     "clusterId": "e82bd46a7aab2bb0",
     "lang": "en",
@@ -3720,7 +3986,10 @@
     "author": "Andrew Merica",
     "publishedAt": "2026-10-08T15:00:58+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [
       "enterprise-security"
     ],
@@ -3730,7 +3999,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Admin in the Loop: Firewalls and the Agentic SOC",
+    "summary": "Discover how Cisco Secure Firewall and Cloud Control stream structured Snort 3 and EVE telemetry into Splunk ES to power the .conf26 Agentic SOC pipeline.",
     "summarySource": "extractive",
     "clusterId": "34f3e42950d83b7c",
     "lang": "en",
@@ -3750,7 +4019,11 @@
     "author": "Adam Kilgore",
     "publishedAt": "2026-10-08T15:00:53+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [
       "enterprise-security",
       "thousandeyes"
@@ -3761,7 +4034,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The Zero-Day Blind Spot: Why Your Agentic SOC needs Retrospective Packet Replay",
+    "summary": "Learn how the .conf26 Agentic SOC paired Endace full PCAP with Cisco Secure Firewall and Talos rules to retrospectively replay wire data against zero-days.",
     "summarySource": "extractive",
     "clusterId": "c0c871e44f80e4b3",
     "lang": "en",
@@ -3781,7 +4054,10 @@
     "author": "Jessica (Bair) Oppenheimer",
     "publishedAt": "2026-10-08T15:00:39+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
-    "topics": [],
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
     "tags": [
       "enterprise-security"
     ],
@@ -3792,7 +4068,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One Cisco in Action: Inside the Agentic SOC at .conf26",
+    "summary": "Read how Cisco Cloud Control and Splunk Enterprise Security powered the live Agentic SOC at .conf26 to deliver unified TDIR across live event traffic.",
     "summarySource": "extractive",
     "clusterId": "8bb19699e5f24bc8",
     "lang": "en",
@@ -3813,7 +4089,8 @@
     "publishedAt": "2026-10-08T15:00:29+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [
       "enterprise-security"
@@ -3824,7 +4101,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk .conf26: Tracking the Triage Agent in the Agentic SOC",
+    "summary": "How Cisco used Splunk as the SOC data platform at .conf26 to unify security telemetry and track the Splunk AI Triage Agent with human-validated workflows.",
     "summarySource": "extractive",
     "clusterId": "e3de715d4e0787ee",
     "lang": "en",
@@ -3944,7 +4221,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -4223,7 +4500,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new API architecture designed to support more efficient queries.",
+    "summary": "PeeringDB product update: April to September 2026",
     "summarySource": "extractive",
     "clusterId": "e55e1cf2a42aed66",
     "lang": "en",
@@ -4368,7 +4645,9 @@
     "author": "Surbhi Paul",
     "publishedAt": "2026-10-06T15:00:09+00:00",
     "fetchedAt": "2026-10-06T22:05:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [
       "nexus-dashboard"
     ],
@@ -4378,7 +4657,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Scaling open networking through Cisco-validated SONiC on N9000",
+    "summary": "Cisco-validated SONiC on N9000 pairs high-performance hardware with a hardened SONiC image, enabling scalable, AI-optimized data center networking with flexibility, and Nexus Dashboard integration for simplified management and lifecycle operations",
     "summarySource": "extractive",
     "clusterId": "c62b16317e8df1d4",
     "lang": "en",
@@ -4463,7 +4742,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security",
       "tutorial"
     ],
     "audiences": [
@@ -4489,7 +4767,9 @@
     "author": "Adhiraj Lahiri",
     "publishedAt": "2026-10-05T20:02:42+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4497,7 +4777,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Powering AI-ready data centers with N9000 support for ORv3",
+    "summary": "See how Cisco N9000 support for ORv3 helps data centers standardize and prepare for high-density AI with flexible power, cooling, and network integration.",
     "summarySource": "extractive",
     "clusterId": "2bbc96ef6e10139b",
     "lang": "en",
@@ -4861,7 +5141,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
+    "summary": "Is RPKI becoming harmful to BGP stability?",
     "summarySource": "extractive",
     "clusterId": "2a2ce9ef61dc6411",
     "lang": "en",
@@ -5203,7 +5483,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In this episode of PING, Verisign's Duane Wessels discusses the transition to the third DNS root KSK key pair, which is scheduled to begin signing the root zone on 11 October 2026.",
+    "summary": "[Podcast] The October 2026 root KSK roll",
     "summarySource": "extractive",
     "clusterId": "7f17eb9683fcf2c2",
     "lang": "en",
@@ -5251,7 +5531,10 @@
     "author": "Jay Mada",
     "publishedAt": "2026-09-30T17:56:10+00:00",
     "fetchedAt": "2026-09-30T21:44:03+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5259,7 +5542,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When security moves at machine speed, campus networks can’t afford to stop",
+    "summary": "Learn how Live Protect and xFSU help campus teams reduce exposure, maintain connectivity, and deploy software updates with fewer disruptions as AI-assisted threats accelerate the need for faster security response.",
     "summarySource": "extractive",
     "clusterId": "b14bf45e93c321e2",
     "lang": "en",
@@ -5581,6 +5864,38 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "e097ea68b58eb2ca",
+    "title": "AI Dashboards in ntopng: Build Charts by Asking",
+    "url": "https://ntop.org/ai-dashboards-in-ntopng-build-charts-by-asking/",
+    "canonicalUrl": "https://ntop.org/ai-dashboards-in-ntopng-build-charts-by-asking",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-30T09:00:39+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "If you've opened ntopng recently you may have noticed a new entry under the dashboards menu: AI Dashboards. Instead of picking a metric, a chart type and a time range from a… The post AI Dashboards in ntopng: Build Charts by Asking appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "a0581be4cb0f9a71",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "a0581be4cb0f9a71",
     "title": "AI Dashboards in ntopng: Build Charts by Asking",
     "url": "https://www.ntop.org/ai-dashboards-in-ntopng-build-charts-by-asking/",
@@ -5605,7 +5920,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you’ve opened ntopng recently you may have noticed a new entry under the dashboards menu: AI Dashboards. Instead of picking a metric, a chart type and a time range from a form, you describe what you want to see in plain language and nAnalyst writes the query, picks the visualization and drops the widget […]",
+    "summary": "AI Dashboards in ntopng: Build Charts by Asking",
     "summarySource": "extractive",
     "clusterId": "a0581be4cb0f9a71",
     "lang": "en",
@@ -5837,7 +6152,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -5925,7 +6240,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Presenters at APNIC 62 explored how AI is reshaping network design and operations, from next-generation optical architectures to autonomous management systems, highlighting scale challenges and improved reliability, efficiency, and operational decision-making.",
+    "summary": "AI-driven networking and infrastructure design at APNIC 62",
     "summarySource": "extractive",
     "clusterId": "335b28c6dccccc1b",
     "lang": "en",
@@ -6215,6 +6530,38 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "6b9f69d0d98758b7",
+    "title": "Introducing the nDPI TCP Fingerprint: A Stable, Patent-Free Way to Fingerprint TCP Stacks",
+    "url": "https://ntop.org/introducing-the-ndpi-tcp-fingerprint-a-stable-patent-free-way-to-fingerprint-tcp-stacks/",
+    "canonicalUrl": "https://ntop.org/introducing-the-ndpi-tcp-fingerprint-a-stable-patent-free-way-to-fingerprint-tcp-stacks",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-29T09:19:01+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Every TCP connection starts with a SYN, and that first packet says a lot about the machine that sent it. The Linux, Windows, macOS and Android stacks each set different flags, choose… The post Introducing the nDPI TCP Fingerprint: A Stable, Patent-Free Way to Fingerprint TCP Stacks appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "344edd6dd9fdf8ae",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "344edd6dd9fdf8ae",
     "title": "Introducing the nDPI TCP Fingerprint: A Stable, Patent-Free Way to Fingerprint TCP Stacks",
     "url": "https://www.ntop.org/introducing-the-ndpi-tcp-fingerprint-a-stable-patent-free-way-to-fingerprint-tcp-stacks/",
@@ -6227,9 +6574,7 @@
     "author": "admin",
     "publishedAt": "2026-09-29T09:19:01+00:00",
     "fetchedAt": "2026-09-29T11:54:29+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6237,7 +6582,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every TCP connection starts with a SYN, and that first packet says a lot about the machine that sent it. The Linux, Windows, macOS and Android stacks each set different flags, choose different initial TTLs, advertise different receive windows, and, above all, lay out their TCP options in different orders. Passive TCP fingerprinting turns those […]",
+    "summary": "Introducing the nDPI TCP Fingerprint: A Stable, Patent-Free Way to Fingerprint TCP Stacks",
     "summarySource": "extractive",
     "clusterId": "344edd6dd9fdf8ae",
     "lang": "en",
@@ -6297,7 +6642,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: To quantify how closely guideline recommendations align with real-world TLS deployments, we collected over 50 million TLS handshakes during two weeks from our research institution.",
+    "summary": "Thou shall not pass: Gatekeeping outbound TLS connections",
     "summarySource": "extractive",
     "clusterId": "6306bd1579277925",
     "lang": "en",
@@ -6335,6 +6680,38 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "68a9cf9f5774d8e8",
+    "title": "About the Edge Processor solution - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc29FNWhLS3A3RktERlNUb21JYTFYWGVHQTAtblprakVYMnpEWm83cXNib2I2VWFYMFF5QV9BMVhtY1NZbWpQdzNMMms5dVk5NWViNllidHVydEtQSEd4M1JhNm53SzF6cFJ6X2x3QWJqZlAyMVo4QlZwd1dYMU05b0pnQ1pzR0NQMGpJ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc29FNWhLS3A3RktERlNUb21JYTFYWGVHQTAtblprakVYMnpEWm83cXNib2I2VWFYMFF5QV9BMVhtY1NZbWpQdzNMMms5dVk5NWViNllidHVydEtQSEd4M1JhNm53SzF6cFJ6X2x3QWJqZlAyMVo4QlZwd1dYMU05b0pnQ1pzR0NQMGpJ?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-09-28T22:32:42+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "edge-processor"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "About the Edge Processor solution Splunk",
+    "summarySource": "extractive",
+    "clusterId": "68a9cf9f5774d8e8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "471ba887e0990e55",
@@ -6438,7 +6815,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6473,7 +6850,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco Nexus One and Cisco Secure Firewall integrations with Rafay enable fully self-service AI cloud",
+    "summary": "Cisco and Rafay portfolio integrations help neocloud and sovereign cloud operators onboard customers faster, improve GPU utilization, and deliver secure, multi-tenant infrastructure at scale.",
     "summarySource": "extractive",
     "clusterId": "adf98b4c9b531ab7",
     "lang": "en",
@@ -6773,7 +7150,10 @@
     "author": "Ana Nennig",
     "publishedAt": "2026-09-25T15:00:54+00:00",
     "fetchedAt": "2026-09-25T16:16:12+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6781,7 +7161,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "New webinar series now on demand: Secure Networking Ecosystem Insights",
+    "summary": "Explore Cisco's on-demand webinar series on building a secure, ecosystem-driven network architecture across infrastructure, identity, and access.",
     "summarySource": "extractive",
     "clusterId": "9663ae093c630567",
     "lang": "en",
@@ -6817,6 +7197,38 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "ce2a45e91600c04e",
+    "title": "AS/IXP Traffic Observability: From Flows to AI-Assisted Root-Cause Analysis",
+    "url": "https://ntop.org/as-ixp-traffic-observability-from-flows-to-ai-assisted-root-cause-analysis/",
+    "canonicalUrl": "https://ntop.org/as-ixp-traffic-observability-from-flows-to-ai-assisted-root-cause-analysis",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-25T12:53:44+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "For most network operators, traffic visibility is not mandated by regulation, so it tends to be reactive rather than continuous: a \"manual\" investigation happens only after something breaks. Combined with limited time… The post AS/IXP Traffic Observability: From Flows to AI-Assisted Root-Cause Analysis appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "797fb8839f4af38d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "797fb8839f4af38d",
     "title": "AS/IXP Traffic Observability: From Flows to AI-Assisted Root-Cause Analysis",
     "url": "https://www.ntop.org/as-ixp-traffic-observability-from-flows-to-ai-assisted-root-cause-analysis/",
@@ -6829,9 +7241,7 @@
     "author": "admin",
     "publishedAt": "2026-09-25T12:53:44+00:00",
     "fetchedAt": "2026-09-25T16:16:12+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6839,7 +7249,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "For most network operators, traffic visibility is not mandated by regulation, so it tends to be reactive rather than continuous: a “manual” investigation happens only after something breaks. Combined with limited time to review telemetry and the cost/data-sovereignty concerns of cloud-based visibility platforms, this leaves a real gap for AS operators and IXP participants […]",
+    "summary": "AS/IXP Traffic Observability: From Flows to AI-Assisted Root-Cause Analysis",
     "summarySource": "extractive",
     "clusterId": "797fb8839f4af38d",
     "lang": "en",
@@ -6891,7 +7301,9 @@
     "author": "Jawwad Memon",
     "publishedAt": "2026-09-24T20:07:52+00:00",
     "fetchedAt": "2026-09-24T20:59:46+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -6899,7 +7311,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building a trusted foundation for confidential AI",
+    "summary": "Cisco and VAST help organizations bring advanced AI models to their most sensitive data, protecting data and models while in use, without giving up control.",
     "summarySource": "extractive",
     "clusterId": "005571fbfbc650ac",
     "lang": "en",
@@ -6998,6 +7410,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "372d8f3b55a94bd4",
+    "title": "PeeringDB Update April - September 2026",
+    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-09-23T13:13:32+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summarySource": "extractive",
+    "clusterId": "372d8f3b55a94bd4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "9403c3137b65a504",
     "title": "PQC for Dummies—Cisco Special Edition: Why we wrote it",
     "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it/",
@@ -7010,7 +7450,10 @@
     "author": "Albert Chiang",
     "publishedAt": "2026-09-22T22:41:59+00:00",
     "fetchedAt": "2026-09-23T02:43:11+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7018,7 +7461,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "PQC for Dummies—Cisco Special Edition: Why we wrote it",
+    "summary": "Get the thinking behind Post-Quantum Cryptography (PQC) for Dummies—Cisco Special Edition and how to use this resource as a starting point for IT teams to address the complexities of quantum computing.",
     "summarySource": "extractive",
     "clusterId": "9403c3137b65a504",
     "lang": "en",
@@ -7038,7 +7481,10 @@
     "author": "Bassam Khan",
     "publishedAt": "2026-09-22T20:41:57+00:00",
     "fetchedAt": "2026-09-22T20:43:36+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -7046,7 +7492,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your network is a security layer. It’s time to treat it like one.",
+    "summary": "Explore the shift from passive to active security, key outcomes to prioritize, and three design pillars—unifying infrastructure, flow protection, and operational assurance—to defend against modern AI-driven threats.",
     "summarySource": "extractive",
     "clusterId": "39fc69a043dbf6e5",
     "lang": "en",
@@ -7210,9 +7656,7 @@
     "author": "admin",
     "publishedAt": "2026-09-21T21:16:13+00:00",
     "fetchedAt": "2026-10-08T22:43:02+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [
       "ntopng"
     ],
@@ -7222,9 +7666,41 @@
     "audiences": [
       "global"
     ],
-    "summary": "TLS client fingerprinting has become one of the workhorse techniques in network security, and JA4 (FoxIO) has been the de facto standard for identifying TLS clients from their ClientHello messages. But recent production experience at ntop surfaced two real limitations, and today we’re announcing nDPI TLS Fingerprint (TLSFP in short), an open, patent-free extension of […]",
+    "summary": "Introducing nDPI TLS Fingerprint: A Stable, Collision-Resistant Successor to JA4",
     "summarySource": "extractive",
-    "clusterId": "c665ae79c820fdd0",
+    "clusterId": "958160eefb2057c7",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
+    "id": "958160eefb2057c7",
+    "title": "Introducing nDPI TLS Fingerprint: A Stable, Collision-Resistant Successor to JA4",
+    "url": "https://ntop.org/introducing-tlsfp-a-stable-collision-resistant-successor-to-ja4/",
+    "canonicalUrl": "https://ntop.org/introducing-tlsfp-a-stable-collision-resistant-successor-to-ja4",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-21T21:16:13+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "TLS client fingerprinting has become one of the workhorse techniques in network security, and JA4 (FoxIO) has been the de facto standard for identifying TLS clients from their ClientHello messages. But recent… The post Introducing nDPI TLS Fingerprint: A Stable, Collision-Resistant Successor to JA4 appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "958160eefb2057c7",
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
@@ -7304,7 +7780,9 @@
     "author": "Noah Nisbet",
     "publishedAt": "2026-09-21T15:00:06+00:00",
     "fetchedAt": "2026-09-21T17:35:10+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "research"
@@ -7312,12 +7790,40 @@
     "audiences": [
       "global"
     ],
-    "summary": "Industry’s first MLPerf™ Inference benchmarking across multi-vendor accelerators",
+    "summary": "Orchestrate workloads across mixed-vendor GPU pools without penalties. Cisco’s first heterogeneous GPU MLPerf™ Inference submission optimizes your data center unit economics.",
     "summarySource": "extractive",
     "clusterId": "aff04b6e2abd02a6",
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Data Center Blog"
+  },
+  {
+    "id": "fa984377e78b0ed6",
+    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
+    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Ethan Banks",
+    "publishedAt": "2026-09-21T13:00:34+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
+    "summarySource": "extractive",
+    "clusterId": "fa984377e78b0ed6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "bf2ea8abc504ecbb",
@@ -7372,9 +7878,41 @@
     "audiences": [
       "global"
     ],
-    "summary": "In our continuous effort to improve user experience and make network monitoring more intuitive, we have completely redesigned the ntopng Navigation Bar. As our feature set expands—with crucial additions like the nAnalyst automated pipeline, specialized AI Dashboards, and high-resolution Observability analytics—the legacy menu structure needed a logical evolution to reduce deep nesting and facilitate daily […]",
+    "summary": "ntopng User Interface: Introducing the New Navigation Bar",
     "summarySource": "extractive",
-    "clusterId": "eef506bb0dcf6940",
+    "clusterId": "d0b02679daa114aa",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
+    "id": "d0b02679daa114aa",
+    "title": "ntopng User Interface: Introducing the New Navigation Bar",
+    "url": "https://ntop.org/ntopng-user-interface-introducing-the-new-navigation-bar/",
+    "canonicalUrl": "https://ntop.org/ntopng-user-interface-introducing-the-new-navigation-bar",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "Matteo Biscosi",
+    "publishedAt": "2026-09-21T09:17:05+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In our continuous effort to improve user experience and make network monitoring more intuitive, we have completely redesigned the ntopng Navigation Bar. As our feature set expands—with crucial additions like the nAnalyst… The post ntopng User Interface: Introducing the New Navigation Bar appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "d0b02679daa114aa",
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
@@ -7517,7 +8055,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
+    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -7598,7 +8136,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -7699,6 +8237,38 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "dac76bbc84cbac46",
+    "title": "Elevate Your Network Visibility with ntop Professional Training November 2026",
+    "url": "https://ntop.org/elevate-your-network-visibility-with-ntop-professional-training-november-2026/",
+    "canonicalUrl": "https://ntop.org/elevate-your-network-visibility-with-ntop-professional-training-november-2026",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-16T19:36:32+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "As network architectures evolve, staying ahead of performance issues and modern cybersecurity threats requires deep visibility and mastery of your tools. Here at ntop, our product range spans from high-speed packet capture… The post Elevate Your Network Visibility with ntop Professional Training November 2026 appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "472f4054e94f99b5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
     "id": "472f4054e94f99b5",
     "title": "Elevate Your Network Visibility with ntop Professional Training November 2026",
     "url": "https://www.ntop.org/elevate-your-network-visibility-with-ntop-professional-training-november-2026/",
@@ -7723,7 +8293,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As network architectures evolve, staying ahead of performance issues and modern cybersecurity threats requires deep visibility and mastery of your tools. Here at ntop, our product range spans from high-speed packet capture to advanced traffic analysis. With our continuous updates and feature additions, keeping up with the ecosystem can be a challenge.",
+    "summary": "Elevate Your Network Visibility with ntop Professional Training November 2026",
     "summarySource": "extractive",
     "clusterId": "472f4054e94f99b5",
     "lang": "en",
@@ -7756,7 +8326,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Native Splunk brings real-time insights to Cisco Nexus One",
+    "summary": "Discover how native Splunk embedded in Cisco Nexus Dashboard delivers real-time analytics, faster troubleshooting, and on-premises data sovereignty for modern data center and AI workloads.",
     "summarySource": "extractive",
     "clusterId": "1da38095436c66e8",
     "lang": "en",
@@ -7957,7 +8527,9 @@
     "author": "Jacob Van Ewyk",
     "publishedAt": "2026-09-15T21:00:37+00:00",
     "fetchedAt": "2026-09-16T02:42:43+00:00",
-    "topics": [],
+    "topics": [
+      "cisco-data-fabric"
+    ],
     "tags": [],
     "categories": [
       "product-release"
@@ -7965,7 +8537,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco UCS Manager: Celebrating the legacy, shaping the future with Cisco Intersight",
+    "summary": "Cisco UCS Manager shaped 17 years of infrastructure management. Now, with its end-of-life announced, Cisco Intersight carries that foundation forward with centralized visibility, automation, and scale. Learn the key dates for the UCS Manager EOL.",
     "summarySource": "extractive",
     "clusterId": "8ad73abee257f0f0",
     "lang": "en",
@@ -8074,7 +8646,8 @@
     "publishedAt": "2026-09-15T07:00:00+00:00",
     "fetchedAt": "2026-10-22T02:45:28+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -8083,7 +8656,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco brings Splunk AI on premises, expands agent observability, monitors token costs - Network World",
+    "summary": "Cisco brings Splunk AI on premises, expands agent observability, monitors token costs Network World",
     "summarySource": "extractive",
     "clusterId": "696cf3e533059832",
     "lang": "en",
@@ -8328,10 +8901,10 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "48647b4d1a85533a",
+    "id": "aba3ea3ef53c9f4c",
     "title": "Cento 2.6: ClickHouse Support, Enhanced Tunnel Visibility, PQC, and more",
-    "url": "https://www.ntop.org/cento-2-6-clickhouse-support-enhanced-tunnel-visibility-pqc-and-more/",
-    "canonicalUrl": "https://www.ntop.org/cento-2-6-clickhouse-support-enhanced-tunnel-visibility-pqc-and-more",
+    "url": "https://ntop.org/cento-2-6-clickhouse-support-enhanced-tunnel-visibility-pqc-and-more/",
+    "canonicalUrl": "https://ntop.org/cento-2-6-clickhouse-support-enhanced-tunnel-visibility-pqc-and-more",
     "source": {
       "id": "ntop-blog",
       "name": "ntop Blog",
@@ -8339,7 +8912,7 @@
     },
     "author": "admin",
     "publishedAt": "2026-09-14T16:41:05+00:00",
-    "fetchedAt": "2026-09-14T17:21:22+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
     "topics": [
       "network-observability"
     ],
@@ -8352,7 +8925,37 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are pleased to announce the release of cento 2.6, bringing a broad set of new capabilities and improvements to high-performance traffic processing and flow export. This release expands cento’s integration with the ntop ecosystem, adds new visibility into tunneled traffic, introduces Post-Quantum Cryptography (PQC) support, and delivers important improvements across protocol dissection, security, and performance. […]",
+    "summary": "We are pleased to announce the release of cento 2.6, bringing a broad set of new capabilities and improvements to high-performance traffic processing and flow export. This release expands cento’s integration with… The post Cento 2.6: ClickHouse Support, Enhanced Tunnel Visibility, PQC, and more appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "48647b4d1a85533a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
+    "id": "48647b4d1a85533a",
+    "title": "Cento 2.6: ClickHouse Support, Enhanced Tunnel Visibility, PQC, and more",
+    "url": "https://www.ntop.org/cento-2-6-clickhouse-support-enhanced-tunnel-visibility-pqc-and-more/",
+    "canonicalUrl": "https://www.ntop.org/cento-2-6-clickhouse-support-enhanced-tunnel-visibility-pqc-and-more",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-14T16:41:05+00:00",
+    "fetchedAt": "2026-09-14T17:21:22+00:00",
+    "topics": [],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cento 2.6: ClickHouse Support, Enhanced Tunnel Visibility, PQC, and more",
     "summarySource": "extractive",
     "clusterId": "48647b4d1a85533a",
     "lang": "en",
@@ -8476,9 +9079,41 @@
     "audiences": [
       "global"
     ],
-    "summary": "Under the EU Cyber Resilience Act (CRA), it has become compulsory for manufacturers of products sold on the EU market to report exploited vulnerabilities and severe incidents. As a result, ntop is fully committed to compliance with these new requirements. Since September 11, 2026, Article 14 of the CRA requires ntop to report security issues directly to […]",
+    "summary": "ntop and the EU Cyber Resilience Act",
     "summarySource": "extractive",
-    "clusterId": "6750a45f3c3ffa90",
+    "clusterId": "172f63a11ee54623",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ntop Blog"
+  },
+  {
+    "id": "172f63a11ee54623",
+    "title": "ntop and the EU Cyber Resilience Act",
+    "url": "https://ntop.org/ntop-and-the-eu-cyber-resilience-act/",
+    "canonicalUrl": "https://ntop.org/ntop-and-the-eu-cyber-resilience-act",
+    "source": {
+      "id": "ntop-blog",
+      "name": "ntop Blog",
+      "homepage": "https://www.ntop.org/blog"
+    },
+    "author": "admin",
+    "publishedAt": "2026-09-12T07:31:03+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "ntopng"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Under the EU Cyber Resilience Act (CRA), it has become compulsory for manufacturers of products sold on the EU market to report exploited vulnerabilities and severe incidents. As a result, ntop is… The post ntop and the EU Cyber Resilience Act appeared first on ntop .",
+    "summarySource": "extractive",
+    "clusterId": "172f63a11ee54623",
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
@@ -8756,9 +9391,7 @@
     "author": "admin",
     "publishedAt": "2026-09-09T13:08:48+00:00",
     "fetchedAt": "2026-09-09T15:42:06+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -8766,7 +9399,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We are pleased to announce the release of nProbe 11.2, bringing major new capabilities for network visibility, routing intelligence, flow analysis, and OT monitoring. This release significantly expands nProbe beyond traditional flow collection and export, adding BGP/BMP route enrichment, OT protocols support, collection deduplication, enhanced IPv6 handling. Flow collection has also been optimized to deliver higher performance […]",
+    "summary": "nProbe 11.2: BGP/BMP Support, OT Protocols, Faster Flow Collection",
     "summarySource": "extractive",
     "clusterId": "f75aa2ddc283c527",
     "lang": "en",
@@ -9156,6 +9789,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Blogs (Google News)"
+  },
+  {
+    "id": "20f7ad9eb66a41ca",
+    "title": "Closing the IPv6 First-Packet Gap with GRAND",
+    "url": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand/",
+    "canonicalUrl": "https://labs.ripe.net/author/pouria/closing-the-ipv6-first-packet-gap-with-grand",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Seyed Pouria Mousavizadeh Tehrani",
+    "publishedAt": "2026-09-04T13:32:29+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "There is a subtle asymmetry in IPv6 Neighbour Discovery: a host knows how to reach its router before the router necessarily knows how to reach the host. GRAND fixes that asymmetry by making the host proactively advertise its address, and I implemented that mechanism in FreeBSD.",
+    "summarySource": "extractive",
+    "clusterId": "20f7ad9eb66a41ca",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "862238d979ee4744",
@@ -9594,7 +10255,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "MCP Server release notes Splunk",
+    "summary": "MCP Server release notes - Splunk",
     "summarySource": "extractive",
     "clusterId": "937c1d0932b9e2a0",
     "lang": "en",
@@ -10247,7 +10908,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers - Cisco Blogs",
+    "summary": "A new chapter for IT operations: Cisco Cloud Control is now generally available for U.S. customers Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "58226cbb66a52c6e",
     "lang": "en",
@@ -10882,7 +11543,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
     "summarySource": "extractive",
     "clusterId": "ce0f99a9709db24e",
     "lang": "en",
@@ -12459,34 +13120,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "7b8e75801e08eb6c",
-    "title": "Beyond Volume: Countering the Stealth Tactics of Modern DDoS Attacks",
-    "url": "https://blogs.cisco.com/datacenter/beyond-volume-countering-the-stealth-tactics-of-modern-ddos-attacks/",
-    "canonicalUrl": "https://blogs.cisco.com/datacenter/beyond-volume-countering-the-stealth-tactics-of-modern-ddos-attacks",
-    "source": {
-      "id": "cisco-datacenter-blog",
-      "name": "Cisco Data Center Blog",
-      "homepage": "https://blogs.cisco.com/datacenter"
-    },
-    "author": "Raja Kolagatla",
-    "publishedAt": "2026-08-05T15:28:23+00:00",
-    "fetchedAt": "2026-08-05T19:19:01+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Beyond Volume: Countering the Stealth Tactics of Modern DDoS Attacks",
-    "summarySource": "extractive",
-    "clusterId": "7b8e75801e08eb6c",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cisco Data Center Blog"
-  },
-  {
     "id": "6ae37150f8034b95",
     "title": "What's New in Splunk Enterprise Security (ES) 8.6 - Splunk Community",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
@@ -13065,13 +13698,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
