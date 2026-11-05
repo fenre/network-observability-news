@@ -1,5 +1,33 @@
 [
   {
+    "id": "7d8e5af66c547bfc",
+    "title": "Do Registrars Use DNSSEC on Their Own Domains?",
+    "url": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
+    "canonicalUrl": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Tobias Sattler",
+    "publishedAt": "2026-11-05T07:09:04+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
+    "summarySource": "extractive",
+    "clusterId": "7d8e5af66c547bfc",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "7d51b51f4d9ae2c5",
     "title": "Mastering stateful stream reordering at 200,000 messages per second",
     "url": "https://blogs.cisco.com/cisco-devnet/flink-ab-development-stateful-stream-processing/",
@@ -648,40 +676,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
+    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "98489b2d7f8d27b5",
-    "title": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "url": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator/",
-    "canonicalUrl": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-10-28T21:25:29+00:00",
-    "fetchedAt": "2026-11-04T23:03:01+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "summarySource": "extractive",
-    "clusterId": "98489b2d7f8d27b5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "ace478dd944f3d31",
@@ -945,7 +945,8 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric"
+      "cisco-data-fabric",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -954,7 +955,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
+    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -1104,7 +1105,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
+    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -1160,7 +1161,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
+    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -1691,7 +1692,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2377,36 +2378,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "15f51fc924544b35",
-    "title": "Release notes for the Splunk Common Information Model Add-on - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSWtoczhqYXdZNE93ajNQNER0cVlXTWx6NnpvazhtaGJNX0NubU5QOGlHUVI4QXozT1h6bldBNGk0Y2V4NTdiQmxReVJHRzc3bFlFdlMtc3Bkb1Q5ZlNXNkhGU1NRbmNBTzJRMHZwa3NJSW5sbzd0bWljeEtFWVFaVS1jbXp2TFZ4VTV1WUhFU3IzcWtTVHFyNlBveXIwY1YwRDVKbm1DMUs3X185Zk1KWjIxam8tUS15VFFMck1vb2pERUdMaTF5LWo4RW5EMHRrcVQwOG1hb0NNcEJETXc2Tzc5TkdwQQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSWtoczhqYXdZNE93ajNQNER0cVlXTWx6NnpvazhtaGJNX0NubU5QOGlHUVI4QXozT1h6bldBNGk0Y2V4NTdiQmxReVJHRzc3bFlFdlMtc3Bkb1Q5ZlNXNkhGU1NRbmNBTzJRMHZwa3NJSW5sbzd0bWljeEtFWVFaVS1jbXp2TFZ4VTV1WUhFU3IzcWtTVHFyNlBveXIwY1YwRDVKbm1DMUs3X185Zk1KWjIxam8tUS15VFFMck1vb2pERUdMaTF5LWo4RW5EMHRrcVQwOG1hb0NNcEJETXc2Tzc5TkdwQQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-10-20T20:23:15+00:00",
-    "fetchedAt": "2026-11-03T22:44:56+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Release notes for the Splunk Common Information Model Add-on Splunk",
-    "summarySource": "extractive",
-    "clusterId": "15f51fc924544b35",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
     "id": "c0e79a5f6b58bd43",
     "title": "The receipt, not the demo: Four questions that earn AI agent trust",
     "url": "https://blogs.cisco.com/cisco-devnet/cadreai-ai-agent-trust-production/",
@@ -2614,6 +2585,64 @@
     "attribution": "via ThousandEyes (Google News)"
   },
   {
+    "id": "15f51fc924544b35",
+    "title": "Release notes for the Splunk Common Information Model Add-on - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSWtoczhqYXdZNE93ajNQNER0cVlXTWx6NnpvazhtaGJNX0NubU5QOGlHUVI4QXozT1h6bldBNGk0Y2V4NTdiQmxReVJHRzc3bFlFdlMtc3Bkb1Q5ZlNXNkhGU1NRbmNBTzJRMHZwa3NJSW5sbzd0bWljeEtFWVFaVS1jbXp2TFZ4VTV1WUhFU3IzcWtTVHFyNlBveXIwY1YwRDVKbm1DMUs3X185Zk1KWjIxam8tUS15VFFMck1vb2pERUdMaTF5LWo4RW5EMHRrcVQwOG1hb0NNcEJETXc2Tzc5TkdwQQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSWtoczhqYXdZNE93ajNQNER0cVlXTWx6NnpvazhtaGJNX0NubU5QOGlHUVI4QXozT1h6bldBNGk0Y2V4NTdiQmxReVJHRzc3bFlFdlMtc3Bkb1Q5ZlNXNkhGU1NRbmNBTzJRMHZwa3NJSW5sbzd0bWljeEtFWVFaVS1jbXp2TFZ4VTV1WUhFU3IzcWtTVHFyNlBveXIwY1YwRDVKbm1DMUs3X185Zk1KWjIxam8tUS15VFFMck1vb2pERUdMaTF5LWo4RW5EMHRrcVQwOG1hb0NNcEJETXc2Tzc5TkdwQQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-20T07:00:00+00:00",
+    "fetchedAt": "2026-11-03T22:44:56+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Release notes for the Splunk Common Information Model Add-on Splunk",
+    "summarySource": "extractive",
+    "clusterId": "15f51fc924544b35",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "9f12c45c6d4b7331",
+    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
+    "url": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Wilson Ramirez",
+    "publishedAt": "2026-10-20T04:36:37+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summarySource": "extractive",
+    "clusterId": "9f12c45c6d4b7331",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8a358642c108ffcf",
     "title": "Rebuilding PubHub: How AI-assisted development shipped a mandatory rewrite 3.5 months early – Part 1",
     "url": "https://blogs.cisco.com/cisco-devnet/ai-assisted-development-rebuilding-pubhub-part-1/",
@@ -2764,6 +2793,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "b528f78deb87a51d",
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "André Grüneberg",
+    "publishedAt": "2026-10-19T08:53:35+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
+    "summarySource": "extractive",
+    "clusterId": "b528f78deb87a51d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -2874,7 +2931,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
+    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -3030,6 +3087,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Developer Tech News (Google News)"
+  },
+  {
+    "id": "92a92a8860035523",
+    "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
+    "url": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Samantha Douglas",
+    "publishedAt": "2026-10-15T23:20:00+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summarySource": "extractive",
+    "clusterId": "92a92a8860035523",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "4c419dd8c4a4ebd3",
@@ -3556,6 +3641,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "f88561aaacf59e73",
+    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
+    "url": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Kijush Maharjan",
+    "publishedAt": "2026-10-11T23:07:31+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summarySource": "extractive",
+    "clusterId": "f88561aaacf59e73",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8782101300123bfd",
     "title": "Integrating Splunk Cloud Platform with Cisco Cloud Control and AI Canvas - Splunk Lantern",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeldUVFVPS3l5N1F0WnRmcXhoWERPYUYzRDg0N2YyMEtOZU5zLUZiTHNuWDcyLXF0WGJLUWpBWmV4S2pzVDRadFUwN1dlcllRMm9jVDNZVzFxNDZ3LUc5M0dWS29CZnE0YlhYaHNZUElGdVFGa0pvZlEzYkRhZDUtS0RHajBCMjQ4U3lqYjliblk2TS03UUl2WlpqTUhDcXhiR1JZX1N4SkhYXzhFbUZjZ0QwYUhfeUdWckFRTE80Y0h4ZG1N?oc=5",
@@ -3907,7 +4020,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -3968,8 +4081,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4385,6 +4497,34 @@
     "attribution": "via Splunk (canonical)"
   },
   {
+    "id": "e55e1cf2a42aed66",
+    "title": "PeeringDB product update: April to September 2026",
+    "url": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-10-07T03:32:38+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new API architecture designed to support more efficient queries.",
+    "summarySource": "extractive",
+    "clusterId": "e55e1cf2a42aed66",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8cc790e32cb9d7e2",
     "title": "I Built an OpenTelemetry Logs Bridge. Encoding Was the Easy Part - HackerNoon",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOVBwZzhld1hJU2ZBNGp0QXI0RUZVZ3otTjVsRjUza2VsclhSUmZ0THhtcFRNQmJaUUE4Q1V6Nm9BcHlrYlotNVdBODBQVnNWMGFOR2lhREo2eExRQlNwVnliMXhzMTA0cVhialp0bmVjaDVvTHhUTFNRc1VtYnNGdWR2bXhUZThMWGQyblBHMA?oc=5",
@@ -4527,7 +4667,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5014,7 +5154,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Is RPKI becoming harmful to BGP stability?",
+    "summary": "Guest Post: Could the growing deployment of RPKI become a threat to routing stability? This study analyses more than 11 years of RPKI and BGP data, measuring how much routing activity can be associated with RPKI-related changes.",
     "summarySource": "extractive",
     "clusterId": "2a2ce9ef61dc6411",
     "lang": "en",
@@ -5334,6 +5474,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "7f17eb9683fcf2c2",
+    "title": "[Podcast] The October 2026 root KSK roll",
+    "url": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/01/podcast-the-october-2026-root-ksk-roll",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "George Michaelson",
+    "publishedAt": "2026-09-30T22:44:12+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "In this episode of PING, Verisign's Duane Wessels discusses the transition to the third DNS root KSK key pair, which is scheduled to begin signing the root zone on 11 October 2026.",
+    "summarySource": "extractive",
+    "clusterId": "7f17eb9683fcf2c2",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "6f18b5af74c74b5a",
@@ -7216,6 +7384,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "372d8f3b55a94bd4",
+    "title": "PeeringDB Update April - September 2026",
+    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
+    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Leo Vegoda",
+    "publishedAt": "2026-09-23T13:13:32+00:00",
+    "fetchedAt": "2026-11-05T13:48:21+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summarySource": "extractive",
+    "clusterId": "372d8f3b55a94bd4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "9403c3137b65a504",
     "title": "PQC for Dummies—Cisco Special Edition: Why we wrote it",
     "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it/",
@@ -8061,7 +8257,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -9623,6 +9819,7 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -9634,7 +9831,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
@@ -11229,34 +11426,6 @@
     "attribution": "via DevOps.com (Google News)"
   },
   {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-11-04T23:03:01+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "4d6a95e88ad53392",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
@@ -12426,118 +12595,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Amazon Web Services (AWS) (Google News)"
-  },
-  {
-    "id": "5ef0123a42450268",
-    "title": "Unveiling good and bad behaviors on the Agentic Internet",
-    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-    "canonicalUrl": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Marina Elmore",
-    "publishedAt": "2026-08-07T13:01:00+00:00",
-    "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Unveiling good and bad behaviors on the Agentic Internet",
-    "summarySource": "extractive",
-    "clusterId": "5ef0123a42450268",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "e350443ab0fbdbda",
-    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
-    "url": "https://blog.cloudflare.com/community-program-refresh/",
-    "canonicalUrl": "https://blog.cloudflare.com/community-program-refresh",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Marissa Phul",
-    "publishedAt": "2026-08-07T13:00:00+00:00",
-    "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
-    "summarySource": "extractive",
-    "clusterId": "e350443ab0fbdbda",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "4a053871bbc23c33",
-    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
-    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
-    "canonicalUrl": "https://blog.cloudflare.com/introducing-radar-researcher",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "André Jesus",
-    "publishedAt": "2026-08-07T13:00:00+00:00",
-    "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
-    "summarySource": "extractive",
-    "clusterId": "4a053871bbc23c33",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "04aba5b526727ee5",
-    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
-    "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-    "canonicalUrl": "https://blog.cloudflare.com/workers-ai-gateway-unification",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Ming Lu",
-    "publishedAt": "2026-08-07T13:00:00+00:00",
-    "fetchedAt": "2026-08-07T18:43:32+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Unifying Workers AI and AI Gateway into a single AI control plane",
-    "summarySource": "extractive",
-    "clusterId": "04aba5b526727ee5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
   },
   {
     "id": "6ae37150f8034b95",
