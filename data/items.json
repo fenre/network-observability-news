@@ -10,19 +10,21 @@
       "homepage": "https://www.ntop.org/blog"
     },
     "author": "admin",
-    "publishedAt": "2026-11-06T21:12:13+00:00",
+    "publishedAt": "2026-11-07T16:56:21+00:00",
     "fetchedAt": "2026-11-06T22:36:33+00:00",
     "topics": [
       "network-observability"
     ],
-    "tags": [],
+    "tags": [
+      "ntopng"
+    ],
     "categories": [
       "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Earlier this week we have presented at Sharkfest Europe 2026 a presentation of our work about traffic detection of Stealth VPNs and AI Inference. The presentation addresses the challenges of detecting modern obfuscated network traffic, specifically from stealth VPNs and custom/local artificial intelligence (AI) services. While traditional signature methods (like JA4) face instability and hash […]",
+    "summary": "Earlier this week we have presented at Sharkfest Europe 2026 a presentation of our work about traffic detection of Stealth VPNs and AI Inference. The presentation addresses the challenges of detecting modern obfuscated network traffic, specifically from stealth VPNs and custom/local artificial intelligence (AI) services. While traditional signature methods (like JA4) face instability and hash collisions, the […] The post Sharkfest 26EU: HowTo Detect Stealth VPN and AI Inference Traffic appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "d13f57b00abdeb16",
     "lang": "en",
@@ -40,7 +42,7 @@
       "homepage": "https://www.ntop.org/blog"
     },
     "author": "admin",
-    "publishedAt": "2026-11-06T20:16:19+00:00",
+    "publishedAt": "2026-11-07T16:54:27+00:00",
     "fetchedAt": "2026-11-06T22:36:33+00:00",
     "topics": [
       "network-observability"
@@ -54,7 +56,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "CVE-2026-98432 is a critical, 9.8-severity use-after-free (UAF) vulnerability in the Linux kernel’s IPv4 TCP networking stack. It allows an unauthenticated remote attacker to potentially cause system crashes, memory corruption, or execute arbitrary commands with root privileges. From a network standpoint, the attack occurs during a manipulated TCP three-way handshake using a carefully timed sequence of packets: We have been asked if it […]",
+    "summary": "CVE-2026-98432 is a critical, 9.8-severity use-after-free (UAF) vulnerability in the Linux kernel’s IPv4 TCP networking stack. It allows an unauthenticated remote attacker to potentially cause system crashes, memory corruption, or execute arbitrary commands with root privileges. From a network standpoint, the attack occurs during a manipulated TCP three-way handshake using a carefully timed sequence of packets: 1.",
     "summarySource": "extractive",
     "clusterId": "2e8ea5085fdc0d47",
     "lang": "en",
@@ -1901,7 +1903,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2369,7 +2371,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Today we held the webinar about ntopng 7.0 and it has been a great success with many attendees. Those who missed the event can find below the event recording as well the presentation slides. Enjoy !",
+    "summary": "ntopng 7.0 Webinar",
     "summarySource": "extractive",
     "clusterId": "705586a93f4029fe",
     "lang": "en",
@@ -2725,7 +2727,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Managing disk space is an important part of operating ntopng, especially in environments that collect large volumes of network traffic data. ntopng always allowed you to configure data retention in days, which provides a convenient way to control how long historical data is kept. However the actual disk space consumed by that data can vary […]",
+    "summary": "How To Control Disk Space Used by ClickHouse in ntopng",
     "summarySource": "extractive",
     "clusterId": "a2021e2c3cc3901a",
     "lang": "en",
@@ -3994,7 +3996,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ntopng has had a search box for a while, but it we made it better to allow search for menu entries too! This to speed up and improve the user experience and navigation in ntopng. We added a short guided tour so you know what it can do.",
+    "summary": "ntopng has had a search box for a while, but it we made it better to allow search for menu entries too! This to speed up and improve the user experience and… The post How we Redesigned Search in ntopng appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "20bf9246a89ef653",
     "lang": "en",
@@ -4114,7 +4116,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4175,8 +4177,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4765,7 +4766,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6000,7 +6001,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "If you’ve opened ntopng recently you may have noticed a new entry under the dashboards menu: AI Dashboards. Instead of picking a metric, a chart type and a time range from a form, you describe what you want to see in plain language and nAnalyst writes the query, picks the visualization and drops the widget […]",
+    "summary": "If you've opened ntopng recently you may have noticed a new entry under the dashboards menu: AI Dashboards. Instead of picking a metric, a chart type and a time range from a… The post AI Dashboards in ntopng: Build Charts by Asking appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "a0581be4cb0f9a71",
     "lang": "en",
@@ -6030,7 +6031,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -6627,14 +6628,16 @@
     "topics": [
       "network-observability"
     ],
-    "tags": [],
+    "tags": [
+      "ntopng"
+    ],
     "categories": [
       "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Every TCP connection starts with a SYN, and that first packet says a lot about the machine that sent it. The Linux, Windows, macOS and Android stacks each set different flags, choose different initial TTLs, advertise different receive windows, and, above all, lay out their TCP options in different orders. Passive TCP fingerprinting turns those […]",
+    "summary": "Every TCP connection starts with a SYN, and that first packet says a lot about the machine that sent it. The Linux, Windows, macOS and Android stacks each set different flags, choose… The post Introducing the nDPI TCP Fingerprint: A Stable, Patent-Free Way to Fingerprint TCP Stacks appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "344edd6dd9fdf8ae",
     "lang": "en",
@@ -7292,14 +7295,16 @@
     "topics": [
       "network-observability"
     ],
-    "tags": [],
+    "tags": [
+      "ntopng"
+    ],
     "categories": [
       "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "For most network operators, traffic visibility is not mandated by regulation, so it tends to be reactive rather than continuous: a “manual” investigation happens only after something breaks. Combined with limited time to review telemetry and the cost/data-sovereignty concerns of cloud-based visibility platforms, this leaves a real gap for AS operators and IXP participants […]",
+    "summary": "For most network operators, traffic visibility is not mandated by regulation, so it tends to be reactive rather than continuous: a \"manual\" investigation happens only after something breaks. Combined with limited time… The post AS/IXP Traffic Observability: From Flows to AI-Assisted Root-Cause Analysis appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "797fb8839f4af38d",
     "lang": "en",
@@ -7682,7 +7687,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "TLS client fingerprinting has become one of the workhorse techniques in network security, and JA4 (FoxIO) has been the de facto standard for identifying TLS clients from their ClientHello messages. But recent production experience at ntop surfaced two real limitations, and today we’re announcing nDPI TLS Fingerprint (TLSFP in short), an open, patent-free extension of […]",
+    "summary": "TLS client fingerprinting has become one of the workhorse techniques in network security, and JA4 (FoxIO) has been the de facto standard for identifying TLS clients from their ClientHello messages. But recent… The post Introducing nDPI TLS Fingerprint: A Stable, Collision-Resistant Successor to JA4 appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "958160eefb2057c7",
     "lang": "en",
@@ -7862,7 +7867,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In our continuous effort to improve user experience and make network monitoring more intuitive, we have completely redesigned the ntopng Navigation Bar. As our feature set expands—with crucial additions like the nAnalyst automated pipeline, specialized AI Dashboards, and high-resolution Observability analytics—the legacy menu structure needed a logical evolution to reduce deep nesting and facilitate daily […]",
+    "summary": "In our continuous effort to improve user experience and make network monitoring more intuitive, we have completely redesigned the ntopng Navigation Bar. As our feature set expands—with crucial additions like the nAnalyst… The post ntopng User Interface: Introducing the New Navigation Bar appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "d0b02679daa114aa",
     "lang": "en",
@@ -8277,7 +8282,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As network architectures evolve, staying ahead of performance issues and modern cybersecurity threats requires deep visibility and mastery of your tools. Here at ntop, our product range spans from high-speed packet capture to advanced traffic analysis. With our continuous updates and feature additions, keeping up with the ecosystem can be a challenge.",
+    "summary": "As network architectures evolve, staying ahead of performance issues and modern cybersecurity threats requires deep visibility and mastery of your tools. Here at ntop, our product range spans from high-speed packet capture… The post Elevate Your Network Visibility with ntop Professional Training November 2026 appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "472f4054e94f99b5",
     "lang": "en",
@@ -8305,7 +8310,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -8924,17 +8929,19 @@
     "author": "admin",
     "publishedAt": "2026-09-14T16:41:05+00:00",
     "fetchedAt": "2026-09-14T17:21:22+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [
       "ntopng"
     ],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Cento 2.6: ClickHouse Support, Enhanced Tunnel Visibility, PQC, and more",
+    "summary": "We are pleased to announce the release of cento 2.6, bringing a broad set of new capabilities and improvements to high-performance traffic processing and flow export. This release expands cento’s integration with… The post Cento 2.6: ClickHouse Support, Enhanced Tunnel Visibility, PQC, and more appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "48647b4d1a85533a",
     "lang": "en",
@@ -9058,7 +9065,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ntop and the EU Cyber Resilience Act",
+    "summary": "Under the EU Cyber Resilience Act (CRA), it has become compulsory for manufacturers of products sold on the EU market to report exploited vulnerabilities and severe incidents. As a result, ntop is… The post ntop and the EU Cyber Resilience Act appeared first on ntop .",
     "summarySource": "extractive",
     "clusterId": "172f63a11ee54623",
     "lang": "en",
