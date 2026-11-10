@@ -1,5 +1,35 @@
 [
   {
+    "id": "3a4897cb16eea253",
+    "title": "When Missing Telemetry Is the Signal",
+    "url": "https://opentelemetry.io/blog/2026/when-missing-telemetry-is-the-signal/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/when-missing-telemetry-is-the-signal",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-10T06:42:06+00:00",
+    "fetchedAt": "2026-11-10T14:03:14+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "An empty dashboard can mean that nothing happened. It can also mean that the system stopped reporting what happened. On a dashboard, they look the same.",
+    "summarySource": "extractive",
+    "clusterId": "3a4897cb16eea253",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
     "id": "90651a51ecee2e8f",
     "title": "Dynamic model routing: The new SD-WAN for the AI era",
     "url": "https://blogs.cisco.com/networking/dynamic-model-routing-the-new-sd-wan-for-the-ai-era/",
@@ -205,7 +235,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Your Router Trusts Its Validator. But Who's Watching the Validator?",
+    "summary": "ROV turned your validator into a forwarding policy source. The registries have strengthened their side of the RPKI, but the chain from repository to router runs on your infrastructure. When that chain breaks, it often breaks silently.",
     "summarySource": "extractive",
     "clusterId": "fe6b3d050e721656",
     "lang": "en",
@@ -489,6 +519,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "7d8e5af66c547bfc",
+    "title": "Do Registrars Use DNSSEC on Their Own Domains?",
+    "url": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
+    "canonicalUrl": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "Tobias Sattler",
+    "publishedAt": "2026-11-05T07:09:04+00:00",
+    "fetchedAt": "2026-11-10T14:03:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
+    "summarySource": "extractive",
+    "clusterId": "7d8e5af66c547bfc",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
   },
   {
     "id": "7d51b51f4d9ae2c5",
@@ -1151,7 +1209,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Extreme Networks has announced a new AI agent to manage Extreme switches and APs. Called Agent One Operator, this AI agent that can take autonomous action such as running checks for new vulnerabilities, finding APs that drop clients, running firmware compliance audits, and other jobs. Nabil Bukhari, President AI Platforms and EVP, CTO, announced Agent ONE ...",
+    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
     "summarySource": "extractive",
     "clusterId": "98489b2d7f8d27b5",
     "lang": "en",
@@ -1554,7 +1612,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
+    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -2190,7 +2248,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "research"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -2843,7 +2901,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cilium 1.20 expands Gateway API and opens eBPF datapath for Kubernetes news.lavx.hu",
+    "summary": "Cilium 1.20 expands Gateway API and opens eBPF datapath for Kubernetes - news.lavx.hu",
     "summarySource": "extractive",
     "clusterId": "627fdae9bca0196f",
     "lang": "en",
@@ -3186,34 +3244,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "9f12c45c6d4b7331",
-    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
-    "url": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Wilson Ramirez",
-    "publishedAt": "2026-10-20T04:36:37+00:00",
-    "fetchedAt": "2026-11-09T03:56:34+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
-    "summarySource": "extractive",
-    "clusterId": "9f12c45c6d4b7331",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "8a358642c108ffcf",
     "title": "Rebuilding PubHub: How AI-assisted development shipped a mandatory rewrite 3.5 months early – Part 1",
     "url": "https://blogs.cisco.com/cisco-devnet/ai-assisted-development-rebuilding-pubhub-part-1/",
@@ -3358,6 +3388,34 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
+    "id": "b528f78deb87a51d",
+    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
+    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
+    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
+    "source": {
+      "id": "ripe-labs",
+      "name": "RIPE Labs",
+      "homepage": "https://labs.ripe.net"
+    },
+    "author": "André Grüneberg",
+    "publishedAt": "2026-10-19T08:53:35+00:00",
+    "fetchedAt": "2026-11-10T14:03:14+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
+    "summarySource": "extractive",
+    "clusterId": "b528f78deb87a51d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via RIPE Labs"
+  },
+  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -3498,7 +3556,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) Splunk",
+    "summary": "Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "c46f361650e66ff8",
     "lang": "en",
@@ -3684,34 +3742,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Developer Tech News (Google News)"
-  },
-  {
-    "id": "92a92a8860035523",
-    "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
-    "url": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Samantha Douglas",
-    "publishedAt": "2026-10-15T23:20:00+00:00",
-    "fetchedAt": "2026-11-09T03:56:34+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
-    "summarySource": "extractive",
-    "clusterId": "92a92a8860035523",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "4c419dd8c4a4ebd3",
@@ -4238,40 +4268,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "We ran a survey asking users of OpenTelemetry and Prometheus how they collect, process, and store metrics. The goal was to understand, with real usage data rather than assumptions, how far the ecosystem has moved and whether the interoperability still causes friction. Key takeaways Interoperability has measurably improved since our 2024 survey : the average ease-of-use rating rose from 3.1 to 3.6, the equivalent of one in two respondents rating a whole category higher, and the share of respondents finding the two hard to use together fell from 29% to 10%.",
+    "summary": "Prometheus and OpenTelemetry interoperability in 2026: Survey results",
     "summarySource": "extractive",
     "clusterId": "6421a883222beb21",
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "f88561aaacf59e73",
-    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
-    "url": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Kijush Maharjan",
-    "publishedAt": "2026-10-11T23:07:31+00:00",
-    "fetchedAt": "2026-11-09T03:56:34+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
-    "summarySource": "extractive",
-    "clusterId": "f88561aaacf59e73",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "8782101300123bfd",
@@ -5114,34 +5116,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (canonical)"
-  },
-  {
-    "id": "e55e1cf2a42aed66",
-    "title": "PeeringDB product update: April to September 2026",
-    "url": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/07/peeringdb-product-update-april-to-september-2026",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Leo Vegoda",
-    "publishedAt": "2026-10-07T03:32:38+00:00",
-    "fetchedAt": "2026-11-09T03:56:34+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "PeeringDB product update: April to September 2026",
-    "summarySource": "extractive",
-    "clusterId": "e55e1cf2a42aed66",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "8cc790e32cb9d7e2",
@@ -6123,7 +6097,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "New features implemented on RFC-Editor.org aim to make the site more useful and engaging for RFC consumers.",
+    "summary": "New features for RFC-Editor.org",
     "summarySource": "extractive",
     "clusterId": "6f18b5af74c74b5a",
     "lang": "en",
@@ -8015,7 +7989,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "PeeringDB Update April - September 2026",
+    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
     "summarySource": "extractive",
     "clusterId": "372d8f3b55a94bd4",
     "lang": "en",
@@ -8377,34 +8351,6 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
-    "id": "fa984377e78b0ed6",
-    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
-    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Ethan Banks",
-    "publishedAt": "2026-09-21T13:00:34+00:00",
-    "fetchedAt": "2026-11-10T01:01:48+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
-    "summarySource": "extractive",
-    "clusterId": "fa984377e78b0ed6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -8636,7 +8582,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
+    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -10470,7 +10416,6 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -10482,7 +10427,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
@@ -10844,7 +10789,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Users and roles for Splunk Enterprise Security Splunk",
+    "summary": "Users and roles for Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "80022bd33cc33556",
     "lang": "en",
@@ -11267,7 +11212,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
+    "summary": "IETF 126 post-meeting survey: what we heard",
     "summarySource": "extractive",
     "clusterId": "94bfbc6b397505f8",
     "lang": "en",
@@ -12130,7 +12075,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
+    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
     "summarySource": "extractive",
     "clusterId": "ce0f99a9709db24e",
     "lang": "en",
@@ -13047,36 +12992,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via ntop Blog"
-  },
-  {
-    "id": "4703e21f07397edc",
-    "title": "What's new - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaXZHb1VDUVFUM1BMVUlSQXZWZW1Kalg4Z1llZWpxeXZLYmN0am1ZYlFCbGNoN3FOSlhuNmFFLU82b3N2VnM5OHZaeld3YVp2QzZlVjEzRHJPNkZIWE00aFdLNmZYbEc2LXRWNWluenAtM0JoRHN2bXNGRWQ2WjB5VFo4dUJIbC12SDlqZWFPdVo3V0J2WXhmVG9feU5tSXBsYlIxTVF4RlpVVXZMbk11QXFXZ0ktaUUxTnJSa3ZQUlVtVDFTU0EycDVRUmZUQlZaOThQbmthUThPSFdhUUE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaXZHb1VDUVFUM1BMVUlSQXZWZW1Kalg4Z1llZWpxeXZLYmN0am1ZYlFCbGNoN3FOSlhuNmFFLU82b3N2VnM5OHZaeld3YVp2QzZlVjEzRHJPNkZIWE00aFdLNmZYbEc2LXRWNWluenAtM0JoRHN2bXNGRWQ2WjB5VFo4dUJIbC12SDlqZWFPdVo3V0J2WXhmVG9feU5tSXBsYlIxTVF4RlpVVXZMbk11QXFXZ0ktaUUxTnJSa3ZQUlVtVDFTU0EycDVRUmZUQlZaOThQbmthUThPSFdhUUE?oc=5",
-    "source": {
-      "id": "gnews-splunk-features",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T07:00:00+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "What's new - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "4703e21f07397edc",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
   },
   {
     "id": "6ae37150f8034b95",
