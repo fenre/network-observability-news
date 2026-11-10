@@ -1,5 +1,64 @@
 [
   {
+    "id": "183646b2de0c82c3",
+    "title": "Unimus To Add Native MCP Support – AutoCon 6 Briefing",
+    "url": "https://packetpushers.net/blog/unimus-to-add-native-mcp-support-autocon-6-briefing/",
+    "canonicalUrl": "https://packetpushers.net/blog/unimus-to-add-native-mcp-support-autocon-6-briefing",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-11-10T19:03:34+00:00",
+    "fetchedAt": "2026-11-10T22:42:46+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "event"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Unimus, a network configuration management platform, is adding native MCP support in an upcoming release. I was briefed by Unimus ahead of the AutoCon 6 conference. Here’s what I learned.",
+    "summarySource": "extractive",
+    "clusterId": "183646b2de0c82c3",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
+    "id": "b891d98e72bec376",
+    "title": "Safeguard Your WAN from Quantum Threats, Part 2: The CNSA 2.0 Blueprint",
+    "url": "https://blogs.cisco.com/networking/safeguard-your-wan-from-quantum-threats-part-2-the-cnsa-2-0-blueprint/",
+    "canonicalUrl": "https://blogs.cisco.com/networking/safeguard-your-wan-from-quantum-threats-part-2-the-cnsa-2-0-blueprint",
+    "source": {
+      "id": "cisco-networking-blog",
+      "name": "Cisco Networking Blog",
+      "homepage": "https://blogs.cisco.com/networking"
+    },
+    "author": "Sumant Mali",
+    "publishedAt": "2026-11-10T16:00:19+00:00",
+    "fetchedAt": "2026-11-10T22:42:45+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The quantum threat is here. Discover how Cisco 8000 Series Secure Routers deliver the industry's first end-to-end CNSA 2.0 blueprint, securing your WAN with zero disruption to existing operations.",
+    "summarySource": "extractive",
+    "clusterId": "b891d98e72bec376",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Cisco Networking Blog"
+  },
+  {
     "id": "3a4897cb16eea253",
     "title": "When Missing Telemetry Is the Signal",
     "url": "https://opentelemetry.io/blog/2026/when-missing-telemetry-is-the-signal/",
@@ -235,7 +294,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ROV turned your validator into a forwarding policy source. The registries have strengthened their side of the RPKI, but the chain from repository to router runs on your infrastructure. When that chain breaks, it often breaks silently.",
+    "summary": "Your Router Trusts Its Validator. But Who's Watching the Validator?",
     "summarySource": "extractive",
     "clusterId": "fe6b3d050e721656",
     "lang": "en",
@@ -519,34 +578,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "7d8e5af66c547bfc",
-    "title": "Do Registrars Use DNSSEC on Their Own Domains?",
-    "url": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
-    "canonicalUrl": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Tobias Sattler",
-    "publishedAt": "2026-11-05T07:09:04+00:00",
-    "fetchedAt": "2026-11-10T14:03:14+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
-    "summarySource": "extractive",
-    "clusterId": "7d8e5af66c547bfc",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "7d51b51f4d9ae2c5",
@@ -1209,7 +1240,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
+    "summary": "Extreme Networks has announced a new AI agent to manage Extreme switches and APs. Called Agent One Operator, this AI agent that can take autonomous action such as running checks for new vulnerabilities, finding APs that drop clients, running firmware compliance audits, and other jobs. Nabil Bukhari, President AI Platforms and EVP, CTO, announced Agent ONE ...",
     "summarySource": "extractive",
     "clusterId": "98489b2d7f8d27b5",
     "lang": "en",
@@ -1612,7 +1643,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
+    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -1862,6 +1893,37 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Developer Blog"
+  },
+  {
+    "id": "cdf64dc342801b96",
+    "title": "Re: How to Enable SPL2 in Splunk Enterprise 10.2 - Splunk Community",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR3NsZGJ3REN3YTNMUEs2R1RwT2ktS010eS1lWUF5aVlJaUdZcU51bFlnM2tOaGZjV0ZhOFp0NGtpUml4c0pBbk5ta0FMR2YzZXdNMHlLd2xpdTB5RjNUNzlDTnVGbVFLR0tfSUFtUmRacWoxQzlwdzBqX3dkODViZkJsVEJrTG10SG9rdzdkUUZyTGJHS0JVeGhnMFhod2RRVkdSMmxCN2Y?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR3NsZGJ3REN3YTNMUEs2R1RwT2ktS010eS1lWUF5aVlJaUdZcU51bFlnM2tOaGZjV0ZhOFp0NGtpUml4c0pBbk5ta0FMR2YzZXdNMHlLd2xpdTB5RjNUNzlDTnVGbVFLR0tfSUFtUmRacWoxQzlwdzBqX3dkODViZkJsVEJrTG10SG9rdzdkUUZyTGJHS0JVeGhnMFhod2RRVkdSMmxCN2Y?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk Community",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-24T00:08:35+00:00",
+    "fetchedAt": "2026-11-10T22:42:45+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Re: How to Enable SPL2 in Splunk Enterprise 10.2 Splunk Community",
+    "summarySource": "extractive",
+    "clusterId": "0841e312914e95e4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk Community (Google News)"
   },
   {
     "id": "20d42f4887085c51",
@@ -2337,9 +2399,9 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release",
@@ -3388,34 +3450,6 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "b528f78deb87a51d",
-    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
-    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
-    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "André Grüneberg",
-    "publishedAt": "2026-10-19T08:53:35+00:00",
-    "fetchedAt": "2026-11-10T14:03:14+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
-    "summarySource": "extractive",
-    "clusterId": "b528f78deb87a51d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -4136,10 +4170,7 @@
     "author": "Miriam Kung",
     "publishedAt": "2026-10-12T15:00:54+00:00",
     "fetchedAt": "2026-10-13T00:00:25+00:00",
-    "topics": [
-      "cisco-data-fabric",
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4147,7 +4178,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Modern retail networks must stay secure; simplify operations; and scale for seasonal traffic, distributed stores, and new in-store technology.",
+    "summary": "Modern retail networks are secure, simple, and ready for what’s next",
     "summarySource": "extractive",
     "clusterId": "6b5c0ecf8d16aaed",
     "lang": "en",
@@ -6091,8 +6122,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "standards"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -7989,7 +8019,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summary": "PeeringDB Update April - September 2026",
     "summarySource": "extractive",
     "clusterId": "372d8f3b55a94bd4",
     "lang": "en",
@@ -8351,6 +8381,34 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
+    "id": "fa984377e78b0ed6",
+    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
+    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Ethan Banks",
+    "publishedAt": "2026-09-21T13:00:34+00:00",
+    "fetchedAt": "2026-11-10T22:42:46+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
+    "summarySource": "extractive",
+    "clusterId": "fa984377e78b0ed6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -8582,7 +8640,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
+    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -11191,35 +11249,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "94bfbc6b397505f8",
-    "title": "IETF 126 post-meeting survey: what we heard",
-    "url": "http://www.ietf.org/blog/ietf126-survey/",
-    "canonicalUrl": "https://www.ietf.org/blog/ietf126-survey",
-    "source": {
-      "id": "ietf-blog",
-      "name": "IETF Blog",
-      "homepage": "https://www.ietf.org/blog"
-    },
-    "author": "Paige Mustafa, Akanksha Gohil",
-    "publishedAt": "2026-08-27T16:00:00+00:00",
-    "fetchedAt": "2026-11-10T01:01:48+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "IETF 126 post-meeting survey: what we heard",
-    "summarySource": "extractive",
-    "clusterId": "94bfbc6b397505f8",
-    "lang": "en",
-    "license": null,
-    "attribution": "via IETF Blog"
-  },
-  {
     "id": "0574ed581c8f68b9",
     "title": "vPC and ESI-based multi-homing: The dynamic duo powering scalable, resilient data centers",
     "url": "https://blogs.cisco.com/datacenter/vpc-and-esi-based-multi-homing-the-dynamic-duo-powering-scalable-resilient-data-centers/",
@@ -11780,7 +11809,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes TechGig",
+    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes - TechGig",
     "summarySource": "extractive",
     "clusterId": "5eca68f633552458",
     "lang": "en",
@@ -12075,7 +12104,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
+    "summary": "Lightyear has announced its first foray into agentic AI. The company, which offers SaaS-based services for telecom procurement, telecom network inventory management, and expense management, is rolling out a chat-based AI called Dispatch and two operational agents. Lightyear has a lot of telecom data, including the WAN circuits and Internet connections that customers have procured ...",
     "summarySource": "extractive",
     "clusterId": "ce0f99a9709db24e",
     "lang": "en",
@@ -12550,448 +12579,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "8294678e461b7a19",
-    "title": "Zeek 9.0 Development Update",
-    "url": "https://zeek.org/2026/08/zeek-9-0-development-update/",
-    "canonicalUrl": "https://zeek.org/2026/08/zeek-9-0-development-update",
-    "source": {
-      "id": "zeek-blog",
-      "name": "Zeek Blog",
-      "homepage": "https://zeek.org"
-    },
-    "author": "Christian Kreibich",
-    "publishedAt": "2026-08-12T20:20:49+00:00",
-    "fetchedAt": "2026-08-13T01:17:56+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Zeek 9.0 Development Update",
-    "summarySource": "extractive",
-    "clusterId": "8294678e461b7a19",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Zeek Blog"
-  },
-  {
-    "id": "cfff62b99dc0ab4b",
-    "title": "Get started with the Risk Notable Playbook Pack for Splunk SOAR - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOOERKQ2tsZjFkd0VBWW43cDk5QVlhNjVreHFJZjIwMFJzaFJCeXN4cmRpcDJBNzMzeURVQU9FODZwSmJoQWRRcTEzNjJrbnpYcU96cGF3ZFJlYWdteU5oUl9Vb3ZVbFhvTGVkY2ZpV0ExYWFaUWJFaFFiLWMwQVJsX0dXZXByUm1JTjEtTlR0NWVfX0ZreFd2cXdaNzBWXzd5RUp0cWZFcDZjeEpqVFpiS3Jqellyb19WN3c3TlNoVHo4U2hxSG9KUnVZa21rcGpYYW5CakxxWS1PNDRaTjZBU0k5YktTaFJ6aDh6OXZ3bHZhQnFmbFFTcTdxRVY3VVJlTUlpYjRYVEtLRGwyTlZMekZXQjhPVkhBWmhlVnR2OEZkRDBhMkxOWDJpb3ZzNVlOQWdaM0Y4NDIxRjNhNnJsT3dUYUxQTG9nMWV6V0JOd2g5UHNZcnUwNVhTRVAxNm85SWZqOU5XblVCTEQxUnRvaUhGRWs?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOOERKQ2tsZjFkd0VBWW43cDk5QVlhNjVreHFJZjIwMFJzaFJCeXN4cmRpcDJBNzMzeURVQU9FODZwSmJoQWRRcTEzNjJrbnpYcU96cGF3ZFJlYWdteU5oUl9Vb3ZVbFhvTGVkY2ZpV0ExYWFaUWJFaFFiLWMwQVJsX0dXZXByUm1JTjEtTlR0NWVfX0ZreFd2cXdaNzBWXzd5RUp0cWZFcDZjeEpqVFpiS3Jqellyb19WN3c3TlNoVHo4U2hxSG9KUnVZa21rcGpYYW5CakxxWS1PNDRaTjZBU0k5YktTaFJ6aDh6OXZ3bHZhQnFmbFFTcTdxRVY3VVJlTUlpYjRYVEtLRGwyTlZMekZXQjhPVkhBWmhlVnR2OEZkRDBhMkxOWDJpb3ZzNVlOQWdaM0Y4NDIxRjNhNnJsT3dUYUxQTG9nMWV6V0JOd2g5UHNZcnUwNVhTRVAxNm85SWZqOU5XblVCTEQxUnRvaUhGRWs?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:17+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Get started with the Risk Notable Playbook Pack for Splunk SOAR - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "cfff62b99dc0ab4b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "e932a1acae0179c1",
-    "title": "Security content in the Use Case Library in Splunk Enterprise Security - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNUUczSWFINWRqVW9fM1MwTHFFd0lKSFpRZGo3Y0ZjU1dlT0hZa3N6WWs2dmFQaHJpTmVVNzVEcmpFSnE1cFREazNyRW5iZl9RaHA1Rnp0bFNaZVJ1Z3hheVhqNWFIVnBVRWY3Y2w3MjFJTDVuR2lOR0ozZ3RNNnF4b3IyQnlRVm1DejRRaTFOcHFObVZaWVcwQ1p6bk9MWTNmZ3FuNXNXdS1QRkdfaXFTaEJ2cFo1LThVckpnd19JOWpMLVRZdzFOVFlUX09KWW41RTNNSnBFS29vdGF4ZXRTSjdZRWxnTXgzdlhlVFgxTkFHcU90R1lheURWVXZBRTYzcFh1XzVnNlJ4YUZZcXlHaHQ1a0lPcENhRHltQmI3bHBydXNDWW9aVWNJLUJLQS1sWGdjalIzVzB6OTVJY2c?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNUUczSWFINWRqVW9fM1MwTHFFd0lKSFpRZGo3Y0ZjU1dlT0hZa3N6WWs2dmFQaHJpTmVVNzVEcmpFSnE1cFREazNyRW5iZl9RaHA1Rnp0bFNaZVJ1Z3hheVhqNWFIVnBVRWY3Y2w3MjFJTDVuR2lOR0ozZ3RNNnF4b3IyQnlRVm1DejRRaTFOcHFObVZaWVcwQ1p6bk9MWTNmZ3FuNXNXdS1QRkdfaXFTaEJ2cFo1LThVckpnd19JOWpMLVRZdzFOVFlUX09KWW41RTNNSnBFS29vdGF4ZXRTSjdZRWxnTXgzdlhlVFgxTkFHcU90R1lheURWVXZBRTYzcFh1XzVnNlJ4YUZZcXlHaHQ1a0lPcENhRHltQmI3bHBydXNDWW9aVWNJLUJLQS1sWGdjalIzVzB6OTVJY2c?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:09+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Security content in the Use Case Library in Splunk Enterprise Security - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "e932a1acae0179c1",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "5d043a2d138a4ca6",
-    "title": "Use the tagging system with the playbook pack for Splunk SOAR - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPSVhheWgyTFNFTkxmd3NubXIxNHlZZVBJdEZPZWZ0SF96S2h4eXZOMTBmT0RKRGlxRWF4bmdOSjNkT3lGZk5CZGt3TzdMMFdGNkxwSTQwV3VST09fUnVBaXdILXR3WnJLdDJEY2g2d3NVM05wbGh1aFNleTE2RWQ1UC1jaDFVWXY4TmUzaEJMQ25EOHBGZTV2UEJaQlVuTUxqRGVmY3hOWHI4el9KX1VGM1d1OGZEVTVLenBPbWF0Z2F4N0xWcGk1Q1NRM2syV3dGVVFiQ0dqVm1mUXNjN3V0bWFES1JEU2FtUFh3VFBUVGt3THIzcEZHbFpMZlJKNDVmTmpWMC05NGw2SDgwb3dNY0VkeHl2UGpHLVpsQTBKaW90ZTM2R3VSRTZRTHFzSS1adGxodm03VWVsdjFWMnVFZ3B6di1DT1hHX0dsblpZUkNYQkpmYTI3aGtLM2s2clVYVVVLUDJBX1RIN0NyUUJyWDRR?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPSVhheWgyTFNFTkxmd3NubXIxNHlZZVBJdEZPZWZ0SF96S2h4eXZOMTBmT0RKRGlxRWF4bmdOSjNkT3lGZk5CZGt3TzdMMFdGNkxwSTQwV3VST09fUnVBaXdILXR3WnJLdDJEY2g2d3NVM05wbGh1aFNleTE2RWQ1UC1jaDFVWXY4TmUzaEJMQ25EOHBGZTV2UEJaQlVuTUxqRGVmY3hOWHI4el9KX1VGM1d1OGZEVTVLenBPbWF0Z2F4N0xWcGk1Q1NRM2syV3dGVVFiQ0dqVm1mUXNjN3V0bWFES1JEU2FtUFh3VFBUVGt3THIzcEZHbFpMZlJKNDVmTmpWMC05NGw2SDgwb3dNY0VkeHl2UGpHLVpsQTBKaW90ZTM2R3VSRTZRTHFzSS1adGxodm03VWVsdjFWMnVFZ3B6di1DT1hHX0dsblpZUkNYQkpmYTI3aGtLM2s2clVYVVVLUDJBX1RIN0NyUUJyWDRR?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:07+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "splunk-soar"
-    ],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Use the tagging system with the playbook pack for Splunk SOAR - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "5d043a2d138a4ca6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "421bc83190d2e7b5",
-    "title": "What is Splunk Enterprise Security Content Update? - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQYTVza3BPYlpNVF85WEVYRzJ3RmN6azYyUHNUVUdtb0ZwMUtJV0ZZN2FQTlFGOVJUUzB3WEtMbWN6OXI3TnNaa3NNNjRxOVdCbnZMVVJXV2xoM2NPS0h2SzBmbUxkY0lyS0I2czA3cDFRVndnZjg4M2NjaUdBeFd0ZTQwU1ltcjc1Y25UQkZoUjluSXd4VGktZFFBR25QSDNndXBWWVlDeEZrLTk5U1RKV0lDWVNhNFRVMFZXeENzemtVdHd0a2VsSDdjbHRkdHhPeDV5NmlCeFZnVEpwUlVvVUNnZ1hkTHlkTlVuOE1WUkhWVnJ0ckpFNWtraHNDV3NXTEFPUDktZ1VjLWFUTjZoTmlOZ0tVYnZmeDZDTlY2ZkxNUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQYTVza3BPYlpNVF85WEVYRzJ3RmN6azYyUHNUVUdtb0ZwMUtJV0ZZN2FQTlFGOVJUUzB3WEtMbWN6OXI3TnNaa3NNNjRxOVdCbnZMVVJXV2xoM2NPS0h2SzBmbUxkY0lyS0I2czA3cDFRVndnZjg4M2NjaUdBeFd0ZTQwU1ltcjc1Y25UQkZoUjluSXd4VGktZFFBR25QSDNndXBWWVlDeEZrLTk5U1RKV0lDWVNhNFRVMFZXeENzemtVdHd0a2VsSDdjbHRkdHhPeDV5NmlCeFZnVEpwUlVvVUNnZ1hkTHlkTlVuOE1WUkhWVnJ0ckpFNWtraHNDV3NXTEFPUDktZ1VjLWFUTjZoTmlOZ0tVYnZmeDZDTlY2ZkxNUQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:07+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "What is Splunk Enterprise Security Content Update? - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "421bc83190d2e7b5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "6aade380409952ca",
-    "title": "Deprecated analytics in ESCU - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQdGc2VUNLRzc4UWxBZlcwYTdjcmNUUGI4WTJhLXEwQWMzSjY4c2RZTHh0bXFxNmNka1ZMYWFaX1Y4V01UdEE5M3pXZ2lyWF95eEhwUDA5aFVIUVczMUYxM2cxVG81bllrX0hUOWFjQjJybWVmQzdGMjRmdE1GcldJaVNxdnlOU3gta2lZZ0V2WnRzTmI1Q21NWEo2MnVsRmZWOGdmRzVDVW1iSGM0TUFFbXg1NmZjRTQ1U091YkZBbk4tVHlfMTZtS2hVY1U1M3ZJVW14VTBRdlVMdHZ0anM5S3p3Y2NSdUVsWDdoVmhTTm9taWdmYWtHUlpqZElxWENmdUVGVFRn?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQdGc2VUNLRzc4UWxBZlcwYTdjcmNUUGI4WTJhLXEwQWMzSjY4c2RZTHh0bXFxNmNka1ZMYWFaX1Y4V01UdEE5M3pXZ2lyWF95eEhwUDA5aFVIUVczMUYxM2cxVG81bllrX0hUOWFjQjJybWVmQzdGMjRmdE1GcldJaVNxdnlOU3gta2lZZ0V2WnRzTmI1Q21NWEo2MnVsRmZWOGdmRzVDVW1iSGM0TUFFbXg1NmZjRTQ1U091YkZBbk4tVHlfMTZtS2hVY1U1M3ZJVW14VTBRdlVMdHZ0anM5S3p3Y2NSdUVsWDdoVmhTTm9taWdmYWtHUlpqZElxWENmdUVGVFRn?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:06+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Deprecated analytics in ESCU - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "6aade380409952ca",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "a495da312d60a64b",
-    "title": "Configure Splunk Enterprise Security to use the Machine Learning Toolkit - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxONDg2cEZnRGNBcG0ydGFpc3RDcXZHUVlKWDlqU2g2dUZmZkNDa295RllGZVItaWZVQ3dHQzhqa0RFYUxwek8tRGhvbWdyNk5mUWV1SHpCdnA4bmt1akZuM2x5UUZmY1JwN2I1RXFsU1hSTWVfNUtJMUFmTC1NOC1KZ3FZWURNb0pqQ01kS285VmhkNkE2b0F5MkxuM3JVMlN1dE1xU0VuVWgxUV9wTnh5TTRENXJ4OUVpU1luSFY2emNUWU54dVc2RjFGQ0NvbUdzX21TUmFQYlFwNUZ4alp2eVVNR0gyRWI5eEE1STN1ZnFmbU80VkFpb2FMWVBrVjZpOUxHaFE5TG5CVWZqUmVRSGhsbkhzSGRRYjdTcnUxV3g5R2daX0dUXzBxSEtFTVJYbTl2LWxxTWJTMXB1VUJjQ3M0VFNJcWJYdW1Xb09jaWdkSmlmUkVOWmNiTGJualI0M3A5YVZ0dlY2bEl1aXJBUEJWdWwwWUt1YUhsdTdn?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxONDg2cEZnRGNBcG0ydGFpc3RDcXZHUVlKWDlqU2g2dUZmZkNDa295RllGZVItaWZVQ3dHQzhqa0RFYUxwek8tRGhvbWdyNk5mUWV1SHpCdnA4bmt1akZuM2x5UUZmY1JwN2I1RXFsU1hSTWVfNUtJMUFmTC1NOC1KZ3FZWURNb0pqQ01kS285VmhkNkE2b0F5MkxuM3JVMlN1dE1xU0VuVWgxUV9wTnh5TTRENXJ4OUVpU1luSFY2emNUWU54dVc2RjFGQ0NvbUdzX21TUmFQYlFwNUZ4alp2eVVNR0gyRWI5eEE1STN1ZnFmbU80VkFpb2FMWVBrVjZpOUxHaFE5TG5CVWZqUmVRSGhsbkhzSGRRYjdTcnUxV3g5R2daX0dUXzBxSEtFTVJYbTl2LWxxTWJTMXB1VUJjQ3M0VFNJcWJYdW1Xb09jaWdkSmlmUkVOWmNiTGJualI0M3A5YVZ0dlY2bEl1aXJBUEJWdWwwWUt1YUhsdTdn?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:05+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security",
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Configure Splunk Enterprise Security to use the Machine Learning Toolkit - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "a495da312d60a64b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "39136ca787947401",
-    "title": "Exploring security content with Splunk Enterprise Security - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQT2pwdU1Oc1p6QUlxSzVFN0RvLWR2RmZtR0hlaEJodlVpYTA2T29nSkp5SEZZalZyZ0RWeWt1cm9mMjRKd2xQTFkyRTh1YWVPMlZVMU1ZWUxPUnduWG9HVWNtZU9PVHQxUkowbmhxbkliY2ZlRW5FTm9taXBNLWhrUzBXNWFKWnhQaGlJTzF0NExzaDZ2R0pPQ0xBajhQNVhPQml3cnpiTWw2VldOZVlyZG1qODdBYkVqbWN6T1dFa0JMcHZPV2tpa1N3N3ZKRXlsQjNjSVRTc0U5Tl9YVnAySFdNMVhXcDFFekdiaFh2cTBJVy0wUGpXYnNiYmpuNEV2cHFKSFl3Mmw1TXFEQTJtalVpT3djMFhPMEJJWTlBYWZfZ2Rnd2xTOTBOSkZVUQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQT2pwdU1Oc1p6QUlxSzVFN0RvLWR2RmZtR0hlaEJodlVpYTA2T29nSkp5SEZZalZyZ0RWeWt1cm9mMjRKd2xQTFkyRTh1YWVPMlZVMU1ZWUxPUnduWG9HVWNtZU9PVHQxUkowbmhxbkliY2ZlRW5FTm9taXBNLWhrUzBXNWFKWnhQaGlJTzF0NExzaDZ2R0pPQ0xBajhQNVhPQml3cnpiTWw2VldOZVlyZG1qODdBYkVqbWN6T1dFa0JMcHZPV2tpa1N3N3ZKRXlsQjNjSVRTc0U5Tl9YVnAySFdNMVhXcDFFekdiaFh2cTBJVy0wUGpXYnNiYmpuNEV2cHFKSFl3Mmw1TXFEQTJtalVpT3djMFhPMEJJWTlBYWZfZ2Rnd2xTOTBOSkZVUQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:03+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Exploring security content with Splunk Enterprise Security - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "39136ca787947401",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "0e4aef512183d40b",
-    "title": "Status of detection analytics - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeFdxVEhPV0FMV0VjeWdoZzB6UXZBMXNaaFBzMjBqbk5zb0hURVdMNHlTeHVFYzZkMERDSGgyWlRFYlV1ZWxwdFZMZUIwOXQ5SVEtcDBuNGgwbFEzWUJvNm9MVWUxWHFlZ1N0SzZsbjhiVVpveDdtYzlsVG9Rcm44enJxYVFwNVdZWTFGUHNlYTNNZHVYMV8zRVBsczJPSWZjQ01JMzdPTGxfMjJ6MWQtLTlqamRZM2t1RE0yTDc4MmVOVy05a0NrS19JMlg3TURrak1xcVRleUFTN0RwbmNraWxXMUVnRXVlUnpEZklUR2NKdGZHSkdmZC1SZi02czNYc1J6bE5oaw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeFdxVEhPV0FMV0VjeWdoZzB6UXZBMXNaaFBzMjBqbk5zb0hURVdMNHlTeHVFYzZkMERDSGgyWlRFYlV1ZWxwdFZMZUIwOXQ5SVEtcDBuNGgwbFEzWUJvNm9MVWUxWHFlZ1N0SzZsbjhiVVpveDdtYzlsVG9Rcm44enJxYVFwNVdZWTFGUHNlYTNNZHVYMV8zRVBsczJPSWZjQ01JMzdPTGxfMjJ6MWQtLTlqamRZM2t1RE0yTDc4MmVOVy05a0NrS19JMlg3TURrak1xcVRleUFTN0RwbmNraWxXMUVnRXVlUnpEZklUR2NKdGZHSkdmZC1SZi02czNYc1J6bE5oaw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:15:00+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Status of detection analytics - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "0e4aef512183d40b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "39fb8194d9b55383",
-    "title": "Troubleshooting common errors - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMlJ3UHM0YzBZdEtfOW96Vk04aHlUUDV0Qy1Rek5lb00wLTNfZnhNZ2VMS1Nkbzh5X01KbDc2SjRsaDJEYXNWVjFzbWdvTGVTRkhNVElpQmVwel83dzZHWGtUbjZzV1h3YU4wVzR5S2tRLS0zd1ZHYV9mTkNRUy1zYm5rNVMyd1l6QWZhR01IMXY0ZWFEcU5xNmtUZXVOLTRFaHYxWkItbjV2R1pCWVM0Sjl3c2xod0hBMUx6aXN4M1NmckNYMGNwV0NlZWIza1Etdmo4WFY3RVNPU05TQ09TTkl0T1pfNDV3RUFhbGtzZ1VoMGR2c2pzeEdnX3RTWnVqSkduaFJWTQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMlJ3UHM0YzBZdEtfOW96Vk04aHlUUDV0Qy1Rek5lb00wLTNfZnhNZ2VMS1Nkbzh5X01KbDc2SjRsaDJEYXNWVjFzbWdvTGVTRkhNVElpQmVwel83dzZHWGtUbjZzV1h3YU4wVzR5S2tRLS0zd1ZHYV9mTkNRUy1zYm5rNVMyd1l6QWZhR01IMXY0ZWFEcU5xNmtUZXVOLTRFaHYxWkItbjV2R1pCWVM0Sjl3c2xod0hBMUx6aXN4M1NmckNYMGNwV0NlZWIza1Etdmo4WFY3RVNPU05TQ09TTkl0T1pfNDV3RUFhbGtzZ1VoMGR2c2pzeEdnX3RTWnVqSkduaFJWTQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:14:57+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Troubleshooting common errors - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "39fb8194d9b55383",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "9fc0ec4c56f2b3b1",
-    "title": "Implement security use cases using the Use Case Library in Splunk Enterprise Security - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNLVY3UmgwZTdDVG9EWWhCcjZSeEtsZ2FfUUV0TnlVUFIwSWpTNkdSb0Jsa0N0U044am0tclZxNVZZbnlvSS15R0RobWlrWXFQWEZvaENJZ2xrRlJsSmRUdVRmeUVOcjlOMnpEbm5vQnNIWG9jNGw5aEJ1cExsMHVDSGlHTVlLNmdTZklyZE9FRUJyR3NMREVwbHdHRE85djVCYlUwZVdzaEotb1NLTDdiZjdsZ0wwT1JteTFiWHJxaWcyUjl4SndTY2JOdS1yYy1NTEVPdTdtM1RBaTFtWC1lWUsxTVBaajNJVUFpamVZdF9STHVHX1dxd2hBWUVidkstb2lPaTg3dGhPVmhadlJERjhhR3JGOHFJcHJUVWtrZTR6T1FyVW85N2RCNlg4cGZmN2xiZk9PT2hQbHpxNGpobUQtV25OdXhXbFpsQXQ0MHZWZw?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNLVY3UmgwZTdDVG9EWWhCcjZSeEtsZ2FfUUV0TnlVUFIwSWpTNkdSb0Jsa0N0U044am0tclZxNVZZbnlvSS15R0RobWlrWXFQWEZvaENJZ2xrRlJsSmRUdVRmeUVOcjlOMnpEbm5vQnNIWG9jNGw5aEJ1cExsMHVDSGlHTVlLNmdTZklyZE9FRUJyR3NMREVwbHdHRE85djVCYlUwZVdzaEotb1NLTDdiZjdsZ0wwT1JteTFiWHJxaWcyUjl4SndTY2JOdS1yYy1NTEVPdTdtM1RBaTFtWC1lWUsxTVBaajNJVUFpamVZdF9STHVHX1dxd2hBWUVidkstb2lPaTg3dGhPVmhadlJERjhhR3JGOHFJcHJUVWtrZTR6T1FyVW85N2RCNlg4cGZmN2xiZk9PT2hQbHpxNGpobUQtV25OdXhXbFpsQXQ0MHZWZw?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:14:54+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Implement security use cases using the Use Case Library in Splunk Enterprise Security - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "9fc0ec4c56f2b3b1",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "9b81c71d4d00e96f",
-    "title": "View analytics stories on the Splunk Security Content website - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPdmhId1QxV3VwUEV1bzZjTWtITjhGanJHbEU3bVJNM2ZncmI0X3hYTE5OMXJlb2kwd0haREZMSEFZVFVzcDlPd0xPbkVHWE5ONTZTTjYyeml0Wk9GT2wzNndaQzlOTk1EcjNrSmNqZmxyUkhDdFJRTmp1b3JfQlhBZ0tPeFg5WkVBUXFjb09ZaGpMQkRXR0Z1OWN6eC1qU21iWFVJVTFGNE9MT1IzY29EeExlcXhob202aXBZYzdGXzRXX1VsSjNBNkFNeEtyMm4xWnZhMGdwUUNicFU2Nmw3Q0pzcl90QUdoek9JejN6NU56YVVMZnlkMk83LTJZbmpIR05Wa3ZWeVU0MjNtbEdqRzA5V01WR3o3YkJ5al8zdWMxU3ZWV1dHaUZMWG0zVU91M1Vnc3J4dV8wN21aU2s4ZWlYREQwWDFVcXR3OFk4UUxGcVUyUXlNSkpDY01PLWRwRm5mTnBtRVVPSkk?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPdmhId1QxV3VwUEV1bzZjTWtITjhGanJHbEU3bVJNM2ZncmI0X3hYTE5OMXJlb2kwd0haREZMSEFZVFVzcDlPd0xPbkVHWE5ONTZTTjYyeml0Wk9GT2wzNndaQzlOTk1EcjNrSmNqZmxyUkhDdFJRTmp1b3JfQlhBZ0tPeFg5WkVBUXFjb09ZaGpMQkRXR0Z1OWN6eC1qU21iWFVJVTFGNE9MT1IzY29EeExlcXhob202aXBZYzdGXzRXX1VsSjNBNkFNeEtyMm4xWnZhMGdwUUNicFU2Nmw3Q0pzcl90QUdoek9JejN6NU56YVVMZnlkMk83LTJZbmpIR05Wa3ZWeVU0MjNtbEdqRzA5V01WR3o3YkJ5al8zdWMxU3ZWV1dHaUZMWG0zVU91M1Vnc3J4dV8wN21aU2s4ZWlYREQwWDFVcXR3OFk4UUxGcVUyUXlNSkpDY01PLWRwRm5mTnBtRVVPSkk?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:14:18+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "View analytics stories on the Splunk Security Content website - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "9b81c71d4d00e96f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "d75ce1798de297e7",
-    "title": "Install the Splunk Enterprise Security Content Update Subscription Service - Splunk Help",
-    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNUUhJQ0toWU0tNVhaLVJLVWlaV3I4cWVvT3FKekZMNDdYM2RHN0pLTG0zQlc4NVlpWTFtd2lGM0VxYkdIc0NwMFlwLUpmTTB5aHp0WGhrZ3FYTC1OclExVVhRaTRLb3BDNUlpRjRBeC1mY1NnZEhUS2xlak55OThRNE15Z0pjWTdhOFdGekFfREttLW5DTXNWUWdMSGFtUElWWU1sZTZYMXVTY0VKWHYtb1RoSUsyTXdlZDMtUWNqU3ZPS2dHSWROQm9TQVhnTzRPNWdqRXF0ajBMVHZiaF9OUGY4dFZCVkpYYnp4ZGRkNUdUTWxvWDhRUDVxODRXSGxjZVBLTVpjSzFhUjlfYUNfYmVIRTRaWmswUFE?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNUUhJQ0toWU0tNVhaLVJLVWlaV3I4cWVvT3FKekZMNDdYM2RHN0pLTG0zQlc4NVlpWTFtd2lGM0VxYkdIc0NwMFlwLUpmTTB5aHp0WGhrZ3FYTC1OclExVVhRaTRLb3BDNUlpRjRBeC1mY1NnZEhUS2xlak55OThRNE15Z0pjWTdhOFdGekFfREttLW5DTXNWUWdMSGFtUElWWU1sZTZYMXVTY0VKWHYtb1RoSUsyTXdlZDMtUWNqU3ZPS2dHSWROQm9TQVhnTzRPNWdqRXF0ajBMVHZiaF9OUGY4dFZCVkpYYnp4ZGRkNUdUTWxvWDhRUDVxODRXSGxjZVBLTVpjSzFhUjlfYUNfYmVIRTRaWmswUFE?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk Help",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-12T16:13:12+00:00",
-    "fetchedAt": "2026-08-15T18:17:49+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Install the Splunk Enterprise Security Content Update Subscription Service - Splunk Help",
-    "summarySource": "extractive",
-    "clusterId": "d75ce1798de297e7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk Help (Google News)"
-  },
-  {
-    "id": "e4b0f1cd74352488",
-    "title": "HowTo Collect Flows: the Case of Palo Alto and Fortinet",
-    "url": "https://www.ntop.org/howto-collect-flows-the-case-of-palo-alto-and-fortigate/",
-    "canonicalUrl": "https://www.ntop.org/howto-collect-flows-the-case-of-palo-alto-and-fortigate",
-    "source": {
-      "id": "ntop-blog",
-      "name": "ntop Blog",
-      "homepage": "https://www.ntop.org/blog"
-    },
-    "author": "admin",
-    "publishedAt": "2026-08-12T15:21:28+00:00",
-    "fetchedAt": "2026-08-12T18:52:40+00:00",
-    "topics": [],
-    "tags": [
-      "netflow",
-      "ntopng"
-    ],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "HowTo Collect Flows: the Case of Palo Alto and Fortinet",
-    "summarySource": "extractive",
-    "clusterId": "e4b0f1cd74352488",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ntop Blog"
   },
   {
     "id": "6ae37150f8034b95",
