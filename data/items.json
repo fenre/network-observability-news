@@ -1,5 +1,37 @@
 [
   {
+    "id": "7c6278cb6b319177",
+    "title": "Deprecating the Collector Batch Processor",
+    "url": "https://opentelemetry.io/blog/2026/collector-batching-migration/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/collector-batching-migration",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-11T09:57:51+00:00",
+    "fetchedAt": "2026-11-11T13:20:17+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Batching in the OpenTelemetry Collector is a process that ensures requests are the right size for the exporter, large enough to improve compression and amortize round-trip latency, but not so large as to exceed limits. Batching combines a number of concerns that are critical to performance, reliability, and cost in running Collectors. Since OpenTelemetry began in 2019, its Collector has included a batch processor component, responsible for combining and splitting requests before sending them to downstream consumers, monitoring inbound and outbound timeouts, and holding back new requests…",
+    "summarySource": "extractive",
+    "clusterId": "7c6278cb6b319177",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
     "id": "1fc5153cb72fcb97",
     "title": "SIDN publishes RSSAC002 traffic metrics for .nl",
     "url": "https://blog.apnic.net/2026/11/11/sidn-publishes-rssac002-traffic-metrics-for-nl/",
@@ -20,7 +52,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
+    "summary": "SIDN publishes RSSAC002 traffic metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -43,7 +75,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "event"
+      "news"
     ],
     "audiences": [
       "global"
@@ -506,9 +538,7 @@
     "author": "Xavier Marjou",
     "publishedAt": "2026-11-06T00:04:21+00:00",
     "fetchedAt": "2026-11-06T04:32:12+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "news"
@@ -516,7 +546,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Packet captures are the ground truth of network operations, but analysing them is slow, requires specialist expertise, and does not scale. PCAP-LM rewrites captures into a form that AI assistants can read, helping address that mismatch.",
+    "summary": "PCAP-LM: Helping AI assistants read network traffic",
     "summarySource": "extractive",
     "clusterId": "3f9f09ab48b1c565",
     "lang": "en",
@@ -1202,40 +1232,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "98489b2d7f8d27b5",
-    "title": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "url": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator/",
-    "canonicalUrl": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-10-28T21:25:29+00:00",
-    "fetchedAt": "2026-11-10T01:01:48+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "summarySource": "extractive",
-    "clusterId": "98489b2d7f8d27b5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "ace478dd944f3d31",
@@ -1467,8 +1469,7 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric",
-      "network-observability"
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1477,7 +1478,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
+    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -1715,7 +1716,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
+    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -3285,7 +3286,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
     "summarySource": "extractive",
     "clusterId": "9f12c45c6d4b7331",
     "lang": "en",
@@ -3547,7 +3548,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
+    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -3785,7 +3786,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
     "summarySource": "extractive",
     "clusterId": "92a92a8860035523",
     "lang": "en",
@@ -4337,7 +4338,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
     "summarySource": "extractive",
     "clusterId": "f88561aaacf59e73",
     "lang": "en",
@@ -4665,7 +4666,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -4726,8 +4727,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5122,8 +5122,7 @@
     "publishedAt": "2026-10-07T07:00:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -5132,7 +5131,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "22 Splunk Enterprise Flaws Now Fixed with Updates The Cyber Express",
+    "summary": "22 Splunk Enterprise Flaws Now Fixed with Updates - The Cyber Express",
     "summarySource": "extractive",
     "clusterId": "1a80c1b67f5c3ce6",
     "lang": "en",
@@ -5194,7 +5193,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: PeeringDB has expanded Advanced Search with API query generation and interactive facility maps, making it easier to move between manual research and automation. The latest update also introduces data quality improvements, operational enhancements, and plans for a new API architecture designed to support more efficient queries.",
+    "summary": "PeeringDB product update: April to September 2026",
     "summarySource": "extractive",
     "clusterId": "e55e1cf2a42aed66",
     "lang": "en",
@@ -5344,7 +5343,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -5434,7 +5433,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security",
       "tutorial"
     ],
     "audiences": [
@@ -7417,7 +7415,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -7915,7 +7913,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "OpenTelemetry has a lot of pieces: APIs, SDKs, a protocol, semantic conventions, instrumentation, and tools like the Collector. The APIs and protocol define how telemetry is created and exchanged, while instrumentation is what actually observes what happens inside an application and turns it into telemetry. Semantic conventions give the people writing that instrumentation a shared way to describe what they’re observing.",
+    "summary": "Exploring the OpenTelemetry Instrumentation Ecosystem",
     "summarySource": "extractive",
     "clusterId": "ab9b4c651cddf2eb",
     "lang": "en",
@@ -8704,7 +8702,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -8889,7 +8887,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -11274,7 +11272,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How Streaming Telemetry Improves Modern Network Monitoring HackerNoon",
+    "summary": "How Streaming Telemetry Improves Modern Network Monitoring - HackerNoon",
     "summarySource": "extractive",
     "clusterId": "3c360aa197f97dec",
     "lang": "en",
@@ -12059,34 +12057,6 @@
     "attribution": "via DevOps.com (Google News)"
   },
   {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-11-10T01:01:48+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "4d6a95e88ad53392",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
@@ -12465,95 +12435,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
-  },
-  {
-    "id": "a2a6ecc30bd59124",
-    "title": "Certificate Transparency Monitoring is now generally available",
-    "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-    "canonicalUrl": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Pravallika Nakarikanti",
-    "publishedAt": "2026-08-13T13:00:00+00:00",
-    "fetchedAt": "2026-08-13T18:53:21+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Certificate Transparency Monitoring is now generally available",
-    "summarySource": "extractive",
-    "clusterId": "a2a6ecc30bd59124",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "845694518027ab73",
-    "title": "From AI Assistance to Agentic Action: Advancing the SOC in Splunk Enterprise Security 8.6 - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPajNlQzJtUEtQb2RSN2xmWUNSaHR4LW9RVGxPSUVYdXh3LUwzVzZvLUtGTjI2Zkk3bmZPQXJBc2szTEl0NDRDaUkybW11LU12bm5jckE4OUtpNU1MZGliR3lNcmZWcXI3aVZYTFk3UjhCdEN6amxhRWpvNWxPNlVTSWFMeHI1SXRjaW5DcHVja0JsRGlpZmZqYXh1bF9fRGluUFE2aHF3ZGprY3RZSFI2YzNIWXo?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPajNlQzJtUEtQb2RSN2xmWUNSaHR4LW9RVGxPSUVYdXh3LUwzVzZvLUtGTjI2Zkk3bmZPQXJBc2szTEl0NDRDaUkybW11LU12bm5jckE4OUtpNU1MZGliR3lNcmZWcXI3aVZYTFk3UjhCdEN6amxhRWpvNWxPNlVTSWFMeHI1SXRjaW5DcHVja0JsRGlpZmZqYXh1bF9fRGluUFE2aHF3ZGprY3RZSFI2YzNIWXo?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-13T07:00:00+00:00",
-    "fetchedAt": "2026-08-14T12:48:09+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "From AI Assistance to Agentic Action: Advancing the SOC in Splunk Enterprise Security 8.6 - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "845694518027ab73",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "d3eb6bc3b1f882e6",
-    "title": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
-    "url": "https://blog.apnic.net/2026/08/13/apnic-62-keynotes-explore-automation-trust-and-the-future-of-the-internet/",
-    "canonicalUrl": "https://blog.apnic.net/2026/08/13/apnic-62-keynotes-explore-automation-trust-and-the-future-of-the-internet",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Dan Fidler",
-    "publishedAt": "2026-08-13T05:57:46+00:00",
-    "fetchedAt": "2026-08-13T07:15:50+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "APNIC 62 keynotes explore automation, trust, and the future of the Internet",
-    "summarySource": "extractive",
-    "clusterId": "d3eb6bc3b1f882e6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "6ae37150f8034b95",
@@ -12964,13 +12845,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
