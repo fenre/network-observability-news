@@ -1,5 +1,37 @@
 [
   {
+    "id": "2494e3d98661b222",
+    "title": "Building an Agent Harness for OTel Instrumentation with GenAI Semantic Conventions and Weaver",
+    "url": "https://opentelemetry.io/blog/2026/agent-harness-genai-instrumentation/",
+    "canonicalUrl": "https://opentelemetry.io/blog/2026/agent-harness-genai-instrumentation",
+    "source": {
+      "id": "opentelemetry-blog",
+      "name": "OpenTelemetry Blog",
+      "homepage": "https://opentelemetry.io/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-12T13:55:25+00:00",
+    "fetchedAt": "2026-11-12T14:24:26+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [
+      "opentelemetry"
+    ],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Instrumenting a GenAI framework means finding suitable extension points, mapping its operations to OpenTelemetry semantic conventions, testing the result, and maintaining it as the framework changes. Doing that for each new framework takes substantial engineering time. We have been testing whether a team of agents can do much of that work.",
+    "summarySource": "extractive",
+    "clusterId": "2494e3d98661b222",
+    "lang": "en",
+    "license": null,
+    "attribution": "via OpenTelemetry Blog"
+  },
+  {
     "id": "431356064996f747",
     "title": "OTel Unplugged EU at FOSDEM 2027",
     "url": "https://opentelemetry.io/blog/2026/otel-unplugged-fosdem-2027/",
@@ -30,35 +62,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "8b35539ca193ffe6",
-    "title": "What’s up with email at IETF 127",
-    "url": "http://www.ietf.org/blog/ietf127-email/",
-    "canonicalUrl": "https://www.ietf.org/blog/ietf127-email",
-    "source": {
-      "id": "ietf-blog",
-      "name": "IETF Blog",
-      "homepage": "https://www.ietf.org/blog"
-    },
-    "author": "John Levine",
-    "publishedAt": "2026-11-11T15:35:00+00:00",
-    "fetchedAt": "2026-11-11T23:54:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "What’s up with email at IETF 127",
-    "summarySource": "extractive",
-    "clusterId": "8b35539ca193ffe6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via IETF Blog"
   },
   {
     "id": "ff2baa5783a3aa29",
@@ -174,7 +177,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN publishes RSSAC002 traffic metrics for .nl",
+    "summary": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -684,7 +687,9 @@
     "author": "Xavier Marjou",
     "publishedAt": "2026-11-06T00:04:21+00:00",
     "fetchedAt": "2026-11-06T04:32:12+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "news"
@@ -692,7 +697,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "PCAP-LM: Helping AI assistants read network traffic",
+    "summary": "Guest Post: Packet captures are the ground truth of network operations, but analysing them is slow, requires specialist expertise, and does not scale. PCAP-LM rewrites captures into a form that AI assistants can read, helping address that mismatch.",
     "summarySource": "extractive",
     "clusterId": "3f9f09ab48b1c565",
     "lang": "en",
@@ -1392,7 +1397,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
+    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
@@ -1636,7 +1641,8 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric"
+      "cisco-data-fabric",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -1645,7 +1651,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
+    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -1883,7 +1889,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
+    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -3471,7 +3477,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
+    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
     "summarySource": "extractive",
     "clusterId": "9f12c45c6d4b7331",
     "lang": "en",
@@ -3733,7 +3739,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
+    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -3971,7 +3977,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
+    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
     "summarySource": "extractive",
     "clusterId": "92a92a8860035523",
     "lang": "en",
@@ -4526,7 +4532,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
+    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
     "summarySource": "extractive",
     "clusterId": "f88561aaacf59e73",
     "lang": "en",
@@ -5492,7 +5498,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2.32.0 release of the OpenTelemetry Java agent is now out and serves as the release candidate for 3.0 , which is targeted for October 2026 . Some behavior may still change before 3.0, but you can preview the new behavior now, before it becomes the default. 3.0 changes telemetry, configuration, and instrumentation defaults.",
+    "summary": "The OpenTelemetry Java agent 3.0 is almost here — preview it today",
     "summarySource": "extractive",
     "clusterId": "1ddef97a41464e9b",
     "lang": "en",
@@ -5607,7 +5613,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security",
       "tutorial"
     ],
     "audiences": [
@@ -6344,8 +6349,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release",
-      "standards"
+      "product-release"
     ],
     "audiences": [
       "global"
@@ -7593,7 +7597,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -8218,34 +8222,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "372d8f3b55a94bd4",
-    "title": "PeeringDB Update April - September 2026",
-    "url": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026/",
-    "canonicalUrl": "https://labs.ripe.net/author/leo_vegoda_2/peeringdb-update-april-september-2026",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Leo Vegoda",
-    "publishedAt": "2026-09-23T13:13:32+00:00",
-    "fetchedAt": "2026-11-11T23:54:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "PeeringDB Update April - September 2026",
-    "summarySource": "extractive",
-    "clusterId": "372d8f3b55a94bd4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "9403c3137b65a504",
@@ -8912,7 +8888,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -10238,6 +10214,36 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "8304819752ed827f",
+    "title": "System requirements for use of Splunk Enterprise on-premises - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSTJUdnFmMEQ5SG14RWl2ZURSb2ZUMzZqNlBJcWZJWmtiaDhhb2Eya0VONWF4eEhZRmlWZnZpNjVGNFA2cVowcUF6NGx5d1J1RGpHRG5zQnFfWnZFY0ZYdVVqbWlvWFVxVXB0a0ttNHBub0JnZk9NcU0za2VPQzNUOXNVdw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSTJUdnFmMEQ5SG14RWl2ZURSb2ZUMzZqNlBJcWZJWmtiaDhhb2Eya0VONWF4eEhZRmlWZnZpNjVGNFA2cVowcUF6NGx5d1J1RGpHRG5zQnFfWnZFY0ZYdVVqbWlvWFVxVXB0a0ttNHBub0JnZk9NcU0za2VPQzNUOXNVdw?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-09-09T07:00:00+00:00",
+    "fetchedAt": "2026-11-12T14:24:26+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "System requirements for use of Splunk Enterprise on-premises Splunk",
+    "summarySource": "extractive",
+    "clusterId": "5311cc3039660a63",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "5311cc3039660a63",
     "title": "System requirements for use of Splunk Enterprise on-premises - Splunk",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qYkJlTnpTblM1dUJHMi1wLUtRNGJKbnZvbUd2V25HQzJjR2tDNllZUlZWNzJLcUZxX1NGRW9mSmUtenFBelRWWHp4MTZaMHl1ZUZfWG5iMUplRmFsRHZfdzY3SGxvckxMVkZnZXN5SVFfOW1wUWIycEFwYTRtd0E?oc=5",
@@ -11433,35 +11439,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "94bfbc6b397505f8",
-    "title": "IETF 126 post-meeting survey: what we heard",
-    "url": "http://www.ietf.org/blog/ietf126-survey/",
-    "canonicalUrl": "https://www.ietf.org/blog/ietf126-survey",
-    "source": {
-      "id": "ietf-blog",
-      "name": "IETF Blog",
-      "homepage": "https://www.ietf.org/blog"
-    },
-    "author": "Paige Mustafa, Akanksha Gohil",
-    "publishedAt": "2026-08-27T16:00:00+00:00",
-    "fetchedAt": "2026-11-11T23:54:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "IETF 126 post-meeting survey: what we heard",
-    "summarySource": "extractive",
-    "clusterId": "94bfbc6b397505f8",
-    "lang": "en",
-    "license": null,
-    "attribution": "via IETF Blog"
-  },
-  {
     "id": "0574ed581c8f68b9",
     "title": "vPC and ESI-based multi-homing: The dynamic duo powering scalable, resilient data centers",
     "url": "https://blogs.cisco.com/datacenter/vpc-and-esi-based-multi-homing-the-dynamic-duo-powering-scalable-resilient-data-centers/",
@@ -12022,7 +11999,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes - TechGig",
+    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes TechGig",
     "summarySource": "extractive",
     "clusterId": "5eca68f633552458",
     "lang": "en",
@@ -12561,94 +12538,6 @@
     "attribution": "via Splunk Help (Google News)"
   },
   {
-    "id": "40ab38cda73a3486",
-    "title": "How Cloudflare detects MCP traffic and helps secure it",
-    "url": "https://blog.cloudflare.com/mcp-security-updates/",
-    "canonicalUrl": "https://blog.cloudflare.com/mcp-security-updates",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Kenny Johnson",
-    "publishedAt": "2026-08-14T13:12:12+00:00",
-    "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "How Cloudflare detects MCP traffic and helps secure it",
-    "summarySource": "extractive",
-    "clusterId": "40ab38cda73a3486",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "eb461e7901300404",
-    "title": "Secure all your internal vibe-coded applications — in one click",
-    "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-    "canonicalUrl": "https://blog.cloudflare.com/workers-protected-by-access",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Matt Provost",
-    "publishedAt": "2026-08-14T13:00:00+00:00",
-    "fetchedAt": "2026-08-14T18:43:03+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Secure all your internal vibe-coded applications — in one click",
-    "summarySource": "extractive",
-    "clusterId": "eb461e7901300404",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "9abba2edd640dac4",
-    "title": "What can you do with OpenTelemetry entity events?",
-    "url": "https://opentelemetry.io/blog/2026/consuming-opentelemetry-entity-events/",
-    "canonicalUrl": "https://opentelemetry.io/blog/2026/consuming-opentelemetry-entity-events",
-    "source": {
-      "id": "opentelemetry-blog",
-      "name": "OpenTelemetry Blog",
-      "homepage": "https://opentelemetry.io/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-08-14T07:10:08+00:00",
-    "fetchedAt": "2026-08-14T12:48:09+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "opentelemetry"
-    ],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "What can you do with OpenTelemetry entity events?",
-    "summarySource": "extractive",
-    "clusterId": "9abba2edd640dac4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via OpenTelemetry Blog"
-  },
-  {
     "id": "6ae37150f8034b95",
     "title": "What's New in Splunk Enterprise Security (ES) 8.6 - Splunk Community",
     "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
@@ -13057,12 +12946,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
