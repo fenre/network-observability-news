@@ -53,7 +53,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Email is the oldest widely used application on the Internet, but it continues to evolve. At IETF 127 four working groups will meet to improve the security and usability of mail, and two Birds-of-a-Feather sessions propose improvements in mail operations and the way users sign up for mail subscriptions.",
+    "summary": "What’s up with email at IETF 127",
     "summarySource": "extractive",
     "clusterId": "8b35539ca193ffe6",
     "lang": "en",
@@ -174,7 +174,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
+    "summary": "SIDN publishes RSSAC002 traffic metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -476,7 +476,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ROV turned your validator into a forwarding policy source. The registries have strengthened their side of the RPKI, but the chain from repository to router runs on your infrastructure. When that chain breaks, it often breaks silently.",
+    "summary": "Your Router Trusts Its Validator. But Who's Watching the Validator?",
     "summarySource": "extractive",
     "clusterId": "fe6b3d050e721656",
     "lang": "en",
@@ -684,9 +684,7 @@
     "author": "Xavier Marjou",
     "publishedAt": "2026-11-06T00:04:21+00:00",
     "fetchedAt": "2026-11-06T04:32:12+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "news"
@@ -694,7 +692,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Packet captures are the ground truth of network operations, but analysing them is slow, requires specialist expertise, and does not scale. PCAP-LM rewrites captures into a form that AI assistants can read, helping address that mismatch.",
+    "summary": "PCAP-LM: Helping AI assistants read network traffic",
     "summarySource": "extractive",
     "clusterId": "3f9f09ab48b1c565",
     "lang": "en",
@@ -762,34 +760,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "7d8e5af66c547bfc",
-    "title": "Do Registrars Use DNSSEC on Their Own Domains?",
-    "url": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
-    "canonicalUrl": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Tobias Sattler",
-    "publishedAt": "2026-11-05T07:09:04+00:00",
-    "fetchedAt": "2026-11-11T23:54:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
-    "summarySource": "extractive",
-    "clusterId": "7d8e5af66c547bfc",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "7d51b51f4d9ae2c5",
@@ -989,9 +959,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-11-02T23:09:12+00:00",
     "fetchedAt": "2026-11-03T00:15:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -999,7 +967,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the security cameras on one network weren’t syncing properly, the ntp logs were where one practitioner went looking. It’s the only time they’ve opened those logs, and they didn’t find much that helped, though they’re sure something useful must be in there. Another practitioner skips the ntp logs entirely, while admitting there’s probably some […]",
+    "summary": "Zeek Data Beyond Threat Detection",
     "summarySource": "extractive",
     "clusterId": "3a7b5e90d08a0204",
     "lang": "en",
@@ -1424,7 +1392,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
@@ -1668,8 +1636,7 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric",
-      "network-observability"
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1678,7 +1645,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
+    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -1828,7 +1795,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
+    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -1916,7 +1883,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
+    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -2369,9 +2336,7 @@
     "author": "Tim Wojtulewicz",
     "publishedAt": "2026-10-22T19:09:22+00:00",
     "fetchedAt": "2026-10-22T21:03:04+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2379,7 +2344,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In the brave new world of LLMs, open-source projects are facing a much larger in-flux of security findings. Zeek is no different, and while we have always prided ourselves on the amount of automated scanning we already do to find issues, we have had a large amount of new findings. We have been fortunate enough […]",
+    "summary": "Updates to the Zeek Security Patch Process",
     "summarySource": "extractive",
     "clusterId": "d55280cd8e1ce1bd",
     "lang": "en",
@@ -3506,7 +3471,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
     "summarySource": "extractive",
     "clusterId": "9f12c45c6d4b7331",
     "lang": "en",
@@ -3658,34 +3623,6 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "b528f78deb87a51d",
-    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
-    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
-    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "André Grüneberg",
-    "publishedAt": "2026-10-19T08:53:35+00:00",
-    "fetchedAt": "2026-11-11T23:54:40+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
-    "summarySource": "extractive",
-    "clusterId": "b528f78deb87a51d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -3796,7 +3733,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
+    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -4034,7 +3971,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
     "summarySource": "extractive",
     "clusterId": "92a92a8860035523",
     "lang": "en",
@@ -4288,9 +4225,7 @@
     "author": "Sujala Vasanthasena",
     "publishedAt": "2026-10-13T18:43:11+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -4298,7 +4233,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When I first started learning Zeek, I mainly thought of it as a network security monitoring framework: inspect traffic, extract useful information, generate logs, and detect suspicious activity. But while experimenting with Zeek scripting, I became interested in a different question: Can Zeek’s scripting and logging capabilities be used to monitor IoT-style telemetry, even when […]",
+    "summary": "Building a Biological Incubator Environmental Monitoring System with Zeek",
     "summarySource": "extractive",
     "clusterId": "be4755144ad0b608",
     "lang": "en",
@@ -4591,7 +4526,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
     "summarySource": "extractive",
     "clusterId": "f88561aaacf59e73",
     "lang": "en",
@@ -5669,9 +5604,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-10-05T21:53:58+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "security",
@@ -5680,7 +5613,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One team won’t start building an alert until someone has written down what it is, why it matters to the organization, what to do when it fires and how to confirm it’s resolved. Another curates and tests its Zeek alerts first, decides whether each one goes to the SIEM or triggers an automated block, and […]",
+    "summary": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
     "summarySource": "extractive",
     "clusterId": "9204a71a032e97f4",
     "lang": "en",
@@ -6417,7 +6350,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "New features implemented on RFC-Editor.org aim to make the site more useful and engaging for RFC consumers.",
+    "summary": "New features for RFC-Editor.org",
     "summarySource": "extractive",
     "clusterId": "6f18b5af74c74b5a",
     "lang": "en",
@@ -7657,9 +7590,7 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-09-28T17:29:59+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "security"
@@ -7667,7 +7598,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek’s JSON logs can get large quickly, especially if you’re ingesting them into a SIEM that charges by data volume. There are two ways to address this: filtering out uninteresting log lines, and renaming fields to reduce per-event size. Both take only a few lines of code.",
+    "summary": "Reducing Zeek JSON Log Size: Field Name Mapping and Log Filtering Hooks",
     "summarySource": "extractive",
     "clusterId": "86c494a4337d6326",
     "lang": "en",
@@ -8309,7 +8240,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The last six months has seen important improvements to PeeringDB. We've added in page maps for searches of interconnection facilities and improved the data quality for AS-SET names.",
+    "summary": "PeeringDB Update April - September 2026",
     "summarySource": "extractive",
     "clusterId": "372d8f3b55a94bd4",
     "lang": "en",
@@ -8864,9 +8795,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -8874,7 +8803,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
+    "summary": "Zeek Workshop Berkeley 2026 Recap",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -8980,9 +8909,7 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -8990,7 +8917,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
+    "summary": "Introducing Zeek 9",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -10705,9 +10632,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -10715,7 +10640,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
+    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
@@ -10798,17 +10723,15 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
+    "summary": "How Attackers Learn Your Network Before They Attack It",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -11382,9 +11305,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -11392,7 +11313,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
+    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -11533,7 +11454,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The IETF 126 Vienna meeting was held 18-24 July 2026 and the results of the post-meeting survey are now available.",
+    "summary": "IETF 126 post-meeting survey: what we heard",
     "summarySource": "extractive",
     "clusterId": "94bfbc6b397505f8",
     "lang": "en",
@@ -12101,7 +12022,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes TechGig",
+    "summary": "eBPF Powers Transparent Control, Security for AI Agents in Kubernetes - TechGig",
     "summarySource": "extractive",
     "clusterId": "5eca68f633552458",
     "lang": "en",
