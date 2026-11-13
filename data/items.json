@@ -10,7 +10,7 @@
       "homepage": "https://news.google.com/search?q=ThousandEyes"
     },
     "author": null,
-    "publishedAt": "2026-11-13T02:15:09+00:00",
+    "publishedAt": "2026-11-13T04:44:14+00:00",
     "fetchedAt": "2026-11-12T23:02:20+00:00",
     "topics": [
       "cisco-data-fabric",
@@ -210,7 +210,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
+    "summary": "SIDN publishes RSSAC002 traffic metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -233,7 +233,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "event"
+      "news"
     ],
     "audiences": [
       "global"
@@ -720,9 +720,7 @@
     "author": "Xavier Marjou",
     "publishedAt": "2026-11-06T00:04:21+00:00",
     "fetchedAt": "2026-11-06T04:32:12+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "news"
@@ -730,7 +728,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Packet captures are the ground truth of network operations, but analysing them is slow, requires specialist expertise, and does not scale. PCAP-LM rewrites captures into a form that AI assistants can read, helping address that mismatch.",
+    "summary": "PCAP-LM: Helping AI assistants read network traffic",
     "summarySource": "extractive",
     "clusterId": "3f9f09ab48b1c565",
     "lang": "en",
@@ -1430,40 +1428,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "98489b2d7f8d27b5",
-    "title": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "url": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator/",
-    "canonicalUrl": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-10-28T21:25:29+00:00",
-    "fetchedAt": "2026-11-12T23:02:20+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "summarySource": "extractive",
-    "clusterId": "98489b2d7f8d27b5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "ace478dd944f3d31",
@@ -1702,8 +1672,7 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric",
-      "network-observability"
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -1712,7 +1681,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
+    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -1950,7 +1919,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
+    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -2137,7 +2106,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Re: How to Enable SPL2 in Splunk Enterprise 10.2 Splunk Community",
+    "summary": "Re: How to Enable SPL2 in Splunk Enterprise 10.2 - Splunk Community",
     "summarySource": "extractive",
     "clusterId": "0841e312914e95e4",
     "lang": "en",
@@ -2613,9 +2582,9 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
       "product-release",
@@ -3538,7 +3507,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
     "summarySource": "extractive",
     "clusterId": "9f12c45c6d4b7331",
     "lang": "en",
@@ -3800,7 +3769,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
+    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -4038,7 +4007,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
     "summarySource": "extractive",
     "clusterId": "92a92a8860035523",
     "lang": "en",
@@ -4593,7 +4562,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summary": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
     "summarySource": "extractive",
     "clusterId": "f88561aaacf59e73",
     "lang": "en",
@@ -5174,8 +5143,7 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -5184,7 +5152,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution CyberSecurityNews",
+    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "a0a53e15519d15f8",
     "lang": "en",
@@ -5675,7 +5643,6 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security",
       "tutorial"
     ],
     "audiences": [
@@ -7085,7 +7052,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SPL2 release notes - Splunk",
+    "summary": "SPL2 release notes Splunk",
     "summarySource": "extractive",
     "clusterId": "31c1af491332501a",
     "lang": "en",
@@ -7660,7 +7627,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -8951,7 +8918,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -12393,34 +12360,6 @@
     "attribution": "via DevOps.com (Google News)"
   },
   {
-    "id": "ce0f99a9709db24e",
-    "title": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "url": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management/",
-    "canonicalUrl": "https://packetpushers.net/blog/lightyear-debuts-ai-tools-to-accelerate-telecom-procurement-and-management",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-08-18T15:48:26+00:00",
-    "fetchedAt": "2026-11-12T23:02:20+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Lightyear Debuts AI Tools to Accelerate Telecom Procurement and Management",
-    "summarySource": "extractive",
-    "clusterId": "ce0f99a9709db24e",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "4d6a95e88ad53392",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
@@ -13005,13 +12944,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
