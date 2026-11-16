@@ -357,7 +357,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN publishes RSSAC002 traffic metrics for .nl",
+    "summary": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -843,7 +843,9 @@
     "author": "Xavier Marjou",
     "publishedAt": "2026-11-06T00:04:21+00:00",
     "fetchedAt": "2026-11-06T04:32:12+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "news"
@@ -851,7 +853,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "PCAP-LM: Helping AI assistants read network traffic",
+    "summary": "Guest Post: Packet captures are the ground truth of network operations, but analysing them is slow, requires specialist expertise, and does not scale. PCAP-LM rewrites captures into a form that AI assistants can read, helping address that mismatch.",
     "summarySource": "extractive",
     "clusterId": "3f9f09ab48b1c565",
     "lang": "en",
@@ -1537,7 +1539,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
+    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
@@ -1775,7 +1777,8 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric"
+      "cisco-data-fabric",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -1784,7 +1787,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
+    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -2022,7 +2025,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
+    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -3109,7 +3112,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Overview of Splunk Enterprise Security Editions Splunk",
+    "summary": "Overview of Splunk Enterprise Security Editions - Splunk",
     "summarySource": "extractive",
     "clusterId": "c8db5062462584b6",
     "lang": "en",
@@ -3564,6 +3567,34 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "9f12c45c6d4b7331",
+    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
+    "url": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Wilson Ramirez",
+    "publishedAt": "2026-10-20T04:36:37+00:00",
+    "fetchedAt": "2026-11-16T14:25:57+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: High aggregate Internet penetration can mask significant territorial inequalities. Using the Dominican Republic as a case study, this analysis shows that access and network performance vary widely across provinces, highlighting why the digital divide is about more than simply being connected.",
+    "summarySource": "extractive",
+    "clusterId": "9f12c45c6d4b7331",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "8a358642c108ffcf",
     "title": "Rebuilding PubHub: How AI-assisted development shipped a mandatory rewrite 3.5 months early – Part 1",
     "url": "https://blogs.cisco.com/cisco-devnet/ai-assisted-development-rebuilding-pubhub-part-1/",
@@ -3818,7 +3849,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "APNIC 62: Automation, trust, and the future of Internet infrastructure",
+    "summary": "At APNIC 62, keynote speakers Amajit Gupta and Yukako Uchida showed how the future Internet will depend on both autonomous, AI-driven networks and trusted human relationships.",
     "summarySource": "extractive",
     "clusterId": "b9977a3309f8b9b5",
     "lang": "en",
@@ -4034,6 +4065,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via Developer Tech News (Google News)"
+  },
+  {
+    "id": "92a92a8860035523",
+    "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
+    "url": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Samantha Douglas",
+    "publishedAt": "2026-10-15T23:20:00+00:00",
+    "fetchedAt": "2026-11-16T14:25:57+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "As Timor-Leste deepens its integration with ASEAN and the global digital economy, continued progress in technical capability, resilience, and Internet governance will be critical to ensuring connectivity delivers broader economic and social benefits.",
+    "summarySource": "extractive",
+    "clusterId": "92a92a8860035523",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "4c419dd8c4a4ebd3",
@@ -4558,6 +4617,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "f88561aaacf59e73",
+    "title": "Seven years of IPv6 in production: Lessons from one million broadband subscribers",
+    "url": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers/",
+    "canonicalUrl": "https://blog.apnic.net/2026/10/12/seven-years-of-ipv6-in-production-lessons-from-one-million-broadband-subscribers",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Kijush Maharjan",
+    "publishedAt": "2026-10-11T23:07:31+00:00",
+    "fetchedAt": "2026-11-16T14:25:57+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: IPv6 deployment is often described as a protocol upgrade. In reality, operating IPv6 at broadband scale is a test of subscriber management, DHCP, CPE interoperability, observability, and operational processes. Over seven years, WorldLink Communications grew to more than one million dual-stack subscribers, with around 70% of traffic now carried over IPv6.",
+    "summarySource": "extractive",
+    "clusterId": "f88561aaacf59e73",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
   },
   {
     "id": "8782101300123bfd",
@@ -6822,7 +6909,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Using SPL commands in SPL2 searches Splunk",
+    "summary": "Using SPL commands in SPL2 searches - Splunk",
     "summarySource": "extractive",
     "clusterId": "d934fc118a972aeb",
     "lang": "en",
@@ -7436,6 +7523,39 @@
     "attribution": "via ntop Blog"
   },
   {
+    "id": "983fcafd693ba67d",
+    "title": "ThousandEyes Kubernetes Agent - ThousandEyes",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IS3Jzck91Y2l2VG54UUtQNWZmNlF1czZTeU5CVjBsVWgwcmYzNWQyRy1wSi15emd0OHlUTnJuZFVJLUxBU0x2YzhBQWxNeXBCVUFZS2ZtTnVTanI0MDBwWFZjeHAzT2s5cHU0am4wbldUUjg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IS3Jzck91Y2l2VG54UUtQNWZmNlF1czZTeU5CVjBsVWgwcmYzNWQyRy1wSi15emd0OHlUTnJuZFVJLUxBU0x2YzhBQWxNeXBCVUFZS2ZtTnVTanI0MDBwWFZjeHAzT2s5cHU0am4wbldUUjg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "ThousandEyes",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-09-29T02:48:29+00:00",
+    "fetchedAt": "2026-10-05T13:13:07+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "ThousandEyes Kubernetes Agent ThousandEyes",
+    "summarySource": "extractive",
+    "clusterId": "983fcafd693ba67d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via ThousandEyes (Google News)"
+  },
+  {
     "id": "6306bd1579277925",
     "title": "Thou shall not pass: Gatekeeping outbound TLS connections",
     "url": "https://blog.apnic.net/2026/09/29/thou-shall-not-pass-gatekeeping-outbound-tls-connections/",
@@ -7922,38 +8042,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "983fcafd693ba67d",
-    "title": "ThousandEyes Kubernetes Agent - ThousandEyes",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IS3Jzck91Y2l2VG54UUtQNWZmNlF1czZTeU5CVjBsVWgwcmYzNWQyRy1wSi15emd0OHlUTnJuZFVJLUxBU0x2YzhBQWxNeXBCVUFZS2ZtTnVTanI0MDBwWFZjeHAzT2s5cHU0am4wbldUUjg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IS3Jzck91Y2l2VG54UUtQNWZmNlF1czZTeU5CVjBsVWgwcmYzNWQyRy1wSi15emd0OHlUTnJuZFVJLUxBU0x2YzhBQWxNeXBCVUFZS2ZtTnVTanI0MDBwWFZjeHAzT2s5cHU0am4wbldUUjg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "ThousandEyes",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-09-28T07:00:00+00:00",
-    "fetchedAt": "2026-10-05T13:13:07+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "ThousandEyes Kubernetes Agent - ThousandEyes",
-    "summarySource": "extractive",
-    "clusterId": "983fcafd693ba67d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ThousandEyes (Google News)"
   },
   {
     "id": "ffad4bbe1705668d",
