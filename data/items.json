@@ -126,7 +126,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
     "source": {
-      "id": "gnews-splunk-features",
+      "id": "gnews-splunk-blog",
       "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
@@ -294,7 +294,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "By Kris Beevers, Founder and CEO, NetBox Labs Sponsored by NetBox Labs as part of their sponsorship of AutoCon6 Networks have never been simple, but the last few years have pushed complexity to a new level. Hybrid and multi-cloud architectures, AI workloads that strain power and cooling, edge deployments, and constant change have turned the ... Read more »",
+    "summary": "NetBox Labs Adds New Datacenter Design, Network Analytics and Visualization Capabilities to Infrastructure Intelligence Platform (Sponsored)",
     "summarySource": "extractive",
     "clusterId": "46bc0d05ccc23240",
     "lang": "en",
@@ -487,6 +487,34 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
+    "id": "b371ae0584668e9d",
+    "title": "2026 network outage report and internet health check - Network World",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "Network World",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-11-17T08:00:00+00:00",
+    "fetchedAt": "2026-05-31T10:48:25+00:00",
+    "topics": [],
+    "tags": [],
+    "summary": "2026 network outage report and internet health check Network World",
+    "summarySource": "extractive",
+    "clusterId": "b371ae0584668e9d",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Network World (Google News)",
+    "categories": [
+      "outage"
+    ],
+    "audiences": [
+      "global"
+    ]
+  },
+  {
     "id": "59405bbcefdbad93",
     "title": "Microsoft Outlook Outage Analysis: November 12–13, 2026 - ThousandEyes",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeG9US3BIenJHRm43M0sxYWdTUng3bmh5V19XaEswS1F4NDZqaWJUa1BLbGJCaVYtNUdSUTJJbUhzMEM5Nk9EU21RRE9kVnVfbUdZZFRMVUZwX1l0cXc2dFpGenVQVkpLaWlaTm1OWFJaNjEydFQxVkJONTlUVDNnYndrQVVoZjQ?oc=5",
@@ -572,7 +600,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "By Chris Wade | Co-Founder & CTO of Itential Sponsored by Itential as part of their sponsorship of AutoCon6 You’ve written the scripts. You have playbooks that work. You know which checks matter before a change and which warnings mean someone needs to stop and investigate.",
+    "summary": "Bringing AI Agents Into the Network Automation You Already Trust (Sponsored)",
     "summarySource": "extractive",
     "clusterId": "61060e15c0a2c6e9",
     "lang": "en",
@@ -1027,7 +1055,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unimus, a network configuration management platform, is adding native MCP support in an upcoming release. I was briefed by Unimus ahead of the AutoCon 6 conference. Here’s what I learned.",
+    "summary": "Unimus To Add Native MCP Support – AutoCon 6 Briefing",
     "summarySource": "extractive",
     "clusterId": "183646b2de0c82c3",
     "lang": "en",
@@ -2073,38 +2101,6 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "8f3630ba95cbf174",
-    "title": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks - SDxCentral",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOF9ROThIUFkwSU0zYzNKclVHejlBZWNaSHNPMTUyUGhPbVFMQ0UyY0VtMGozYlZndmlHM2stNzktWm5QallVSFp5dy1wdF9EYWtlTjRNZW80OG9TWjZYR1pkbk5PWDRaVVVoTTU5UE94N3JsaERES19ObDRjTVNieGJiNExfT0NGdXJoaTBYcV9OelgxeTNVNDZ3X3N4VjRyZnlmblhudWc?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOF9ROThIUFkwSU0zYzNKclVHejlBZWNaSHNPMTUyUGhPbVFMQ0UyY0VtMGozYlZndmlHM2stNzktWm5QallVSFp5dy1wdF9EYWtlTjRNZW80OG9TWjZYR1pkbk5PWDRaVVVoTTU5UE94N3JsaERES19ObDRjTVNieGJiNExfT0NGdXJoaTBYcV9OelgxeTNVNDZ3X3N4VjRyZnlmblhudWc?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "SDxCentral",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-10-29T16:38:33+00:00",
-    "fetchedAt": "2026-10-29T22:15:38+00:00",
-    "topics": [
-      "network-observability"
-    ],
-    "tags": [
-      "thousandeyes"
-    ],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks - SDxCentral",
-    "summarySource": "extractive",
-    "clusterId": "8f3630ba95cbf174",
-    "lang": "en",
-    "license": null,
-    "attribution": "via SDxCentral (Google News)"
-  },
-  {
     "id": "14883a0c3c4e21a9",
     "title": "Announcing the 2026 Governance Committee Election Results",
     "url": "https://opentelemetry.io/blog/2026/gc-elections-results/",
@@ -2195,6 +2191,39 @@
     "attribution": "via CyberSecurityNews (Google News)"
   },
   {
+    "id": "8f3630ba95cbf174",
+    "title": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks - SDxCentral",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOF9ROThIUFkwSU0zYzNKclVHejlBZWNaSHNPMTUyUGhPbVFMQ0UyY0VtMGozYlZndmlHM2stNzktWm5QallVSFp5dy1wdF9EYWtlTjRNZW80OG9TWjZYR1pkbk5PWDRaVVVoTTU5UE94N3JsaERES19ObDRjTVNieGJiNExfT0NGdXJoaTBYcV9OelgxeTNVNDZ3X3N4VjRyZnlmblhudWc?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOF9ROThIUFkwSU0zYzNKclVHejlBZWNaSHNPMTUyUGhPbVFMQ0UyY0VtMGozYlZndmlHM2stNzktWm5QallVSFp5dy1wdF9EYWtlTjRNZW80OG9TWjZYR1pkbk5PWDRaVVVoTTU5UE94N3JsaERES19ObDRjTVNieGJiNExfT0NGdXJoaTBYcV9OelgxeTNVNDZ3X3N4VjRyZnlmblhudWc?oc=5",
+    "source": {
+      "id": "gnews-thousandeyes",
+      "name": "SDxCentral",
+      "homepage": "https://news.google.com/search?q=ThousandEyes"
+    },
+    "author": null,
+    "publishedAt": "2026-10-29T07:00:00+00:00",
+    "fetchedAt": "2026-10-29T22:15:38+00:00",
+    "topics": [
+      "cisco-data-fabric",
+      "network-observability"
+    ],
+    "tags": [
+      "thousandeyes"
+    ],
+    "categories": [
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks SDxCentral",
+    "summarySource": "extractive",
+    "clusterId": "8f3630ba95cbf174",
+    "lang": "en",
+    "license": null,
+    "attribution": "via SDxCentral (Google News)"
+  },
+  {
     "id": "ab31e938a36f1077",
     "title": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "url": "https://blog.apnic.net/2026/10/29/podcast-quad-9-measurement-in-the-privacy-preserving-public-dns-service/",
@@ -2243,7 +2272,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Extreme Networks has announced a new AI agent to manage Extreme switches and APs. Called Agent One Operator, this AI agent that can take autonomous action such as running checks for new vulnerabilities, finding APs that drop clients, running firmware compliance audits, and other jobs. Nabil Bukhari, President AI Platforms and EVP, CTO, announced Agent ONE ...",
+    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
     "summarySource": "extractive",
     "clusterId": "98489b2d7f8d27b5",
     "lang": "en",
@@ -2671,40 +2700,12 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Sentinel vs Splunk vs Elastic: SIEM fra 100 GB/dag [2026] shattered.io",
+    "summary": "Sentinel vs Splunk vs Elastic: SIEM fra 100 GB/dag [2026] - shattered.io",
     "summarySource": "extractive",
     "clusterId": "e3f41d25cb4c82f6",
     "lang": "en",
     "license": null,
     "attribution": "via shattered.io (Google News)"
-  },
-  {
-    "id": "b371ae0584668e9d",
-    "title": "2026 network outage report and internet health check - Network World",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0JCRjM1ZUF6c2NhUDJ4LTFrVEl4blBFb0dFRk9paE5tZnc2ZUNaU28xdnJ3bVhjYzg4WFEteWl2NUIyRkFCd1diTWJxeHhDQUFNOXpDc2NWUC0wSHkwOUVfT2Rma2pxNzZsUUJ4LWhwc1h1MjJpQkxzbUdXTzc1SXhidU9PVVNtYUNtbTFHWHpBeUxQYnVpWGJZUWdJRm9fSllCMg?oc=5",
-    "source": {
-      "id": "gnews-thousandeyes",
-      "name": "Network World",
-      "homepage": "https://news.google.com/search?q=ThousandEyes"
-    },
-    "author": null,
-    "publishedAt": "2026-10-27T07:00:00+00:00",
-    "fetchedAt": "2026-05-31T10:48:25+00:00",
-    "topics": [],
-    "tags": [],
-    "summary": "2026 network outage report and internet health check - Network World",
-    "summarySource": "extractive",
-    "clusterId": "b371ae0584668e9d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Network World (Google News)",
-    "categories": [
-      "outage"
-    ],
-    "audiences": [
-      "global"
-    ]
   },
   {
     "id": "77143a2dfd7cc2a1",
@@ -3376,9 +3377,9 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release",
@@ -3779,7 +3780,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes infoq.com",
+    "summary": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes - infoq.com",
     "summarySource": "extractive",
     "clusterId": "627fdae9bca0196f",
     "lang": "en",
@@ -4270,34 +4271,6 @@
     "attribution": "via Splunk (Google News)"
   },
   {
-    "id": "9f12c45c6d4b7331",
-    "title": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
-    "url": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/20/being-connected-is-not-enough-territorial-inequalities-in-fixed-internet-access-and-performance",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Wilson Ramirez",
-    "publishedAt": "2026-10-20T04:36:37+00:00",
-    "fetchedAt": "2026-11-18T23:45:25+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Being connected is not enough: Territorial inequalities in fixed-Internet access and performance",
-    "summarySource": "extractive",
-    "clusterId": "9f12c45c6d4b7331",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "8a358642c108ffcf",
     "title": "Rebuilding PubHub: How AI-assisted development shipped a mandatory rewrite 3.5 months early – Part 1",
     "url": "https://blogs.cisco.com/cisco-devnet/ai-assisted-development-rebuilding-pubhub-part-1/",
@@ -4768,34 +4741,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Developer Tech News (Google News)"
-  },
-  {
-    "id": "92a92a8860035523",
-    "title": "Timor-Leste’s Internet ecosystem enters a new phase of development",
-    "url": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development/",
-    "canonicalUrl": "https://blog.apnic.net/2026/10/16/timor-lestes-internet-ecosystem-enters-a-new-phase-of-development",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Samantha Douglas",
-    "publishedAt": "2026-10-15T23:20:00+00:00",
-    "fetchedAt": "2026-11-18T23:45:25+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Timor-Leste’s Internet ecosystem enters a new phase of development",
-    "summarySource": "extractive",
-    "clusterId": "92a92a8860035523",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "4c419dd8c4a4ebd3",
@@ -7571,7 +7516,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -7802,7 +7747,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -9380,34 +9325,6 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
-    "id": "fa984377e78b0ed6",
-    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
-    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Ethan Banks",
-    "publishedAt": "2026-09-21T13:00:34+00:00",
-    "fetchedAt": "2026-11-20T00:05:58+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
-    "summarySource": "extractive",
-    "clusterId": "fa984377e78b0ed6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -9666,7 +9583,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
+    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -10255,7 +10172,8 @@
     "publishedAt": "2026-09-15T07:00:00+00:00",
     "fetchedAt": "2026-10-22T02:45:28+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -10264,7 +10182,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco brings Splunk AI on premises, expands agent observability, monitors token costs - Network World",
+    "summary": "Cisco brings Splunk AI on premises, expands agent observability, monitors token costs Network World",
     "summarySource": "extractive",
     "clusterId": "696cf3e533059832",
     "lang": "en",
@@ -10292,7 +10210,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Top 10 Best Kubernetes Security Tools in 2026 CyberSecurityNews",
+    "summary": "Top 10 Best Kubernetes Security Tools in 2026 - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "3a02f800a8aa60bf",
     "lang": "en",
@@ -11408,6 +11326,7 @@
     "publishedAt": "2026-09-07T07:00:00+00:00",
     "fetchedAt": "2026-09-07T16:58:50+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -11419,7 +11338,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
@@ -11447,7 +11366,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
@@ -11552,6 +11471,7 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -11563,7 +11483,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
@@ -12485,7 +12405,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection Cisco Blogs",
+    "summary": "Deep Dive: Automating NetOps with the cisco.catalystcenter Ansible Collection - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "4fa38b76345430f7",
     "lang": "en",
@@ -12599,7 +12519,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Using eBPF in Kubernetes: A Security Overview wiz.io",
+    "summary": "Using eBPF in Kubernetes: A Security Overview - wiz.io",
     "summarySource": "extractive",
     "clusterId": "0a97296544acf856",
     "lang": "en",
