@@ -1,5 +1,33 @@
 [
   {
+    "id": "667fc3472e291a81",
+    "title": "Solar PV for Internet resilience (Part 3): Installing and operating your system",
+    "url": "https://blog.apnic.net/2026/11/24/solar-pv-for-internet-resilience-part-3-installing-and-operating-your-system/",
+    "canonicalUrl": "https://blog.apnic.net/2026/11/24/solar-pv-for-internet-resilience-part-3-installing-and-operating-your-system",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Ulrich Speidel",
+    "publishedAt": "2026-11-23T22:51:47+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Guest Post: Installation is only the beginning of a successful solar PV project. Careful commissioning, ongoing monitoring, and learning how your system behaves are essential to achieving long-term reliability and resilience.",
+    "summarySource": "extractive",
+    "clusterId": "667fc3472e291a81",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "775696fe1966ac05",
     "title": "Cybersecurity Awareness Month: Video Recap",
     "url": "https://blogs.cisco.com/cisco-devnet/cybersecurity-awareness-month-video-recap/",
@@ -144,7 +172,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We built a BGP anomaly detector on public RIPE RIS data and tested it on the 2025 Iberian blackout and in a blind test with a network's operations team. It holds up within one network, but not across networks of different shapes. We describe the results and ask for operator input.",
+    "summary": "Would You Have Noticed? A Blind Test of BGP Anomaly Detection",
     "summarySource": "extractive",
     "clusterId": "cae25aa55d97cfed",
     "lang": "en",
@@ -313,9 +341,7 @@
     "author": "Ciprian Lucanu",
     "publishedAt": "2026-11-19T09:57:50+00:00",
     "fetchedAt": "2026-11-23T16:59:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "standards"
@@ -323,7 +349,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Some visitors couldn't open a US school's website. Packet captures showed a mobile carrier forging TLS replies and a VPN refusing DNS lookups, both because the domain was on a reputation blocklist. With a credit grant from RIPE Atlas, we checked DNS and TLS from 45 probes inside 21 US ISPs.",
+    "summary": "Is It the Network or the Website?",
     "summarySource": "extractive",
     "clusterId": "05676ae8b52f819a",
     "lang": "en",
@@ -446,7 +472,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Third-Party Package Updates in Splunk Enterprise - November 2026 - Splunk",
+    "summary": "Third-Party Package Updates in Splunk Enterprise - November 2026 Splunk",
     "summarySource": "extractive",
     "clusterId": "4db0e09ee4f56051",
     "lang": "en",
@@ -534,12 +560,47 @@
     "audiences": [
       "global"
     ],
-    "summary": "How do you deliver a 200 GB game to millions of players? As GTA 6 pre-loads got underway last week, we turned to RIPE Atlas to examine how DNS and content delivery networks help PlayStation and Xbox share the load.",
+    "summary": "Who’s Delivering GTA 6? A RIPE Atlas Measurement Story",
     "summarySource": "extractive",
     "clusterId": "3749ee056c29fa76",
     "lang": "en",
     "license": null,
     "attribution": "via RIPE Labs"
+  },
+  {
+    "id": "89c6dea78d99b6ae",
+    "title": "What's New in Splunk Enterprise Security 8.8 and Beyond - Splunk Community",
+    "url": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "canonicalUrl": "https://docs.splunk.com/Documentation/Splunk/10.4.0/WhatsNew/Overview",
+    "source": {
+      "id": "curated-splunk-platform",
+      "name": "Splunk (canonical)",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-11-18T08:00:00+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "splunk-enterprise",
+      "10.4",
+      "release-notes"
+    ],
+    "categories": [
+      "product-release",
+      "tutorial"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
+    "summarySource": "curated",
+    "clusterId": "0841e312914e95e4",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (canonical)"
   },
   {
     "id": "46bc0d05ccc23240",
@@ -562,7 +623,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "NetBox Labs Adds New Datacenter Design, Network Analytics and Visualization Capabilities to Infrastructure Intelligence Platform (Sponsored)",
+    "summary": "By Kris Beevers, Founder and CEO, NetBox Labs Sponsored by NetBox Labs as part of their sponsorship of AutoCon6 Networks have never been simple, but the last few years have pushed complexity to a new level. Hybrid and multi-cloud architectures, AI workloads that strain power and cooling, edge deployments, and constant change have turned the ... Read more »",
     "summarySource": "extractive",
     "clusterId": "46bc0d05ccc23240",
     "lang": "en",
@@ -630,6 +691,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
+  },
+  {
+    "id": "e93ae8faefa29f43",
+    "title": "Splunk MCP Server 2.1: Enhanced Token Management and OAuth Integration for AI Agent - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORTBiWk1UMlE0SkFwczhKd2hEQmxDQllfVFhrTmE1MWtGdjBwblRiT2RxYm1SbGpDQTRHeTlKb1lLOFgzb1o1M3l6MjU2cEI3bWh5cFZHc2ljTWFGZ20xUmRiejBaVXlQUE82UnVxS0taWG5raGpESzRPVjdPSWEyY01BYy1sUS1SdkFyNlVZdVZRdXZtbkc2TlhwOWRQSzhYd3RJdVVNZFVNbkpmUkJSRnJnWEV1Tm5GZUVHeWVZMU42TDFIRkM4ZXU4OElYc3Q0dDdxZlNkWnBnVnNkNDYw?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORTBiWk1UMlE0SkFwczhKd2hEQmxDQllfVFhrTmE1MWtGdjBwblRiT2RxYm1SbGpDQTRHeTlKb1lLOFgzb1o1M3l6MjU2cEI3bWh5cFZHc2ljTWFGZ20xUmRiejBaVXlQUE82UnVxS0taWG5raGpESzRPVjdPSWEyY01BYy1sUS1SdkFyNlVZdVZRdXZtbkc2TlhwOWRQSzhYd3RJdVVNZFVNbkpmUkJSRnJnWEV1Tm5GZUVHeWVZMU42TDFIRkM4ZXU4OElYc3Q0dDdxZlNkWnBnVnNkNDYw?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-17T18:20:07+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk MCP Server 2.1: Enhanced Token Management and OAuth Integration for AI Agent Splunk",
+    "summarySource": "extractive",
+    "clusterId": "e93ae8faefa29f43",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "8dd809b335b40caf",
@@ -816,6 +907,39 @@
     "attribution": "via ThousandEyes (Google News)"
   },
   {
+    "id": "2d77f9190c6da5a0",
+    "title": "Enterprise Security Watch Party: What’s New in 8.8 - Recap - Splunk Community",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNVpWdkJFM21PLTRuX2htcmNVclZfd2RCRFc3VTlDWHZnc1FlRWtySnNtaThNdnBNUENleGV3RV94N2ktOFZNbHR1NWg5a0hPSFdCZ0Zrc3hIWWRWUjcyUnJuZEllYWNubXBraF9Yc0g1NmNRY1FWOHgtRi1BNW14MHplZERRX1hVN1JWRDRQYkNUXzNRaHVRQ1ZZUTFsRExaUFBzWjJ2V25OcnQ4eDctZ2tIZVY?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNVpWdkJFM21PLTRuX2htcmNVclZfd2RCRFc3VTlDWHZnc1FlRWtySnNtaThNdnBNUENleGV3RV94N2ktOFZNbHR1NWg5a0hPSFdCZ0Zrc3hIWWRWUjcyUnJuZEllYWNubXBraF9Yc0g1NmNRY1FWOHgtRi1BNW14MHplZERRX1hVN1JWRDRQYkNUXzNRaHVRQ1ZZUTFsRExaUFBzWjJ2V25OcnQ4eDctZ2tIZVY?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk Community",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-16T19:34:58+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Enterprise Security Watch Party: What’s New in 8.8 - Recap Splunk Community",
+    "summarySource": "extractive",
+    "clusterId": "2d77f9190c6da5a0",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk Community (Google News)"
+  },
+  {
     "id": "137e84a65794f31c",
     "title": "Announcing the 2026 OpenTelemetry Community Award Winners",
     "url": "https://opentelemetry.io/blog/2026/otel-community-awards/",
@@ -868,7 +992,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Bringing AI Agents Into the Network Automation You Already Trust (Sponsored)",
+    "summary": "By Chris Wade | Co-Founder & CTO of Itential Sponsored by Itential as part of their sponsorship of AutoCon6 You’ve written the scripts. You have playbooks that work. You know which checks matter before a change and which warnings mean someone needs to stop and investigate.",
     "summarySource": "extractive",
     "clusterId": "61060e15c0a2c6e9",
     "lang": "en",
@@ -1118,6 +1242,39 @@
     "attribution": "via IETF Blog"
   },
   {
+    "id": "cba87e14e841715b",
+    "title": "Splunk Enterprise Security Watch Party: What’s New in Enterprise Security 8.8 - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNmNLYUhuQWNqQXlsc3RIemdRcXlBcEdmZ2V3RUtkWm8yRHpwaFVidkd6NXBSblZXV3luT1E5dEpaSGdOeU1USEtTdktQb2pjb3VvOTdDN09QWHRJM0IxdVZkMXBMc3U2VVN1SnAwUWw2QjBkd3RsY2tJMVJocE0tU1N4V2xpTzVTa2Nha0hjLVRndV9CNzRHUzlPcjFYVmJPcnM4eDVmZzNKcm5xX0tYOGJNLUtsS3Jub05aR0d1S194THZWOWhrRkhScVFnbTV3NXVwRGZWSGJqWUJTRzlva0RfTFoxNDh2cmh6aA?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNmNLYUhuQWNqQXlsc3RIemdRcXlBcEdmZ2V3RUtkWm8yRHpwaFVidkd6NXBSblZXV3luT1E5dEpaSGdOeU1USEtTdktQb2pjb3VvOTdDN09QWHRJM0IxdVZkMXBMc3U2VVN1SnAwUWw2QjBkd3RsY2tJMVJocE0tU1N4V2xpTzVTa2Nha0hjLVRndV9CNzRHUzlPcjFYVmJPcnM4eDVmZzNKcm5xX0tYOGJNLUtsS3Jub05aR0d1S194THZWOWhrRkhScVFnbTV3NXVwRGZWSGJqWUJTRzlva0RfTFoxNDh2cmh6aA?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-12T18:00:00+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Splunk Enterprise Security Watch Party: What’s New in Enterprise Security 8.8 Splunk",
+    "summarySource": "extractive",
+    "clusterId": "cba87e14e841715b",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "2494e3d98661b222",
     "title": "Building an Agent Harness for OTel Instrumentation with GenAI Semantic Conventions and Weaver",
     "url": "https://opentelemetry.io/blog/2026/agent-harness-genai-instrumentation/",
@@ -1303,6 +1460,39 @@
     "attribution": "via APNIC Blog"
   },
   {
+    "id": "5af0dd1f40c46a25",
+    "title": "Capability reference for Splunk Enterprise Security - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNa082NHk3UjE3UXJCYzY0Vnpzd3UwamNtU2pmVXg5MEpHVHVxRG91VGdNWFNJdjRqbW1tQXBtdlVnMWJsdnU4TnVGblcyMEg3WVV5QndYX3JFUk5hWkdNS2lFMUtUaUhWbERTWFp2OU9JY08xZFVvd1VNREpXcEdXV1JmMkwxRnN6VFNYZnpCMExCenN2X2lMNDlrdkVzanQwWkhFdHhqalFzODdlVmZXbmdGVFFfSEpvZTBFNVVhUWNUaUtpUk9wRTM3U2o4OS1ZOTZOSDYzM2FueFZpZE9wbU41dzJqenVtMlg0a1pqNllHWHZkVm90OUp1bGdYU0UxMmtjb3RYV29rbWZKUmJ1WXQ5Q0RtZXotejZZTUlYMEhQeG5pYk1XVXdVSQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNa082NHk3UjE3UXJCYzY0Vnpzd3UwamNtU2pmVXg5MEpHVHVxRG91VGdNWFNJdjRqbW1tQXBtdlVnMWJsdnU4TnVGblcyMEg3WVV5QndYX3JFUk5hWkdNS2lFMUtUaUhWbERTWFp2OU9JY08xZFVvd1VNREpXcEdXV1JmMkwxRnN6VFNYZnpCMExCenN2X2lMNDlrdkVzanQwWkhFdHhqalFzODdlVmZXbmdGVFFfSEpvZTBFNVVhUWNUaUtpUk9wRTM3U2o4OS1ZOTZOSDYzM2FueFZpZE9wbU41dzJqenVtMlg0a1pqNllHWHZkVm90OUp1bGdYU0UxMmtjb3RYV29rbWZKUmJ1WXQ5Q0RtZXotejZZTUlYMEhQeG5pYk1XVXdVSQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-10T21:36:39+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
+    "categories": [
+      "product-release",
+      "security"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Capability reference for Splunk Enterprise Security Splunk",
+    "summarySource": "extractive",
+    "clusterId": "5af0dd1f40c46a25",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "183646b2de0c82c3",
     "title": "Unimus To Add Native MCP Support – AutoCon 6 Briefing",
     "url": "https://packetpushers.net/blog/unimus-to-add-native-mcp-support-autocon-6-briefing/",
@@ -1318,12 +1508,12 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "news"
+      "event"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Unimus To Add Native MCP Support – AutoCon 6 Briefing",
+    "summary": "Unimus, a network configuration management platform, is adding native MCP support in an upcoming release. I was briefed by Unimus ahead of the AutoCon 6 conference. Here’s what I learned.",
     "summarySource": "extractive",
     "clusterId": "183646b2de0c82c3",
     "lang": "en",
@@ -1597,7 +1787,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ROV turned your validator into a forwarding policy source. The registries have strengthened their side of the RPKI, but the chain from repository to router runs on your infrastructure. When that chain breaks, it often breaks silently.",
+    "summary": "Your Router Trusts Its Validator. But Who's Watching the Validator?",
     "summarySource": "extractive",
     "clusterId": "fe6b3d050e721656",
     "lang": "en",
@@ -1941,34 +2131,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via OpenTelemetry Blog"
-  },
-  {
-    "id": "7d8e5af66c547bfc",
-    "title": "Do Registrars Use DNSSEC on Their Own Domains?",
-    "url": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
-    "canonicalUrl": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Tobias Sattler",
-    "publishedAt": "2026-11-05T07:09:04+00:00",
-    "fetchedAt": "2026-11-23T16:59:36+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
-    "summarySource": "extractive",
-    "clusterId": "7d8e5af66c547bfc",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "7d51b51f4d9ae2c5",
@@ -2356,7 +2518,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon - NeoTeo",
+    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon NeoTeo",
     "summarySource": "extractive",
     "clusterId": "4ab420ebc8841b26",
     "lang": "en",
@@ -2632,6 +2794,34 @@
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
+  },
+  {
+    "id": "98489b2d7f8d27b5",
+    "title": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
+    "url": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator/",
+    "canonicalUrl": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Drew Conry-Murray",
+    "publishedAt": "2026-10-28T21:25:29+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Extreme Networks has announced a new AI agent to manage Extreme switches and APs. Called Agent One Operator, this AI agent that can take autonomous action such as running checks for new vulnerabilities, finding APs that drop clients, running firmware compliance audits, and other jobs. Nabil Bukhari, President AI Platforms and EVP, CTO, announced Agent ONE ...",
+    "summarySource": "extractive",
+    "clusterId": "98489b2d7f8d27b5",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "1b73a1f7552daa38",
@@ -3023,7 +3213,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
+    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -3531,7 +3721,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR CyberSecurityNews",
+    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "10d0169b3318c542",
     "lang": "en",
@@ -4402,9 +4592,9 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
       "product-release",
@@ -4891,34 +5081,6 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "b528f78deb87a51d",
-    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
-    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
-    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "André Grüneberg",
-    "publishedAt": "2026-10-19T08:53:35+00:00",
-    "fetchedAt": "2026-11-23T16:59:36+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
-    "summarySource": "extractive",
-    "clusterId": "b528f78deb87a51d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -4969,7 +5131,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High Splunk",
+    "summary": "Elevating Public Sector Data Security: Edge and Ingest Processors with SPL2 and Splunk AI Assistant Achieve FedRAMP High - Splunk",
     "summarySource": "extractive",
     "clusterId": "71936385c4a8ce8b",
     "lang": "en",
@@ -5072,7 +5234,7 @@
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUlFFbXp5b1NTRFEzRUhTUVFFcHhfa25MRzNBcnRLbFVrRkVIUWRIM0RwZnJqN3dQSUdCVWltVXhhQ19GeHFhR3hzMkxBVjQ0UDJ4SDZZTnRJZ3lhUFR0SDkta0E2S2tUMnRMa1NyZlBMMGpmQy03QzBqMUJQaXBBVFlEZTA1THZnTXBtTFJVUGdLU29hX3I2WHRJVUxnNkJieXJOdDg0a2hydmZzZjFQWk5uVQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUlFFbXp5b1NTRFEzRUhTUVFFcHhfa25MRzNBcnRLbFVrRkVIUWRIM0RwZnJqN3dQSUdCVWltVXhhQ19GeHFhR3hzMkxBVjQ0UDJ4SDZZTnRJZ3lhUFR0SDkta0E2S2tUMnRMa1NyZlBMMGpmQy03QzBqMUJQaXBBVFlEZTA1THZnTXBtTFJVUGdLU29hX3I2WHRJVUxnNkJieXJOdDg0a2hydmZzZjFQWk5uVQ?oc=5",
     "source": {
-      "id": "gnews-splunk-blog",
+      "id": "gnews-splunk-features",
       "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
@@ -5089,9 +5251,39 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's new | Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) - Splunk",
+    "summary": "What's new | Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "a7a18dcb5ae7252a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "76d647b33d0c78c9",
+    "title": "Define roles on the Splunk platform with capabilities | Splunk Cloud Platform (last updated 2026-10-17T14:24:37.265Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNOWtxbkFaRjl0bmstUUtLUjJtZEdxdTFhQmpmdGc5SWQxUWxmV3BXZ1NMN2ZIMHFjdUI4cEU3ekZsVFZsck1qVUtPT3djS3prTmI4TmRKUktDWUQtY2NoVkhQRlEyOElWZ1lkQ3JUQ1ZsM215QUxTbEc2dUNJV2FlalgyWkpQVjA4WjU5REE5R08yY1ZWQXE0aWNfcDNOTEVlVzhMOXQ1amdSZnVsWXI0cjdJLWNFREtZVU9mbmJWUVFFX1BYQmxCOU9pTFU2X0FPZ3l6X09JWFE4OE5WbjMzeXdER2k0ekNzUDlFcGp1OGlWandUTlZzb2ljREFiWkVqVXFyXzY5X1FOSmRFLW5sZA?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNOWtxbkFaRjl0bmstUUtLUjJtZEdxdTFhQmpmdGc5SWQxUWxmV3BXZ1NMN2ZIMHFjdUI4cEU3ekZsVFZsck1qVUtPT3djS3prTmI4TmRKUktDWUQtY2NoVkhQRlEyOElWZ1lkQ3JUQ1ZsM215QUxTbEc2dUNJV2FlalgyWkpQVjA4WjU5REE5R08yY1ZWQXE0aWNfcDNOTEVlVzhMOXQ1amdSZnVsWXI0cjdJLWNFREtZVU9mbmJWUVFFX1BYQmxCOU9pTFU2X0FPZ3l6X09JWFE4OE5WbjMzeXdER2k0ekNzUDlFcGp1OGlWandUTlZzb2ljREFiWkVqVXFyXzY5X1FOSmRFLW5sZA?oc=5",
+    "source": {
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-10-17T07:00:00+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Define roles on the Splunk platform with capabilities | Splunk Cloud Platform (last updated 2026-10-17T14:24:37.265Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "76d647b33d0c78c9",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
@@ -6324,7 +6516,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -6791,7 +6983,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Nevion Announces Providius NVRT Integration with eMerge Switches for Expanded Broadcast Network Observability - Sony UK",
+    "summary": "Nevion Announces Providius NVRT Integration with eMerge Switches for Expanded Broadcast Network Observability Sony UK",
     "summarySource": "extractive",
     "clusterId": "429a9b46a61841a3",
     "lang": "en",
@@ -7991,7 +8183,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -9798,6 +9990,34 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
+    "id": "fa984377e78b0ed6",
+    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
+    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
+    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
+    "source": {
+      "id": "packetpushers-blog",
+      "name": "Packet Pushers Blog",
+      "homepage": "https://packetpushers.net/blog"
+    },
+    "author": "Ethan Banks",
+    "publishedAt": "2026-09-21T13:00:34+00:00",
+    "fetchedAt": "2026-11-24T03:40:51+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
+    "summarySource": "extractive",
+    "clusterId": "fa984377e78b0ed6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Packet Pushers Blog"
+  },
+  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -9972,7 +10192,7 @@
       "global",
       "nordics"
     ],
-    "summary": "Cyber Round Up: AI Risks Get Real, Agents Take On More UC Today",
+    "summary": "Cyber Round Up: AI Risks Get Real, Agents Take On More - UC Today",
     "summarySource": "extractive",
     "clusterId": "3cea95a5a02a66b4",
     "lang": "en",
@@ -10056,7 +10276,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
+    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -10645,7 +10865,8 @@
     "publishedAt": "2026-09-15T07:00:00+00:00",
     "fetchedAt": "2026-10-22T02:45:28+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "network-observability"
     ],
     "tags": [],
     "categories": [
@@ -10654,7 +10875,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco brings Splunk AI on premises, expands agent observability, monitors token costs - Network World",
+    "summary": "Cisco brings Splunk AI on premises, expands agent observability, monitors token costs Network World",
     "summarySource": "extractive",
     "clusterId": "696cf3e533059832",
     "lang": "en",
@@ -13350,12 +13571,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "audiences": [
       "global"
