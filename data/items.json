@@ -1,5 +1,34 @@
 [
   {
+    "id": "e4e54bb494f75e94",
+    "title": "2027 Activity Plan published",
+    "url": "https://blog.apnic.net/2026/11/26/2027-activity-plan-published/",
+    "canonicalUrl": "https://blog.apnic.net/2026/11/26/2027-activity-plan-published",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Jia Rong Low",
+    "publishedAt": "2026-11-26T06:38:59+00:00",
+    "fetchedAt": "2026-11-26T16:07:56+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "product-release",
+      "standards"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "The 2027 APNIC Activity Plan is now available.",
+    "summarySource": "extractive",
+    "clusterId": "e4e54bb494f75e94",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "170ba12c1bada862",
     "title": "Introducing Search for Agents",
     "url": "https://blog.cloudflare.com/search-for-agents/",
@@ -30,6 +59,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "b2444db8cb00572f",
+    "title": "The model inside the server: Network design for inference on a few GPU nodes",
+    "url": "https://blog.apnic.net/2026/11/25/the-model-inside-the-server-network-design-for-inference-on-a-few-gpu-nodes/",
+    "canonicalUrl": "https://blog.apnic.net/2026/11/25/the-model-inside-the-server-network-design-for-inference-on-a-few-gpu-nodes",
+    "source": {
+      "id": "apnic-blog",
+      "name": "APNIC Blog",
+      "homepage": "https://blog.apnic.net"
+    },
+    "author": "Sabina Anja",
+    "publishedAt": "2026-11-25T06:11:44+00:00",
+    "fetchedAt": "2026-11-26T16:07:56+00:00",
+    "topics": [],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Small AI inference deployments do not necessarily need the expensive network architecture of a large training cluster. When a model fits within each GPU server, existing data centre networks can often handle the workload with careful attention to uplinks, reverse proxies, model transfers, and QoS.",
+    "summarySource": "extractive",
+    "clusterId": "b2444db8cb00572f",
+    "lang": "en",
+    "license": null,
+    "attribution": "via APNIC Blog"
+  },
+  {
     "id": "93ccc28030e9e756",
     "title": "The intelligent workplace is taking shape. We’re building it ourselves.",
     "url": "https://blogs.cisco.com/networking/the-intelligent-workplace-is-taking-shape-were-building-it-ourselves/",
@@ -56,34 +113,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cisco Networking Blog"
-  },
-  {
-    "id": "a825cf15a3a214a7",
-    "title": "Into the Unknown of the Linux Network Stack (Sponsored)",
-    "url": "https://packetpushers.net/blog/into-the-unknown-of-the-linux-network-stack/",
-    "canonicalUrl": "https://packetpushers.net/blog/into-the-unknown-of-the-linux-network-stack",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Sponsored Blog Posts",
-    "publishedAt": "2026-11-24T15:45:06+00:00",
-    "fetchedAt": "2026-11-24T16:47:49+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Into the Unknown of the Linux Network Stack (Sponsored)",
-    "summarySource": "extractive",
-    "clusterId": "a825cf15a3a214a7",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "667fc3472e291a81",
@@ -525,40 +554,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache Amazon Web Services (AWS)",
+    "summary": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache - Amazon Web Services (AWS)",
     "summarySource": "extractive",
     "clusterId": "56ac863aeb02d60f",
     "lang": "en",
     "license": null,
     "attribution": "via Amazon Web Services (AWS) (Google News)"
-  },
-  {
-    "id": "05676ae8b52f819a",
-    "title": "Is It the Network or the Website?",
-    "url": "https://labs.ripe.net/author/ciprian-lucanu/is-it-the-network-or-the-website/",
-    "canonicalUrl": "https://labs.ripe.net/author/ciprian-lucanu/is-it-the-network-or-the-website",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Ciprian Lucanu",
-    "publishedAt": "2026-11-19T09:57:50+00:00",
-    "fetchedAt": "2026-11-25T16:35:41+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Is It the Network or the Website?",
-    "summarySource": "extractive",
-    "clusterId": "05676ae8b52f819a",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
   },
   {
     "id": "48bd66b1d449d182",
@@ -592,36 +593,6 @@
     "attribution": "via CyberSecurityNews (Google News)"
   },
   {
-    "id": "c4c862ea405b1a77",
-    "title": "Security Vulnerabilities in Splunk Enterprise - November 2026 - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
-    "source": {
-      "id": "gnews-splunk-features",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-11-19T01:10:56+00:00",
-    "fetchedAt": "2026-11-19T05:26:12+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise - November 2026 Splunk",
-    "summarySource": "extractive",
-    "clusterId": "560026a78789dca4",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
     "id": "560026a78789dca4",
     "title": "Security Vulnerabilities in Splunk Enterprise Security - November 2026 - Splunk",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zSnpJMW42eHlYV2hnR1BRMHVYZ091RDFwX3UtX2VWakotYXlDTEwtSlFYMzQza1VWX0UtMk9IWUNNRlJHWjYyV3VGMHhwVmJlNUp3WkR3c1NQeDdjY1RqOWdR?oc=5",
@@ -647,7 +618,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Security Vulnerabilities in Splunk Enterprise Security - November 2026 Splunk",
+    "summary": "Security Vulnerabilities in Splunk Enterprise Security - November 2026 - Splunk",
     "summarySource": "extractive",
     "clusterId": "560026a78789dca4",
     "lang": "en",
@@ -745,32 +716,34 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "3749ee056c29fa76",
-    "title": "Who’s Delivering GTA 6? A RIPE Atlas Measurement Story",
-    "url": "https://labs.ripe.net/author/emileaben/whos-delivering-gta-6-a-ripe-atlas-measurement-story/",
-    "canonicalUrl": "https://labs.ripe.net/author/emileaben/whos-delivering-gta-6-a-ripe-atlas-measurement-story",
+    "id": "c4c862ea405b1a77",
+    "title": "Security Vulnerabilities in Splunk Enterprise - November 2026 - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
     "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
+      "id": "gnews-splunk-features",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
     },
-    "author": "Emile Aben",
-    "publishedAt": "2026-11-18T13:48:32+00:00",
-    "fetchedAt": "2026-11-25T16:35:41+00:00",
-    "topics": [],
+    "author": null,
+    "publishedAt": "2026-11-18T08:00:00+00:00",
+    "fetchedAt": "2026-11-19T05:26:12+00:00",
+    "topics": [
+      "splunk"
+    ],
     "tags": [],
     "categories": [
-      "standards"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Who’s Delivering GTA 6? A RIPE Atlas Measurement Story",
+    "summary": "Security Vulnerabilities in Splunk Enterprise - November 2026 Splunk",
     "summarySource": "extractive",
-    "clusterId": "3749ee056c29fa76",
+    "clusterId": "560026a78789dca4",
     "lang": "en",
     "license": null,
-    "attribution": "via RIPE Labs"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "89c6dea78d99b6ae",
@@ -1722,7 +1695,7 @@
     "topics": [],
     "tags": [],
     "categories": [
-      "event"
+      "news"
     ],
     "audiences": [
       "global"
@@ -2545,9 +2518,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-11-02T23:09:12+00:00",
     "fetchedAt": "2026-11-03T00:15:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2555,7 +2526,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the security cameras on one network weren’t syncing properly, the ntp logs were where one practitioner went looking. It’s the only time they’ve opened those logs, and they didn’t find much that helped, though they’re sure something useful must be in there. Another practitioner skips the ntp logs entirely, while admitting there’s probably some […]",
+    "summary": "Zeek Data Beyond Threat Detection",
     "summarySource": "extractive",
     "clusterId": "3a7b5e90d08a0204",
     "lang": "en",
@@ -2729,7 +2700,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon - NeoTeo",
+    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon NeoTeo",
     "summarySource": "extractive",
     "clusterId": "4ab420ebc8841b26",
     "lang": "en",
@@ -2928,7 +2899,6 @@
     "publishedAt": "2026-10-29T07:00:00+00:00",
     "fetchedAt": "2026-10-29T22:15:38+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -2940,7 +2910,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks SDxCentral",
+    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "8f3630ba95cbf174",
     "lang": "en",
@@ -3004,34 +2974,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via APNIC Blog"
-  },
-  {
-    "id": "98489b2d7f8d27b5",
-    "title": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "url": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator/",
-    "canonicalUrl": "https://packetpushers.net/blog/extreme-networks-adds-autonomous-ai-with-agent-one-operator",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Drew Conry-Murray",
-    "publishedAt": "2026-10-28T21:25:29+00:00",
-    "fetchedAt": "2026-11-24T03:40:51+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
-    "summarySource": "extractive",
-    "clusterId": "98489b2d7f8d27b5",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
   },
   {
     "id": "1b73a1f7552daa38",
@@ -3391,7 +3333,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Upcoming changes for Splunk Cloud Platform version 10.7 Splunk Lantern",
+    "summary": "Upcoming changes for Splunk Cloud Platform version 10.7 - Splunk Lantern",
     "summarySource": "extractive",
     "clusterId": "a7f1aaed4c075e47",
     "lang": "en",
@@ -3479,7 +3421,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "More than 80 network engineers and operators strengthened their skills at APNIC 62 through hands-on workshops in network security, automation, and next-generation service provider routing.",
+    "summary": "APNIC 62 workshops help build network security, automation, and routing expertise across the region",
     "summarySource": "extractive",
     "clusterId": "77143a2dfd7cc2a1",
     "lang": "en",
@@ -3907,15 +3849,16 @@
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94U2RXZHd4S0o1Q1duODN0RXpDWVJCdEV4czYtSXA0OHdkYkZCZkc4OVpjVHNsWHkxbHlCUE5BeWREZVRJRFdTd0hFR1lnNF9XZVZjdW4tMVhZeVl5a0N4Z0xaTlhERUNFOU9fSm1B0gFzQVVfeXFMTjc0elRLdlNlUU5fT2lndzVJVFItSHZ5QURWcE1UbXc5dTVsMHR0S2ZyR3VOMTZ5N0o5M1lQdVlUa3dRZGpmTXRSeWdQdkY0NzdDSkE1R2dlLWt0NTlObkx3bHprN0JEYkVrNVhkeHQ3R3FIWQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94U2RXZHd4S0o1Q1duODN0RXpDWVJCdEV4czYtSXA0OHdkYkZCZkc4OVpjVHNsWHkxbHlCUE5BeWREZVRJRFdTd0hFR1lnNF9XZVZjdW4tMVhZeVl5a0N4Z0xaTlhERUNFOU9fSm1B0gFzQVVfeXFMTjc0elRLdlNlUU5fT2lndzVJVFItSHZ5QURWcE1UbXc5dTVsMHR0S2ZyR3VOMTZ5N0o5M1lQdVlUa3dRZGpmTXRSeWdQdkY0NzdDSkE1R2dlLWt0NTlObkx3bHprN0JEYkVrNVhkeHQ3R3FIWQ?oc=5",
     "source": {
-      "id": "gnews-splunk-es-soar",
+      "id": "gnews-splunk-platform",
       "name": "CyberSecurityNews",
-      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
     },
     "author": null,
     "publishedAt": "2026-10-23T07:00:00+00:00",
     "fetchedAt": "2026-10-24T20:02:28+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -3944,9 +3887,7 @@
     "author": "Tim Wojtulewicz",
     "publishedAt": "2026-10-22T19:09:22+00:00",
     "fetchedAt": "2026-10-22T21:03:04+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3954,7 +3895,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "In the brave new world of LLMs, open-source projects are facing a much larger in-flux of security findings. Zeek is no different, and while we have always prided ourselves on the amount of automated scanning we already do to find issues, we have had a large amount of new findings. We have been fortunate enough […]",
+    "summary": "Updates to the Zeek Security Patch Process",
     "summarySource": "extractive",
     "clusterId": "d55280cd8e1ce1bd",
     "lang": "en",
@@ -5335,7 +5276,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics Oracle Blogs",
+    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics - Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "33d9d9319238afe7",
     "lang": "en",
@@ -5573,7 +5514,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking Developer Tech News",
+    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking - Developer Tech News",
     "summarySource": "extractive",
     "clusterId": "ac190289f561f7c5",
     "lang": "en",
@@ -5827,9 +5768,7 @@
     "author": "Sujala Vasanthasena",
     "publishedAt": "2026-10-13T18:43:11+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5837,7 +5776,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When I first started learning Zeek, I mainly thought of it as a network security monitoring framework: inspect traffic, extract useful information, generate logs, and detect suspicious activity. But while experimenting with Zeek scripting, I became interested in a different question: Can Zeek’s scripting and logging capabilities be used to monitor IoT-style telemetry, even when […]",
+    "summary": "Building a Biological Incubator Environmental Monitoring System with Zeek",
     "summarySource": "extractive",
     "clusterId": "be4755144ad0b608",
     "lang": "en",
@@ -7193,9 +7132,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-10-05T21:53:58+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "security",
@@ -7204,7 +7141,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "One team won’t start building an alert until someone has written down what it is, why it matters to the organization, what to do when it fires and how to confirm it’s resolved. Another curates and tests its Zeek alerts first, decides whether each one goes to the SIEM or triggers an automated block, and […]",
+    "summary": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
     "summarySource": "extractive",
     "clusterId": "9204a71a032e97f4",
     "lang": "en",
@@ -9205,9 +9142,7 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-09-28T17:29:59+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "security"
@@ -9215,7 +9150,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek’s JSON logs can get large quickly, especially if you’re ingesting them into a SIEM that charges by data volume. There are two ways to address this: filtering out uninteresting log lines, and renaming fields to reduce per-event size. Both take only a few lines of code.",
+    "summary": "Reducing Zeek JSON Log Size: Field Name Mapping and Log Filtering Hooks",
     "summarySource": "extractive",
     "clusterId": "86c494a4337d6326",
     "lang": "en",
@@ -10405,9 +10340,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -10415,7 +10348,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
+    "summary": "Zeek Workshop Berkeley 2026 Recap",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -10521,9 +10454,7 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "product-release"
@@ -10531,7 +10462,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
+    "summary": "Introducing Zeek 9",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -12187,7 +12118,6 @@
     "publishedAt": "2026-09-07T07:00:00+00:00",
     "fetchedAt": "2026-09-07T16:58:50+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -12199,7 +12129,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
@@ -12227,7 +12157,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
@@ -12303,9 +12233,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -12313,7 +12241,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
+    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
@@ -12334,7 +12262,6 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -12346,7 +12273,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
@@ -12396,17 +12323,15 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
+    "summary": "How Attackers Learn Your Network Before They Attack It",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -12947,9 +12872,7 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "tutorial"
@@ -12957,68 +12880,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
+    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
     "license": null,
     "attribution": "via Zeek Blog"
-  },
-  {
-    "id": "52fbb0e3a8ade61b",
-    "title": "Introducing nDPI 6.0: Licensing Update, Slow DoS Detection and Smarter Fingerprints",
-    "url": "https://www.ntop.org/introducing-ndpi-6-0-licensing-update-slow-dos-detection-and-smarter-fingerprints/",
-    "canonicalUrl": "https://www.ntop.org/introducing-ndpi-6-0-licensing-update-slow-dos-detection-and-smarter-fingerprints",
-    "source": {
-      "id": "ntop-blog",
-      "name": "ntop Blog",
-      "homepage": "https://www.ntop.org/blog"
-    },
-    "author": "admin",
-    "publishedAt": "2026-08-28T14:31:45+00:00",
-    "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Introducing nDPI 6.0: Licensing Update, Slow DoS Detection and Smarter Fingerprints",
-    "summarySource": "extractive",
-    "clusterId": "52fbb0e3a8ade61b",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ntop Blog"
-  },
-  {
-    "id": "d9b5afeac7b4fe86",
-    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-    "url": "https://blog.cloudflare.com/botbase-for-operators/",
-    "canonicalUrl": "https://blog.cloudflare.com/botbase-for-operators",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Julian Laxman",
-    "publishedAt": "2026-08-28T12:59:44+00:00",
-    "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-    "summarySource": "extractive",
-    "clusterId": "d9b5afeac7b4fe86",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
   },
   {
     "id": "6ae37150f8034b95",
