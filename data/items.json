@@ -78,7 +78,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "By Adam Kułagowski, Principal Network Engineer, CodiLime Sponsored by CodiLime as part of their sponsorship of AutoCon6 Most of us probably remember when DevOps was introduced and two silos that had worked separately until then, development and operations, were asked to work closely together. What was a shiny new thing back then is a commodity now. ... Read more »",
+    "summary": "Into the Unknown of the Linux Network Stack (Sponsored)",
     "summarySource": "extractive",
     "clusterId": "a825cf15a3a214a7",
     "lang": "en",
@@ -284,7 +284,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "We built a BGP anomaly detector on public RIPE RIS data and tested it on the 2025 Iberian blackout and in a blind test with a network's operations team. It holds up within one network, but not across networks of different shapes. We describe the results and ask for operator input.",
+    "summary": "Would You Have Noticed? A Blind Test of BGP Anomaly Detection",
     "summarySource": "extractive",
     "clusterId": "cae25aa55d97cfed",
     "lang": "en",
@@ -525,7 +525,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache - Amazon Web Services (AWS)",
+    "summary": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache Amazon Web Services (AWS)",
     "summarySource": "extractive",
     "clusterId": "56ac863aeb02d60f",
     "lang": "en",
@@ -545,9 +545,7 @@
     "author": "Ciprian Lucanu",
     "publishedAt": "2026-11-19T09:57:50+00:00",
     "fetchedAt": "2026-11-25T16:35:41+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "standards"
@@ -555,7 +553,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Some visitors couldn't open a US school's website. Packet captures showed a mobile carrier forging TLS replies and a VPN refusing DNS lookups, both because the domain was on a reputation blocklist. With a credit grant from RIPE Atlas, we checked DNS and TLS from 45 probes inside 21 US ISPs.",
+    "summary": "Is It the Network or the Website?",
     "summarySource": "extractive",
     "clusterId": "05676ae8b52f819a",
     "lang": "en",
@@ -576,7 +574,8 @@
     "publishedAt": "2026-11-19T08:36:42+00:00",
     "fetchedAt": "2026-11-22T23:03:01+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -585,7 +584,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Patches Critical 9.9 RCE and Authentication Bypass Vulnerabilities in SOAR and Enterprise - CyberSecurityNews",
+    "summary": "Splunk Patches Critical 9.9 RCE and Authentication Bypass Vulnerabilities in SOAR and Enterprise CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "48bd66b1d449d182",
     "lang": "en",
@@ -766,7 +765,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "How do you deliver a 200 GB game to millions of players? As GTA 6 pre-loads got underway last week, we turned to RIPE Atlas to examine how DNS and content delivery networks help PlayStation and Xbox share the load.",
+    "summary": "Who’s Delivering GTA 6? A RIPE Atlas Measurement Story",
     "summarySource": "extractive",
     "clusterId": "3749ee056c29fa76",
     "lang": "en",
@@ -830,7 +829,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "By Kris Beevers, Founder and CEO, NetBox Labs Sponsored by NetBox Labs as part of their sponsorship of AutoCon6 Networks have never been simple, but the last few years have pushed complexity to a new level. Hybrid and multi-cloud architectures, AI workloads that strain power and cooling, edge deployments, and constant change have turned the ... Read more »",
+    "summary": "NetBox Labs Adds New Datacenter Design, Network Analytics and Visualization Capabilities to Infrastructure Intelligence Platform (Sponsored)",
     "summarySource": "extractive",
     "clusterId": "46bc0d05ccc23240",
     "lang": "en",
@@ -1218,7 +1217,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "By Chris Wade | Co-Founder & CTO of Itential Sponsored by Itential as part of their sponsorship of AutoCon6 You’ve written the scripts. You have playbooks that work. You know which checks matter before a change and which warnings mean someone needs to stop and investigate.",
+    "summary": "Bringing AI Agents Into the Network Automation You Already Trust (Sponsored)",
     "summarySource": "extractive",
     "clusterId": "61060e15c0a2c6e9",
     "lang": "en",
@@ -1728,7 +1727,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Unimus, a network configuration management platform, is adding native MCP support in an upcoming release. I was briefed by Unimus ahead of the AutoCon 6 conference. Here’s what I learned.",
+    "summary": "Unimus To Add Native MCP Support – AutoCon 6 Briefing",
     "summarySource": "extractive",
     "clusterId": "183646b2de0c82c3",
     "lang": "en",
@@ -1984,7 +1983,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ROV turned your validator into a forwarding policy source. The registries have strengthened their side of the RPKI, but the chain from repository to router runs on your infrastructure. When that chain breaks, it often breaks silently.",
+    "summary": "Your Router Trusts Its Validator. But Who's Watching the Validator?",
     "summarySource": "extractive",
     "clusterId": "fe6b3d050e721656",
     "lang": "en",
@@ -2324,34 +2323,6 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "7d8e5af66c547bfc",
-    "title": "Do Registrars Use DNSSEC on Their Own Domains?",
-    "url": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains/",
-    "canonicalUrl": "https://labs.ripe.net/author/tobiassattler/do-registrars-use-dnssec-on-their-own-domains",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "Tobias Sattler",
-    "publishedAt": "2026-11-05T07:09:04+00:00",
-    "fetchedAt": "2026-11-25T16:35:41+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Registrars must support DNSSEC for customers, but how many use it themselves? A study of 698 registrar domains finds fewer than one in ten has a DS record, with European registrars ahead of the rest. Tobias Sattler explores the gap and its possible explanations.",
-    "summarySource": "extractive",
-    "clusterId": "7d8e5af66c547bfc",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "7d51b51f4d9ae2c5",
     "title": "Mastering stateful stream reordering at 200,000 messages per second",
     "url": "https://blogs.cisco.com/cisco-devnet/flink-ab-development-stateful-stream-processing/",
@@ -2532,6 +2503,36 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "37edaffca30791a1",
+    "title": "AI Assistant overview | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-11-03T23:50:12.275Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUXNUcFk3U3Fkc0wyamkzd2VJUjZCa21yeTNldFJxMlBTX05seHRVd3RtM2hTU0pwUTBOeVZ6SlFIazRIS05ZRy1hZjlIMEVYRzNIdmVONDhiY2ZneHB6QVNaWHZiUlUxU09kb3B4QUs1cUhNZ25EcDhSWWxiQ1lhc3E0TGgycFB0RlE5RmpIWWlxVlo1Q25nYWRFYkF0M0dOODN3WmtreEhUWGt4NU1TU2dHS3dpWE1UT0xmT1VBQ1owX2RxemtxTW1hSmtUd1hLekZ0WEd5VWZqN1E?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUXNUcFk3U3Fkc0wyamkzd2VJUjZCa21yeTNldFJxMlBTX05seHRVd3RtM2hTU0pwUTBOeVZ6SlFIazRIS05ZRy1hZjlIMEVYRzNIdmVONDhiY2ZneHB6QVNaWHZiUlUxU09kb3B4QUs1cUhNZ25EcDhSWWxiQ1lhc3E0TGgycFB0RlE5RmpIWWlxVlo1Q25nYWRFYkF0M0dOODN3WmtreEhUWGt4NU1TU2dHS3dpWE1UT0xmT1VBQ1owX2RxemtxTW1hSmtUd1hLekZ0WEd5VWZqN1E?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-03T08:00:00+00:00",
+    "fetchedAt": "2026-11-26T01:23:42+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "AI Assistant overview | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-11-03T23:50:12.275Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "37edaffca30791a1",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "3a7b5e90d08a0204",
     "title": "Zeek Data Beyond Threat Detection",
     "url": "https://zeek.org/2026/11/zeek-data-beyond-threat-detection/",
@@ -2544,7 +2545,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-11-02T23:09:12+00:00",
     "fetchedAt": "2026-11-03T00:15:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -2552,7 +2555,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Data Beyond Threat Detection",
+    "summary": "When the security cameras on one network weren’t syncing properly, the ntp logs were where one practitioner went looking. It’s the only time they’ve opened those logs, and they didn’t find much that helped, though they’re sure something useful must be in there. Another practitioner skips the ntp logs entirely, while admitting there’s probably some […]",
     "summarySource": "extractive",
     "clusterId": "3a7b5e90d08a0204",
     "lang": "en",
@@ -2726,7 +2729,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon NeoTeo",
+    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon - NeoTeo",
     "summarySource": "extractive",
     "clusterId": "4ab420ebc8841b26",
     "lang": "en",
@@ -3023,7 +3026,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Extreme Networks has announced a new AI agent to manage Extreme switches and APs. Called Agent One Operator, this AI agent that can take autonomous action such as running checks for new vulnerabilities, finding APs that drop clients, running firmware compliance audits, and other jobs. Nabil Bukhari, President AI Platforms and EVP, CTO, announced Agent ONE ...",
+    "summary": "Extreme Networks Adds Autonomous AI with Agent ONE Operator",
     "summarySource": "extractive",
     "clusterId": "98489b2d7f8d27b5",
     "lang": "en",
@@ -3416,7 +3419,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "SIDN Labs has released open DNS traffic data for .nl in the same format used by root server operators. In this guest post, they explain what they’re sharing and how it opens up new comparisons across the DNS.",
+    "summary": "SIDN Publishes RSSAC002 Traffic Metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -3941,7 +3944,9 @@
     "author": "Tim Wojtulewicz",
     "publishedAt": "2026-10-22T19:09:22+00:00",
     "fetchedAt": "2026-10-22T21:03:04+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -3949,7 +3954,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Updates to the Zeek Security Patch Process",
+    "summary": "In the brave new world of LLMs, open-source projects are facing a much larger in-flux of security findings. Zeek is no different, and while we have always prided ourselves on the amount of automated scanning we already do to find issues, we have had a large amount of new findings. We have been fortunate enough […]",
     "summarySource": "extractive",
     "clusterId": "d55280cd8e1ce1bd",
     "lang": "en",
@@ -5248,34 +5253,6 @@
     "attribution": "via OpenTelemetry Blog"
   },
   {
-    "id": "b528f78deb87a51d",
-    "title": "Saving IPv4 Addresses on Interconnection with RFC8950",
-    "url": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950/",
-    "canonicalUrl": "https://labs.ripe.net/author/grueneberg/saving-ipv4-addresses-on-interconnection-with-rfc8950",
-    "source": {
-      "id": "ripe-labs",
-      "name": "RIPE Labs",
-      "homepage": "https://labs.ripe.net"
-    },
-    "author": "André Grüneberg",
-    "publishedAt": "2026-10-19T08:53:35+00:00",
-    "fetchedAt": "2026-11-25T16:35:41+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Many of us have been struggling with dual-stack IP address assignment on transfer networks. But what if we could reduce the work and concentrate on one IPv6 address per interconnection? Turns out, we already can.",
-    "summarySource": "extractive",
-    "clusterId": "b528f78deb87a51d",
-    "lang": "en",
-    "license": null,
-    "attribution": "via RIPE Labs"
-  },
-  {
     "id": "71e3376cd31713b6",
     "title": "Inside Kubernetes Networking: CNIs, iptables, IPVS, eBPF & Service Mesh | Networking Deep Dive - YouTube",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IYVNwenlLTUpyQ3N0RklHVXU3NHJhaU9vdkRRODgwemNjR2FtTG55VXlpTlRMdnA3aUhIbEwtUHVpQQ?oc=5",
@@ -5358,7 +5335,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics - Oracle Blogs",
+    "summary": "Troubleshooting MySQL with OpenTelemetry Metrics Oracle Blogs",
     "summarySource": "extractive",
     "clusterId": "33d9d9319238afe7",
     "lang": "en",
@@ -5596,7 +5573,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking - Developer Tech News",
+    "summary": "LogicMonitor expands data platform with OpenTelemetry and cost tracking Developer Tech News",
     "summarySource": "extractive",
     "clusterId": "ac190289f561f7c5",
     "lang": "en",
@@ -5850,7 +5827,9 @@
     "author": "Sujala Vasanthasena",
     "publishedAt": "2026-10-13T18:43:11+00:00",
     "fetchedAt": "2026-10-13T18:43:49+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -5858,7 +5837,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Building a Biological Incubator Environmental Monitoring System with Zeek",
+    "summary": "When I first started learning Zeek, I mainly thought of it as a network security monitoring framework: inspect traffic, extract useful information, generate logs, and detect suspicious activity. But while experimenting with Zeek scripting, I became interested in a different question: Can Zeek’s scripting and logging capabilities be used to monitor IoT-style telemetry, even when […]",
     "summarySource": "extractive",
     "clusterId": "be4755144ad0b608",
     "lang": "en",
@@ -5935,7 +5914,8 @@
     "publishedAt": "2026-10-13T07:00:00+00:00",
     "fetchedAt": "2026-10-14T10:57:42+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -5944,7 +5924,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! - CCB Belgium",
+    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! CCB Belgium",
     "summarySource": "extractive",
     "clusterId": "b82b48ea6c29de92",
     "lang": "en",
@@ -6272,6 +6252,37 @@
     "attribution": "via Cloudflare Blog"
   },
   {
+    "id": "7fd05fd29120a706",
+    "title": "22 Splunk Enterprise Flaws Now Fixed with Updates - The Cyber Express",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4dU12cmc1aVFEaGhQbHVuRURwaXZ5dXo1aTRlNThJMmlweHp1b29rT2NhY2JWWTNWQmlBTHFoSDJKWWRCY2h5eFktUGlrRlEtVndnRDFxXzJZZEUycUZ1WFhuTjBwbTdDcVpKd2xn0gFzQVVfeXFMTnpXcVVuV19vYUVta2U2YnVEZkV6dl9fczV4d1dMOVVoWERUQWd1RzRQR1h2aFVkbUNCckNWOXdhVGZfbDBSSWhWTy13TzAwSWNCQ2h5c21yT29yeVlkSGd2SFBiYjVZdHh3azE1MUdsSHIzMA?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4dU12cmc1aVFEaGhQbHVuRURwaXZ5dXo1aTRlNThJMmlweHp1b29rT2NhY2JWWTNWQmlBTHFoSDJKWWRCY2h5eFktUGlrRlEtVndnRDFxXzJZZEUycUZ1WFhuTjBwbTdDcVpKd2xn0gFzQVVfeXFMTnpXcVVuV19vYUVta2U2YnVEZkV6dl9fczV4d1dMOVVoWERUQWd1RzRQR1h2aFVkbUNCckNWOXdhVGZfbDBSSWhWTy13TzAwSWNCQ2h5c21yT29yeVlkSGd2SFBiYjVZdHh3azE1MUdsSHIzMA?oc=5",
+    "source": {
+      "id": "gnews-splunk-platform",
+      "name": "The Cyber Express",
+      "homepage": "https://www.splunk.com/en_us/blog/platform"
+    },
+    "author": null,
+    "publishedAt": "2026-10-09T07:00:00+00:00",
+    "fetchedAt": "2026-11-26T01:23:42+00:00",
+    "topics": [
+      "splunk",
+      "cisco-data-fabric"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "22 Splunk Enterprise Flaws Now Fixed with Updates The Cyber Express",
+    "summarySource": "extractive",
+    "clusterId": "1a80c1b67f5c3ce6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via The Cyber Express (Google News)"
+  },
+  {
     "id": "2641d461cd550b48",
     "title": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication - Forkast News",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM0d3cmVnSGFXY0pHSlV1LVZHaS1JWVB3dmh3VHMyc256cDl2Yjh4NnJtYV83Qk5hY3hwSTlTUV9kOEJtcXVXNVVRckZ6S1ZfdHR1SkNRVVR6VkVmclRkMUFhd0JscUlCdk5zTExFSHktQTdmVVR1TF81Ulp4Zkp1UUVBa1kySW5ZcWJWMVNQUVNTNkVzQTc4RGJoZVJSTmFVQmZoZ1RSZVpYTmdEUmo3aDdEeThESkxsSC1LMUlFLTJOYkU2OWtJcDBWYw?oc=5",
@@ -6285,7 +6296,8 @@
     "publishedAt": "2026-10-09T07:00:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -6294,7 +6306,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication - Forkast News",
+    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication Forkast News",
     "summarySource": "extractive",
     "clusterId": "2641d461cd550b48",
     "lang": "en",
@@ -6476,7 +6488,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6537,8 +6549,7 @@
       "enterprise-security"
     ],
     "categories": [
-      "product-release",
-      "security"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -6716,7 +6727,8 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk"
+      "splunk",
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -6725,7 +6737,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution - CyberSecurityNews",
+    "summary": "Splunk Patches Critical 9.8 Flaw Allowing Unauthenticated Remote Command Execution CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "a0a53e15519d15f8",
     "lang": "en",
@@ -7096,7 +7108,7 @@
       "nexus-dashboard"
     ],
     "categories": [
-      "product-release"
+      "tutorial"
     ],
     "audiences": [
       "global"
@@ -7181,15 +7193,18 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-10-05T21:53:58+00:00",
     "fetchedAt": "2026-10-05T23:32:51+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
+      "security",
       "tutorial"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Which Zeek Alerts Do You Trust? Practitioners Say It Depends.",
+    "summary": "One team won’t start building an alert until someone has written down what it is, why it matters to the organization, what to do when it fires and how to confirm it’s resolved. Another curates and tests its Zeek alerts first, decides whether each one goes to the SIEM or triggers an automated block, and […]",
     "summarySource": "extractive",
     "clusterId": "9204a71a032e97f4",
     "lang": "en",
@@ -8359,7 +8374,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -9190,15 +9205,17 @@
     "author": "Johanna Amann",
     "publishedAt": "2026-09-28T17:29:59+00:00",
     "fetchedAt": "2026-09-28T22:49:45+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Reducing Zeek JSON Log Size: Field Name Mapping and Log Filtering Hooks",
+    "summary": "Zeek’s JSON logs can get large quickly, especially if you’re ingesting them into a SIEM that charges by data volume. There are two ways to address this: filtering out uninteresting log lines, and renaming fields to reduce per-event size. Both take only a few lines of code.",
     "summarySource": "extractive",
     "clusterId": "86c494a4337d6326",
     "lang": "en",
@@ -10166,34 +10183,6 @@
     "attribution": "via Cisco Data Center Blog"
   },
   {
-    "id": "fa984377e78b0ed6",
-    "title": "Startup Radar: EVA Networks – Secure, Ephemeral, On Demand Connectivity",
-    "url": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity/",
-    "canonicalUrl": "https://packetpushers.net/blog/startup-radar-eva-networks-secure-ephemeral-on-demand-connectivity",
-    "source": {
-      "id": "packetpushers-blog",
-      "name": "Packet Pushers Blog",
-      "homepage": "https://packetpushers.net/blog"
-    },
-    "author": "Ethan Banks",
-    "publishedAt": "2026-09-21T13:00:34+00:00",
-    "fetchedAt": "2026-11-24T03:40:51+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "EVA Networks' big idea is ephemeral connectivity. Don’t stand up a permanent network connections. Instead, instantiate on-demand connectivity, tearing it down when communications are done.",
-    "summarySource": "extractive",
-    "clusterId": "fa984377e78b0ed6",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Packet Pushers Blog"
-  },
-  {
     "id": "bf2ea8abc504ecbb",
     "title": "Python Workers are now generally available",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -10368,7 +10357,7 @@
       "global",
       "nordics"
     ],
-    "summary": "Cyber Round Up: AI Risks Get Real, Agents Take On More - UC Today",
+    "summary": "Cyber Round Up: AI Risks Get Real, Agents Take On More UC Today",
     "summarySource": "extractive",
     "clusterId": "3cea95a5a02a66b4",
     "lang": "en",
@@ -10416,7 +10405,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-18T17:09:07+00:00",
     "fetchedAt": "2026-09-18T20:14:16+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -10424,7 +10415,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Zeek Workshop Berkeley 2026 Recap",
+    "summary": "Last week, the Zeek community gathered at the David Brower Center in Berkeley, California for two days of talks, trainings, and conversations about all things Zeek. After an energetic workshop at CERN back in March, we were very excited to see people show up again to learn what others are doing with Zeek and to […]",
     "summarySource": "extractive",
     "clusterId": "68d10aab6904ffdf",
     "lang": "en",
@@ -10452,7 +10443,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What’s LumaTrack do? LumaTrack quantifies how much money an automation saves (or loses!) a company each time it’s run. Jonathon described it to me as a \"system of record for automation value.\"",
+    "summary": "Startup Radar: LumaTrack – Financial Metrics For Network Automation",
     "summarySource": "extractive",
     "clusterId": "0201b6363492bc64",
     "lang": "en",
@@ -10530,15 +10521,17 @@
     "author": "Christian Kreibich",
     "publishedAt": "2026-09-17T21:14:14+00:00",
     "fetchedAt": "2026-09-18T02:33:36+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "Introducing Zeek 9",
+    "summary": "We’re proud to announce the release of Zeek 9.0! This long-term support release builds on our work in 8.1 and 8.2, and provides important new ways to communicate events in the cluster, consume encapsulated traffic, and orchestrate cluster processes. It also features a range of protocol analyzer improvements and additions, including a new version of […]",
     "summarySource": "extractive",
     "clusterId": "8f5289f4236e4aa3",
     "lang": "en",
@@ -12310,7 +12303,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-09-03T18:26:50+00:00",
     "fetchedAt": "2026-09-03T20:21:28+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -12318,7 +12313,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Why There’s No Single Right Zeek Deployment Architecture",
+    "summary": "Every month we ask the Zeek community a different question about how they work. This month’s question was about deployment: how do you decide on your architecture, and what would you reconsider? The answers made one thing clear: there isn’t a single right answer, even among practitioners who’ve been doing this for decades.",
     "summarySource": "extractive",
     "clusterId": "c1dabc08c5d54383",
     "lang": "en",
@@ -12401,15 +12396,17 @@
     "author": "Aashish Sharma",
     "publishedAt": "2026-09-02T18:21:18+00:00",
     "fetchedAt": "2026-09-02T20:21:47+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
-      "tutorial"
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "How Attackers Learn Your Network Before They Attack It",
+    "summary": "Almost no attack begins with an exploit. It begins with a question: What’s out there? Before anyone tries a default password on your VPN gateway or throws an exploit at an unpatched service, they have to find the gateway and the service.",
     "summarySource": "extractive",
     "clusterId": "f597bd8f7d2ecb3c",
     "lang": "en",
@@ -12950,7 +12947,9 @@
     "author": "Michelle Pathe",
     "publishedAt": "2026-08-28T16:12:24+00:00",
     "fetchedAt": "2026-08-28T21:37:35+00:00",
-    "topics": [],
+    "topics": [
+      "network-observability"
+    ],
     "tags": [],
     "categories": [
       "tutorial"
@@ -12958,7 +12957,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "2026 Zeek Project Survey Results: What We Heard and What’s Next",
+    "summary": "A huge thank you to the 63 of you who took the time to fill out this year’s community survey. Your feedback gives us a clear, honest look at how Zeek fits into your work, and where the community is (and isn’t yet) pulling its weight. How Central is Zeek to What You Do?",
     "summarySource": "extractive",
     "clusterId": "bef6356d184ab434",
     "lang": "en",
@@ -13017,62 +13016,6 @@
     "summary": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
     "summarySource": "extractive",
     "clusterId": "d9b5afeac7b4fe86",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Cloudflare Blog"
-  },
-  {
-    "id": "0534e91d190c6463",
-    "title": "Introducing PF_RING 9.4: Expanding Capabilities Across Capture, Flow Processing and Hardware Support",
-    "url": "https://www.ntop.org/introducing-pf_ring-9-4-expanding-capabilities-across-capture-flow-processing-and-hardware-support/",
-    "canonicalUrl": "https://www.ntop.org/introducing-pf_ring-9-4-expanding-capabilities-across-capture-flow-processing-and-hardware-support",
-    "source": {
-      "id": "ntop-blog",
-      "name": "ntop Blog",
-      "homepage": "https://www.ntop.org/blog"
-    },
-    "author": "Alfredo Cardigliano",
-    "publishedAt": "2026-08-27T17:29:00+00:00",
-    "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Introducing PF_RING 9.4: Expanding Capabilities Across Capture, Flow Processing and Hardware Support",
-    "summarySource": "extractive",
-    "clusterId": "0534e91d190c6463",
-    "lang": "en",
-    "license": null,
-    "attribution": "via ntop Blog"
-  },
-  {
-    "id": "01d416ecd1b86319",
-    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-    "canonicalUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111",
-    "source": {
-      "id": "cloudflare-blog",
-      "name": "Cloudflare Blog",
-      "homepage": "https://blog.cloudflare.com"
-    },
-    "author": "Sebastiaan Neuteboom",
-    "publishedAt": "2026-08-27T17:02:35+00:00",
-    "fetchedAt": "2026-08-27T21:32:05+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "tutorial"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-    "summarySource": "extractive",
-    "clusterId": "01d416ecd1b86319",
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
