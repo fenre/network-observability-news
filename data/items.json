@@ -21,7 +21,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "The 2027 APNIC Activity Plan is now available.",
+    "summary": "2027 Activity Plan published",
     "summarySource": "extractive",
     "clusterId": "e4e54bb494f75e94",
     "lang": "en",
@@ -79,7 +79,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Small AI inference deployments do not necessarily need the expensive network architecture of a large training cluster. When a model fits within each GPU server, existing data centre networks can often handle the workload with careful attention to uplinks, reverse proxies, model transfers, and QoS.",
+    "summary": "The model inside the server: Network design for inference on a few GPU nodes",
     "summarySource": "extractive",
     "clusterId": "b2444db8cb00572f",
     "lang": "en",
@@ -163,7 +163,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Installation is only the beginning of a successful solar PV project. Careful commissioning, ongoing monitoring, and learning how your system behaves are essential to achieving long-term reliability and resilience.",
+    "summary": "Solar PV for Internet resilience (Part 3): Installing and operating your system",
     "summarySource": "extractive",
     "clusterId": "667fc3472e291a81",
     "lang": "en",
@@ -401,7 +401,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "A vulnerability does not have to exist in BGP, DNS, or another application to put those services at risk. Vulnerabilities in the underlying network stack remind operators that dependencies they rarely think about can become part of their attack surface.",
+    "summary": "The supply chain risk beneath our network services: Maybe it’s us",
     "summarySource": "extractive",
     "clusterId": "eadfc0c446c85b24",
     "lang": "en",
@@ -559,12 +559,12 @@
   },
   {
     "id": "56ac863aeb02d60f",
-    "title": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache - Amazon Web Services (AWS)",
+    "title": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache - Amazon Web Services",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT19Oc0lIb1Vma2JHVDNLTXVyZUx4eE9JMC1PTElSMzlyTjBhN3VTeWZHNnl4NE85c0ZhR2ZuT01wYWk3TFZ0LXM3dW82UmpCNUd2SlhYbHFpNTE5TkdWNl9yX0hKcGxDamFBN1RXUm9jemZhNjhzR2hfSC1RTFB0aThfR1JHbjFTdHF3a1cyS1V6WFhIbS0zV29aVV9hU3JKS3Q1WFEycW9wdGF2RzBLSA?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT19Oc0lIb1Vma2JHVDNLTXVyZUx4eE9JMC1PTElSMzlyTjBhN3VTeWZHNnl4NE85c0ZhR2ZuT01wYWk3TFZ0LXM3dW82UmpCNUd2SlhYbHFpNTE5TkdWNl9yX0hKcGxDamFBN1RXUm9jemZhNjhzR2hfSC1RTFB0aThfR1JHbjFTdHF3a1cyS1V6WFhIbS0zV29aVV9hU3JKS3Q1WFEycW9wdGF2RzBLSA?oc=5",
     "source": {
       "id": "gnews-opentelemetry-network",
-      "name": "Amazon Web Services (AWS)",
+      "name": "Amazon Web Services",
       "homepage": "https://news.google.com/search?q=OpenTelemetry%20network"
     },
     "author": null,
@@ -582,12 +582,12 @@
     "audiences": [
       "global"
     ],
-    "summary": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache Amazon Web Services (AWS)",
+    "summary": "Monitor Valkey clusters with OpenTelemetry metrics in Amazon ElastiCache Amazon Web Services",
     "summarySource": "extractive",
     "clusterId": "56ac863aeb02d60f",
     "lang": "en",
     "license": null,
-    "attribution": "via Amazon Web Services (AWS) (Google News)"
+    "attribution": "via Amazon Web Services (Google News)"
   },
   {
     "id": "48bd66b1d449d182",
@@ -749,7 +749,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10MFBtNUdReWdaNHRDUHRBNVZSY1R4RHdkNHVLU0VHTjRUWWlyeEJITE5xcGNsTV8wTUtIcmpYOEtnTHBtNElNS2RWb1NzMTdXdjNlUXdsbU5UdVpoNFJMVUlB?oc=5",
     "source": {
-      "id": "gnews-splunk-features",
+      "id": "gnews-splunk-blog",
       "name": "Splunk",
       "homepage": "https://www.splunk.com/en_us/blog"
     },
@@ -1639,7 +1639,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: SIDN Labs shares insight into traffic to the authoritative .nl nameservers.",
+    "summary": "SIDN publishes RSSAC002 traffic metrics for .nl",
     "summarySource": "extractive",
     "clusterId": "0372e4d6836a13e9",
     "lang": "en",
@@ -1986,9 +1986,39 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's new | Splunk Cloud Platform (last updated 2026-11-08T15:22:50.733Z) - Splunk",
+    "summary": "What's new | Splunk Cloud Platform (last updated 2026-11-08T15:22:50.733Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "c46f361650e66ff8",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
+    "id": "478f95e024c4d847",
+    "title": "Welcome to Splunk Cloud Platform | Splunk Cloud Platform (last updated 2026-11-08T15:22:50.733Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3JZR1M5cFdmY1Fmd3RUQnZUX0JEbkR6OEhZN01iTXh5bWdkREJqaWIydHV0SllzS2FaZVBSYVpuazNQcU1OYnVUNEVia2FqNUltQW9JRFZSQjBzV3VNZU9FbXR4dEZoUjl5TmZIcWhObTBQLTNmaFJVUW9raTJjR3hDenBNR1dVTFd5bQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3JZR1M5cFdmY1Fmd3RUQnZUX0JEbkR6OEhZN01iTXh5bWdkREJqaWIydHV0SllzS2FaZVBSYVpuazNQcU1OYnVUNEVia2FqNUltQW9JRFZSQjBzV3VNZU9FbXR4dEZoUjl5TmZIcWhObTBQLTNmaFJVUW9raTJjR3hDenBNR1dVTFd5bQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-11-08T08:00:00+00:00",
+    "fetchedAt": "2026-11-09T14:50:50+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Welcome to Splunk Cloud Platform | Splunk Cloud Platform (last updated 2026-11-08T15:22:50.733Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "478f95e024c4d847",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
@@ -2078,7 +2108,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Install Splunk Enterprise - Splunk",
+    "summary": "Install Splunk Enterprise Splunk",
     "summarySource": "extractive",
     "clusterId": "6ec9bedef15e07c8",
     "lang": "en",
@@ -2216,9 +2246,7 @@
     "author": "Xavier Marjou",
     "publishedAt": "2026-11-06T00:04:21+00:00",
     "fetchedAt": "2026-11-06T04:32:12+00:00",
-    "topics": [
-      "network-observability"
-    ],
+    "topics": [],
     "tags": [],
     "categories": [
       "news"
@@ -2226,7 +2254,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: Packet captures are the ground truth of network operations, but analysing them is slow, requires specialist expertise, and does not scale. PCAP-LM rewrites captures into a form that AI assistants can read, helping address that mismatch.",
+    "summary": "PCAP-LM: Helping AI assistants read network traffic",
     "summarySource": "extractive",
     "clusterId": "3f9f09ab48b1c565",
     "lang": "en",
@@ -2498,7 +2526,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "AI Assistant overview | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-11-03T23:50:12.275Z) Splunk",
+    "summary": "AI Assistant overview | Splunk Cloud Platform, Splunk Enterprise (last updated 2026-11-03T23:50:12.275Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "37edaffca30791a1",
     "lang": "en",
@@ -2700,7 +2728,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon - NeoTeo",
+    "summary": "Cisco SD-WAN zero-day: defenses against Volt Typhoon NeoTeo",
     "summarySource": "extractive",
     "clusterId": "4ab420ebc8841b26",
     "lang": "en",
@@ -2969,7 +2997,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Darren Kara discusses how the Quad9 Public DNS server balances privacy, measurement, and global threat intelligence to help protect users from malicious destinations.",
+    "summary": "[Podcast] Quad9 — Measurement in the privacy-preserving public DNS service",
     "summarySource": "extractive",
     "clusterId": "ab31e938a36f1077",
     "lang": "en",
@@ -3206,8 +3234,7 @@
     "publishedAt": "2026-10-27T22:32:41+00:00",
     "fetchedAt": "2026-10-28T03:24:20+00:00",
     "topics": [
-      "cisco-data-fabric",
-      "network-observability"
+      "cisco-data-fabric"
     ],
     "tags": [],
     "categories": [
@@ -3216,7 +3243,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Guest Post: EVPN MAC mobility enables seamless workload movement, but it can also amplify the impact of MAC spoofing. A forged MAC address can redirect traffic across the fabric through BGP, making access-layer controls, route-reflector visibility, and MAC-move monitoring critical defences.",
+    "summary": "The EVPN trust challenge: How to detect and contain internal MAC hijacks",
     "summarySource": "extractive",
     "clusterId": "fec94df3d33a86c8",
     "lang": "en",
@@ -3394,7 +3421,7 @@
       "nordics",
       "nordics-no"
     ],
-    "summary": "Sentinel vs Splunk vs Elastic: SIEM fra 100 GB/dag [2026] shattered.io",
+    "summary": "Sentinel vs Splunk vs Elastic: SIEM fra 100 GB/dag [2026] - shattered.io",
     "summarySource": "extractive",
     "clusterId": "e3f41d25cb4c82f6",
     "lang": "en",
@@ -3850,16 +3877,15 @@
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94U2RXZHd4S0o1Q1duODN0RXpDWVJCdEV4czYtSXA0OHdkYkZCZkc4OVpjVHNsWHkxbHlCUE5BeWREZVRJRFdTd0hFR1lnNF9XZVZjdW4tMVhZeVl5a0N4Z0xaTlhERUNFOU9fSm1B0gFzQVVfeXFMTjc0elRLdlNlUU5fT2lndzVJVFItSHZ5QURWcE1UbXc5dTVsMHR0S2ZyR3VOMTZ5N0o5M1lQdVlUa3dRZGpmTXRSeWdQdkY0NzdDSkE1R2dlLWt0NTlObkx3bHprN0JEYkVrNVhkeHQ3R3FIWQ?oc=5",
     "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94U2RXZHd4S0o1Q1duODN0RXpDWVJCdEV4czYtSXA0OHdkYkZCZkc4OVpjVHNsWHkxbHlCUE5BeWREZVRJRFdTd0hFR1lnNF9XZVZjdW4tMVhZeVl5a0N4Z0xaTlhERUNFOU9fSm1B0gFzQVVfeXFMTjc0elRLdlNlUU5fT2lndzVJVFItSHZ5QURWcE1UbXc5dTVsMHR0S2ZyR3VOMTZ5N0o5M1lQdVlUa3dRZGpmTXRSeWdQdkY0NzdDSkE1R2dlLWt0NTlObkx3bHprN0JEYkVrNVhkeHQ3R3FIWQ?oc=5",
     "source": {
-      "id": "gnews-splunk-platform",
+      "id": "gnews-splunk-es-soar",
       "name": "CyberSecurityNews",
-      "homepage": "https://www.splunk.com/en_us/blog/platform"
+      "homepage": "https://news.google.com/search?q=Splunk%20Enterprise%20Security"
     },
     "author": null,
     "publishedAt": "2026-10-23T07:00:00+00:00",
     "fetchedAt": "2026-10-24T20:02:28+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -4559,7 +4585,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Release notes for Splunk Enterprise Security - Splunk",
+    "summary": "Release notes for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
     "clusterId": "a72bd4a7853e2e3f",
     "lang": "en",
@@ -4622,7 +4648,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Deploy and upgrade Splunk Enterprise Security Splunk Help",
+    "summary": "Deploy and upgrade Splunk Enterprise Security - Splunk Help",
     "summarySource": "extractive",
     "clusterId": "7e4a3a46646c71e1",
     "lang": "en",
@@ -4650,7 +4676,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cilium 1.20 expands Gateway API and opens eBPF datapath for Kubernetes news.lavx.hu",
+    "summary": "Cilium 1.20 expands Gateway API and opens eBPF datapath for Kubernetes - news.lavx.hu",
     "summarySource": "extractive",
     "clusterId": "627fdae9bca0196f",
     "lang": "en",
@@ -4713,7 +4739,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Overview of threat intelligence in Splunk Enterprise Security Splunk",
+    "summary": "Overview of threat intelligence in Splunk Enterprise Security - Splunk",
     "summarySource": "extractive",
     "clusterId": "09f22d91dcb2e4d7",
     "lang": "en",
@@ -5365,7 +5391,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "What's new | Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) Splunk",
+    "summary": "What's new | Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "a7a18dcb5ae7252a",
     "lang": "en",
@@ -5428,36 +5454,6 @@
     "summary": "Set up and use HTTP Event Collector in Splunk Web | Splunk Enterprise (last updated 2026-10-17T14:24:37.265Z) - Splunk",
     "summarySource": "extractive",
     "clusterId": "6dcefb4adc4fa862",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
-  },
-  {
-    "id": "478f95e024c4d847",
-    "title": "Welcome to Splunk Cloud Platform | Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3JZR1M5cFdmY1Fmd3RUQnZUX0JEbkR6OEhZN01iTXh5bWdkREJqaWIydHV0SllzS2FaZVBSYVpuazNQcU1OYnVUNEVia2FqNUltQW9JRFZSQjBzV3VNZU9FbXR4dEZoUjl5TmZIcWhObTBQLTNmaFJVUW9raTJjR3hDenBNR1dVTFd5bQ?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3JZR1M5cFdmY1Fmd3RUQnZUX0JEbkR6OEhZN01iTXh5bWdkREJqaWIydHV0SllzS2FaZVBSYVpuazNQcU1OYnVUNEVia2FqNUltQW9JRFZSQjBzV3VNZU9FbXR4dEZoUjl5TmZIcWhObTBQLTNmaFJVUW9raTJjR3hDenBNR1dVTFd5bQ?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-10-17T07:00:00+00:00",
-    "fetchedAt": "2026-11-09T14:50:50+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [],
-    "categories": [
-      "product-release"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Welcome to Splunk Cloud Platform | Splunk Cloud Platform (last updated 2026-10-17T14:19:49.252Z) - Splunk",
-    "summarySource": "extractive",
-    "clusterId": "478f95e024c4d847",
     "lang": "en",
     "license": null,
     "attribution": "via Splunk (Google News)"
@@ -6646,7 +6642,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -6730,8 +6726,7 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -6741,7 +6736,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands Cyber Press",
+    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands - Cyber Press",
     "summarySource": "extractive",
     "clusterId": "4b59429c4548e3e9",
     "lang": "en",
@@ -8311,7 +8306,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -8432,11 +8427,11 @@
       "splunk"
     ],
     "tags": [
-      "10.4",
-      "dashboard-studio",
-      "federated-search",
+      "splunk-enterprise",
       "splunk-cloud",
-      "splunk-enterprise"
+      "10.4",
+      "federated-search",
+      "dashboard-studio"
     ],
     "categories": [
       "product-release"
@@ -8502,12 +8497,13 @@
       "splunk"
     ],
     "tags": [
+      "splunk-enterprise",
       "10.4",
-      "release-notes",
-      "splunk-enterprise"
+      "release-notes"
     ],
     "categories": [
-      "product-release"
+      "product-release",
+      "tutorial"
     ],
     "summary": "Splunk Enterprise 10.4 release notes: Federated Search, Dashboard Studio visualization enhancements, consolidated Data Management, modern navigation, SPL2 pre-built pipeline templates, FIPS 140-3 for Edge Processor, and scalability/resilience improvements. Use this page when briefing customers on upgrade scope.",
     "summarySource": "curated",
@@ -8542,7 +8538,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) - Splunk",
+    "summary": "Quick Reference for SPL2 | Splunk Enterprise, Splunk Cloud Platform (last updated 2026-09-30T17:04:29.904Z) Splunk",
     "summarySource": "extractive",
     "clusterId": "776f5ce51945a1b4",
     "lang": "en",
@@ -11870,6 +11866,36 @@
     "attribution": "via Splunk (Google News)"
   },
   {
+    "id": "45c04e7db2742e8a",
+    "title": "Set up and use HTTP Event Collector in Splunk Web | Splunk Enterprise (last updated 2026-09-09T14:38:36.003Z) - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13NVJ0bk5EcEFFaXJ0T19LN3lpSE9hdzFVZExJVEViNGYybGVoMG40cGRacGRtQ3FBUndtZzNwMFhBR2lFWnZTRUZwY01XMUU5NlpRRl9UZXNnSzduanh2LTBvOHVrTHJYQzI3SlFYN0lGaDd0b3g1MmZrNXlWTzQ?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13NVJ0bk5EcEFFaXJ0T19LN3lpSE9hdzFVZExJVEViNGYybGVoMG40cGRacGRtQ3FBUndtZzNwMFhBR2lFWnZTRUZwY01XMUU5NlpRRl9UZXNnSzduanh2LTBvOHVrTHJYQzI3SlFYN0lGaDd0b3g1MmZrNXlWTzQ?oc=5",
+    "source": {
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
+    },
+    "author": null,
+    "publishedAt": "2026-09-09T07:00:00+00:00",
+    "fetchedAt": "2026-11-27T15:55:32+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [],
+    "categories": [
+      "product-release"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "Set up and use HTTP Event Collector in Splunk Web | Splunk Enterprise (last updated 2026-09-09T14:38:36.003Z) Splunk",
+    "summarySource": "extractive",
+    "clusterId": "45c04e7db2742e8a",
+    "lang": "en",
+    "license": null,
+    "attribution": "via Splunk (Google News)"
+  },
+  {
     "id": "82e0f7e651724a41",
     "title": "ML-DSA Certificates on Cisco Routers – IPsec Series, Part 10",
     "url": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10/",
@@ -12025,6 +12051,7 @@
     "publishedAt": "2026-09-08T07:00:00+00:00",
     "fetchedAt": "2026-09-10T02:27:15+00:00",
     "topics": [
+      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -12036,7 +12063,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "ThousandEyes Assurance and MCP in the Post-Mythos Era - ThousandEyes",
+    "summary": "ThousandEyes Assurance and MCP in the Post-Mythos Era ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "414b571ab01b9985",
     "lang": "en",
@@ -13475,13 +13502,12 @@
       "splunk"
     ],
     "tags": [
-      "splunk-enterprise",
       "10.4",
-      "release-notes"
+      "release-notes",
+      "splunk-enterprise"
     ],
     "categories": [
-      "product-release",
-      "tutorial"
+      "product-release"
     ],
     "audiences": [
       "global"
