@@ -1,34 +1,5 @@
 [
   {
-    "id": "e4e54bb494f75e94",
-    "title": "2027 Activity Plan published",
-    "url": "https://blog.apnic.net/2026/11/26/2027-activity-plan-published/",
-    "canonicalUrl": "https://blog.apnic.net/2026/11/26/2027-activity-plan-published",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Jia Rong Low",
-    "publishedAt": "2026-11-26T06:38:59+00:00",
-    "fetchedAt": "2026-11-26T16:07:56+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "product-release",
-      "standards"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "2027 Activity Plan published",
-    "summarySource": "extractive",
-    "clusterId": "e4e54bb494f75e94",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "170ba12c1bada862",
     "title": "Introducing Search for Agents",
     "url": "https://blog.cloudflare.com/search-for-agents/",
@@ -59,32 +30,37 @@
     "attribution": "via Cloudflare Blog"
   },
   {
-    "id": "b2444db8cb00572f",
-    "title": "The model inside the server: Network design for inference on a few GPU nodes",
-    "url": "https://blog.apnic.net/2026/11/25/the-model-inside-the-server-network-design-for-inference-on-a-few-gpu-nodes/",
-    "canonicalUrl": "https://blog.apnic.net/2026/11/25/the-model-inside-the-server-network-design-for-inference-on-a-few-gpu-nodes",
+    "id": "a72bd4a7853e2e3f",
+    "title": "Release notes for Splunk Enterprise Security - Splunk",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVW9KNHlXSDh1X0ZsTWRueVlMZ1oxXzJnUEVwVEhLeVZaYTZHUU1hTTNrdEZMcFBWM05GaUJaOFVMUmdoUl8xODRfbVhqbVplenQ5OUx4RWRGX2diUUtqSjEzZ3A2RjBiampPbjJfQnpOR1ZpMmJ6UkRWdkNsMHRDeTF1LXhMLXlVODdV?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVW9KNHlXSDh1X0ZsTWRueVlMZ1oxXzJnUEVwVEhLeVZaYTZHUU1hTTNrdEZMcFBWM05GaUJaOFVMUmdoUl8xODRfbVhqbVplenQ5OUx4RWRGX2diUUtqSjEzZ3A2RjBiampPbjJfQnpOR1ZpMmJ6UkRWdkNsMHRDeTF1LXhMLXlVODdV?oc=5",
     "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
+      "id": "gnews-splunk-blog",
+      "name": "Splunk",
+      "homepage": "https://www.splunk.com/en_us/blog"
     },
-    "author": "Sabina Anja",
-    "publishedAt": "2026-11-25T06:11:44+00:00",
-    "fetchedAt": "2026-11-26T16:07:56+00:00",
-    "topics": [],
-    "tags": [],
+    "author": null,
+    "publishedAt": "2026-11-25T13:00:08+00:00",
+    "fetchedAt": "2026-08-09T12:34:55+00:00",
+    "topics": [
+      "splunk"
+    ],
+    "tags": [
+      "enterprise-security"
+    ],
     "categories": [
-      "news"
+      "product-release",
+      "security"
     ],
     "audiences": [
       "global"
     ],
-    "summary": "The model inside the server: Network design for inference on a few GPU nodes",
+    "summary": "Release notes for Splunk Enterprise Security Splunk",
     "summarySource": "extractive",
-    "clusterId": "b2444db8cb00572f",
+    "clusterId": "a72bd4a7853e2e3f",
     "lang": "en",
     "license": null,
-    "attribution": "via APNIC Blog"
+    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "93ccc28030e9e756",
@@ -129,7 +105,7 @@
     "fetchedAt": "2026-05-31T10:48:25+00:00",
     "topics": [],
     "tags": [],
-    "summary": "2026 network outage report and internet health check Network World",
+    "summary": "2026 network outage report and internet health check - Network World",
     "summarySource": "extractive",
     "clusterId": "b371ae0584668e9d",
     "lang": "en",
@@ -141,34 +117,6 @@
     "audiences": [
       "global"
     ]
-  },
-  {
-    "id": "667fc3472e291a81",
-    "title": "Solar PV for Internet resilience (Part 3): Installing and operating your system",
-    "url": "https://blog.apnic.net/2026/11/24/solar-pv-for-internet-resilience-part-3-installing-and-operating-your-system/",
-    "canonicalUrl": "https://blog.apnic.net/2026/11/24/solar-pv-for-internet-resilience-part-3-installing-and-operating-your-system",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "Ulrich Speidel",
-    "publishedAt": "2026-11-23T22:51:47+00:00",
-    "fetchedAt": "2026-11-24T03:40:51+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "news"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Solar PV for Internet resilience (Part 3): Installing and operating your system",
-    "summarySource": "extractive",
-    "clusterId": "667fc3472e291a81",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
   },
   {
     "id": "64195d5006c97664",
@@ -381,34 +329,6 @@
     "attribution": "via AiThority (Google News)"
   },
   {
-    "id": "eadfc0c446c85b24",
-    "title": "The supply chain risk beneath our network services: Maybe it’s us",
-    "url": "https://blog.apnic.net/2026/11/23/the-supply-chain-risk-beneath-our-network-services-maybe-its-us/",
-    "canonicalUrl": "https://blog.apnic.net/2026/11/23/the-supply-chain-risk-beneath-our-network-services-maybe-its-us",
-    "source": {
-      "id": "apnic-blog",
-      "name": "APNIC Blog",
-      "homepage": "https://blog.apnic.net"
-    },
-    "author": "George Michaelson",
-    "publishedAt": "2026-11-23T05:39:14+00:00",
-    "fetchedAt": "2026-11-23T16:59:36+00:00",
-    "topics": [],
-    "tags": [],
-    "categories": [
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "The supply chain risk beneath our network services: Maybe it’s us",
-    "summarySource": "extractive",
-    "clusterId": "eadfc0c446c85b24",
-    "lang": "en",
-    "license": null,
-    "attribution": "via APNIC Blog"
-  },
-  {
     "id": "f93ea93941f60201",
     "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
     "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
@@ -489,7 +409,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "DXC Technology brings Cisco AgenticOps to enterprise IT orchestration platform - Telecompaper",
+    "summary": "DXC Technology brings Cisco AgenticOps to enterprise IT orchestration platform Telecompaper",
     "summarySource": "extractive",
     "clusterId": "ab6bca871e6d92d9",
     "lang": "en",
@@ -603,8 +523,7 @@
     "publishedAt": "2026-11-19T08:36:42+00:00",
     "fetchedAt": "2026-11-22T23:03:01+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -613,7 +532,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Patches Critical 9.9 RCE and Authentication Bypass Vulnerabilities in SOAR and Enterprise CyberSecurityNews",
+    "summary": "Splunk Patches Critical 9.9 RCE and Authentication Bypass Vulnerabilities in SOAR and Enterprise - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "48bd66b1d449d182",
     "lang": "en",
@@ -2927,7 +2846,6 @@
     "publishedAt": "2026-10-29T07:00:00+00:00",
     "fetchedAt": "2026-10-29T22:15:38+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -2939,7 +2857,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks SDxCentral",
+    "summary": "Cisco ThousandEyes brings improved BGP visibility to enterprise networks - SDxCentral",
     "summarySource": "extractive",
     "clusterId": "8f3630ba95cbf174",
     "lang": "en",
@@ -3894,7 +3812,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR CyberSecurityNews",
+    "summary": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR - CyberSecurityNews",
     "summarySource": "extractive",
     "clusterId": "10d0169b3318c542",
     "lang": "en",
@@ -4558,39 +4476,6 @@
     "lang": "en",
     "license": null,
     "attribution": "via Splunk Vulnerability Disclosure (Google News)"
-  },
-  {
-    "id": "a72bd4a7853e2e3f",
-    "title": "Release notes for Splunk Enterprise Security - Splunk",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVW9KNHlXSDh1X0ZsTWRueVlMZ1oxXzJnUEVwVEhLeVZaYTZHUU1hTTNrdEZMcFBWM05GaUJaOFVMUmdoUl8xODRfbVhqbVplenQ5OUx4RWRGX2diUUtqSjEzZ3A2RjBiampPbjJfQnpOR1ZpMmJ6UkRWdkNsMHRDeTF1LXhMLXlVODdV?oc=5",
-    "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVW9KNHlXSDh1X0ZsTWRueVlMZ1oxXzJnUEVwVEhLeVZaYTZHUU1hTTNrdEZMcFBWM05GaUJaOFVMUmdoUl8xODRfbVhqbVplenQ5OUx4RWRGX2diUUtqSjEzZ3A2RjBiampPbjJfQnpOR1ZpMmJ6UkRWdkNsMHRDeTF1LXhMLXlVODdV?oc=5",
-    "source": {
-      "id": "gnews-splunk-blog",
-      "name": "Splunk",
-      "homepage": "https://www.splunk.com/en_us/blog"
-    },
-    "author": null,
-    "publishedAt": "2026-10-21T07:00:00+00:00",
-    "fetchedAt": "2026-08-09T12:34:55+00:00",
-    "topics": [
-      "splunk"
-    ],
-    "tags": [
-      "enterprise-security"
-    ],
-    "categories": [
-      "product-release",
-      "security"
-    ],
-    "audiences": [
-      "global"
-    ],
-    "summary": "Release notes for Splunk Enterprise Security Splunk",
-    "summarySource": "extractive",
-    "clusterId": "a72bd4a7853e2e3f",
-    "lang": "en",
-    "license": null,
-    "attribution": "via Splunk (Google News)"
   },
   {
     "id": "96733258649e042a",
@@ -5850,8 +5735,7 @@
     "publishedAt": "2026-10-13T07:00:00+00:00",
     "fetchedAt": "2026-10-14T10:57:42+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -5860,7 +5744,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! CCB Belgium",
+    "summary": "Warning: Multiple Vulnerabilities in Splunk Enterprise including critical RCE, Patch Immediately! - CCB Belgium",
     "summarySource": "extractive",
     "clusterId": "b82b48ea6c29de92",
     "lang": "en",
@@ -6232,8 +6116,7 @@
     "publishedAt": "2026-10-09T07:00:00+00:00",
     "fetchedAt": "2026-10-10T03:42:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -6242,7 +6125,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication Forkast News",
+    "summary": "Splunk Enterprise Patroni REST API Has Unauthenticated OS Command Execution That Ships Without Authentication - Forkast News",
     "summarySource": "extractive",
     "clusterId": "2641d461cd550b48",
     "lang": "en",
@@ -6642,7 +6525,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched - Forkast News",
+    "summary": "When the Observability Layer Becomes the Attack Surface — Splunk’s MCP Server and the Protocol Vulnerability Nobody Patched Forkast News",
     "summarySource": "extractive",
     "clusterId": "884110a51418e95f",
     "lang": "en",
@@ -6694,8 +6577,7 @@
     "publishedAt": "2026-10-08T07:00:00+00:00",
     "fetchedAt": "2026-10-08T12:35:13+00:00",
     "topics": [
-      "splunk",
-      "cisco-data-fabric"
+      "splunk"
     ],
     "tags": [],
     "categories": [
@@ -6705,7 +6587,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands GBHackers News",
+    "summary": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands - GBHackers News",
     "summarySource": "extractive",
     "clusterId": "4b59429c4548e3e9",
     "lang": "en",
@@ -7226,6 +7108,36 @@
     "lang": "en",
     "license": null,
     "attribution": "via Cloudflare Blog"
+  },
+  {
+    "id": "c33fe6b60659d2d6",
+    "title": "IBM SevOne - Enterprise network performance monitoring - yespress.io",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9JdmY2eTFoQUFXZkRobTM0a3lMOVB2UTh1VHZ5R1AtYzRHWGQ5dWZEZlBER0gwVzh1dlZpZUlKTDFZUXFS?oc=5",
+    "canonicalUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9JdmY2eTFoQUFXZkRobTM0a3lMOVB2UTh1VHZ5R1AtYzRHWGQ5dWZEZlBER0gwVzh1dlZpZUlKTDFZUXFS?oc=5",
+    "source": {
+      "id": "gnews-network-observability",
+      "name": "yespress.io",
+      "homepage": "https://news.google.com/search?q=%22network%20observability%22"
+    },
+    "author": null,
+    "publishedAt": "2026-10-04T03:29:39+00:00",
+    "fetchedAt": "2026-11-28T00:55:39+00:00",
+    "topics": [
+      "network-observability"
+    ],
+    "tags": [],
+    "categories": [
+      "news"
+    ],
+    "audiences": [
+      "global"
+    ],
+    "summary": "IBM SevOne - Enterprise network performance monitoring yespress.io",
+    "summarySource": "extractive",
+    "clusterId": "c33fe6b60659d2d6",
+    "lang": "en",
+    "license": null,
+    "attribution": "via yespress.io (Google News)"
   },
   {
     "id": "afad8aacc3400c35",
@@ -12146,7 +12058,6 @@
     "publishedAt": "2026-09-07T07:00:00+00:00",
     "fetchedAt": "2026-09-07T16:58:50+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -12158,7 +12069,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes Cisco Blogs",
+    "summary": "Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "7d388f203538355a",
     "lang": "en",
@@ -12186,7 +12097,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "Distributed Latency Monitoring at Black Hat Cisco Blogs",
+    "summary": "Distributed Latency Monitoring at Black Hat - Cisco Blogs",
     "summarySource": "extractive",
     "clusterId": "6c00764fa4070407",
     "lang": "en",
@@ -12291,7 +12202,6 @@
     "publishedAt": "2026-09-03T07:00:00+00:00",
     "fetchedAt": "2026-09-08T10:22:52+00:00",
     "topics": [
-      "cisco-data-fabric",
       "network-observability"
     ],
     "tags": [
@@ -12303,7 +12213,7 @@
     "audiences": [
       "global"
     ],
-    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP ThousandEyes",
+    "summary": "From Insight to Action: Supercharging Workflows with Cisco ThousandEyes MCP - ThousandEyes",
     "summarySource": "extractive",
     "clusterId": "940ebe6fb4b4b8d9",
     "lang": "en",
